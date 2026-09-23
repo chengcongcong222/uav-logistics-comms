@@ -6,6 +6,6 @@ openpyxl=3.1.5
 matplotlib=3.11.2
 rasterio=1.5.1
 pyproj=3.8.0
-wrote /home/ccc/projects/huawei-cup-d/results/e0/python_smoke.csv
-wrote /home/ccc/projects/huawei-cup-d/results/e0/python_smoke.png
-wrote /home/ccc/projects/huawei-cup-d/results/e0/python_smoke_tmp.xlsx
+wrote /home/ccc/projects/uav-logistics-comms/results/e0/python_smoke.csv
+wrote /home/ccc/projects/uav-logistics-comms/results/e0/python_smoke.png
+wrote /home/ccc/projects/uav-logistics-comms/results/e0/python_smoke_tmp.xlsx

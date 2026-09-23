@@ -19,7 +19,7 @@ from openpyxl import Workbook
 
 
 def main() -> None:
-    root = Path("/home/ccc/projects/huawei-cup-d")
+    root = Path("/home/ccc/projects/uav-logistics-comms")
     out_dir = root / "results" / "e0"
     out_dir.mkdir(parents=True, exist_ok=True)
 

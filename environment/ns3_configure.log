@@ -5,7 +5,7 @@ Warn about uninitialized values.
 -- Check for working CXX compiler: /usr/bin/c++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Using default output directory /home/ccc/projects/huawei-cup-d/external/ns-3.47/build
+-- Using default output directory /home/ccc/projects/uav-logistics-comms/external/ns-3.47/build
 -- Performing Test GCC_WORKING_PEDANTIC_SEMICOLON
 -- Performing Test GCC_WORKING_PEDANTIC_SEMICOLON - Success
 -- CCache is enabled.
@@ -110,7 +110,7 @@ Warn about uninitialized values.
 -- Processing src/zigbee
 -- ---- Summary of ns-3 settings:
 Build profile                 : default
-Build directory               : /home/ccc/projects/huawei-cup-d/external/ns-3.47/build
+Build directory               : /home/ccc/projects/uav-logistics-comms/external/ns-3.47/build
 Build with runtime asserts    : [32mON[0m
 Build with runtime logging    : [32mON[0m
 Build version embedding       : OFF (not requested)
@@ -158,7 +158,7 @@ openflow                  visualizer
 
 -- Configuring done (2.8s)
 -- Generating done (0.4s)
--- Build files have been written to: /home/ccc/projects/huawei-cup-d/external/ns-3.47/cmake-cache
+-- Build files have been written to: /home/ccc/projects/uav-logistics-comms/external/ns-3.47/cmake-cache
 Finished executing the following commands:
 mkdir cmake-cache
-/usr/bin/cmake -S /home/ccc/projects/huawei-cup-d/external/ns-3.47 -B /home/ccc/projects/huawei-cup-d/external/ns-3.47/cmake-cache -DCMAKE_BUILD_TYPE=default -DNS3_ASSERT=ON -DNS3_LOG=ON -DNS3_WARNINGS_AS_ERRORS=OFF -DNS3_NATIVE_OPTIMIZATIONS=OFF -DNS3_EXAMPLES=ON -DNS3_TESTS=ON -G Ninja --warn-uninitialized
+/usr/bin/cmake -S /home/ccc/projects/uav-logistics-comms/external/ns-3.47 -B /home/ccc/projects/uav-logistics-comms/external/ns-3.47/cmake-cache -DCMAKE_BUILD_TYPE=default -DNS3_ASSERT=ON -DNS3_LOG=ON -DNS3_WARNINGS_AS_ERRORS=OFF -DNS3_NATIVE_OPTIMIZATIONS=OFF -DNS3_EXAMPLES=ON -DNS3_TESTS=ON -G Ninja --warn-uninitialized

@@ -10,4 +10,4 @@ lost_packets=14
 pdr=0.0434783
 mean_delay_ms=9
 U01_end_position=200,0,50
-summary_written=/home/ccc/projects/huawei-cup-d/results/ns3/e0_smoke_summary.csv
+summary_written=/home/ccc/projects/uav-logistics-comms/results/ns3/e0_smoke_summary.csv

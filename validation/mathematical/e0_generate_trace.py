@@ -8,7 +8,7 @@ import pandas as pd
 
 
 def main() -> None:
-    root = Path("/home/ccc/projects/huawei-cup-d")
+    root = Path("/home/ccc/projects/uav-logistics-comms")
     export_dir = root / "export"
     export_dir.mkdir(parents=True, exist_ok=True)
     out = export_dir / "e0_test_trace.csv"

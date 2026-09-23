@@ -1,8 +1,11 @@
-# 华为杯 D 题：山区洪涝灾害下无人机运输与通信协同优化
+# UAV Logistics & Relay Communication Lab
 
-本仓库为比赛工程环境与后续模型实现工作区。当前阶段仅完成 **E0 环境构建**，不实现 Q1–Q4 数学模型。
+UAV logistics trajectory planning and relay-communication validation workspace.
+Python models produce standardized trajectories/schedules; ns-3.47 validates mobility + Wi-Fi + UDP + FlowMonitor.
 
-## 技术路线（冻结）
+Current stage: **E0 environment frozen**. Q1–Q4 model implementation is intentionally out of scope for E0.
+
+## Stack (frozen)
 
 ```text
 Windows 10/11
@@ -15,38 +18,38 @@ Windows 10/11
               └── ns-3.47
 ```
 
-## 目录结构
+## Layout
 
 ```text
-huawei-cup-d/
+uav-logistics-comms/
 ├── AGENTS.md
 ├── README.md
-├── environment/          # 环境文档、版本、bootstrap 脚本
+├── environment/          # env docs, versions, bootstrap scripts
 ├── data/
-│   ├── raw/              # 赛题原始数据（只读，禁止修改）
-│   ├── processed/        # 解析后的派生数据
-│   └── cache/            # 计算缓存
-├── src/                  # 后续 Q1–Q4 实现（E0 不写算法）
+│   ├── raw/              # immutable source inputs
+│   ├── processed/        # derived datasets
+│   └── cache/            # computation cache
+├── src/                  # Q1–Q4 model code (not in E0)
 ├── validation/
 │   ├── mathematical/     # Python smoke
 │   ├── ns3/              # ns-3 smoke
 │   └── robustness/
-├── export/               # Python → ns-3 标准 CSV 接口
+├── export/               # Python → ns-3 CSV interface
 ├── experiments/
 ├── results/
-│   ├── e0/               # E0 smoke 输出
+│   ├── e0/
 │   ├── q1/ … q4/
 │   └── ns3/
 ├── docs/
-└── external/ns-3.47/     # ns-3.47 源码
+└── external/ns-3.47/     # ns-3.47 sources
 ```
 
-## 常用命令（WSL）
+## Commands (WSL)
 
 ```bash
-cd ~/projects/huawei-cup-d
+cd ~/projects/uav-logistics-comms
 source .venv/bin/activate
-bash environment/bootstrap_wsl.sh   # 可重复执行
+bash environment/bootstrap_wsl.sh   # idempotent
 
 # ns-3
 cd external/ns-3.47
@@ -56,10 +59,10 @@ cd external/ns-3.47
 ./ns3 run first
 ```
 
-## 阶段门禁
+## Stage gates
 
-- `E0_ENVIRONMENT_READY` 后才可进入 `E1_DATA_INGESTION`
-- E0 禁止实现 Q1–Q4
-- 赛题通信模型是优化权威模型；ns-3 仅作验证层
+- `E0_ENVIRONMENT_READY` is required before `E1_DATA_INGESTION`
+- Q1–Q4 must not start during E0
+- The reference communication model is authoritative for optimization; ns-3 is a validation layer only
 
-详见 `environment/ENVIRONMENT.md`、`environment/E0_REPORT.md`、`environment/VERSIONS.txt`。
+See `environment/ENVIRONMENT.md`, `environment/E0_REPORT.md`, `environment/VERSIONS.txt`.

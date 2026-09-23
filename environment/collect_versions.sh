@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-P=/home/ccc/projects/huawei-cup-d
+P=/home/ccc/projects/uav-logistics-comms
 echo "HOST_WINDOWS=Windows 10 Pro (build 26200)"
 echo "WSL_VERSION=2"
 echo "UBUNTU=$(lsb_release -ds)"

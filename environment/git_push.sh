@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-cd /home/ccc/projects/huawei-cup-d
+cd /home/ccc/projects/uav-logistics-comms
 git config --local credential.helper ''
 git config --local credential.helper '!gh auth git-credential'
 git config --local user.name "chengcongcong222"

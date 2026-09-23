@@ -1,7 +1,7 @@
 [0/2] Re-checking globbed directories...
 ninja: no work to do.
 Finished executing the following commands:
-/usr/bin/cmake --build /home/ccc/projects/huawei-cup-d/external/ns-3.47/cmake-cache -j 11
+/usr/bin/cmake --build /home/ccc/projects/uav-logistics-comms/external/ns-3.47/cmake-cache -j 11
 [1/800] [32mPASS[0m: TestSuite adjacency-matrix-test
 [2/800] [32mPASS[0m: TestSuite degrees-radians
 [3/800] [32mPASS[0m: TestSuite routing-aodv

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-PROJECT_ROOT="/home/ccc/projects/huawei-cup-d"
+PROJECT_ROOT="/home/ccc/projects/uav-logistics-comms"
 cd "$PROJECT_ROOT"
 if [[ ! -d .venv ]]; then
   python3 -m venv .venv

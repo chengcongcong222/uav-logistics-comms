@@ -24,15 +24,15 @@ Git: 2.43.0
 
 Version: 3.47  
 Tag: ns-3.47  
-Commit: not-a-git-checkout（官方 tag 归档源码）  
+Commit: not-a-git-checkout (official tag archive)  
 Tarball SHA256: 70ee07a934c2e0d2ae33820e6397ab106e9ae5a5a2c55216756f1922887dde3c  
-Configure: SUCCESS（core/network/internet/mobility/wifi/applications/flow-monitor 均可用）  
+Configure: SUCCESS (core/network/internet/mobility/wifi/applications/flow-monitor available)  
 Build: SUCCESS  
-Tests: **800 of 800 passed**（0 failed, 0 skipped, 0 crashed）  
+Tests: **800 of 800 passed** (0 failed, 0 skipped, 0 crashed)  
 
 ## 5. Python
 
-Venv: `/home/ccc/projects/huawei-cup-d/.venv`  
+Venv: `/home/ccc/projects/uav-logistics-comms/.venv`  
 Requirements: `environment/requirements.txt`  
 Smoke test: SUCCESS  
 
@@ -44,7 +44,7 @@ Smoke test: SUCCESS
 - rasterio=1.5.1
 - pyproj=3.8.0
 
-输出：
+Outputs:
 
 - `results/e0/python_smoke.csv`
 - `results/e0/python_smoke.png`
@@ -52,15 +52,15 @@ Smoke test: SUCCESS
 
 ## 6. Integration smoke test
 
-| 项目 | 结果 |
+| Item | Result |
 | --- | --- |
-| WaypointMobility | OK（U01 轨迹 3 个 waypoint，终点 200,0,50） |
-| Wi-Fi | OK（802.11b / 2.4 GHz） |
-| UDP | OK（U01 → G01） |
+| WaypointMobility | OK (U01 3-waypoint path, end 200,0,50) |
+| Wi-Fi | OK (802.11b / 2.4 GHz) |
+| UDP | OK (U01 → G01) |
 | FlowMonitor | OK |
-| Python CSV import | OK（`export/e0_test_trace.csv` → WaypointMobilityModel） |
+| Python CSV import | OK (`export/e0_test_trace.csv` → WaypointMobilityModel) |
 
-Smoke 统计（`results/ns3/e0_smoke_summary.csv`）：
+Smoke summary (`results/ns3/e0_smoke_summary.csv`):
 
 ```text
 tx_packets=23
@@ -71,44 +71,39 @@ mean_delay_ms=9
 u01_end_position=200,0,50
 ```
 
-验收：
+Acceptance:
 
-- 程序成功编译 / 成功运行
-- Waypoint 轨迹正常更新
-- Wi-Fi 链路可传输 UDP
-- FlowMonitor 输出统计
+- program builds and runs
+- Waypoint trajectory updates correctly
+- Wi-Fi link carries UDP
+- FlowMonitor produces statistics
 - tx_packets > 0
 - rx_packets > 0
 - PDR > 0
 
-（本阶段不要求 PDR=100%，不对无线性能做科学解释。）
+(E0 does not require PDR=100% and does not interpret wireless performance scientifically.)
 
-## 7. Raw contest data
+## 7. Raw input data
 
-Files found: **19**（已复制到 `data/raw/`，清单见下）  
+Files found: **19** under `data/raw/`  
 Modified: **NO**
 
-```text
-data/raw/山区洪涝灾害下无人机运输与通信协同优化.docx
-data/raw/结果提交模板.xlsx
-data/raw/数据/无人机应急物资运输基础数据/中继无人机数据.xlsx
-data/raw/数据/无人机应急物资运输基础数据/物资需求与配送时限.xlsx
-data/raw/数据/无人机应急物资运输基础数据/调度中心与服务区.xlsx
-data/raw/数据/无人机应急物资运输基础数据/运输无人机数据.xlsx
-data/raw/数据/无人机应急物资运输基础数据/通信链路参数.xlsx
-data/raw/数据/镇龙乡地理空间数据/镇龙乡地理空间数据说明.pdf
-data/raw/数据/镇龙乡地理空间数据/镇龙乡地理空间详情地图.html
-data/raw/数据/镇龙乡地理空间数据/镇龙乡及周边地理数据/数字高程模型数据（DEM）/镇龙乡及周边30米DEM.mat
-data/raw/数据/镇龙乡地理空间数据/镇龙乡及周边地理数据/数字高程模型数据（DEM）/镇龙乡及周边30米DEM.tif
-data/raw/数据/镇龙乡地理空间数据/镇龙乡及周边地理数据/村镇点位/镇龙乡及周边村镇点位.csv
-data/raw/数据/镇龙乡地理空间数据/镇龙乡及周边地理数据/村镇点位/镇龙乡及周边村镇点位.mat
-data/raw/数据/镇龙乡地理空间数据/镇龙乡及周边地理数据/水体（面）/镇龙乡及周边水体.csv
-data/raw/数据/镇龙乡地理空间数据/镇龙乡及周边地理数据/水体（面）/镇龙乡及周边水体.mat
-data/raw/数据/镇龙乡地理空间数据/镇龙乡及周边地理数据/水系（线）/镇龙乡及周边水系.csv
-data/raw/数据/镇龙乡地理空间数据/镇龙乡及周边地理数据/水系（线）/镇龙乡及周边水系.mat
-data/raw/数据/镇龙乡地理空间数据/镇龙乡及周边地理数据/道路/镇龙乡及周边道路.csv
-data/raw/数据/镇龙乡地理空间数据/镇龙乡及周边地理数据/道路/镇龙乡及周边道路.mat
-```
+Categories (names of local raw files intentionally omitted from this report):
+
+- problem statement document (docx)
+- submission template (xlsx)
+- UAV fleet parameter workbooks (xlsx)
+- demand / time-window workbook (xlsx)
+- dispatch center / service area workbook (xlsx)
+- communication link parameter workbook (xlsx)
+- DEM (mat + tif)
+- village points (csv + mat)
+- water polygons (csv + mat)
+- water lines (csv + mat)
+- roads (csv + mat)
+- geospatial notes (pdf) and map export (html)
+
+Raw files remain read-only and are not tracked in git.
 
 ## 8. Generated artifacts
 
@@ -144,27 +139,26 @@ results/e0/python_smoke.csv
 results/e0/python_smoke.png
 results/e0/python_smoke_tmp.xlsx
 results/ns3/e0_smoke_summary.csv
-external/ns-3.47/          # ns-3.47 官方源码（不进入 git）
+external/ns-3.47/          # ns-3.47 sources (not in git)
 external/download/ns-3.47.tar.bz2.sha256
 ```
 
 ## 9. Known limitations
 
-1. ns-3 源码为 GitLab tag 归档 tarball，无 `.git` 目录；用 `NS3_TARBALL_SHA256` 固定版本，而非 git commit hash。
-2. 可选依赖未安装（Boost、GSL、LibXml2、SQLite、doxygen、Python bindings 等），不影响 E0 必需模块与测试。
-3. E0 smoke 的 PDR 较低（0.043），属简单传播 + 移动场景预期现象；**不做**无线性能科学解释。
-4. `data/raw` 仅完成导入与清单记录，尚未做 E1 级解析。
-5. 未创建远程 Git 仓库，未 push。
+1. ns-3 sources come from the official tag archive tarball (no `.git`); version is pinned by `NS3_TARBALL_SHA256` rather than a git commit hash.
+2. Optional dependencies (Boost, GSL, LibXml2, SQLite, doxygen, Python bindings, etc.) are not installed; E0 required modules and tests are unaffected.
+3. E0 smoke PDR is low (0.043) under simple propagation + mobility; **no** scientific wireless interpretation is claimed.
+4. `data/raw` is inventoried only; full ingestion is deferred to E1.
 
 ## 10. Next gate
 
 **E1_DATA_INGESTION**
 
-- Excel 解析
-- DEM MAT/TIF 解析
-- 坐标统一
-- 数据完整性审计
-- 题面参数核对
-- 标准数据对象生成
+- Excel parsing
+- DEM MAT/TIF parsing
+- coordinate unification
+- data integrity audit
+- parameter cross-check
+- standard dataset objects
 
-E1 仍不进行 Q2/Q3 优化。
+E1 still does not implement Q2/Q3 optimization.

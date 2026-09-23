@@ -1,4 +1,4 @@
-wrote /home/ccc/projects/huawei-cup-d/export/e0_test_trace.csv
+wrote /home/ccc/projects/uav-logistics-comms/export/e0_test_trace.csv
 node_id  time   x  y  z
     G01     0   0  0  0
     U01     0   0  0 50

@@ -76,9 +76,9 @@ int
 main(int argc, char* argv[])
 {
   std::string tracePath =
-      "/home/ccc/projects/huawei-cup-d/export/e0_test_trace.csv";
+      "/home/ccc/projects/uav-logistics-comms/export/e0_test_trace.csv";
   std::string summaryPath =
-      "/home/ccc/projects/huawei-cup-d/results/ns3/e0_smoke_summary.csv";
+      "/home/ccc/projects/uav-logistics-comms/results/ns3/e0_smoke_summary.csv";
   double simTime = 25.0;
   uint32_t packetSize = 200;
   double interval = 1.0;

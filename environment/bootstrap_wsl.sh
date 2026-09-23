@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Idempotent bootstrap for huawei-cup-d (E0 environment only).
+# Idempotent bootstrap for uav-logistics-comms (E0 environment only).
 # Does NOT modify Windows system settings and does NOT delete existing Linux envs.
 set -euo pipefail
 

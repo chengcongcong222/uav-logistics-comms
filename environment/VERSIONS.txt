@@ -13,5 +13,5 @@ NS3_TAG=ns-3.47
 NS3_COMMIT=not-a-git-checkout
 NS3_TARBALL_SHA256=70ee07a934c2e0d2ae33820e6397ab106e9ae5a5a2c55216756f1922887dde3c
 NS3_SOURCE_URL=https://gitlab.com/nsnam/ns-3-dev/-/archive/ns-3.47/ns-3-dev-ns-3.47.tar.bz2
-PROJECT_ROOT=/home/ccc/projects/huawei-cup-d
-NS3_ROOT=/home/ccc/projects/huawei-cup-d/external/ns-3.47
+PROJECT_ROOT=/home/ccc/projects/uav-logistics-comms
+NS3_ROOT=/home/ccc/projects/uav-logistics-comms/external/ns-3.47

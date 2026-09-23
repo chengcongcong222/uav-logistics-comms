@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-PROJECT_ROOT="/home/ccc/projects/huawei-cup-d"
+PROJECT_ROOT="/home/ccc/projects/uav-logistics-comms"
 NS3_DIR="$PROJECT_ROOT/external/ns-3.47"
 SCRATCH="$NS3_DIR/scratch"
 RESULTS="$PROJECT_ROOT/results/ns3"
@@ -27,7 +27,7 @@ cat "$RESULTS/e0_smoke_summary.csv"
 python - <<'PY'
 from pathlib import Path
 import csv
-root = Path("/home/ccc/projects/huawei-cup-d")
+root = Path("/home/ccc/projects/uav-logistics-comms")
 summary = root / "results" / "ns3" / "e0_smoke_summary.csv"
 assert summary.exists(), "missing summary csv"
 row = next(csv.DictReader(summary.open()))

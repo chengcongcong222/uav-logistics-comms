@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-PROJECT_ROOT="/home/ccc/projects/huawei-cup-d"
+PROJECT_ROOT="/home/ccc/projects/uav-logistics-comms"
 NS3_DIR="$PROJECT_ROOT/external/ns-3.47"
 ENV_DIR="$PROJECT_ROOT/environment"
 cd "$NS3_DIR"

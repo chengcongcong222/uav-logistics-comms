@@ -2,8 +2,8 @@
 
 1. data/raw is immutable.
 2. All derived files must go to data/processed, data/cache, export, or results.
-3. The contest communication model is authoritative for optimization.
-4. ns-3 is a validation layer and must not redefine the contest model.
+3. The reference communication model is authoritative for optimization.
+4. ns-3 is a validation layer and must not redefine the reference model.
 5. Do not introduce RL, Lyapunov optimization, artificial potential fields, or new MAC protocols.
 6. Relay-to-relay multihop is prohibited.
 7. Do not use AODV/OLSR to replace the relay schedule.

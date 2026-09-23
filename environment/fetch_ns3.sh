@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-PROJECT_ROOT="/home/ccc/projects/huawei-cup-d"
+PROJECT_ROOT="/home/ccc/projects/uav-logistics-comms"
 EXTERNAL="$PROJECT_ROOT/external"
 NS3_DIR="$EXTERNAL/ns-3.47"
 DOWNLOAD_DIR="$EXTERNAL/download"
