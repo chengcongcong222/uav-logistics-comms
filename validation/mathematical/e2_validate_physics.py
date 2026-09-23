@@ -36,6 +36,30 @@ def main() -> None:
         assert e >= prev_e - 1e-12
         prev_e = e
 
+    # climb formula: E_up = m g h / (eta * 3.6e6); eta in (0,1]
+    from src.common.transport_energy import climb_energy_kwh, descent_energy_kwh
+
+    e_up = climb_energy_kwh(50.0, 95.0, 0.72)
+    expect = 95.0 * 9.80665 * 50.0 / (0.72 * 3.6e6)
+    assert abs(e_up - expect) < 1e-12
+    assert climb_energy_kwh(0.0, 95.0, 0.72) == 0.0
+    try:
+        climb_energy_kwh(50.0, 95.0, 1.2)
+        raise AssertionError("climb_eff>1 should raise")
+    except ValueError:
+        pass
+    try:
+        climb_energy_kwh(50.0, 95.0, 0.0)
+        raise AssertionError("climb_eff=0 should raise")
+    except ValueError:
+        pass
+    assert descent_energy_kwh(50.0, 95.0, 0.0) == 0.0
+    try:
+        descent_energy_kwh(50.0, 95.0, 0.5)
+        raise AssertionError("nonzero descent_eff should raise")
+    except ValueError:
+        pass
+
     # reserve
     assert return_reserve_ok(3.0, 4.5, 0.2)
     assert not return_reserve_ok(3.7, 4.5, 0.2)

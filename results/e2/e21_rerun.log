@@ -1,0 +1,42 @@
+==== e2_validate_physics ====
+E2_PHYSICS_OK
+==== solve_q1 ====
+q1_flights=18 total_energy=59.1066 total_time=32715.6
+Q1_SOLVED
+==== e2_validate_q1 ====
+packings=18 boxes=80
+E2_Q1_OK
+==== summarize ====
+payload_limit by type:
+                min   max       mean
+uav_type                            
+A         25.000000  25.0  25.000000
+B         28.801337  30.0  29.920089
+C         58.904102  80.0  75.195030
+hardest rows (min payload per type):
+   uav_type service_id  ...  binding_constraint roundtrip_energy_kwh
+0         A       S001  ...                mass             1.312696
+22        B       S008  ...              energy             3.200000
+37        C       S008  ...              energy             6.400000
+
+[3 rows x 5 columns]
+packings: 18 total_energy: 59.106598393724774 total_time: 32715.599466087642
+ rho  n_flights  total_energy_kwh  total_time_s
+0.10       18.0         59.106598  32715.599466
+0.15       18.0         59.106598  32715.599466
+0.20       18.0         59.106598  32715.599466
+0.25       19.0         61.048661  34505.247477
+0.30       20.0         67.202504  36522.317205
+rho   binding_constraint
+0.10  energy                 5
+      mass                  40
+0.15  energy                 5
+      mass                  40
+0.20  energy                 6
+      mass                  39
+0.25  energy                11
+      mass                  34
+0.30  energy                16
+      mass                  29
+dtype: int64
+ALL_DONE

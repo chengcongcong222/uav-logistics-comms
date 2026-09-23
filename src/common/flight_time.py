@@ -15,9 +15,10 @@ def leg_flight_time_s(
 
 
 def handover_time_s(n_boxes: int, base_s: float, per_box_s: float) -> float:
-    """ASSUMPTION_REQUIRED: base + n*per_box stacking."""
+    """MODEL_DERIVED: base + n*per_box (field-name semantics)."""
     return base_s + n_boxes * per_box_s
 
 
 def load_time_s(n_boxes: int, per_box_s: float) -> float:
+    """MODEL_DERIVED: n*per_box."""
     return n_boxes * per_box_s

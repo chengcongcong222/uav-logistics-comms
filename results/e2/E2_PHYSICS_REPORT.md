@@ -2,36 +2,41 @@
 
 ## Status
 
-**E2_PHYSICS_OK** (tests pass under labeled assumptions)  
-**E2_FORMULA_STATUS = PARTIAL_WITH_GAPS** (see FORMULA_AUDIT.md)
+**E2_1_PHYSICS_CORRECTED**  
+**E2_PHYSICS_OK**  
+**MODEL_FROZEN** (see `docs/model/MODEL_FREEZE_V1.md`)
 
-## What was built
+## E2.1 correction
 
-- `src/common/terrain.py` — DEM access
-- `src/common/route_geometry.py` — leg geometry
-- `src/common/flight_time.py` — SOURCE_GIVEN time model
-- `src/common/transport_energy.py` — range/energy/reserve
-- `src/common/charging.py` — SOURCE_GIVEN two-stage charge
-- `src/common/margins.py` — reserve grid
-- `data/processed/route_geometry.csv` — 240 directed legs
-- `results/e2/route_geometry_crosscheck.csv` — dense sample vs cell-walk DEM max
+Climb energy changed from `η·m·g0·h/3.6e6` to:
+
+```text
+E_up = m · g0 · h+ / (η_up · 3.6e6)
+```
+
+with `0 < η_up ≤ 1` enforced when `h+ > 0`. Descent energy is strictly 0.
+
+Evidence labels updated in `docs/model/FORMULA_AUDIT.md`:
+
+- `E_hor` → `MODEL_DERIVED`
+- `E_up` → `MODEL_ASSUMPTION_ACCEPTED`
+- handover/load stacking → `MODEL_DERIVED`
+- none of these claimed as `SOURCE_GIVEN`
+
+## Modules
+
+`terrain.py`, `route_geometry.py`, `flight_time.py`, `transport_energy.py`, `charging.py`, `margins.py`
+
+## Tests
+
+`validation/mathematical/e2_validate_physics.py` → `E2_PHYSICS_OK`  
+(includes new climb formula identity, eta bounds, descent strictness)
 
 ## Route geometry
 
-- Nodes: O01 + S001–S015
-- Cruise alt = max DEM along leg + 50 m
-- Cross-check |Δmax DEM| max ≈ 16.4 m (method discretization; not a data error)
+240 directed legs; DEM max cross-check max |Δ| ≈ 16.4 m (discretization only).
 
-## Unit tests (`e2_validate_physics.py` → `E2_PHYSICS_OK`)
+## Comparison / rerun log
 
-- L(0)=L0, L(Q)=Lf, non-increasing in q
-- Energy non-decreasing in q
-- Return reserve inequality
-- Charge endpoints + continuity at SOC=0.9
-- Positive climb/cruise/descent time terms
-
-## Assumptions used (must be confirmed)
-
-1. `E_up = η_up · m · g0 · h+ / 3.6e6` (not printed in DOCX)
-2. `E_hor = (d / L(q)) · E_use` (derived from equivalent range)
-3. Handover = `base + n · per_box`
+- `results/e2/climb_formula_correction.md`
+- `results/e2/e21_rerun.log`

@@ -2,52 +2,46 @@
 
 ## Status
 
-**E2_Q1_OK** (exact packing, no ALNS)
+**E2_Q1_REVALIDATED** after E2.1 climb-energy correction (`mgh/η` instead of `η mgh`).
 
 ## Method
 
-- Max safe payload: bisection on q ∈ [0, Q_g] with mass cap and reserve constraint `E_RT(q) ≤ (1-ρ)E_use`
-- Outbound payload q, return payload 0 (after drop)
-- Batching: per service, no cross-service; exact set partition DP (min flights → min energy → min total time)
-- Rho main case = **20%**
+- Max safe payload: bisection on q with mass cap and `E_RT(q) ≤ (1-ρ)E_use`
+- Outbound payload q, return 0
+- Per-service exact set partition (min flights → min energy → min time); no ALNS; no cross-service
+- Main case ρ = **20%**
 
-## Key results (ρ=20%)
+## Key results (ρ=20%, corrected energy)
 
 - Total flights: **18**
-- Total transport energy: **57.89 kWh**
+- Total transport energy: **59.1066 kWh** (was 57.8878 under old climb formula; +2.11%)
 - Total cumulative operation time: **32715.6 s**
 - All 80 boxes assigned exactly once
 
 ### Max safe payload (ρ=20%)
 
-| type | payload_limit (min–max) | dominant binding |
-| --- | --- | --- |
-| A | 25.0 kg (mass-capped) | mass |
-| B | 29.56–30.0 kg | mostly mass |
-| C | 60.28–80.0 kg | mixed mass/energy |
+| type | min–max payload | hardest service | binding |
+| --- | --- | --- | --- |
+| A | 25.0–25.0 kg | all mass-capped | mass |
+| B | 28.801–30.0 kg | S008 | energy |
+| C | 58.904–80.0 kg | S008 | energy |
 
 Artifacts: `results/q1/max_safe_payload.csv`, `results/q1/q1_packings_rho20.csv`
 
-## Reserve sensitivity (`results/q1/reserve_sensitivity.csv`)
+## Reserve sensitivity
 
-| ρ | flights | total energy (kWh) | total time (s) | energy-bound type×service count |
-| --- | --- | --- | --- | --- |
-| 10% | 18 | 57.89 | 32716 | 5 |
-| 15% | 18 | 57.89 | 32716 | 5 |
-| **20%** | **18** | **57.89** | **32716** | **6** |
-| 25% | 19 | 59.78 | 34505 | 7 |
-| 30% | 20 | 65.88 | 36522 | 14 |
+| ρ | flights | energy (kWh) | time (s) |
+| --- | ---: | ---: | ---: |
+| 10% | 18 | 59.107 | 32716 |
+| 15% | 18 | 59.107 | 32716 |
+| **20%** | **18** | **59.107** | **32716** |
+| 25% | 19 | 61.049 | 34505 |
+| 30% | 20 | 67.203 | 36522 |
 
-Notes:
-
-- Discrete flight-count jump at ρ=25% (18→19) and ρ=30% (→20)
-- Farther/harder services switch from mass-bound to energy-bound as ρ rises
-- C-type keeps higher payload headroom; A is mass-capped on all services at ρ≤20%
+Discrete jumps remain 18→18→18→19→20.
 
 ## Validation
 
-`validation/mathematical/e2_validate_q1.py` → **E2_Q1_OK** (coverage, no cross-service, positive energy/time)
-
-## Caveat
-
-Energy model uses labeled assumptions from FORMULA_AUDIT; Q1 numbers must be re-checked after formula freeze.
+- `e2_validate_physics.py` → `E2_PHYSICS_OK`
+- `e2_validate_q1.py` → `E2_Q1_OK`
+- Comparison table: `results/e2/climb_formula_correction.md`
