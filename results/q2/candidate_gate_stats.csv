@@ -1,0 +1,6 @@
+operator,generated,failed_mass,failed_volume,failed_energy,failed_relative_deadline,failed_service_consistency,accepted_candidate
+random_box_removal,556,54,5,0,0,0,497
+worst_timeliness_removal,792,45,9,0,0,0,738
+related_service_removal,384,48,0,12,0,0,324
+whole_mission_removal,444,53,9,0,0,0,382
+route_segment_removal,531,11,9,2,0,0,509

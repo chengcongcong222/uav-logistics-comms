@@ -12,6 +12,7 @@ RESULTS_DIR = PROJECT_ROOT / "results"
 RESULTS_E1 = RESULTS_DIR / "e1"
 RESULTS_E2 = RESULTS_DIR / "e2"
 RESULTS_Q1 = RESULTS_DIR / "q1"
+RESULTS_Q2 = RESULTS_DIR / "q2"
 DOCS_MODEL = PROJECT_ROOT / "docs" / "model"
 
 RAW_BASE = RAW_DIR / "数据" / "无人机应急物资运输基础数据"
@@ -26,5 +27,5 @@ XLSX_COMM = RAW_BASE / "通信链路参数.xlsx"
 DEM_MAT = DEM_DIR / "镇龙乡及周边30米DEM.mat"
 DEM_TIF = DEM_DIR / "镇龙乡及周边30米DEM.tif"
 
-for _d in (PROCESSED_DIR, CACHE_DIR, EXPORT_DIR, RESULTS_E1, RESULTS_E2, RESULTS_Q1, DOCS_MODEL):
+for _d in (PROCESSED_DIR, CACHE_DIR, EXPORT_DIR, RESULTS_E1, RESULTS_E2, RESULTS_Q1, RESULTS_Q2, DOCS_MODEL):
     _d.mkdir(parents=True, exist_ok=True)

@@ -1,0 +1,21 @@
+building B0...
+B0 type_load {'B': 11, 'C': 11, 'A': 10} sorties 32
+B0 {'J_time': 0.5121143970649981, 'makespan': 10550.893808314211, 'energy': 85.63096355537168, 'sorties': 32, 'soft_late_count': 6, 'soft_lateness_sum': 5607.256808957652, 'max_soft_lateness': 2499.633868745739} rt 0.17120790481567383
+building B1...
+B1 {'J_time': 0.5440037237644186, 'makespan': 9856.482731640263, 'energy': 75.8193064209682, 'sorties': 29, 'soft_late_count': 7, 'soft_lateness_sum': 7732.446875964936, 'max_soft_lateness': 2572.161230200327} rt 200.74774599075317
+ALNS multi-seed...
+j1_star 0.5166666865351613
+seed=2026092301 {'J_time': 0.5166666865351613, 'makespan': 9644.18519765453, 'energy': 74.20540164332648, 'sorties': 27, 'soft_late_count': 9, 'soft_lateness_sum': 13116.456617341224, 'max_soft_lateness': 3324.4248373190603} rt=25.5
+seed=2026092302 {'J_time': 0.4701393914553945, 'makespan': 8739.558036711996, 'energy': 74.402973666787, 'sorties': 27, 'soft_late_count': 6, 'soft_lateness_sum': 5928.933254884521, 'max_soft_lateness': 2638.161230200327} rt=15.8
+seed=2026092303 {'J_time': 0.5425734418658072, 'makespan': 9692.331954908637, 'energy': 75.5710144615112, 'sorties': 29, 'soft_late_count': 7, 'soft_lateness_sum': 7306.817254377515, 'max_soft_lateness': 2572.161230200327} rt=36.7
+seed=2026092304 {'J_time': 0.5418892367219903, 'makespan': 9692.331954908637, 'energy': 75.71475672770997, 'sorties': 29, 'soft_late_count': 7, 'soft_lateness_sum': 7504.817254377515, 'max_soft_lateness': 2638.161230200327} rt=35.5
+seed=2026092305 {'J_time': 0.5396990130211432, 'makespan': 9868.747323312893, 'energy': 76.14767735203667, 'sorties': 29, 'soft_late_count': 7, 'soft_lateness_sum': 7777.920045772611, 'max_soft_lateness': 2572.161230200327} rt=67.6
+seed=2026092306 {'J_time': 0.5425734418658072, 'makespan': 9692.331954908637, 'energy': 75.5710144615112, 'sorties': 29, 'soft_late_count': 7, 'soft_lateness_sum': 7306.817254377515, 'max_soft_lateness': 2572.161230200327} rt=22.4
+seed=2026092307 {'J_time': 0.5440037237644186, 'makespan': 9856.482731640263, 'energy': 75.8193064209682, 'sorties': 29, 'soft_late_count': 7, 'soft_lateness_sum': 7732.446875964936, 'max_soft_lateness': 2572.161230200327} rt=13.9
+seed=2026092308 {'J_time': 0.524397098569172, 'makespan': 9762.401518514973, 'energy': 75.53438295559668, 'sorties': 29, 'soft_late_count': 10, 'soft_lateness_sum': 4826.94933592809, 'max_soft_lateness': 1958.5196034405835} rt=29.4
+seed=2026092309 {'J_time': 0.526994089654781, 'makespan': 9678.724754166238, 'energy': 76.42091949563596, 'sorties': 29, 'soft_late_count': 10, 'soft_lateness_sum': 4796.949335928089, 'max_soft_lateness': 1958.5196034405835} rt=34.9
+seed=2026092310 {'J_time': 0.5283482037876381, 'makespan': 9702.401518514973, 'energy': 76.24029507764983, 'sorties': 29, 'soft_late_count': 7, 'soft_lateness_sum': 7428.490667235281, 'max_soft_lateness': 2572.161230200327} rt=25.9
+B0 {'J_time': 0.5121143970649981, 'makespan': 10550.893808314211, 'energy': 85.63096355537168, 'sorties': 32, 'soft_late_count': 6, 'soft_lateness_sum': 5607.256808957652, 'max_soft_lateness': 2499.633868745739}
+B1 {'J_time': 0.5440037237644186, 'makespan': 9856.482731640263, 'energy': 75.8193064209682, 'sorties': 29, 'soft_late_count': 7, 'soft_lateness_sum': 7732.446875964936, 'max_soft_lateness': 2572.161230200327}
+ALNS {'J_time': 0.4701393914553945, 'makespan': 8739.558036711996, 'energy': 74.402973666787, 'sorties': 27, 'soft_late_count': 6, 'soft_lateness_sum': 5928.933254884521, 'max_soft_lateness': 2638.161230200327}
+Q2_SOLVED

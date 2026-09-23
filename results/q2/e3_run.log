@@ -1,0 +1,16 @@
+==== hygiene ====
+==== A. tracked forbidden files ====
+no forbidden tracked files
+==== B. staged forbidden files ====
+no forbidden staged files
+==== C. raw data SHA256 manifest ====
+RAW_DATA_UNCHANGED
+REPO_HYGIENE_OK
+RAW_DATA_UNCHANGED
+==== solve_q2 ====
+building B0...
+B0 type_load {'B': 11, 'C': 11, 'A': 10} sorties 32
+B0 {'J_time': 0.5121143970649981, 'makespan': 10550.893808314211, 'energy': 85.63096355537168, 'sorties': 32, 'soft_late_count': 6, 'soft_lateness_sum': 5607.256808957652, 'max_soft_lateness': 2499.633868745739} rt 0.19788622856140137
+building B1...
+B1 {'J_time': 0.5440037237644186, 'makespan': 9856.482731640263, 'energy': 75.8193064209682, 'sorties': 29, 'soft_late_count': 7, 'soft_lateness_sum': 7732.446875964936, 'max_soft_lateness': 2572.161230200327} rt 202.17167782783508
+ALNS multi-seed...

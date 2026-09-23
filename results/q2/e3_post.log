@@ -1,0 +1,16 @@
+==== export ====
+wrote /home/ccc/projects/uav-logistics-comms/results/q2/Q2_submission.xlsx
+==== validate ====
+E3_Q2_VALID
+==== trace ====
+wrote /home/ccc/projects/uav-logistics-comms/export/q2_transport_trace.csv rows=363
+==== hygiene ====
+==== A. tracked forbidden files ====
+no forbidden tracked files
+==== B. staged forbidden files ====
+no forbidden staged files
+==== C. raw data SHA256 manifest ====
+RAW_DATA_UNCHANGED
+REPO_HYGIENE_OK
+RAW_DATA_UNCHANGED
+E3_POST_DONE
