@@ -1,0 +1,13 @@
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+U01 waypoints loaded: 3
+flow 10.1.1.1 -> 10.1.1.2 tx=23 rx=1 lost=14
+tx_packets=23
+rx_packets=1
+lost_packets=14
+pdr=0.0434783
+mean_delay_ms=9
+U01_end_position=200,0,50
+summary_written=/home/ccc/projects/huawei-cup-d/results/ns3/e0_smoke_summary.csv

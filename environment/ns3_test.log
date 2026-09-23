@@ -1,0 +1,805 @@
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+Finished executing the following commands:
+/usr/bin/cmake --build /home/ccc/projects/huawei-cup-d/external/ns-3.47/cmake-cache -j 11
+[1/800] [32mPASS[0m: TestSuite adjacency-matrix-test
+[2/800] [32mPASS[0m: TestSuite degrees-radians
+[3/800] [32mPASS[0m: TestSuite routing-aodv
+[4/800] [32mPASS[0m: TestSuite aodv-routing-id-cache
+[5/800] [32mPASS[0m: TestSuite parabolic-antenna-model
+[6/800] [32mPASS[0m: TestSuite circular-aperture-antenna-test
+[7/800] [32mPASS[0m: TestSuite uniform-planar-array-test
+[8/800] [32mPASS[0m: TestSuite isotropic-antenna-model
+[9/800] [32mPASS[0m: TestSuite cosine-antenna-model
+[10/800] [32mPASS[0m: TestSuite routing-aodv-loopback
+[11/800] [32mPASS[0m: TestSuite angles
+[12/800] [32mPASS[0m: TestSuite applications-udp-client-server
+[13/800] [32mPASS[0m: TestSuite routing-aodv-regression
+[14/800] [32mPASS[0m: TestSuite applications-bulk-send
+[15/800] [32mPASS[0m: TestSuite buildings-channel-condition-model
+[16/800] [32mPASS[0m: TestSuite buildings-helper
+[17/800] [32mPASS[0m: TestSuite buildings-pathloss-test
+[18/800] [32mPASS[0m: TestSuite buildings-shadowing-test
+[19/800] [32mPASS[0m: TestSuite outdoor-random-walk-model
+[20/800] [32mPASS[0m: TestSuite building-position-allocator
+[21/800] [32mPASS[0m: TestSuite attributes
+[22/800] [32mPASS[0m: TestSuite attribute-container-test-suite
+[23/800] [32mPASS[0m: TestSuite applications-three-gpp-http-client-server
+[24/800] [32mPASS[0m: TestSuite applications-tgax-voip-traffic
+[25/800] [32mPASS[0m: TestSuite build-profile
+[26/800] [32mPASS[0m: TestSuite callback
+[27/800] [32mPASS[0m: TestSuite applications-rta-tig-mobile-gaming
+[28/800] [32mPASS[0m: TestSuite command-line
+[29/800] [32mPASS[0m: TestSuite config
+[30/800] [32mPASS[0m: TestSuite core-example-simulator
+[31/800] [32mPASS[0m: TestSuite global-value
+[32/800] [32mPASS[0m: TestSuite buildings-penetration-losses
+[33/800] [32mPASS[0m: TestSuite environment-variables
+[34/800] [32mPASS[0m: TestSuite event-garbage-collector
+[35/800] [32mPASS[0m: TestSuite hash
+[36/800] [32mPASS[0m: TestSuite length
+[37/800] [32mPASS[0m: TestSuite int64x64
+[38/800] [32mPASS[0m: TestSuite object-name-service
+[39/800] [32mPASS[0m: TestSuite split-string
+[40/800] [32mPASS[0m: TestSuite object
+[41/800] [32mPASS[0m: TestSuite examples-as-tests-test-suite
+[42/800] [32mPASS[0m: TestSuite ptr
+[43/800] [32mPASS[0m: TestSuite pair-value-test-suite
+[44/800] [32mPASS[0m: TestSuite sample
+[45/800] [32mPASS[0m: TestSuite simulator
+[46/800] [32mPASS[0m: TestSuite timer
+[47/800] [32mPASS[0m: TestSuite traced-callback
+[48/800] [32mPASS[0m: TestSuite time
+[49/800] [32mPASS[0m: TestSuite type-id
+[50/800] [32mPASS[0m: TestSuite tuple-value-test-suite
+[51/800] [32mPASS[0m: TestSuite trickle-timer
+[52/800] [32mPASS[0m: TestSuite type-traits
+[53/800] [32mPASS[0m: TestSuite matrix-array-test
+[54/800] [32mPASS[0m: TestSuite watchdog
+[55/800] [32mPASS[0m: TestSuite routing-dsr
+[56/800] [32mPASS[0m: TestSuite val-array-test
+[57/800] [32mPASS[0m: TestSuite generic-battery-test
+[58/800] [32mPASS[0m: TestSuite basic-energy-harvester
+[59/800] [32mPASS[0m: TestSuite routing-dsdv
+[60/800] [32mPASS[0m: TestSuite global-route-manager-impl
+[61/800] [32mPASS[0m: TestSuite icmp
+[62/800] [32mPASS[0m: TestSuite ipv4-address-generator
+[63/800] [32mPASS[0m: TestSuite internet-stack-helper
+[64/800] [32mPASS[0m: TestSuite ipv4-deduplication
+[65/800] [32mPASS[0m: TestSuite ipv4-address-helper
+[66/800] [32mPASS[0m: TestSuite ipv4-header
+[67/800] [32mPASS[0m: TestSuite ipv4-forwarding
+[68/800] [32mPASS[0m: TestSuite ipv4-list-routing
+[69/800] [32mPASS[0m: TestSuite ipv4-fragmentation
+[70/800] [32mPASS[0m: TestSuite ipv4-packet-info-tag
+[71/800] [32mPASS[0m: TestSuite ipv4-protocol
+[72/800] [32mPASS[0m: TestSuite ipv4-static-routing
+[73/800] [32mPASS[0m: TestSuite ipv4-rip
+[74/800] [32mPASS[0m: TestSuite global-routing
+[75/800] [32mPASS[0m: TestSuite ipv4-raw
+[76/800] [32mPASS[0m: TestSuite ipv6-duplicate-address-detection
+[77/800] [32mPASS[0m: TestSuite ipv6-address-generator
+[78/800] [32mPASS[0m: TestSuite ipv6-address-helper
+[79/800] [32mPASS[0m: TestSuite ipv6-extension-header
+[80/800] [32mPASS[0m: TestSuite ipv6-forwarding
+[81/800] [32mPASS[0m: TestSuite ipv6-list-routing
+[82/800] [32mPASS[0m: TestSuite ipv6-packet-info-tag
+[83/800] [32mPASS[0m: TestSuite ipv6-dual-stack
+[84/800] [32mPASS[0m: TestSuite ipv6-raw
+[85/800] [32mPASS[0m: TestSuite ipv6-fragmentation
+[86/800] [32mPASS[0m: TestSuite ipv6-protocol
+[87/800] [32mPASS[0m: TestSuite ipv6-ripng
+[88/800] [32mPASS[0m: TestSuite tcp-abe-test
+[89/800] [32mPASS[0m: TestSuite neighbor-cache
+[90/800] [32mPASS[0m: TestSuite rtt-estimator
+[91/800] [32mPASS[0m: TestSuite tcp-bbr-test
+[92/800] [32mPASS[0m: TestSuite tcp-bic-test
+[93/800] [32mPASS[0m: TestSuite tcp-close
+[94/800] [32mPASS[0m: TestSuite tcp-advertised-window-test
+[95/800] [32mPASS[0m: TestSuite tcp-classic-recovery-test
+[96/800] [32mPASS[0m: TestSuite tcp-bytes-in-flight-test
+[97/800] [32mPASS[0m: TestSuite tcp-dctcp-test
+[98/800] [32mPASS[0m: TestSuite tcp-cong-avoid-test
+[99/800] [32mPASS[0m: TestSuite tcp-ecn-test
+[100/800] [32mPASS[0m: TestSuite tcp-datasentcb
+[101/800] [32mPASS[0m: TestSuite tcp-endpoint-bug2211-test
+[102/800] [32mPASS[0m: TestSuite tcp-header
+[103/800] [32mPASS[0m: TestSuite tcp-fack-test
+[104/800] [32mPASS[0m: TestSuite applications-tgax-virtual-desktop
+[105/800] [32mPASS[0m: TestSuite tcp-hybla-test
+[106/800] [32mPASS[0m: TestSuite tcp-htcp-test
+[107/800] [32mPASS[0m: TestSuite tcp-fast-retr-test
+[108/800] [32mPASS[0m: TestSuite tcp-illinois-test
+[109/800] [32mPASS[0m: TestSuite tcp-linux-reno-test
+[110/800] [32mPASS[0m: TestSuite tcp-loss-test
+[111/800] [32mPASS[0m: TestSuite tcp-ledbat-test
+[112/800] [32mPASS[0m: TestSuite tcp-option
+[113/800] [32mPASS[0m: TestSuite tcp-prr-recovery-test
+[114/800] [32mPASS[0m: TestSuite tcp-pacing-test
+[115/800] [32mPASS[0m: TestSuite tcp-rate-ops
+[116/800] [32mPASS[0m: TestSuite tcp-rx-buffer
+[117/800] [32mPASS[0m: TestSuite tcp-pkts-acked-test
+[118/800] [32mPASS[0m: TestSuite tcp-highspeed-test
+[119/800] [32mPASS[0m: TestSuite tcp-lp-test
+[120/800] [32mPASS[0m: TestSuite tcp-rto-test
+[121/800] [32mPASS[0m: TestSuite tcp-sack-permitted
+[122/800] [32mPASS[0m: TestSuite tcp-slow-start-test
+[123/800] [32mPASS[0m: TestSuite tcp-syn-connection-failed-test
+[124/800] [32mPASS[0m: TestSuite tcp-scalable-test
+[125/800] [32mPASS[0m: TestSuite tcp-rtt-estimation-test
+[126/800] [32mPASS[0m: TestSuite tcp-timestamp
+[127/800] [32mPASS[0m: TestSuite tcp-tx-buffer
+[128/800] [32mPASS[0m: TestSuite tcp-veno-test
+[129/800] [32mPASS[0m: TestSuite tcp-yeah-test
+[130/800] [32mPASS[0m: TestSuite tcp-vegas-test
+[131/800] [32mPASS[0m: TestSuite tcp-wscaling
+[132/800] [32mPASS[0m: TestSuite tcp
+[133/800] [32mPASS[0m: TestSuite tcp-zero-window-test
+[134/800] [32mPASS[0m: TestSuite dhcp6
+[135/800] [32mPASS[0m: TestSuite dhcp
+[136/800] [32mPASS[0m: TestSuite udp
+[137/800] [32mPASS[0m: TestSuite radvd
+[138/800] [32mPASS[0m: TestSuite ping
+[139/800] [32mPASS[0m: TestSuite lr-wpan-ack
+[140/800] [32mPASS[0m: TestSuite lr-wpan-cca-test
+[141/800] [32mPASS[0m: TestSuite lr-wpan-collision
+[142/800] [32mPASS[0m: TestSuite lr-wpan-energy-detection
+[143/800] [32mPASS[0m: TestSuite lr-wpan-error-model
+[144/800] [32mPASS[0m: TestSuite lr-wpan-spectrum-value-helper
+[145/800] [32mPASS[0m: TestSuite lr-wpan-packet
+[146/800] [32mPASS[0m: TestSuite lr-wpan-slotted-csmaca
+[147/800] [32mPASS[0m: TestSuite lr-wpan-phy-test
+[148/800] [32mPASS[0m: TestSuite lr-wpan-ifs-test
+[149/800] [32mPASS[0m: TestSuite epc-gtpu
+[150/800] [32mPASS[0m: TestSuite lr-wpan-mac-test
+[151/800] [32mPASS[0m: TestSuite epc-s1u-uplink
+[152/800] [32mPASS[0m: TestSuite epc-s1u-downlink
+[153/800] [32mPASS[0m: TestSuite lte-cell-selection
+[154/800] [32mPASS[0m: TestSuite lte-downlink-sinr
+[155/800] [32mPASS[0m: TestSuite lte-earfcn
+[156/800] [32mPASS[0m: TestSuite lte-fdbet-ff-mac-scheduler
+[157/800] [32mPASS[0m: TestSuite lte-fdmt-ff-mac-scheduler
+[158/800] [32mPASS[0m: TestSuite lte-downlink-power-control
+[159/800] [32mPASS[0m: TestSuite lte-carrier-aggregation-configuration
+[160/800] [32mPASS[0m: TestSuite lte-harq
+[161/800] [32mPASS[0m: TestSuite lte-interference
+[162/800] [32mPASS[0m: TestSuite lte-fdtbfq-ff-mac-scheduler
+[163/800] [32mPASS[0m: TestSuite lte-test-deactivate-bearer
+[164/800] [32mPASS[0m: TestSuite lte-link-adaptation
+[165/800] [32mPASS[0m: TestSuite lte-mimo
+[166/800] [32mPASS[0m: TestSuite lte-cqa-ff-mac-scheduler
+[167/800] [32mPASS[0m: TestSuite lte-cqi-generation
+[168/800] [32mPASS[0m: TestSuite lte-pathloss-model
+[169/800] [32mPASS[0m: TestSuite lte-pf-ff-mac-scheduler
+[170/800] [32mPASS[0m: TestSuite lte-phy-error-model
+[171/800] [32mPASS[0m: TestSuite threaded-simulator
+[172/800] [32mPASS[0m: TestSuite lte-interference-fr
+[173/800] [32mPASS[0m: TestSuite lte-rlc-am-transmitter
+[174/800] [32mPASS[0m: TestSuite lte-ipv6-routing-test
+[175/800] [32mPASS[0m: TestSuite lte-rlc-um-e2e
+[176/800] [32mPASS[0m: TestSuite lte-rlc-um-transmitter
+[177/800] [32mPASS[0m: TestSuite lte-rr-ff-mac-scheduler
+[178/800] [32mPASS[0m: TestSuite lte-spectrum-value-helper
+[179/800] [32mPASS[0m: TestSuite lte-rlc-am-e2e
+[180/800] [32mPASS[0m: TestSuite lte-aggregation-throughput-scale
+[181/800] [32mPASS[0m: TestSuite lte-secondary-cell-handover
+[182/800] [32mPASS[0m: TestSuite lte-tdbet-ff-mac-scheduler
+[183/800] [32mPASS[0m: TestSuite lte-tdmt-ff-mac-scheduler
+[184/800] [32mPASS[0m: TestSuite lte-tta-ff-mac-scheduler
+[185/800] [32mPASS[0m: TestSuite lte-ue-measurements
+[186/800] [32mPASS[0m: TestSuite lte-ue-measurements-piecewise-3
+[187/800] [32mPASS[0m: TestSuite lte-tdtbfq-ff-mac-scheduler
+[188/800] [32mPASS[0m: TestSuite lte-carrier-aggregation
+[189/800] [32mPASS[0m: TestSuite lte-pss-ff-mac-scheduler
+[190/800] [32mPASS[0m: TestSuite lte-uplink-sinr
+[191/800] [32mPASS[0m: TestSuite test-asn1-encoding
+[192/800] [32mPASS[0m: TestSuite lte-uplink-power-control
+[193/800] [32mPASS[0m: TestSuite lte-ue-measurements-handover
+[194/800] [32mPASS[0m: TestSuite lte-ue-measurements-piecewise-1
+[195/800] [32mPASS[0m: TestSuite lte-epc-e2e-data
+[196/800] [32mPASS[0m: TestSuite eps-tft-classifier
+[197/800] [32mPASS[0m: TestSuite lte-antenna
+[198/800] [32mPASS[0m: TestSuite lte-rlc-header
+[199/800] [32mPASS[0m: TestSuite lte-handover-target
+[200/800] [32mPASS[0m: TestSuite lte-handover-failure
+[201/800] [32mPASS[0m: TestSuite lte-radio-link-failure
+[202/800] [32mPASS[0m: TestSuite lte-rrc
+[203/800] [32mPASS[0m: TestSuite lte-primary-cell-change
+[204/800] [32mPASS[0m: TestSuite devices-mesh-flame
+[205/800] [32mPASS[0m: TestSuite devices-mesh-dot11s
+[206/800] [32mPASS[0m: TestSuite devices-mesh-flame-regression
+[207/800] [32mPASS[0m: TestSuite devices-mesh
+[208/800] [32mPASS[0m: TestSuite box-line-intersection
+[209/800] [32mPASS[0m: TestSuite lte-ue-measurements-piecewise-2
+[210/800] [32mPASS[0m: TestSuite geographic-topocentric-test
+[211/800] [32mPASS[0m: TestSuite devices-mesh-dot11s-regression
+[212/800] [32mPASS[0m: TestSuite mobility
+[213/800] [32mPASS[0m: TestSuite mobility-trace
+[214/800] [32mPASS[0m: TestSuite mobility-ns2-trace-helper
+[215/800] [32mPASS[0m: TestSuite rand-cart-around-geo
+[216/800] [32mPASS[0m: TestSuite rectangle-closest-border
+[217/800] [32mPASS[0m: TestSuite waypoint-mobility-model
+[218/800] [32mPASS[0m: TestSuite animation-interface
+[219/800] [32mPASS[0m: TestSuite address
+[220/800] [32mPASS[0m: TestSuite buffer
+[221/800] [32mPASS[0m: TestSuite bit-serializer
+[222/800] [32mPASS[0m: TestSuite drop-tail-queue
+[223/800] [32mPASS[0m: TestSuite error-model
+[224/800] [32mPASS[0m: TestSuite ipv6-address
+[225/800] [32mPASS[0m: TestSuite geo-to-cartesian
+[226/800] [32mPASS[0m: TestSuite lollipop-counter
+[227/800] [32mPASS[0m: TestSuite packet-metadata
+[228/800] [32mPASS[0m: TestSuite packet-socket-apps
+[229/800] [32mPASS[0m: TestSuite packetbb-test-suite
+[230/800] [32mPASS[0m: TestSuite pcap-file
+[231/800] [32mPASS[0m: TestSuite lte-handover-delay
+[232/800] [32mPASS[0m: TestSuite sequence-number
+[233/800] [32mPASS[0m: TestSuite nix-vector-routing
+[234/800] [32mPASS[0m: TestSuite lte-secondary-cell-selection
+[235/800] [32mPASS[0m: TestSuite data-rate
+[236/800] [32mPASS[0m: TestSuite routing-olsr-regression
+[237/800] [32mPASS[0m: TestSuite routing-olsr
+[238/800] [32mPASS[0m: TestSuite routing-olsr-header
+[239/800] [32mPASS[0m: TestSuite devices-point-to-point
+[240/800] [32mPASS[0m: TestSuite itu-r-1411-los
+[241/800] [32mPASS[0m: TestSuite itu-r-1411-nlos-over-rooftop
+[242/800] [32mPASS[0m: TestSuite kun-2600-mhz
+[243/800] [32mPASS[0m: TestSuite okumura-hata
+[244/800] [32mPASS[0m: TestSuite propagation-loss-model
+[245/800] [32mPASS[0m: TestSuite lte-x2-handover
+[246/800] [32mPASS[0m: TestSuite three-gpp-ntn-propagation-loss-model
+[247/800] [32mPASS[0m: TestSuite sixlowpan-fragmentation
+[248/800] [32mPASS[0m: TestSuite sixlowpan-example-ping-lr-wpan
+[249/800] [32mPASS[0m: TestSuite sixlowpan-hc1
+[250/800] [32mPASS[0m: TestSuite sixlowpan-iphc-stateful
+[251/800] [32mPASS[0m: TestSuite sixlowpan-iphc
+[252/800] [32mPASS[0m: TestSuite steady-state-rwp-mobility-model
+[253/800] [32mPASS[0m: TestSuite spectrum-interference
+[254/800] [32mPASS[0m: TestSuite spectrum-value
+[255/800] [32mPASS[0m: TestSuite three-gpp-v2v-channel-condition-model
+[256/800] [32mPASS[0m: TestSuite spectrum-converter
+[257/800] [32mPASS[0m: TestSuite waveform-generator
+[258/800] [32mPASS[0m: TestSuite tv-helper-distribution
+[259/800] [32mPASS[0m: TestSuite spectrum-ideal-phy
+[260/800] [32mPASS[0m: TestSuite wraparound-model
+[261/800] [32mPASS[0m: TestSuite average
+[262/800] [32mPASS[0m: TestSuite basic-data-calculators
+[263/800] [32mPASS[0m: TestSuite double-probe
+[264/800] [32mPASS[0m: TestSuite histogram
+[265/800] [32mPASS[0m: TestSuite rocketfuel-topology-reader
+[266/800] [32mPASS[0m: TestSuite adaptive-red-queue-disc
+[267/800] [32mPASS[0m: TestSuite codel-queue-disc
+[268/800] [32mPASS[0m: TestSuite cobalt-queue-disc
+[269/800] [32mPASS[0m: TestSuite fifo-queue-disc
+[270/800] [32mPASS[0m: TestSuite pie-queue-disc
+[271/800] [32mPASS[0m: TestSuite prio-queue-disc
+[272/800] [32mPASS[0m: TestSuite queue-disc-traces
+[273/800] [32mPASS[0m: TestSuite tbf-queue-disc
+[274/800] [32mPASS[0m: TestSuite red-queue-disc
+[275/800] [32mPASS[0m: TestSuite tc-flow-control
+[276/800] [32mPASS[0m: TestSuite uan-energy-model
+[277/800] [32mPASS[0m: TestSuite devices-uan
+[278/800] [32mPASS[0m: TestSuite wifi-block-ack
+[279/800] [32mPASS[0m: TestSuite wifi-devices-dcf
+[280/800] [32mPASS[0m: TestSuite applications-tgax-video-traffic
+[281/800] [32mPASS[0m: TestSuite wifi-channel-access-manager
+[282/800] [32mPASS[0m: TestSuite wifi-power-rate-adaptation
+[283/800] [32mPASS[0m: TestSuite wifi-devices-edca
+[284/800] [32mPASS[0m: TestSuite wifi-power-save
+[285/800] [32mPASS[0m: TestSuite three-gpp-propagation-loss-model
+[286/800] [32mPASS[0m: TestSuite wifi-devices-tx-duration
+[287/800] [32mPASS[0m: TestSuite wifi-aggregation
+[288/800] [32mPASS[0m: TestSuite wifi-co-trace-helper
+[289/800] [32mPASS[0m: TestSuite tv-spectrum-transmitter
+[290/800] [32mPASS[0m: TestSuite wifi-eht-info-elems
+[291/800] [32mPASS[0m: TestSuite wifi-inter-bss
+[292/800] [32mPASS[0m: TestSuite two-ray-splm-suite
+[293/800] [32mPASS[0m: TestSuite wifi-emlsr-enabling
+[294/800] [32mPASS[0m: TestSuite wifi-error-rate-models
+[295/800] [32mPASS[0m: TestSuite lte-x2-handover-measures
+[296/800] [32mPASS[0m: TestSuite wifi-fils-frame
+[297/800] [32mPASS[0m: TestSuite wifi-he-info-elems
+[298/800] [32mPASS[0m: TestSuite wifi-ie-fragment
+[299/800] [32mPASS[0m: TestSuite wifi-emlsr-basic-exchanges
+[300/800] [32mPASS[0m: TestSuite wifi-mac-queue
+[301/800] [32mPASS[0m: TestSuite probabilistic-v2v-channel-condition-model
+[302/800] [32mPASS[0m: TestSuite packet
+[303/800] [32mPASS[0m: TestSuite wifi-phy-reception
+[304/800] [32mPASS[0m: TestSuite wifi-phy-rx-trace-helper
+[305/800] [32mPASS[0m: TestSuite wifi-phy-thresholds
+[306/800] [32mPASS[0m: TestSuite wifi-spectrum-phy
+[307/800] [32mPASS[0m: TestSuite wifi-dynamic-bw-op
+[308/800] [32mPASS[0m: TestSuite wifi-probe-exchange
+[309/800] [32mPASS[0m: TestSuite wifi-ru-allocation
+[310/800] [32mPASS[0m: TestSuite wifi-channel-switching
+[311/800] [32mPASS[0m: TestSuite wifi-static-emlsr-test
+[312/800] [32mPASS[0m: TestSuite wifi-static-infra-bss-test
+[313/800] [32mPASS[0m: TestSuite wifi-emlsr-link-switch
+[314/800] [32mPASS[0m: TestSuite wifi-transmit-mask
+[315/800] [32mPASS[0m: TestSuite lte-frequency-reuse
+[316/800] [32mPASS[0m: TestSuite propagation-channel-condition-model
+[317/800] [32mPASS[0m: TestSuite wifi-devices
+[318/800] [32mPASS[0m: TestSuite wifi-non-ht-dup
+[319/800] [32mPASS[0m: TestSuite wifi-operating-channel
+[320/800] [32mPASS[0m: TestSuite wifi-tx-stats-helper
+[321/800] [32mPASS[0m: TestSuite zigbee-rreq-test
+[322/800] [32mPASS[0m: TestSuite zigbee-aps-data-test
+[323/800] [32mPASS[0m: TestSuite wifi-txop
+[324/800] [32mPASS[0m: TestSuite ns3-tcp-loss
+[325/800] [32mPASS[0m: TestSuite ns3-tcp-no-delay
+[326/800] [32mPASS[0m: TestSuite ns3-tcp-socket
+[327/800] [32mPASS[0m: TestSuite wifi-phy-mu-mimo
+[328/800] [32mPASS[0m: TestSuite ns3-tcp-state
+[329/800] [32mPASS[0m: TestSuite traced-callback-typedef
+[330/800] [32mPASS[0m: TestSuite traced-value-callback
+[331/800] [32mPASS[0m: TestSuite fq-cobalt-queue-disc
+[332/800] [32mPASS[0m: TestSuite fq-codel-queue-disc
+[333/800] [32mPASS[0m: TestSuite wifi-phy-ofdma
+[334/800] [32mPASS[0m: TestSuite fq-pie-queue-disc
+[335/800] [32mPASS[0m: TestSuite pfifo-fast-queue-disc
+[336/800] [32mPASS[0m: TestSuite csma-system
+[337/800] [32mPASS[0m: TestSuite wifi-ac-mapping
+[338/800] [32mPASS[0m: TestSuite wifi-issue-211
+[339/800] [32mPASS[0m: TestSuite wifi-msdu-aggregator
+[340/800] [32mPASS[0m: Example examples/wireless/wifi-multirate --totalTime=0.3s --rateManager=ns3::AmrrWifiManager
+[341/800] [32mPASS[0m: Example examples/wireless/wifi-multirate --totalTime=0.3s --rateManager=ns3::AarfcdWifiManager
+[342/800] [32mPASS[0m: TestSuite wifi-phy-cca
+[343/800] [32mPASS[0m: Example examples/wireless/mixed-wired-wireless
+[344/800] [32mPASS[0m: TestSuite wifi-retransmit
+[345/800] [32mPASS[0m: Example examples/wireless/wifi-multirate --totalTime=0.3s --rateManager=ns3::IdealWifiManager
+[346/800] [32mPASS[0m: Example examples/wireless/wifi-multirate --totalTime=0.3s --rateManager=ns3::OnoeWifiManager
+[347/800] [32mPASS[0m: Example examples/wireless/wifi-simple-adhoc
+[348/800] [32mPASS[0m: Example examples/wireless/wifi-multirate --totalTime=0.3s --rateManager=ns3::MinstrelWifiManager
+[349/800] [32mPASS[0m: Example examples/wireless/wifi-simple-infra
+[350/800] [32mPASS[0m: Example examples/wireless/wifi-simple-interference
+[351/800] [32mPASS[0m: TestSuite wifi-primary-channels
+[352/800] [32mPASS[0m: Example examples/wireless/wifi-simple-adhoc-grid
+[353/800] [32mPASS[0m: Example examples/wireless/wifi-blockack
+[354/800] [32mPASS[0m: Example examples/wireless/wifi-timing-attributes --simulationTime=1s
+[355/800] [32mPASS[0m: Example examples/wireless/wifi-sleep
+[356/800] [32mPASS[0m: Example examples/wireless/wifi-multirate --totalTime=0.3s --rateManager=ns3::CaraWifiManager
+[357/800] [32mPASS[0m: Example examples/wireless/wifi-ap --verbose=0
+[358/800] [32mPASS[0m: Example examples/wireless/wifi-rate-adaptation-distance --standard=802.11a --staManager=ns3::MinstrelWifiManager --apManager=ns3::MinstrelWifiManager --outputFileName=minstrel --stepsSize=50 --stepsTime=0.1
+[359/800] [32mPASS[0m: Example examples/wireless/wifi-rate-adaptation-distance --standard=802.11a --staManager=ns3::MinstrelWifiManager --apManager=ns3::MinstrelWifiManager --outputFileName=minstrel --stepsSize=50 --stepsTime=0.1 --STA1_x=-200
+[360/800] [32mPASS[0m: Example examples/wireless/wifi-rate-adaptation-distance --staManager=ns3::MinstrelHtWifiManager --apManager=ns3::MinstrelHtWifiManager --outputFileName=minstrelHt --shortGuardInterval=true --channelWidth=40 --stepsSize=50 --stepsTime=0.1
+[361/800] [32mPASS[0m: TestSuite three-gpp-channel
+[362/800] [32mPASS[0m: Example examples/wireless/wifi-wired-bridging
+[363/800] [32mPASS[0m: Example examples/wireless/wifi-dsss-validation
+[364/800] [32mPASS[0m: Example examples/wireless/wifi-ofdm-ht-validation
+[365/800] [32mPASS[0m: Example examples/wireless/wifi-ofdm-validation
+[366/800] [32mPASS[0m: Example examples/wireless/wifi-ofdm-vht-validation
+[367/800] [32mPASS[0m: Example examples/wireless/wifi-error-models-comparison
+[368/800] [32mPASS[0m: Example examples/wireless/wifi-ofdm-he-validation
+[369/800] [32mPASS[0m: Example examples/wireless/wifi-multirate --totalTime=0.3s --rateManager=ns3::RraaWifiManager
+[370/800] [32mPASS[0m: Example examples/wireless/wifi-power-adaptation-distance --manager=ns3::ParfWifiManager --outputFileName=parf --steps=5 --stepsSize=10
+[371/800] [32mPASS[0m: Example examples/wireless/wifi-power-adaptation-distance --manager=ns3::AparfWifiManager --outputFileName=aparf --steps=5 --stepsSize=10
+[372/800] [32mPASS[0m: Example examples/wireless/wifi-ht-network --simulationTime=0.2s --frequency=5 --useRts=0 --minExpectedThroughput=5 --maxExpectedThroughput=135
+[373/800] [32mPASS[0m: Example examples/wireless/wifi-ht-network --simulationTime=0.2s --frequency=2.4 --useRts=0 --minExpectedThroughput=5 --maxExpectedThroughput=132
+[374/800] [32mPASS[0m: Example examples/wireless/wifi-power-adaptation-distance --manager=ns3::RrpaaWifiManager --outputFileName=rrpaa --steps=5 --stepsSize=10
+[375/800] [32mPASS[0m: Example examples/wireless/wifi-ht-network --simulationTime=0.2s --frequency=2.4 --useRts=1 --minExpectedThroughput=5 --maxExpectedThroughput=129
+[376/800] [32mPASS[0m: Example examples/wireless/wifi-ht-network --simulationTime=0.2s --frequency=5 --useRts=1 --minExpectedThroughput=5 --maxExpectedThroughput=132
+[377/800] [32mPASS[0m: Example examples/wireless/wifi-power-adaptation-interference --simuTime=5
+[378/800] [32mPASS[0m: TestSuite wifi-mlo
+[379/800] [32mPASS[0m: Example examples/wireless/wifi-80211n-mimo --simulationTime=0.1s --step=10
+[380/800] [32mPASS[0m: Example examples/wireless/wifi-vht-network --simulationTime=0.2s --useRts=1 --minExpectedThroughput=5 --maxExpectedThroughput=565
+[381/800] [32mPASS[0m: TestSuite wifi-gcr
+[382/800] [32mPASS[0m: Example examples/wireless/wifi-vht-network --simulationTime=0.2s --useRts=0 --minExpectedThroughput=5 --maxExpectedThroughput=630
+[383/800] [32mPASS[0m: Example examples/wireless/wifi-vht-network --simulationTime=0.2s --useRts=0 --use80Plus80=1 --minExpectedThroughput=5 --maxExpectedThroughput=630
+[384/800] [32mPASS[0m: Example examples/wireless/wifi-he-network --simulationTime=0.3s --frequency=2.4 --udp=0 --downlink=1 --useRts=1 --nStations=5 --dlAckType=MU-BAR --enableUlOfdma=1 --enableBsrp=1 --mcs=5 --minExpectedThroughput=21 --maxExpectedThroughput=56
+[385/800] [32mPASS[0m: Example examples/wireless/wifi-he-network --simulationTime=0.25s --frequency=2.4 --useRts=0 --minExpectedThroughput=6 --maxExpectedThroughput=238
+[386/800] [32mPASS[0m: Example examples/wireless/wifi-he-network --simulationTime=0.3s --frequency=2.4 --useRts=1 --minExpectedThroughput=6 --maxExpectedThroughput=223
+[387/800] [32mPASS[0m: TestSuite wifi-channel-settings
+[388/800] [32mPASS[0m: Example examples/wireless/wifi-he-network --simulationTime=0.3s --udp=0 --downlink=1 --useRts=0 --nStations=4 --dlAckType=ACK-SU-FORMAT --enableUlOfdma=1 --enableBsrp=0 --mcs=4 --minExpectedThroughput=20 --maxExpectedThroughput=212
+[389/800] [32mPASS[0m: Example examples/wireless/wifi-he-network --simulationTime=0.3s --udp=1 --downlink=0 --useRts=1 --nStations=5 --dlAckType=AGGR-MU-BAR --enableUlOfdma=1 --enableBsrp=1 --mcs=5 --muSchedAccessReqInterval=50ms --minExpectedThroughput=46 --maxExpectedThroughput=327
+[390/800] [32mPASS[0m: Example examples/wireless/wifi-he-network --simulationTime=0.25s --frequency=5 --useRts=0 --minExpectedThroughput=6 --maxExpectedThroughput=844
+[391/800] [32mPASS[0m: Example examples/wireless/wifi-he-network --simulationTime=0.3s --frequency=5 --useRts=0 --useExtendedBlockAck=1 --minExpectedThroughput=6 --maxExpectedThroughput=1033
+[392/800] [32mPASS[0m: Example examples/wireless/wifi-he-network --simulationTime=0.3s --udp=0 --downlink=1 --useRts=0 --nStations=5 --dlAckType=AGGR-MU-BAR --enableUlOfdma=1 --enableBsrp=0 --mcs=6 --muSchedAccessReqInterval=50ms --minExpectedThroughput=31 --maxExpectedThroughput=290
+[393/800] [32mPASS[0m: TestSuite wifi-mac-ofdma
+[394/800] [32mPASS[0m: Example examples/wireless/wifi-eht-network --simulationTime=0.1s --frequency=2.4 --useRts=1 --minExpectedThroughput=5 --maxExpectedThroughput=240
+[395/800] [32mPASS[0m: Example examples/wireless/wifi-he-network --simulationTime=0.3s --frequency=5 --useRts=1 --minExpectedThroughput=6 --maxExpectedThroughput=745
+[396/800] [32mPASS[0m: Example examples/wireless/wifi-eht-network --simulationTime=0.1s --frequency=5 --useRts=0 --minExpectedThroughput=6 --maxExpectedThroughput=760
+[397/800] [32mPASS[0m: Example examples/wireless/wifi-eht-network --simulationTime=0.1s --frequency=5 --useRts=0 --use80Plus80=1 --minExpectedThroughput=6 --maxExpectedThroughput=760
+[398/800] [32mPASS[0m: TestSuite ns3-tcp-cubic
+[399/800] [32mPASS[0m: Example examples/wireless/wifi-eht-network --simulationTime=0.25s --frequency=2.4 --udp=0 --downlink=1 --useRts=0 --nStations=5 --dlAckType=MU-BAR --enableUlOfdma=1 --enableBsrp=1 --mcs=5 --frequency2=5 --mpduBufferSize=1024 --minExpectedThroughput=50 --maxExpectedThroughput=120
+[400/800] [32mPASS[0m: Example examples/wireless/wifi-eht-network --simulationTime=0.3s --udp=0 --downlink=1 --useRts=1 --nStations=5 --dlAckType=AGGR-MU-BAR --enableUlOfdma=1 --enableBsrp=0 --mcs=6 --muSchedAccessReqInterval=50ms --frequency2=2.4 --minExpectedThroughput=50 --maxExpectedThroughput=140
+[401/800] [32mPASS[0m: Example examples/wireless/wifi-eht-network --simulationTime=0.1s --frequency=2.4 --useRts=0 --mpduBufferSize=512 --frequency2=5 --minExpectedThroughput=7 --maxExpectedThroughput=512
+[402/800] [32mPASS[0m: Example examples/wireless/wifi-simple-ht-hidden-stations --simulationTime=1s --enableRts=0 --nMpdus=32 --minExpectedThroughput=59 --maxExpectedThroughput=60
+[403/800] [32mPASS[0m: Example examples/wireless/wifi-simple-ht-hidden-stations --simulationTime=1s --enableRts=1 --nMpdus=32 --minExpectedThroughput=56 --maxExpectedThroughput=57
+[404/800] [32mPASS[0m: Example examples/wireless/wifi-eht-network --simulationTime=0.2s --frequency=2.4 --frequency2=5 --guardInterval=1600 --udp=0 --downlink=1 --useRts=1 --mpduBufferSize=512 --emlsrLinks=0,1 --emlsrPaddingDelay=64 --emlsrTransitionDelay=64 --channelSwitchDelay=64us --emlsrMgrTypeId=ns3::AdvancedEmlsrManager --emlsrAuxSwitch=False --emlsrAuxTxCapable=True --minExpectedThroughput=5 --maxExpectedThroughput=190
+[405/800] [32mPASS[0m: Example examples/wireless/wifi-eht-network --simulationTime=0.2s --frequency=2.4 --frequency2=5 --guardInterval=1600 --udp=0 --downlink=1 --useRts=0 --mpduBufferSize=512 --emlsrLinks=0,1 --emlsrPaddingDelay=32 --emlsrTransitionDelay=32 --channelSwitchDelay=32us --emlsrAuxSwitch=True --emlsrAuxTxCapable=True --minExpectedThroughput=5 --maxExpectedThroughput=200
+[406/800] [32mPASS[0m: Example examples/wireless/wifi-eht-network --simulationTime=0.2s --frequency=2.4 --frequency2=5 --guardInterval=1600 --udp=0 --downlink=0 --useRts=0 --mpduBufferSize=512 --emlsrLinks=0,1 --emlsrPaddingDelay=0 --emlsrTransitionDelay=0 --channelSwitchDelay=1ns --emlsrMgrTypeId=ns3::AdvancedEmlsrManager --emlsrAuxSwitch=False --emlsrAuxTxCapable=False --minExpectedThroughput=5 --maxExpectedThroughput=40 --RngRun=9
+[407/800] [32mPASS[0m: Example examples/wireless/wifi-aggregation --simulationTime=1s --verifyResults=1
+[408/800] [32mPASS[0m: Example examples/wireless/wifi-80211e-txop --simulationTime=1s --verifyResults=1
+[409/800] [32mPASS[0m: Example examples/wireless/wifi-txop-aggregation --simulationTime=1s --verifyResults=1
+[410/800] [32mPASS[0m: Example examples/wireless/wifi-mixed-network --simulationTime=1s
+[411/800] [32mPASS[0m: Example examples/wireless/wifi-hidden-terminal --wifiManager=Arf
+[412/800] [32mPASS[0m: Example examples/wireless/wifi-multi-tos --simulationTime=1s --nWifi=16 --useRts=1 --useShortGuardInterval=1
+[413/800] [32mPASS[0m: Example examples/wireless/wifi-hidden-terminal --wifiManager=Aarfcd
+[414/800] [32mPASS[0m: Example examples/wireless/wifi-hidden-terminal --wifiManager=Aarf
+[415/800] [32mPASS[0m: Example examples/wireless/wifi-hidden-terminal --wifiManager=Onoe
+[416/800] [32mPASS[0m: Example examples/wireless/wifi-hidden-terminal --wifiManager=Amrr
+[417/800] [32mPASS[0m: Example examples/wireless/wifi-tcp
+[418/800] [32mPASS[0m: Example examples/wireless/wifi-hidden-terminal --wifiManager=Cara
+[419/800] [32mPASS[0m: Example examples/wireless/wifi-spectrum-per-example --distance=52 --index=3 --wifiType=ns3::SpectrumWifiPhy --simulationTime=1s
+[420/800] [32mPASS[0m: Example examples/wireless/wifi-hidden-terminal --wifiManager=Rrpaa
+[421/800] [32mPASS[0m: Example examples/wireless/wifi-spectrum-per-interference --distance=24 --index=31 --simulationTime=1s --waveformPower=0.1
+[422/800] [32mPASS[0m: Example examples/wireless/wifi-spectrum-per-example --distance=24 --index=31 --wifiType=ns3::YansWifiPhy --simulationTime=1s
+[423/800] [32mPASS[0m: Example examples/wireless/wifi-hidden-terminal --wifiManager=Rraa
+[424/800] [32mPASS[0m: Example examples/wireless/wifi-spectrum-saturation-example --simulationTime=1s --index=63
+[425/800] [32mPASS[0m: Example examples/wireless/wifi-hidden-terminal --wifiManager=Minstrel
+[426/800] [32mPASS[0m: Example examples/wireless/wifi-backward-compatibility --apVersion=80211a --staVersion=80211n_5GHZ --simulationTime=1s
+[427/800] [32mPASS[0m: Example examples/wireless/wifi-multicast --minExpectedPackets=10
+[428/800] [32mPASS[0m: Example examples/wireless/wifi-multicast --gcrRetransmissionPolicy=GcrUr --minExpectedPackets=10
+[429/800] [32mPASS[0m: Example examples/wireless/wifi-multicast --gcrRetransmissionPolicy=GcrUr --multicastFrameErrorRate=0.2 --minExpectedPackets=10
+[430/800] [32mPASS[0m: Example examples/wireless/wifi-backward-compatibility --apVersion=80211a --staVersion=80211n_5GHZ --apRaa=Ideal --staRaa=Ideal --simulationTime=1s
+[431/800] [32mPASS[0m: Example examples/wireless/wifi-backward-compatibility --apVersion=80211a --staVersion=80211ac --simulationTime=1s
+[432/800] [32mPASS[0m: Example examples/wireless/wifi-multicast --gcrRetransmissionPolicy=GcrBlockAck --minExpectedPackets=10
+[433/800] [32mPASS[0m: Example examples/wireless/wifi-multicast --gcrRetransmissionPolicy=GcrBlockAck --multicastFrameErrorRate=0.2 --minExpectedPackets=10
+[434/800] [32mPASS[0m: Example examples/wireless/wifi-backward-compatibility --apVersion=80211a --staVersion=80211ac --apRaa=Ideal --staRaa=Ideal --simulationTime=1s
+[435/800] [32mPASS[0m: Example examples/wireless/wifi-multicast --gcrRetransmissionPolicy=GcrUr --maxAmpduLength=65535 --maxPackets=0 --nStations=4 --dataRate=50Mbps --gcrProtection=Rts-Cts --rtsThreshold=0 --simulationTime=1 --minExpectedThroughput=35 --maxExpectedThroughput=40
+[436/800] [32mPASS[0m: Example examples/udp/udp-echo
+[437/800] [32mPASS[0m: Example examples/tutorial/first
+[438/800] [32mPASS[0m: Example examples/tutorial/hello-simulator
+[439/800] [32mPASS[0m: Example examples/wireless/wifi-multicast --gcrRetransmissionPolicy=GcrUr --maxAmpduLength=65535 --maxPackets=0 --nStations=4 --dataRate=50Mbps --gcrProtection=Cts-To-Self --simulationTime=1 --minExpectedThroughput=40 --maxExpectedThroughput=45
+[440/800] [32mPASS[0m: Example examples/tutorial/second
+[441/800] [32mPASS[0m: Example examples/tutorial/fourth
+[442/800] [32mPASS[0m: Example examples/tutorial/third
+[443/800] [32mPASS[0m: Example examples/tutorial/fifth
+[444/800] [32mPASS[0m: Example examples/tutorial/sixth
+[445/800] [32mPASS[0m: Example examples/tutorial/seventh
+[446/800] [32mPASS[0m: Example examples/wireless/wifi-multicast --gcrRetransmissionPolicy=GcrBlockAck --maxAmpduLength=65535 --maxPackets=0 --nStations=4 --dataRate=100Mbps --gcrProtection=Rts-Cts --rtsThreshold=0 --simulationTime=1s --minExpectedThroughput=100 --maxExpectedThroughput=100
+[447/800] [32mPASS[0m: Example examples/traffic-control/red-vs-nlred
+[448/800] [32mPASS[0m: Example examples/traffic-control/red-vs-fengadaptive
+[449/800] [32mPASS[0m: Example examples/tcp/star
+[450/800] [32mPASS[0m: Example examples/tcp/tcp-star-server
+[451/800] [32mPASS[0m: Example examples/tcp/tcp-large-transfer
+[452/800] [32mPASS[0m: Example examples/traffic-control/queue-discs-benchmark --simDuration=10
+[453/800] [32mPASS[0m: Example examples/wireless/wifi-multicast --gcrRetransmissionPolicy=GcrBlockAck --maxAmpduLength=65535 --maxPackets=0 --nStations=4 --dataRate=100Mbps --gcrProtection=Cts-To-Self --simulationTime=1s --minExpectedThroughput=100 --maxExpectedThroughput=100
+[454/800] [32mPASS[0m: Example examples/tcp/tcp-variants-comparison
+[455/800] [32mPASS[0m: Example examples/tcp/tcp-validation --firstTcpType=dctcp --linkRate=50Mbps --baseRtt=10ms --queueUseEcn=1 --stopTime=15s --validate=dctcp-10ms
+[456/800] [32mPASS[0m: Example examples/tcp/tcp-ecn-example --stopTime=20s
+[457/800] [32mPASS[0m: Example examples/stats/wifi-example-sim
+[458/800] [32mPASS[0m: Example examples/routing/dynamic-global-routing
+[459/800] [32mPASS[0m: Example examples/routing/global-injection-slash32
+[460/800] [32mPASS[0m: Example examples/routing/global-routing-slash32
+[461/800] [32mPASS[0m: Example examples/routing/mixed-global-routing
+[462/800] [32mPASS[0m: Example examples/routing/simple-alternate-routing
+[463/800] [32mPASS[0m: Example examples/routing/simple-global-routing
+[464/800] [32mPASS[0m: Example examples/routing/simple-routing-ping6
+[465/800] [32mPASS[0m: Example examples/routing/static-routing-slash32
+[466/800] [32mPASS[0m: Example examples/tcp/tcp-validation --firstTcpType=cubic --linkRate=50Mbps --baseRtt=50ms --queueUseEcn=1 --stopTime=20s --validate=cubic-50ms-ecn
+[467/800] [32mPASS[0m: Example examples/naming/object-names
+[468/800] [32mPASS[0m: Example examples/ipv6/icmpv6-redirect
+[469/800] [32mPASS[0m: Example examples/ipv6/radvd-two-prefix
+[470/800] [32mPASS[0m: Example examples/ipv6/test-ipv6
+[471/800] [32mPASS[0m: Example examples/error-model/simple-error-model
+[472/800] [32mPASS[0m: Example examples/energy/energy-model-example
+[473/800] [32mPASS[0m: Example examples/energy/energy-model-with-harvesting-example
+[474/800] [32mPASS[0m: Example examples/tcp/tcp-validation --firstTcpType=dctcp --linkRate=50Mbps --baseRtt=80ms --queueUseEcn=1 --stopTime=40s --validate=dctcp-80ms
+[475/800] [32mPASS[0m: Example examples/channel-models/three-gpp-v2v-channel-example
+[476/800] [32mPASS[0m: Example src/wifi/examples/wifi-phy-configuration --testCase=0
+[477/800] [32mPASS[0m: Example src/wifi/examples/wifi-phy-configuration --testCase=1
+[478/800] [32mPASS[0m: Example src/wifi/examples/wifi-phy-configuration --testCase=2
+[479/800] [32mPASS[0m: Example src/wifi/examples/wifi-phy-configuration --testCase=3
+[480/800] [32mPASS[0m: Example src/wifi/examples/wifi-phy-configuration --testCase=4
+[481/800] [32mPASS[0m: Example src/wifi/examples/wifi-phy-configuration --testCase=5
+[482/800] [32mPASS[0m: Example src/wifi/examples/wifi-phy-configuration --testCase=6
+[483/800] [32mPASS[0m: Example src/wifi/examples/wifi-phy-configuration --testCase=7
+[484/800] [32mPASS[0m: Example src/wifi/examples/wifi-phy-configuration --testCase=8
+[485/800] [32mPASS[0m: Example src/wifi/examples/wifi-phy-configuration --testCase=9
+[486/800] [32mPASS[0m: Example src/wifi/examples/wifi-phy-configuration --testCase=10
+[487/800] [32mPASS[0m: Example src/wifi/examples/wifi-phy-configuration --testCase=11
+[488/800] [32mPASS[0m: Example src/wifi/examples/wifi-phy-configuration --testCase=12
+[489/800] [32mPASS[0m: Example src/wifi/examples/wifi-phy-configuration --testCase=13
+[490/800] [32mPASS[0m: Example src/wifi/examples/wifi-phy-configuration --testCase=14
+[491/800] [32mPASS[0m: Example src/wifi/examples/wifi-phy-configuration --testCase=15
+[492/800] [32mPASS[0m: Example src/wifi/examples/wifi-phy-configuration --testCase=16
+[493/800] [32mPASS[0m: Example src/wifi/examples/wifi-phy-configuration --testCase=17
+[494/800] [32mPASS[0m: Example src/wifi/examples/wifi-phy-configuration --testCase=18
+[495/800] [32mPASS[0m: Example src/wifi/examples/wifi-phy-configuration --testCase=19
+[496/800] [32mPASS[0m: Example src/wifi/examples/wifi-phy-configuration --testCase=20
+[497/800] [32mPASS[0m: Example examples/tcp/tcp-validation --firstTcpType=cubic --linkRate=50Mbps --baseRtt=50ms --queueUseEcn=0 --stopTime=20s --validate=cubic-50ms-no-ecn
+[498/800] [32mPASS[0m: Example examples/realtime/realtime-udp-echo
+[499/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Aarf --standard=802.11a --stepTime=0.1
+[500/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Aarf --standard=802.11b --serverChannelWidth=22 --clientChannelWidth=22 --stepTime=0.1
+[501/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Aarf --standard=802.11a --maxRetryCount=1 --stepTime=0.1
+[502/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Aarf --standard=802.11a --rtsThreshold=0 --stepTime=0.1
+[503/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Aarf --standard=802.11p-10MHz --stepTime=0.1
+[504/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Aarf --standard=802.11g --stepTime=0.1
+[505/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Aarf --standard=802.11p-5MHz --stepTime=0.1
+[506/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Aarfcd --standard=802.11a --stepTime=0.1
+[507/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Aarfcd --standard=802.11b --serverChannelWidth=22 --clientChannelWidth=22 --stepTime=0.1
+[508/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Aarfcd --standard=802.11a --rtsThreshold=0 --stepTime=0.1
+[509/800] [32mPASS[0m: Example examples/channel-models/three-gpp-v2v-channel-example --updatePeriodMs=1
+[510/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Aarfcd --standard=802.11a --maxRetryCount=1 --stepTime=0.1
+[511/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Aarfcd --standard=802.11p-5MHz --stepTime=0.1
+[512/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Aarfcd --standard=802.11p-10MHz --stepTime=0.1
+[513/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Aarfcd --standard=802.11g --stepTime=0.1
+[514/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Amrr --standard=802.11b --serverChannelWidth=22 --clientChannelWidth=22 --stepTime=0.1
+[515/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Amrr --standard=802.11a --stepTime=0.1
+[516/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Amrr --standard=802.11g --stepTime=0.1
+[517/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Amrr --standard=802.11a --maxRetryCount=1 --stepTime=0.1
+[518/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Amrr --standard=802.11a --rtsThreshold=0 --stepTime=0.1
+[519/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Amrr --standard=802.11p-5MHz --stepTime=0.1
+[520/800] [32mPASS[0m: Example examples/wireless/wifi-eht-network --simulationTime=0.23s --udp=0 --downlink=1 --useRts=0 --nStations=4 --dlAckType=ACK-SU-FORMAT --enableUlOfdma=1 --enableBsrp=0 --mcs=6 --frequency2=6 --minExpectedThroughput=35 --maxExpectedThroughput=404
+[521/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Arf --standard=802.11b --serverChannelWidth=22 --clientChannelWidth=22 --stepTime=0.1
+[522/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Amrr --standard=802.11p-10MHz --stepTime=0.1
+[523/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Arf --standard=802.11a --stepTime=0.1
+[524/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Arf --standard=802.11g --stepTime=0.1
+[525/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Arf --standard=802.11a --maxRetryCount=1 --stepTime=0.1
+[526/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Arf --standard=802.11p-10MHz --stepTime=0.1
+[527/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Arf --standard=802.11a --rtsThreshold=0 --stepTime=0.1
+[528/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Cara --standard=802.11b --serverChannelWidth=22 --clientChannelWidth=22 --stepTime=0.1
+[529/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Arf --standard=802.11p-5MHz --stepTime=0.1
+[530/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Cara --standard=802.11p-10MHz --stepTime=0.1
+[531/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Cara --standard=802.11g --stepTime=0.1
+[532/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Cara --standard=802.11a --stepTime=0.1
+[533/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Cara --standard=802.11p-5MHz --stepTime=0.1
+[534/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Onoe --standard=802.11a --stepTime=0.1
+[535/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Cara --standard=802.11a --rtsThreshold=0 --stepTime=0.1
+[536/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Onoe --standard=802.11b --serverChannelWidth=22 --clientChannelWidth=22 --stepTime=0.1
+[537/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Onoe --standard=802.11a --rtsThreshold=0 --stepTime=0.1
+[538/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Onoe --standard=802.11g --stepTime=0.1
+[539/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Onoe --standard=802.11p-10MHz --stepTime=0.1
+[540/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Onoe --standard=802.11a --maxRetryCount=1 --stepTime=0.1
+[541/800] [32mPASS[0m: Example examples/wireless/wifi-eht-network --simulationTime=0.3s --frequency=2.4 --frequency2=5 --frequency3=6 --guardInterval=1600 --udp=0 --downlink=0 --useRts=1 --mpduBufferSize=512 --emlsrLinks=0,1,2 --emlsrPaddingDelay=0 --emlsrTransitionDelay=0 --channelSwitchDelay=1ns --emlsrMgrTypeId=ns3::AdvancedEmlsrManager --emlsrAuxSwitch=False --emlsrAuxTxCapable=False --nStations=4 --dlAckType=ACK-SU-FORMAT --enableUlOfdma=1 --enableBsrp=1 --mcs=1,5,8,11 --minExpectedThroughput=8 --maxExpectedThroughput=288
+[542/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Cara --standard=802.11a --maxRetryCount=1 --stepTime=0.1
+[543/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Rraa --standard=802.11b --serverChannelWidth=22 --clientChannelWidth=22 --stepTime=0.1
+[544/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Onoe --standard=802.11p-5MHz --stepTime=0.1
+[545/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Rraa --standard=802.11p-5MHz --stepTime=0.1
+[546/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Rraa --standard=802.11p-10MHz --stepTime=0.1
+[547/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Rraa --standard=802.11a --stepTime=0.1
+[548/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Rraa --standard=802.11a --rtsThreshold=0 --stepTime=0.1
+[549/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Minstrel --standard=802.11b --serverChannelWidth=22 --clientChannelWidth=22 --stepTime=0.1
+[550/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Rraa --standard=802.11a --maxRetryCount=1 --stepTime=0.1
+[551/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Rraa --standard=802.11g --stepTime=0.1
+[552/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Minstrel --standard=802.11a --stepTime=0.1
+[553/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Minstrel --standard=802.11p-10MHz --stepTime=0.1
+[554/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11b --serverChannelWidth=22 --clientChannelWidth=22 --stepTime=0.1
+[555/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Minstrel --standard=802.11g --stepTime=0.1
+[556/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Minstrel --standard=802.11a --rtsThreshold=0 --stepTime=0.1
+[557/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Minstrel --standard=802.11a --maxRetryCount=1 --stepTime=0.1
+[558/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Minstrel --standard=802.11p-5MHz --stepTime=0.1
+[559/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11p-5MHz --stepTime=0.1
+[560/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11a --stepTime=0.1
+[561/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11p-10MHz --stepTime=0.1
+[562/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11g --stepTime=0.1
+[563/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11n-5GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[564/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11n-5GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=400 --clientShortGuardInterval=400 --serverNss=1 --clientNss=1 --stepTime=0.1
+[565/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11n-5GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[566/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11n-5GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=2 --clientNss=2 --stepTime=0.1
+[567/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11n-5GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=400 --clientShortGuardInterval=400 --serverNss=1 --clientNss=1 --stepTime=0.1
+[568/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ac --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=400 --clientShortGuardInterval=400 --serverNss=1 --clientNss=1 --stepTime=0.1
+[569/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ac --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[570/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11n-2.4GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=400 --clientShortGuardInterval=400 --serverNss=4 --clientNss=4 --stepTime=0.1
+[571/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11n-5GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=400 --clientShortGuardInterval=400 --serverNss=4 --clientNss=4 --stepTime=0.1
+[572/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ac --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[573/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ac --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=400 --clientShortGuardInterval=400 --serverNss=1 --clientNss=1 --stepTime=0.1
+[574/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11a --stepTime=0.1
+[575/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11b --serverChannelWidth=22 --clientChannelWidth=22 --stepTime=0.1
+[576/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11g --stepTime=0.1
+[577/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ac --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=2 --clientNss=2 --stepTime=0.1
+[578/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11p-10MHz --stepTime=0.1
+[579/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11p-5MHz --stepTime=0.1
+[580/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11n-5GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[581/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11n-5GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=400 --clientShortGuardInterval=400 --serverNss=1 --clientNss=1 --stepTime=0.1
+[582/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ac --serverChannelWidth=80 --clientChannelWidth=80 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[583/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11n-5GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[584/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11n-5GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=400 --clientShortGuardInterval=400 --serverNss=1 --clientNss=1 --stepTime=0.1
+[585/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11n-5GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=2 --clientNss=2 --stepTime=0.1
+[586/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ac --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[587/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ac --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=400 --clientShortGuardInterval=400 --serverNss=1 --clientNss=1 --stepTime=0.1
+[588/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11n-5GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=400 --clientShortGuardInterval=400 --serverNss=4 --clientNss=4 --stepTime=0.1
+[589/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11n-2.4GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=400 --clientShortGuardInterval=400 --serverNss=4 --clientNss=4 --stepTime=0.1
+[590/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ac --serverChannelWidth=80 --clientChannelWidth=80 --serverShortGuardInterval=400 --clientShortGuardInterval=400 --serverNss=1 --clientNss=1 --stepTime=0.1
+[591/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ac --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[592/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ac --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=400 --clientShortGuardInterval=400 --serverNss=1 --clientNss=1 --stepTime=0.1
+[593/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ac --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[594/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ac --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=400 --clientShortGuardInterval=400 --serverNss=1 --clientNss=1 --stepTime=0.1
+[595/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ac --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=2 --clientNss=2 --stepTime=0.1
+[596/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-5GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[597/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ac --serverChannelWidth=80 --clientChannelWidth=80 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[598/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-5GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=1 --clientNss=1 --stepTime=0.1
+[599/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-5GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=1 --clientNss=1 --stepTime=0.1
+[600/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ac --serverChannelWidth=80 --clientChannelWidth=80 --serverShortGuardInterval=400 --clientShortGuardInterval=400 --serverNss=1 --clientNss=1 --stepTime=0.1
+[601/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-5GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=1 --clientNss=1 --stepTime=0.1
+[602/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-5GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[603/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ac --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[604/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-5GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=1 --clientNss=1 --stepTime=0.1
+[605/800] [32mPASS[0m: Example examples/wireless/wifi-he-network --simulationTime=0.25s --frequency=5 --useRts=0 --use80Plus80=1 --minExpectedThroughput=6 --maxExpectedThroughput=844
+[606/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ac --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=400 --clientShortGuardInterval=400 --serverNss=1 --clientNss=1 --stepTime=0.1
+[607/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-5GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=2 --clientNss=2 --stepTime=0.1
+[608/800] [32mPASS[0m: Example examples/wireless/wifi-eht-network --simulationTime=0.25s --udp=0 --downlink=0 --useRts=0 --nStations=4 --dlAckType=AGGR-MU-BAR --enableUlOfdma=1 --enableBsrp=1 --mpduBufferSize=1024 --mcs=8 --muSchedAccessReqInterval=45ms --frequency2=6 --minExpectedThroughput=50 --maxExpectedThroughput=550 --RngRun=6
+[609/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-5GHz --serverChannelWidth=80 --clientChannelWidth=80 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=1 --clientNss=1 --stepTime=0.1
+[610/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-5GHz --serverChannelWidth=80 --clientChannelWidth=80 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=1 --clientNss=1 --stepTime=0.1
+[611/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-2.4GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[612/800] [32mPASS[0m: Example examples/wireless/wifi-eht-network --simulationTime=0.1s --frequency=5 --useRts=0 --mpduBufferSize=1024 --frequency2=6 --minExpectedThroughput=7 --maxExpectedThroughput=1444
+[613/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-2.4GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=1 --clientNss=1 --stepTime=0.1
+[614/800] [32mPASS[0m: Example examples/wireless/wifi-eht-network --simulationTime=0.3s --frequency=2.4 --frequency2=5 --frequency3=6 --guardInterval=1600 --udp=0 --downlink=0 --useRts=1 --mpduBufferSize=512 --emlsrLinks=0,1,2 --emlsrPaddingDelay=64 --emlsrTransitionDelay=64 --channelSwitchDelay=64us --emlsrAuxSwitch=False --emlsrAuxTxCapable=True --nStations=4 --dlAckType=MU-BAR --enableUlOfdma=1 --enableBsrp=1 --mcs=1,4,8,11,13 --minExpectedThroughput=10 --maxExpectedThroughput=260
+[615/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-2.4GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=1 --clientNss=1 --stepTime=0.1
+[616/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-5GHz --serverChannelWidth=80 --clientChannelWidth=80 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[617/800] [32mPASS[0m: Example examples/wireless/wifi-eht-network --simulationTime=0.1s --frequency=6 --useRts=1 --minExpectedThroughput=5 --maxExpectedThroughput=800
+[618/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-5GHz --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=1 --clientNss=1 --stepTime=0.1
+[619/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-2.4GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=1 --clientNss=1 --stepTime=0.1
+[620/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-2.4GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[621/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-5GHz --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[622/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-6GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=1 --clientNss=1 --stepTime=0.1
+[623/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-2.4GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=2 --clientNss=2 --stepTime=0.1
+[624/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-6GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[625/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-6GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=1 --clientNss=1 --stepTime=0.1
+[626/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-2.4GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=1 --clientNss=1 --stepTime=0.1
+[627/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-6GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=1 --clientNss=1 --stepTime=0.1
+[628/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-6GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[629/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-6GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=1 --clientNss=1 --stepTime=0.1
+[630/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-6GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=2 --clientNss=2 --stepTime=0.1
+[631/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-6GHz --serverChannelWidth=80 --clientChannelWidth=80 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=1 --clientNss=1 --stepTime=0.1
+[632/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-5GHz --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=1 --clientNss=1 --stepTime=0.1
+[633/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-6GHz --serverChannelWidth=80 --clientChannelWidth=80 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[634/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-5GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[635/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-5GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=1 --clientNss=1 --stepTime=0.1
+[636/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-5GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=1 --clientNss=1 --stepTime=0.1
+[637/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-6GHz --serverChannelWidth=80 --clientChannelWidth=80 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=1 --clientNss=1 --stepTime=0.1
+[638/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-5GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[639/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-5GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=1 --clientNss=1 --stepTime=0.1
+[640/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-6GHz --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[641/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-5GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=1 --clientNss=1 --stepTime=0.1
+[642/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-6GHz --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=1 --clientNss=1 --stepTime=0.1
+[643/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-5GHz --serverChannelWidth=80 --clientChannelWidth=80 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=1 --clientNss=1 --stepTime=0.1
+[644/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-5GHz --serverChannelWidth=80 --clientChannelWidth=80 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[645/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-5GHz --serverChannelWidth=80 --clientChannelWidth=80 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=1 --clientNss=1 --stepTime=0.1
+[646/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-6GHz --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=1 --clientNss=1 --stepTime=0.1
+[647/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-5GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=2 --clientNss=2 --stepTime=0.1
+[648/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-2.4GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[649/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-2.4GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=1 --clientNss=1 --stepTime=0.1
+[650/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-5GHz --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[651/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-2.4GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=1 --clientNss=1 --stepTime=0.1
+[652/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-2.4GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[653/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-2.4GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=1 --clientNss=1 --stepTime=0.1
+[654/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-6GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[655/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-2.4GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=1 --clientNss=1 --stepTime=0.1
+[656/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-2.4GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=2 --clientNss=2 --stepTime=0.1
+[657/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-6GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=1 --clientNss=1 --stepTime=0.1
+[658/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-5GHz --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=1 --clientNss=1 --stepTime=0.1
+[659/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-5GHz --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=4 --clientNss=4 --stepTime=0.1
+[660/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-5GHz --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=4 --clientNss=4 --stepTime=0.1
+[661/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-5GHz --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=1 --clientNss=1 --stepTime=0.1
+[662/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-6GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=1 --clientNss=1 --stepTime=0.1
+[663/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-6GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[664/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-6GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=1 --clientNss=1 --stepTime=0.1
+[665/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-6GHz --serverChannelWidth=40 --clientChannelWidth=40 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=1 --clientNss=1 --stepTime=0.1
+[666/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-6GHz --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=4 --clientNss=4 --stepTime=0.1
+[667/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-6GHz --serverChannelWidth=20 --clientChannelWidth=20 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=2 --clientNss=2 --stepTime=0.1
+[668/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-6GHz --serverChannelWidth=80 --clientChannelWidth=80 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[669/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-6GHz --serverChannelWidth=80 --clientChannelWidth=80 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=1 --clientNss=1 --stepTime=0.1
+[670/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-6GHz --serverChannelWidth=80 --clientChannelWidth=80 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=1 --clientNss=1 --stepTime=0.1
+[671/800] [32mPASS[0m: Example src/wifi/examples/wifi-test-interference-helper --enableCapture=0 --txPowerA=5 --txPowerB=15 --delay=10us --txModeA=OfdmRate6Mbps --txModeB=OfdmRate6Mbps --checkResults=1 --expectRxASuccessful=0 --expectRxBSuccessful=0
+[672/800] [32mPASS[0m: Example src/wifi/examples/wifi-test-interference-helper --enableCapture=0 --txPowerA=5 --txPowerB=15  --delay=17us --standard=WIFI_PHY_STANDARD_80211ac --preamble=WIFI_PREAMBLE_VHT_SU --txModeA=VhtMcs0 --txModeB=VhtMcs0 --checkResults=1 --expectRxASuccessful=0 --expectRxBSuccessful=0
+[673/800] [32mPASS[0m: Example src/wifi/examples/wifi-test-interference-helper --enableCapture=0 --txPowerA=5 --txPowerB=15  --delay=20us --standard=WIFI_PHY_STANDARD_80211ac --preamble=WIFI_PREAMBLE_VHT_SU --txModeA=VhtMcs0 --txModeB=VhtMcs0 --checkResults=1 --expectRxASuccessful=0 --expectRxBSuccessful=0
+[674/800] [32mPASS[0m: Example src/wifi/examples/wifi-test-interference-helper --enableCapture=0 --txPowerA=5 --txPowerB=15  --delay=27us --standard=WIFI_PHY_STANDARD_80211ac --preamble=WIFI_PREAMBLE_VHT_SU --txModeA=VhtMcs0 --txModeB=VhtMcs0 --checkResults=1 --expectRxASuccessful=0 --expectRxBSuccessful=0
+[675/800] [32mPASS[0m: Example src/wifi/examples/wifi-test-interference-helper --enableCapture=1 --txPowerA=5 --txPowerB=15 --delay=10us --txModeA=OfdmRate6Mbps --txModeB=OfdmRate6Mbps --checkResults=1 --expectRxASuccessful=0 --expectRxBSuccessful=1
+[676/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-6GHz --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=1 --clientNss=1 --stepTime=0.1
+[677/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-6GHz --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=1 --clientNss=1 --stepTime=0.1
+[678/800] [32mPASS[0m: Example src/uan/examples/uan-rc-example
+[679/800] [32mPASS[0m: Example src/traffic-control/examples/adaptive-red-tests --testNumber=1
+[680/800] [32mPASS[0m: Example src/traffic-control/examples/adaptive-red-tests --testNumber=2
+[681/800] [32mPASS[0m: Example src/traffic-control/examples/adaptive-red-tests --testNumber=3
+[682/800] [32mPASS[0m: Example src/traffic-control/examples/adaptive-red-tests --testNumber=4
+[683/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-5GHz --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=4 --clientNss=4 --stepTime=0.1
+[684/800] [32mPASS[0m: Example src/traffic-control/examples/adaptive-red-tests --testNumber=6
+[685/800] [32mPASS[0m: Example src/traffic-control/examples/adaptive-red-tests --testNumber=7
+[686/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11ax-6GHz --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=4 --clientNss=4 --stepTime=0.1
+[687/800] [32mPASS[0m: Example src/traffic-control/examples/adaptive-red-tests --testNumber=8
+[688/800] [32mPASS[0m: Example src/traffic-control/examples/adaptive-red-tests --testNumber=9
+[689/800] [32mPASS[0m: Example src/traffic-control/examples/adaptive-red-tests --testNumber=10
+[690/800] [32mPASS[0m: Example src/traffic-control/examples/adaptive-red-tests --testNumber=13
+[691/800] [32mPASS[0m: Example src/traffic-control/examples/adaptive-red-tests --testNumber=14
+[692/800] [32mPASS[0m: Example src/traffic-control/examples/adaptive-red-tests --testNumber=15
+[693/800] [32mPASS[0m: Example src/traffic-control/examples/adaptive-red-tests --testNumber=11
+[694/800] [32mPASS[0m: Example src/traffic-control/examples/adaptive-red-tests --testNumber=12
+[695/800] [32mPASS[0m: Example src/traffic-control/examples/codel-vs-pfifo-basic-test --queueDiscType=PfifoFast --simDuration=10
+[696/800] [32mPASS[0m: Example src/traffic-control/examples/codel-vs-pfifo-basic-test --queueDiscType=CoDel --simDuration=10
+[697/800] [32mPASS[0m: Example src/traffic-control/examples/pfifo-vs-red --queueDiscType=PfifoFast
+[698/800] [32mPASS[0m: Example src/traffic-control/examples/codel-vs-pfifo-asymmetric --routerWanQueueDiscType=PfifoFast --simDuration=10
+[699/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-6GHz --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=800 --clientShortGuardInterval=800 --serverNss=1 --clientNss=1 --stepTime=0.1
+[700/800] [32mPASS[0m: Example src/traffic-control/examples/pfifo-vs-red --queueDiscType=PfifoFast --modeBytes=1
+[701/800] [32mPASS[0m: Example src/traffic-control/examples/pfifo-vs-red --queueDiscType=RED
+[702/800] [32mPASS[0m: Example src/traffic-control/examples/pfifo-vs-red --queueDiscType=RED --modeBytes=1
+[703/800] [32mPASS[0m: Example src/traffic-control/examples/red-tests --testNumber=1
+[704/800] [32mPASS[0m: Example src/traffic-control/examples/red-tests --testNumber=3
+[705/800] [32mPASS[0m: Example src/traffic-control/examples/red-tests --testNumber=4
+[706/800] [32mPASS[0m: Example src/traffic-control/examples/red-tests --testNumber=5
+[707/800] [32mPASS[0m: Example src/traffic-control/examples/red-vs-ared --queueDiscType=RED
+[708/800] [32mPASS[0m: Example src/traffic-control/examples/red-vs-ared --queueDiscType=RED --modeBytes=true
+[709/800] [32mPASS[0m: Example src/stats/examples/double-probe-example
+[710/800] [32mPASS[0m: Example src/stats/examples/file-aggregator-example
+[711/800] [32mPASS[0m: Example src/stats/examples/file-helper-example
+[712/800] [32mPASS[0m: Example src/traffic-control/examples/red-vs-ared --queueDiscType=ARED
+[713/800] [32mPASS[0m: Example src/stats/examples/gnuplot-aggregator-example
+[714/800] [32mPASS[0m: Example src/stats/examples/gnuplot-helper-example
+[715/800] [32mPASS[0m: Example src/spectrum/examples/adhoc-aloha-ideal-phy
+[716/800] [32mPASS[0m: Example src/spectrum/examples/adhoc-aloha-ideal-phy-matrix-propagation-loss-model
+[717/800] [32mPASS[0m: Example src/spectrum/examples/adhoc-aloha-ideal-phy-with-microwave-oven
+[718/800] [32mPASS[0m: Example src/uan/examples/uan-cw-example
+[719/800] [32mPASS[0m: Example src/traffic-control/examples/codel-vs-pfifo-asymmetric --routerWanQueueDiscType=CoDel --simDuration=10
+[720/800] [32mPASS[0m: Example src/point-to-point/examples/main-attribute-value
+[721/800] [32mPASS[0m: Example src/propagation/examples/main-propagation-loss --test
+[722/800] [32mPASS[0m: Example src/network/examples/main-packet-header
+[723/800] [32mPASS[0m: Example src/network/examples/main-packet-tag
+[724/800] [32mPASS[0m: Example src/nix-vector-routing/examples/nix-simple
+[725/800] [32mPASS[0m: Example src/spectrum/examples/three-gpp-channel-example
+[726/800] [32mPASS[0m: Example src/netanim/examples/star-animation
+[727/800] [32mPASS[0m: Example src/olsr/examples/simple-point-to-point-olsr
+[728/800] [32mPASS[0m: Example src/netanim/examples/grid-animation
+[729/800] [32mPASS[0m: Example src/mobility/examples/main-grid-topology
+[730/800] [32mPASS[0m: Example src/mobility/examples/main-random-walk
+[731/800] [32mPASS[0m: Example src/traffic-control/examples/red-vs-ared --queueDiscType=ARED --modeBytes=true
+[732/800] [32mPASS[0m: Example src/mobility/examples/reference-point-group-mobility-example --useHelper=0
+[733/800] [32mPASS[0m: Example src/mobility/examples/reference-point-group-mobility-example --useHelper=1
+[734/800] [32mPASS[0m: Example src/lte/examples/lena-cqi-threshold
+[735/800] [32mPASS[0m: Example src/lte/examples/lena-dual-stripe --simTime=0.0 --nApartmentsX=1 --homeEnbDeploymentRatio=0.5 --nMacroEnbSites=0 --macroUeDensity=0 --nBlocks=1
+[736/800] [32mPASS[0m: Example src/mobility/examples/main-random-topology
+[737/800] [32mPASS[0m: Example src/lte/examples/lena-dual-stripe --epc=1 --simTime=0.0 --nApartmentsX=1 --homeEnbDeploymentRatio=0.5 --nMacroEnbSites=0 --macroUeDensity=0 --nBlocks=1
+[738/800] [32mPASS[0m: Example src/lte/examples/lena-dual-stripe --simTime=0.01
+[739/800] [32mPASS[0m: Example src/lte/examples/lena-dual-stripe --epc=1 --simTime=0.01
+[740/800] [32mPASS[0m: Example src/lte/examples/lena-dual-stripe --epc=1 --useUdp=0 --simTime=0.01
+[741/800] [32mPASS[0m: Example src/netanim/examples/dumbbell-animation
+[742/800] [32mPASS[0m: Example src/lte/examples/lena-dual-stripe --epc=1 --fadingTrace=../../src/lte/model/fading-traces/fading_trace_EPA_3kmph.fad --simTime=0.01
+[743/800] [32mPASS[0m: Example src/lte/examples/lena-dual-stripe --nBlocks=1  --nMacroEnbSites=0 --macroUeDensity=0 --homeEnbDeploymentRatio=1 --homeEnbActivationRatio=1 --homeUesHomeEnbRatio=2 --macroEnbTxPowerDbm=0 --simTime=0.01
+[744/800] [32mPASS[0m: Example src/lte/examples/lena-intercell-interference --simTime=0.1
+[745/800] [32mPASS[0m: Example src/lte/examples/lena-fading
+[746/800] [32mPASS[0m: Example src/lte/examples/lena-pathloss-traces
+[747/800] [32mPASS[0m: Example src/lte/examples/lena-profiling
+[748/800] [32mPASS[0m: Example src/lte/examples/lena-profiling --simTime=0.1 --nUe=2 --nEnb=5 --nFloors=0
+[749/800] [32mPASS[0m: Example src/lte/examples/lena-dual-stripe --nMacroEnbSites=0 --macroUeDensity=0 --nBlocks=1 --nApartmentsX=4 --nMacroEnbSitesX=0 --homeEnbDeploymentRatio=1 --homeEnbActivationRatio=1 --macroEnbTxPowerDbm=0 --epcDl=1 --epcUl=0 --epc=1 --numBearersPerUe=4 --homeUesHomeEnbRatio=15 --simTime=0.01
+[750/800] [32mPASS[0m: Example src/lte/examples/lena-profiling --simTime=0.1 --nUe=3 --nEnb=6 --nFloors=1
+[751/800] [32mPASS[0m: Example src/lte/examples/lena-rlc-traces
+[752/800] [32mPASS[0m: Example src/lte/examples/lena-rem
+[753/800] [32mPASS[0m: Example src/lte/examples/lena-rem-sector-antenna
+[754/800] [32mPASS[0m: Example src/lte/examples/lena-simple
+[755/800] [32mPASS[0m: Example src/lte/examples/lena-simple-epc
+[756/800] [32mPASS[0m: Example src/lte/examples/lena-x2-handover
+[757/800] [32mPASS[0m: Example src/netanim/examples/wireless-animation
+[758/800] [32mPASS[0m: Example src/lte/examples/lena-ipv6-ue-ue
+[759/800] [32mPASS[0m: Example src/lte/examples/lena-ipv6-addr-conf
+[760/800] [32mPASS[0m: Example src/lte/examples/lena-ipv6-ue-rh
+[761/800] [32mPASS[0m: Example src/lte/examples/lena-dual-stripe
+[762/800] [32mPASS[0m: Example src/lr-wpan/examples/lr-wpan-data
+[763/800] [32mPASS[0m: Example src/lte/examples/lena-radio-link-failure --numberOfEnbs=1 --simTime=17
+[764/800] [32mPASS[0m: Example src/lr-wpan/examples/lr-wpan-error-model-plot
+[765/800] [32mPASS[0m: Example src/lr-wpan/examples/lr-wpan-packet-print
+[766/800] [32mPASS[0m: Example src/lr-wpan/examples/lr-wpan-phy-test
+[767/800] [32mPASS[0m: Example src/internet/examples/main-simple
+[768/800] [32mPASS[0m: Example src/fd-net-device/examples/dummy-network
+[769/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-5GHz --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=4 --clientNss=4 --stepTime=0.1
+[770/800] [32mPASS[0m: Example src/fd-net-device/examples/fd2fd-onoff
+[771/800] [32mPASS[0m: Example src/energy/examples/basic-energy-model-test
+[772/800] [32mPASS[0m: Example src/csma/examples/csma-broadcast
+[773/800] [32mPASS[0m: Example src/csma/examples/csma-multicast
+[774/800] [32mPASS[0m: Example src/csma/examples/csma-one-subnet
+[775/800] [32mPASS[0m: Example src/csma/examples/csma-packet-socket
+[776/800] [32mPASS[0m: Example src/csma/examples/csma-ping
+[777/800] [32mPASS[0m: Example src/csma/examples/csma-raw-ip-socket
+[778/800] [32mPASS[0m: Example src/core/examples/main-callback
+[779/800] [32mPASS[0m: Example src/core/examples/sample-simulator
+[780/800] [32mPASS[0m: Example src/core/examples/main-ptr
+[781/800] [32mPASS[0m: Example src/core/examples/sample-random-variable
+[782/800] [32mPASS[0m: Example src/core/examples/system-path-examples
+[783/800] [32mPASS[0m: Example src/core/examples/test-string-value-formatting
+[784/800] [32mPASS[0m: Example src/config-store/examples/config-store-save
+[785/800] [32mPASS[0m: Example src/buildings/examples/buildings-pathloss-profiler
+[786/800] [32mPASS[0m: Example src/buildings/examples/outdoor-group-mobility-example --useHelper=0
+[787/800] [32mPASS[0m: Example src/buildings/examples/outdoor-group-mobility-example --useHelper=1
+[788/800] [32mPASS[0m: Example src/bridge/examples/csma-bridge
+[789/800] [32mPASS[0m: Example src/energy/examples/rv-battery-model-test
+[790/800] [32mPASS[0m: Example src/bridge/examples/csma-bridge-one-hop
+[791/800] [32mPASS[0m: Example src/lr-wpan/examples/lr-wpan-error-distance-plot
+[792/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-6GHz --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=4 --clientNss=4 --stepTime=0.1
+[793/800] [32mPASS[0m: Example src/lte/examples/lena-radio-link-failure --numberOfEnbs=1 --useIdealRrc=0 --simTime=17
+[794/800] [32mPASS[0m: Example src/lte/examples/lena-radio-link-failure --numberOfEnbs=2 --interSiteDistance=700 --simTime=17
+[795/800] [32mPASS[0m: Example src/lte/examples/lena-radio-link-failure --numberOfEnbs=2 --useIdealRrc=0 --interSiteDistance=700 --simTime=17
+[796/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11be-6GHz --serverChannelWidth=320 --clientChannelWidth=320 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=1 --clientNss=1 --stepTime=0.1
+[797/800] [32mPASS[0m: Example src/wifi/examples/wifi-bianchi --validate --phyMode=OfdmRate6Mbps --nMinStas=5 --nMaxStas=10 --duration=15
+[798/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=Ideal --standard=802.11be-6GHz --serverChannelWidth=320 --clientChannelWidth=320 --serverShortGuardInterval=1600 --clientShortGuardInterval=1600 --serverNss=1 --clientNss=1 --stepTime=0.1
+[799/800] [32mPASS[0m: Example src/wifi/examples/wifi-manager-example --wifiManager=MinstrelHt --standard=802.11ax-6GHz --serverChannelWidth=160 --clientChannelWidth=160 --serverShortGuardInterval=3200 --clientShortGuardInterval=3200 --serverNss=4 --clientNss=4 --stepTime=0.1
+[800/800] [32mPASS[0m: Example examples/wireless/wifi-eht-network --simulationTime=0.3s --frequency=2.4 --frequency2=5 --frequency3=6 --guardInterval=1600 --udp=0 --downlink=1 --useRts=0 --mpduBufferSize=512 --emlsrLinks=0,1,2 --emlsrPaddingDelay=32 --emlsrTransitionDelay=32 --channelSwitchDelay=32us --emlsrAuxSwitch=True --emlsrAuxTxCapable=True --nStations=4 --dlAckType=AGGR-MU-BAR --enableUlOfdma=1 --enableBsrp=0 --mcs=0,3,5,9,10 --minExpectedThroughput=8 --maxExpectedThroughput=300
+800 of 800 tests passed (800 passed, 0 skipped, 0 failed, 0 crashed, 0 valgrind errors)

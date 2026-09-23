@@ -1,0 +1,9 @@
+[0/2] Re-checking globbed directories...
+[1/2] Building CXX object scratch/CMakeFiles/scratch_e0-smoke.dir/e0-smoke.cc.o
+/home/ccc/projects/huawei-cup-d/external/ns-3.47/scratch/e0-smoke.cc: In function ‘int main(int, char**)’:
+/home/ccc/projects/huawei-cup-d/external/ns-3.47/scratch/e0-smoke.cc:156:15: warning: variable ‘uAddr’ set but not used [-Wunused-but-set-variable]
+  156 |   Ipv4Address uAddr = ifaces.GetAddress(0); // U01
+      |               ^~~~~
+[2/2] Linking CXX executable /home/ccc/projects/huawei-cup-d/external/ns-3.47/build/scratch/ns3.47-e0-smoke-default
+Finished executing the following commands:
+/usr/bin/cmake --build /home/ccc/projects/huawei-cup-d/external/ns-3.47/cmake-cache -j 11 --target scratch_e0-smoke

@@ -1,0 +1,6 @@
+wrote /home/ccc/projects/huawei-cup-d/export/e0_test_trace.csv
+node_id  time   x  y  z
+    G01     0   0  0  0
+    U01     0   0  0 50
+    U01    10 100  0 50
+    U01    20 200  0 50

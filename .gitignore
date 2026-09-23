@@ -1,0 +1,34 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Build / ns-3
+build/
+cmake-cache/
+cmake_cache/
+cmake-cache-debug/
+ns-3-build/
+*.o
+*.so
+*.a
+
+# Results / caches
+results/tmp/
+data/cache/
+*.pcap
+*.xml
+!docs/**/*.xml
+
+# Logs that may grow large
+*.log.tmp
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
