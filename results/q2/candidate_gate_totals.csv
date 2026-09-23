@@ -1,2 +1,2 @@
-generated,failed_mass,failed_volume,failed_energy,failed_relative_deadline,failed_service_consistency,accepted_candidate,contraction_ratio
-2707,211,32,14,0,0,2450,0.9050609530845954
+generated,accepted,retention_ratio,rejection_ratio,failed_mass,failed_volume,failed_energy,failed_relative_deadline,failed_service_consistency
+2749,2482,0.9028737722808294,0.09712622771917057,183,76,8,0,0

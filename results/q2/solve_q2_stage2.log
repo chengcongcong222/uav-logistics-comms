@@ -1,0 +1,19 @@
+reload B0/B1...
+J_time_best_known 0.4780761140468921
+Stage2 epsilon...
+  eps=0.0 obj=makespan {'J_time': 0.4753806294310454, 'makespan': 10597.432092474439, 'energy': 79.15242610915085, 'sorties': 30}
+  eps=0.0 obj=energy {'J_time': 0.47520164291314676, 'makespan': 10597.432092474439, 'energy': 79.07507748147118, 'sorties': 30}
+  eps=0.0 obj=sorties {'J_time': 0.47030533185263057, 'makespan': 10597.432092474439, 'energy': 79.94596136064484, 'sorties': 30}
+  eps=0.01 obj=makespan {'J_time': 0.47636514423953447, 'makespan': 10410.574908502569, 'energy': 77.35860556893901, 'sorties': 29}
+  eps=0.01 obj=energy {'J_time': 0.47809527394093293, 'makespan': 10231.124383392465, 'energy': 78.04494563021927, 'sorties': 29}
+  eps=0.01 obj=sorties {'J_time': 0.4706659809564581, 'makespan': 10597.432092474439, 'energy': 78.98302217542592, 'sorties': 29}
+  eps=0.02 obj=makespan {'J_time': 0.47636514423953447, 'makespan': 10410.574908502569, 'energy': 77.35860556893901, 'sorties': 29}
+  eps=0.02 obj=energy {'J_time': 0.47809527394093293, 'makespan': 10231.124383392465, 'energy': 78.04494563021927, 'sorties': 29}
+  eps=0.02 obj=sorties {'J_time': 0.4706659809564581, 'makespan': 10597.432092474439, 'energy': 78.98302217542592, 'sorties': 29}
+  eps=0.05 obj=makespan {'J_time': 0.4828558188598834, 'makespan': 9827.775542733292, 'energy': 78.65057764292975, 'sorties': 29}
+  eps=0.05 obj=energy {'J_time': 0.4952738103499444, 'makespan': 10597.432092474439, 'energy': 77.34282506371015, 'sorties': 28}
+  eps=0.05 obj=sorties {'J_time': 0.49375039485792405, 'makespan': 10231.124383392465, 'energy': 75.45168280117805, 'sorties': 27}
+pareto rows 7
+REP {'J_time': 0.47030533185263057, 'makespan': 10597.432092474439, 'energy': 79.94596136064484, 'sorties': 30}
+retention 0.9028737722808294 rejection 0.09712622771917057
+Q2_SOLVED

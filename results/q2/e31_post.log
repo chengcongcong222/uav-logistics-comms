@@ -1,0 +1,37 @@
+==== export submission ====
+wrote /home/ccc/projects/uav-logistics-comms/results/q2/Q2_submission.xlsx
+==== export trace ====
+wrote /home/ccc/projects/uav-logistics-comms/export/q2_transport_trace.csv rows=556
+==== e3_validate_q2 ====
+E3_Q2_VALID
+==== e3_validate_trace ====
+E3_TRACE_VALID
+==== e3_validate_pareto ====
+E3_PARETO_VALID
+==== hygiene ====
+==== A. tracked forbidden files ====
+no forbidden tracked files
+==== B. staged forbidden files ====
+no forbidden staged files
+==== C. raw data SHA256 manifest ====
+RAW_DATA_UNCHANGED
+REPO_HYGIENE_OK
+RAW_DATA_UNCHANGED
+==== key files ====
+generated,accepted,retention_ratio,rejection_ratio,failed_mass,failed_volume,failed_energy,failed_relative_deadline,failed_service_consistency
+2749,2482,0.9028737722808294,0.09712622771917057,183,76,8,0,0
+
+method,J_time,makespan,energy,sorties
+B0,0.5121143970649981,10550.893808314211,85.63096355537168,32
+B1,0.5440037237644186,9856.482731640263,75.8193064209682,29
+ALNS_representative,0.47030533185263057,10597.432092474439,79.94596136064484,30
+
+source,J_time,makespan,energy,sorties,soft_late_count,seed,eps,obj_mode,j_bound
+B0,0.5121143970649981,10550.893808314211,85.63096355537168,32,6.0,,,,
+B1,0.5440037237644186,9856.482731640263,75.8193064209682,29,7.0,,,,
+stage1_seed,0.5212140685210579,9762.401518514973,75.88090916882528,29,,2026092308.0,,,
+stage1_seed,0.5291215095622999,9661.372388025966,76.1461113205501,29,,2026092309.0,,,
+epsilon,0.4753806294310454,10597.432092474439,79.15242610915085,30,4.0,,0.0,makespan,0.4780761140468921
+epsilon,0.47030533185263057,10597.432092474439,79.94596136064484,30,4.0,,0.0,sorties,0.4780761140468921
+epsilon,0.4952738103499444,10597.432092474439,77.34282506371015,28,6.0,,0.05,energy,0.5019799197492367
+E31_POST_DONE
