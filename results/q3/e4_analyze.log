@@ -1,0 +1,16 @@
+==== analyze pareto comm ====
+analyze P01
+analyze P02
+analyze P03
+analyze P04
+ANALYZE_DONE
+==== link budget validate ====
+E4_LINK_BUDGET_VALID
+==== los validate ====
+LOS_agreement=0.9940 disagree=6
+E4_LOS_VALID
+==== gaps validate ====
+E4_GAP_VALID
+==== relay unit ====
+/home/ccc/projects/uav-logistics-comms/.venv/lib/python3.12/site-packages/rasterio/transform.py:410: RuntimeWarning: invalid value encountered in cast
+  new_rows = np.floor(new_rows).astype(dtype=np.int32)

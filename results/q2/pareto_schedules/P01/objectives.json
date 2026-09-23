@@ -1,0 +1,13 @@
+{
+  "J_time": 0.47807611404689215,
+  "makespan": 8739.558036711996,
+  "energy": 72.95679178707825,
+  "sorties": 26,
+  "pareto_id": "P01",
+  "kind": "stage1",
+  "seed": 2026092302,
+  "mode": "j_time",
+  "iterations": 80,
+  "eps": null,
+  "runtime_s": 268.0689814090729
+}

@@ -1,0 +1,11 @@
+EPS_RECOVER_START
+BASELINES_OK {'J_time': 0.5440037237644186, 'makespan': 9856.482731640263, 'energy': 75.8193064209682, 'sorties': 29, 'soft_late_count': 7, 'soft_lateness_sum': 7732.446875964936, 'max_soft_lateness': 2572.161230200327}
+saved files P05e
+trace ok P05e 528
+saved P05e {'J_time': 0.4966703498721414, 'makespan': 9206.485375406099, 'energy': 76.42924044228148, 'sorties': 28, 'soft_late_count': 6, 'soft_lateness_sum': 6305.994530804361, 'max_soft_lateness': 3201.422646318415}
+saved files P05s
+trace ok P05s 528
+saved P05s {'J_time': 0.49648540501621763, 'makespan': 9206.485375406099, 'energy': 76.3290643024535, 'sorties': 28, 'soft_late_count': 6, 'soft_lateness_sum': 6305.994530804361, 'max_soft_lateness': 3201.422646318415}
+FOUND 2
+P05e energy {'J_time': 0.4966703498721414, 'makespan': 9206.485375406099, 'energy': 76.42924044228148, 'sorties': 28, 'soft_late_count': 6, 'soft_lateness_sum': 6305.994530804361, 'max_soft_lateness': 3201.422646318415}
+P05s sorties {'J_time': 0.49648540501621763, 'makespan': 9206.485375406099, 'energy': 76.3290643024535, 'sorties': 28, 'soft_late_count': 6, 'soft_lateness_sum': 6305.994530804361, 'max_soft_lateness': 3201.422646318415}

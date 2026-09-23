@@ -1,0 +1,4 @@
+pair,L_max_db,f_mhz,L_obs_db,L_sys_db,P_sens_dbm,M_db
+transport<->G01,122.0,2400.0,10.0,3.0,-98.0,8.0
+transport<->relay,116.0,2400.0,10.0,3.0,-98.0,8.0
+relay<->G01,126.0,2400.0,10.0,3.0,-98.0,8.0
