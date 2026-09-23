@@ -1,0 +1,17 @@
+item,value
+tif_rows,1309
+tif_cols,1486
+tif_res_x_m,0.00027777777777777393
+tif_res_y_m,0.0002777777777777777
+tif_crs,EPSG:4326
+tif_min_elev,41.68907928466797
+tif_max_elev,1132.8560791015625
+tif_row0_is_north,True
+mat_shape,"[1309, 1486]"
+mat_min_elev,41.68907928466797
+mat_max_elev,1132.8560791015625
+orientation,row0_matches_tif_row0
+shape_match_or_transpose,True
+elev_range_match,True
+node_elev_diff_abs_mean,3.5496313095092793
+node_elev_diff_abs_max,10.562911987304688
