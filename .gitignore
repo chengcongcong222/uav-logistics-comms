@@ -32,3 +32,15 @@ Thumbs.db
 *.swp
 .idea/
 .vscode/
+
+# Contest raw data - immutable and never committed
+data/raw/
+
+# External dependencies - never committed
+external/ns-3.47/
+external/download/
+
+# Download archives
+*.tar.bz2
+*.tar.gz
+*.tgz

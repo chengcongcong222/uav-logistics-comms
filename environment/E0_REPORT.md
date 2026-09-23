@@ -143,12 +143,13 @@ external/ns-3.47/          # ns-3.47 sources (not in git)
 external/download/ns-3.47.tar.bz2.sha256
 ```
 
-## 9. Known limitations
+## 9. Known limitations / remote status
 
 1. ns-3 sources come from the official tag archive tarball (no `.git`); version is pinned by `NS3_TARBALL_SHA256` rather than a git commit hash.
 2. Optional dependencies (Boost, GSL, LibXml2, SQLite, doxygen, Python bindings, etc.) are not installed; E0 required modules and tests are unaffected.
 3. E0 smoke PDR is low (0.043) under simple propagation + mobility; **no** scientific wireless interpretation is claimed.
 4. `data/raw` is inventoried only; full ingestion is deferred to E1.
+5. GitHub remote is established at `chengcongcong222/uav-logistics-comms` (private). E0 has been pushed. `data/raw`, `.venv`, and `external/ns-3.47` are excluded from version control.
 
 ## 10. Next gate
 
