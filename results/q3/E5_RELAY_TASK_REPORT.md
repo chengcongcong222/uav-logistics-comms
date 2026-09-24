@@ -20,22 +20,34 @@ Validators: `E5_RELAY_CANDIDATES_VALID`, `E5_RELAY_ENERGY_VALID`, `E5_ATOMIC_TAS
 
 Most gaps are covered by **one fixed site**. Splits only when no common site covers the full gap.
 
-## Candidate contraction
+## Candidate contraction (measured)
 
-Hierarchical 120→60→30 m × heights 50–300 m, gates R1–R7. Raw/after-stage counts in `relay_candidate_gate_stats_raw.csv`. Final feasible pairs in `relay_task_candidates.csv`.
+| plan | raw 3D samples | after T-R+R-G range | after backhaul | after endpoint | after full-interval | after energy | retention |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| P01 | 843069 | 1160 | 1054 | 1010 | 217 | 217 | 2.6e-4 |
+| P02 | 1310547 | 700 | 623 | 583 | 225 | 225 | 1.7e-4 |
+| P03 | 743827 | 740 | 651 | 600 | 248 | 248 | 3.3e-4 |
+
+**rejection_ratio ≈ 99.97%+** — strong Q3 layered-contraction evidence.
+
+Library: **592 sites**, **836 (task,site)** pairs.
 
 ## Candidate counts (tasks with sites)
 
-- median ≈ 9–12, max 12 (search sample cap)
-- tight tasks (`≤3` sites) present; bottlenecks = 8 unresolved intervals
+- median 12 (cap), mean 8.6–9.4, min 1
+- 8 tight tasks (`≤3` sites)
 
 ## Timing
 
-`as_is_timing_feasible` / `required_transport_shift_s` recorded; sites **not rejected** for timing (Q3 may shift transport).
+All recorded feasible pairs: **zero_shift = all** (max required shift 0.0) for P01–P03 resolved tasks.
 
-## Relay-energy optimistic LB
+## Relay-energy optimistic LB (Σ min E per task)
 
-Sum of per-task minimum `total_energy_kwh` (not final Q3 energy). Computed in `e5_stats.py` output / `relay_task_candidates.csv`.
+| plan | E_LB (kWh) | tasks with sites |
+| --- | ---: | ---: |
+| P01 | 8.656 | 30 |
+| P02 | 8.587 | 28 |
+| P03 | 8.095 | 26 |
 
 ## GRID_UNRESOLVED
 
