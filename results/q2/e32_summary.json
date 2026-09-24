@@ -1,7 +1,9 @@
 {
-  "J_late_best_known": 28569.79538945284,
-  "J_norm_best_known": null,
+  "J_late_stage1_anchor": 28569.79538945284,
+  "J_late_best_known": 27140.240272980776,
+  "J_norm_at_best_late": 0.5240409478982372,
   "bound_kind": "J_late",
   "zero_late": false,
-  "n_pareto": 14
+  "n_pareto": 3,
+  "note": "E5 naming fix only; no recompute"
 }

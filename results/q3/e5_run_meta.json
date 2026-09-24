@@ -1,0 +1,42 @@
+{
+  "MIN_ATOMIC_S": 10.0,
+  "MAX_SPLIT_DEPTH": 2,
+  "summary": [
+    {
+      "pareto_id": "P01",
+      "direct_gaps": 26,
+      "atomic_tasks": 32,
+      "full_gap_single_site": 22,
+      "split_gaps": 4,
+      "unresolved": 2,
+      "cand_min": 0,
+      "cand_median": 12.0,
+      "cand_mean": 9.375,
+      "cand_max": 12
+    },
+    {
+      "pareto_id": "P02",
+      "direct_gaps": 26,
+      "atomic_tasks": 32,
+      "full_gap_single_site": 23,
+      "split_gaps": 3,
+      "unresolved": 4,
+      "cand_min": 0,
+      "cand_median": 12.0,
+      "cand_mean": 8.625,
+      "cand_max": 12
+    },
+    {
+      "pareto_id": "P03",
+      "direct_gaps": 26,
+      "atomic_tasks": 28,
+      "full_gap_single_site": 25,
+      "split_gaps": 1,
+      "unresolved": 2,
+      "cand_min": 0,
+      "cand_median": 12.0,
+      "cand_mean": 9.285714285714286,
+      "cand_max": 12
+    }
+  ]
+}
