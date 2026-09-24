@@ -1,0 +1,28 @@
+{
+  "pid": "R0002",
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "wall_s": 4.592448254999994,
+  "time_limit_s": 14,
+  "horizon_s": 7200,
+  "start_grid_s": 180,
+  "zero_lateness": true,
+  "single_stop_only": true,
+  "patterns_available": 2681,
+  "variables": 7302,
+  "geometry": "G2_UTM49N_STRAIGHT_NATIVE_SUPERCOVER_V1",
+  "global_optimum_proven": false,
+  "incumbent_continuous_schedule_not_guaranteed_in_grid_domain": false,
+  "objective": 66.19169301226287,
+  "restricted_dual_bound": 65.69169373745619,
+  "restricted_mip_gap": 0.007553807011916913,
+  "metrics": {
+    "J_late": 0.0,
+    "J_norm": 0.4942170197632067,
+    "makespan": 6893.4894208244805,
+    "energy": 66.19169301226313,
+    "sorties": 24,
+    "source": "P0003",
+    "global_optimum_proven": false
+  }
+}

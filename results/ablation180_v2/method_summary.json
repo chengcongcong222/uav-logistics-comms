@@ -1,0 +1,53 @@
+[
+  {
+    "method": "LNS",
+    "seeds": 5,
+    "best_J_late": 32492.965632167048,
+    "median_seed_best_J_late": 52861.28789025401,
+    "best_makespan": 10046.344561547741,
+    "best_energy": 85.66393821918167,
+    "median_per_seed_nondominated_count": 2.0,
+    "union_nondominated_count": 5,
+    "feasible_success_rate": 1.0,
+    "zero_lateness_success_rate": 0.0,
+    "zero_late_best_makespan": null,
+    "zero_late_best_energy": null,
+    "verified_dominance_wins": 0,
+    "median_actual_cpu_s": 180.014883052,
+    "median_seed_best_J_norm": 0.5193959627521555
+  },
+  {
+    "method": "POOL",
+    "seeds": 5,
+    "best_J_late": 0.0,
+    "median_seed_best_J_late": 0.0,
+    "best_makespan": 6396.934739044012,
+    "best_energy": 60.427271642314416,
+    "median_per_seed_nondominated_count": 2.0,
+    "union_nondominated_count": 7,
+    "feasible_success_rate": 1.0,
+    "zero_lateness_success_rate": 1.0,
+    "zero_late_best_makespan": 6396.934739044012,
+    "zero_late_best_energy": 60.427271642314416,
+    "verified_dominance_wins": 0,
+    "median_actual_cpu_s": 180.018730614,
+    "median_seed_best_J_norm": 0.47707963680988624
+  },
+  {
+    "method": "POOL_CHALLENGE",
+    "seeds": 5,
+    "best_J_late": 0.0,
+    "median_seed_best_J_late": 0.0,
+    "best_makespan": 6396.934709044002,
+    "best_energy": 60.427271642314416,
+    "median_per_seed_nondominated_count": 2.0,
+    "union_nondominated_count": 6,
+    "feasible_success_rate": 1.0,
+    "zero_lateness_success_rate": 1.0,
+    "zero_late_best_makespan": 6396.934709044002,
+    "zero_late_best_energy": 60.427271642314416,
+    "verified_dominance_wins": 13,
+    "median_actual_cpu_s": 179.640273068,
+    "median_seed_best_J_norm": 0.4672682473178652
+  }
+]

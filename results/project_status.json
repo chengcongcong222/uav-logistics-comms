@@ -13,10 +13,10 @@
   "Q4_source": "A11_Q3_001_Gamma0",
   "Q4_existing_inventory_sufficient": false,
   "ns3": "STOPPED_PER_QUALITY_RESET",
-  "paper_main_result_and_claim_framework": "G2_MAIN_READY_LIMITED_SEARCH_CLAIMS_ONLY",
+  "paper_main_result_and_claim_framework": "G2_MAIN_PLUS_VERIFIED_Q2_ABLATION",
   "combined_submission_workbook": "G2_SIX_OFFICIAL_SHEETS_PLUS_Q3_SUPPLEMENTS_VERIFIED",
-  "final_paper": "NEXT",
-  "next_main_task": "FINAL_PAPER_AND_CONTROLLED_METHOD_ABLATIONS",
+  "final_paper": "MAIN_TEXT_DRAFT_READY_REFERENCES_AND_FORMATTING_REMAIN",
+  "next_main_task": "PAPER_REFERENCES_FORMATTING_AND_FINAL_SUBMISSION_AUDIT",
   "Gamma6_blocks_Q4": false,
   "Q2_authority": [
     "A11",
@@ -38,5 +38,11 @@
   "old_Gamma_C_cert_db": 4,
   "active_dominance_verified_counterexamples": 7,
   "global_pareto_proven": false,
-  "strict_equal_cpu_multiseed_comparison_completed": false
+  "strict_equal_cpu_multiseed_comparison_completed": true,
+  "strict_equal_cpu_multiseed_comparison_scope": "Q2_ONLY_3_IMPLEMENTATIONS_180_PROCESS_CPU_SECONDS_5_SEEDS",
+  "Q3_multiseed_algorithm_comparison_completed": false,
+  "algorithm_expansion": "STOPPED_AFTER_FINAL_Q2_ABLATION",
+  "benchmark_gate": "results/ablation180_v2/gate.json",
+  "benchmark_verified_checkpoints": 141,
+  "benchmark_Q2_dominance_wins": 13
 }

@@ -1,0 +1,16 @@
+{
+  "pid": "R0017",
+  "status": 1,
+  "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+  "wall_s": 2.1313705499999855,
+  "time_limit_s": 14,
+  "horizon_s": 6600,
+  "start_grid_s": 120,
+  "zero_lateness": true,
+  "single_stop_only": true,
+  "patterns_available": 2728,
+  "variables": 9848,
+  "geometry": "G2_UTM49N_STRAIGHT_NATIVE_SUPERCOVER_V1",
+  "global_optimum_proven": false,
+  "incumbent_continuous_schedule_not_guaranteed_in_grid_domain": false
+}

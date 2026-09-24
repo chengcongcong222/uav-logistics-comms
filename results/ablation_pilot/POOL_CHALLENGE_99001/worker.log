@@ -1,0 +1,4 @@
+B0 type_load {'B': 11, 'C': 11, 'A': 10} sorties 32
+CHECKPOINT P0001 COMMON_RAW_DATA_B0 0.915041278 {'J_late': 65501.00549024007, 'J_norm': 0.5125647900904743, 'makespan': 10570.82377657593, 'energy': 85.66393821918167, 'sorties': 32, 'source': 'P0001', 'global_optimum_proven': False}
+POOL 1074 288 2533
+NO_WITNESS R0001 {'pid': 'R0001', 'status': 1, 'message': 'Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)', 'wall_s': 5.7250552919999995, 'time_limit_s': 14, 'horizon_s': 6600, 'start_grid_s': 120, 'zero_lateness': True, 'single_stop_only': True, 'patterns_available': 2533, 'variables': 9467, 'geometry': 'G2_UTM49N_STRAIGHT_NATIVE_SUPERCOVER_V1', 'global_optimum_proven': False, 'incumbent_continuous_schedule_not_guaranteed_in_grid_domain': False}

@@ -1,0 +1,41 @@
+[
+  {
+    "run": "POOL_99002",
+    "core": 4,
+    "exit_code": 0,
+    "termination": "WORKER_FINISHED",
+    "observed_process_cpu_s": 10.771510483,
+    "wall_s": 11.169423936,
+    "cpu_budget_s": 12.0,
+    "accepted_checkpoints": [
+      "P0001"
+    ],
+    "discarded_after_budget": []
+  },
+  {
+    "run": "POOL_CHALLENGE_99002",
+    "core": 8,
+    "exit_code": 0,
+    "termination": "WORKER_FINISHED",
+    "observed_process_cpu_s": 10.821590132,
+    "wall_s": 11.210020172,
+    "cpu_budget_s": 12.0,
+    "accepted_checkpoints": [
+      "P0001"
+    ],
+    "discarded_after_budget": []
+  },
+  {
+    "run": "LNS_99002",
+    "core": 0,
+    "exit_code": -9,
+    "termination": "CPU_BUDGET",
+    "observed_process_cpu_s": 12.014110155,
+    "wall_s": 12.446266351999999,
+    "cpu_budget_s": 12.0,
+    "accepted_checkpoints": [
+      "P0001"
+    ],
+    "discarded_after_budget": []
+  }
+]

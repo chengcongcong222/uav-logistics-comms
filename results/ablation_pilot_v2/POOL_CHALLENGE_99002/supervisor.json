@@ -1,0 +1,13 @@
+{
+  "run": "POOL_CHALLENGE_99002",
+  "core": 8,
+  "exit_code": 0,
+  "termination": "WORKER_FINISHED",
+  "observed_process_cpu_s": 10.821590132,
+  "wall_s": 11.210020172,
+  "cpu_budget_s": 12.0,
+  "accepted_checkpoints": [
+    "P0001"
+  ],
+  "discarded_after_budget": []
+}

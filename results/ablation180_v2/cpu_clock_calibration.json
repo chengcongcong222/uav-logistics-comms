@@ -1,0 +1,53 @@
+{
+  "status": "PARENT_CHILD_PROCESS_CPU_CLOCK_MATCH",
+  "samples": [
+    {
+      "child_reported_cpu_s": 0.200002383,
+      "parent_observed_cpu_s": 0.20244007800000002,
+      "read_lag_cpu_s": 0.0024376950000000175
+    },
+    {
+      "child_reported_cpu_s": 0.40000172,
+      "parent_observed_cpu_s": 0.40001957200000005,
+      "read_lag_cpu_s": 1.785200000004039e-05
+    },
+    {
+      "child_reported_cpu_s": 0.600002093,
+      "parent_observed_cpu_s": 0.600181771,
+      "read_lag_cpu_s": 0.00017967800000007195
+    },
+    {
+      "child_reported_cpu_s": 0.800001787,
+      "parent_observed_cpu_s": 0.801807064,
+      "read_lag_cpu_s": 0.001805276999999994
+    },
+    {
+      "child_reported_cpu_s": 1.000001733,
+      "parent_observed_cpu_s": 1.000018416,
+      "read_lag_cpu_s": 1.6683000000128345e-05
+    },
+    {
+      "child_reported_cpu_s": 1.200001153,
+      "parent_observed_cpu_s": 1.200018489,
+      "read_lag_cpu_s": 1.7335999999978924e-05
+    },
+    {
+      "child_reported_cpu_s": 1.400001613,
+      "parent_observed_cpu_s": 1.400023229,
+      "read_lag_cpu_s": 2.161600000016861e-05
+    },
+    {
+      "child_reported_cpu_s": 1.600032288,
+      "parent_observed_cpu_s": 1.6001113980000001,
+      "read_lag_cpu_s": 7.911000000015989e-05
+    },
+    {
+      "child_reported_cpu_s": 1.800001271,
+      "parent_observed_cpu_s": 1.801842582,
+      "read_lag_cpu_s": 0.0018413109999999566
+    }
+  ],
+  "max_abs_read_lag_cpu_s": 0.0024376950000000175,
+  "tolerance_s": 0.05,
+  "comparison": "parent POSIX process clock versus child process_time; sample read lag includes child CPU consumed before parent observation"
+}

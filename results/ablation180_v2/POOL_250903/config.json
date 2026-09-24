@@ -1,0 +1,12 @@
+{
+  "method": "POOL",
+  "seed": 250903,
+  "cpu_budget_s": 180.0,
+  "core": 0,
+  "geometry": "G2_UTM49N_STRAIGHT_NATIVE_SUPERCOVER_V1",
+  "scope": "Q2_ONLY",
+  "timing": "process user+system CPU, including imports/data/preprocessing/search/export; independent audit excluded",
+  "threads": 1,
+  "initialization": "build_b0 from original local data, freshly generated for all methods",
+  "external_or_frozen_solution_input": false
+}

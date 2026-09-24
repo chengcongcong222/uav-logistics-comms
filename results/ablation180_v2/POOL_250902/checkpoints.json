@@ -1,0 +1,291 @@
+[
+  {
+    "pid": "P0001",
+    "origin": "COMMON_RAW_DATA_B0",
+    "source": null,
+    "cpu_ready_s": 0.754469189,
+    "wall_ready_s": 0.792613891000002,
+    "metrics": {
+      "J_late": 65501.00549024007,
+      "J_norm": 0.5125647900904743,
+      "makespan": 10570.82377657593,
+      "energy": 85.66393821918167,
+      "sorties": 32,
+      "source": "P0001",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_250902/q2/pareto_schedules/P0001/missions.json"
+  },
+  {
+    "pid": "P0002",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 14.234922502,
+    "wall_ready_s": 15.399817858999995,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.47707963680988624,
+      "makespan": 6396.934739044012,
+      "energy": 67.3896197830287,
+      "sorties": 25,
+      "source": "P0002",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_250902/q2/pareto_schedules/P0002/missions.json"
+  },
+  {
+    "pid": "P0003",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 18.440201328,
+    "wall_ready_s": 19.954564124,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.49148245937317864,
+      "makespan": 6893.4894208244805,
+      "energy": 66.19169301226313,
+      "sorties": 24,
+      "source": "P0003",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_250902/q2/pareto_schedules/P0003/missions.json"
+  },
+  {
+    "pid": "P0004",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 25.052769738,
+    "wall_ready_s": 27.119403626999997,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.5768795849866535,
+      "makespan": 9018.939151253757,
+      "energy": 60.427271642314416,
+      "sorties": 20,
+      "source": "P0004",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_250902/q2/pareto_schedules/P0004/missions.json"
+  },
+  {
+    "pid": "P0005",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 48.203392773,
+    "wall_ready_s": 52.107094588999985,
+    "metrics": {
+      "J_late": 106814.73733179865,
+      "J_norm": 0.5537398039194754,
+      "makespan": 9352.865338845098,
+      "energy": 68.22231154478867,
+      "sorties": 25,
+      "source": "P0005",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_250902/q2/pareto_schedules/P0005/missions.json"
+  },
+  {
+    "pid": "P0006",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 58.056609975,
+    "wall_ready_s": 62.748122612999964,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.47707963680988624,
+      "makespan": 6396.934739044012,
+      "energy": 67.3896197830287,
+      "sorties": 25,
+      "source": "P0006",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_250902/q2/pareto_schedules/P0006/missions.json"
+  },
+  {
+    "pid": "P0007",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 62.332084347,
+    "wall_ready_s": 67.37870921199999,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.49148245937317864,
+      "makespan": 6893.4894208244805,
+      "energy": 66.19169301226313,
+      "sorties": 24,
+      "source": "P0007",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_250902/q2/pareto_schedules/P0007/missions.json"
+  },
+  {
+    "pid": "P0008",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 68.943262603,
+    "wall_ready_s": 74.55937169699996,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.5768795849866535,
+      "makespan": 9018.939151253757,
+      "energy": 60.427271642314416,
+      "sorties": 20,
+      "source": "P0008",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_250902/q2/pareto_schedules/P0008/missions.json"
+  },
+  {
+    "pid": "P0009",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 91.849996709,
+    "wall_ready_s": 99.05212754299998,
+    "metrics": {
+      "J_late": 106814.73733179865,
+      "J_norm": 0.5537398039194754,
+      "makespan": 9352.865338845098,
+      "energy": 68.22231154478867,
+      "sorties": 25,
+      "source": "P0009",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_250902/q2/pareto_schedules/P0009/missions.json"
+  },
+  {
+    "pid": "P0010",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 101.747195321,
+    "wall_ready_s": 109.77336976999999,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.47707963680988624,
+      "makespan": 6396.934739044012,
+      "energy": 67.3896197830287,
+      "sorties": 25,
+      "source": "P0010",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_250902/q2/pareto_schedules/P0010/missions.json"
+  },
+  {
+    "pid": "P0011",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 106.256076101,
+    "wall_ready_s": 114.59358143700001,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.49148245937317864,
+      "makespan": 6893.4894208244805,
+      "energy": 66.19169301226313,
+      "sorties": 24,
+      "source": "P0011",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_250902/q2/pareto_schedules/P0011/missions.json"
+  },
+  {
+    "pid": "P0012",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 113.007378108,
+    "wall_ready_s": 121.71564042,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.5768795849866535,
+      "makespan": 9018.939151253757,
+      "energy": 60.427271642314416,
+      "sorties": 20,
+      "source": "P0012",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_250902/q2/pareto_schedules/P0012/missions.json"
+  },
+  {
+    "pid": "P0013",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 135.046906278,
+    "wall_ready_s": 145.54218341199999,
+    "metrics": {
+      "J_late": 106814.73733179865,
+      "J_norm": 0.5537398039194754,
+      "makespan": 9352.865338845098,
+      "energy": 68.22231154478867,
+      "sorties": 25,
+      "source": "P0013",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_250902/q2/pareto_schedules/P0013/missions.json"
+  },
+  {
+    "pid": "P0014",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 144.7508236,
+    "wall_ready_s": 155.81859562799997,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.47707963680988624,
+      "makespan": 6396.934739044012,
+      "energy": 67.3896197830287,
+      "sorties": 25,
+      "source": "P0014",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_250902/q2/pareto_schedules/P0014/missions.json"
+  },
+  {
+    "pid": "P0015",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 149.02778988,
+    "wall_ready_s": 160.43579459799997,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.49148245937317864,
+      "makespan": 6893.4894208244805,
+      "energy": 66.19169301226313,
+      "sorties": 24,
+      "source": "P0015",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_250902/q2/pareto_schedules/P0015/missions.json"
+  },
+  {
+    "pid": "P0016",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 155.394515299,
+    "wall_ready_s": 167.33627212099998,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.5768795849866535,
+      "makespan": 9018.939151253757,
+      "energy": 60.427271642314416,
+      "sorties": 20,
+      "source": "P0016",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_250902/q2/pareto_schedules/P0016/missions.json"
+  },
+  {
+    "pid": "P0017",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 177.266415542,
+    "wall_ready_s": 190.808773573,
+    "metrics": {
+      "J_late": 106814.73733179865,
+      "J_norm": 0.5537398039194754,
+      "makespan": 9352.865338845098,
+      "energy": 68.22231154478867,
+      "sorties": 25,
+      "source": "P0017",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_250902/q2/pareto_schedules/P0017/missions.json"
+  }
+]

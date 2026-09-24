@@ -1,0 +1,42 @@
+[
+  {
+    "seed": 250901,
+    "identical_generated_pool": true,
+    "signatures": [
+      "82e3f6f929613d0a4a7d86b71e0c5374c1ba918cb65bef19c20fac1942d7de6a",
+      "82e3f6f929613d0a4a7d86b71e0c5374c1ba918cb65bef19c20fac1942d7de6a"
+    ]
+  },
+  {
+    "seed": 250902,
+    "identical_generated_pool": true,
+    "signatures": [
+      "80325797da5bfc968139bca6835a03f6240bcac203c822bcdcc479cade9ee43f",
+      "80325797da5bfc968139bca6835a03f6240bcac203c822bcdcc479cade9ee43f"
+    ]
+  },
+  {
+    "seed": 250903,
+    "identical_generated_pool": true,
+    "signatures": [
+      "e94eadc94d72b913da465144ee07d704f20923a0a2131bcb6733516b5fe24bd3",
+      "e94eadc94d72b913da465144ee07d704f20923a0a2131bcb6733516b5fe24bd3"
+    ]
+  },
+  {
+    "seed": 250904,
+    "identical_generated_pool": true,
+    "signatures": [
+      "8bb2d3a337b76339a588c3db45ae60146e96ec2bf1b61c7bf2c1fa4d2a78072d",
+      "8bb2d3a337b76339a588c3db45ae60146e96ec2bf1b61c7bf2c1fa4d2a78072d"
+    ]
+  },
+  {
+    "seed": 250905,
+    "identical_generated_pool": true,
+    "signatures": [
+      "27199e0a8ecd585da3f114c0d9958ff979efb8b701ce1c8252b5e92410b98eca",
+      "27199e0a8ecd585da3f114c0d9958ff979efb8b701ce1c8252b5e92410b98eca"
+    ]
+  }
+]

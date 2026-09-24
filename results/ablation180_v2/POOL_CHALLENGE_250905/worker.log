@@ -1,0 +1,19 @@
+B0 type_load {'B': 11, 'C': 11, 'A': 10} sorties 32
+CHECKPOINT P0001 COMMON_RAW_DATA_B0 0.751826108 {'J_late': 65501.00549024007, 'J_norm': 0.5125647900904743, 'makespan': 10570.82377657593, 'energy': 85.66393821918167, 'sorties': 32, 'source': 'P0001', 'global_optimum_proven': False}
+POOL 1074 302 2828
+CHECKPOINT P0002 PATTERN_JOINT_MILP 17.915419748 {'J_late': 0.0, 'J_norm': np.float64(0.4696216925239111), 'makespan': 6454.839614277953, 'energy': 67.3896197830287, 'sorties': 25, 'source': 'P0002', 'global_optimum_proven': False}
+SOLVED R0001 {'J_late': 0.0, 'J_norm': np.float64(0.4696216925239111), 'makespan': 6454.839614277953, 'energy': 67.3896197830287, 'sorties': 25, 'source': 'P0002', 'global_optimum_proven': False}
+CHECKPOINT P0003 PATTERN_JOINT_MILP 22.177571371 {'J_late': 0.0, 'J_norm': np.float64(0.49965359708683327), 'makespan': 6893.4894208244805, 'energy': 66.19169301226313, 'sorties': 24, 'source': 'P0003', 'global_optimum_proven': False}
+SOLVED R0002 {'J_late': 0.0, 'J_norm': np.float64(0.49965359708683327), 'makespan': 6893.4894208244805, 'energy': 66.19169301226313, 'sorties': 24, 'source': 'P0003', 'global_optimum_proven': False}
+CHECKPOINT P0004 PATTERN_JOINT_MILP 43.173321483 {'J_late': 0.0, 'J_norm': np.float64(0.5920896030098728), 'makespan': 9066.689422779444, 'energy': 97.60923777333414, 'sorties': 36, 'source': 'P0004', 'global_optimum_proven': False}
+SOLVED R0003 {'J_late': 0.0, 'J_norm': np.float64(0.5920896030098728), 'makespan': 9066.689422779444, 'energy': 97.60923777333414, 'sorties': 36, 'source': 'P0004', 'global_optimum_proven': False}
+CHECKPOINT P0005 PATTERN_JOINT_MILP 69.129062544 {'J_late': np.float64(161306.33064081066), 'J_norm': np.float64(0.6095717912500581), 'makespan': 10500.223196310551, 'energy': 101.84768382976152, 'sorties': 36, 'source': 'P0005', 'global_optimum_proven': False}
+SOLVED R0004 {'J_late': np.float64(161306.33064081066), 'J_norm': np.float64(0.6095717912500581), 'makespan': 10500.223196310551, 'energy': 101.84768382976152, 'sorties': 36, 'source': 'P0005', 'global_optimum_proven': False}
+CHECKPOINT P0006 PATTERN_JOINT_MILP 84.5991191 {'J_late': 0.0, 'J_norm': np.float64(0.4696216925239111), 'makespan': 6454.839614277953, 'energy': 67.3896197830287, 'sorties': 25, 'source': 'P0006', 'global_optimum_proven': False}
+SOLVED R0005 {'J_late': 0.0, 'J_norm': np.float64(0.4696216925239111), 'makespan': 6454.839614277953, 'energy': 67.3896197830287, 'sorties': 25, 'source': 'P0006', 'global_optimum_proven': False}
+CHECKPOINT P0007 PATTERN_JOINT_MILP 88.906386085 {'J_late': 0.0, 'J_norm': np.float64(0.49965359708683327), 'makespan': 6893.4894208244805, 'energy': 66.19169301226313, 'sorties': 24, 'source': 'P0007', 'global_optimum_proven': False}
+SOLVED R0006 {'J_late': 0.0, 'J_norm': np.float64(0.49965359708683327), 'makespan': 6893.4894208244805, 'energy': 66.19169301226313, 'sorties': 24, 'source': 'P0007', 'global_optimum_proven': False}
+CHECKPOINT P0008 PATTERN_JOINT_MILP 110.59281606 {'J_late': 0.0, 'J_norm': np.float64(0.5920896030098728), 'makespan': 9066.689422779444, 'energy': 97.60923777333414, 'sorties': 36, 'source': 'P0008', 'global_optimum_proven': False}
+SOLVED R0007 {'J_late': 0.0, 'J_norm': np.float64(0.5920896030098728), 'makespan': 9066.689422779444, 'energy': 97.60923777333414, 'sorties': 36, 'source': 'P0008', 'global_optimum_proven': False}
+CHECKPOINT P0009 ACTIVE_DOMINANCE_MILP 125.912325272 {'J_late': 0.0, 'J_norm': 0.4653758167512685, 'makespan': 6408.800381593061, 'energy': 67.3896197830287, 'sorties': 25, 'source': 'P0009', 'global_optimum_proven': False}
+CHECKPOINT P0010 ACTIVE_DOMINANCE_MILP 167.248277252 {'J_late': 0.0, 'J_norm': 0.4778799025248514, 'makespan': 6893.489390824486, 'energy': 66.19169301226313, 'sorties': 24, 'source': 'P0010', 'global_optimum_proven': False}

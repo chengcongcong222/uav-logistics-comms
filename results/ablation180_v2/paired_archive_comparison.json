@@ -1,0 +1,37 @@
+[
+  {
+    "seed": 250901,
+    "pool_front_count": 2,
+    "challenge_front_count": 2,
+    "pool_points_strictly_dominated_by_challenge": 2,
+    "challenge_points_strictly_dominated_by_pool": 0
+  },
+  {
+    "seed": 250902,
+    "pool_front_count": 3,
+    "challenge_front_count": 3,
+    "pool_points_strictly_dominated_by_challenge": 3,
+    "challenge_points_strictly_dominated_by_pool": 0
+  },
+  {
+    "seed": 250903,
+    "pool_front_count": 2,
+    "challenge_front_count": 2,
+    "pool_points_strictly_dominated_by_challenge": 1,
+    "challenge_points_strictly_dominated_by_pool": 0
+  },
+  {
+    "seed": 250904,
+    "pool_front_count": 2,
+    "challenge_front_count": 2,
+    "pool_points_strictly_dominated_by_challenge": 2,
+    "challenge_points_strictly_dominated_by_pool": 0
+  },
+  {
+    "seed": 250905,
+    "pool_front_count": 2,
+    "challenge_front_count": 2,
+    "pool_points_strictly_dominated_by_challenge": 2,
+    "challenge_points_strictly_dominated_by_pool": 0
+  }
+]

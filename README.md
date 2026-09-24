@@ -1,7 +1,12 @@
 # UAV Logistics & Relay Communication Lab
 
-Current stage: **G2 autonomous main execution, Q4 and combined submission verified**.
+Current stage: **Final Q2 equal-CPU five-seed comparison complete; G2 main preserved; paper drafting**.
 
+- [Final 180 CPU-second, five-seed Q2 experiment](results/ablation180_v2/ABLATION_REPORT.md)
+- [Current combined evidence gate](results/ablation180_v2/gate.json)
+- [Latest GPT handoff](results/ablation180_v2/GPT_SYNC.md)
+- [Paper main-text draft](docs/paper/G2_PAPER_MAIN_DRAFT.md)
+- [Paper claims and evidence](docs/paper/G2_EVIDENCE_MAP.md)
 - [G2 complete report: geometry, own/control results, limits](results/reset/RESET_REPORT.md)
 - [G2 GPT handoff](results/reset/RESET_GPT_SYNC.md)
 - [G2 gate and artifact hashes](results/reset/gate.json)
@@ -34,7 +39,12 @@ also pass 0.25 s. Seven active dominance counterexamples were found and audited.
 These are finite-archive nondominated witnesses, not a global Pareto proof.
 One dependency-driven structure reconstruction was executed and audited; it
 does not prove that synchronized reconstruction outperforms strong methods.
-The equal-CPU, multi-seed ablation remains outstanding.
+The final Q2 comparison now uses 180 process CPU seconds, one core and five seeds
+for three implementations. All 141 in-budget checkpoints pass independent audits.
+Both pool methods achieve zero lateness in 5/5 seeds; uniform LNS achieves 0/5.
+Active challenges add 13 verified Q2 dominance witnesses and improve auxiliary
+delivery timing. Q3 multi-seed method performance remains untested. This is an
+equal enforced CPU-cap comparison, not a global method ranking.
 
 New Q4 freezes A11_Q3_001 and has six dependency blocks: 31/90 partitions for
 K=2/3, minimum typed inventory gaps 2/4 units. The workbook includes the official
@@ -43,8 +53,10 @@ must not be paired with the Q3 relay schedule.
 
 Historical XB1/E6/E7/E8/Q4 outputs stay versioned and unchanged. Old E8 Gamma_cert=4
 applies only to the old P01 structure; the G2 main is certified here only at
-Gamma=0. Gamma6 and new ns-3 experiments are stopped. Final paper composition
-and stronger controlled method comparisons remain separate next work.
+Gamma=0. Gamma6 and new ns-3 experiments are stopped. Algorithm expansion is stopped. Paper main text is drafted; references,
+final formatting and submission review remain. The old G2 gate is historical
+evidence pinned to 4ae3d2d; its mathematical artifacts and workbook are unchanged.
+The new gate records the completed Q2 comparison with its explicit scope.
 
 Legacy modified top-level Q2 CSVs are not authoritative synchronized packages.
 Use the G2 gate/reproduction entry points above. Raw data are immutable.

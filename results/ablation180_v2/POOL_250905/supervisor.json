@@ -1,0 +1,24 @@
+{
+  "run": "POOL_250905",
+  "core": 8,
+  "exit_code": -9,
+  "termination": "CPU_BUDGET",
+  "observed_process_cpu_s": 180.018730614,
+  "wall_s": 194.32256593700004,
+  "cpu_budget_s": 180,
+  "accepted_checkpoints": [
+    "P0001",
+    "P0002",
+    "P0003",
+    "P0004",
+    "P0005",
+    "P0006",
+    "P0007",
+    "P0008",
+    "P0009",
+    "P0010",
+    "P0011",
+    "P0012"
+  ],
+  "discarded_after_budget": []
+}

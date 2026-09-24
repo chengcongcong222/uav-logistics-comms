@@ -1,0 +1,28 @@
+B0 type_load {'B': 11, 'C': 11, 'A': 10} sorties 32
+CHECKPOINT P0001 COMMON_RAW_DATA_B0 0.735454279 {'J_late': 65501.00549024007, 'J_norm': 0.5125647900904743, 'makespan': 10570.82377657593, 'energy': 85.66393821918167, 'sorties': 32, 'source': 'P0001', 'global_optimum_proven': False}
+POOL 1074 312 2706
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+CHECKPOINT P0002 PATTERN_JOINT_MILP 19.957532964 {'J_late': 0.0, 'J_norm': np.float64(0.4882194917369331), 'makespan': 6396.9347390440125, 'energy': 66.69228315175634, 'sorties': 26, 'source': 'P0002', 'global_optimum_proven': False}
+SOLVED R0001 {'J_late': 0.0, 'J_norm': np.float64(0.4882194917369331), 'makespan': 6396.9347390440125, 'energy': 66.69228315175634, 'sorties': 26, 'source': 'P0002', 'global_optimum_proven': False}
+CHECKPOINT P0003 PATTERN_JOINT_MILP 24.234866302 {'J_late': 0.0, 'J_norm': np.float64(0.5076931524783835), 'makespan': np.float64(6958.460379819456), 'energy': 65.89211106203612, 'sorties': 24, 'source': 'P0003', 'global_optimum_proven': False}
+SOLVED R0002 {'J_late': 0.0, 'J_norm': np.float64(0.5076931524783835), 'makespan': np.float64(6958.460379819456), 'energy': 65.89211106203612, 'sorties': 24, 'source': 'P0003', 'global_optimum_proven': False}
+CHECKPOINT P0004 PATTERN_JOINT_MILP 41.902314503 {'J_late': 0.0, 'J_norm': np.float64(0.5610113298957229), 'makespan': 8959.906769278077, 'energy': 94.45997932155795, 'sorties': 37, 'source': 'P0004', 'global_optimum_proven': False}
+SOLVED R0003 {'J_late': 0.0, 'J_norm': np.float64(0.5610113298957229), 'makespan': 8959.906769278077, 'energy': 94.45997932155795, 'sorties': 37, 'source': 'P0004', 'global_optimum_proven': False}
+CHECKPOINT P0005 PATTERN_JOINT_MILP 65.447144082 {'J_late': np.float64(399151.25000464637), 'J_norm': np.float64(0.687059351791944), 'makespan': 10432.394615175559, 'energy': 97.17662685590649, 'sorties': 37, 'source': 'P0005', 'global_optimum_proven': False}
+SOLVED R0004 {'J_late': np.float64(399151.25000464637), 'J_norm': np.float64(0.687059351791944), 'makespan': 10432.394615175559, 'energy': 97.17662685590649, 'sorties': 37, 'source': 'P0005', 'global_optimum_proven': False}
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+CHECKPOINT P0006 PATTERN_JOINT_MILP 80.934248818 {'J_late': 0.0, 'J_norm': np.float64(0.4882194917369331), 'makespan': 6396.9347390440125, 'energy': 66.69228315175634, 'sorties': 26, 'source': 'P0006', 'global_optimum_proven': False}
+SOLVED R0005 {'J_late': 0.0, 'J_norm': np.float64(0.4882194917369331), 'makespan': 6396.9347390440125, 'energy': 66.69228315175634, 'sorties': 26, 'source': 'P0006', 'global_optimum_proven': False}
+CHECKPOINT P0007 PATTERN_JOINT_MILP 85.276687933 {'J_late': 0.0, 'J_norm': np.float64(0.5076931524783835), 'makespan': np.float64(6958.460379819456), 'energy': 65.89211106203612, 'sorties': 24, 'source': 'P0007', 'global_optimum_proven': False}
+SOLVED R0006 {'J_late': 0.0, 'J_norm': np.float64(0.5076931524783835), 'makespan': np.float64(6958.460379819456), 'energy': 65.89211106203612, 'sorties': 24, 'source': 'P0007', 'global_optimum_proven': False}
+CHECKPOINT P0008 PATTERN_JOINT_MILP 103.179052272 {'J_late': 0.0, 'J_norm': np.float64(0.5610113298957229), 'makespan': 8959.906769278077, 'energy': 94.45997932155795, 'sorties': 37, 'source': 'P0008', 'global_optimum_proven': False}
+SOLVED R0007 {'J_late': 0.0, 'J_norm': np.float64(0.5610113298957229), 'makespan': 8959.906769278077, 'energy': 94.45997932155795, 'sorties': 37, 'source': 'P0008', 'global_optimum_proven': False}
+CHECKPOINT P0009 ACTIVE_DOMINANCE_MILP 131.509777555 {'J_late': 0.0, 'J_norm': 0.4735382303364666, 'makespan': 6396.934709044004, 'energy': 66.69228315175634, 'sorties': 26, 'source': 'P0009', 'global_optimum_proven': False}
+CHECKPOINT P0010 ACTIVE_DOMINANCE_MILP 159.849775571 {'J_late': 0.0, 'J_norm': 0.5017000411439895, 'makespan': 6942.7527078677285, 'energy': 65.89211106203612, 'sorties': 24, 'source': 'P0010', 'global_optimum_proven': False}
+CHECKPOINT P0011 ACTIVE_DOMINANCE_MILP 175.028950687 {'J_late': 0.0, 'J_norm': 0.4765596750789342, 'makespan': 6882.752707867739, 'energy': 65.89211106203612, 'sorties': 24, 'source': 'P0011', 'global_optimum_proven': False}

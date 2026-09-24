@@ -1,0 +1,86 @@
+[
+  {
+    "status": 1,
+    "solver_cpu_s": 13.156802310000003,
+    "variables": 496,
+    "incumbent_in_domain": "yes: original continuous starts/resources, up to symmetry relabeling; no positive separation buffer",
+    "domain": "fixed box groups/type/visit order; free typed resources and continuous times; all scalar objectives capped",
+    "proof": "NO_GLOBAL_OR_NONDOMINANCE_PROOF",
+    "found_dominator": false,
+    "source": "P0002",
+    "start_cpu_s": 102.13478807,
+    "end_cpu_s": 115.321128681
+  },
+  {
+    "status": 1,
+    "solver_cpu_s": 12.933209578999993,
+    "variables": 496,
+    "incumbent_in_domain": "yes: original continuous starts/resources, up to symmetry relabeling; no positive separation buffer",
+    "domain": "fixed box groups/type/visit order; free typed resources and continuous times; all scalar objectives capped",
+    "proof": "NO_GLOBAL_OR_NONDOMINANCE_PROOF",
+    "found_dominator": true,
+    "source": "P0006",
+    "start_cpu_s": 115.321128681,
+    "end_cpu_s": 128.294999257
+  },
+  {
+    "status": 1,
+    "solver_cpu_s": 15.29766783400001,
+    "variables": 496,
+    "incumbent_in_domain": "yes: original continuous starts/resources, up to symmetry relabeling; no positive separation buffer",
+    "domain": "fixed box groups/type/visit order; free typed resources and continuous times; all scalar objectives capped",
+    "proof": "NO_GLOBAL_OR_NONDOMINANCE_PROOF",
+    "found_dominator": false,
+    "source": "P0011",
+    "start_cpu_s": 128.35452005,
+    "end_cpu_s": 143.678176057
+  },
+  {
+    "status": 1,
+    "solver_cpu_s": 12.98380241999999,
+    "variables": 455,
+    "incumbent_in_domain": "yes: original continuous starts/resources, up to symmetry relabeling; no positive separation buffer",
+    "domain": "fixed box groups/type/visit order; free typed resources and continuous times; all scalar objectives capped",
+    "proof": "NO_GLOBAL_OR_NONDOMINANCE_PROOF",
+    "found_dominator": false,
+    "source": "P0003",
+    "start_cpu_s": 143.681996837,
+    "end_cpu_s": 156.688717732
+  },
+  {
+    "status": 1,
+    "solver_cpu_s": 15.18642667399999,
+    "variables": 455,
+    "incumbent_in_domain": "yes: original continuous starts/resources, up to symmetry relabeling; no positive separation buffer",
+    "domain": "fixed box groups/type/visit order; free typed resources and continuous times; all scalar objectives capped",
+    "proof": "NO_GLOBAL_OR_NONDOMINANCE_PROOF",
+    "found_dominator": true,
+    "source": "P0007",
+    "start_cpu_s": 156.688717732,
+    "end_cpu_s": 171.912090013
+  },
+  {
+    "status": 1,
+    "solver_cpu_s": 5.918633039000014,
+    "variables": 455,
+    "incumbent_in_domain": "yes: original continuous starts/resources, up to symmetry relabeling; no positive separation buffer",
+    "domain": "fixed box groups/type/visit order; free typed resources and continuous times; all scalar objectives capped",
+    "proof": "NO_GLOBAL_OR_NONDOMINANCE_PROOF",
+    "found_dominator": false,
+    "source": "P0012",
+    "start_cpu_s": 171.967473228,
+    "end_cpu_s": 177.911950552
+  },
+  {
+    "status": 1,
+    "solver_cpu_s": 1.5322901360000003,
+    "variables": 335,
+    "incumbent_in_domain": "yes: original continuous starts/resources, up to symmetry relabeling; no positive separation buffer",
+    "domain": "fixed box groups/type/visit order; free typed resources and continuous times; all scalar objectives capped",
+    "proof": "NO_GLOBAL_OR_NONDOMINANCE_PROOF",
+    "found_dominator": true,
+    "source": "P0004",
+    "start_cpu_s": 177.911950552,
+    "end_cpu_s": 179.47372997
+  }
+]

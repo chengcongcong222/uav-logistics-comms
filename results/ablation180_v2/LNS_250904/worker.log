@@ -1,0 +1,9 @@
+B0 type_load {'B': 11, 'C': 11, 'A': 10} sorties 32
+CHECKPOINT P0001 COMMON_RAW_DATA_B0 0.730203858 {'J_late': 65501.00549024007, 'J_norm': 0.5125647900904743, 'makespan': 10570.82377657593, 'energy': 85.66393821918167, 'sorties': 32, 'source': 'P0001', 'global_optimum_proven': False}
+CHECKPOINT P0002 UNIFORM_DESTROY_REPAIR 54.255690566 {'J_late': 53849.96915227706, 'J_norm': 0.5209067699162324, 'makespan': 11466.239371857608, 'energy': 91.99858112985044, 'sorties': 34, 'source': 'P0002', 'global_optimum_proven': False}
+CHECKPOINT P0003 UNIFORM_DESTROY_REPAIR 69.639641061 {'J_late': 51737.96915227706, 'J_norm': 0.5208771989124142, 'makespan': 11233.127798443782, 'energy': 97.59126286832486, 'sorties': 36, 'source': 'P0003', 'global_optimum_proven': False}
+CHECKPOINT P0004 UNIFORM_DESTROY_REPAIR 79.870036798 {'J_late': 40087.596207716924, 'J_norm': 0.5204011995247821, 'makespan': 11233.127798443782, 'energy': 96.72067820933059, 'sorties': 35, 'source': 'P0004', 'global_optimum_proven': False}
+CHECKPOINT P0005 UNIFORM_DESTROY_REPAIR 89.951938205 {'J_late': 41539.596207716924, 'J_norm': 0.51335437595247, 'makespan': 11299.127798443782, 'energy': 94.00455524222008, 'sorties': 34, 'source': 'P0005', 'global_optimum_proven': False}
+CHECKPOINT P0006 UNIFORM_DESTROY_REPAIR 106.955801483 {'J_late': 40087.596207716924, 'J_norm': 0.5193959627521555, 'makespan': 11233.127798443782, 'energy': 97.1362752340887, 'sorties': 35, 'source': 'P0006', 'global_optimum_proven': False}
+CHECKPOINT P0007 UNIFORM_DESTROY_REPAIR 109.636116559 {'J_late': 40087.596207716924, 'J_norm': 0.5193959627521555, 'makespan': 11233.127798443782, 'energy': 97.1362752340887, 'sorties': 35, 'source': 'P0007', 'global_optimum_proven': False}
+CHECKPOINT P0008 UNIFORM_DESTROY_REPAIR 113.90390522 {'J_late': 40087.596207716924, 'J_norm': 0.5193959627521555, 'makespan': 11233.127798443782, 'energy': 97.1362752340887, 'sorties': 35, 'source': 'P0008', 'global_optimum_proven': False}

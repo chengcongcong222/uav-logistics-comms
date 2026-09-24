@@ -1,0 +1,28 @@
+{
+  "pid": "R0011",
+  "status": 1,
+  "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+  "wall_s": 20.598568280999984,
+  "time_limit_s": 14,
+  "horizon_s": 9600,
+  "start_grid_s": 180,
+  "zero_lateness": true,
+  "single_stop_only": false,
+  "patterns_available": 2681,
+  "variables": 61699,
+  "geometry": "G2_UTM49N_STRAIGHT_NATIVE_SUPERCOVER_V1",
+  "global_optimum_proven": false,
+  "incumbent_continuous_schedule_not_guaranteed_in_grid_domain": false,
+  "objective": 93.69457405368111,
+  "restricted_dual_bound": 60.38333939035613,
+  "restricted_mip_gap": 0.3555300293508964,
+  "metrics": {
+    "J_late": 0.0,
+    "J_norm": 0.5465500060142862,
+    "makespan": 8556.99744576533,
+    "energy": 93.69457405368111,
+    "sorties": 36,
+    "source": "P0012",
+    "global_optimum_proven": false
+  }
+}

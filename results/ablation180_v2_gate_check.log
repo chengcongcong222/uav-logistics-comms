@@ -1,0 +1,23 @@
+{
+  "gate": "G2_MAIN_PRESERVED_Q2_EQUAL_CPU_FIVE_SEEDS_VERIFIED",
+  "benchmark_scope": "Q2_ONLY_THREE_SPECIFIC_IMPLEMENTATIONS_ONE_INSTANCE",
+  "runs": 15,
+  "seeds_per_method": 5,
+  "cpu_budget_s": 180,
+  "maximum_observed_cpu_s": 180.032152469,
+  "verified_in_budget_checkpoints": 141,
+  "strict_equal_cpu_multiseed_comparison_completed": true,
+  "equal_budget_means": "same enforced CPU cap, not identical consumption or machine instructions",
+  "Q3_multiseed_algorithm_comparison_completed": false,
+  "Q3_main": "A11_Q3_001",
+  "G2_original_gate": "G2_AUTONOMOUS_MAIN_Q1_Q4_SUBMISSION_VERIFIED",
+  "G2_original_revision": "4ae3d2d0d584d648c814e1b7c2d98613237a920e",
+  "G2_mathematical_outputs_byte_preserved": true,
+  "combined_submission_byte_preserved": true,
+  "invalid_v1_excluded": true,
+  "global_pareto_proven": false,
+  "new_Q2_verified_dominance_wins": 13,
+  "Q3_existing_verified_dominance_wins": 7,
+  "algorithm_expansion": "STOP_AFTER_THIS_EXPERIMENT",
+  "paper_status": "MAIN_TEXT_DRAFT_WITH_VERIFIED_RESULTS_NOT_FINAL_FORMATTED_SUBMISSION"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "INVALID_TIMING_ACCOUNTING_MISMATCH",
+  "all_runs_excluded_from_formal_comparison": true,
+  "reason": "SIGXCPU guard triggered while /proc observer only reported about 168 CPU seconds; use clock_getcpuclockid with process CPU clock and repeat complete protocol",
+  "superseded_by": "results/ablation180_v2",
+  "diagnosis": "Root cause not established; /proc observer and SIGXCPU guard disagreed. Entire V1 batch excluded, not selected by solution quality."
+}

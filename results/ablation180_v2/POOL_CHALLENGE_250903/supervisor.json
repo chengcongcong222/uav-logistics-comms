@@ -1,0 +1,22 @@
+{
+  "run": "POOL_CHALLENGE_250903",
+  "core": 4,
+  "exit_code": -9,
+  "termination": "CPU_BUDGET",
+  "observed_process_cpu_s": 180.020176313,
+  "wall_s": 193.39567021000005,
+  "cpu_budget_s": 180,
+  "accepted_checkpoints": [
+    "P0001",
+    "P0002",
+    "P0003",
+    "P0004",
+    "P0005",
+    "P0006",
+    "P0007",
+    "P0008",
+    "P0009",
+    "P0010"
+  ],
+  "discarded_after_budget": []
+}

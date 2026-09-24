@@ -1,0 +1,5 @@
+{
+  "seed": 250905,
+  "patterns": 2828,
+  "permutation": "Python Random(seed).shuffle once; all patterns retained"
+}

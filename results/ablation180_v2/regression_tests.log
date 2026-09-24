@@ -1,0 +1,10 @@
+test_duplicate_checkpoint_rejected (__main__.Accounting.test_duplicate_checkpoint_rejected) ... ok
+test_excess_cpu_rejected (__main__.Accounting.test_excess_cpu_rejected) ... ok
+test_hard_cutoff_keeps_only_complete_in_budget_checkpoint (__main__.Accounting.test_hard_cutoff_keeps_only_complete_in_budget_checkpoint) ... ok
+test_late_checkpoint_rejected (__main__.Accounting.test_late_checkpoint_rejected) ... ok
+test_old_sigxcpu_mismatch_rejected (__main__.Accounting.test_old_sigxcpu_mismatch_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK

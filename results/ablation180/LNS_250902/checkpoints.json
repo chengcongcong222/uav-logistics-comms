@@ -1,0 +1,36 @@
+[
+  {
+    "pid": "P0001",
+    "origin": "COMMON_RAW_DATA_B0",
+    "source": null,
+    "cpu_ready_s": 0.759753013,
+    "wall_ready_s": 0.8001933060000397,
+    "metrics": {
+      "J_late": 65501.00549024007,
+      "J_norm": 0.5125647900904743,
+      "makespan": 10570.82377657593,
+      "energy": 85.66393821918167,
+      "sorties": 32,
+      "source": "P0001",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180/LNS_250902/q2/pareto_schedules/P0001/missions.json"
+  },
+  {
+    "pid": "P0002",
+    "origin": "UNIFORM_DESTROY_REPAIR",
+    "source": null,
+    "cpu_ready_s": 35.312884689,
+    "wall_ready_s": 37.887097564000044,
+    "metrics": {
+      "J_late": 52861.28789025401,
+      "J_norm": 0.5249461103488047,
+      "makespan": 10298.011511881583,
+      "energy": 88.10005228621414,
+      "sorties": 33,
+      "source": "P0002",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180/LNS_250902/q2/pareto_schedules/P0002/missions.json"
+  }
+]

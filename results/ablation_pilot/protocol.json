@@ -1,0 +1,57 @@
+{
+  "version": "CPU180_FIVE_SEEDS_Q2_V1",
+  "scope": "Q2_ONLY",
+  "methods": [
+    "LNS",
+    "POOL",
+    "POOL_CHALLENGE"
+  ],
+  "seeds": [
+    99001
+  ],
+  "cpu_budget_s": 12.0,
+  "cores": [
+    0,
+    4,
+    8
+  ],
+  "parallel_workers": 3,
+  "core_assignment": "rotate by seed index",
+  "checkpoint_cpu_cutoff_s": 12.0,
+  "supervisor_poll_s": 0.01,
+  "maximum_observed_cpu_overshoot_tolerance_s": 0.2,
+  "secondary_wall_watchdog_s": 900,
+  "thread_limit": 1,
+  "included_costs": [
+    "interpreter/imports",
+    "data loading",
+    "fresh common B0 initialization",
+    "mode generation",
+    "model construction",
+    "search",
+    "execution package exports"
+  ],
+  "excluded_costs": [
+    "supervisor monitoring",
+    "independent post-run validation",
+    "summary plots"
+  ],
+  "common_geometry": "G2_UTM49N_STRAIGHT_NATIVE_SUPERCOVER_V1",
+  "common_physics_and_objectives": true,
+  "no_imported_solution_seeds": true,
+  "enhanced_protocol": "same pool pipeline; after 100 process CPU seconds interleave up-to-14-wall-second fixed-structure free-resource dominance MILPs on unchallenged nondominated candidates; alternate new pattern proposals when exhausted",
+  "base_pool_protocol": "cycle 6600/120 zero single,7200/180 zero single,9600/180 zero multi,12000/180 soft multi; each solver call capped at 14 wall seconds; seeded pattern permutation and HiGHS seed",
+  "lns_protocol": "uniform destroy/repair, 10 percent acceptance of non-improvement, explicit randomized order every fourth iteration; record every completed feasible candidate",
+  "success_definitions": [
+    "at least one independently verified in-budget full Q2 execution",
+    "at least one such execution with J_late <= 1e-4"
+  ],
+  "hypotheses": "compare search quality under identical CPU cap; do not promise POOL_CHALLENGE beats POOL or infer Q3 algorithm performance",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "source_hashes": {
+    "src/bench/run.py": "e6577d961e2f5cff727d8fca8b94704d4228f963dbbd51506b4758437b7b195e",
+    "src/bench/worker.py": "507221598a9a732d089d09e0790f940f7d2a733632a1d50165a4fdcba736219e",
+    "src/bench/challenge.py": "bd1eeddad5a08195f2a2166442aa7b74744c0c7f0fc5f989030fddd8c50106a8"
+  }
+}

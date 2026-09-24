@@ -1,0 +1,4 @@
+method,seeds,best_J_late,median_seed_best_J_late,best_makespan,best_energy,median_per_seed_nondominated_count,union_nondominated_count,feasible_success_rate,zero_lateness_success_rate,zero_late_best_makespan,zero_late_best_energy,verified_dominance_wins,median_actual_cpu_s,median_seed_best_J_norm
+LNS,5,32492.965632167048,52861.28789025401,10046.344561547741,85.66393821918167,2.0,5,1.0,0.0,,,0,180.014883052,0.5193959627521555
+POOL,5,0.0,0.0,6396.934739044012,60.427271642314416,2.0,7,1.0,1.0,6396.934739044012,60.427271642314416,0,180.018730614,0.47707963680988624
+POOL_CHALLENGE,5,0.0,0.0,6396.934709044002,60.427271642314416,2.0,6,1.0,1.0,6396.934709044002,60.427271642314416,13,179.640273068,0.4672682473178652

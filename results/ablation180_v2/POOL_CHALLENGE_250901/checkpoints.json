@@ -1,0 +1,189 @@
+[
+  {
+    "pid": "P0001",
+    "origin": "COMMON_RAW_DATA_B0",
+    "source": null,
+    "cpu_ready_s": 0.952431273,
+    "wall_ready_s": 1.4085896420000026,
+    "metrics": {
+      "J_late": 65501.00549024007,
+      "J_norm": 0.5125647900904743,
+      "makespan": 10570.82377657593,
+      "energy": 85.66393821918167,
+      "sorties": 32,
+      "source": "P0001",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_CHALLENGE_250901/q2/pareto_schedules/P0001/missions.json"
+  },
+  {
+    "pid": "P0002",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 18.206020305,
+    "wall_ready_s": 19.864758079000005,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.5191734977048936,
+      "makespan": 6454.839614277953,
+      "energy": 67.3896197830287,
+      "sorties": 25,
+      "source": "P0002",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_CHALLENGE_250901/q2/pareto_schedules/P0002/missions.json"
+  },
+  {
+    "pid": "P0003",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 22.649645199,
+    "wall_ready_s": 24.661466132999998,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.4942170197632067,
+      "makespan": 6893.4894208244805,
+      "energy": 66.19169301226313,
+      "sorties": 24,
+      "source": "P0003",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_CHALLENGE_250901/q2/pareto_schedules/P0003/missions.json"
+  },
+  {
+    "pid": "P0004",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 44.153336572,
+    "wall_ready_s": 47.047269632,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.5465500060142862,
+      "makespan": 8556.99744576533,
+      "energy": 93.69457405368111,
+      "sorties": 36,
+      "source": "P0004",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_CHALLENGE_250901/q2/pareto_schedules/P0004/missions.json"
+  },
+  {
+    "pid": "P0005",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 68.750372928,
+    "wall_ready_s": 73.749571476,
+    "metrics": {
+      "J_late": 597537.6470706719,
+      "J_norm": 0.7883950262613052,
+      "makespan": 11078.985134713,
+      "energy": 116.41511850914199,
+      "sorties": 42,
+      "source": "P0005",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_CHALLENGE_250901/q2/pareto_schedules/P0005/missions.json"
+  },
+  {
+    "pid": "P0006",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 81.933676613,
+    "wall_ready_s": 88.141330055,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.519357401834884,
+      "makespan": 6454.839614277953,
+      "energy": 67.3896197830287,
+      "sorties": 25,
+      "source": "P0006",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_CHALLENGE_250901/q2/pareto_schedules/P0006/missions.json"
+  },
+  {
+    "pid": "P0007",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 86.51204876,
+    "wall_ready_s": 93.103075959,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.4942170197632067,
+      "makespan": 6893.4894208244805,
+      "energy": 66.19169301226313,
+      "sorties": 24,
+      "source": "P0007",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_CHALLENGE_250901/q2/pareto_schedules/P0007/missions.json"
+  },
+  {
+    "pid": "P0008",
+    "origin": "PATTERN_JOINT_MILP",
+    "source": null,
+    "cpu_ready_s": 107.935044826,
+    "wall_ready_s": 115.94021717000001,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.5465500060142862,
+      "makespan": 8556.99744576533,
+      "energy": 93.69457405368111,
+      "sorties": 36,
+      "source": "P0008",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_CHALLENGE_250901/q2/pareto_schedules/P0008/missions.json"
+  },
+  {
+    "pid": "P0009",
+    "origin": "ACTIVE_DOMINANCE_MILP",
+    "source": "P0003",
+    "cpu_ready_s": 120.978357917,
+    "wall_ready_s": 130.076921843,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.4769360032887394,
+      "makespan": 6893.489390824465,
+      "energy": 66.19169301226313,
+      "sorties": 24,
+      "source": "P0009",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_CHALLENGE_250901/q2/pareto_schedules/P0009/missions.json"
+  },
+  {
+    "pid": "P0010",
+    "origin": "ACTIVE_DOMINANCE_MILP",
+    "source": "P0009",
+    "cpu_ready_s": 136.286985177,
+    "wall_ready_s": 146.464973638,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.4747783554573766,
+      "makespan": 6893.489390824474,
+      "energy": 66.19169301226313,
+      "sorties": 24,
+      "source": "P0010",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_CHALLENGE_250901/q2/pareto_schedules/P0010/missions.json"
+  },
+  {
+    "pid": "P0011",
+    "origin": "ACTIVE_DOMINANCE_MILP",
+    "source": "P0002",
+    "cpu_ready_s": 164.808590468,
+    "wall_ready_s": 176.987595565,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.46163464522714137,
+      "makespan": 6396.934709044004,
+      "energy": 67.3896197830287,
+      "sorties": 25,
+      "source": "P0011",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/ablation180_v2/POOL_CHALLENGE_250901/q2/pareto_schedules/P0011/missions.json"
+  }
+]

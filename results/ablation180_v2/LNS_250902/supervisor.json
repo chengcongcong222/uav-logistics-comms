@@ -1,0 +1,14 @@
+{
+  "run": "LNS_250902",
+  "core": 4,
+  "exit_code": -9,
+  "termination": "CPU_BUDGET",
+  "observed_process_cpu_s": 180.008519899,
+  "wall_s": 193.73074214,
+  "cpu_budget_s": 180,
+  "accepted_checkpoints": [
+    "P0001",
+    "P0002"
+  ],
+  "discarded_after_budget": []
+}
