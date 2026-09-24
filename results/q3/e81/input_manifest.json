@@ -1,0 +1,11 @@
+{
+  "base_commit": "1faaf1e0c93da2f5349c8e50d6d96341afde1935",
+  "hashes": {
+    "results/q3/e8/frozen_input_manifest.json": "a2d06c6dd0d08708571e4cd33447a737aa988b96e6e3011bd39a9cf0b9dd1df7",
+    "results/q3/e8/gamma_06/candidate_sites.csv": "7f6bf15c7f94c9a7725e6a23742e31738d8ce4d0d4bd83f4619c9d87665b6575",
+    "results/q3/e8/gamma_06/robust_tasks.csv": "80bb2b3dbffd2bcddb154867ab91b9221cb8ec1b3cf2239b8a42232cd0ccb2d9",
+    "results/q3/e8/gamma_06/candidate_pairs.csv": "f2d4a4e18d5afd6bfd9206f4132c69dc2dae01d3e1221209e5d3087e5f1a50d8",
+    "results/q3/e7/solutions/Q3E7_001/witness.json": "5b1182ae18c411ce3da8fe1e194f7135952ea8dd8c56562616559a801782ff4c",
+    "results/q3/e7/solutions/Q3E7_001/transport_shifts_P01.csv": "aec6f10a12a04e459b31e9d37e2798d2b424c99b452f7c45e2b6a219a29a2b39"
+  }
+}

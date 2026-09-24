@@ -1,0 +1,20 @@
+{
+  "search_attempts": 1,
+  "objective": "FEASIBILITY_ONLY_ZERO_OBJECTIVE",
+  "critical_atoms": 121,
+  "potential_sorties": 130,
+  "arbitrary_per_aircraft_sortie_cap": null,
+  "outside_groups": 9,
+  "candidate_site_options": 2752,
+  "variables": 16358,
+  "binary_variables": 15989,
+  "constraints": 48640,
+  "time_limit_s": 180,
+  "caveats": [
+    "FINITE_CANDIDATES_AND_60S_ATOMS",
+    "OUTSIDE_GROUPS_FIXED",
+    "CONSERVATIVE_ACTIVE_SPAN_ENERGY",
+    "ENERGY_COMPONENTS_CHECKED_ON_MATERIALIZED_INCUMBENT"
+  ],
+  "physical_infeasibility_proven": false
+}

@@ -1,0 +1,9 @@
+{
+  "tests": 3,
+  "passed": 3,
+  "cases": [
+    "changed_frozen_time_rejected",
+    "understated_resource_pool_rejected",
+    "cross_group_relay_dependency_rejected"
+  ]
+}

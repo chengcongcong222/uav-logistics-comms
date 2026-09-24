@@ -1,42 +1,51 @@
 # UAV Logistics & Relay Communication Lab
 
-Current stage: **E8 robustness study PARTIAL — Gamma 6 dB unresolved**.
-Gamma 0/2/4 dB have 8/5/10 independently validated Pareto execution points.
-Gamma 6 has communication candidates for every demand but no executable joint
-resource witness within this bounded search. Physical infeasibility is not
-proven. Formal ns-3 and Q4 remain WAIT.
+Current stage: **E8-A DONE; final optional Gamma 6 rescue closed; Q4 READY**.
+The main remaining work is whole-contest submission-table integration and paper
+assembly. Formal ns-3 is optional/late, not a gate for Q4.
 
-- [E8 full report and robustness costs](results/q3/E8_ROBUSTNESS_REPORT.md)
-- [E8 GPT review handoff](results/q3/E8_GPT_SYNC.md)
-- [Validated Pareto family](results/q3/e8/pareto_family.csv)
-- [Artifact-bound E8 review](results/q3/e8/validation.json)
-- [E8 semantics and reproduction](docs/model/Q3_ROBUSTNESS_E8_SEMANTICS.md)
-- [Preserved E7 report](results/q3/E7_JOINT_PARETO_REPORT.md)
+- [Project status](results/project_status.json)
+- [Q4 report and exact resource tradeoffs](results/q4/Q4_REPORT.md)
+- [Q4 GPT handoff](results/q4/Q4_GPT_SYNC.md)
+- [Q4 independent validation](results/q4/validation.json)
+- [E8-A certified robustness costs](results/q3/E8_ROBUSTNESS_REPORT.md)
+- [E8.1 final Gamma 6 rescue and diagnostic limits](results/q3/E81_CRITICAL_WINDOW_REPORT.md)
+- [Paper main-result freeze and claim boundaries](docs/paper/MAIN_RESULTS_FREEZE_20260925.md)
 
 ## Current result authority
 
-Frozen transport baselines are under `results/q2/pareto_schedules/P01..P03/`;
-legacy top-level Q2 CSVs are not synchronized packages. E52/E6/E7 are unchanged.
-E8 fixes the P01 transport structure, allows L1 timing/resource changes and
-requires Gamma on the direct link and both relay hops. Gamma 0 exactly preserves
-the eight final E7 executions.
+Q1 and Q2 retain their frozen results. E52/E6/E7 remain unchanged. E7 provides
+eight formal Gamma-zero Q3 executions. Q4 fixes the time-priority Q3E7_001 source
+and its whole-task communication dependencies; it enumerates all 15 two-group
+and 25 three-group partitions of five unsplittable blocks.
 
-Validated E8 packages are in `results/q3/e8/gamma_00/solutions/`,
-`gamma_02/solutions/`, and `gamma_04/solutions/`. There is no validated Gamma 6
-package. Numerical full-flight validation does not constitute an analytic
-continuous-time guarantee.
+Q4_READY means that partitions, exact minimum independent resource requirements
+and inventory gaps are validated. It does **not** mean current inventory is
+sufficient. Under this fixed source, even minimum-gap partitions require extra
+resources: K2 needs one B UAV and one B battery; K3 needs two B UAVs, one C UAV,
+two B batteries and one C battery. Balanced alternatives and the full Pareto
+sets are supplied. No Q3 task times, routes or communication relations change.
+
+E8-A has 23 validated points at Gamma 0/2/4 dB. The certified tested robustness
+level is 4 dB; the true physical upper boundary is unknown. E8-B ended as
+GAMMA6_NO_WITNESS_FOUND after one final bounded rescue, not as INFEASIBLE.
+The full-interval reference-window site-cover count of three is not a lower
+bound for free L1 timing: its midpoint instantaneous physical cover needs two.
+
+## Review commands
 
 ```bash
 export OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1
-.venv/bin/python -m src.q3.e8_replay --check-all
+.venv/bin/python validation/mathematical/e81_validate.py
+.venv/bin/python validation/mathematical/q4_validate.py
+.venv/bin/python validation/mathematical/test_q4_regressions.py
 .venv/bin/python validation/mathematical/e8_gate.py
-.venv/bin/python -m src.q3.e8_replay --gamma 4 --epsilon .02 --objective energy --output results/q3/e8/generated/g4_e02_energy
-.venv/bin/python validation/mathematical/e8_validate.py --directory results/q3/e8/generated/g4_e02_energy --step .5
 ```
 
-The E8 gate remains partial while Gamma 6 is unresolved. An empty known frontier
-or a restricted MILP infeasibility result does not prove the original scenario
-impossible.
+Model scopes: [E8](docs/model/Q3_ROBUSTNESS_E8_SEMANTICS.md),
+[Q4](docs/model/Q4_PARTITION_SEMANTICS.md). The two Q4 xlsx files are verified
+draft Q4 pages, not the final combined contest workbook. Raw data are immutable.
+Legacy modified top-level Q2 CSVs are not authoritative synchronized packages.
 
 ## Stack (frozen)
 

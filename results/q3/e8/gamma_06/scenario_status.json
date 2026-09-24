@@ -1,6 +1,6 @@
 {
   "Gamma_C_db": 6,
-  "status": "NO_EXECUTABLE_WITNESS_FOUND_WITHIN_BOUNDED_SEARCH",
+  "status": "GAMMA6_NO_WITNESS_FOUND",
   "known_pareto_points": 0,
   "physical_infeasibility_proven": false
 }

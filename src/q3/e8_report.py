@@ -48,7 +48,7 @@ def main():
     cost_table=table(['ΓC','次级目标','选择方案','目标值','相对 Γ0 增量','相对增幅'],cost_rows)
     report=f'''# E8 鲁棒通信预算阶段报告
 
-Gate：**E8_PARTIAL_GAMMA6_UNRESOLVED**。0、2、4 dB 三个场景共 **23 个**方案通过独立执行验证；6 dB 在本次有限搜索内没有取得可执行见证。**不能把 E8 标为全通过，不能把 Γ6 的已知前沿为空等同于真实可行域为空。** 正式 ns-3、Q4 均未开始。
+Gate：**E8_A_ROBUSTNESS_COST_READY**。E8-A 的 0/2/4 dB 鲁棒代价研究完成，共 23 个独立验证方案；E8-B 的 6 dB 边界仍未闭合，最后一轮 E8.1 已按约定止损为 GAMMA6_NO_WITNESS_FOUND。Γ6 不再作为 Q4 的门禁。Q4 已基于 Γ0 的 E7_001 独立完成，ns-3 转为后期可选验证。不能把已知前沿为空等同于真实可行域为空。
 
 ## 已验证结果
 
@@ -87,7 +87,7 @@ Gate：**E8_PARTIAL_GAMMA6_UNRESOLVED**。0、2、4 dB 三个场景共 **23 个*
 3. 允许早期长缺口内的中继交接，重建 56 段候选并尝试六类分组。
 4. 联合选择站点、任务到中继架次的分配和时间，每架中继允许两/三次早期架次；28 个覆盖签名的限时 MILP 都返回所建模型不可行。覆盖签名只保留往返较短的代表，且站点、区间划分、架次数受限，因此这不是原连续问题的不可行证明。
 
-任务级通信覆盖可行，但时序、早期硬截止和两架中继的往返/周转约束尚未闭合。下一步应针对 Γ6 做可行性边界审查或更细的定向交接/站点列生成，而不是修改 Q3 箱组/路线，也不应直接推进正式 ns-3。已有有限模型的 infeasible 与整题 infeasible 必须区分。
+任务级通信覆盖可行，但时序、早期硬截止和两架中继的往返/周转约束尚未闭合。上述是原 E8 的有限搜索证据。之后已完成用户限定的一轮 E8.1：一次关键窗诊断、一次定向扩展尝试及一次取消两/三架次限制的纯可行性搜索。未找到见证后停止，主线已转入并完成 Q4；详见 [E8.1 报告](E81_CRITICAL_WINDOW_REPORT.md)。已有有限模型的 infeasible 与整题 infeasible 必须区分。
 
 ## 搜索、验证与复现
 
@@ -108,12 +108,12 @@ export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
 
 ## 阶段状态
 
-Q1 DONE；Q2 Pareto DONE；Q3 通信物理/中继候选/资源闭环/联合 Pareto DONE（E7）；E8 PARTIAL（Γ0/2/4 已验证，Γ6 未闭合）；ns-3 正式验证 WAIT；Q4 独立分区 WAIT；论文/图表/提交表 WAIT。本阶段只交付 E8 研究图表，未开始最终论文整合。
+Q1 DONE；Q2 Pareto DONE；Q3 通信/中继/资源闭环/联合 Pareto DONE；E8-A DONE；E8-B GAMMA6_NO_WITNESS_FOUND（救援停止）；Q4 DONE；全题提交表整合与论文主结果冻结 NEXT；ns-3 OPTIONAL/LATE。
 '''
     (Q3/'E8_ROBUSTNESS_REPORT.md').write_text(report)
     sync=f'''# E8 给 GPT 的前线反馈
 
-当前 Gate 是 **E8_PARTIAL_GAMMA6_UNRESOLVED**，请勿签发 E8 全通过，也勿启动正式 ns-3/Q4。
+当前 Gate 是 **E8_A_ROBUSTNESS_COST_READY**；E8-B 仍未闭合，最后一次救援已结束为 GAMMA6_NO_WITNESS_FOUND。E8-A 完成与 E8-B 未闭合分开报告；Q4 已基于 Γ0 的 E7_001 完成，不受 Γ6 阻塞。
 
 {main_table}
 
@@ -123,7 +123,7 @@ Q1 DONE；Q2 Pareto DONE；Q3 通信物理/中继候选/资源闭环/联合 Pare
 
 Γ6 每段已有通信候选（56 原子段、91 站点、1423 边），但没有找到满足硬截止和联合资源的完整见证。已尝试共同站点补充、35 类早期分区、300 s 原子交接、联合站点/分配/时序 MILP；受候选集、交接划分和架次数限制，不能宣称真实不可行。原 40 缺口与 56 子段的保障并集完全相同。
 
-请优先审查 Γ6 的早期任务/往返周转瓶颈及现有限制，决定后续如何形成更强可行性或下界证据。无需再动 Q3 主结构。不要把“Γ6 未找到”翻译成“至少需要第三架中继”——本阶段没有证明这个结论。
+最后一次 E8.1 已按止损约定结束，当前不再扩展 Γ6 搜索。新诊断的整段候选覆盖下界为3，但中点瞬时链路覆盖只需2，不能混为自由时间模型的资源下界。Q4 结果见 results/q4/Q4_GPT_SYNC.md；主线转为提交表与论文结果冻结。不要把“Γ6 未找到”翻译成“至少需要第三架中继”——本阶段没有证明这个结论。
 
 {cost_table}
 
@@ -132,6 +132,8 @@ Q1 DONE；Q2 Pareto DONE；Q3 通信物理/中继候选/资源闭环/联合 Pare
 权威入口：[完整报告](E8_ROBUSTNESS_REPORT.md)、[Gate](e8/validation.json)、[前沿族](e8/pareto_family.csv)、[共同预算成本](e8/common_absolute_budget_comparison.csv)、[重放证据](e8/replay_checks.json)、[模型边界](../../docs/model/Q3_ROBUSTNESS_E8_SEMANTICS.md)。Gate 内附结果及代码哈希；所有失败模型与界限均保留。结论只覆盖冻结数值模型及有限搜索；不等于全局最优、完整 Pareto 或连续时间解析证明。
 '''
     (Q3/'E8_GPT_SYNC.md').write_text(sync)
+    from src.q3.e8_certified_cost import generate
+    generate()
     print('REPORT_WRITTEN',len(f),flush=True)
 
 if __name__=='__main__':main()

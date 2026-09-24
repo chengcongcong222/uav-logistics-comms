@@ -1,0 +1,75 @@
+[
+  {
+    "site_id": "E52_eddf192c3626d88d236d26e4",
+    "task_ids": [
+      "P01_GAMMA06_M013_00_A00_R00",
+      "P01_GAMMA06_M014_00_A00_R00",
+      "P01_GAMMA06_M014_01_A00_R00",
+      "P01_GAMMA06_M014_02_A00_R00",
+      "P01_GAMMA06_M014_03_A00_R00",
+      "P01_GAMMA06_M014_04_A00_R00",
+      "P01_GAMMA06_M015_00_A00_R00",
+      "P01_GAMMA06_M016_00_A00_R00"
+    ]
+  },
+  {
+    "site_id": "E52_246111a1ef063bec9e89ec9e",
+    "task_ids": [
+      "P01_GAMMA06_M010_00_A00_R00",
+      "P01_GAMMA06_M012_00_A00_R00"
+    ]
+  },
+  {
+    "site_id": "E52_2e64690809088e2a96fb2160",
+    "task_ids": [
+      "P01_GAMMA06_M009_00_A00_R00",
+      "P01_GAMMA06_M011_00_A00_R00"
+    ]
+  },
+  {
+    "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+    "task_ids": [
+      "P01_GAMMA06_M017_00_A00_R00",
+      "P01_GAMMA06_M018_00_A00_R00",
+      "P01_GAMMA06_M022_00_A00_R00",
+      "P01_GAMMA06_M022_01_A00_R00",
+      "P01_GAMMA06_M022_02_A00_R00",
+      "P01_GAMMA06_M022_03_A00_R00",
+      "P01_GAMMA06_M022_04_A00_R00"
+    ]
+  },
+  {
+    "site_id": "E52_246111a1ef063bec9e89ec9e",
+    "task_ids": [
+      "P01_GAMMA06_M019_00_A00_R00",
+      "P01_GAMMA06_M020_00_A00_R00"
+    ]
+  },
+  {
+    "site_id": "E52_b4122a9095172602242b40e3",
+    "task_ids": [
+      "P01_GAMMA06_M023_00_A00_R00",
+      "P01_GAMMA06_M024_00_A00_R00"
+    ]
+  },
+  {
+    "site_id": "E52_2e64690809088e2a96fb2160",
+    "task_ids": [
+      "P01_GAMMA06_M021_00_A00_R00"
+    ]
+  },
+  {
+    "site_id": "E52_eddf192c3626d88d236d26e4",
+    "task_ids": [
+      "P01_GAMMA06_M026_00_A00_R00",
+      "P01_GAMMA06_M027_00_A00_R00",
+      "P01_GAMMA06_M028_00_A00_R00"
+    ]
+  },
+  {
+    "site_id": "E52_06eb0baa948af7ff52881bcf",
+    "task_ids": [
+      "P01_GAMMA06_M025_00_A00_R00"
+    ]
+  }
+]

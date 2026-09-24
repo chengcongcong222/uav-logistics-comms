@@ -1,0 +1,959 @@
+{
+  "reference_solution": "Q3E7_001",
+  "Gamma_C_db": 6,
+  "earliest_reference_full_atom_overload_window_s": [
+    752.875,
+    829.328125
+  ],
+  "active_robust_tasks": [
+    {
+      "atomic_task_id": "P01_GAMMA06_M001_00_A00",
+      "transport_sortie_id": "M001",
+      "service_start_s": 747.71875,
+      "service_end_s": 1002.0625,
+      "shift_lower_s": -0.0,
+      "shift_upper_s": 1978.8359692729002,
+      "whole_atom_candidates": 26,
+      "instantaneous_candidates": 39
+    },
+    {
+      "atomic_task_id": "P01_GAMMA06_M002_00_A00",
+      "transport_sortie_id": "M002",
+      "service_start_s": 631.6875,
+      "service_end_s": 829.328125,
+      "shift_lower_s": -0.0,
+      "shift_upper_s": 2056.937629031515,
+      "whole_atom_candidates": 16,
+      "instantaneous_candidates": 16
+    },
+    {
+      "atomic_task_id": "P01_GAMMA06_M003_00_A00",
+      "transport_sortie_id": "M003",
+      "service_start_s": 752.875,
+      "service_end_s": 993.8958333333334,
+      "shift_lower_s": -0.0,
+      "shift_upper_s": 2357.567236023825,
+      "whole_atom_candidates": 8,
+      "instantaneous_candidates": 17
+    },
+    {
+      "atomic_task_id": "P01_GAMMA06_M004_00_A00",
+      "transport_sortie_id": "M004",
+      "service_start_s": 609.0685078566343,
+      "service_end_s": 850.6856953566343,
+      "shift_lower_s": -0.0,
+      "shift_upper_s": 2439.713033039044,
+      "whole_atom_candidates": 21,
+      "instantaneous_candidates": 42
+    },
+    {
+      "atomic_task_id": "P01_GAMMA06_M005_00_A00",
+      "transport_sortie_id": "M005",
+      "service_start_s": 674.71875,
+      "service_end_s": 960.859375,
+      "shift_lower_s": -0.0,
+      "shift_upper_s": 2456.575237029827,
+      "whole_atom_candidates": 16,
+      "instantaneous_candidates": 16
+    },
+    {
+      "atomic_task_id": "P01_GAMMA06_M006_00_A00",
+      "transport_sortie_id": "M006",
+      "service_start_s": 624.125,
+      "service_end_s": 872.8229166666666,
+      "shift_lower_s": -0.0,
+      "shift_upper_s": 2495.0336341725356,
+      "whole_atom_candidates": 17,
+      "instantaneous_candidates": 28
+    },
+    {
+      "atomic_task_id": "P01_GAMMA06_M015_00_A00",
+      "transport_sortie_id": "M015",
+      "service_start_s": 577.9843516784044,
+      "service_end_s": 990.0468516784044,
+      "shift_lower_s": -1654.8593983215956,
+      "shift_upper_s": 8253.416474452079,
+      "whole_atom_candidates": 47,
+      "instantaneous_candidates": 50
+    },
+    {
+      "atomic_task_id": "P01_GAMMA06_M016_00_A00",
+      "transport_sortie_id": "M016",
+      "service_start_s": 668.0654740596533,
+      "service_end_s": 1291.5967240596533,
+      "shift_lower_s": -1495.5595259403467,
+      "shift_upper_s": 37010.27008218069,
+      "whole_atom_candidates": 35,
+      "instantaneous_candidates": 39
+    }
+  ],
+  "hard_deadline_transport_sorties": [
+    "M001",
+    "M002",
+    "M003",
+    "M004",
+    "M005",
+    "M006",
+    "M007",
+    "M008"
+  ],
+  "candidate_pool_sites": 91,
+  "minimum_simultaneous_relays_under_full_interval_candidate_pool": 3,
+  "set_cover_witness": [
+    "E52_060143e4033ea7dfc142ce26",
+    "E52_0c9d91fc306062a18ada9948",
+    "E52_132fcaf6d631eae41e83e018"
+  ],
+  "snapshot_time_s": 791.1015625,
+  "minimum_relays_at_physical_snapshot": 2,
+  "instantaneous_site_cover": [
+    "E52_060143e4033ea7dfc142ce26",
+    "E52_0c9d91fc306062a18ada9948"
+  ],
+  "candidate_common_site_intersections": [
+    {
+      "tasks": [
+        "P01_GAMMA06_M001_00_A00",
+        "P01_GAMMA06_M002_00_A00"
+      ],
+      "whole_atom_common": [],
+      "instant_common": []
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M001_00_A00",
+        "P01_GAMMA06_M003_00_A00"
+      ],
+      "whole_atom_common": [
+        "E52_132fcaf6d631eae41e83e018",
+        "E52_154bbd26b7808edf72eaa410",
+        "E52_2d291a2169e36d61d7bf7582",
+        "E52_7e4744117cf2a1b6b8665ab3",
+        "E52_a0032802edd73d232f2c84c2",
+        "E52_fb97bb829fc82a7376005525"
+      ],
+      "instant_common": [
+        "E52_060143e4033ea7dfc142ce26",
+        "E52_0f45fcab7c66cb90fa618929",
+        "E52_12b142f00e8cb4e3948f96c2",
+        "E52_132fcaf6d631eae41e83e018",
+        "E52_154bbd26b7808edf72eaa410",
+        "E52_2d291a2169e36d61d7bf7582",
+        "E52_32cd7932ac3bc8f6e82bd016",
+        "E52_3322673a66874be8fb5ff9e0",
+        "E52_4d215302190bc5bfb29bf912",
+        "E52_67646c2afbeb5602853e5a9c",
+        "E52_7e4744117cf2a1b6b8665ab3",
+        "E52_a0032802edd73d232f2c84c2",
+        "E52_aaa387ee3ee3170bd804334d",
+        "E52_b4122a9095172602242b40e3",
+        "E52_be79b94db4a0a5b6faaed631",
+        "E52_f4836ff0bfcbe7f74f580128",
+        "E52_fb97bb829fc82a7376005525"
+      ]
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M001_00_A00",
+        "P01_GAMMA06_M004_00_A00"
+      ],
+      "whole_atom_common": [
+        "E52_060143e4033ea7dfc142ce26",
+        "E52_a77602565c04dca5831f9b7a",
+        "E52_b544b4d7beda1d6ed7fbeefb",
+        "E52_b7c433bb400c5a28313b13f0",
+        "E52_c76d93c5902d0dc017f7065c",
+        "E52_d1d4424e0dfaa7a0ce62d445",
+        "E52_dc4c132291b7b9525a26c82f",
+        "E52_eddf192c3626d88d236d26e4"
+      ],
+      "instant_common": [
+        "E52_060143e4033ea7dfc142ce26",
+        "E52_0f45fcab7c66cb90fa618929",
+        "E52_0fa03b8d9ed736d48919c1b7",
+        "E52_12b142f00e8cb4e3948f96c2",
+        "E52_29c9aa5399273a7ee24bceb6",
+        "E52_2cea01313b8862fcfb6b2e63",
+        "E52_32cd7932ac3bc8f6e82bd016",
+        "E52_3322673a66874be8fb5ff9e0",
+        "E52_357bbbd4dc4420221c875ea3",
+        "E52_44ed69e1d99dc074a7941a18",
+        "E52_4513f74e4ba51c209cccc792",
+        "E52_4d215302190bc5bfb29bf912",
+        "E52_60b76d98beea93305f35c25d",
+        "E52_67646c2afbeb5602853e5a9c",
+        "E52_68694062ed2e2e792aeb51a9",
+        "E52_76b4f0bdabd1ccab126282dd",
+        "E52_7e5f4a4eaf9aa5b10576997a",
+        "E52_a3836b1674b2d70f748125c1",
+        "E52_a77602565c04dca5831f9b7a",
+        "E52_b4122a9095172602242b40e3",
+        "E52_b544b4d7beda1d6ed7fbeefb",
+        "E52_b7c433bb400c5a28313b13f0",
+        "E52_c76d93c5902d0dc017f7065c",
+        "E52_d1d4424e0dfaa7a0ce62d445",
+        "E52_da1eeef61bb4fffd90feecd9",
+        "E52_dbe1bedc9b83d29f34556dbd",
+        "E52_dc4c132291b7b9525a26c82f",
+        "E52_eab18c460278cfbad2c20da0",
+        "E52_eb490529b308e18523949520",
+        "E52_eddf192c3626d88d236d26e4"
+      ]
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M001_00_A00",
+        "P01_GAMMA06_M005_00_A00"
+      ],
+      "whole_atom_common": [],
+      "instant_common": []
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M001_00_A00",
+        "P01_GAMMA06_M006_00_A00"
+      ],
+      "whole_atom_common": [
+        "E52_060143e4033ea7dfc142ce26",
+        "E52_0f45fcab7c66cb90fa618929",
+        "E52_12b142f00e8cb4e3948f96c2",
+        "E52_132fcaf6d631eae41e83e018",
+        "E52_154bbd26b7808edf72eaa410",
+        "E52_2d291a2169e36d61d7bf7582",
+        "E52_32cd7932ac3bc8f6e82bd016",
+        "E52_3322673a66874be8fb5ff9e0",
+        "E52_4d215302190bc5bfb29bf912",
+        "E52_67646c2afbeb5602853e5a9c",
+        "E52_7e4744117cf2a1b6b8665ab3",
+        "E52_a0032802edd73d232f2c84c2",
+        "E52_b4122a9095172602242b40e3",
+        "E52_fb97bb829fc82a7376005525"
+      ],
+      "instant_common": [
+        "E52_060143e4033ea7dfc142ce26",
+        "E52_0f45fcab7c66cb90fa618929",
+        "E52_0fa03b8d9ed736d48919c1b7",
+        "E52_12b142f00e8cb4e3948f96c2",
+        "E52_132fcaf6d631eae41e83e018",
+        "E52_154bbd26b7808edf72eaa410",
+        "E52_29c9aa5399273a7ee24bceb6",
+        "E52_2d291a2169e36d61d7bf7582",
+        "E52_32cd7932ac3bc8f6e82bd016",
+        "E52_3322673a66874be8fb5ff9e0",
+        "E52_4d215302190bc5bfb29bf912",
+        "E52_67646c2afbeb5602853e5a9c",
+        "E52_68694062ed2e2e792aeb51a9",
+        "E52_7e4744117cf2a1b6b8665ab3",
+        "E52_a0032802edd73d232f2c84c2",
+        "E52_a77602565c04dca5831f9b7a",
+        "E52_aaa387ee3ee3170bd804334d",
+        "E52_b4122a9095172602242b40e3",
+        "E52_b544b4d7beda1d6ed7fbeefb",
+        "E52_b7c433bb400c5a28313b13f0",
+        "E52_be79b94db4a0a5b6faaed631",
+        "E52_c76d93c5902d0dc017f7065c",
+        "E52_d1d4424e0dfaa7a0ce62d445",
+        "E52_da1eeef61bb4fffd90feecd9",
+        "E52_dc4c132291b7b9525a26c82f",
+        "E52_eab18c460278cfbad2c20da0",
+        "E52_f4836ff0bfcbe7f74f580128",
+        "E52_fb97bb829fc82a7376005525"
+      ]
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M001_00_A00",
+        "P01_GAMMA06_M015_00_A00"
+      ],
+      "whole_atom_common": [
+        "E52_68694062ed2e2e792aeb51a9",
+        "E52_a77602565c04dca5831f9b7a",
+        "E52_b544b4d7beda1d6ed7fbeefb",
+        "E52_b7c433bb400c5a28313b13f0",
+        "E52_c76d93c5902d0dc017f7065c",
+        "E52_dc4c132291b7b9525a26c82f",
+        "E52_eab18c460278cfbad2c20da0",
+        "E52_eddf192c3626d88d236d26e4"
+      ],
+      "instant_common": [
+        "E52_2cea01313b8862fcfb6b2e63",
+        "E52_44ed69e1d99dc074a7941a18",
+        "E52_60b76d98beea93305f35c25d",
+        "E52_68694062ed2e2e792aeb51a9",
+        "E52_76b4f0bdabd1ccab126282dd",
+        "E52_7e5f4a4eaf9aa5b10576997a",
+        "E52_a3836b1674b2d70f748125c1",
+        "E52_a77602565c04dca5831f9b7a",
+        "E52_b544b4d7beda1d6ed7fbeefb",
+        "E52_b7c433bb400c5a28313b13f0",
+        "E52_c76d93c5902d0dc017f7065c",
+        "E52_dbe1bedc9b83d29f34556dbd",
+        "E52_dc4c132291b7b9525a26c82f",
+        "E52_eab18c460278cfbad2c20da0",
+        "E52_eddf192c3626d88d236d26e4"
+      ]
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M001_00_A00",
+        "P01_GAMMA06_M016_00_A00"
+      ],
+      "whole_atom_common": [
+        "E52_060143e4033ea7dfc142ce26",
+        "E52_0f45fcab7c66cb90fa618929",
+        "E52_12b142f00e8cb4e3948f96c2",
+        "E52_3322673a66874be8fb5ff9e0",
+        "E52_4d215302190bc5bfb29bf912",
+        "E52_67646c2afbeb5602853e5a9c",
+        "E52_68694062ed2e2e792aeb51a9",
+        "E52_a77602565c04dca5831f9b7a",
+        "E52_b4122a9095172602242b40e3",
+        "E52_b544b4d7beda1d6ed7fbeefb",
+        "E52_b7c433bb400c5a28313b13f0",
+        "E52_c76d93c5902d0dc017f7065c",
+        "E52_d1d4424e0dfaa7a0ce62d445",
+        "E52_dc4c132291b7b9525a26c82f",
+        "E52_eab18c460278cfbad2c20da0",
+        "E52_eddf192c3626d88d236d26e4"
+      ],
+      "instant_common": [
+        "E52_060143e4033ea7dfc142ce26",
+        "E52_0f45fcab7c66cb90fa618929",
+        "E52_0fa03b8d9ed736d48919c1b7",
+        "E52_12b142f00e8cb4e3948f96c2",
+        "E52_29c9aa5399273a7ee24bceb6",
+        "E52_2cea01313b8862fcfb6b2e63",
+        "E52_32cd7932ac3bc8f6e82bd016",
+        "E52_3322673a66874be8fb5ff9e0",
+        "E52_357bbbd4dc4420221c875ea3",
+        "E52_44ed69e1d99dc074a7941a18",
+        "E52_4d215302190bc5bfb29bf912",
+        "E52_60b76d98beea93305f35c25d",
+        "E52_67646c2afbeb5602853e5a9c",
+        "E52_68694062ed2e2e792aeb51a9",
+        "E52_76b4f0bdabd1ccab126282dd",
+        "E52_7e5f4a4eaf9aa5b10576997a",
+        "E52_a3836b1674b2d70f748125c1",
+        "E52_a77602565c04dca5831f9b7a",
+        "E52_b4122a9095172602242b40e3",
+        "E52_b544b4d7beda1d6ed7fbeefb",
+        "E52_b7c433bb400c5a28313b13f0",
+        "E52_c76d93c5902d0dc017f7065c",
+        "E52_d1d4424e0dfaa7a0ce62d445",
+        "E52_da1eeef61bb4fffd90feecd9",
+        "E52_dbe1bedc9b83d29f34556dbd",
+        "E52_dc4c132291b7b9525a26c82f",
+        "E52_eab18c460278cfbad2c20da0",
+        "E52_eb490529b308e18523949520",
+        "E52_eddf192c3626d88d236d26e4"
+      ]
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M002_00_A00",
+        "P01_GAMMA06_M003_00_A00"
+      ],
+      "whole_atom_common": [],
+      "instant_common": []
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M002_00_A00",
+        "P01_GAMMA06_M004_00_A00"
+      ],
+      "whole_atom_common": [],
+      "instant_common": []
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M002_00_A00",
+        "P01_GAMMA06_M005_00_A00"
+      ],
+      "whole_atom_common": [
+        "E52_0c9d91fc306062a18ada9948",
+        "E52_231de36c6439da832299e30f",
+        "E52_27bf01e9e990859ae5993708",
+        "E52_27bf1882d0e1a812c8450c72",
+        "E52_27fdcb9bc2da20af468e67a1",
+        "E52_2d7a36258a59c18fc6a856bf",
+        "E52_3a94b6482baa2cfaba8a857d",
+        "E52_47db2d0d55c92154c779a4c9",
+        "E52_8ca7795ffa642a3b129c0a3d",
+        "E52_8d375985c45fff9288668cb3",
+        "E52_b60e4d2a4cdcd5801a5d757f",
+        "E52_c0294c7ff44d44fc4ede8d97",
+        "E52_d6d1511afdebb88632549a71",
+        "E52_dbec4f1422e98765afb262aa",
+        "E52_de2c36302e014a6d0284c896",
+        "E52_f2fabdd802684ffd17ed2273"
+      ],
+      "instant_common": [
+        "E52_0c9d91fc306062a18ada9948",
+        "E52_231de36c6439da832299e30f",
+        "E52_27bf01e9e990859ae5993708",
+        "E52_27bf1882d0e1a812c8450c72",
+        "E52_27fdcb9bc2da20af468e67a1",
+        "E52_2d7a36258a59c18fc6a856bf",
+        "E52_3a94b6482baa2cfaba8a857d",
+        "E52_47db2d0d55c92154c779a4c9",
+        "E52_8ca7795ffa642a3b129c0a3d",
+        "E52_8d375985c45fff9288668cb3",
+        "E52_b60e4d2a4cdcd5801a5d757f",
+        "E52_c0294c7ff44d44fc4ede8d97",
+        "E52_d6d1511afdebb88632549a71",
+        "E52_dbec4f1422e98765afb262aa",
+        "E52_de2c36302e014a6d0284c896",
+        "E52_f2fabdd802684ffd17ed2273"
+      ]
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M002_00_A00",
+        "P01_GAMMA06_M006_00_A00"
+      ],
+      "whole_atom_common": [],
+      "instant_common": []
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M002_00_A00",
+        "P01_GAMMA06_M015_00_A00"
+      ],
+      "whole_atom_common": [
+        "E52_0c9d91fc306062a18ada9948",
+        "E52_231de36c6439da832299e30f",
+        "E52_27bf01e9e990859ae5993708",
+        "E52_27bf1882d0e1a812c8450c72",
+        "E52_27fdcb9bc2da20af468e67a1",
+        "E52_2d7a36258a59c18fc6a856bf",
+        "E52_3a94b6482baa2cfaba8a857d",
+        "E52_47db2d0d55c92154c779a4c9",
+        "E52_8ca7795ffa642a3b129c0a3d",
+        "E52_8d375985c45fff9288668cb3",
+        "E52_b60e4d2a4cdcd5801a5d757f",
+        "E52_c0294c7ff44d44fc4ede8d97",
+        "E52_d6d1511afdebb88632549a71",
+        "E52_dbec4f1422e98765afb262aa",
+        "E52_de2c36302e014a6d0284c896",
+        "E52_f2fabdd802684ffd17ed2273"
+      ],
+      "instant_common": [
+        "E52_0c9d91fc306062a18ada9948",
+        "E52_231de36c6439da832299e30f",
+        "E52_27bf01e9e990859ae5993708",
+        "E52_27bf1882d0e1a812c8450c72",
+        "E52_27fdcb9bc2da20af468e67a1",
+        "E52_2d7a36258a59c18fc6a856bf",
+        "E52_3a94b6482baa2cfaba8a857d",
+        "E52_47db2d0d55c92154c779a4c9",
+        "E52_8ca7795ffa642a3b129c0a3d",
+        "E52_8d375985c45fff9288668cb3",
+        "E52_b60e4d2a4cdcd5801a5d757f",
+        "E52_c0294c7ff44d44fc4ede8d97",
+        "E52_d6d1511afdebb88632549a71",
+        "E52_dbec4f1422e98765afb262aa",
+        "E52_de2c36302e014a6d0284c896",
+        "E52_f2fabdd802684ffd17ed2273"
+      ]
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M002_00_A00",
+        "P01_GAMMA06_M016_00_A00"
+      ],
+      "whole_atom_common": [],
+      "instant_common": []
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M003_00_A00",
+        "P01_GAMMA06_M004_00_A00"
+      ],
+      "whole_atom_common": [],
+      "instant_common": [
+        "E52_060143e4033ea7dfc142ce26",
+        "E52_0f45fcab7c66cb90fa618929",
+        "E52_12b142f00e8cb4e3948f96c2",
+        "E52_32cd7932ac3bc8f6e82bd016",
+        "E52_3322673a66874be8fb5ff9e0",
+        "E52_4d215302190bc5bfb29bf912",
+        "E52_67646c2afbeb5602853e5a9c",
+        "E52_b4122a9095172602242b40e3"
+      ]
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M003_00_A00",
+        "P01_GAMMA06_M005_00_A00"
+      ],
+      "whole_atom_common": [],
+      "instant_common": []
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M003_00_A00",
+        "P01_GAMMA06_M006_00_A00"
+      ],
+      "whole_atom_common": [
+        "E52_132fcaf6d631eae41e83e018",
+        "E52_154bbd26b7808edf72eaa410",
+        "E52_2d291a2169e36d61d7bf7582",
+        "E52_7e4744117cf2a1b6b8665ab3",
+        "E52_a0032802edd73d232f2c84c2",
+        "E52_be79b94db4a0a5b6faaed631",
+        "E52_f4836ff0bfcbe7f74f580128",
+        "E52_fb97bb829fc82a7376005525"
+      ],
+      "instant_common": [
+        "E52_060143e4033ea7dfc142ce26",
+        "E52_0f45fcab7c66cb90fa618929",
+        "E52_12b142f00e8cb4e3948f96c2",
+        "E52_132fcaf6d631eae41e83e018",
+        "E52_154bbd26b7808edf72eaa410",
+        "E52_2d291a2169e36d61d7bf7582",
+        "E52_32cd7932ac3bc8f6e82bd016",
+        "E52_3322673a66874be8fb5ff9e0",
+        "E52_4d215302190bc5bfb29bf912",
+        "E52_67646c2afbeb5602853e5a9c",
+        "E52_7e4744117cf2a1b6b8665ab3",
+        "E52_a0032802edd73d232f2c84c2",
+        "E52_aaa387ee3ee3170bd804334d",
+        "E52_b4122a9095172602242b40e3",
+        "E52_be79b94db4a0a5b6faaed631",
+        "E52_f4836ff0bfcbe7f74f580128",
+        "E52_fb97bb829fc82a7376005525"
+      ]
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M003_00_A00",
+        "P01_GAMMA06_M015_00_A00"
+      ],
+      "whole_atom_common": [],
+      "instant_common": []
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M003_00_A00",
+        "P01_GAMMA06_M016_00_A00"
+      ],
+      "whole_atom_common": [],
+      "instant_common": [
+        "E52_060143e4033ea7dfc142ce26",
+        "E52_0f45fcab7c66cb90fa618929",
+        "E52_12b142f00e8cb4e3948f96c2",
+        "E52_32cd7932ac3bc8f6e82bd016",
+        "E52_3322673a66874be8fb5ff9e0",
+        "E52_4d215302190bc5bfb29bf912",
+        "E52_67646c2afbeb5602853e5a9c",
+        "E52_b4122a9095172602242b40e3"
+      ]
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M004_00_A00",
+        "P01_GAMMA06_M005_00_A00"
+      ],
+      "whole_atom_common": [],
+      "instant_common": []
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M004_00_A00",
+        "P01_GAMMA06_M006_00_A00"
+      ],
+      "whole_atom_common": [
+        "E52_060143e4033ea7dfc142ce26"
+      ],
+      "instant_common": [
+        "E52_060143e4033ea7dfc142ce26",
+        "E52_0f45fcab7c66cb90fa618929",
+        "E52_0fa03b8d9ed736d48919c1b7",
+        "E52_12b142f00e8cb4e3948f96c2",
+        "E52_29c9aa5399273a7ee24bceb6",
+        "E52_32cd7932ac3bc8f6e82bd016",
+        "E52_3322673a66874be8fb5ff9e0",
+        "E52_4d215302190bc5bfb29bf912",
+        "E52_67646c2afbeb5602853e5a9c",
+        "E52_68694062ed2e2e792aeb51a9",
+        "E52_a77602565c04dca5831f9b7a",
+        "E52_b4122a9095172602242b40e3",
+        "E52_b544b4d7beda1d6ed7fbeefb",
+        "E52_b7c433bb400c5a28313b13f0",
+        "E52_c76d93c5902d0dc017f7065c",
+        "E52_d1d4424e0dfaa7a0ce62d445",
+        "E52_da1eeef61bb4fffd90feecd9",
+        "E52_dc4c132291b7b9525a26c82f",
+        "E52_eab18c460278cfbad2c20da0"
+      ]
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M004_00_A00",
+        "P01_GAMMA06_M015_00_A00"
+      ],
+      "whole_atom_common": [
+        "E52_24cc4f01335372459fb4c2ba",
+        "E52_2cea01313b8862fcfb6b2e63",
+        "E52_7e5f4a4eaf9aa5b10576997a",
+        "E52_a77602565c04dca5831f9b7a",
+        "E52_b544b4d7beda1d6ed7fbeefb",
+        "E52_b7c433bb400c5a28313b13f0",
+        "E52_bfffb2993ede6e2e2bd9340b",
+        "E52_c76d93c5902d0dc017f7065c",
+        "E52_d7f1f5d49edaa9f52000c452",
+        "E52_dc4c132291b7b9525a26c82f",
+        "E52_eddf192c3626d88d236d26e4"
+      ],
+      "instant_common": [
+        "E52_24cc4f01335372459fb4c2ba",
+        "E52_2cea01313b8862fcfb6b2e63",
+        "E52_2dadfb43d7dd9558e21effa9",
+        "E52_44ed69e1d99dc074a7941a18",
+        "E52_515a3b7c8d98426ee13f2b4e",
+        "E52_60b76d98beea93305f35c25d",
+        "E52_68694062ed2e2e792aeb51a9",
+        "E52_76b4f0bdabd1ccab126282dd",
+        "E52_7e5f4a4eaf9aa5b10576997a",
+        "E52_a3836b1674b2d70f748125c1",
+        "E52_a77602565c04dca5831f9b7a",
+        "E52_b544b4d7beda1d6ed7fbeefb",
+        "E52_b7c433bb400c5a28313b13f0",
+        "E52_bfffb2993ede6e2e2bd9340b",
+        "E52_c76d93c5902d0dc017f7065c",
+        "E52_d7f1f5d49edaa9f52000c452",
+        "E52_dbe1bedc9b83d29f34556dbd",
+        "E52_dc4c132291b7b9525a26c82f",
+        "E52_eab18c460278cfbad2c20da0",
+        "E52_eddf192c3626d88d236d26e4"
+      ]
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M004_00_A00",
+        "P01_GAMMA06_M016_00_A00"
+      ],
+      "whole_atom_common": [
+        "E52_060143e4033ea7dfc142ce26",
+        "E52_24cc4f01335372459fb4c2ba",
+        "E52_2cea01313b8862fcfb6b2e63",
+        "E52_2dadfb43d7dd9558e21effa9",
+        "E52_357bbbd4dc4420221c875ea3",
+        "E52_50c718ca7f326f764494c89d",
+        "E52_7e5f4a4eaf9aa5b10576997a",
+        "E52_924cec2d58c933358893a332",
+        "E52_96da4f081c74d8211b4b244f",
+        "E52_a77602565c04dca5831f9b7a",
+        "E52_b544b4d7beda1d6ed7fbeefb",
+        "E52_b7c433bb400c5a28313b13f0",
+        "E52_bfffb2993ede6e2e2bd9340b",
+        "E52_c76d93c5902d0dc017f7065c",
+        "E52_d1d4424e0dfaa7a0ce62d445",
+        "E52_d7f1f5d49edaa9f52000c452",
+        "E52_dbe1bedc9b83d29f34556dbd",
+        "E52_dc4c132291b7b9525a26c82f",
+        "E52_eb490529b308e18523949520",
+        "E52_eddf192c3626d88d236d26e4",
+        "E52_ede4029bd5e695a7a0c85289"
+      ],
+      "instant_common": [
+        "E52_060143e4033ea7dfc142ce26",
+        "E52_0f45fcab7c66cb90fa618929",
+        "E52_0fa03b8d9ed736d48919c1b7",
+        "E52_12b142f00e8cb4e3948f96c2",
+        "E52_24cc4f01335372459fb4c2ba",
+        "E52_29c9aa5399273a7ee24bceb6",
+        "E52_2cea01313b8862fcfb6b2e63",
+        "E52_2dadfb43d7dd9558e21effa9",
+        "E52_32cd7932ac3bc8f6e82bd016",
+        "E52_3322673a66874be8fb5ff9e0",
+        "E52_357bbbd4dc4420221c875ea3",
+        "E52_44ed69e1d99dc074a7941a18",
+        "E52_4d215302190bc5bfb29bf912",
+        "E52_50c718ca7f326f764494c89d",
+        "E52_515a3b7c8d98426ee13f2b4e",
+        "E52_60b76d98beea93305f35c25d",
+        "E52_67646c2afbeb5602853e5a9c",
+        "E52_68694062ed2e2e792aeb51a9",
+        "E52_76b4f0bdabd1ccab126282dd",
+        "E52_7e5f4a4eaf9aa5b10576997a",
+        "E52_924cec2d58c933358893a332",
+        "E52_96da4f081c74d8211b4b244f",
+        "E52_a3836b1674b2d70f748125c1",
+        "E52_a77602565c04dca5831f9b7a",
+        "E52_b4122a9095172602242b40e3",
+        "E52_b544b4d7beda1d6ed7fbeefb",
+        "E52_b7c433bb400c5a28313b13f0",
+        "E52_bfffb2993ede6e2e2bd9340b",
+        "E52_c76d93c5902d0dc017f7065c",
+        "E52_d1d4424e0dfaa7a0ce62d445",
+        "E52_d7f1f5d49edaa9f52000c452",
+        "E52_da1eeef61bb4fffd90feecd9",
+        "E52_dbe1bedc9b83d29f34556dbd",
+        "E52_dc4c132291b7b9525a26c82f",
+        "E52_eab18c460278cfbad2c20da0",
+        "E52_eb490529b308e18523949520",
+        "E52_eddf192c3626d88d236d26e4",
+        "E52_ede4029bd5e695a7a0c85289"
+      ]
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M005_00_A00",
+        "P01_GAMMA06_M006_00_A00"
+      ],
+      "whole_atom_common": [],
+      "instant_common": []
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M005_00_A00",
+        "P01_GAMMA06_M015_00_A00"
+      ],
+      "whole_atom_common": [
+        "E52_0c9d91fc306062a18ada9948",
+        "E52_231de36c6439da832299e30f",
+        "E52_27bf01e9e990859ae5993708",
+        "E52_27bf1882d0e1a812c8450c72",
+        "E52_27fdcb9bc2da20af468e67a1",
+        "E52_2d7a36258a59c18fc6a856bf",
+        "E52_3a94b6482baa2cfaba8a857d",
+        "E52_47db2d0d55c92154c779a4c9",
+        "E52_8ca7795ffa642a3b129c0a3d",
+        "E52_8d375985c45fff9288668cb3",
+        "E52_b60e4d2a4cdcd5801a5d757f",
+        "E52_c0294c7ff44d44fc4ede8d97",
+        "E52_d6d1511afdebb88632549a71",
+        "E52_dbec4f1422e98765afb262aa",
+        "E52_de2c36302e014a6d0284c896",
+        "E52_f2fabdd802684ffd17ed2273"
+      ],
+      "instant_common": [
+        "E52_0c9d91fc306062a18ada9948",
+        "E52_231de36c6439da832299e30f",
+        "E52_27bf01e9e990859ae5993708",
+        "E52_27bf1882d0e1a812c8450c72",
+        "E52_27fdcb9bc2da20af468e67a1",
+        "E52_2d7a36258a59c18fc6a856bf",
+        "E52_3a94b6482baa2cfaba8a857d",
+        "E52_47db2d0d55c92154c779a4c9",
+        "E52_8ca7795ffa642a3b129c0a3d",
+        "E52_8d375985c45fff9288668cb3",
+        "E52_b60e4d2a4cdcd5801a5d757f",
+        "E52_c0294c7ff44d44fc4ede8d97",
+        "E52_d6d1511afdebb88632549a71",
+        "E52_dbec4f1422e98765afb262aa",
+        "E52_de2c36302e014a6d0284c896",
+        "E52_f2fabdd802684ffd17ed2273"
+      ]
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M005_00_A00",
+        "P01_GAMMA06_M016_00_A00"
+      ],
+      "whole_atom_common": [],
+      "instant_common": []
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M006_00_A00",
+        "P01_GAMMA06_M015_00_A00"
+      ],
+      "whole_atom_common": [],
+      "instant_common": [
+        "E52_68694062ed2e2e792aeb51a9",
+        "E52_a77602565c04dca5831f9b7a",
+        "E52_b544b4d7beda1d6ed7fbeefb",
+        "E52_b7c433bb400c5a28313b13f0",
+        "E52_c76d93c5902d0dc017f7065c",
+        "E52_dc4c132291b7b9525a26c82f",
+        "E52_eab18c460278cfbad2c20da0"
+      ]
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M006_00_A00",
+        "P01_GAMMA06_M016_00_A00"
+      ],
+      "whole_atom_common": [
+        "E52_060143e4033ea7dfc142ce26",
+        "E52_0f45fcab7c66cb90fa618929",
+        "E52_12b142f00e8cb4e3948f96c2",
+        "E52_3322673a66874be8fb5ff9e0",
+        "E52_4d215302190bc5bfb29bf912",
+        "E52_67646c2afbeb5602853e5a9c",
+        "E52_b4122a9095172602242b40e3"
+      ],
+      "instant_common": [
+        "E52_060143e4033ea7dfc142ce26",
+        "E52_0f45fcab7c66cb90fa618929",
+        "E52_0fa03b8d9ed736d48919c1b7",
+        "E52_12b142f00e8cb4e3948f96c2",
+        "E52_29c9aa5399273a7ee24bceb6",
+        "E52_32cd7932ac3bc8f6e82bd016",
+        "E52_3322673a66874be8fb5ff9e0",
+        "E52_4d215302190bc5bfb29bf912",
+        "E52_67646c2afbeb5602853e5a9c",
+        "E52_68694062ed2e2e792aeb51a9",
+        "E52_a77602565c04dca5831f9b7a",
+        "E52_b4122a9095172602242b40e3",
+        "E52_b544b4d7beda1d6ed7fbeefb",
+        "E52_b7c433bb400c5a28313b13f0",
+        "E52_c76d93c5902d0dc017f7065c",
+        "E52_d1d4424e0dfaa7a0ce62d445",
+        "E52_da1eeef61bb4fffd90feecd9",
+        "E52_dc4c132291b7b9525a26c82f",
+        "E52_eab18c460278cfbad2c20da0"
+      ]
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M015_00_A00",
+        "P01_GAMMA06_M016_00_A00"
+      ],
+      "whole_atom_common": [
+        "E52_24cc4f01335372459fb4c2ba",
+        "E52_2cea01313b8862fcfb6b2e63",
+        "E52_44ed69e1d99dc074a7941a18",
+        "E52_4cf0fac9feb721651efb2830",
+        "E52_515a3b7c8d98426ee13f2b4e",
+        "E52_60b76d98beea93305f35c25d",
+        "E52_68694062ed2e2e792aeb51a9",
+        "E52_76b4f0bdabd1ccab126282dd",
+        "E52_7e5f4a4eaf9aa5b10576997a",
+        "E52_a3836b1674b2d70f748125c1",
+        "E52_a77602565c04dca5831f9b7a",
+        "E52_b544b4d7beda1d6ed7fbeefb",
+        "E52_b7c433bb400c5a28313b13f0",
+        "E52_bfffb2993ede6e2e2bd9340b",
+        "E52_c76d93c5902d0dc017f7065c",
+        "E52_d7f1f5d49edaa9f52000c452",
+        "E52_dc4c132291b7b9525a26c82f",
+        "E52_eab18c460278cfbad2c20da0",
+        "E52_eddf192c3626d88d236d26e4"
+      ],
+      "instant_common": [
+        "E52_24cc4f01335372459fb4c2ba",
+        "E52_2cea01313b8862fcfb6b2e63",
+        "E52_2dadfb43d7dd9558e21effa9",
+        "E52_44ed69e1d99dc074a7941a18",
+        "E52_4cf0fac9feb721651efb2830",
+        "E52_515a3b7c8d98426ee13f2b4e",
+        "E52_60b76d98beea93305f35c25d",
+        "E52_68694062ed2e2e792aeb51a9",
+        "E52_76b4f0bdabd1ccab126282dd",
+        "E52_7e5f4a4eaf9aa5b10576997a",
+        "E52_a3836b1674b2d70f748125c1",
+        "E52_a77602565c04dca5831f9b7a",
+        "E52_b544b4d7beda1d6ed7fbeefb",
+        "E52_b7c433bb400c5a28313b13f0",
+        "E52_bfffb2993ede6e2e2bd9340b",
+        "E52_c76d93c5902d0dc017f7065c",
+        "E52_d7f1f5d49edaa9f52000c452",
+        "E52_dbe1bedc9b83d29f34556dbd",
+        "E52_dc4c132291b7b9525a26c82f",
+        "E52_eab18c460278cfbad2c20da0",
+        "E52_eddf192c3626d88d236d26e4"
+      ]
+    }
+  ],
+  "scope": "FIXED_E7_REFERENCE_TIMING; FULL_POOL_SET_COVER_EXACT; NOT_A_LOWER_BOUND_FOR_FREE_L1_TIMING",
+  "critical_closure_rule": "HARD_DEADLINE_FLIGHTS_WITH_LATEST_RETURN_BEFORE_5000S",
+  "scanned_event_windows": [
+    {
+      "start_s": 577.9843516784044,
+      "end_s": 609.0685078566343,
+      "active": [
+        "P01_GAMMA06_M015_00_A00"
+      ],
+      "minimum_full_atom_cover": 1
+    },
+    {
+      "start_s": 609.0685078566343,
+      "end_s": 624.125,
+      "active": [
+        "P01_GAMMA06_M004_00_A00",
+        "P01_GAMMA06_M015_00_A00"
+      ],
+      "minimum_full_atom_cover": 1
+    },
+    {
+      "start_s": 624.125,
+      "end_s": 631.6875,
+      "active": [
+        "P01_GAMMA06_M004_00_A00",
+        "P01_GAMMA06_M006_00_A00",
+        "P01_GAMMA06_M015_00_A00"
+      ],
+      "minimum_full_atom_cover": 2
+    },
+    {
+      "start_s": 631.6875,
+      "end_s": 668.0654740596533,
+      "active": [
+        "P01_GAMMA06_M002_00_A00",
+        "P01_GAMMA06_M004_00_A00",
+        "P01_GAMMA06_M006_00_A00",
+        "P01_GAMMA06_M015_00_A00"
+      ],
+      "minimum_full_atom_cover": 2
+    },
+    {
+      "start_s": 668.0654740596533,
+      "end_s": 674.71875,
+      "active": [
+        "P01_GAMMA06_M002_00_A00",
+        "P01_GAMMA06_M004_00_A00",
+        "P01_GAMMA06_M006_00_A00",
+        "P01_GAMMA06_M015_00_A00",
+        "P01_GAMMA06_M016_00_A00"
+      ],
+      "minimum_full_atom_cover": 2
+    },
+    {
+      "start_s": 674.71875,
+      "end_s": 747.71875,
+      "active": [
+        "P01_GAMMA06_M002_00_A00",
+        "P01_GAMMA06_M004_00_A00",
+        "P01_GAMMA06_M005_00_A00",
+        "P01_GAMMA06_M006_00_A00",
+        "P01_GAMMA06_M015_00_A00",
+        "P01_GAMMA06_M016_00_A00"
+      ],
+      "minimum_full_atom_cover": 2
+    },
+    {
+      "start_s": 747.71875,
+      "end_s": 752.875,
+      "active": [
+        "P01_GAMMA06_M001_00_A00",
+        "P01_GAMMA06_M002_00_A00",
+        "P01_GAMMA06_M004_00_A00",
+        "P01_GAMMA06_M005_00_A00",
+        "P01_GAMMA06_M006_00_A00",
+        "P01_GAMMA06_M015_00_A00",
+        "P01_GAMMA06_M016_00_A00"
+      ],
+      "minimum_full_atom_cover": 2
+    },
+    {
+      "start_s": 752.875,
+      "end_s": 829.328125,
+      "active": [
+        "P01_GAMMA06_M001_00_A00",
+        "P01_GAMMA06_M002_00_A00",
+        "P01_GAMMA06_M003_00_A00",
+        "P01_GAMMA06_M004_00_A00",
+        "P01_GAMMA06_M005_00_A00",
+        "P01_GAMMA06_M006_00_A00",
+        "P01_GAMMA06_M015_00_A00",
+        "P01_GAMMA06_M016_00_A00"
+      ],
+      "minimum_full_atom_cover": 3
+    }
+  ],
+  "energy_component_bottleneck_excluded": false,
+  "physical_infeasibility_proven": false
+}

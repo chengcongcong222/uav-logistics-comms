@@ -1,0 +1,18 @@
+{
+  "partition_id": "Q4_K2_001",
+  "status": "Q4_PARTITION_INDEPENDENTLY_VALIDATED",
+  "minimum_resources_certified": true,
+  "frozen_tasks_and_communications_preserved": true,
+  "inventory_feasible": false,
+  "shortage": {
+    "TUAV_A": 0,
+    "TUAV_B": 1,
+    "TUAV_C": 0,
+    "TBAT_A": 0,
+    "TBAT_B": 1,
+    "TBAT_C": 0,
+    "RUAV": 0,
+    "REC": 0
+  },
+  "requires_additional_inventory": true
+}

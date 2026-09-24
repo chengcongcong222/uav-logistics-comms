@@ -1,0 +1,48 @@
+{
+  "Gamma_C_cert_db": 4.0,
+  "definition": "MAX_TESTED_GAMMA_WITH_FOUND_AND_INDEPENDENTLY_VALIDATED_COMPLETE_EXECUTION",
+  "tested_Gamma_C_db": [
+    0,
+    2,
+    4,
+    6
+  ],
+  "true_maximum_feasible_Gamma_unknown": true,
+  "J_late_budget": 1000000,
+  "C_T_definition": "MIN_MAKESPAN_IN_KNOWN_VALIDATED_BUDGET_ARCHIVE_AT_GAMMA_MINUS_SAME_AT_ZERO",
+  "C_E_definition": "MIN_ENERGY_IN_KNOWN_VALIDATED_BUDGET_ARCHIVE_AT_GAMMA_MINUS_SAME_AT_ZERO",
+  "different_objective_witnesses": true,
+  "global_optimal_robustness_price_proven": false,
+  "costs": [
+    {
+      "Gamma_C_db": 0,
+      "C_T_s": 0.0,
+      "C_E_kwh": 0.0,
+      "time_percent": 0.0,
+      "energy_percent": 0.0,
+      "time_witness": "Q3E8_G00_006",
+      "energy_witness": "Q3E8_G00_008"
+    },
+    {
+      "Gamma_C_db": 2,
+      "C_T_s": 515.188319936764,
+      "C_E_kwh": 0.47411299900225856,
+      "time_percent": 4.557270754804632,
+      "energy_percent": 0.6053566686408995,
+      "time_witness": "Q3E8_G02_004",
+      "energy_witness": "Q3E8_G02_005"
+    },
+    {
+      "Gamma_C_db": 4,
+      "C_T_s": 1533.3321186151352,
+      "C_E_kwh": 0.9151129286562139,
+      "time_percent": 13.563602572405188,
+      "energy_percent": 1.1684339283827727,
+      "time_witness": "Q3E8_G04_001",
+      "energy_witness": "Q3E8_G04_005"
+    }
+  ],
+  "demand_duration_increase_4_to_6_s": 911.6875,
+  "demand_duration_increase_percent": 4.871288385148031,
+  "congestion_interpretation": "OBSERVED_DIFFICULTY_CLOSING_BOUNDED_RESOURCE_MODELS; NOT_PROVEN_PHYSICAL_DISCONTINUITY_OR_PHASE_TRANSITION"
+}

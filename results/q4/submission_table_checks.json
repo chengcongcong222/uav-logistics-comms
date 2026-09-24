@@ -1,0 +1,7 @@
+{
+  "workbooks": 2,
+  "rows_per_workbook": 5,
+  "official_header_columns": 11,
+  "readback_cell_equality": true,
+  "scope": "Q4_ONLY_DRAFT"
+}

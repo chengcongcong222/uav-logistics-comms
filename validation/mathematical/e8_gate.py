@@ -21,7 +21,7 @@ def main():
     for gamma in [0,2,4,6]:
         d=OUT/f'gamma_{gamma:02d}';table=d/'provisional_pareto.csv'
         if not table.exists():
-            status=dict(Gamma_C_db=gamma,status='NO_EXECUTABLE_WITNESS_FOUND_WITHIN_BOUNDED_SEARCH',known_pareto_points=0,physical_infeasibility_proven=False)
+            status=dict(Gamma_C_db=gamma,status='GAMMA6_NO_WITNESS_FOUND',known_pareto_points=0,physical_infeasibility_proven=False)
             write(d/'scenario_status.json',status);scenarios.append(status);continue
         frame=read(table);records=[];catalog=json.loads((d/'budget_catalog.json').read_text())
         archive=json.loads((d/'search_archive.json').read_text()) if gamma else []
@@ -93,13 +93,27 @@ def main():
     # and this self-referential gate file.
     files=[p for p in OUT.rglob('*') if p.is_file() and p.name!='validation.json' and p.suffix not in ['.log']]
     files+=list((ROOT/'src/q3').glob('e8_*.py'))+[Path(__file__),ROOT/'validation/mathematical/e8_validate.py']
-    files += [ROOT/'validation/mathematical/test_e8_regressions.py',ROOT/'README.md',ROOT/'docs/model/Q3_ROBUSTNESS_E8_SEMANTICS.md',ROOT/'results/q3/E8_ROBUSTNESS_REPORT.md',ROOT/'results/q3/E8_GPT_SYNC.md']
-    result=dict(gate='E8_Q3_ROBUSTNESS_BUDGET_READY' if ready else 'E8_PARTIAL_GAMMA6_UNRESOLVED',
+    files += [ROOT/'results/q4/validation.json',ROOT/'results/project_status.json',ROOT/'docs/paper/MAIN_RESULTS_FREEZE_20260925.md',ROOT/'results/q3/e81/validation.json',ROOT/'results/q3/E81_CRITICAL_WINDOW_REPORT.md',ROOT/'validation/mathematical/test_e8_regressions.py',ROOT/'README.md',ROOT/'docs/model/Q3_ROBUSTNESS_E8_SEMANTICS.md',ROOT/'results/q3/E8_ROBUSTNESS_REPORT.md',ROOT/'results/q3/E8_GPT_SYNC.md']
+    indices=json.loads((OUT/'robustness_indices.json').read_text())
+    assert indices['Gamma_C_cert_db']==4 and indices['J_late_budget']==1000000
+    for item in indices['costs']:
+        selected=common[(common.Gamma_C_db==item['Gamma_C_db'])&(common.J_late_budget==1000000)]
+        for objective,key in [('makespan','C_T_s'),('energy','C_E_kwh')]:
+            assert abs(float(selected[selected.objective==objective].iloc[0].delta)-item[key])<1e-8
+    ready_a=all(any(s['Gamma_C_db']==gamma and s['status']=='SCENARIO_INDEPENDENTLY_VALIDATED' for s in scenarios) for gamma in [0,2,4])
+    rescue=json.loads((ROOT/'results/q3/e81/validation.json').read_text())
+    assert rescue['status']=='GAMMA6_NO_WITNESS_FOUND' and rescue['one_diagnosis_one_expansion_one_search']
+    result=dict(gate='E8_A_ROBUSTNESS_COST_READY' if ready_a else 'E8_A_VALIDATION_REQUIRED',
+        gate_policy='USER_AUTHORIZED_SPLIT_E8A_REQUIRED_E8B_OPTIONAL',
+        previous_gate_policy='ALL_FOUR_SCANNED_THRESHOLDS_REQUIRED',
+        E8_A='DONE' if ready_a else 'NOT_READY',E8_B=rescue['status'],
+        Gamma_C_cert_db=max(s['Gamma_C_db'] for s in scenarios if s['status']=='SCENARIO_INDEPENDENTLY_VALIDATED'),
+        complete_scanned_family_ready=ready,Q4_blocked_by_E8B=False,
         validated_scenarios=[s['Gamma_C_db'] for s in scenarios if s['status']=='SCENARIO_INDEPENDENTLY_VALIDATED'],
         independently_validated_points=len(combined),scenarios=scenarios,budget_queries_checked=len(queries),
         replay_points=len(replay),common_absolute_budget_queries_checked=len(common),frozen_inputs_unchanged=True,whole_gap_split_union_preserved=True,
         new_subthreshold_direct_samples_covered=True,physical_infeasibility_proven=False,
-        ns3_formal='WAIT_NOT_STARTED',Q4='WAIT_NOT_STARTED',
+        ns3_formal='OPTIONAL_LATE_NOT_STARTED',Q4=json.loads((ROOT/'results/q4/validation.json').read_text())['gate'],
         output_sha256={str(p.relative_to(ROOT)):digest(p) for p in sorted(set(files))})
     write(OUT/'validation.json',result);print(json.dumps({k:v for k,v in result.items() if k!='output_sha256'},indent=2))
 

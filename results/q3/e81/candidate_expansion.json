@@ -1,0 +1,145 @@
+{
+  "batches": 1,
+  "max_target_groups": 8,
+  "max_checks_per_group": 250,
+  "targeted_pairs": [
+    [
+      "P01_GAMMA06_M001_00_A00_R00",
+      "P01_GAMMA06_M002_00_A00_R02"
+    ],
+    [
+      "P01_GAMMA06_M001_00_A00_R00",
+      "P01_GAMMA06_M002_00_A00_R03"
+    ],
+    [
+      "P01_GAMMA06_M001_00_A00_R00",
+      "P01_GAMMA06_M005_00_A00_R01"
+    ],
+    [
+      "P01_GAMMA06_M001_00_A00_R00",
+      "P01_GAMMA06_M005_00_A00_R02"
+    ],
+    [
+      "P01_GAMMA06_M001_00_A00_R01",
+      "P01_GAMMA06_M002_00_A00_R02"
+    ],
+    [
+      "P01_GAMMA06_M001_00_A00_R01",
+      "P01_GAMMA06_M002_00_A00_R03"
+    ],
+    [
+      "P01_GAMMA06_M001_00_A00_R01",
+      "P01_GAMMA06_M005_00_A00_R01"
+    ],
+    [
+      "P01_GAMMA06_M001_00_A00_R01",
+      "P01_GAMMA06_M005_00_A00_R02"
+    ]
+  ],
+  "searches": [
+    {
+      "tasks": [
+        "P01_GAMMA06_M001_00_A00_R00",
+        "P01_GAMMA06_M002_00_A00_R02"
+      ],
+      "checked": 0,
+      "new_valid_sites": [],
+      "max_checks": 250,
+      "rank": "origin",
+      "status": "EMPTY_COMMON_LOS_NECESSARY_REGION"
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M001_00_A00_R00",
+        "P01_GAMMA06_M002_00_A00_R03"
+      ],
+      "checked": 0,
+      "new_valid_sites": [],
+      "max_checks": 250,
+      "rank": "origin",
+      "status": "EMPTY_COMMON_LOS_NECESSARY_REGION"
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M001_00_A00_R00",
+        "P01_GAMMA06_M005_00_A00_R01"
+      ],
+      "checked": 0,
+      "new_valid_sites": [],
+      "max_checks": 250,
+      "rank": "origin",
+      "status": "EMPTY_COMMON_LOS_NECESSARY_REGION"
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M001_00_A00_R00",
+        "P01_GAMMA06_M005_00_A00_R02"
+      ],
+      "checked": 0,
+      "new_valid_sites": [],
+      "max_checks": 250,
+      "rank": "origin",
+      "status": "EMPTY_COMMON_LOS_NECESSARY_REGION"
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M001_00_A00_R01",
+        "P01_GAMMA06_M002_00_A00_R02"
+      ],
+      "checked": 0,
+      "new_valid_sites": [],
+      "max_checks": 250,
+      "rank": "origin",
+      "status": "EMPTY_COMMON_LOS_NECESSARY_REGION"
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M001_00_A00_R01",
+        "P01_GAMMA06_M002_00_A00_R03"
+      ],
+      "checked": 0,
+      "new_valid_sites": [],
+      "max_checks": 250,
+      "rank": "origin",
+      "status": "EMPTY_COMMON_LOS_NECESSARY_REGION"
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M001_00_A00_R01",
+        "P01_GAMMA06_M005_00_A00_R01"
+      ],
+      "checked": 0,
+      "new_valid_sites": [],
+      "max_checks": 250,
+      "rank": "origin",
+      "status": "EMPTY_COMMON_LOS_NECESSARY_REGION"
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M001_00_A00_R01",
+        "P01_GAMMA06_M005_00_A00_R02"
+      ],
+      "checked": 0,
+      "new_valid_sites": [],
+      "max_checks": 250,
+      "rank": "origin",
+      "status": "EMPTY_COMMON_LOS_NECESSARY_REGION"
+    }
+  ],
+  "tasks": 149,
+  "sites": 91,
+  "edges": 3659,
+  "unresolved": [],
+  "critical_transport_ids": [
+    "M001",
+    "M002",
+    "M003",
+    "M004",
+    "M005",
+    "M006",
+    "M007",
+    "M008"
+  ],
+  "max_critical_atom_duration_s": 60,
+  "outside_grouping_frozen": true
+}

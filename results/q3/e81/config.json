@@ -1,0 +1,25 @@
+{
+  "Gamma_C_db": 6,
+  "diagnosis_rounds": 1,
+  "expansion_batches": 1,
+  "feasibility_searches": 1,
+  "search_time_limit_s": 180,
+  "objective": "FEASIBILITY_ONLY",
+  "critical_transport_ids": [
+    "M001",
+    "M002",
+    "M003",
+    "M004",
+    "M005",
+    "M006",
+    "M007",
+    "M008"
+  ],
+  "relay_count": 2,
+  "energy_components": 6,
+  "sortie_cap": "ONE_NONEMPTY_SORTIE_PER_CRITICAL_ATOM_PLUS_FIXED_OUTSIDE_GROUPS; NO_2_OR_3_CAP",
+  "transport_structure_frozen": true,
+  "transport_timing": "E7_L1_FREE",
+  "stop_after_this_search": true,
+  "next_stage": "Q4_REGARDLESS_OF_GAMMA6_RESULT"
+}

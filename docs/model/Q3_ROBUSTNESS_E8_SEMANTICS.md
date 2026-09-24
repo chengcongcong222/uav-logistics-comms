@@ -46,7 +46,7 @@ No executable witness was found. Whole-gap regrouping, short-flight candidates,
 were tried. The last models retain 28 coverage signatures and allow two or three
 early sorties per relay. Candidate, signature, subdivision and sortie-count
 restrictions preclude a physical infeasibility claim. The gate remains
-E8_PARTIAL_GAMMA6_UNRESOLVED. Formal ns-3 and Q4 remain WAIT.
+E8-B remains GAMMA6_NO_WITNESS_FOUND after the user-authorized single final rescue. E8-A (0/2/4 dB) is DONE; the certified tested robustness level is 4 dB. User policy explicitly removes Gamma 6 as a Q4 gate. Q4 is independently completed from Gamma-zero Q3E7_001; ns-3 is optional/late.
 
 ## Audit and replay
 
@@ -79,4 +79,4 @@ sequence is documented, not claimed as a guaranteed-success solver command.
 
 After any search/export change, rerun independent audits, replay, gate, report,
 then gate again to bind derived reports. Check hashes before using an old gate.
-E8 does not change the authority of E6/E7 or advance later project stages.
+E8 does not change the authority of E6/E7. See Q4_PARTITION_SEMANTICS.md for the separately authorized and validated Q4 stage.
