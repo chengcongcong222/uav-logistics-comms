@@ -1,0 +1,35 @@
+{
+  "pareto_id": "P01",
+  "status": "E6_PLAN_INDEPENDENTLY_VALIDATED",
+  "step_s": 0.5,
+  "hard_violations": 0,
+  "uncovered_sample_count": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "full_flight_samples": 74454,
+  "direct_samples": 47610,
+  "relayed_samples": 26844,
+  "relay_sorties": 18,
+  "relay_ids": [
+    "R01",
+    "R02"
+  ],
+  "energy_components": [
+    "REC-01",
+    "REC-02",
+    "REC-03",
+    "REC-04",
+    "REC-05",
+    "REC-06"
+  ],
+  "minimum_relay_energy_margin_kwh": 1.9533040407123181,
+  "minimum_twohop_margin_db": 0.14955749359387482,
+  "runtime_s": 30.19724566299999,
+  "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+  "J_late": 1279313.5550097867,
+  "J_norm": 0.8841147404292883,
+  "transport_energy_kwh": 73.47077585529219,
+  "transport_makespan_s": 17670.91008701471,
+  "transport_sorties": 28,
+  "minimum_transport_energy_margin_kwh": 0.29438579509238494,
+  "hard_deadline_violations": 0
+}

@@ -1,0 +1,344 @@
+[
+  {
+    "span": 2200,
+    "idle": 300,
+    "seed_objective": "count",
+    "seed": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "columns": 1122,
+      "constraints": 1340,
+      "runtime_s": 0.6134672230000007,
+      "objective_energy_kwh": 11.0,
+      "mip_gap": 0.0,
+      "dual_bound": 11.0,
+      "relay_capacity": 26,
+      "energy_capacity": 26,
+      "objective_kind": "count",
+      "optimality_scope": "FINITE_GENERATED_SORTIE_COLUMN_POOL_ONLY"
+    },
+    "shift": {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "groups": 11,
+      "runtime_s": 0.16671730299999865,
+      "total_shift_s": null,
+      "dual_bound": null,
+      "mip_gap": null,
+      "scope": "FIXED_RELAY_GROUPS_SITES_AND_ORIGINAL_TRANSPORT_RESOURCE_ORDERS",
+      "conservative_energy_bound": true,
+      "component_check": "POSTSOLVE_EXACT_INTERVAL_COLORING"
+    },
+    "groups": [
+      {
+        "site_id": "E52_189eb019491ad876aa165071",
+        "task_ids": [
+          "P02_G010_E52_A000",
+          "P02_G012_E52_A000",
+          "P02_G013_E52_A000",
+          "P02_G014_E52_A000",
+          "P02_G016_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_aaa387ee3ee3170bd804334d",
+        "task_ids": [
+          "P02_G019_E52_A000",
+          "P02_G020_E52_A000",
+          "P02_G021_E52_A000",
+          "P02_G022_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_82c821a5773d0bfbe554f10a",
+        "task_ids": [
+          "P02_G000_E52_A000",
+          "P02_G001_E52_A000",
+          "P02_G007_E52_A000",
+          "P02_G011_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_214ce9a3b3bd3fa9c582335a",
+        "task_ids": [
+          "P02_G006_E52_A000",
+          "P02_G015_E52_A000",
+          "P02_G017_E52_A000",
+          "P02_G024_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_fd527d975e1813662620f82c",
+        "task_ids": [
+          "P02_G004_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_beb70ec57fd2d66bf65b827f",
+        "task_ids": [
+          "P02_G002_E52_A000",
+          "P02_G003_E52_A000",
+          "P02_G005_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_ef8fa59407d07a2296b5f591",
+        "task_ids": [
+          "P02_G023_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_b677873645e212a13901ede2",
+        "task_ids": [
+          "P02_G018_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_be69bdf55826f2eb34075d09",
+        "task_ids": [
+          "P02_G008_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_76b4f0bdabd1ccab126282dd",
+        "task_ids": [
+          "P02_G025_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_b677873645e212a13901ede2",
+        "task_ids": [
+          "P02_G009_E52_A000"
+        ]
+      }
+    ]
+  },
+  {
+    "span": 1600,
+    "idle": 120,
+    "seed_objective": "count",
+    "seed": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "columns": 1051,
+      "constraints": 1340,
+      "runtime_s": 0.5445673370000037,
+      "objective_energy_kwh": 11.0,
+      "mip_gap": 0.0,
+      "dual_bound": 11.0,
+      "relay_capacity": 26,
+      "energy_capacity": 26,
+      "objective_kind": "count",
+      "optimality_scope": "FINITE_GENERATED_SORTIE_COLUMN_POOL_ONLY"
+    },
+    "shift": {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "groups": 11,
+      "runtime_s": 0.07813009100000556,
+      "total_shift_s": null,
+      "dual_bound": null,
+      "mip_gap": null,
+      "scope": "FIXED_RELAY_GROUPS_SITES_AND_ORIGINAL_TRANSPORT_RESOURCE_ORDERS",
+      "conservative_energy_bound": true,
+      "component_check": "POSTSOLVE_EXACT_INTERVAL_COLORING"
+    },
+    "groups": [
+      {
+        "site_id": "E52_189eb019491ad876aa165071",
+        "task_ids": [
+          "P02_G010_E52_A000",
+          "P02_G012_E52_A000",
+          "P02_G013_E52_A000",
+          "P02_G014_E52_A000",
+          "P02_G016_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_aaa387ee3ee3170bd804334d",
+        "task_ids": [
+          "P02_G019_E52_A000",
+          "P02_G020_E52_A000",
+          "P02_G021_E52_A000",
+          "P02_G022_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_82c821a5773d0bfbe554f10a",
+        "task_ids": [
+          "P02_G000_E52_A000",
+          "P02_G001_E52_A000",
+          "P02_G007_E52_A000",
+          "P02_G011_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_214ce9a3b3bd3fa9c582335a",
+        "task_ids": [
+          "P02_G006_E52_A000",
+          "P02_G015_E52_A000",
+          "P02_G017_E52_A000",
+          "P02_G024_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_fd527d975e1813662620f82c",
+        "task_ids": [
+          "P02_G004_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_beb70ec57fd2d66bf65b827f",
+        "task_ids": [
+          "P02_G002_E52_A000",
+          "P02_G003_E52_A000",
+          "P02_G005_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_ef8fa59407d07a2296b5f591",
+        "task_ids": [
+          "P02_G023_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_b677873645e212a13901ede2",
+        "task_ids": [
+          "P02_G018_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_76b4f0bdabd1ccab126282dd",
+        "task_ids": [
+          "P02_G025_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_47db2d0d55c92154c779a4c9",
+        "task_ids": [
+          "P02_G008_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_b677873645e212a13901ede2",
+        "task_ids": [
+          "P02_G009_E52_A000"
+        ]
+      }
+    ]
+  },
+  {
+    "span": 2200,
+    "idle": 300,
+    "seed_objective": "energy",
+    "seed": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "columns": 1122,
+      "constraints": 1340,
+      "runtime_s": 0.5607590569999843,
+      "objective_energy_kwh": 5.528798576164089,
+      "mip_gap": 0.0,
+      "dual_bound": 5.528798576164089,
+      "relay_capacity": 26,
+      "energy_capacity": 26,
+      "objective_kind": "energy",
+      "optimality_scope": "FINITE_GENERATED_SORTIE_COLUMN_POOL_ONLY"
+    },
+    "shift": {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "groups": 11,
+      "runtime_s": 0.10002935500000376,
+      "total_shift_s": null,
+      "dual_bound": null,
+      "mip_gap": null,
+      "scope": "FIXED_RELAY_GROUPS_SITES_AND_ORIGINAL_TRANSPORT_RESOURCE_ORDERS",
+      "conservative_energy_bound": true,
+      "component_check": "POSTSOLVE_EXACT_INTERVAL_COLORING"
+    },
+    "groups": [
+      {
+        "site_id": "E52_189eb019491ad876aa165071",
+        "task_ids": [
+          "P02_G010_E52_A000",
+          "P02_G012_E52_A000",
+          "P02_G013_E52_A000",
+          "P02_G014_E52_A000",
+          "P02_G016_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_aaa387ee3ee3170bd804334d",
+        "task_ids": [
+          "P02_G019_E52_A000",
+          "P02_G020_E52_A000",
+          "P02_G021_E52_A000",
+          "P02_G022_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_214ce9a3b3bd3fa9c582335a",
+        "task_ids": [
+          "P02_G006_E52_A000",
+          "P02_G015_E52_A000",
+          "P02_G017_E52_A000",
+          "P02_G024_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_214ce9a3b3bd3fa9c582335a",
+        "task_ids": [
+          "P02_G000_E52_A000",
+          "P02_G004_E52_A000",
+          "P02_G011_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_82c821a5773d0bfbe554f10a",
+        "task_ids": [
+          "P02_G001_E52_A000",
+          "P02_G007_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_beb70ec57fd2d66bf65b827f",
+        "task_ids": [
+          "P02_G002_E52_A000",
+          "P02_G003_E52_A000",
+          "P02_G005_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_b677873645e212a13901ede2",
+        "task_ids": [
+          "P02_G018_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_76b4f0bdabd1ccab126282dd",
+        "task_ids": [
+          "P02_G025_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_47db2d0d55c92154c779a4c9",
+        "task_ids": [
+          "P02_G008_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_beb70ec57fd2d66bf65b827f",
+        "task_ids": [
+          "P02_G023_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_b677873645e212a13901ede2",
+        "task_ids": [
+          "P02_G009_E52_A000"
+        ]
+      }
+    ]
+  }
+]

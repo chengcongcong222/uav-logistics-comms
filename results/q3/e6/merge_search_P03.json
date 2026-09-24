@@ -1,0 +1,18 @@
+{
+  "initial_total_shift_s": 67271.31673772114,
+  "final_total_shift_s": 67271.31673772114,
+  "attempts": 7,
+  "runtime_s": 7.778520937000053,
+  "history": [],
+  "order_search": {
+    "initial_total_shift_s": 67271.31673772114,
+    "final_total_shift_s": 67271.31673772114,
+    "max_shift_s": 8332.904823742547,
+    "lp_solves": 185,
+    "iterations": 1,
+    "runtime_s": 1.7991123379999863,
+    "history": [],
+    "scope": "LP_OPTIMAL_TIMING_FOR_SELECTED_ORDERS; BOUNDED_SINGLE_JOB_INSERTION_SEARCH, NOT_GLOBAL_OPTIMUM"
+  },
+  "scope": "BOUNDED_ADJACENT_SAME_RELAY_MERGES_TOP4_COMMON_SITES_NOT_GLOBAL_OPTIMUM"
+}

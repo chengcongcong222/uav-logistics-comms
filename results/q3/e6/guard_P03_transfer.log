@@ -1,0 +1,2 @@
+GUARDED P03 {'initial_total_shift_s': 81406.61677551235, 'final_total_shift_s': 81406.61677551235, 'max_shift_s': 9545.174989190142, 'lp_solves': 309, 'iterations': 1, 'runtime_s': 1.2710168410000051, 'history': [], 'scope': 'LP_OPTIMAL_TIMING_FOR_SELECTED_ORDERS; BOUNDED_SINGLE_JOB_INSERTION_SEARCH, NOT_GLOBAL_OPTIMUM'}
+P03 SHIFTED_SCHEDULE_FEASIBLE relay_sorties 18 shift 81406.61677551235

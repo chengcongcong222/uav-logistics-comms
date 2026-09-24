@@ -1,0 +1,69 @@
+{
+  "pareto_id": "P02",
+  "conclusion": "SHIFTED_SCHEDULE_FEASIBLE",
+  "J_late": 995515.8983908915,
+  "J_norm": 0.8199178852066769,
+  "joint_makespan_s": 16423.12020129828,
+  "transport_energy_kwh": 73.3497269965582,
+  "relay_energy_kwh": 7.000449844792499,
+  "total_energy_kwh": 80.3501768413507,
+  "transport_sorties": 28,
+  "relay_sorties": 14,
+  "total_transport_shift_s": 67117.94448917703,
+  "max_transport_shift_s": 8332.904823742547,
+  "hard_deadline_violations": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "communication_validation": "E6_PLAN_INDEPENDENTLY_VALIDATED",
+  "minimum_M_E_kwh": 1.2466767194761301,
+  "minimum_M_C_db": 0.129100810593485,
+  "relay_uav_utilization": {
+    "R01": {
+      "sorties": 7,
+      "operating_s": 13935.915106421455,
+      "unavailable_s": 16035.915106421455,
+      "utilization": 0.9481031812458323
+    },
+    "R02": {
+      "sorties": 7,
+      "operating_s": 12841.22239270722,
+      "unavailable_s": 14941.22239270722,
+      "utilization": 0.8833808602887021
+    }
+  },
+  "energy_component_utilization": {
+    "REC-01": {
+      "sorties": 3,
+      "unavailable_s": 6799.4317055138345,
+      "utilization": 0.4020077923760002
+    },
+    "REC-02": {
+      "sorties": 3,
+      "unavailable_s": 6003.270717798368,
+      "utilization": 0.3549357818154936
+    },
+    "REC-03": {
+      "sorties": 2,
+      "unavailable_s": 7102.242143354967,
+      "utilization": 0.4199110761940004
+    },
+    "REC-04": {
+      "sorties": 2,
+      "unavailable_s": 5136.020245875459,
+      "utilization": 0.30366069549143354
+    },
+    "REC-05": {
+      "sorties": 2,
+      "unavailable_s": 4890.498265583976,
+      "utilization": 0.2891445192061826
+    },
+    "REC-06": {
+      "sorties": 2,
+      "unavailable_s": 3883.289696175252,
+      "utilization": 0.22959458753735773
+    }
+  },
+  "resource_calendar_horizon_s": 16913.681362559975,
+  "candidate_set_complete": false,
+  "one_to_many_relay": true,
+  "comm_power_counted_once_per_active_module": true
+}

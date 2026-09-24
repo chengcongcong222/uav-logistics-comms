@@ -1,0 +1,10 @@
+{
+  "initial_total_shift_s": 79669.46430794992,
+  "final_total_shift_s": 79669.46430794992,
+  "max_shift_s": 9468.09608192978,
+  "lp_solves": 309,
+  "iterations": 1,
+  "runtime_s": 1.2709525540000186,
+  "history": [],
+  "scope": "LP_OPTIMAL_TIMING_FOR_SELECTED_ORDERS; BOUNDED_SINGLE_JOB_INSERTION_SEARCH, NOT_GLOBAL_OPTIMUM"
+}

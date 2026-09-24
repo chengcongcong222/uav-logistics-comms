@@ -1,0 +1,18 @@
+{
+  "status": "ALL_RETAINED_EXPANDED_PAIRS_VALIDATED",
+  "pareto_id": "P02",
+  "pairs": 662,
+  "sites": 70,
+  "step_s": 0.5,
+  "boundary_refinement_s": 0.1,
+  "link_samples": 399711,
+  "refinement_samples": 324,
+  "runtime_s": 85.49685086300019,
+  "candidate_set_complete": false,
+  "scope": "INHERITED_E52_WINDOWS; FINAL_GUARDED_ASSIGNMENTS_AUDITED_SEPARATELY",
+  "artifact_sha256": {
+    "results/q3/e6/candidate_pairs_P02.csv": "3557ef241e5f11dc78e1386af4d2b96105f6a17d3aaa380ad8c715b65cfe9024",
+    "results/q3/e6/candidate_sites_P02.csv": "797254acf6072744ef60b9dd89c23e8fda236265348fb12fb688ab6adb5973b0",
+    "results/q3/relay_atomic_tasks_e52.csv": "7b76a38309026ea5808db75a69ecd6871cbf8fac9e8a635c694ba18b55f22ec5"
+  }
+}

@@ -1,0 +1,61 @@
+expansion P01 group=7 n=2835 found=None active_cover=3
+expansion P01 group=6 n=228 found=None active_cover=3
+expansion P01 group=6 n=3807 found=None active_cover=3
+expansion P01 group=6 n=3564 found=None active_cover=3
+expansion P01 group=5 n=84 found=None active_cover=3
+expansion P01 group=5 n=117 found=None active_cover=3
+expansion P01 group=5 n=4212 found=None active_cover=3
+expansion P01 group=5 n=4698 found=None active_cover=3
+expansion P01 group=4 n=45 found=None active_cover=3
+expansion P01 group=4 n=39 found=None active_cover=3
+expansion P01 group=4 n=358 found=E52_ef8fa59407d07a2296b5f591 active_cover=3
+expansion P01 group=4 n=4779 found=None active_cover=3
+expansion P01 group=3 n=261 found=None active_cover=3
+expansion P01 group=3 n=6642 found=None active_cover=3
+expansion P01 group=6 n=2835 found=None active_cover=3
+expansion P01 group=5 n=219 found=None active_cover=3
+expansion P01 group=5 n=3564 found=None active_cover=3
+expansion P01 group=4 n=141 found=None active_cover=3
+expansion P01 group=4 n=4698 found=None active_cover=3
+expansion P01 group=3 n=120 found=None active_cover=3
+expansion P01 group=3 n=4779 found=None active_cover=3
+expansion P01 group=2 n=6642 found=None active_cover=3
+expansion P01 group=6 n=2835 found=None active_cover=3
+expansion P01 group=5 n=4455 found=None active_cover=3
+expansion P01 group=5 n=3564 found=None active_cover=3
+expansion P01 group=4 n=1608 found=None active_cover=3
+expansion P01 group=4 n=4698 found=None active_cover=3
+expansion P01 group=3 n=1167 found=None active_cover=3
+expansion P01 group=3 n=4779 found=None active_cover=3
+expansion P01 group=2 n=1 found=E52_82c821a5773d0bfbe554f10a active_cover=2
+P01 FIXED_POOL_BLOCKED needs Level C/expansion, time=138.83
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/ccc/projects/uav-logistics-comms/src/q3/e6_resources.py", line 342, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/ccc/projects/uav-logistics-comms/src/q3/e6_resources.py", line 324, in main
+    analysis=expand(engine,pid,level_a[pid]);save_pool(engine,pid)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ccc/projects/uav-logistics-comms/src/q3/e6_resources.py", line 138, in expand
+    for sid in seeds:consider(sid,'E52_SITE_CROSS_VALIDATION',relevant)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ccc/projects/uav-logistics-comms/src/q3/e6_resources.py", line 133, in consider
+    rec=engine.check_task(aid,sid)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ccc/projects/uav-logistics-comms/src/q3/e6_resources.py", line 72, in check_task
+    rec=self.check(tr,sid,float(t.service_start_s),float(t.service_end_s))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ccc/projects/uav-logistics-comms/src/q3/e52_lazy.py", line 200, in check
+    margin = self.exact(traj, site, a, b)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ccc/projects/uav-logistics-comms/src/q3/e52_lazy.py", line 164, in exact
+    value = self.access(traj, site, t)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ccc/projects/uav-logistics-comms/src/q3/e52_lazy.py", line 150, in access
+    blocked = blocked_line_cells(self.dem, *ll, xyz[2], site['lon'], site['lat'], site['z_amsl_m'])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ccc/projects/uav-logistics-comms/src/q3/terrain_los.py", line 69, in blocked_line_cells
+    continue
+KeyboardInterrupt

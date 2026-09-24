@@ -1,0 +1,16 @@
+MERGE P01 {'relay_sorties': 17, 'total_shift_s': 70673.62171664246, 'max_shift_s': 9586.591852794645, 'elapsed_s': 6.332870458000002}
+MERGE P01 {'relay_sorties': 16, 'total_shift_s': 60262.62697486251, 'max_shift_s': 9035.110759759416, 'elapsed_s': 6.968941316000041}
+MERGE P01 {'relay_sorties': 15, 'total_shift_s': 55771.2080918943, 'max_shift_s': 9035.110759759416, 'elapsed_s': 7.5620341129999815}
+MERGE P01 {'relay_sorties': 14, 'total_shift_s': 55605.39522666193, 'max_shift_s': 9035.110759759416, 'elapsed_s': 7.968083827999976}
+ORDER_SEARCH P01 {'iteration': 1, 'total_shift_s': 53716.12107947858, 'max_shift_s': 8449.003922743981, 'elapsed_s': 0.6760049550000531}
+P01 SHIFTED_SCHEDULE_FEASIBLE relay_sorties 14 shift 53716.12107947858
+MERGE P02 {'relay_sorties': 17, 'total_shift_s': 73277.35510958842, 'max_shift_s': 9391.802740646031, 'elapsed_s': 7.904624935000015}
+MERGE P02 {'relay_sorties': 16, 'total_shift_s': 67856.62400936565, 'max_shift_s': 8397.991014367812, 'elapsed_s': 8.762028359999931}
+MERGE P02 {'relay_sorties': 15, 'total_shift_s': 67213.50883571868, 'max_shift_s': 8332.904823742547, 'elapsed_s': 9.250873587000001}
+MERGE P02 {'relay_sorties': 14, 'total_shift_s': 67117.94448917703, 'max_shift_s': 8332.904823742547, 'elapsed_s': 9.700446825999961}
+P02 SHIFTED_SCHEDULE_FEASIBLE relay_sorties 14 shift 67117.94448917703
+MERGE P03 {'relay_sorties': 17, 'total_shift_s': 73478.02725953805, 'max_shift_s': 9518.153815506974, 'elapsed_s': 8.256369508000034}
+MERGE P03 {'relay_sorties': 16, 'total_shift_s': 69460.15696037478, 'max_shift_s': 8551.363262911922, 'elapsed_s': 8.675972034999972}
+MERGE P03 {'relay_sorties': 15, 'total_shift_s': 67366.88108426279, 'max_shift_s': 8332.904823742547, 'elapsed_s': 9.128707793999979}
+MERGE P03 {'relay_sorties': 14, 'total_shift_s': 67271.31673772114, 'max_shift_s': 8332.904823742547, 'elapsed_s': 9.57309847700003}
+P03 SHIFTED_SCHEDULE_FEASIBLE relay_sorties 14 shift 67271.31673772114

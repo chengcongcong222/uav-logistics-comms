@@ -3,36 +3,45 @@
 UAV logistics trajectory planning and relay-communication validation workspace.
 Python models produce standardized trajectories/schedules; ns-3.47 validates mobility + Wi-Fi + UDP + FlowMonitor.
 
-Current stage: **E5.2 relay-candidate rescue**. Q1, Q2 and the reference
-communication-gap model are implemented. See
-[`results/q3/E52_REPORT.md`](results/q3/E52_REPORT.md) for the current gate,
-results, validation evidence and limitations. E6 resource scheduling has not
-started. The E0 instructions below describe the frozen environment, not current
-implementation progress.
+Current stage: **E6 relay resource scheduling READY**. P01, P02 and P03 have
+independently validated execution schedules using two relay UAVs and six energy
+components. E7 has not started. See the [E6 report](results/q3/E6_RESOURCE_REPORT.md)
+and [Chinese GPT handoff](results/q3/E6_GPT_SYNC.md).
 
 ## Current result authority
 
-- Q2: `results/q2/pareto_schedules/P01..P03/`, `q2_pareto_e32.csv` and
-  `e32_summary.json`. Legacy top-level Q2 files are not a synchronized package.
-- Q3 candidates: `relay_atomic_tasks_e52.csv`, `relay_task_candidates_e52.csv`,
-  `relay_sites_e52.csv`, `relay_unresolved_e52.csv` under `results/q3/`.
-- Gate: `results/q3/e52_rescue/validation.json`, bound to result SHA256 hashes.
-- Candidate pools are **incomplete** feasibility witnesses, not exhaustive
-  feasible-site sets or a resource-feasible Q3 schedule.
-- Model details: [`Q3_RELAY_E52_SEMANTICS.md`](docs/model/Q3_RELAY_E52_SEMANTICS.md).
+- Transport baseline: `results/q2/pareto_schedules/P01..P03/`. Legacy top-level
+  Q2 files are not a synchronized package.
+- E52 inputs remain unchanged; their gate is `results/q3/e52_rescue/validation.json`.
+- Executable E6 schedules, guarded communication assignments, independent
+  audits and metrics: `results/q3/e6/`.
+- Current gate: [results/q3/e6/validation.json](results/q3/e6/validation.json),
+  bound to input, output and source hashes.
+- Representative P01: 28 transport sorties, 12 relay sorties, 42,380.952171 s
+  total transport delay, 13,895.966266 s joint makespan. All three plans satisfy
+  hard deadlines and the numerical full-flight communication audit.
+- Candidate pools remain incomplete. These are feasible execution witnesses,
+  not globally minimum-delay schedules. Small communication margins and
+  substantial soft-deadline costs remain explicit limitations.
+- [E6 model semantics](docs/model/Q3_RELAY_E6_SEMANTICS.md).
 
 ```bash
-# Existing checkout with saved checkpoint; use --resume to avoid repeating work.
 export OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1
-.venv/bin/python -m src.q3.e52_lazy --resume
-.venv/bin/python validation/mathematical/e52_validate_candidates.py
-.venv/bin/python validation/mathematical/e52_sampling_sensitivity.py
-.venv/bin/python validation/mathematical/e52_test_regressions.py
+.venv/bin/python -m src.q3.e6_replay
+.venv/bin/python validation/mathematical/e6_test_regressions.py
+for p in P01 P02 P03; do
+  .venv/bin/python validation/mathematical/e6_validate_pool.py --plan "$p"
+  .venv/bin/python validation/mathematical/e6_validate.py --plan "$p"
+done
+.venv/bin/python validation/mathematical/e6_validate.py --plan P01 --step .25
+.venv/bin/python validation/mathematical/e6_gate.py
 ```
 
-On a fresh run without a checkpoint, omit `--resume`. A checkpoint whose
-input/code/config hash differs is rejected; preserve it separately before a
-clean rebuild. Do not use legacy `e51_relay_tasks` to regenerate E52 results.
+Replay reconstructs the committed witness without depending on time-limited
+MILP search. Re-exporting requires rerunning independent validation before
+issuing the gate. Earlier E52 reproduction instructions remain in
+[the E52 report](results/q3/E52_REPORT.md). The E0 environment notes below
+remain historical setup instructions.
 
 ## Stack (frozen)
 

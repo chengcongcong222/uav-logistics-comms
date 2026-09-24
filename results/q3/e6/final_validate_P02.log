@@ -1,0 +1,52 @@
+{
+  "pareto_id": "P02",
+  "status": "E6_PLAN_INDEPENDENTLY_VALIDATED",
+  "step_s": 0.5,
+  "hard_violations": 0,
+  "uncovered_sample_count": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "full_flight_samples": 74926,
+  "direct_samples": 48029,
+  "relayed_samples": 26897,
+  "relay_sorties": 14,
+  "full_flight_boundary_refinements": 483,
+  "boundary_refinement_s": 0.1,
+  "relay_ids": [
+    "R01",
+    "R02"
+  ],
+  "energy_components": [
+    "REC-01",
+    "REC-02",
+    "REC-03",
+    "REC-04",
+    "REC-05",
+    "REC-06"
+  ],
+  "minimum_relay_energy_margin_kwh": 1.2466767194761301,
+  "minimum_twohop_margin_db": 0.129100810593485,
+  "runtime_s": 32.154952374000004,
+  "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+  "J_late": 995515.8983908916,
+  "J_norm": 0.8199178852066767,
+  "transport_energy_kwh": 73.34972699655823,
+  "transport_makespan_s": 16423.12020129828,
+  "transport_sorties": 28,
+  "minimum_transport_energy_margin_kwh": 0.42618399976147936,
+  "hard_deadline_violations": 0,
+  "artifact_sha256": {
+    "results/q3/e6/transport_sorties_P02.csv": "a50c6fbf6bd7e7bf458b0af1bfd833d3a91ba99c794ddcae0745752f1e9db4de",
+    "results/q3/e6/box_delivery_P02.csv": "d34a21c8a16c546604f7a87134bc442471c4b80d3ec793d1299aee140f7d123d",
+    "results/q3/e6/transport_shifts_P02.csv": "4d4aeba0aa3a893cdc7b9de89505c67b290127176400fbbae3e4e86e33a23539",
+    "results/q3/e6/transport_uav_calendar_P02.csv": "12dfbd422f22c9591704b95bd33f2803e00eb0375e0d3bbc997c43694d0c2654",
+    "results/q3/e6/transport_battery_calendar_P02.csv": "10e2154338e862d5aa9d6269867aa178267185afe64c29bbb8869f2eb1b49fcb",
+    "results/q3/e6/relay_sorties_P02.csv": "41872e4680fe00d083e728182dbbb1acf17a91b90ea6f5971c2ffaa83f3a1487",
+    "results/q3/e6/relay_uav_calendar_P02.csv": "59f659d6e1d7593ba12830ef0a0cd95df6cbabefd981c5371cf5e70d189a1849",
+    "results/q3/e6/relay_energy_calendar_P02.csv": "c5917b2d23a33694f7669d71cdf8e5c2074721d5ea54ac57af6a17d5972875c0",
+    "results/q3/e6/communication_guarantee_P02.csv": "aad6f393356800155b1818bc6bc3aba195ed5c0e4a1eb060cf2eac0d6419eaa6",
+    "results/q3/e6/candidate_sites_P02.csv": "797254acf6072744ef60b9dd89c23e8fda236265348fb12fb688ab6adb5973b0",
+    "results/q3/e6/guarded_selected_pairs_P02.csv": "23e1ef6e94ad14a1a773ddbb348c0d399b433702caf2ef501a65b540ab02f7eb",
+    "results/q3/e6/guarded_atomic_tasks.csv": "507500ca2af8d4b3ab4f3fb208526706ee59b602755bc3a750c6f0660a602def",
+    "results/q3/e6/joint_metrics_P02.json": "d918797e79e39dde52ed406abcd556430c8b7523c70c35f6fe3274a8c0320e6c"
+  }
+}

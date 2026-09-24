@@ -1,0 +1,6 @@
+{
+  "padding_s": 2.0,
+  "reason": "Full-flight audit exposed inherited gap starts up to 1.11 seconds late",
+  "authority": "E6_DERIVED_ONLY_E52_UNCHANGED",
+  "certificate": "NUMERICAL_FULL_FLIGHT_CHECK_REQUIRED"
+}

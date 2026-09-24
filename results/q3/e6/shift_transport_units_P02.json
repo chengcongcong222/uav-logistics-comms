@@ -1,0 +1,147 @@
+[
+  {
+    "groups": [
+      {
+        "site_id": "E52_82c821a5773d0bfbe554f10a",
+        "task_ids": [
+          "P02_G000_E52_A000",
+          "P02_G001_E52_A000",
+          "P02_G004_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_beb70ec57fd2d66bf65b827f",
+        "task_ids": [
+          "P02_G002_E52_A000",
+          "P02_G003_E52_A000",
+          "P02_G005_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_44ed69e1d99dc074a7941a18",
+        "task_ids": [
+          "P02_G006_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_ef8fa59407d07a2296b5f591",
+        "task_ids": [
+          "P02_G007_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_47db2d0d55c92154c779a4c9",
+        "task_ids": [
+          "P02_G008_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_b677873645e212a13901ede2",
+        "task_ids": [
+          "P02_G009_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_47db2d0d55c92154c779a4c9",
+        "task_ids": [
+          "P02_G010_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_44ed69e1d99dc074a7941a18",
+        "task_ids": [
+          "P02_G011_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_eab18c460278cfbad2c20da0",
+        "task_ids": [
+          "P02_G012_E52_A000",
+          "P02_G013_E52_A000",
+          "P02_G014_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_214ce9a3b3bd3fa9c582335a",
+        "task_ids": [
+          "P02_G015_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_47db2d0d55c92154c779a4c9",
+        "task_ids": [
+          "P02_G016_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_9026ce0d2a5dd9a75ef73c8e",
+        "task_ids": [
+          "P02_G017_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_b677873645e212a13901ede2",
+        "task_ids": [
+          "P02_G018_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_eab18c460278cfbad2c20da0",
+        "task_ids": [
+          "P02_G019_E52_A000",
+          "P02_G020_E52_A000",
+          "P02_G021_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_aaa387ee3ee3170bd804334d",
+        "task_ids": [
+          "P02_G022_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_beb70ec57fd2d66bf65b827f",
+        "task_ids": [
+          "P02_G023_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_9026ce0d2a5dd9a75ef73c8e",
+        "task_ids": [
+          "P02_G024_E52_A000"
+        ]
+      },
+      {
+        "site_id": "E52_76b4f0bdabd1ccab126282dd",
+        "task_ids": [
+          "P02_G025_E52_A000"
+        ]
+      }
+    ],
+    "solver": {
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+      "groups": 18,
+      "runtime_s": 63.62837316499999,
+      "total_shift_s": 79447.27477351762,
+      "dual_bound": 21985.881904486676,
+      "mip_gap": 0.723264492493136,
+      "scope": "FIXED_RELAY_GROUPS_SITES_AND_ORIGINAL_TRANSPORT_RESOURCE_ORDERS",
+      "conservative_energy_bound": true,
+      "component_check": "POSTSOLVE_EXACT_INTERVAL_COLORING",
+      "max_shift_s": 9440.096081929656,
+      "exact_component_coloring_passed": true,
+      "second_stage_status": 1,
+      "order_search": {
+        "initial_total_shift_s": 79381.46430794992,
+        "final_total_shift_s": 79381.46430794992,
+        "max_shift_s": 9440.09608192978,
+        "lp_solves": 309,
+        "iterations": 1,
+        "runtime_s": 1.2428380420000167,
+        "history": [],
+        "scope": "LP_OPTIMAL_TIMING_FOR_SELECTED_ORDERS; BOUNDED_SINGLE_JOB_INSERTION_SEARCH, NOT_GLOBAL_OPTIMUM"
+      }
+    }
+  }
+]

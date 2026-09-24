@@ -1,0 +1,31 @@
+{
+  "initial_total_shift_s": 53716.12107947858,
+  "final_total_shift_s": 42380.95217125507,
+  "attempts": 9,
+  "runtime_s": 2.7234976470000447,
+  "history": [
+    {
+      "relay_sorties": 13,
+      "total_shift_s": 45558.453538900634,
+      "max_shift_s": 7614.158791458512,
+      "elapsed_s": 1.4974235950001002
+    },
+    {
+      "relay_sorties": 12,
+      "total_shift_s": 42380.95217125507,
+      "max_shift_s": 6549.9912903502345,
+      "elapsed_s": 1.6336160280000058
+    }
+  ],
+  "order_search": {
+    "initial_total_shift_s": 42380.95217125507,
+    "final_total_shift_s": 42380.95217125507,
+    "max_shift_s": 6549.9912903502345,
+    "lp_solves": 135,
+    "iterations": 1,
+    "runtime_s": 0.9902569100000846,
+    "history": [],
+    "scope": "LP_OPTIMAL_TIMING_FOR_SELECTED_ORDERS; BOUNDED_SINGLE_JOB_INSERTION_SEARCH, NOT_GLOBAL_OPTIMUM"
+  },
+  "scope": "BOUNDED_ADJACENT_SAME_RELAY_MERGES_TOP4_COMMON_SITES_NOT_GLOBAL_OPTIMUM"
+}

@@ -1,0 +1,7 @@
+P03 100 669 12.82
+P03 200 669 36.53
+P03 300 669 48.31
+P03 400 669 55.46
+P03 500 669 70.27
+P03 600 669 78.4
+{'status': 'ALL_RETAINED_EXPANDED_PAIRS_VALIDATED', 'pareto_id': 'P03', 'pairs': 669, 'sites': 70, 'step_s': 0.5, 'boundary_refinement_s': 0.1, 'link_samples': 400833, 'refinement_samples': 315, 'runtime_s': 86.1226985180001, 'candidate_set_complete': False, 'scope': 'INHERITED_E52_WINDOWS; FINAL_GUARDED_ASSIGNMENTS_AUDITED_SEPARATELY', 'artifact_sha256': {'results/q3/e6/candidate_pairs_P03.csv': '2384b2fd906b4e2d5f19ee87ed327161b69ee34e1ce8dba3f1d0a35e18aad386', 'results/q3/e6/candidate_sites_P03.csv': '797254acf6072744ef60b9dd89c23e8fda236265348fb12fb688ab6adb5973b0', 'results/q3/relay_atomic_tasks_e52.csv': '7b76a38309026ea5808db75a69ecd6871cbf8fac9e8a635c694ba18b55f22ec5'}}

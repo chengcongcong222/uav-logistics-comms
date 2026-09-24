@@ -1,0 +1,14 @@
+{
+  "status": 2,
+  "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+  "columns": 3683,
+  "constraints": 1354,
+  "runtime_s": 3.479321776000006,
+  "objective_energy_kwh": null,
+  "mip_gap": null,
+  "dual_bound": null,
+  "relay_capacity": 2,
+  "energy_capacity": 6,
+  "objective_kind": "energy",
+  "optimality_scope": "FINITE_GENERATED_SORTIE_COLUMN_POOL_ONLY"
+}

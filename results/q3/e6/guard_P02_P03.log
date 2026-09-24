@@ -1,0 +1,11 @@
+GUARDED P02 {'initial_total_shift_s': 79669.46430794992, 'final_total_shift_s': 79669.46430794992, 'max_shift_s': 9468.09608192978, 'lp_solves': 309, 'iterations': 1, 'runtime_s': 1.2709525540000186, 'history': [], 'scope': 'LP_OPTIMAL_TIMING_FOR_SELECTED_ORDERS; BOUNDED_SINGLE_JOB_INSERTION_SEARCH, NOT_GLOBAL_OPTIMUM'}
+P02 SHIFTED_SCHEDULE_FEASIBLE relay_sorties 18 shift 79669.46430794992
+Traceback (most recent call last):
+  File "<stdin>", line 10, in <module>
+  File "/home/ccc/projects/uav-logistics-comms/src/q3/e6_guard.py", line 38, in repair_plan
+    shifts,selected,info=improve_orders(engine,pid,selected)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ccc/projects/uav-logistics-comms/src/q3/e6_order_search.py", line 70, in improve_orders
+    assert best is not None,'Seed ordering should be feasible'
+           ^^^^^^^^^^^^^^^^
+AssertionError: Seed ordering should be feasible

@@ -1,0 +1,69 @@
+{
+  "pareto_id": "P01",
+  "conclusion": "SHIFTED_SCHEDULE_FEASIBLE",
+  "J_late": 648615.6046791939,
+  "J_norm": 0.7465689469852502,
+  "joint_makespan_s": 13895.966266389649,
+  "transport_energy_kwh": 73.47077585529216,
+  "relay_energy_kwh": 6.21117951260371,
+  "total_energy_kwh": 79.68195536789587,
+  "transport_sorties": 28,
+  "relay_sorties": 12,
+  "total_transport_shift_s": 42380.95217125507,
+  "max_transport_shift_s": 6549.9912903502345,
+  "hard_deadline_violations": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "communication_validation": "E6_PLAN_INDEPENDENTLY_VALIDATED",
+  "minimum_M_E_kwh": 1.4074844709265877,
+  "minimum_M_C_db": 0.14955749359387482,
+  "relay_uav_utilization": {
+    "R01": {
+      "sorties": 7,
+      "operating_s": 11956.494803103811,
+      "unavailable_s": 14056.494803103811,
+      "utilization": 0.9770596048137927
+    },
+    "R02": {
+      "sorties": 5,
+      "operating_s": 11737.877214160468,
+      "unavailable_s": 13237.877214160468,
+      "utilization": 0.9201579241921066
+    }
+  },
+  "energy_component_utilization": {
+    "REC-01": {
+      "sorties": 2,
+      "unavailable_s": 5717.446414564494,
+      "utilization": 0.39741671110815724
+    },
+    "REC-02": {
+      "sorties": 2,
+      "unavailable_s": 5200.5682048429335,
+      "utilization": 0.361488776982226
+    },
+    "REC-03": {
+      "sorties": 2,
+      "unavailable_s": 2631.4583549466624,
+      "utilization": 0.1829112944857645
+    },
+    "REC-04": {
+      "sorties": 2,
+      "unavailable_s": 7335.61326723136,
+      "utilization": 0.509894643034711
+    },
+    "REC-05": {
+      "sorties": 2,
+      "unavailable_s": 5297.364924319397,
+      "utilization": 0.3682170663462331
+    },
+    "REC-06": {
+      "sorties": 2,
+      "unavailable_s": 3641.6063641054716,
+      "utilization": 0.25312615448160153
+    }
+  },
+  "resource_calendar_horizon_s": 14386.527427651343,
+  "candidate_set_complete": false,
+  "one_to_many_relay": true,
+  "comm_power_counted_once_per_active_module": true
+}

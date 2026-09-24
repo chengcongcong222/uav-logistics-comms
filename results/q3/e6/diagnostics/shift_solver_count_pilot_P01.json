@@ -1,0 +1,12 @@
+{
+  "status": 2,
+  "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+  "groups": 12,
+  "runtime_s": 0.0024908519999939926,
+  "total_shift_s": null,
+  "dual_bound": null,
+  "mip_gap": null,
+  "scope": "FIXED_RELAY_GROUPS_SITES_AND_ORIGINAL_TRANSPORT_RESOURCE_ORDERS",
+  "conservative_energy_bound": true,
+  "component_check": "POSTSOLVE_EXACT_INTERVAL_COLORING"
+}

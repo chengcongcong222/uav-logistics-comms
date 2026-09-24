@@ -1,0 +1,18 @@
+{
+  "seed": 20260924,
+  "workers": 1,
+  "communication_concurrency": "MULTI_TRANSPORT_SINGLE_SITE",
+  "comm_power_per_active_module": true,
+  "gamma_c_db": 0,
+  "expansion_time_budget_s": 180,
+  "expansion_grid_m": 120,
+  "expansion_heights_m": [
+    300,
+    250,
+    200
+  ],
+  "candidate_set_complete": false,
+  "transport_changes": "NONE_UNLESS_LEVEL_C",
+  "milp_time_limit_s": 90,
+  "mip_rel_gap": 1e-06
+}
