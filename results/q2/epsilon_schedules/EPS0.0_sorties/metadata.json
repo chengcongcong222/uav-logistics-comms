@@ -1,0 +1,14 @@
+{
+  "tag": "EPS0.0_sorties",
+  "seed": 2026092501,
+  "iterations": 30,
+  "epsilon": 0.0,
+  "timeliness_budget_type": "J_late",
+  "timeliness_bound": 28569.79538945284,
+  "objective_mode": "sorties",
+  "J_late": 27140.240272980776,
+  "J_norm": 0.5240409478982372,
+  "makespan": 10326.937059944303,
+  "energy": 73.36713146611822,
+  "sorties": 28
+}

@@ -1,0 +1,14 @@
+{
+  "tag": "EPS0.01_energy",
+  "seed": 2026092501,
+  "iterations": 30,
+  "epsilon": 0.01,
+  "timeliness_budget_type": "J_late",
+  "timeliness_bound": 28855.493343347367,
+  "objective_mode": "energy",
+  "J_late": 27140.240272980776,
+  "J_norm": 0.5257111204986747,
+  "makespan": 10326.937059944303,
+  "energy": 73.3497269965582,
+  "sorties": 28
+}

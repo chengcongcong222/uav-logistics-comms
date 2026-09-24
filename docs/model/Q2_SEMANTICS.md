@@ -1,83 +1,74 @@
 # Q2_SEMANTICS
 
-Frozen Q2 interpretation. Evidence: `SOURCE_GIVEN` / `MODEL_DERIVED` / `MODEL_ASSUMPTION_ACCEPTED`.
+Frozen Q2 interpretation (updated E3.2). Evidence: `SOURCE_GIVEN` / `MODEL_DERIVED` / `MODEL_ASSUMPTION_ACCEPTED`.
 
 ## Time origin
 
-`t = 0` is the common emergency mission start (`SOURCE_GIVEN` task setup / `MODEL_DERIVED` convention).
+`t = 0` is the common emergency mission start.
 
-## Sortie start `s_p`
+## Sortie start / takeoff / delivery / hard deadlines
 
-`preparation_start_s`: moment preparation/loading **begins** (not takeoff). (`MODEL_DERIVED`)
+(unchanged from prior freeze)
 
-## Takeoff
+- `preparation_start_s` = prep/load begin
+- takeoff may wait for battery at 100%
+- delivery = handover completion at service
+- medical: `t_delivery <= expected_deadline`
+- first-batch: `t_delivery <= first_deadline`
+- both: `hard_deadline = min(...)`
+- hard constraints only
 
-```text
-t_takeoff = max( s_p + T_prep + n_p * T_load_per_box ,  t_battery_ready )
-```
+## Timeliness — two-level semantics (`E3.2`)
 
-Battery must be 100% at takeoff (`SOURCE_GIVEN`: recharge to 100% before reuse).  
-Prep/load **may overlap** previous recharge of the assigned battery; only takeoff requires full charge (`MODEL_DERIVED`).
-
-## Delivery completion
-
-Delivery time of boxes at a stop = **when handover at that service finishes**, not arrival:
-
-```text
-t_delivery(S_i) = arrival_i + T_handover_base + n_i * T_handover_per_box
-```
-
-(`SOURCE_GIVEN` field names + `MODEL_DERIVED` stacking).
-
-After drop, UAV departs from service operation altitude (ground+30 m) toward the next leg.
-
-## Hard deadlines
-
-- medical: `t_delivery <= expected_deadline` (`SOURCE_GIVEN`)
-- first-batch: `t_delivery <= first_deadline` (`SOURCE_GIVEN`)
-- if both: `hard_deadline = min(expected, first)` (`MODEL_DERIVED`)
-- hard constraints only; no soft-penalty acceptance of violations
-
-## Timeliness objective (continuous)
+**Level-1 (primary): weighted overdue**
 
 ```text
-J_time = Σ_b w_b * (t_b / D_b_expected) / Σ_b w_b
+J_late = Σ_b w_b * max(0, t_b − D_b_expected)
 ```
 
-over boxes with expected deadline. Early delivery scores `<1`.  
-Also report `soft_late_count`, `soft_lateness_sum`, `max_soft_lateness`.
+- `w_b = priority_weight`
+- all boxes with expected deadline participate
+- unit: priority-weighted seconds
+- interpretation: weighted tardiness after the expected delivery time
 
-## Objectives (raw)
+**Level-2 (secondary): earlier-is-better**
 
 ```text
-J1 = J_time
-J2 = makespan = max return_O01 over transport UAVs
-J3 = total_transport_energy
-J4 = number_of_sorties
+J_norm = Σ_b w_b * (t_b / D_b_expected) / Σ_b w_b
 ```
 
-Hard feasibility always ranks above objectives. No fixed weighted sum as the sole objective.
+- not deleted; demoted from primary objective
+- formal name: `weighted_normalized_delivery_time`
+- used when `J_late` is equal (including both zero) to prefer earlier overall delivery
 
-## Multi-stop physics
+These two are **not** collapsed into a single fixed weighted sum.
 
-Per-leg payload after each drop; **no** distance×average-payload shortcut. Geometry from `data/processed/route_geometry.csv`.
+## Timeliness ordering
 
-## Five physical gates (candidate shrink)
+```text
+TimelinessKey(x) = (J_late(x), J_norm(x))
+```
 
-| gate | check |
-| --- | --- |
-| T1 | box uniqueness / same-service consistency of a stop |
-| T2 | mass ≤ type max payload |
-| T3 | volume ≤ type cargo volume |
-| T4 | energy + return reserve `E ≤ (1-ρ)E_use` |
-| T5 | relative deadline reachability if started at t=0 |
+Lexicographic: compare `J_late` first; only if equal (or within numerical tolerance) compare `J_norm`.  
+Fewer overdue weighted-seconds dominates “earlier but more overdue”.
 
-## Resource calendars (MODEL_DERIVED)
+## Q2 core objectives (no fixed scalarization)
 
-- UAV busy: `preparation_start` → `return_O01`
-- Battery cycle: `takeoff` → `return` → recharge to 100% (`t_ready_next`)
-- Battery ID and UAV ID chosen by deterministic decoder, not by ALNS genes
+1. Timeliness `TimelinessKey = (J_late, J_norm)`
+2. makespan
+3. total_transport_energy
+4. sorties
+
+## Dominance (E3.2)
+
+A **timeliness-not-worse** than B iff `TimelinessKey(A) ≤lex TimelinessKey(B)`.
+
+A dominates B iff timeliness-not-worse AND makespan/energy/sorties all ≤ AND at least one strict improvement.
+
+## Multi-stop physics / gates / resources
+
+Unchanged (per-leg payload, T1–T5, UAV+battery calendars, decoder).
 
 ## Frozen physics authority
 
-`docs/model/MODEL_FREEZE_V1.md`, `docs/model/FORMULA_AUDIT.md`, `docs/model/DATA_CONTRACT.md` — do not modify formulas in E3.
+MODEL_FREEZE_V1 / FORMULA_AUDIT / DATA_CONTRACT unchanged in E3.2.

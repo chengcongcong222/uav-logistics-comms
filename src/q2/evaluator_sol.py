@@ -63,8 +63,9 @@ def evaluate_solution(
     if not ok or len(decoded) != len(missions):
         return None
 
-    # metrics
+    # metrics: J_late (primary), J_norm (secondary), soft diagnostics
     num = den = 0.0
+    late_sum = 0.0
     soft_late_count = 0
     soft_sum = 0.0
     max_soft = 0.0
@@ -79,13 +80,17 @@ def evaluate_solution(
                     num += w * (td / d)
                     den += w
                     late = max(0.0, td - d)
+                    late_sum += w * late
                     if late > 1e-9:
                         soft_late_count += 1
                         soft_sum += late
                         max_soft = max(max_soft, late)
-    j_time = num / den if den > 0 else float("nan")
+    j_norm = num / den if den > 0 else float("nan")
+    j_late = late_sum
     metrics = {
-        "J_time": j_time,
+        "J_late": j_late,
+        "J_norm": j_norm,
+        "J_time": j_norm,  # backward alias
         "makespan": max(m.return_s for m in decoded),
         "energy": sum(m.energy_kwh for m in decoded),
         "sorties": len(decoded),
@@ -103,4 +108,9 @@ def evaluate_solution(
 
 def internal_score(sol: Solution) -> tuple:
     m = sol.metrics
-    return (0, 0.0, m["J_time"], m["makespan"], m["energy"], m["sorties"])
+    return (0, 0.0, m["J_late"], m["J_norm"], m["makespan"], m["energy"], m["sorties"])
+
+
+def timeliness_key(sol: Solution) -> tuple:
+    m = sol.metrics
+    return (m["J_late"], m["J_norm"])

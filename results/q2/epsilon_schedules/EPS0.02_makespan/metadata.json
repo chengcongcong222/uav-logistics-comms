@@ -1,0 +1,14 @@
+{
+  "tag": "EPS0.02_makespan",
+  "seed": 2026092501,
+  "iterations": 30,
+  "epsilon": 0.02,
+  "timeliness_budget_type": "J_late",
+  "timeliness_bound": 29141.191297241898,
+  "objective_mode": "makespan",
+  "J_late": 28569.79538945284,
+  "J_norm": 0.5270079634662485,
+  "makespan": 10250.303430472715,
+  "energy": 73.47077585529216,
+  "sorties": 28
+}

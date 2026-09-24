@@ -13,7 +13,7 @@ from src.q2.operators import DESTROY, LOCAL, REPAIR
 from src.q2.scheduler import ResourceDecoder
 
 # primary objective keys for multi-objective subproblems
-OBJ_KEYS = ("J_time", "makespan", "energy", "sorties")
+OBJ_KEYS = ("J_late", "J_norm", "makespan", "energy", "sorties")
 
 
 @dataclass
@@ -30,23 +30,29 @@ class AlnsLog:
     operator_improved: dict = field(default_factory=dict)
 
 
-def score_tuple(sol: Solution, mode: str = "j_time", j_bound: float | None = None) -> tuple:
-    """Lexicographic internal score. mode selects primary minimization."""
+def score_tuple(
+    sol: Solution,
+    mode: str = "timeliness",
+    j_bound: float | None = None,
+    bound_kind: str = "J_late",
+) -> tuple:
+    """Lexicographic internal score. Timeliness is (J_late, J_norm)."""
     m = sol.metrics
-    # hard feasibility assumed by evaluator
-    if j_bound is not None and m["J_time"] > j_bound + 1e-9:
-        # infeasible for epsilon-constraint: large penalty first
-        return (1, m["J_time"] - j_bound, m["makespan"], m["energy"], m["sorties"])
+    jlate, jnorm = m["J_late"], m["J_norm"]
+    if j_bound is not None:
+        val = jlate if bound_kind == "J_late" else jnorm
+        if val > j_bound + 1e-9:
+            return (1, val - j_bound, jlate, jnorm, m["makespan"], m["energy"], m["sorties"])
     base = (0,)
-    if mode == "j_time":
-        return base + (m["J_time"], m["makespan"], m["energy"], m["sorties"])
+    if mode in ("timeliness", "j_time"):
+        return base + (jlate, jnorm, m["makespan"], m["energy"], m["sorties"])
     if mode == "makespan":
-        return base + (m["makespan"], m["J_time"], m["energy"], m["sorties"])
+        return base + (m["makespan"], jlate, jnorm, m["energy"], m["sorties"])
     if mode == "energy":
-        return base + (m["energy"], m["J_time"], m["makespan"], m["sorties"])
+        return base + (m["energy"], jlate, jnorm, m["makespan"], m["sorties"])
     if mode == "sorties":
-        return base + (m["sorties"], m["J_time"], m["makespan"], m["energy"])
-    return base + (m["J_time"], m["makespan"], m["energy"], m["sorties"])
+        return base + (m["sorties"], jlate, jnorm, m["makespan"], m["energy"])
+    return base + (jlate, jnorm, m["makespan"], m["energy"], m["sorties"])
 
 
 def alns_search(
@@ -58,13 +64,17 @@ def alns_search(
     t0: float = 0.05,
     cooling: float = 0.99,
     gate_stats: GateStats | None = None,
-    mode: str = "j_time",
+    mode: str = "timeliness",
     j_bound: float | None = None,
+    bound_kind: str = "J_late",
 ) -> tuple[Solution, AlnsLog]:
     rng = random.Random(seed)
     log = AlnsLog(seed=seed, iterations=iterations)
     current = copy.deepcopy(start)
-    best = copy.deepcopy(start)
+    best_feasible: Solution | None = None
+    # only accept start as best if it already satisfies the budget
+    if j_bound is None or score_tuple(start, mode, j_bound, bound_kind)[0] == 0:
+        best_feasible = copy.deepcopy(start)
     temp = t0
     names_d = list(DESTROY.keys())
     names_r = list(REPAIR.keys())
@@ -99,13 +109,14 @@ def alns_search(
             if sol2 is not None:
                 sol = sol2
 
-        cur_s = score_tuple(current, mode, j_bound)
-        new_s = score_tuple(sol, mode, j_bound)
+        cur_s = score_tuple(current, mode, j_bound, bound_kind)
+        new_s = score_tuple(sol, mode, j_bound, bound_kind)
         better = new_s < cur_s
         accept = better
         if not accept and new_s[0] == 0:
             delta = (
-                (sol.metrics["J_time"] - current.metrics["J_time"])
+                (sol.metrics["J_late"] - current.metrics["J_late"]) / 1000.0
+                + (sol.metrics["J_norm"] - current.metrics["J_norm"])
                 + (sol.metrics["makespan"] - current.metrics["makespan"]) / 10000.0
                 + (sol.metrics["energy"] - current.metrics["energy"]) / 100.0
                 + (sol.metrics["sorties"] - current.metrics["sorties"]) * 0.01
@@ -123,14 +134,17 @@ def alns_search(
                 log.improved_moves += 1
                 log.operator_improved[dname] += 1
                 log.operator_improved[rname] += 1
-            if score_tuple(sol, mode, j_bound) < score_tuple(best, mode, j_bound):
-                best = copy.deepcopy(sol)
+            if new_s[0] == 0:
+                if best_feasible is None or new_s < score_tuple(best_feasible, mode, j_bound, bound_kind):
+                    best_feasible = copy.deepcopy(sol)
         temp *= cooling
 
     log.runtime_s = time.time() - t_start
+    if best_feasible is None:
+        raise RuntimeError("EPSILON_SUBPROBLEM_NO_FEASIBLE_SOLUTION")
     covered = set()
-    for m in best.missions:
+    for m in best_feasible.missions:
         for bl in m["boxes_by_service"].values():
             covered.update(bl)
     assert covered == all_boxes
-    return best, log
+    return best_feasible, log
