@@ -1,0 +1,95 @@
+{
+  "status": "ALL_15_BUDGET_QUERIES_REPRODUCIBLE",
+  "queries": [
+    {
+      "epsilon": 0.0,
+      "objective": "makespan",
+      "solution_id": "Q3E7_002",
+      "status": "PASS"
+    },
+    {
+      "epsilon": 0.0,
+      "objective": "energy",
+      "solution_id": "Q3E7_003",
+      "status": "PASS"
+    },
+    {
+      "epsilon": 0.0,
+      "objective": "relay_sorties",
+      "solution_id": "Q3E7_001",
+      "status": "PASS"
+    },
+    {
+      "epsilon": 0.01,
+      "objective": "makespan",
+      "solution_id": "Q3E7_002",
+      "status": "PASS"
+    },
+    {
+      "epsilon": 0.01,
+      "objective": "energy",
+      "solution_id": "Q3E7_004",
+      "status": "PASS"
+    },
+    {
+      "epsilon": 0.01,
+      "objective": "relay_sorties",
+      "solution_id": "Q3E7_001",
+      "status": "PASS"
+    },
+    {
+      "epsilon": 0.02,
+      "objective": "makespan",
+      "solution_id": "Q3E7_006",
+      "status": "PASS"
+    },
+    {
+      "epsilon": 0.02,
+      "objective": "energy",
+      "solution_id": "Q3E7_008",
+      "status": "PASS"
+    },
+    {
+      "epsilon": 0.02,
+      "objective": "relay_sorties",
+      "solution_id": "Q3E7_001",
+      "status": "PASS"
+    },
+    {
+      "epsilon": 0.05,
+      "objective": "makespan",
+      "solution_id": "Q3E7_006",
+      "status": "PASS"
+    },
+    {
+      "epsilon": 0.05,
+      "objective": "energy",
+      "solution_id": "Q3E7_008",
+      "status": "PASS"
+    },
+    {
+      "epsilon": 0.05,
+      "objective": "relay_sorties",
+      "solution_id": "Q3E7_001",
+      "status": "PASS"
+    },
+    {
+      "epsilon": 0.1,
+      "objective": "makespan",
+      "solution_id": "Q3E7_006",
+      "status": "PASS"
+    },
+    {
+      "epsilon": 0.1,
+      "objective": "energy",
+      "solution_id": "Q3E7_008",
+      "status": "PASS"
+    },
+    {
+      "epsilon": 0.1,
+      "objective": "relay_sorties",
+      "solution_id": "Q3E7_001",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "feasible_witnesses": 164,
+  "provisional_frontier": 8,
+  "E6_SUPERSEDED": true,
+  "L2": "NOT_ACTIVATED_L1_PROVIDES_SUBSTANTIAL_OFFICIAL_METRIC_IMPROVEMENT",
+  "L3": "NOT_ACTIVATED",
+  "complete_global_pareto_frontier": false,
+  "all_final_points_require_independent_validation": true
+}

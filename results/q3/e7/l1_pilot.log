@@ -1,0 +1,2 @@
+FIXED True time 0.10238183699999936 result {'J_late': 648615.6046791939, 'J_norm': 0.7465689469852502, 'joint_makespan_s': np.float64(13895.966266389649), 'transport_energy_kwh': 73.47077585529216, 'relay_energy_kwh': 6.21117951260371, 'total_energy_kwh': 79.68195536789587, 'transport_sorties': 28, 'relay_sorties': 12, 'total_transport_shift_s': 42380.95217125507, 'total_absolute_transport_shift_s': 42380.95217125507, 'max_transport_shift_s': 6549.9912903502345, 'minimum_M_E_kwh': 1.4074844709265877}
+FIXED False time 2.101982618 result None

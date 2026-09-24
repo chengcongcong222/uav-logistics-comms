@@ -1,0 +1,21 @@
+{
+  "gate": "E7_Q3_JOINT_PARETO_READY",
+  "base_commit": "34e7dcb473f23cfe39a49c556a70a288d97b3b4d",
+  "validated_nondominated_points": 8,
+  "representative_solution": "Q3E7_001",
+  "E6_SUPERSEDED": true,
+  "L2_activated": false,
+  "L3_activated": false,
+  "Gamma_C_db": 0.0,
+  "global_frontier_proven": false,
+  "analytic_continuous_time_proof": false,
+  "next_stage_authorized": false,
+  "official_timeliness_order": "LEXICOGRAPHIC_J_LATE_J_NORM",
+  "archive_metric_records_checked": 213,
+  "numerical_tolerances": {
+    "J_late": 0.0001,
+    "J_norm": 1e-09,
+    "time_s": 1e-06,
+    "energy_kwh": 1e-08
+  }
+}

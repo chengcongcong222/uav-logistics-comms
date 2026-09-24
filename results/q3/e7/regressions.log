@@ -1,0 +1,10 @@
+test_baseline_dominance (__main__.Tests.test_baseline_dominance) ... ok
+test_energy_delay_tradeoff_survives (__main__.Tests.test_energy_delay_tradeoff_survives) ... ok
+test_new_resource_assignments_and_advances_validate (__main__.Tests.test_new_resource_assignments_and_advances_validate) ... ok
+test_timeliness_is_lexicographic (__main__.Tests.test_timeliness_is_lexicographic) ... ok
+test_wrong_battery_type_rejected (__main__.Tests.test_wrong_battery_type_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.112s
+
+OK

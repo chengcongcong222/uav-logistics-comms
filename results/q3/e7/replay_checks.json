@@ -1,0 +1,149 @@
+{
+  "status": "ALL_FINAL_WITNESSES_REPLAYED",
+  "solutions": [
+    {
+      "solution_id": "Q3E7_001",
+      "status": "EXECUTION_REPLAY_BYTE_IDENTICAL",
+      "compared_csv": [
+        "relay_uav_calendar_P01.csv",
+        "communication_guarantee_P01.csv",
+        "guarded_atomic_tasks.csv",
+        "transport_battery_calendar_P01.csv",
+        "box_delivery_P01.csv",
+        "transport_sorties_P01.csv",
+        "relay_energy_calendar_P01.csv",
+        "candidate_sites_P01.csv",
+        "transport_shifts_P01.csv",
+        "guarded_selected_pairs_P01.csv",
+        "transport_uav_calendar_P01.csv",
+        "relay_sorties_P01.csv"
+      ]
+    },
+    {
+      "solution_id": "Q3E7_002",
+      "status": "EXECUTION_REPLAY_BYTE_IDENTICAL",
+      "compared_csv": [
+        "relay_uav_calendar_P01.csv",
+        "communication_guarantee_P01.csv",
+        "guarded_atomic_tasks.csv",
+        "transport_battery_calendar_P01.csv",
+        "box_delivery_P01.csv",
+        "transport_sorties_P01.csv",
+        "relay_energy_calendar_P01.csv",
+        "candidate_sites_P01.csv",
+        "transport_shifts_P01.csv",
+        "guarded_selected_pairs_P01.csv",
+        "transport_uav_calendar_P01.csv",
+        "relay_sorties_P01.csv"
+      ]
+    },
+    {
+      "solution_id": "Q3E7_003",
+      "status": "EXECUTION_REPLAY_BYTE_IDENTICAL",
+      "compared_csv": [
+        "relay_uav_calendar_P01.csv",
+        "communication_guarantee_P01.csv",
+        "guarded_atomic_tasks.csv",
+        "transport_battery_calendar_P01.csv",
+        "box_delivery_P01.csv",
+        "transport_sorties_P01.csv",
+        "relay_energy_calendar_P01.csv",
+        "candidate_sites_P01.csv",
+        "transport_shifts_P01.csv",
+        "guarded_selected_pairs_P01.csv",
+        "transport_uav_calendar_P01.csv",
+        "relay_sorties_P01.csv"
+      ]
+    },
+    {
+      "solution_id": "Q3E7_004",
+      "status": "EXECUTION_REPLAY_BYTE_IDENTICAL",
+      "compared_csv": [
+        "relay_uav_calendar_P01.csv",
+        "communication_guarantee_P01.csv",
+        "guarded_atomic_tasks.csv",
+        "transport_battery_calendar_P01.csv",
+        "box_delivery_P01.csv",
+        "transport_sorties_P01.csv",
+        "relay_energy_calendar_P01.csv",
+        "candidate_sites_P01.csv",
+        "transport_shifts_P01.csv",
+        "guarded_selected_pairs_P01.csv",
+        "transport_uav_calendar_P01.csv",
+        "relay_sorties_P01.csv"
+      ]
+    },
+    {
+      "solution_id": "Q3E7_005",
+      "status": "EXECUTION_REPLAY_BYTE_IDENTICAL",
+      "compared_csv": [
+        "relay_uav_calendar_P01.csv",
+        "communication_guarantee_P01.csv",
+        "guarded_atomic_tasks.csv",
+        "transport_battery_calendar_P01.csv",
+        "box_delivery_P01.csv",
+        "transport_sorties_P01.csv",
+        "relay_energy_calendar_P01.csv",
+        "candidate_sites_P01.csv",
+        "transport_shifts_P01.csv",
+        "guarded_selected_pairs_P01.csv",
+        "transport_uav_calendar_P01.csv",
+        "relay_sorties_P01.csv"
+      ]
+    },
+    {
+      "solution_id": "Q3E7_006",
+      "status": "EXECUTION_REPLAY_BYTE_IDENTICAL",
+      "compared_csv": [
+        "relay_uav_calendar_P01.csv",
+        "communication_guarantee_P01.csv",
+        "guarded_atomic_tasks.csv",
+        "transport_battery_calendar_P01.csv",
+        "box_delivery_P01.csv",
+        "transport_sorties_P01.csv",
+        "relay_energy_calendar_P01.csv",
+        "candidate_sites_P01.csv",
+        "transport_shifts_P01.csv",
+        "guarded_selected_pairs_P01.csv",
+        "transport_uav_calendar_P01.csv",
+        "relay_sorties_P01.csv"
+      ]
+    },
+    {
+      "solution_id": "Q3E7_007",
+      "status": "EXECUTION_REPLAY_BYTE_IDENTICAL",
+      "compared_csv": [
+        "relay_uav_calendar_P01.csv",
+        "communication_guarantee_P01.csv",
+        "guarded_atomic_tasks.csv",
+        "transport_battery_calendar_P01.csv",
+        "box_delivery_P01.csv",
+        "transport_sorties_P01.csv",
+        "relay_energy_calendar_P01.csv",
+        "candidate_sites_P01.csv",
+        "transport_shifts_P01.csv",
+        "guarded_selected_pairs_P01.csv",
+        "transport_uav_calendar_P01.csv",
+        "relay_sorties_P01.csv"
+      ]
+    },
+    {
+      "solution_id": "Q3E7_008",
+      "status": "EXECUTION_REPLAY_BYTE_IDENTICAL",
+      "compared_csv": [
+        "relay_uav_calendar_P01.csv",
+        "communication_guarantee_P01.csv",
+        "guarded_atomic_tasks.csv",
+        "transport_battery_calendar_P01.csv",
+        "box_delivery_P01.csv",
+        "transport_sorties_P01.csv",
+        "relay_energy_calendar_P01.csv",
+        "candidate_sites_P01.csv",
+        "transport_shifts_P01.csv",
+        "guarded_selected_pairs_P01.csv",
+        "transport_uav_calendar_P01.csv",
+        "relay_sorties_P01.csv"
+      ]
+    }
+  ]
+}

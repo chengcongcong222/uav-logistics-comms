@@ -1,0 +1,8 @@
+{
+  "timeliness_search": 58.15211123200001,
+  "timeliness_refinement": 33.234431173000004,
+  "fixed_order_control_search": 15.71073151500002,
+  "epsilon_search": 86.08693031400001,
+  "main_search_sum_s": 177.47347271900003,
+  "interpretation": "Measured phase runtimes, excluding setup, abandoned pilots, independent audits and reporting; not total user-facing wall time"
+}

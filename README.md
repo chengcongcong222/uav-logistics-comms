@@ -3,45 +3,48 @@
 UAV logistics trajectory planning and relay-communication validation workspace.
 Python models produce standardized trajectories/schedules; ns-3.47 validates mobility + Wi-Fi + UDP + FlowMonitor.
 
-Current stage: **E6 relay resource scheduling READY**. P01, P02 and P03 have
-independently validated execution schedules using two relay UAVs and six energy
-components. E7 has not started. See the [E6 report](results/q3/E6_RESOURCE_REPORT.md)
-and [Chinese GPT handoff](results/q3/E6_GPT_SYNC.md).
+Current stage: **E7 Q3 joint Pareto optimization READY**. Eight independently
+validated nondominated execution packages improve on E6 P01. Transport box
+assignment, routes and types remain fixed: L1 resource/timing and relay changes
+were sufficient for substantial gains, so L2/L3 were not activated.
+E8 robustness, formal ns-3 experiments and Q4 have not started.
+
+- [E7 complete report and ablation](results/q3/E7_JOINT_PARETO_REPORT.md)
+- [E7 GPT audit handoff](results/q3/E7_GPT_SYNC.md)
+- [Validated Pareto table](results/q3/e7/pareto_solutions.csv)
+- [Artifact-bound E7 gate](results/q3/e7/validation.json)
+- [E7 model and optimization semantics](docs/model/Q3_JOINT_E7_SEMANTICS.md)
+
+Best known TimelinessKey: `(87005.086170, 0.558470231)`, versus E6 P01
+`(648615.604679, 0.746568947)`. Under a 2% lateness budget, a validated
+execution finishes at 11,304.755580 s using 78.319613 kWh and nine relay
+sorties. There are tradeoffs between timeliness, makespan and energy; this is
+a bounded known frontier, not a complete global Pareto frontier.
 
 ## Current result authority
 
-- Transport baseline: `results/q2/pareto_schedules/P01..P03/`. Legacy top-level
-  Q2 files are not a synchronized package.
-- E52 inputs remain unchanged; their gate is `results/q3/e52_rescue/validation.json`.
-- Executable E6 schedules, guarded communication assignments, independent
-  audits and metrics: `results/q3/e6/`.
-- Current gate: [results/q3/e6/validation.json](results/q3/e6/validation.json),
-  bound to input, output and source hashes.
-- Representative P01: 28 transport sorties, 12 relay sorties, 42,380.952171 s
-  total transport delay, 13,895.966266 s joint makespan. All three plans satisfy
-  hard deadlines and the numerical full-flight communication audit.
-- Candidate pools remain incomplete. These are feasible execution witnesses,
-  not globally minimum-delay schedules. Small communication margins and
-  substantial soft-deadline costs remain explicit limitations.
-- [E6 model semantics](docs/model/Q3_RELAY_E6_SEMANTICS.md).
+- Frozen transport baseline: `results/q2/pareto_schedules/P01..P03/`.
+  Legacy top-level Q2 CSVs are not a synchronized package.
+- E52 and E6 remain unchanged and retain their own validated gates.
+- Current Q3 executions: `results/q3/e7/solutions/Q3E7_001..008/`.
+- Formal objectives exclude transport shift. `TimelinessKey` is lexicographic;
+  final selection uses epsilon budgets and exact official-metric nondominance.
+- Gamma_C remains 0 dB. Full-flight numerical validation is authoritative;
+  construction guards are not an analytical continuity or robustness proof.
 
 ```bash
 export OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1
-.venv/bin/python -m src.q3.e6_replay
-.venv/bin/python validation/mathematical/e6_test_regressions.py
-for p in P01 P02 P03; do
-  .venv/bin/python validation/mathematical/e6_validate_pool.py --plan "$p"
-  .venv/bin/python validation/mathematical/e6_validate.py --plan "$p"
-done
-.venv/bin/python validation/mathematical/e6_validate.py --plan P01 --step .25
-.venv/bin/python validation/mathematical/e6_gate.py
+# Select by epsilon budget, reconstruct the package and independently validate.
+.venv/bin/python -m src.q3.e7_replay --epsilon .02 --objective energy \
+  --output results/q3/e7/generated/my_epsilon02_energy
+.venv/bin/python -m src.q3.e7_replay --check-all
+.venv/bin/python validation/mathematical/e7_gate.py
+# Rebuild the bounded experiment, controls, audits and gate from frozen E6 input.
+.venv/bin/python -m src.q3.e7_run
 ```
 
-Replay reconstructs the committed witness without depending on time-limited
-MILP search. Re-exporting requires rerunning independent validation before
-issuing the gate. Earlier E52 reproduction instructions remain in
-[the E52 report](results/q3/E52_REPORT.md). The E0 environment notes below
-remain historical setup instructions.
+The E6 [report](results/q3/E6_RESOURCE_REPORT.md) and its replay instructions
+remain available. The E0 setup notes below describe the frozen environment.
 
 ## Stack (frozen)
 
