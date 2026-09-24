@@ -1,0 +1,437 @@
+[
+  {
+    "Gamma_C_db": 0,
+    "epsilon": 0.0,
+    "objective": "makespan",
+    "budget_metric": "J_late",
+    "budget": 87005.08617038542,
+    "solution_id": "Q3E8_G00_002",
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 0,
+    "epsilon": 0.0,
+    "objective": "energy",
+    "budget_metric": "J_late",
+    "budget": 87005.08617038542,
+    "solution_id": "Q3E8_G00_003",
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 0,
+    "epsilon": 0.0,
+    "objective": "relay_sorties",
+    "budget_metric": "J_late",
+    "budget": 87005.08617038542,
+    "solution_id": "Q3E8_G00_001",
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 0,
+    "epsilon": 0.01,
+    "objective": "makespan",
+    "budget_metric": "J_late",
+    "budget": 87875.13703208927,
+    "solution_id": "Q3E8_G00_002",
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 0,
+    "epsilon": 0.01,
+    "objective": "energy",
+    "budget_metric": "J_late",
+    "budget": 87875.13703208927,
+    "solution_id": "Q3E8_G00_004",
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 0,
+    "epsilon": 0.01,
+    "objective": "relay_sorties",
+    "budget_metric": "J_late",
+    "budget": 87875.13703208927,
+    "solution_id": "Q3E8_G00_001",
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 0,
+    "epsilon": 0.02,
+    "objective": "makespan",
+    "budget_metric": "J_late",
+    "budget": 88745.18789379313,
+    "solution_id": "Q3E8_G00_006",
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 0,
+    "epsilon": 0.02,
+    "objective": "energy",
+    "budget_metric": "J_late",
+    "budget": 88745.18789379313,
+    "solution_id": "Q3E8_G00_008",
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 0,
+    "epsilon": 0.02,
+    "objective": "relay_sorties",
+    "budget_metric": "J_late",
+    "budget": 88745.18789379313,
+    "solution_id": "Q3E8_G00_001",
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 0,
+    "epsilon": 0.05,
+    "objective": "makespan",
+    "budget_metric": "J_late",
+    "budget": 91355.34047890469,
+    "solution_id": "Q3E8_G00_006",
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 0,
+    "epsilon": 0.05,
+    "objective": "energy",
+    "budget_metric": "J_late",
+    "budget": 91355.34047890469,
+    "solution_id": "Q3E8_G00_008",
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 0,
+    "epsilon": 0.05,
+    "objective": "relay_sorties",
+    "budget_metric": "J_late",
+    "budget": 91355.34047890469,
+    "solution_id": "Q3E8_G00_001",
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 0,
+    "epsilon": 0.1,
+    "objective": "makespan",
+    "budget_metric": "J_late",
+    "budget": 95705.59478742396,
+    "solution_id": "Q3E8_G00_006",
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 0,
+    "epsilon": 0.1,
+    "objective": "energy",
+    "budget_metric": "J_late",
+    "budget": 95705.59478742396,
+    "solution_id": "Q3E8_G00_008",
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 0,
+    "epsilon": 0.1,
+    "objective": "relay_sorties",
+    "budget_metric": "J_late",
+    "budget": 95705.59478742396,
+    "solution_id": "Q3E8_G00_001",
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 2,
+    "epsilon": 0.0,
+    "objective": "makespan",
+    "budget_metric": "J_late",
+    "budget": 317358.4048172224,
+    "solution_id": "Q3E8_G02_001",
+    "attained_value": 11843.72690250413,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 2,
+    "epsilon": 0.0,
+    "objective": "energy",
+    "budget_metric": "J_late",
+    "budget": 317358.4048172224,
+    "solution_id": "Q3E8_G02_001",
+    "attained_value": 78.80977587679537,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 2,
+    "epsilon": 0.0,
+    "objective": "relay_sorties",
+    "budget_metric": "J_late",
+    "budget": 317358.4048172224,
+    "solution_id": "Q3E8_G02_001",
+    "attained_value": 9,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 2,
+    "epsilon": 0.01,
+    "objective": "makespan",
+    "budget_metric": "J_late",
+    "budget": 320531.9888653946,
+    "solution_id": "Q3E8_G02_004",
+    "attained_value": 11819.943899657608,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 2,
+    "epsilon": 0.01,
+    "objective": "energy",
+    "budget_metric": "J_late",
+    "budget": 320531.9888653946,
+    "solution_id": "Q3E8_G02_005",
+    "attained_value": 78.7937258095293,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 2,
+    "epsilon": 0.01,
+    "objective": "relay_sorties",
+    "budget_metric": "J_late",
+    "budget": 320531.9888653946,
+    "solution_id": "Q3E8_G02_001",
+    "attained_value": 9,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 2,
+    "epsilon": 0.02,
+    "objective": "makespan",
+    "budget_metric": "J_late",
+    "budget": 323705.57291356684,
+    "solution_id": "Q3E8_G02_004",
+    "attained_value": 11819.943899657608,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 2,
+    "epsilon": 0.02,
+    "objective": "energy",
+    "budget_metric": "J_late",
+    "budget": 323705.57291356684,
+    "solution_id": "Q3E8_G02_005",
+    "attained_value": 78.7937258095293,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 2,
+    "epsilon": 0.02,
+    "objective": "relay_sorties",
+    "budget_metric": "J_late",
+    "budget": 323705.57291356684,
+    "solution_id": "Q3E8_G02_001",
+    "attained_value": 9,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 2,
+    "epsilon": 0.05,
+    "objective": "makespan",
+    "budget_metric": "J_late",
+    "budget": 333226.3250580835,
+    "solution_id": "Q3E8_G02_004",
+    "attained_value": 11819.943899657608,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 2,
+    "epsilon": 0.05,
+    "objective": "energy",
+    "budget_metric": "J_late",
+    "budget": 333226.3250580835,
+    "solution_id": "Q3E8_G02_005",
+    "attained_value": 78.7937258095293,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 2,
+    "epsilon": 0.05,
+    "objective": "relay_sorties",
+    "budget_metric": "J_late",
+    "budget": 333226.3250580835,
+    "solution_id": "Q3E8_G02_001",
+    "attained_value": 9,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 2,
+    "epsilon": 0.1,
+    "objective": "makespan",
+    "budget_metric": "J_late",
+    "budget": 349094.24529894465,
+    "solution_id": "Q3E8_G02_004",
+    "attained_value": 11819.943899657608,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 2,
+    "epsilon": 0.1,
+    "objective": "energy",
+    "budget_metric": "J_late",
+    "budget": 349094.24529894465,
+    "solution_id": "Q3E8_G02_005",
+    "attained_value": 78.7937258095293,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 2,
+    "epsilon": 0.1,
+    "objective": "relay_sorties",
+    "budget_metric": "J_late",
+    "budget": 349094.24529894465,
+    "solution_id": "Q3E8_G02_001",
+    "attained_value": 9,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 4,
+    "epsilon": 0.0,
+    "objective": "makespan",
+    "budget_metric": "J_late",
+    "budget": 909226.8680443967,
+    "solution_id": "Q3E8_G04_001",
+    "attained_value": 12838.08769833598,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 4,
+    "epsilon": 0.0,
+    "objective": "energy",
+    "budget_metric": "J_late",
+    "budget": 909226.8680443967,
+    "solution_id": "Q3E8_G04_001",
+    "attained_value": 79.3994081302883,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 4,
+    "epsilon": 0.0,
+    "objective": "relay_sorties",
+    "budget_metric": "J_late",
+    "budget": 909226.8680443967,
+    "solution_id": "Q3E8_G04_001",
+    "attained_value": 10,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 4,
+    "epsilon": 0.01,
+    "objective": "makespan",
+    "budget_metric": "J_late",
+    "budget": 918319.1367248407,
+    "solution_id": "Q3E8_G04_001",
+    "attained_value": 12838.08769833598,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 4,
+    "epsilon": 0.01,
+    "objective": "energy",
+    "budget_metric": "J_late",
+    "budget": 918319.1367248407,
+    "solution_id": "Q3E8_G04_002",
+    "attained_value": 79.39719870376452,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 4,
+    "epsilon": 0.01,
+    "objective": "relay_sorties",
+    "budget_metric": "J_late",
+    "budget": 918319.1367248407,
+    "solution_id": "Q3E8_G04_001",
+    "attained_value": 10,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 4,
+    "epsilon": 0.02,
+    "objective": "makespan",
+    "budget_metric": "J_late",
+    "budget": 927411.4054052847,
+    "solution_id": "Q3E8_G04_001",
+    "attained_value": 12838.08769833598,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 4,
+    "epsilon": 0.02,
+    "objective": "energy",
+    "budget_metric": "J_late",
+    "budget": 927411.4054052847,
+    "solution_id": "Q3E8_G04_002",
+    "attained_value": 79.39719870376452,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 4,
+    "epsilon": 0.02,
+    "objective": "relay_sorties",
+    "budget_metric": "J_late",
+    "budget": 927411.4054052847,
+    "solution_id": "Q3E8_G04_001",
+    "attained_value": 10,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 4,
+    "epsilon": 0.05,
+    "objective": "makespan",
+    "budget_metric": "J_late",
+    "budget": 954688.2114466166,
+    "solution_id": "Q3E8_G04_001",
+    "attained_value": 12838.08769833598,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 4,
+    "epsilon": 0.05,
+    "objective": "energy",
+    "budget_metric": "J_late",
+    "budget": 954688.2114466166,
+    "solution_id": "Q3E8_G04_002",
+    "attained_value": 79.39719870376452,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 4,
+    "epsilon": 0.05,
+    "objective": "relay_sorties",
+    "budget_metric": "J_late",
+    "budget": 954688.2114466166,
+    "solution_id": "Q3E8_G04_001",
+    "attained_value": 10,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 4,
+    "epsilon": 0.1,
+    "objective": "makespan",
+    "budget_metric": "J_late",
+    "budget": 1000149.5548488365,
+    "solution_id": "Q3E8_G04_001",
+    "attained_value": 12838.08769833598,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 4,
+    "epsilon": 0.1,
+    "objective": "energy",
+    "budget_metric": "J_late",
+    "budget": 1000149.5548488365,
+    "solution_id": "Q3E8_G04_005",
+    "attained_value": 79.23472573918326,
+    "passed": true
+  },
+  {
+    "Gamma_C_db": 4,
+    "epsilon": 0.1,
+    "objective": "relay_sorties",
+    "budget_metric": "J_late",
+    "budget": 1000149.5548488365,
+    "solution_id": "Q3E8_G04_001",
+    "attained_value": 10,
+    "passed": true
+  }
+]

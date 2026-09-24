@@ -1,0 +1,4235 @@
+{
+  "total_partitions": 35,
+  "attempts": [
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.0038024780000114333,
+      "groups": 13,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_060143e4033ea7dfc142ce26",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M007_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "P01_GAMMA06_M003_00",
+            "P01_GAMMA06_M006_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.003008154999974977,
+      "groups": 13,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_060143e4033ea7dfc142ce26",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "P01_GAMMA06_M003_00",
+            "P01_GAMMA06_M006_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.003212170999972841,
+      "groups": 13,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_060143e4033ea7dfc142ce26",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_154bbd26b7808edf72eaa410",
+          "task_ids": [
+            "P01_GAMMA06_M003_00",
+            "P01_GAMMA06_M006_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.003160753999964072,
+      "groups": 13,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_060143e4033ea7dfc142ce26",
+          "task_ids": [
+            "P01_GAMMA06_M001_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_154bbd26b7808edf72eaa410",
+          "task_ids": [
+            "P01_GAMMA06_M003_00",
+            "P01_GAMMA06_M006_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.003222809000021698,
+      "groups": 13,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M006_00",
+            "P01_GAMMA06_M007_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "P01_GAMMA06_M003_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.003164081000022634,
+      "groups": 13,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M006_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "P01_GAMMA06_M003_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.0031806639999558683,
+      "groups": 13,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M006_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_154bbd26b7808edf72eaa410",
+          "task_ids": [
+            "P01_GAMMA06_M003_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.00426621700000851,
+      "groups": 13,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M006_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_154bbd26b7808edf72eaa410",
+          "task_ids": [
+            "P01_GAMMA06_M003_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.002668475999939801,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_060143e4033ea7dfc142ce26",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "P01_GAMMA06_M003_00",
+            "P01_GAMMA06_M006_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00"
+          ]
+        },
+        {
+          "site_id": "E52_44ed69e1d99dc074a7941a18",
+          "task_ids": [
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.0043803480000406125,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_060143e4033ea7dfc142ce26",
+          "task_ids": [
+            "P01_GAMMA06_M001_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_154bbd26b7808edf72eaa410",
+          "task_ids": [
+            "P01_GAMMA06_M003_00",
+            "P01_GAMMA06_M006_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00"
+          ]
+        },
+        {
+          "site_id": "E52_44ed69e1d99dc074a7941a18",
+          "task_ids": [
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.004594259999976202,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M006_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "P01_GAMMA06_M003_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00"
+          ]
+        },
+        {
+          "site_id": "E52_44ed69e1d99dc074a7941a18",
+          "task_ids": [
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.002785574999961682,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M006_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_154bbd26b7808edf72eaa410",
+          "task_ids": [
+            "P01_GAMMA06_M003_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00"
+          ]
+        },
+        {
+          "site_id": "E52_44ed69e1d99dc074a7941a18",
+          "task_ids": [
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.002781935000029989,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_060143e4033ea7dfc142ce26",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "P01_GAMMA06_M003_00",
+            "P01_GAMMA06_M006_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00"
+          ]
+        },
+        {
+          "site_id": "E52_eab18c460278cfbad2c20da0",
+          "task_ids": [
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.004592787999968095,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_060143e4033ea7dfc142ce26",
+          "task_ids": [
+            "P01_GAMMA06_M001_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "P01_GAMMA06_M003_00",
+            "P01_GAMMA06_M006_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_eab18c460278cfbad2c20da0",
+          "task_ids": [
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.002766902999951526,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_060143e4033ea7dfc142ce26",
+          "task_ids": [
+            "P01_GAMMA06_M001_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "P01_GAMMA06_M003_00",
+            "P01_GAMMA06_M006_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00"
+          ]
+        },
+        {
+          "site_id": "E52_eab18c460278cfbad2c20da0",
+          "task_ids": [
+            "P01_GAMMA06_M007_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.004893216000027678,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M006_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "P01_GAMMA06_M003_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00"
+          ]
+        },
+        {
+          "site_id": "E52_eab18c460278cfbad2c20da0",
+          "task_ids": [
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.0026925490000166974,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M006_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "P01_GAMMA06_M003_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_eab18c460278cfbad2c20da0",
+          "task_ids": [
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.004659591999939039,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M006_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "P01_GAMMA06_M003_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00"
+          ]
+        },
+        {
+          "site_id": "E52_eab18c460278cfbad2c20da0",
+          "task_ids": [
+            "P01_GAMMA06_M007_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.004699028000004546,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_060143e4033ea7dfc142ce26",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M007_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "P01_GAMMA06_M003_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00"
+          ]
+        },
+        {
+          "site_id": "E52_aaa387ee3ee3170bd804334d",
+          "task_ids": [
+            "P01_GAMMA06_M006_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.002914196999995511,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_060143e4033ea7dfc142ce26",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "P01_GAMMA06_M003_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_aaa387ee3ee3170bd804334d",
+          "task_ids": [
+            "P01_GAMMA06_M006_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.004578112999979567,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_060143e4033ea7dfc142ce26",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_154bbd26b7808edf72eaa410",
+          "task_ids": [
+            "P01_GAMMA06_M003_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00"
+          ]
+        },
+        {
+          "site_id": "E52_aaa387ee3ee3170bd804334d",
+          "task_ids": [
+            "P01_GAMMA06_M006_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.0027536510000345515,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_060143e4033ea7dfc142ce26",
+          "task_ids": [
+            "P01_GAMMA06_M001_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_154bbd26b7808edf72eaa410",
+          "task_ids": [
+            "P01_GAMMA06_M003_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_aaa387ee3ee3170bd804334d",
+          "task_ids": [
+            "P01_GAMMA06_M006_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.004544465999970271,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_060143e4033ea7dfc142ce26",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M007_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04"
+          ]
+        },
+        {
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "P01_GAMMA06_M003_00",
+            "P01_GAMMA06_M006_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00"
+          ]
+        },
+        {
+          "site_id": "E52_f2fabdd802684ffd17ed2273",
+          "task_ids": [
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.003345085999967523,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_060143e4033ea7dfc142ce26",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04"
+          ]
+        },
+        {
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "P01_GAMMA06_M003_00",
+            "P01_GAMMA06_M006_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_f2fabdd802684ffd17ed2273",
+          "task_ids": [
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.004683676000013293,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_060143e4033ea7dfc142ce26",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04"
+          ]
+        },
+        {
+          "site_id": "E52_154bbd26b7808edf72eaa410",
+          "task_ids": [
+            "P01_GAMMA06_M003_00",
+            "P01_GAMMA06_M006_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00"
+          ]
+        },
+        {
+          "site_id": "E52_f2fabdd802684ffd17ed2273",
+          "task_ids": [
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.003520746999924995,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_060143e4033ea7dfc142ce26",
+          "task_ids": [
+            "P01_GAMMA06_M001_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04"
+          ]
+        },
+        {
+          "site_id": "E52_154bbd26b7808edf72eaa410",
+          "task_ids": [
+            "P01_GAMMA06_M003_00",
+            "P01_GAMMA06_M006_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_f2fabdd802684ffd17ed2273",
+          "task_ids": [
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.0028583239999306898,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M006_00",
+            "P01_GAMMA06_M007_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04"
+          ]
+        },
+        {
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "P01_GAMMA06_M003_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00"
+          ]
+        },
+        {
+          "site_id": "E52_f2fabdd802684ffd17ed2273",
+          "task_ids": [
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.0028819750000366184,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M006_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04"
+          ]
+        },
+        {
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "P01_GAMMA06_M003_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_f2fabdd802684ffd17ed2273",
+          "task_ids": [
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.0028011950000745856,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M006_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04"
+          ]
+        },
+        {
+          "site_id": "E52_154bbd26b7808edf72eaa410",
+          "task_ids": [
+            "P01_GAMMA06_M003_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00"
+          ]
+        },
+        {
+          "site_id": "E52_f2fabdd802684ffd17ed2273",
+          "task_ids": [
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.002807666000080644,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M006_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04"
+          ]
+        },
+        {
+          "site_id": "E52_154bbd26b7808edf72eaa410",
+          "task_ids": [
+            "P01_GAMMA06_M003_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_f2fabdd802684ffd17ed2273",
+          "task_ids": [
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.0029747150000503098,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_060143e4033ea7dfc142ce26",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "P01_GAMMA06_M003_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00"
+          ]
+        },
+        {
+          "site_id": "E52_4d215302190bc5bfb29bf912",
+          "task_ids": [
+            "P01_GAMMA06_M006_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.0028496730000142634,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_060143e4033ea7dfc142ce26",
+          "task_ids": [
+            "P01_GAMMA06_M001_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "P01_GAMMA06_M003_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00"
+          ]
+        },
+        {
+          "site_id": "E52_4d215302190bc5bfb29bf912",
+          "task_ids": [
+            "P01_GAMMA06_M006_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.0027049309999256366,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_060143e4033ea7dfc142ce26",
+          "task_ids": [
+            "P01_GAMMA06_M001_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "P01_GAMMA06_M003_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_4d215302190bc5bfb29bf912",
+          "task_ids": [
+            "P01_GAMMA06_M006_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.004645665999987614,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_060143e4033ea7dfc142ce26",
+          "task_ids": [
+            "P01_GAMMA06_M001_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "P01_GAMMA06_M003_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00"
+          ]
+        },
+        {
+          "site_id": "E52_4d215302190bc5bfb29bf912",
+          "task_ids": [
+            "P01_GAMMA06_M006_00",
+            "P01_GAMMA06_M007_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    },
+    {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 0.002878885999962222,
+      "groups": 14,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "RELAY_ORDER_SEED_ONLY_TRANSPORT_RESOURCES_REQUIRE_REPAIR",
+      "limit_s": 5,
+      "groups_definition": [
+        {
+          "site_id": "E52_060143e4033ea7dfc142ce26",
+          "task_ids": [
+            "P01_GAMMA06_M001_00"
+          ]
+        },
+        {
+          "site_id": "E52_c0294c7ff44d44fc4ede8d97",
+          "task_ids": [
+            "P01_GAMMA06_M002_00",
+            "P01_GAMMA06_M002_01",
+            "P01_GAMMA06_M002_02",
+            "P01_GAMMA06_M002_03",
+            "P01_GAMMA06_M002_04",
+            "P01_GAMMA06_M005_00"
+          ]
+        },
+        {
+          "site_id": "E52_154bbd26b7808edf72eaa410",
+          "task_ids": [
+            "P01_GAMMA06_M003_00",
+            "P01_GAMMA06_M007_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M004_00"
+          ]
+        },
+        {
+          "site_id": "E52_4d215302190bc5bfb29bf912",
+          "task_ids": [
+            "P01_GAMMA06_M006_00",
+            "P01_GAMMA06_M008_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M013_00",
+            "P01_GAMMA06_M014_00",
+            "P01_GAMMA06_M014_01",
+            "P01_GAMMA06_M014_02",
+            "P01_GAMMA06_M014_03",
+            "P01_GAMMA06_M014_04",
+            "P01_GAMMA06_M015_00",
+            "P01_GAMMA06_M016_00"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M010_00",
+            "P01_GAMMA06_M012_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M009_00",
+            "P01_GAMMA06_M011_00"
+          ]
+        },
+        {
+          "site_id": "E52_7e5f4a4eaf9aa5b10576997a",
+          "task_ids": [
+            "P01_GAMMA06_M017_00",
+            "P01_GAMMA06_M018_00",
+            "P01_GAMMA06_M022_00",
+            "P01_GAMMA06_M022_01",
+            "P01_GAMMA06_M022_02",
+            "P01_GAMMA06_M022_03",
+            "P01_GAMMA06_M022_04"
+          ]
+        },
+        {
+          "site_id": "E52_246111a1ef063bec9e89ec9e",
+          "task_ids": [
+            "P01_GAMMA06_M019_00",
+            "P01_GAMMA06_M020_00"
+          ]
+        },
+        {
+          "site_id": "E52_b4122a9095172602242b40e3",
+          "task_ids": [
+            "P01_GAMMA06_M023_00",
+            "P01_GAMMA06_M024_00"
+          ]
+        },
+        {
+          "site_id": "E52_2e64690809088e2a96fb2160",
+          "task_ids": [
+            "P01_GAMMA06_M021_00"
+          ]
+        },
+        {
+          "site_id": "E52_eddf192c3626d88d236d26e4",
+          "task_ids": [
+            "P01_GAMMA06_M026_00",
+            "P01_GAMMA06_M027_00",
+            "P01_GAMMA06_M028_00"
+          ]
+        },
+        {
+          "site_id": "E52_06eb0baa948af7ff52881bcf",
+          "task_ids": [
+            "P01_GAMMA06_M025_00"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "pareto_id": "P01",
+  "conclusion": "E8_PLAN_INDEPENDENTLY_VALIDATED",
+  "J_late": 317929.19688553887,
+  "J_norm": 0.6394386579096168,
+  "joint_makespan_s": 11819.943899657608,
+  "transport_energy_kwh": 73.47077585529216,
+  "relay_energy_kwh": 5.323363154055683,
+  "total_energy_kwh": 78.79413900934784,
+  "transport_sorties": 28,
+  "relay_sorties": 9,
+  "total_transport_shift_s": 31442.11122129447,
+  "max_transport_shift_s": 7726.376909084516,
+  "hard_deadline_violations": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "communication_validation": "E8_PLAN_INDEPENDENTLY_VALIDATED",
+  "minimum_M_E_kwh": 1.544401095229304,
+  "minimum_M_C_db": 2.1743859331465814,
+  "relay_uav_utilization": {
+    "R01": {
+      "sorties": 5,
+      "operating_s": 10569.849742685994,
+      "unavailable_s": 12069.849742685994,
+      "utilization": 0.9679820664465224
+    },
+    "R02": {
+      "sorties": 4,
+      "operating_s": 9474.319820888508,
+      "unavailable_s": 10674.319820888508,
+      "utilization": 0.856062865604104
+    }
+  },
+  "energy_component_utilization": {
+    "REC-01": {
+      "sorties": 2,
+      "unavailable_s": 4694.717384060186,
+      "utilization": 0.376508600495112
+    },
+    "REC-02": {
+      "sorties": 2,
+      "unavailable_s": 4951.32070669209,
+      "utilization": 0.39708776426214976
+    },
+    "REC-03": {
+      "sorties": 2,
+      "unavailable_s": 4366.275585000502,
+      "utilization": 0.35016810925959674
+    },
+    "REC-04": {
+      "sorties": 1,
+      "unavailable_s": 2809.967327519051,
+      "utilization": 0.22535475074885244
+    },
+    "REC-05": {
+      "sorties": 1,
+      "unavailable_s": 4406.922494894236,
+      "utilization": 0.35342792447456606
+    },
+    "REC-06": {
+      "sorties": 1,
+      "unavailable_s": 3810.207227652275,
+      "utilization": 0.3055723430233489
+    }
+  },
+  "resource_calendar_horizon_s": 12469.084047181375,
+  "candidate_set_complete": false,
+  "one_to_many_relay": true,
+  "comm_power_counted_once_per_active_module": true,
+  "total_absolute_transport_shift_s": 47874.97560163679,
+  "solution_id": "Q3E8_G02_004",
+  "level": "L1",
+  "search_objective": "makespan",
+  "J_late_budget": 320531.9888653946,
+  "Gamma_C_db": 2.0,
+  "global_optimum_proven": false,
+  "construction_guard_s": 2.0,
+  "communication_authority": "INDEPENDENT_FULL_FLIGHT_AUDIT",
+  "total_positive_transport_shift_s": 39658.54341146563,
+  "total_transport_advance_s": 8216.432190171157,
+  "assignment_minimum_margin_quantiles_db": {
+    "0": 2.1743859331465814,
+    "0.25": 3.8094716871601975,
+    "0.5": 5.45871052148992,
+    "0.75": 9.4482915914028,
+    "1": 12.150449846217299
+  },
+  "full_flight_margin_distribution_db": {
+    "direct_active_path": {
+      "0": 2.0000028456278898,
+      "0.01": 2.244283497542374,
+      "0.05": 2.2478131175928127,
+      "0.25": 10.74212730576785,
+      "0.5": 19.39020958785182,
+      "0.75": 33.54407356166515,
+      "0.95": 52.89455452701279,
+      "1": 201.94577516576788
+    },
+    "relayed_active_path": {
+      "0": 2.1743859331465814,
+      "0.01": 2.1743859331465814,
+      "0.05": 2.1743859331465814,
+      "0.25": 3.5300629212747197,
+      "0.5": 5.25975548786549,
+      "0.75": 9.500767968691491,
+      "0.95": 12.029424972929434,
+      "1": 15.85520501861562
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "split_transport_ids": [
+    "M001",
+    "M002",
+    "M003",
+    "M004",
+    "M005",
+    "M006",
+    "M007",
+    "M008"
+  ],
+  "max_atom_duration_s": 300,
+  "reason": "Allow relay handover inside long robust gaps without changing transport routes"
+}

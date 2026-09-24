@@ -1,0 +1,12 @@
+{
+  "Gamma_C_db": 2,
+  "tasks": 34,
+  "affected_transport_sorties": 22,
+  "guarded_service_sum_s": 15619.09375,
+  "base_step_s": 0.5,
+  "observed_boundary_refinement_s": 0.05,
+  "construction_guard_s": 2.0,
+  "threshold_applies_to": "DIRECT_AND_BOTH_RELAY_HOPS",
+  "physical_fading_margin_unchanged": true,
+  "atomic_partition_config": {}
+}

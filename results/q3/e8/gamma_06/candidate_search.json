@@ -1,0 +1,22 @@
+{
+  "Gamma_C_db": 6.0,
+  "searches": [],
+  "counts": {
+    "cheap_candidates_examined": 6160,
+    "after_distance_candidates": 1880,
+    "rg_los_calls": 110,
+    "rg_cache_hits": 1770,
+    "sparse_interval_checks": 1601,
+    "access_los_calls": 717110,
+    "static_geometry_computations": 91,
+    "exact_interval_checks": 1424,
+    "exact_base_sample_requests": 712834,
+    "access_cache_hits": 5540,
+    "static_geometry_cache_hits": 1333
+  },
+  "tasks": 56,
+  "pairs": 1423,
+  "sites": 91,
+  "unresolved": [],
+  "candidate_set_complete": false
+}

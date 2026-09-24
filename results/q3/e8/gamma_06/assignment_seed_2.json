@@ -1,0 +1,9 @@
+{
+  "status": 2,
+  "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+  "runtime_s": 0.3703530669999999,
+  "candidate_signatures": 28,
+  "slots_per_aircraft": 2,
+  "objective": null,
+  "global_physical_infeasibility_proven": false
+}

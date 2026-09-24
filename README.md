@@ -1,50 +1,42 @@
 # UAV Logistics & Relay Communication Lab
 
-UAV logistics trajectory planning and relay-communication validation workspace.
-Python models produce standardized trajectories/schedules; ns-3.47 validates mobility + Wi-Fi + UDP + FlowMonitor.
+Current stage: **E8 robustness study PARTIAL — Gamma 6 dB unresolved**.
+Gamma 0/2/4 dB have 8/5/10 independently validated Pareto execution points.
+Gamma 6 has communication candidates for every demand but no executable joint
+resource witness within this bounded search. Physical infeasibility is not
+proven. Formal ns-3 and Q4 remain WAIT.
 
-Current stage: **E7 Q3 joint Pareto optimization READY**. Eight independently
-validated nondominated execution packages improve on E6 P01. Transport box
-assignment, routes and types remain fixed: L1 resource/timing and relay changes
-were sufficient for substantial gains, so L2/L3 were not activated.
-E8 robustness, formal ns-3 experiments and Q4 have not started.
-
-- [E7 complete report and ablation](results/q3/E7_JOINT_PARETO_REPORT.md)
-- [E7 GPT audit handoff](results/q3/E7_GPT_SYNC.md)
-- [Validated Pareto table](results/q3/e7/pareto_solutions.csv)
-- [Artifact-bound E7 gate](results/q3/e7/validation.json)
-- [E7 model and optimization semantics](docs/model/Q3_JOINT_E7_SEMANTICS.md)
-
-Best known TimelinessKey: `(87005.086170, 0.558470231)`, versus E6 P01
-`(648615.604679, 0.746568947)`. Under a 2% lateness budget, a validated
-execution finishes at 11,304.755580 s using 78.319613 kWh and nine relay
-sorties. There are tradeoffs between timeliness, makespan and energy; this is
-a bounded known frontier, not a complete global Pareto frontier.
+- [E8 full report and robustness costs](results/q3/E8_ROBUSTNESS_REPORT.md)
+- [E8 GPT review handoff](results/q3/E8_GPT_SYNC.md)
+- [Validated Pareto family](results/q3/e8/pareto_family.csv)
+- [Artifact-bound E8 review](results/q3/e8/validation.json)
+- [E8 semantics and reproduction](docs/model/Q3_ROBUSTNESS_E8_SEMANTICS.md)
+- [Preserved E7 report](results/q3/E7_JOINT_PARETO_REPORT.md)
 
 ## Current result authority
 
-- Frozen transport baseline: `results/q2/pareto_schedules/P01..P03/`.
-  Legacy top-level Q2 CSVs are not a synchronized package.
-- E52 and E6 remain unchanged and retain their own validated gates.
-- Current Q3 executions: `results/q3/e7/solutions/Q3E7_001..008/`.
-- Formal objectives exclude transport shift. `TimelinessKey` is lexicographic;
-  final selection uses epsilon budgets and exact official-metric nondominance.
-- Gamma_C remains 0 dB. Full-flight numerical validation is authoritative;
-  construction guards are not an analytical continuity or robustness proof.
+Frozen transport baselines are under `results/q2/pareto_schedules/P01..P03/`;
+legacy top-level Q2 CSVs are not synchronized packages. E52/E6/E7 are unchanged.
+E8 fixes the P01 transport structure, allows L1 timing/resource changes and
+requires Gamma on the direct link and both relay hops. Gamma 0 exactly preserves
+the eight final E7 executions.
+
+Validated E8 packages are in `results/q3/e8/gamma_00/solutions/`,
+`gamma_02/solutions/`, and `gamma_04/solutions/`. There is no validated Gamma 6
+package. Numerical full-flight validation does not constitute an analytic
+continuous-time guarantee.
 
 ```bash
 export OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1
-# Select by epsilon budget, reconstruct the package and independently validate.
-.venv/bin/python -m src.q3.e7_replay --epsilon .02 --objective energy \
-  --output results/q3/e7/generated/my_epsilon02_energy
-.venv/bin/python -m src.q3.e7_replay --check-all
-.venv/bin/python validation/mathematical/e7_gate.py
-# Rebuild the bounded experiment, controls, audits and gate from frozen E6 input.
-.venv/bin/python -m src.q3.e7_run
+.venv/bin/python -m src.q3.e8_replay --check-all
+.venv/bin/python validation/mathematical/e8_gate.py
+.venv/bin/python -m src.q3.e8_replay --gamma 4 --epsilon .02 --objective energy --output results/q3/e8/generated/g4_e02_energy
+.venv/bin/python validation/mathematical/e8_validate.py --directory results/q3/e8/generated/g4_e02_energy --step .5
 ```
 
-The E6 [report](results/q3/E6_RESOURCE_REPORT.md) and its replay instructions
-remain available. The E0 setup notes below describe the frozen environment.
+The E8 gate remains partial while Gamma 6 is unresolved. An empty known frontier
+or a restricted MILP infeasibility result does not prove the original scenario
+impossible.
 
 ## Stack (frozen)
 

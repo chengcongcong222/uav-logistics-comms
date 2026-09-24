@@ -1,0 +1,252 @@
+{
+  "Gamma_C_db": 6.0,
+  "searches": [
+    {
+      "tasks": [
+        "P01_GAMMA06_M001_00"
+      ],
+      "checked": 4,
+      "new_valid_sites": [
+        "E52_da1eeef61bb4fffd90feecd9",
+        "E52_29c9aa5399273a7ee24bceb6",
+        "E52_0fa03b8d9ed736d48919c1b7"
+      ],
+      "max_checks": 1800,
+      "status": "FOUND",
+      "runtime_s": 1.7083796810000251
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M003_00"
+      ],
+      "checked": 58,
+      "new_valid_sites": [
+        "E52_154bbd26b7808edf72eaa410",
+        "E52_f4836ff0bfcbe7f74f580128",
+        "E52_be79b94db4a0a5b6faaed631"
+      ],
+      "max_checks": 1800,
+      "status": "FOUND",
+      "runtime_s": 1.6957086259999983
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M004_00"
+      ],
+      "checked": 28,
+      "new_valid_sites": [
+        "E52_eb490529b308e18523949520",
+        "E52_357bbbd4dc4420221c875ea3",
+        "E52_924cec2d58c933358893a332"
+      ],
+      "max_checks": 1800,
+      "status": "FOUND",
+      "runtime_s": 4.903991562000016
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M009_00"
+      ],
+      "checked": 46,
+      "new_valid_sites": [
+        "E52_831cee7e7a3a549796e42b18",
+        "E52_d3460088443e86b69235cf2f",
+        "E52_c98d1e580ba9a8920eeacbdb"
+      ],
+      "max_checks": 1800,
+      "status": "FOUND",
+      "runtime_s": 1.6935595639999974
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M011_00"
+      ],
+      "checked": 3,
+      "new_valid_sites": [
+        "E52_413d3eff5d481ef66f8d3068",
+        "E52_88c1c7aba1fcf94c58dad20e",
+        "E52_2e64690809088e2a96fb2160"
+      ],
+      "max_checks": 1800,
+      "status": "FOUND",
+      "runtime_s": 2.4755186839999794
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M002_00",
+        "P01_GAMMA06_M002_01",
+        "P01_GAMMA06_M002_02",
+        "P01_GAMMA06_M002_03",
+        "P01_GAMMA06_M002_04",
+        "P01_GAMMA06_M004_00"
+      ],
+      "checked": 0,
+      "new_valid_sites": [],
+      "max_checks": 1800,
+      "status": "EMPTY_COMMON_LOS_NECESSARY_REGION"
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M001_00",
+        "P01_GAMMA06_M003_00",
+        "P01_GAMMA06_M006_00"
+      ],
+      "checked": 36,
+      "new_valid_sites": [],
+      "max_checks": 1800,
+      "status": "BOUNDED_SEARCH_EXHAUSTED",
+      "runtime_s": 1.1606864559999792
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M007_00",
+        "P01_GAMMA06_M011_00"
+      ],
+      "checked": 0,
+      "new_valid_sites": [],
+      "max_checks": 1800,
+      "status": "EMPTY_COMMON_LOS_NECESSARY_REGION"
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M012_00",
+        "P01_GAMMA06_M013_00"
+      ],
+      "checked": 0,
+      "new_valid_sites": [],
+      "max_checks": 1800,
+      "status": "EMPTY_COMMON_LOS_NECESSARY_REGION"
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M009_00",
+        "P01_GAMMA06_M010_00",
+        "P01_GAMMA06_M014_00",
+        "P01_GAMMA06_M014_01",
+        "P01_GAMMA06_M014_02",
+        "P01_GAMMA06_M014_03",
+        "P01_GAMMA06_M014_04",
+        "P01_GAMMA06_M017_00",
+        "P01_GAMMA06_M019_00",
+        "P01_GAMMA06_M020_00",
+        "P01_GAMMA06_M025_00"
+      ],
+      "checked": 0,
+      "new_valid_sites": [],
+      "max_checks": 1800,
+      "status": "EMPTY_COMMON_LOS_NECESSARY_REGION"
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M023_00",
+        "P01_GAMMA06_M024_00"
+      ],
+      "checked": 79,
+      "new_valid_sites": [
+        "E52_32cd7932ac3bc8f6e82bd016",
+        "E52_0f45fcab7c66cb90fa618929"
+      ],
+      "max_checks": 1800,
+      "status": "FOUND",
+      "runtime_s": 3.099263516999997
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M001_00"
+      ],
+      "checked": 61,
+      "new_valid_sites": [
+        "E52_060143e4033ea7dfc142ce26",
+        "E52_12b142f00e8cb4e3948f96c2",
+        "E52_b4122a9095172602242b40e3",
+        "E52_67646c2afbeb5602853e5a9c",
+        "E52_3322673a66874be8fb5ff9e0",
+        "E52_d1d4424e0dfaa7a0ce62d445"
+      ],
+      "max_checks": 2500,
+      "rank": "origin",
+      "status": "FOUND",
+      "runtime_s": 7.7971910700000535
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M003_00",
+        "P01_GAMMA06_M006_00",
+        "P01_GAMMA06_M007_00"
+      ],
+      "checked": 1075,
+      "new_valid_sites": [
+        "E52_154bbd26b7808edf72eaa410",
+        "E52_2d291a2169e36d61d7bf7582",
+        "E52_132fcaf6d631eae41e83e018",
+        "E52_7e4744117cf2a1b6b8665ab3",
+        "E52_fb97bb829fc82a7376005525",
+        "E52_a0032802edd73d232f2c84c2"
+      ],
+      "max_checks": 2500,
+      "rank": "origin",
+      "status": "FOUND",
+      "runtime_s": 2.9723386100000653
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M004_00",
+        "P01_GAMMA06_M008_00"
+      ],
+      "checked": 58,
+      "new_valid_sites": [
+        "E52_7e5f4a4eaf9aa5b10576997a",
+        "E52_dbe1bedc9b83d29f34556dbd",
+        "E52_24cc4f01335372459fb4c2ba",
+        "E52_d7f1f5d49edaa9f52000c452",
+        "E52_ede4029bd5e695a7a0c85289",
+        "E52_2dadfb43d7dd9558e21effa9"
+      ],
+      "max_checks": 2500,
+      "rank": "origin",
+      "status": "FOUND",
+      "runtime_s": 7.848405810000031
+    },
+    {
+      "tasks": [
+        "P01_GAMMA06_M002_00",
+        "P01_GAMMA06_M002_01",
+        "P01_GAMMA06_M002_02",
+        "P01_GAMMA06_M002_03",
+        "P01_GAMMA06_M002_04",
+        "P01_GAMMA06_M005_00"
+      ],
+      "checked": 901,
+      "new_valid_sites": [
+        "E52_2d7a36258a59c18fc6a856bf",
+        "E52_231de36c6439da832299e30f",
+        "E52_3a94b6482baa2cfaba8a857d",
+        "E52_8d375985c45fff9288668cb3",
+        "E52_d6d1511afdebb88632549a71",
+        "E52_27bf1882d0e1a812c8450c72"
+      ],
+      "max_checks": 2500,
+      "rank": "origin",
+      "status": "FOUND",
+      "runtime_s": 87.08887246000006
+    }
+  ],
+  "counts": {
+    "rg_los_calls": 2095,
+    "cheap_candidates_examined": 4752,
+    "after_distance_candidates": 4083,
+    "rg_cache_hits": 4011,
+    "sparse_interval_checks": 4011,
+    "access_los_calls": 956305,
+    "static_geometry_computations": 857,
+    "exact_interval_checks": 2900,
+    "exact_base_sample_requests": 957117,
+    "access_cache_hits": 8971,
+    "static_geometry_cache_hits": 2043
+  },
+  "tasks": 40,
+  "pairs": 1132,
+  "sites": 89,
+  "unresolved": [],
+  "candidate_set_complete": false
+}

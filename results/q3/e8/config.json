@@ -1,0 +1,63 @@
+{
+  "stage": "E8_Q3_ROBUSTNESS_BUDGET",
+  "Gamma_C_db": [
+    0,
+    2,
+    4,
+    6
+  ],
+  "base_commit": "49b63673ff13b8ff925c5d4e955d06484a7ebf54",
+  "fixed_transport_structure": true,
+  "threshold_scope": "DIRECT_AND_BOTH_RELAY_HOPS",
+  "physical_fading_unchanged": true,
+  "baseline": "FROZEN_E7_EIGHT_FINAL_POINTS",
+  "epsilon": [
+    0,
+    0.01,
+    0.02,
+    0.05,
+    0.1
+  ],
+  "secondary_objectives": [
+    "makespan",
+    "energy",
+    "relay_sorties"
+  ],
+  "timeliness_search": {
+    "rounds": 4,
+    "repairs_per_round": 28
+  },
+  "refinement": {
+    "rounds": 3,
+    "repairs_per_round": 24
+  },
+  "epsilon_search": {
+    "rounds": 2,
+    "repairs_per_round": 12
+  },
+  "random_seed": null,
+  "randomized_search": false,
+  "milp_wall_clock_limited": true,
+  "search_reexecution_byte_deterministic": false,
+  "witness_csv_replay_byte_deterministic": true,
+  "direct_profile_step_s": 0.5,
+  "direct_boundary_refinement_s": 0.05,
+  "construction_guard_s": 2,
+  "independent_step_s": 0.5,
+  "representative_step_s": 0.25,
+  "independent_observed_boundary_refinement_s": 0.1,
+  "candidate_grid_m": 120,
+  "candidate_agl_m": [
+    300,
+    250,
+    200
+  ],
+  "candidate_set_complete": false,
+  "global_optimum_proven": false,
+  "ns3_formal_started": false,
+  "Q4_started": false,
+  "python": "3.12.3",
+  "scipy": "1.18.1",
+  "numpy": "2.5.3",
+  "pandas": "3.0.6"
+}

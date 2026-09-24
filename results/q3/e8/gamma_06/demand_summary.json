@@ -1,0 +1,25 @@
+{
+  "Gamma_C_db": 6.0,
+  "tasks": 56,
+  "affected_transport_sorties": 28,
+  "guarded_service_sum_s": 19627.21875,
+  "base_step_s": 0.5,
+  "observed_boundary_refinement_s": 0.05,
+  "construction_guard_s": 2.0,
+  "threshold_applies_to": "DIRECT_AND_BOTH_RELAY_HOPS",
+  "physical_fading_margin_unchanged": true,
+  "atomic_partition_config": {
+    "split_transport_ids": [
+      "M001",
+      "M002",
+      "M003",
+      "M004",
+      "M005",
+      "M006",
+      "M007",
+      "M008"
+    ],
+    "max_atom_duration_s": 300,
+    "reason": "Allow relay handover inside long robust gaps without changing transport routes"
+  }
+}

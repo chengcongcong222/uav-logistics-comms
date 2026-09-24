@@ -1,0 +1,142 @@
+{
+  "Gamma_C_db": 4.0,
+  "searches": [
+    {
+      "tasks": [
+        "P01_GAMMA04_M003_00"
+      ],
+      "checked": 58,
+      "new_valid_sites": [
+        "E52_154bbd26b7808edf72eaa410",
+        "E52_f4836ff0bfcbe7f74f580128",
+        "E52_be79b94db4a0a5b6faaed631"
+      ],
+      "max_checks": 1800,
+      "status": "FOUND",
+      "runtime_s": 1.6652279040000053
+    },
+    {
+      "tasks": [
+        "P01_GAMMA04_M009_00"
+      ],
+      "checked": 46,
+      "new_valid_sites": [
+        "E52_831cee7e7a3a549796e42b18",
+        "E52_d3460088443e86b69235cf2f",
+        "E52_c98d1e580ba9a8920eeacbdb"
+      ],
+      "max_checks": 1800,
+      "status": "FOUND",
+      "runtime_s": 1.674503666000021
+    },
+    {
+      "tasks": [
+        "P01_GAMMA04_M011_00"
+      ],
+      "checked": 3,
+      "new_valid_sites": [
+        "E52_413d3eff5d481ef66f8d3068",
+        "E52_88c1c7aba1fcf94c58dad20e",
+        "E52_2e64690809088e2a96fb2160"
+      ],
+      "max_checks": 1800,
+      "status": "FOUND",
+      "runtime_s": 2.2280679050000174
+    },
+    {
+      "tasks": [
+        "P01_GAMMA04_M002_00",
+        "P01_GAMMA04_M002_01",
+        "P01_GAMMA04_M002_02",
+        "P01_GAMMA04_M002_03",
+        "P01_GAMMA04_M002_04",
+        "P01_GAMMA04_M004_00"
+      ],
+      "checked": 0,
+      "new_valid_sites": [],
+      "max_checks": 1800,
+      "status": "EMPTY_COMMON_LOS_NECESSARY_REGION"
+    },
+    {
+      "tasks": [
+        "P01_GAMMA04_M001_00",
+        "P01_GAMMA04_M003_00",
+        "P01_GAMMA04_M006_00"
+      ],
+      "checked": 952,
+      "new_valid_sites": [
+        "E52_b45db00398315637fb020e5f",
+        "E52_c515ea57360fd29f9add62f7"
+      ],
+      "max_checks": 1800,
+      "status": "FOUND",
+      "runtime_s": 49.670555205
+    },
+    {
+      "tasks": [
+        "P01_GAMMA04_M007_00",
+        "P01_GAMMA04_M011_00"
+      ],
+      "checked": 658,
+      "new_valid_sites": [
+        "E52_cdef0b479e00ae29ebd83132",
+        "E52_30110e5b3ae38ecfab28ace2"
+      ],
+      "max_checks": 1800,
+      "status": "FOUND",
+      "runtime_s": 56.656794511000015
+    },
+    {
+      "tasks": [
+        "P01_GAMMA04_M012_00",
+        "P01_GAMMA04_M013_00"
+      ],
+      "checked": 439,
+      "new_valid_sites": [
+        "E52_215ef380a7eb56a6f7d09ab1",
+        "E52_3875f0f2b8e39572338b498b"
+      ],
+      "max_checks": 1800,
+      "status": "FOUND",
+      "runtime_s": 3.239247802999955
+    },
+    {
+      "tasks": [
+        "P01_GAMMA04_M009_00",
+        "P01_GAMMA04_M010_00",
+        "P01_GAMMA04_M014_00",
+        "P01_GAMMA04_M014_01",
+        "P01_GAMMA04_M014_02",
+        "P01_GAMMA04_M014_03",
+        "P01_GAMMA04_M014_04",
+        "P01_GAMMA04_M017_00",
+        "P01_GAMMA04_M019_00",
+        "P01_GAMMA04_M020_00",
+        "P01_GAMMA04_M025_00"
+      ],
+      "checked": 0,
+      "new_valid_sites": [],
+      "max_checks": 1800,
+      "status": "EMPTY_COMMON_LOS_NECESSARY_REGION"
+    }
+  ],
+  "counts": {
+    "cheap_candidates_examined": 5202,
+    "after_distance_candidates": 3382,
+    "rg_los_calls": 2225,
+    "sparse_interval_checks": 3188,
+    "access_los_calls": 1429702,
+    "rg_cache_hits": 3290,
+    "static_geometry_computations": 652,
+    "exact_interval_checks": 1682,
+    "exact_base_sample_requests": 1423178,
+    "access_cache_hits": 8741,
+    "static_geometry_cache_hits": 1030,
+    "boundary_refinement_samples": 12
+  },
+  "tasks": 40,
+  "pairs": 1100,
+  "sites": 71,
+  "unresolved": [],
+  "candidate_set_complete": false
+}

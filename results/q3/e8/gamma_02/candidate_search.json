@@ -1,0 +1,116 @@
+{
+  "Gamma_C_db": 2.0,
+  "searches": [
+    {
+      "tasks": [
+        "P01_GAMMA02_M009_00"
+      ],
+      "checked": 46,
+      "new_valid_sites": [
+        "E52_831cee7e7a3a549796e42b18",
+        "E52_d3460088443e86b69235cf2f",
+        "E52_c98d1e580ba9a8920eeacbdb"
+      ],
+      "max_checks": 1800,
+      "status": "FOUND",
+      "runtime_s": 3.2217834480000036
+    },
+    {
+      "tasks": [
+        "P01_GAMMA02_M011_00"
+      ],
+      "checked": 3,
+      "new_valid_sites": [
+        "E52_413d3eff5d481ef66f8d3068",
+        "E52_88c1c7aba1fcf94c58dad20e",
+        "E52_2e64690809088e2a96fb2160"
+      ],
+      "max_checks": 1800,
+      "status": "FOUND",
+      "runtime_s": 4.533406817999996
+    },
+    {
+      "tasks": [
+        "P01_GAMMA02_M002_00",
+        "P01_GAMMA02_M002_01",
+        "P01_GAMMA02_M002_02",
+        "P01_GAMMA02_M002_03",
+        "P01_GAMMA02_M002_04",
+        "P01_GAMMA02_M004_00"
+      ],
+      "checked": 408,
+      "new_valid_sites": [],
+      "max_checks": 1800,
+      "status": "BOUNDED_SEARCH_EXHAUSTED",
+      "runtime_s": 4.7124868650000025
+    },
+    {
+      "tasks": [
+        "P01_GAMMA02_M001_00",
+        "P01_GAMMA02_M003_00",
+        "P01_GAMMA02_M006_00"
+      ],
+      "checked": 532,
+      "new_valid_sites": [
+        "E52_575c4f100493de938643a13d",
+        "E52_0c56c0f390b777971f9a7e58"
+      ],
+      "max_checks": 1800,
+      "status": "FOUND",
+      "runtime_s": 58.717106167000004
+    },
+    {
+      "tasks": [
+        "P01_GAMMA02_M007_00",
+        "P01_GAMMA02_M011_00"
+      ],
+      "checked": 703,
+      "new_valid_sites": [
+        "E52_cdef0b479e00ae29ebd83132",
+        "E52_30110e5b3ae38ecfab28ace2"
+      ],
+      "max_checks": 1800,
+      "status": "FOUND",
+      "runtime_s": 80.5655585
+    },
+    {
+      "tasks": [
+        "P01_GAMMA02_M009_00",
+        "P01_GAMMA02_M010_00",
+        "P01_GAMMA02_M014_00",
+        "P01_GAMMA02_M014_01",
+        "P01_GAMMA02_M014_02",
+        "P01_GAMMA02_M014_03",
+        "P01_GAMMA02_M014_04",
+        "P01_GAMMA02_M017_00",
+        "P01_GAMMA02_M019_00",
+        "P01_GAMMA02_M020_00",
+        "P01_GAMMA02_M025_00"
+      ],
+      "checked": 45,
+      "new_valid_sites": [],
+      "max_checks": 1800,
+      "status": "BOUNDED_SEARCH_EXHAUSTED",
+      "runtime_s": 0.496600084999983
+    }
+  ],
+  "counts": {
+    "cheap_candidates_examined": 4884,
+    "after_distance_candidates": 3771,
+    "rg_los_calls": 1803,
+    "sparse_interval_checks": 3610,
+    "access_los_calls": 1531403,
+    "rg_cache_hits": 3689,
+    "static_geometry_computations": 855,
+    "exact_interval_checks": 1813,
+    "exact_base_sample_requests": 1519529,
+    "access_cache_hits": 9077,
+    "static_geometry_cache_hits": 958,
+    "boundary_refinement_samples": 33
+  },
+  "tasks": 34,
+  "pairs": 956,
+  "sites": 72,
+  "unresolved": [],
+  "candidate_set_complete": false
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "status": "BOUNDED_SEARCH_COMPLETED",
+    "objective": "timeliness",
+    "J_late_budget": null,
+    "rounds": 4,
+    "repairs_per_round": 28,
+    "root_relaxations": 106,
+    "lp_solves": 5338,
+    "runtime_s": 19.78522516000004,
+    "history": [
+      {
+        "iteration": 1,
+        "ranked": 27,
+        "repaired": 27,
+        "feasible": 25,
+        "metrics": {
+          "J_late": 317358.4048172224,
+          "J_norm": 0.6373770416680177,
+          "joint_makespan_s": 11843.72690250413,
+          "transport_energy_kwh": 73.47077585529216,
+          "relay_energy_kwh": 5.339000021503212,
+          "total_energy_kwh": 78.80977587679537,
+          "transport_sorties": 28,
+          "relay_sorties": 9,
+          "total_transport_shift_s": 31236.074334092256,
+          "total_absolute_transport_shift_s": 48033.446483145955,
+          "max_transport_shift_s": 7750.159911931038,
+          "minimum_M_E_kwh": 1.5513378043928725
+        },
+        "elapsed_s": 19.785140978000015
+      }
+    ],
+    "global_optimum_proven": false,
+    "fixed_transport_order": false,
+    "energy_ranking_surrogate": "FLIGHT_PLUS_CONTINUOUS_ACTIVE_SPAN; ACCEPTANCE_USES_EXACT_UNION_ENERGY"
+  },
+  {
+    "status": "BOUNDED_SEARCH_COMPLETED",
+    "objective": "timeliness",
+    "J_late_budget": null,
+    "rounds": 3,
+    "repairs_per_round": 24,
+    "root_relaxations": 106,
+    "lp_solves": 4873,
+    "runtime_s": 13.491491085999996,
+    "history": [
+      {
+        "iteration": 1,
+        "ranked": 27,
+        "repaired": 24,
+        "feasible": 23,
+        "metrics": {
+          "J_late": 317358.4048172224,
+          "J_norm": 0.6373770416680177,
+          "joint_makespan_s": 11843.72690250413,
+          "transport_energy_kwh": 73.47077585529216,
+          "relay_energy_kwh": 5.339000021503212,
+          "total_energy_kwh": 78.80977587679537,
+          "transport_sorties": 28,
+          "relay_sorties": 9,
+          "total_transport_shift_s": 31236.074334092256,
+          "total_absolute_transport_shift_s": 48033.446483145955,
+          "max_transport_shift_s": 7750.159911931038,
+          "minimum_M_E_kwh": 1.5513378043928725
+        },
+        "elapsed_s": 13.49143541899997
+      }
+    ],
+    "global_optimum_proven": false,
+    "fixed_transport_order": false,
+    "energy_ranking_surrogate": "FLIGHT_PLUS_CONTINUOUS_ACTIVE_SPAN; ACCEPTANCE_USES_EXACT_UNION_ENERGY"
+  }
+]

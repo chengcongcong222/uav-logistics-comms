@@ -1,0 +1,12 @@
+{
+  "tests": 4,
+  "passed": 4,
+  "failed": 0,
+  "command": ".venv/bin/python validation/mathematical/test_e8_regressions.py",
+  "cases": [
+    "positive_physical_margin_below_gamma_rejected",
+    "cross_type_battery_rejected",
+    "cached_demand_and_physical_files_not_rewritten",
+    "new_gap_on_previously_direct_only_flight"
+  ]
+}

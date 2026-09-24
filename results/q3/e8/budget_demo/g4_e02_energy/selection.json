@@ -1,0 +1,10 @@
+{
+  "Gamma_C_db": 4,
+  "epsilon": 0.02,
+  "objective": "energy",
+  "budget_metric": "J_late",
+  "budget": 927411.4054052847,
+  "solution_id": "Q3E8_G04_002",
+  "attained_value": 79.39719870376452,
+  "source": "results/q3/e8/gamma_04/solutions/Q3E8_G04_002"
+}

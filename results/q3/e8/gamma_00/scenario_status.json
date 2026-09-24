@@ -1,0 +1,7 @@
+{
+  "Gamma_C_db": 0,
+  "status": "SCENARIO_INDEPENDENTLY_VALIDATED",
+  "known_pareto_points": 8,
+  "fine_step_s": 0.25,
+  "complete_global_pareto_frontier": false
+}
