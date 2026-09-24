@@ -1,0 +1,49 @@
+patterns 732 classes 53
+variables 18521 rows 509 nnz 548246
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 5e+00]
+  Cost   [9e-01, 6e+00]
+  Bound  [1e+00, 4e+00]
+  RHS    [1e+00, 8e+00]
+Presolving model
+402 rows, 18521 cols, 548246 nonzeros  0s
+402 rows, 18521 cols, 548246 nonzeros  9s
+
+Solving MIP model with:
+   402 rows
+   18521 cols (16353 binary, 2168 integer, 0 implied int., 0 continuous)
+   548246 nonzeros
+MIP-Timing:          11 - starting analytic centre calculation
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic; L => Sub-MIP;
+     P => Empty MIP; R => Randomized rounding; S => Solve LP; T => Evaluate node; U => Unbounded;
+     z => Trivial zero; l => Trivial lower; u => Trivial upper; p => Trivial point
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   0               inf                  inf        0      0      0         0    11.5s
+         0       0         0   0.00%   59.15203699     inf                  inf        0      0      2       476    11.7s
+         0       0         0   0.00%   60.81601336     inf                  inf      112     24     28       935    15.1s
+
+Solving report
+  Status            Time limit reached
+  Primal bound      inf
+  Dual bound        60.8160133573
+  Gap               inf
+  P-D integral      0
+  Solution status   -
+  Timing            15.10 (total)
+                    0.00 (presolve)
+                    0.00 (solve)
+                    0.00 (postsolve)
+  Max sub-MIP depth 0
+  Nodes             0
+  Repair LPs        0 (0 feasible; 0 iterations)
+  LP iterations     935 (total)
+                    0 (strong br.)
+                    459 (separation)
+                    0 (heuristics)
+status 1 Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)
+{"status": 1, "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)", "runtime_s": 15.31705883799998, "patterns": 732, "variables": 18521, "start_grid_s": 180, "horizon_s": 9600, "objective": "energy", "source_commit": "badc8a4282f9935018c837e52b32b86539c96071", "scope": "single-stop zero-late conservative time-indexed candidate model; not original optimum"}

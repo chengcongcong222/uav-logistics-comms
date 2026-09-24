@@ -1,0 +1,10 @@
+{
+  "version": "G2_UTM49N_STRAIGHT_NATIVE_SUPERCOVER_V1",
+  "hashes": {
+    "data/raw/数据/镇龙乡地理空间数据/镇龙乡及周边地理数据/数字高程模型数据（DEM）/镇龙乡及周边30米DEM.tif": "741fe6de0b2bcaffd0f4007f574ee698d46197094f52cc954b532c4f90fc7c03",
+    "results/reset/geometry/route_geometry.csv": "45c97d859f60edbc21b2b7ef67fdbf56914200d7eaa0d736d23914ee71be94ff",
+    "src/reset/geometry.py": "9372ea5e4dde89fa7a315039c9bce1a5ff2e72f7cb651adb75f039a325ba368f",
+    "src/common/terrain.py": "39ec848d19adf726a6be5dbfa8519bea9525ff566560c6e1ebd40a8840bc26fc",
+    "src/q3/terrain_los.py": "ab735e1b44545e9a4fa18b835c07b7157d97e7584d58571f793624d7612ab4ad"
+  }
+}

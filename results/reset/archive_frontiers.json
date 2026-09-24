@@ -1,0 +1,63 @@
+{
+  "criteria": "lexicographic (J_late,J_norm), makespan, energy, transport count, relay count",
+  "tolerances": {
+    "J_late": 0.0001,
+    "J_norm": 1e-09,
+    "time_count": 1e-06,
+    "energy": 1e-08
+  },
+  "claim": "WITHIN_THIS_FINITE_VALIDATED_ARCHIVE_ONLY",
+  "frontiers": {
+    "Q2_OWN_GENERATED": [
+      "A03",
+      "A11",
+      "A12",
+      "AS01"
+    ],
+    "Q2_EXTERNAL_CONTROL": [
+      "B01",
+      "B02"
+    ],
+    "Q2_COMBINED": [
+      "A03",
+      "A11",
+      "A12",
+      "AS01",
+      "B01"
+    ],
+    "Q3_OWN_GENERATED": [
+      "A03_Q3_001",
+      "A03_Q3_002_CC",
+      "A11_Q3_001",
+      "A11_Q3_002",
+      "A11_Q3_003_CC",
+      "A11_Q3_004_CC",
+      "A11_Q3_005_CC",
+      "AN01_Q3_001_CC"
+    ],
+    "Q3_EXTERNAL_CONTROL": [
+      "B01_Q3_001",
+      "B01_Q3_002_CC",
+      "B01_Q3_003_CC",
+      "B02_Q3_001",
+      "B02_Q3_002",
+      "B02_Q3_003"
+    ],
+    "Q3_COMBINED": [
+      "A03_Q3_001",
+      "A03_Q3_002_CC",
+      "A11_Q3_001",
+      "A11_Q3_002",
+      "A11_Q3_003_CC",
+      "A11_Q3_004_CC",
+      "A11_Q3_005_CC",
+      "AN01_Q3_001_CC",
+      "B01_Q3_001",
+      "B01_Q3_002_CC",
+      "B01_Q3_003_CC",
+      "B02_Q3_001",
+      "B02_Q3_002",
+      "B02_Q3_003"
+    ]
+  }
+}

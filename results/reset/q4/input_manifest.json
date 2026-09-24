@@ -1,0 +1,33 @@
+{
+  "source_commit": "G2_RESET_WORKTREE_BOUND_BY_FILE_HASHES",
+  "hashes": {
+    "results/reset/q3/A11/solutions/A11_Q3_001/relay_uav_calendar_A11.csv": "993abeaa0c72d85632c815b329482f3d2ce49326cceb03439154f934805387c4",
+    "results/reset/q3/A11/solutions/A11_Q3_001/guarded_atomic_tasks.csv": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+    "results/reset/q3/A11/solutions/A11_Q3_001/communication_violations_A11_0.5.csv": "fade3b9dff422eedd8fa3efe4150a2e54f7ee64729ec24bbd08429c3e3665a0c",
+    "results/reset/q3/A11/solutions/A11_Q3_001/transport_sorties_A11.csv": "cab35d63577fe7792d37ab1f0778a3cd7ca5f37b20b5a48bdeb90fc1c0827140",
+    "results/reset/q3/A11/solutions/A11_Q3_001/input_manifest.json": "73897df246d214b02baf9774f91f22bbab8a60671a961b614a3cb97b984f3fa1",
+    "results/reset/q3/A11/solutions/A11_Q3_001/joint_metrics_A11.json": "1afb09bf529d625f849b31cf1ebb0a3d7d747258d7b978e40bc9a4ac48406ac2",
+    "results/reset/q3/A11/solutions/A11_Q3_001/transport_uav_calendar_A11.csv": "8e5cdb2b5d0b650391660bc9d39243db39eeaea39b1e97538c516e7087ec4f04",
+    "results/reset/q3/A11/solutions/A11_Q3_001/plan_status_A11.json": "f833f2abc0c0ce940aa9c14ea1e535500497a0399646f2e118fb3e64104d50a7",
+    "results/reset/q3/A11/solutions/A11_Q3_001/validation_0.5.json": "7f94138cac8a6a587f254f2b818cdd8793ccffa526fa35b2b7d6b96506a80df3",
+    "results/reset/q3/A11/solutions/A11_Q3_001/candidate_sites_A11.csv": "a70cfe61a3fc19118d31fc7006d511eb62f81d70ee1a0fab318ca4a00baeab62",
+    "results/reset/q3/A11/solutions/A11_Q3_001/relay_sorties_A11.csv": "1cdde530ac8f5607afa2129ad6992219a09b094f682d29789b448ad8a437ff20",
+    "results/reset/q3/A11/solutions/A11_Q3_001/selected_sorties_A11.json": "65269f26d00df71e9cdc234c85c888e9175288046bd0e56a60d148ff3cf8677e",
+    "results/reset/q3/A11/solutions/A11_Q3_001/witness.json": "e7da88f73b2d76540ea4ccf88a763b47c6b1225dcdae3afb50bcf56b9a1661d3",
+    "results/reset/q3/A11/solutions/A11_Q3_001/relay_energy_calendar_A11.csv": "6c606e1917b41a5a2b1fecea99e4fc072d09af9fbb1ad86d682f87e4fd39d21e",
+    "results/reset/q3/A11/solutions/A11_Q3_001/transport_shifts_A11.csv": "00d7510903df615dc5c92da563f8e1298aa55fe7e06d97759492247d9de87b8c",
+    "results/reset/q3/A11/solutions/A11_Q3_001/scenario.json": "513041fa7ab33d2e7a8066500ec5c4fd6e9f0b15b6c32f02eed59c7f8c336b4b",
+    "results/reset/q3/A11/solutions/A11_Q3_001/box_delivery_A11.csv": "403ee4607cf914050d410bc59ada4454bcd8e32aee04b6c62ffce66af809ed2d",
+    "results/reset/q3/A11/solutions/A11_Q3_001/guarded_selected_pairs_A11.csv": "9bd8130b829b22134dedff6d3e6892b5103e0f64b0d3f56d0787293b4dae0671",
+    "results/reset/q3/A11/solutions/A11_Q3_001/communication_guarantee_A11.csv": "7fce86429e9a30b8e47847ba22c14b2f118ff7f36c6036771f13c112d892ddce",
+    "results/reset/q3/A11/solutions/A11_Q3_001/shifts_A11.json": "1ce7e9a57166214787041cf32f9e9ffc1daa04a88d4681172a769045bed501a0",
+    "results/reset/q3/A11/solutions/A11_Q3_001/transport_battery_calendar_A11.csv": "ac09f182d52a14e7ebecab3fd171408c9ad4583e5c465d848a0a08b595c99fd1",
+    "results/reset/q3/A11/solutions/A11_Q3_001/independent_candidate_audit_A11_0.5.csv": "b8d8d8dff42f66cccf7eabb9392aa8641c109ba234a95e594ea85be92018573e",
+    "results/reset/geometry/transport_uavs.csv": "35ef7de8239abc9e047e668c5729ce32ca63118a000ed71844591e5933d09278",
+    "results/reset/geometry/transport_batteries.csv": "c0fc93bc96e485985aca7d3a7690da077149767e10ad45cda1aae59126d239d8",
+    "results/reset/geometry/relay_uavs.csv": "a13b6a71af7c45944860a13ed52b16c5e2728f8bb733b56d1276687f7557ea6a",
+    "results/reset/geometry/relay_energy_components.csv": "117d488e8d42a2754c29d63889bc712afa835b671c58710171aa79715a0bd6a7",
+    "results/reset/geometry/boxes.csv": "bfeca5816dfceab43ee691328969ca571792870c9670ca5e38681e90011cf120",
+    "data/raw/山区洪涝灾害下无人机运输与通信协同优化.docx": "0a4f507b91a02a0ea4264973dd432cdcb5b8916c61c24214719665f326d57685"
+  }
+}

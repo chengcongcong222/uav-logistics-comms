@@ -1,0 +1,6 @@
+{
+  "duplicate_box": "REJECTED_AS_REQUIRED",
+  "negative_start": "REJECTED_AS_REQUIRED",
+  "energy_tamper": "REJECTED_AS_REQUIRED",
+  "wrong_type": "REJECTED_AS_REQUIRED"
+}

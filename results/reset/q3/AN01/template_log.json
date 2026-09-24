@@ -1,0 +1,152 @@
+[
+  {
+    "sortie_id": "M001",
+    "signature": "405fdbaede48d392a53cbc97675c3da4de15a788a0fa85285488e1b30db7fba4",
+    "cache_hit": true,
+    "intervals": 0
+  },
+  {
+    "sortie_id": "M002",
+    "signature": "7b046154a430b3d1e7343142af73d74d48582589eda74af4372066daa4bc8cf8",
+    "cache_hit": true,
+    "intervals": 0
+  },
+  {
+    "sortie_id": "M003",
+    "signature": "9c49f36926c243044787ec5477f21e68aaeee2546dc28621f07327f31545229d",
+    "cache_hit": true,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M004",
+    "signature": "9ac6b9a63e4b2432be28f4b3826a415c46139ad658da160e8252c15346423a26",
+    "cache_hit": true,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M005",
+    "signature": "6fc838871bc9dc314d645e745cf1b32cfa53dbdd417376ce4beef30fcc0a69a9",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M006",
+    "signature": "cace38950cdebd2957f2e911c1f33900435ff8554671baf1d2c47804e77ed7ba",
+    "cache_hit": true,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M007",
+    "signature": "0a2cb95164e9417ca8d11fe3201abca31061f8e33e4db039561261ee4e88eb5c",
+    "cache_hit": true,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M008",
+    "signature": "0869e15eb2c4acc5507fa790c9ac3236143359401da2f6b69e803eb86d9622e5",
+    "cache_hit": false,
+    "intervals": 3
+  },
+  {
+    "sortie_id": "M009",
+    "signature": "c70f3197bb24d0efd5733ff3aeb412648608880fb96b5e716ecb314bbfc2d428",
+    "cache_hit": true,
+    "intervals": 3
+  },
+  {
+    "sortie_id": "M010",
+    "signature": "4727d5a88045262bb5dea910f81a969acbd33db7133e81046034cdc8878ad397",
+    "cache_hit": true,
+    "intervals": 3
+  },
+  {
+    "sortie_id": "M011",
+    "signature": "8e71a3722814b6cc03fa92120c6a4355b127eb52eb86c0ffde455a8679955a23",
+    "cache_hit": true,
+    "intervals": 0
+  },
+  {
+    "sortie_id": "M012",
+    "signature": "cf258ca084a50b6b69f566aa109fad67112be506895d6801ce004bed02613d4a",
+    "cache_hit": true,
+    "intervals": 0
+  },
+  {
+    "sortie_id": "M013",
+    "signature": "41aa27a47ef5b873d41a8b88e509d9018de370548609faba0cf6def790582aff",
+    "cache_hit": true,
+    "intervals": 0
+  },
+  {
+    "sortie_id": "M014",
+    "signature": "9b7aa81973d32b5ec80fa5b8e98dcecba46983fbe98b3a751190f873a576b540",
+    "cache_hit": true,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M015",
+    "signature": "aac2e217899972252242637362f9ac0c169ad7a3ab091ae07b3cf01df79f9bdd",
+    "cache_hit": true,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M016",
+    "signature": "d004ab87a5ef9a6666126617f1a68dd8c98a0e104f13e962aef2cfdab4995b3f",
+    "cache_hit": true,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M017",
+    "signature": "2316ac49f188be3398f60029d9b16856d82593fb4f92af46bd4cc9fa6069dc35",
+    "cache_hit": true,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M018",
+    "signature": "56641d705048a456396c8c0a7dde308204c5ba2b291cb3f1683ebf969eadb219",
+    "cache_hit": true,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M019",
+    "signature": "525120e4c8e053eb0a9347ba6377eb087cd8a09d4bd3a57acc3f5dfe5660a382",
+    "cache_hit": true,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M020",
+    "signature": "3d81118bb1633788558e04f5c55452e96732f654af221d2d2cabd451856b3871",
+    "cache_hit": true,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M021",
+    "signature": "0bddc22dba5f2762de5b47537763424d17b1f953d011eb44febf224bbfffdbd1",
+    "cache_hit": true,
+    "intervals": 0
+  },
+  {
+    "sortie_id": "M022",
+    "signature": "4c20eff80879675854b762c6b03fdc01d399f54299add28f7c62235773a2350c",
+    "cache_hit": true,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M023",
+    "signature": "61615b6bbf942bdf6cf6fa83ac048fdc5150a11f0a1f240a137ede5ddd909580",
+    "cache_hit": true,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M024",
+    "signature": "69f4092316177ee6ff836d44a8824f5bcd2af358805ba4a880abda1267c14f49",
+    "cache_hit": true,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M025",
+    "signature": "27d228700dd6dc5ff01b39b5f653e30c7ec5ecff35304f95c5dbadcd027ead9d",
+    "cache_hit": true,
+    "intervals": 1
+  }
+]

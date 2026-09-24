@@ -1,0 +1,9 @@
+{
+  "J_late": 0.0,
+  "J_norm": 0.526284216689813,
+  "makespan": 9010.738427148784,
+  "energy": 61.49584464486047,
+  "sorties": 22,
+  "source": "R_ENERGY",
+  "global_optimum_proven": false
+}

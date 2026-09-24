@@ -1,0 +1,30 @@
+{
+  "signature": "41325af6969c13cc09887ee263d584af478415745f981eac8dbd34d0f5017334",
+  "shape": {
+    "uav_type": "B",
+    "box_ids": [
+      "S001-HYG-01",
+      "S001-HYG-02"
+    ],
+    "service_sequence": [
+      "S001"
+    ],
+    "boxes_by_service": {
+      "S001": [
+        "S001-HYG-01",
+        "S001-HYG-02"
+      ]
+    },
+    "relative_takeoff_time": 360.0,
+    "relative_delivery_times": {
+      "S001": 857.674094254912
+    },
+    "relative_return_time": 1149.1015218431576
+  },
+  "geometry": "9db8a5d8afb2e9e498db2a10a895bb133d2e00de24515202080374a3fe4318dc",
+  "intervals": [],
+  "samples": 1594,
+  "step_s": 0.5,
+  "boundary_s": 0.05,
+  "guard_s": 2.0
+}

@@ -1,0 +1,55 @@
+patterns 266 classes 53
+variables 8766 rows 587 nnz 356515
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 5e+00]
+  Cost   [9e-01, 6e+00]
+  Bound  [1e+00, 4e+00]
+  RHS    [1e+00, 8e+00]
+
+Presolve is switched off
+
+Solving MIP model with:
+   587 rows
+   8766 cols (7103 binary, 1663 integer, 0 implied int., 0 continuous)
+   356515 nonzeros
+MIP-Timing:       0.044 - starting analytic centre calculation
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic; L => Sub-MIP;
+     P => Empty MIP; R => Randomized rounding; S => Solve LP; T => Evaluate node; U => Unbounded;
+     z => Trivial zero; l => Trivial lower; u => Trivial upper; p => Trivial point
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   0               inf                  inf        0      0      0         0     0.0s
+         0       0         0   0.00%   65.7383701      inf                  inf        0      0      2       765     0.2s
+ L       0       0         0   0.00%   66.10320761     67.86721939        2.60%      726     25     48      1147     6.1s
+ L       0       0         0   0.00%   66.16180168     67.86721939        2.51%      793     15     80      6708    12.3s
+        27      12         1  13.77%   66.16180168     67.86721939        2.51%     1270     31    893     18069    17.8s
+        42      16         3  14.45%   66.16180168     67.86721939        2.51%     1490     35   1257     22842    20.0s
+
+Solving report
+  Status            Time limit reached
+  Primal bound      67.867219391
+  Dual bound        66.1618016795
+  Gap               2.51% (tolerance: 1%)
+  P-D integral      0.349156384638
+  Solution status   feasible
+                    67.867219391 (objective)
+                    0 (bound viol.)
+                    5.82200954113e-13 (int. viol.)
+                    0 (row viol.)
+  Timing            20.02 (total)
+                    0.00 (presolve)
+                    0.00 (solve)
+                    0.00 (postsolve)
+  Max sub-MIP depth 3
+  Nodes             42
+  Repair LPs        0 (0 feasible; 0 iterations)
+  LP iterations     22842 (total)
+                    10717 (strong br.)
+                    661 (separation)
+                    6384 (heuristics)
+status 1 Time limit reached. (HiGHS Status 13: Time limit reached)
+{"status": 1, "message": "Time limit reached. (HiGHS Status 13: Time limit reached)", "runtime_s": 20.076933888999974, "patterns": 266, "variables": 8766, "start_grid_s": 120, "horizon_s": 6600, "objective": "energy", "source_commit": "badc8a4282f9935018c837e52b32b86539c96071", "scope": "single-stop zero-late conservative time-indexed candidate model; not original optimum", "objective_value": 67.86721939101466, "dual_bound": 66.16180167954128, "mip_gap": 0.025128740012872307, "sorties": 26, "energy_kwh": 67.86721939101506, "makespan_s": 6581.842307167044}

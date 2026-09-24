@@ -1,0 +1,18 @@
+{
+  "status": 1,
+  "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+  "runtime_s": 20.076933888999974,
+  "patterns": 266,
+  "variables": 8766,
+  "start_grid_s": 120,
+  "horizon_s": 6600,
+  "objective": "energy",
+  "source_commit": "badc8a4282f9935018c837e52b32b86539c96071",
+  "scope": "single-stop zero-late conservative time-indexed candidate model; not original optimum",
+  "objective_value": 67.86721939101466,
+  "dual_bound": 66.16180167954128,
+  "mip_gap": 0.025128740012872307,
+  "sorties": 26,
+  "energy_kwh": 67.86721939101506,
+  "makespan_s": 6581.842307167044
+}

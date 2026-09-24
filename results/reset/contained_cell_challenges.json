@@ -1,0 +1,601 @@
+[
+  {
+    "source": "A03_Q3_001",
+    "domain": "fixed transport structure, sites, relay sequences and communication endpoint order; affine exact active/idle energy; original included in equal-lateness cell; free transport resources",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 9.094947017729282e-13,
+        "exact_energy_at_original_kwh": 4.390596769131322,
+        "wall_s": 0.14954801999999745,
+        "lp_solves": 75,
+        "node_limit": 5,
+        "found_feasible": false,
+        "dominates": false
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "makespan",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 9.094947017729282e-13,
+        "exact_energy_at_original_kwh": 4.390596769131322,
+        "wall_s": 0.11349225699999721,
+        "lp_solves": 58,
+        "node_limit": 5,
+        "found_feasible": false,
+        "dominates": false
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "energy",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 9.094947017729282e-13,
+        "exact_energy_at_original_kwh": 4.390596769131322,
+        "wall_s": 0.11166888099999994,
+        "lp_solves": 55,
+        "node_limit": 5,
+        "found_feasible": true,
+        "dominates": false
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "timeliness",
+        "original_in_linear_domain": false,
+        "original_max_constraint_residual": 0.000999899988528341,
+        "exact_energy_at_original_kwh": 4.390596769131322,
+        "wall_s": 0.18831623100000172,
+        "lp_solves": 96,
+        "node_limit": 5,
+        "found_feasible": false,
+        "dominates": false
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "makespan",
+        "original_in_linear_domain": false,
+        "original_max_constraint_residual": 0.000999899988528341,
+        "exact_energy_at_original_kwh": 4.390596769131322,
+        "wall_s": 0.11250928799999826,
+        "lp_solves": 58,
+        "node_limit": 5,
+        "found_feasible": false,
+        "dominates": false
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "energy",
+        "original_in_linear_domain": false,
+        "original_max_constraint_residual": 0.000999899988528341,
+        "exact_energy_at_original_kwh": 4.390596769131322,
+        "wall_s": 0.09765597900000245,
+        "lp_solves": 52,
+        "node_limit": 5,
+        "found_feasible": false,
+        "dominates": false
+      }
+    ],
+    "certificate": "NO_PROOF: bounded clique repair; endpoint-order cell only",
+    "status": "NO_DOMINATOR_FOUND_IN_CONTAINED_CELL"
+  },
+  {
+    "source": "A03_Q3_002",
+    "domain": "fixed transport structure, sites, relay sequences and communication endpoint order; affine exact active/idle energy; original included in equal-lateness cell; free transport resources",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 9.094947017729282e-13,
+        "exact_energy_at_original_kwh": 4.316959945539342,
+        "wall_s": 0.10587627200000327,
+        "lp_solves": 51,
+        "node_limit": 5,
+        "found_feasible": true,
+        "dominates": true
+      }
+    ],
+    "certificate": "NO_PROOF: bounded clique repair; endpoint-order cell only",
+    "challenger": "A03_Q3_002_CC",
+    "status": "DOMINATING_CANDIDATE_PENDING_INDEPENDENT_VALIDATION"
+  },
+  {
+    "source": "A11_Q3_001",
+    "domain": "fixed transport structure, sites, relay sequences and communication endpoint order; affine exact active/idle energy; original included in equal-lateness cell; free transport resources",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 9.094947017729282e-13,
+        "exact_energy_at_original_kwh": 3.0746156368437783,
+        "wall_s": 0.5761249880000037,
+        "lp_solves": 295,
+        "node_limit": 5,
+        "found_feasible": true,
+        "dominates": false
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "makespan",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 9.094947017729282e-13,
+        "exact_energy_at_original_kwh": 3.0746156368437783,
+        "wall_s": 0.4491521779999985,
+        "lp_solves": 245,
+        "node_limit": 5,
+        "found_feasible": true,
+        "dominates": false
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "energy",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 9.094947017729282e-13,
+        "exact_energy_at_original_kwh": 3.0746156368437783,
+        "wall_s": 0.4359544869999965,
+        "lp_solves": 239,
+        "node_limit": 5,
+        "found_feasible": true,
+        "dominates": false
+      }
+    ],
+    "certificate": "NO_PROOF: bounded clique repair; endpoint-order cell only",
+    "status": "NO_DOMINATOR_FOUND_IN_CONTAINED_CELL"
+  },
+  {
+    "source": "A11_Q3_002",
+    "domain": "fixed transport structure, sites, relay sequences and communication endpoint order; affine exact active/idle energy; original included in equal-lateness cell; free transport resources",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 0.0,
+        "exact_energy_at_original_kwh": 2.9777492031371136,
+        "wall_s": 0.45338561799999866,
+        "lp_solves": 237,
+        "node_limit": 5,
+        "found_feasible": true,
+        "dominates": false
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "makespan",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 0.0,
+        "exact_energy_at_original_kwh": 2.9777492031371136,
+        "wall_s": 0.3892850159999952,
+        "lp_solves": 207,
+        "node_limit": 5,
+        "found_feasible": true,
+        "dominates": false
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "energy",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 0.0,
+        "exact_energy_at_original_kwh": 2.9777492031371136,
+        "wall_s": 0.3653032730000021,
+        "lp_solves": 201,
+        "node_limit": 5,
+        "found_feasible": true,
+        "dominates": false
+      }
+    ],
+    "certificate": "NO_PROOF: bounded clique repair; endpoint-order cell only",
+    "status": "NO_DOMINATOR_FOUND_IN_CONTAINED_CELL"
+  },
+  {
+    "source": "A11_Q3_003",
+    "domain": "fixed transport structure, sites, relay sequences and communication endpoint order; affine exact active/idle energy; original included in equal-lateness cell; free transport resources",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 9.094947017729282e-13,
+        "exact_energy_at_original_kwh": 2.9431870947368597,
+        "wall_s": 0.2738040210000037,
+        "lp_solves": 132,
+        "node_limit": 5,
+        "found_feasible": true,
+        "dominates": true
+      }
+    ],
+    "certificate": "NO_PROOF: bounded clique repair; endpoint-order cell only",
+    "challenger": "A11_Q3_003_CC",
+    "status": "DOMINATING_CANDIDATE_PENDING_INDEPENDENT_VALIDATION"
+  },
+  {
+    "source": "A11_Q3_004",
+    "domain": "fixed transport structure, sites, relay sequences and communication endpoint order; affine exact active/idle energy; original included in equal-lateness cell; free transport resources",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 9.094947017729282e-13,
+        "exact_energy_at_original_kwh": 2.9460660910891088,
+        "wall_s": 0.352978647999997,
+        "lp_solves": 181,
+        "node_limit": 5,
+        "found_feasible": true,
+        "dominates": true
+      }
+    ],
+    "certificate": "NO_PROOF: bounded clique repair; endpoint-order cell only",
+    "challenger": "A11_Q3_004_CC",
+    "status": "DOMINATING_CANDIDATE_PENDING_INDEPENDENT_VALIDATION"
+  },
+  {
+    "source": "A11_Q3_005",
+    "domain": "fixed transport structure, sites, relay sequences and communication endpoint order; affine exact active/idle energy; original included in equal-lateness cell; free transport resources",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 9.094947017729282e-13,
+        "exact_energy_at_original_kwh": 2.9413382265057764,
+        "wall_s": 0.3268934280000053,
+        "lp_solves": 165,
+        "node_limit": 5,
+        "found_feasible": true,
+        "dominates": true
+      }
+    ],
+    "certificate": "NO_PROOF: bounded clique repair; endpoint-order cell only",
+    "challenger": "A11_Q3_005_CC",
+    "status": "DOMINATING_CANDIDATE_PENDING_INDEPENDENT_VALIDATION"
+  },
+  {
+    "source": "B01_Q3_001",
+    "domain": "fixed transport structure, sites, relay sequences and communication endpoint order; affine exact active/idle energy; original included in equal-lateness cell; free transport resources",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 4.547473508864641e-13,
+        "exact_energy_at_original_kwh": 3.5100575838620225,
+        "wall_s": 0.5019665040000021,
+        "lp_solves": 266,
+        "node_limit": 5,
+        "found_feasible": true,
+        "dominates": false
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "makespan",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 4.547473508864641e-13,
+        "exact_energy_at_original_kwh": 3.5100575838620225,
+        "wall_s": 0.4251372920000023,
+        "lp_solves": 215,
+        "node_limit": 5,
+        "found_feasible": false,
+        "dominates": false
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "energy",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 4.547473508864641e-13,
+        "exact_energy_at_original_kwh": 3.5100575838620225,
+        "wall_s": 0.3821263669999979,
+        "lp_solves": 209,
+        "node_limit": 5,
+        "found_feasible": true,
+        "dominates": false
+      }
+    ],
+    "certificate": "NO_PROOF: bounded clique repair; endpoint-order cell only",
+    "status": "NO_DOMINATOR_FOUND_IN_CONTAINED_CELL"
+  },
+  {
+    "source": "B01_Q3_002",
+    "domain": "fixed transport structure, sites, relay sequences and communication endpoint order; affine exact active/idle energy; original included in equal-lateness cell; free transport resources",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 4.547473508864641e-13,
+        "exact_energy_at_original_kwh": 3.459718650864364,
+        "wall_s": 0.5079495009999988,
+        "lp_solves": 269,
+        "node_limit": 5,
+        "found_feasible": true,
+        "dominates": true
+      }
+    ],
+    "certificate": "NO_PROOF: bounded clique repair; endpoint-order cell only",
+    "challenger": "B01_Q3_002_CC",
+    "status": "DOMINATING_CANDIDATE_PENDING_INDEPENDENT_VALIDATION"
+  },
+  {
+    "source": "B01_Q3_003",
+    "domain": "fixed transport structure, sites, relay sequences and communication endpoint order; affine exact active/idle energy; original included in equal-lateness cell; free transport resources",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 9.094947017729282e-13,
+        "exact_energy_at_original_kwh": 3.4588114668588856,
+        "wall_s": 0.3744622550000045,
+        "lp_solves": 193,
+        "node_limit": 5,
+        "found_feasible": true,
+        "dominates": true
+      }
+    ],
+    "certificate": "NO_PROOF: bounded clique repair; endpoint-order cell only",
+    "challenger": "B01_Q3_003_CC",
+    "status": "DOMINATING_CANDIDATE_PENDING_INDEPENDENT_VALIDATION"
+  },
+  {
+    "source": "B02_Q3_001",
+    "domain": "fixed transport structure, sites, relay sequences and communication endpoint order; affine exact active/idle energy; original included in equal-lateness cell; free transport resources",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 4.547473508864641e-13,
+        "exact_energy_at_original_kwh": 4.23858265759758,
+        "wall_s": 0.40144220199999836,
+        "lp_solves": 199,
+        "node_limit": 5,
+        "found_feasible": true,
+        "dominates": false
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "makespan",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 4.547473508864641e-13,
+        "exact_energy_at_original_kwh": 4.23858265759758,
+        "wall_s": 0.2766560809999987,
+        "lp_solves": 142,
+        "node_limit": 5,
+        "found_feasible": false,
+        "dominates": false
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "energy",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 4.547473508864641e-13,
+        "exact_energy_at_original_kwh": 4.23858265759758,
+        "wall_s": 0.1286996409999972,
+        "lp_solves": 70,
+        "node_limit": 5,
+        "found_feasible": false,
+        "dominates": false
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "timeliness",
+        "original_in_linear_domain": false,
+        "original_max_constraint_residual": 0.0009999000003517722,
+        "exact_energy_at_original_kwh": 4.23858265759758,
+        "wall_s": 0.5197133819999991,
+        "lp_solves": 254,
+        "node_limit": 5,
+        "found_feasible": false,
+        "dominates": false
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "makespan",
+        "original_in_linear_domain": false,
+        "original_max_constraint_residual": 0.0009999000003517722,
+        "exact_energy_at_original_kwh": 4.23858265759758,
+        "wall_s": 0.2837672429999998,
+        "lp_solves": 138,
+        "node_limit": 5,
+        "found_feasible": false,
+        "dominates": false
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "energy",
+        "original_in_linear_domain": false,
+        "original_max_constraint_residual": 0.0009999000003517722,
+        "exact_energy_at_original_kwh": 4.23858265759758,
+        "wall_s": 0.12636209299999734,
+        "lp_solves": 64,
+        "node_limit": 5,
+        "found_feasible": false,
+        "dominates": false
+      }
+    ],
+    "certificate": "NO_PROOF: bounded clique repair; endpoint-order cell only",
+    "status": "NO_DOMINATOR_FOUND_IN_CONTAINED_CELL"
+  },
+  {
+    "source": "B02_Q3_002",
+    "domain": "fixed transport structure, sites, relay sequences and communication endpoint order; affine exact active/idle energy; original included in equal-lateness cell; free transport resources",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 9.094947017729282e-13,
+        "exact_energy_at_original_kwh": 4.111751382595288,
+        "wall_s": 0.4010354000000049,
+        "lp_solves": 159,
+        "node_limit": 5,
+        "found_feasible": true,
+        "dominates": false
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "makespan",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 9.094947017729282e-13,
+        "exact_energy_at_original_kwh": 4.111751382595288,
+        "wall_s": 0.24442135400000353,
+        "lp_solves": 118,
+        "node_limit": 5,
+        "found_feasible": false,
+        "dominates": false
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "energy",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 9.094947017729282e-13,
+        "exact_energy_at_original_kwh": 4.111751382595288,
+        "wall_s": 0.11767070400000534,
+        "lp_solves": 58,
+        "node_limit": 5,
+        "found_feasible": false,
+        "dominates": false
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "timeliness",
+        "original_in_linear_domain": false,
+        "original_max_constraint_residual": 0.0009998999994422775,
+        "exact_energy_at_original_kwh": 4.111751382595288,
+        "wall_s": 0.43560499699999866,
+        "lp_solves": 209,
+        "node_limit": 5,
+        "found_feasible": false,
+        "dominates": false
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "makespan",
+        "original_in_linear_domain": false,
+        "original_max_constraint_residual": 0.0009998999994422775,
+        "exact_energy_at_original_kwh": 4.111751382595288,
+        "wall_s": 0.2692572170000034,
+        "lp_solves": 130,
+        "node_limit": 5,
+        "found_feasible": false,
+        "dominates": false
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "energy",
+        "original_in_linear_domain": false,
+        "original_max_constraint_residual": 0.0009998999994422775,
+        "exact_energy_at_original_kwh": 4.111751382595288,
+        "wall_s": 0.11743561000000113,
+        "lp_solves": 57,
+        "node_limit": 5,
+        "found_feasible": false,
+        "dominates": false
+      }
+    ],
+    "certificate": "NO_PROOF: bounded clique repair; endpoint-order cell only",
+    "status": "NO_DOMINATOR_FOUND_IN_CONTAINED_CELL"
+  },
+  {
+    "source": "B02_Q3_003",
+    "domain": "fixed transport structure, sites, relay sequences and communication endpoint order; affine exact active/idle energy; original included in equal-lateness cell; free transport resources",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 4.547473508864641e-13,
+        "exact_energy_at_original_kwh": 4.394743069236159,
+        "wall_s": 0.4680535600000013,
+        "lp_solves": 199,
+        "node_limit": 5,
+        "found_feasible": true,
+        "dominates": false
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "makespan",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 4.547473508864641e-13,
+        "exact_energy_at_original_kwh": 4.394743069236159,
+        "wall_s": 0.2283310370000038,
+        "lp_solves": 106,
+        "node_limit": 5,
+        "found_feasible": false,
+        "dominates": false
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "energy",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 4.547473508864641e-13,
+        "exact_energy_at_original_kwh": 4.394743069236159,
+        "wall_s": 0.21883446799999717,
+        "lp_solves": 106,
+        "node_limit": 5,
+        "found_feasible": false,
+        "dominates": false
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "timeliness",
+        "original_in_linear_domain": false,
+        "original_max_constraint_residual": 0.0009999000003517722,
+        "exact_energy_at_original_kwh": 4.394743069236159,
+        "wall_s": 0.5436715710000044,
+        "lp_solves": 255,
+        "node_limit": 5,
+        "found_feasible": false,
+        "dominates": false
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "makespan",
+        "original_in_linear_domain": false,
+        "original_max_constraint_residual": 0.0009999000003517722,
+        "exact_energy_at_original_kwh": 4.394743069236159,
+        "wall_s": 0.1955884449999985,
+        "lp_solves": 94,
+        "node_limit": 5,
+        "found_feasible": false,
+        "dominates": false
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "energy",
+        "original_in_linear_domain": false,
+        "original_max_constraint_residual": 0.0009999000003517722,
+        "exact_energy_at_original_kwh": 4.394743069236159,
+        "wall_s": 0.11966341499999089,
+        "lp_solves": 58,
+        "node_limit": 5,
+        "found_feasible": false,
+        "dominates": false
+      }
+    ],
+    "certificate": "NO_PROOF: bounded clique repair; endpoint-order cell only",
+    "status": "NO_DOMINATOR_FOUND_IN_CONTAINED_CELL"
+  },
+  {
+    "source": "AN01_Q3_001",
+    "domain": "fixed transport structure, sites, relay sequences and communication endpoint order; affine exact active/idle energy; original included in equal-lateness cell; free transport resources",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "original_in_linear_domain": true,
+        "original_max_constraint_residual": 9.094947017729282e-13,
+        "exact_energy_at_original_kwh": 3.8109434447825112,
+        "wall_s": 0.5788616090000005,
+        "lp_solves": 276,
+        "node_limit": 5,
+        "found_feasible": true,
+        "dominates": true
+      }
+    ],
+    "certificate": "NO_PROOF: bounded clique repair; endpoint-order cell only",
+    "challenger": "AN01_Q3_001_CC",
+    "status": "DOMINATING_CANDIDATE_PENDING_INDEPENDENT_VALIDATION"
+  }
+]

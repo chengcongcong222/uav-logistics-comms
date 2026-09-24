@@ -1,0 +1,92 @@
+{
+  "gate": "Q4_INDEPENDENT_PARTITIONS_READY",
+  "source_solution": "A11_Q3_001",
+  "Gamma_C_db": 0,
+  "unsplittable_blocks": 6,
+  "enumerated_partitions": {
+    "2": 31,
+    "3": 90
+  },
+  "exact_pareto_partitions": {
+    "2": 14,
+    "3": 27
+  },
+  "validated_packages": [
+    {
+      "partition_id": "Q4_K2_005",
+      "status": "Q4_PARTITION_INDEPENDENTLY_VALIDATED",
+      "minimum_resources_certified": true,
+      "frozen_tasks_and_communications_preserved": true,
+      "inventory_feasible": false,
+      "shortage": {
+        "TUAV_A": 1,
+        "TUAV_B": 1,
+        "TUAV_C": 0,
+        "TBAT_A": 0,
+        "TBAT_B": 0,
+        "TBAT_C": 0,
+        "RUAV": 0,
+        "REC": 0
+      },
+      "requires_additional_inventory": true
+    },
+    {
+      "partition_id": "Q4_K2_016",
+      "status": "Q4_PARTITION_INDEPENDENTLY_VALIDATED",
+      "minimum_resources_certified": true,
+      "frozen_tasks_and_communications_preserved": true,
+      "inventory_feasible": false,
+      "shortage": {
+        "TUAV_A": 3,
+        "TUAV_B": 2,
+        "TUAV_C": 1,
+        "TBAT_A": 1,
+        "TBAT_B": 2,
+        "TBAT_C": 1,
+        "RUAV": 1,
+        "REC": 0
+      },
+      "requires_additional_inventory": true
+    },
+    {
+      "partition_id": "Q4_K3_030",
+      "status": "Q4_PARTITION_INDEPENDENTLY_VALIDATED",
+      "minimum_resources_certified": true,
+      "frozen_tasks_and_communications_preserved": true,
+      "inventory_feasible": false,
+      "shortage": {
+        "TUAV_A": 3,
+        "TUAV_B": 3,
+        "TUAV_C": 1,
+        "TBAT_A": 1,
+        "TBAT_B": 3,
+        "TBAT_C": 1,
+        "RUAV": 2,
+        "REC": 0
+      },
+      "requires_additional_inventory": true
+    },
+    {
+      "partition_id": "Q4_K3_060",
+      "status": "Q4_PARTITION_INDEPENDENTLY_VALIDATED",
+      "minimum_resources_certified": true,
+      "frozen_tasks_and_communications_preserved": true,
+      "inventory_feasible": false,
+      "shortage": {
+        "TUAV_A": 1,
+        "TUAV_B": 1,
+        "TUAV_C": 1,
+        "TBAT_A": 0,
+        "TBAT_B": 0,
+        "TBAT_C": 1,
+        "RUAV": 0,
+        "REC": 0
+      },
+      "requires_additional_inventory": true
+    }
+  ],
+  "all_partition_resource_minima_certified": true,
+  "scope": "EXACT_FOR_FIXED_G2_A11_Q3_001_TASKS_AND_WHOLE_RELAY_DEPENDENCY_PARTITIONS",
+  "inventory_infeasibility_is_a_reported_Q4_outcome": true,
+  "E8B_is_not_a_gate": true
+}

@@ -1,0 +1,774 @@
+[
+  {
+    "source": "A03_Q3_001",
+    "domain": "fixed transport structure and relay grouping/sites/sequences; free transport resource allocation and clocks; conservative energy inequality",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.25945731600000244,
+        "lp_solves": 134,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "makespan",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.10761726000000138,
+        "lp_solves": 58,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "energy",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.18098763000000062,
+        "lp_solves": 94,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "timeliness",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.2063032749999998,
+        "lp_solves": 104,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "makespan",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.11165704899999795,
+        "lp_solves": 58,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "energy",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.10000931199999741,
+        "lp_solves": 52,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      }
+    ],
+    "proof": "NONE: bounded resource repair and possibly excluded incumbent; absence of a challenger is not a nondominance certificate",
+    "status": "NO_DOMINATOR_FOUND_IN_DECLARED_CHALLENGE"
+  },
+  {
+    "source": "A03_Q3_002",
+    "domain": "fixed transport structure and relay grouping/sites/sequences; free transport resource allocation and clocks; conservative energy inequality",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.2045415290000001,
+        "lp_solves": 104,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "makespan",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.1108715370000013,
+        "lp_solves": 58,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "energy",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.1357208779999972,
+        "lp_solves": 70,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "timeliness",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.20064206500000026,
+        "lp_solves": 104,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "makespan",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.11430800100000127,
+        "lp_solves": 58,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "energy",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.09543834999999845,
+        "lp_solves": 52,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      }
+    ],
+    "proof": "NONE: bounded resource repair and possibly excluded incumbent; absence of a challenger is not a nondominance certificate",
+    "status": "NO_DOMINATOR_FOUND_IN_DECLARED_CHALLENGE"
+  },
+  {
+    "source": "A11_Q3_001",
+    "domain": "fixed transport structure and relay grouping/sites/sequences; free transport resource allocation and clocks; conservative energy inequality",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.9065623970000019,
+        "lp_solves": 480,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "makespan",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.3661995359999999,
+        "lp_solves": 204,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "energy",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.4630447590000024,
+        "lp_solves": 252,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      }
+    ],
+    "proof": "NONE: bounded resource repair and possibly excluded incumbent; absence of a challenger is not a nondominance certificate",
+    "status": "NO_DOMINATOR_FOUND_IN_DECLARED_CHALLENGE"
+  },
+  {
+    "source": "A11_Q3_002",
+    "domain": "fixed transport structure and relay grouping/sites/sequences; free transport resource allocation and clocks; conservative energy inequality",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "incumbent_satisfies_linear_domain": true,
+        "wall_s": 0.4849419680000011,
+        "lp_solves": 274,
+        "found_feasible": true,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "makespan",
+        "incumbent_satisfies_linear_domain": true,
+        "wall_s": 0.4070973610000017,
+        "lp_solves": 226,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "energy",
+        "incumbent_satisfies_linear_domain": true,
+        "wall_s": 0.35229264699999874,
+        "lp_solves": 201,
+        "found_feasible": true,
+        "dominates": false,
+        "node_limit": 5
+      }
+    ],
+    "proof": "NONE: bounded resource repair and possibly excluded incumbent; absence of a challenger is not a nondominance certificate",
+    "status": "NO_DOMINATOR_FOUND_IN_DECLARED_CHALLENGE"
+  },
+  {
+    "source": "A11_Q3_003",
+    "domain": "fixed transport structure and relay grouping/sites/sequences; free transport resource allocation and clocks; conservative energy inequality",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.824221283,
+        "lp_solves": 386,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "makespan",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.5270890160000015,
+        "lp_solves": 253,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "energy",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.7243151710000006,
+        "lp_solves": 362,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "timeliness",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.7615791799999982,
+        "lp_solves": 386,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "makespan",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.4978442130000005,
+        "lp_solves": 253,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "energy",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.4784318859999992,
+        "lp_solves": 248,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      }
+    ],
+    "proof": "NONE: bounded resource repair and possibly excluded incumbent; absence of a challenger is not a nondominance certificate",
+    "status": "NO_DOMINATOR_FOUND_IN_DECLARED_CHALLENGE"
+  },
+  {
+    "source": "A11_Q3_004",
+    "domain": "fixed transport structure and relay grouping/sites/sequences; free transport resource allocation and clocks; conservative energy inequality",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.523098313000002,
+        "lp_solves": 259,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "makespan",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.35125562700000046,
+        "lp_solves": 194,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "energy",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.2836918570000009,
+        "lp_solves": 152,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      }
+    ],
+    "proof": "NONE: bounded resource repair and possibly excluded incumbent; absence of a challenger is not a nondominance certificate",
+    "status": "NO_DOMINATOR_FOUND_IN_DECLARED_CHALLENGE"
+  },
+  {
+    "source": "A11_Q3_005",
+    "domain": "fixed transport structure and relay grouping/sites/sequences; free transport resource allocation and clocks; conservative energy inequality",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.280541153999998,
+        "lp_solves": 137,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "makespan",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.1696646830000006,
+        "lp_solves": 86,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "energy",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.23675145800000053,
+        "lp_solves": 121,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "timeliness",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.29126209800000424,
+        "lp_solves": 137,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "makespan",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.17545623499999863,
+        "lp_solves": 86,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "energy",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.20197281699999792,
+        "lp_solves": 101,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      }
+    ],
+    "proof": "NONE: bounded resource repair and possibly excluded incumbent; absence of a challenger is not a nondominance certificate",
+    "status": "NO_DOMINATOR_FOUND_IN_DECLARED_CHALLENGE"
+  },
+  {
+    "source": "B01_Q3_001",
+    "domain": "fixed transport structure and relay grouping/sites/sequences; free transport resource allocation and clocks; conservative energy inequality",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.8275431100000006,
+        "lp_solves": 429,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "makespan",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.4534838869999973,
+        "lp_solves": 233,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "energy",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.5891296480000037,
+        "lp_solves": 317,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      }
+    ],
+    "proof": "NONE: bounded resource repair and possibly excluded incumbent; absence of a challenger is not a nondominance certificate",
+    "status": "NO_DOMINATOR_FOUND_IN_DECLARED_CHALLENGE"
+  },
+  {
+    "source": "B01_Q3_002",
+    "domain": "fixed transport structure and relay grouping/sites/sequences; free transport resource allocation and clocks; conservative energy inequality",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.677727363999999,
+        "lp_solves": 344,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "makespan",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.44682479299999756,
+        "lp_solves": 227,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "energy",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.4336635059999949,
+        "lp_solves": 233,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      }
+    ],
+    "proof": "NONE: bounded resource repair and possibly excluded incumbent; absence of a challenger is not a nondominance certificate",
+    "status": "NO_DOMINATOR_FOUND_IN_DECLARED_CHALLENGE"
+  },
+  {
+    "source": "B01_Q3_003",
+    "domain": "fixed transport structure and relay grouping/sites/sequences; free transport resource allocation and clocks; conservative energy inequality",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.6712173179999965,
+        "lp_solves": 344,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "makespan",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.4350948720000005,
+        "lp_solves": 227,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "energy",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.4500350360000027,
+        "lp_solves": 233,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "timeliness",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.0054254700000058165,
+        "lp_solves": 3,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "makespan",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.005306826000001763,
+        "lp_solves": 3,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "energy",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.00583873099999721,
+        "lp_solves": 3,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      }
+    ],
+    "proof": "NONE: bounded resource repair and possibly excluded incumbent; absence of a challenger is not a nondominance certificate",
+    "status": "NO_DOMINATOR_FOUND_IN_DECLARED_CHALLENGE"
+  },
+  {
+    "source": "B02_Q3_001",
+    "domain": "fixed transport structure and relay grouping/sites/sequences; free transport resource allocation and clocks; conservative energy inequality",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.4954649409999945,
+        "lp_solves": 243,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "makespan",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.13550386000000003,
+        "lp_solves": 76,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "energy",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.14305908300000425,
+        "lp_solves": 75,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "timeliness",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.454550526999995,
+        "lp_solves": 243,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "makespan",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.12363228099999901,
+        "lp_solves": 70,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "energy",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.13283724700000477,
+        "lp_solves": 69,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      }
+    ],
+    "proof": "NONE: bounded resource repair and possibly excluded incumbent; absence of a challenger is not a nondominance certificate",
+    "status": "NO_DOMINATOR_FOUND_IN_DECLARED_CHALLENGE"
+  },
+  {
+    "source": "B02_Q3_002",
+    "domain": "fixed transport structure and relay grouping/sites/sequences; free transport resource allocation and clocks; conservative energy inequality",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.3494396420000001,
+        "lp_solves": 182,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "makespan",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.1331935520000016,
+        "lp_solves": 76,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "energy",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.1323790200000019,
+        "lp_solves": 69,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "timeliness",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.3389357000000004,
+        "lp_solves": 182,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "makespan",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.11500447400000269,
+        "lp_solves": 64,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "energy",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.12825896799999725,
+        "lp_solves": 69,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      }
+    ],
+    "proof": "NONE: bounded resource repair and possibly excluded incumbent; absence of a challenger is not a nondominance certificate",
+    "status": "NO_DOMINATOR_FOUND_IN_DECLARED_CHALLENGE"
+  },
+  {
+    "source": "B02_Q3_003",
+    "domain": "fixed transport structure and relay grouping/sites/sequences; free transport resource allocation and clocks; conservative energy inequality",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.49025520200000017,
+        "lp_solves": 247,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "makespan",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.2223742669999993,
+        "lp_solves": 118,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "energy",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.12960642899999897,
+        "lp_solves": 70,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "timeliness",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.5171477329999945,
+        "lp_solves": 272,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "makespan",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.12028153800000041,
+        "lp_solves": 64,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "strictly_lower_lateness",
+        "objective": "energy",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.11707677700000119,
+        "lp_solves": 64,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      }
+    ],
+    "proof": "NONE: bounded resource repair and possibly excluded incumbent; absence of a challenger is not a nondominance certificate",
+    "status": "NO_DOMINATOR_FOUND_IN_DECLARED_CHALLENGE"
+  },
+  {
+    "source": "AN01_Q3_001",
+    "domain": "fixed transport structure and relay grouping/sites/sequences; free transport resource allocation and clocks; conservative energy inequality",
+    "attempts": [
+      {
+        "branch": "equal_lateness",
+        "objective": "timeliness",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.8242736260000001,
+        "lp_solves": 425,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "makespan",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.5965984010000014,
+        "lp_solves": 324,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      },
+      {
+        "branch": "equal_lateness",
+        "objective": "energy",
+        "incumbent_satisfies_linear_domain": false,
+        "wall_s": 0.4690832140000012,
+        "lp_solves": 224,
+        "found_feasible": false,
+        "dominates": false,
+        "node_limit": 5
+      }
+    ],
+    "proof": "NONE: bounded resource repair and possibly excluded incumbent; absence of a challenger is not a nondominance certificate",
+    "status": "NO_DOMINATOR_FOUND_IN_DECLARED_CHALLENGE"
+  }
+]

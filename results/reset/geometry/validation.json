@@ -1,0 +1,9 @@
+{
+  "status": "G2_NATIVE_CELL_GEOMETRY_INDEPENDENTLY_VALIDATED",
+  "directed_legs": 240,
+  "independent_method": "row-strip clipping and 48-step bisection",
+  "shared": "source raster and CRS transformer only",
+  "native_registration": "GDAL affine unchanged",
+  "boundary": "all touched native cells",
+  "numerical_scope": "local projection axis-monotonic segments; generator guards monotonicity; numerical roots, not symbolic algebra"
+}

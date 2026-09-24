@@ -1,0 +1,28 @@
+{
+  "commit": "badc8a4282f9935018c837e52b32b86539c96071",
+  "scope": "isolated behavior probes, not full-instance optimization",
+  "empty_solution_new_mission_types": [
+    "A",
+    "B"
+  ],
+  "fourteen_missions_retained_insertions": 12,
+  "fourteen_missions_touched_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "fourteen_missions_new_mission_probe_retained": false,
+  "surviving_route_order_before": [
+    "S2",
+    "S1"
+  ],
+  "surviving_route_order_after": [
+    "S1",
+    "S2"
+  ],
+  "repair_sort_can_prefer_late_100_over_late_0": true,
+  "tests_passed": 4
+}

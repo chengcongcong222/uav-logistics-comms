@@ -1,0 +1,30 @@
+{
+  "line": "OWN_UNIFORM_LNS_BASELINE",
+  "seed": 2026092507,
+  "limit_s": 60,
+  "actual_wall_s": 103.33630233299999,
+  "iterations": 2,
+  "feasible_repairs": 2,
+  "operator_choice": "uniform; not claimed adaptive",
+  "initial_metrics": {
+    "J_late": 65501.00549024007,
+    "J_norm": 0.5125647900904743,
+    "J_time": 0.5125647900904743,
+    "makespan": 10570.82377657593,
+    "energy": 85.66393821918167,
+    "sorties": 32,
+    "soft_late_count": 6,
+    "soft_lateness_sum": 5671.9961644264,
+    "max_soft_lateness": 2508.7622989215197
+  },
+  "metrics": {
+    "J_late": 52468.817221073274,
+    "J_norm": 0.5140183937384113,
+    "makespan": 10372.82377657593,
+    "energy": 90.82155968351297,
+    "sorties": 35,
+    "source": "LNS",
+    "global_optimum_proven": false
+  },
+  "iteration_boundary_timeout": true
+}

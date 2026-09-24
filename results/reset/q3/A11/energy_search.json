@@ -1,0 +1,36 @@
+{
+  "status": "BOUNDED_SEARCH_COMPLETED",
+  "objective": "energy",
+  "J_late_budget": null,
+  "rounds": 1,
+  "repairs_per_round": 8,
+  "root_relaxations": 47,
+  "lp_solves": 1697,
+  "runtime_s": 4.830452613000006,
+  "history": [
+    {
+      "iteration": 1,
+      "ranked": 25,
+      "repaired": 8,
+      "feasible": 7,
+      "metrics": {
+        "J_late": 72924.65496876868,
+        "J_norm": 0.5719354190111585,
+        "joint_makespan_s": 11082.025158389133,
+        "transport_energy_kwh": 67.38961978302869,
+        "relay_energy_kwh": 2.9413382265057755,
+        "total_energy_kwh": 70.33095800953447,
+        "transport_sorties": 25,
+        "relay_sorties": 5,
+        "total_transport_shift_s": 26720.571824068968,
+        "total_absolute_transport_shift_s": 43663.733530697755,
+        "max_transport_shift_s": 8686.324594455677,
+        "minimum_M_E_kwh": 1.6571120315654786
+      },
+      "elapsed_s": 4.830398480000014
+    }
+  ],
+  "global_optimum_proven": false,
+  "fixed_transport_order": false,
+  "energy_ranking_surrogate": "FLIGHT_PLUS_CONTINUOUS_ACTIVE_SPAN; ACCEPTANCE_USES_EXACT_UNION_ENERGY"
+}

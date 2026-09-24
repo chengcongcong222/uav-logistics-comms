@@ -1,0 +1,18 @@
+[
+  {
+    "source": "AS01",
+    "challenger": "CS01",
+    "branch": "equal_or_lower_lateness_all_scalar_caps",
+    "result": null,
+    "domain": "own pattern pool; 180 s outward resource grid; continuous incumbent not guaranteed included; strict branch releases J_norm",
+    "certificate": "NO_NONDOMINANCE_PROOF"
+  },
+  {
+    "source": "AS01",
+    "challenger": "CS02",
+    "branch": "strictly_lower_lateness_lexicographic_branch",
+    "result": null,
+    "domain": "own pattern pool; 180 s outward resource grid; continuous incumbent not guaranteed included; strict branch releases J_norm",
+    "certificate": "NO_NONDOMINANCE_PROOF"
+  }
+]

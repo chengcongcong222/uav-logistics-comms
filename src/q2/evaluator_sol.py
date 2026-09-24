@@ -33,6 +33,7 @@ def evaluate_solution(
     evaluator: MissionEvaluator,
     decoder: ResourceDecoder,
     gate_stats: Optional[GateStats] = None,
+    preserve_order: bool = False,
 ) -> Optional[Solution]:
     gs = gate_stats or GateStats()
     missions: list[Mission] = []
@@ -58,7 +59,8 @@ def evaluate_solution(
             urg += w / max(d, 1.0)
         return (ls, -urg, m.initial_payload_kg)
 
-    missions.sort(key=sort_key)
+    if not preserve_order:
+        missions.sort(key=sort_key)
     decoded, _st, ok = decoder.decode_order(missions)
     if not ok or len(decoded) != len(missions):
         return None

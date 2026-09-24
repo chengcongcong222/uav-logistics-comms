@@ -1,0 +1,53 @@
+patterns 266 classes 53
+variables 6420 rows 431 nnz 181591
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 5e+00]
+  Cost   [9e-01, 6e+00]
+  Bound  [1e+00, 4e+00]
+  RHS    [1e+00, 8e+00]
+
+Presolve is switched off
+
+Solving MIP model with:
+   431 rows
+   6420 cols (5211 binary, 1209 integer, 0 implied int., 0 continuous)
+   181591 nonzeros
+MIP-Timing:       0.025 - starting analytic centre calculation
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic; L => Sub-MIP;
+     P => Empty MIP; R => Randomized rounding; S => Solve LP; T => Evaluate node; U => Unbounded;
+     z => Trivial zero; l => Trivial lower; u => Trivial upper; p => Trivial point
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   0               inf                  inf        0      0      0         0     0.0s
+         0       0         0   0.00%   63.32558279     inf                  inf        0      0      4       527     0.1s
+ L       0       0         0   0.00%   65.28529078     65.8535465         0.86%      828     37    103      1043     4.5s
+         1       0         1 100.00%   65.28529078     65.8535465         0.86%      798     37    103      2911     4.5s
+
+Solving report
+  Status            Optimal
+  Primal bound      65.8535464999
+  Dual bound        65.2852907835
+  Gap               0.863% (tolerance: 1%)
+  P-D integral      7.18379781352e-05
+  Solution status   feasible
+                    65.8535464999 (objective)
+                    0 (bound viol.)
+                    3.30846461338e-14 (int. viol.)
+                    0 (row viol.)
+  Timing            4.49 (total)
+                    0.00 (presolve)
+                    0.00 (solve)
+                    0.00 (postsolve)
+  Max sub-MIP depth 5
+  Nodes             1
+  Repair LPs        0 (0 feasible; 0 iterations)
+  LP iterations     2911 (total)
+                    0 (strong br.)
+                    516 (separation)
+                    1868 (heuristics)
+status 0 Optimization terminated successfully. (HiGHS Status 7: Optimal)
+{"status": 0, "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)", "runtime_s": 4.520059263999997, "patterns": 266, "variables": 6420, "start_grid_s": 180, "horizon_s": 7200, "objective": "energy", "source_commit": "badc8a4282f9935018c837e52b32b86539c96071", "scope": "single-stop zero-late conservative time-indexed candidate model; not original optimum", "objective_value": 65.85354649993148, "dual_bound": 65.28529078350745, "mip_gap": 0.008629082967074899, "sorties": 24, "energy_kwh": 65.8535464999315, "makespan_s": 7161.061066593164}

@@ -1,0 +1,4 @@
+uav_type,battery_pool_count,full_charge_time_s
+A,6,1800.0
+B,4,2400.0
+C,4,3000.0

@@ -1,0 +1,18 @@
+{
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "runtime_s": 0.3162699940000948,
+  "patterns": 266,
+  "variables": 7805,
+  "start_grid_s": 180,
+  "horizon_s": 9600,
+  "objective": "energy",
+  "source_commit": "badc8a4282f9935018c837e52b32b86539c96071",
+  "scope": "single-stop zero-late conservative time-indexed candidate model; not original optimum",
+  "objective_value": 61.49584464486047,
+  "dual_bound": 61.49584464486047,
+  "mip_gap": 0.0,
+  "sorties": 22,
+  "energy_kwh": 61.49584464486047,
+  "makespan_s": 9478.442247394409
+}

@@ -1,0 +1,60 @@
+{
+  "scope": "finite-set comparison, not full-domain nondominance certificate",
+  "new_points_mutually_nondominated_core": true,
+  "dominance_over_old": [
+    {
+      "new": "R_FAST",
+      "old": "OLD_P01",
+      "core_dominates": true,
+      "also_all_five_scalar_metrics_dominate": true
+    },
+    {
+      "new": "R_FAST",
+      "old": "OLD_P02",
+      "core_dominates": true,
+      "also_all_five_scalar_metrics_dominate": true
+    },
+    {
+      "new": "R_FAST",
+      "old": "OLD_P03",
+      "core_dominates": true,
+      "also_all_five_scalar_metrics_dominate": true
+    },
+    {
+      "new": "R_BALANCED",
+      "old": "OLD_P01",
+      "core_dominates": true,
+      "also_all_five_scalar_metrics_dominate": true
+    },
+    {
+      "new": "R_BALANCED",
+      "old": "OLD_P02",
+      "core_dominates": true,
+      "also_all_five_scalar_metrics_dominate": true
+    },
+    {
+      "new": "R_BALANCED",
+      "old": "OLD_P03",
+      "core_dominates": true,
+      "also_all_five_scalar_metrics_dominate": true
+    },
+    {
+      "new": "R_ENERGY",
+      "old": "OLD_P01",
+      "core_dominates": true,
+      "also_all_five_scalar_metrics_dominate": true
+    },
+    {
+      "new": "R_ENERGY",
+      "old": "OLD_P02",
+      "core_dominates": true,
+      "also_all_five_scalar_metrics_dominate": false
+    },
+    {
+      "new": "R_ENERGY",
+      "old": "OLD_P03",
+      "core_dominates": true,
+      "also_all_five_scalar_metrics_dominate": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "results/reset/q2/pareto_schedules/B02/q2_sorties.csv": "2cb65cfc2379fd39ecd1d73b93b73ecee7481da871ba7221fa4408e429e5facf",
+  "results/reset/q2/pareto_schedules/B02/q2_box_delivery.csv": "b8560c19e91c1fa0b152eeb2d1807b0e72d89dca2e88b65b9341283dabcd2194",
+  "results/reset/q2/pareto_schedules/B02/transport_trace.csv": "2d048c0dee83d93a83540be03b8cd6ef8602327a8837389d2900b7a056358956",
+  "results/reset/q2/pareto_schedules/B02/missions.json": "3db5bdca6d751757a30cdd9faaf07917becf5b7a890b7ee80a0c8fd1a6b78f37",
+  "results/reset/geometry/manifest.json": "9db8a5d8afb2e9e498db2a10a895bb133d2e00de24515202080374a3fe4318dc",
+  "src/reset/q3.py": "6720b86cec23ad4b34216ab3bccc89ce3417bb1b39988f8de5c8503c8f58e8f7"
+}

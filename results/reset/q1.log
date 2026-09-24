@@ -1,0 +1,9 @@
+{
+  "geometry": "G2",
+  "sorties": 18,
+  "energy_kwh": 59.130796486658646,
+  "sum_sortie_duration_s": 32776.09267694376,
+  "objective": "per-service lexicographic minimum sorties, then energy, then summed duration",
+  "method": "complete subset partition DP at each service; no fleet schedule in Q1"
+}
+

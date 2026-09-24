@@ -1,0 +1,26 @@
+{
+  "status": "INDEPENDENT_SINGLE_STOP_Q2_AUDIT_PASS",
+  "boxes": 80,
+  "hard_deadline_boxes": 31,
+  "first_batch_boxes": 30,
+  "total_mass_kg": 758,
+  "total_volume_m3": 2.011,
+  "J_late": 0.0,
+  "J_norm": 0.4693740303374601,
+  "makespan_s": 6878.4195779849315,
+  "energy_kwh": 65.8535464999315,
+  "sorties": 24,
+  "by_type": {
+    "A": 9,
+    "C": 7,
+    "B": 8
+  },
+  "minimum_energy_margin_kwh": 0.22479163523963575,
+  "minimum_hard_deadline_margin_s": 436.2138120524405,
+  "resource_conflicts": 0,
+  "energy_recompute_max_error": 8.881784197001252e-16,
+  "time_recompute_max_error": 9.094947017729282e-13,
+  "limits": "Independent Q2 audit under repository frozen geometry and accepted formulas; NOT a fresh DEM audit; NOT Q3 communication; NOT original global optimum.",
+  "source_commit": "badc8a4282f9935018c837e52b32b86539c96071",
+  "schedule_sha256": "b71738feabb4819a87342dd0b9cab1fde332a60601a3e06edbde09d13c5531f1"
+}

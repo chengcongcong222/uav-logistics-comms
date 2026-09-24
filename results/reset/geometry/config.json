@@ -1,0 +1,13 @@
+{
+  "version": "G2_UTM49N_STRAIGHT_NATIVE_SUPERCOVER_V1",
+  "path": "straight UTM EPSG:32649; inverse-project to native EPSG:4326 raster for cell-boundary roots",
+  "registration": "native GDAL affine, no extra half-cell shift",
+  "boundary": "supercover, both sides of touched edges and all corner cells",
+  "nodata": "fail closed, including out-of-raster",
+  "root_tolerance_parameter": 1e-13,
+  "pixel_boundary_tolerance": 1e-07,
+  "monotonicity_guard_samples": 257,
+  "radio_LOS": "existing frozen terrain_los primitive unchanged",
+  "transport_and_relay_flight_geometry": "same FlightDem routine",
+  "G0_G1_G2_changes_reported_separately": true
+}

@@ -1,0 +1,272 @@
+{
+  "blocks": [
+    [
+      "S001"
+    ],
+    [
+      "S002",
+      "S003",
+      "S005",
+      "S007",
+      "S008",
+      "S009",
+      "S013",
+      "S015"
+    ],
+    [
+      "S004"
+    ],
+    [
+      "S006"
+    ],
+    [
+      "S010",
+      "S012",
+      "S014"
+    ],
+    [
+      "S011"
+    ]
+  ],
+  "hyperedges": [
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M001",
+      "services": [
+        "S001"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M002",
+      "services": [
+        "S001"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M003",
+      "services": [
+        "S002"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M004",
+      "services": [
+        "S002"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M005",
+      "services": [
+        "S003"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M006",
+      "services": [
+        "S003"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M007",
+      "services": [
+        "S004"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M008",
+      "services": [
+        "S005"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M009",
+      "services": [
+        "S005"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M010",
+      "services": [
+        "S005"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M011",
+      "services": [
+        "S006"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M012",
+      "services": [
+        "S006"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M013",
+      "services": [
+        "S006"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M014",
+      "services": [
+        "S007"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M015",
+      "services": [
+        "S007"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M016",
+      "services": [
+        "S007"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M017",
+      "services": [
+        "S008"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M018",
+      "services": [
+        "S009"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M019",
+      "services": [
+        "S010"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M020",
+      "services": [
+        "S010"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M021",
+      "services": [
+        "S011"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M022",
+      "services": [
+        "S012"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M023",
+      "services": [
+        "S013"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M024",
+      "services": [
+        "S014"
+      ]
+    },
+    {
+      "kind": "TRANSPORT_VISIT",
+      "task_id": "M025",
+      "services": [
+        "S015"
+      ]
+    },
+    {
+      "kind": "RELAY_COMMUNICATION_DEPENDENCY",
+      "task_id": "A11_Q3_001_R001",
+      "services": [
+        "S002",
+        "S007",
+        "S013"
+      ]
+    },
+    {
+      "kind": "RELAY_COMMUNICATION_DEPENDENCY",
+      "task_id": "A11_Q3_001_R002",
+      "services": [
+        "S010",
+        "S012",
+        "S014"
+      ]
+    },
+    {
+      "kind": "RELAY_COMMUNICATION_DEPENDENCY",
+      "task_id": "A11_Q3_001_R003",
+      "services": [
+        "S003",
+        "S007"
+      ]
+    },
+    {
+      "kind": "RELAY_COMMUNICATION_DEPENDENCY",
+      "task_id": "A11_Q3_001_R004",
+      "services": [
+        "S003",
+        "S005",
+        "S008",
+        "S009",
+        "S015"
+      ]
+    },
+    {
+      "kind": "RELAY_COMMUNICATION_DEPENDENCY",
+      "task_id": "A11_Q3_001_R005",
+      "services": [
+        "S004"
+      ]
+    }
+  ],
+  "global_minimum_resources": {
+    "TUAV_A": 4,
+    "TUAV_B": 2,
+    "TUAV_C": 2,
+    "TBAT_A": 6,
+    "TBAT_B": 4,
+    "TBAT_C": 4,
+    "RUAV": 2,
+    "REC": 3
+  },
+  "inventory": {
+    "TUAV_A": 4,
+    "TUAV_B": 2,
+    "TUAV_C": 2,
+    "TBAT_A": 6,
+    "TBAT_B": 4,
+    "TBAT_C": 4,
+    "RUAV": 2,
+    "REC": 6
+  }
+}

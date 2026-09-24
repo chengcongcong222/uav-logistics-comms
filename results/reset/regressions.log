@@ -1,0 +1,13 @@
+test_corner_supercover_and_reverse (__main__.Boundaries.test_corner_supercover_and_reverse) ... ok
+test_edge_nodata_rejected (__main__.Boundaries.test_edge_nodata_rejected) ... ok
+test_explicit_schedule_order_reaches_decoder (__main__.Boundaries.test_explicit_schedule_order_reaches_decoder) ... ok
+test_outside_rejected (__main__.Boundaries.test_outside_rejected) ... ok
+test_removal_keeps_route_order (__main__.Boundaries.test_removal_keeps_route_order) ... ok
+test_broken_dependency_rejected (__main__.Q4Mutations.test_broken_dependency_rejected) ... ok
+test_changed_frozen_time_rejected (__main__.Q4Mutations.test_changed_frozen_time_rejected) ... ok
+test_understated_resource_rejected (__main__.Q4Mutations.test_understated_resource_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.334s
+
+OK

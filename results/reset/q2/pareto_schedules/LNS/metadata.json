@@ -1,0 +1,9 @@
+{
+  "J_late": 52468.817221073274,
+  "J_norm": 0.5140183937384113,
+  "makespan": 10372.82377657593,
+  "energy": 90.82155968351297,
+  "sorties": 35,
+  "source": "LNS",
+  "global_optimum_proven": false
+}

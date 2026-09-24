@@ -1,0 +1,42 @@
+patterns 266 classes 53
+variables 23144 rows 1415 nnz 1812242
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 5e+00]
+  Cost   [9e-01, 6e+00]
+  Bound  [1e+00, 4e+00]
+  RHS    [1e+00, 8e+00]
+Presolving model
+1084 rows, 23144 cols, 1812236 nonzeros  0s
+1084 rows, 23144 cols, 1812236 nonzeros  27s
+Presolve: Time limit reached
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic; L => Sub-MIP;
+     P => Empty MIP; R => Randomized rounding; S => Solve LP; T => Evaluate node; U => Unbounded;
+     z => Trivial zero; l => Trivial lower; u => Trivial upper; p => Trivial point
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   -inf            inf                  inf        0  -1084      0         0    28.0s
+
+Solving report
+  Status            Time limit reached
+  Primal bound      inf
+  Dual bound        -inf
+  Gap               inf
+  P-D integral      0
+  Solution status   -
+  Timing            27.98 (total)
+                    0.00 (presolve)
+                    0.00 (solve)
+                    0.00 (postsolve)
+  Max sub-MIP depth 0
+  Nodes             0
+  Repair LPs        0 (0 feasible; 0 iterations)
+  LP iterations     0 (total)
+                    0 (strong br.)
+                    0 (separation)
+                    0 (heuristics)
+status 1 Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)
+{"status": 1, "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)", "runtime_s": 28.26576453100006, "patterns": 266, "variables": 23144, "start_grid_s": 60, "horizon_s": 9600, "objective": "energy", "source_commit": "badc8a4282f9935018c837e52b32b86539c96071", "scope": "single-stop zero-late conservative time-indexed candidate model; not original optimum"}

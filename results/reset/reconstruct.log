@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/ccc/projects/uav-logistics-comms/src/reset/reconstruct.py", line 76, in <module>
+    if __name__=='__main__':run()
+                            ^^^^^
+  File "/home/ccc/projects/uav-logistics-comms/src/reset/reconstruct.py", line 56, in run
+    assert alternatives,'No local alternative found';a,b,xy=alternatives[0];log=[]
+           ^^^^^^^^^^^^
+AssertionError: No local alternative found

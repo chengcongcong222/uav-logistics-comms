@@ -1,0 +1,2 @@
+relay_type,type_name,empty_mass_with_energy_kg,comm_module_mass_kg,takeoff_mass_kg,cruise_speed_mps,cruise_power_kw,energy_kwh,return_soc_min_pct,prep_time_s,link_setup_time_s,turnaround_time_s,max_climb_mps,max_descend_mps,climb_energy_eff,descend_energy_eff,hover_power_kw,comm_power_kw,max_hover_agl_m
+R,中继标准测试多旋翼,21.0,2.5,23.5,15.0,1.15,3.2,20.0,180.0,30.0,300.0,4.0,3.0,0.72,0.0,1.05,0.05,300.0

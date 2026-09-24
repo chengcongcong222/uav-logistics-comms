@@ -1,0 +1,11 @@
+{
+  "source_repo": "chengcongcong222/uav-logistics-comms",
+  "source_commit": "badc8a4282f9935018c837e52b32b86539c96071",
+  "geometry_source": "data/processed/route_geometry.csv lines 1–16; reverse legs use exchanged endpoint heights",
+  "geometry_repository_blob_sha": "2303c95b4d68e6d080d905d1841f4d517db58df7",
+  "original_archive_filename": "D题数据.zip",
+  "original_archive_sha256": "bbb4c17705b70b1ba365523ab189810305db86d6457aed5f4f5587274e4d07b4",
+  "data_origin": "user-supplied workbooks; not competitor solutions",
+  "research_scope": "fresh Q2 witnesses under frozen repository geometry; no new Q3 result",
+  "public_repo_written": false
+}

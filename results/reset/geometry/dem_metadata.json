@@ -1,0 +1,43 @@
+{
+  "epsg_lonlat": 4326,
+  "epsg_plane": 32649,
+  "tif": {
+    "rows": 1309,
+    "cols": 1486,
+    "crs": "EPSG:4326",
+    "res_x_m": 0.00027777777777777393,
+    "res_y_m": 0.0002777777777777777,
+    "bounds": {
+      "left": 109.0326388888889,
+      "bottom": 22.86125,
+      "right": 109.44541666666667,
+      "top": 23.22486111111111
+    },
+    "nodata": null,
+    "has_nodata": false,
+    "min_elev_m": 41.68907928466797,
+    "max_elev_m": 1132.8560791015625,
+    "row0_is_north": true
+  },
+  "mat": {
+    "elev_key": "dem",
+    "shape": [
+      1309,
+      1486
+    ],
+    "min_elev_m": 41.68907928466797,
+    "max_elev_m": 1132.8560791015625,
+    "aux_keys": [
+      "epsg_code",
+      "latitude",
+      "longitude",
+      "nodata",
+      "transform"
+    ]
+  },
+  "consistency": {
+    "shape_match_or_transpose": true,
+    "elev_range_match": true,
+    "orientation": "row0_matches_tif_row0"
+  }
+}

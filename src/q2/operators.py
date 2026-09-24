@@ -110,7 +110,7 @@ def _remove_boxes(ms: list[dict], rm: set[str]) -> tuple[list[dict], list[str]]:
         if by:
             m2 = copy.deepcopy(m)
             m2["boxes_by_service"] = by
-            m2["service_sequence"] = list(by.keys())
+            m2["service_sequence"] = [s for s in m["service_sequence"] if s in by]
             out.append(m2)
     return out, sorted(rm)
 
@@ -281,7 +281,7 @@ def mission_split(ms, rng, evaluator, decoder):
     svc = evaluator.box_idx.loc[b, "service_id"]
     if not left:
         return ms
-    a = pack_key(m["uav_type"], list(left.keys()), left)
+    a = pack_key(m["uav_type"], [s for s in m["service_sequence"] if s in left], left)
     c = pack_key(m["uav_type"], [svc], {svc: [b]})
     return ms[:i] + [a, c] + ms[i + 1 :]
 

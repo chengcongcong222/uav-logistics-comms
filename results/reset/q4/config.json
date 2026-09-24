@@ -1,0 +1,38 @@
+{
+  "source_solution": "A11_Q3_001",
+  "Gamma_C_db": 0,
+  "k": [
+    2,
+    3
+  ],
+  "selected": [
+    "Q4_K2_005",
+    "Q4_K3_060"
+  ],
+  "balanced_alternatives": [
+    "Q4_K2_016",
+    "Q4_K3_030"
+  ],
+  "inherited_structure": "TRANSPORT_VISIT_AND_WHOLE_RELAY_SORTIE_COMMUNICATION_DEPENDENCY_BLOCKS",
+  "task_times_routes_service_relations_frozen": true,
+  "resource_ids": "RECOLORED_WITHIN_GROUP_ONLY; SOURCE_IDS_RETAINED_FOR_PROVENANCE",
+  "minimum_resource_method": "INTERVAL_GRAPH_PEAK_CLIQUE_WITH_MATCHING_COLORING",
+  "time_tolerance_s": 1e-06,
+  "pareto_dimensions": [
+    "TUAV_A",
+    "TUAV_B",
+    "TUAV_C",
+    "TBAT_A",
+    "TBAT_B",
+    "TBAT_C",
+    "RUAV",
+    "REC",
+    "workload_cv"
+  ],
+  "selection": "LEX_MIN_TOTAL_SHORTAGE_UNITS_THEN_TOTAL_RESOURCE_UNITS_THEN_WORKLOAD_CV_THEN_LABELS",
+  "selection_counts_are_not_monetary_costs": true,
+  "randomized": false,
+  "source_robustness": "STANDARD_GAMMA_ZERO_ONLY",
+  "E8B_is_not_a_gate": true,
+  "resource_shortages_allowed_as_reported_Q4_outputs": true
+}

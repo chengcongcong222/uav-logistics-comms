@@ -1,0 +1,37 @@
+TEMPLATE B01 M001 False
+TEMPLATE B01 M002 False
+TEMPLATE B01 M003 False
+TEMPLATE B01 M004 True
+TEMPLATE B01 M005 False
+TEMPLATE B01 M006 False
+TEMPLATE B01 M007 False
+TEMPLATE B01 M008 False
+TEMPLATE B01 M009 False
+TEMPLATE B01 M010 False
+TEMPLATE B01 M011 True
+TEMPLATE B01 M012 False
+TEMPLATE B01 M013 False
+TEMPLATE B01 M014 True
+TEMPLATE B01 M015 False
+TEMPLATE B01 M016 False
+TEMPLATE B01 M017 False
+TEMPLATE B01 M018 False
+TEMPLATE B01 M019 False
+TEMPLATE B01 M020 False
+TEMPLATE B01 M021 False
+TEMPLATE B01 M022 True
+TEMPLATE B01 M023 False
+TEMPLATE B01 M024 True
+POOL B01 0 118
+POOL B01 20 118
+POOL B01 40 118
+POOL B01 60 118
+POOL B01 80 118
+POOL B01 100 118
+SEARCH B01 8 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'runtime_s': 1.6149842680000006, 'groups': 6, 'objective': 0.0, 'dual_bound': 0.0, 'scope': 'JOINT_TYPED_RESOURCES_MILP', 'limit_s': 60, 'transport_resource_repair_passed': True, 'batch': 8, 'groups_definition': [{'site_id': 'E52_214ce9a3b3bd3fa9c582335a', 'task_ids': ['B01_M005_G00', 'B01_M009_G00', 'B01_M010_G00', 'B01_M016_G00']}, {'site_id': 'E52_060143e4033ea7dfc142ce26', 'task_ids': ['B01_M011_G00']}, {'site_id': 'E52_575c4f100493de938643a13d', 'task_ids': ['B01_M006_G00', 'B01_M013_G00', 'B01_M014_G00']}, {'site_id': 'E52_47db2d0d55c92154c779a4c9', 'task_ids': ['B01_M003_G00', 'B01_M012_G00']}, {'site_id': 'E52_82c821a5773d0bfbe554f10a', 'task_ids': ['B01_M017_G00', 'B01_M018_G00', 'B01_M019_G00', 'B01_M020_G00', 'B01_M021_G00', 'B01_M021_G01', 'B01_M021_G02', 'B01_M023_G00', 'B01_M023_G01', 'B01_M023_G02']}, {'site_id': 'E52_30110e5b3ae38ecfab28ace2', 'task_ids': ['B01_M022_G00']}]}
+B01_timeliness {'iteration': 1, 'ranked': 10, 'repaired': 8, 'feasible': 8, 'metrics': {'J_late': 0.0, 'J_norm': 0.5148505256657516, 'joint_makespan_s': np.float64(8173.843850264619), 'transport_energy_kwh': 66.23934988064016, 'relay_energy_kwh': 3.5100575838620216, 'total_energy_kwh': 69.74940746450218, 'transport_sorties': 24, 'relay_sorties': 6, 'total_transport_shift_s': 6780.660445782294, 'total_absolute_transport_shift_s': 12933.766409535596, 'max_transport_shift_s': 1791.3504775325064, 'minimum_M_E_kwh': 1.6005968173401206}, 'elapsed_s': 7.912503831999999}
+B01_makespan {'iteration': 1, 'ranked': 9, 'repaired': 8, 'feasible': 7, 'metrics': {'J_late': 0.0, 'J_norm': 0.5267819826347152, 'joint_makespan_s': np.float64(7995.553591968153), 'transport_energy_kwh': 66.23934988064016, 'relay_energy_kwh': 3.459718650864364, 'total_energy_kwh': 69.69906853150452, 'transport_sorties': 24, 'relay_sorties': 6, 'total_transport_shift_s': 8680.408993311808, 'total_absolute_transport_shift_s': 14719.519854556162, 'max_transport_shift_s': 1791.3504775325064, 'minimum_M_E_kwh': 1.6509357503377784}, 'elapsed_s': 4.787083873}
+B01_energy {'iteration': 1, 'ranked': 13, 'repaired': 8, 'feasible': 3, 'metrics': {'J_late': 23218.468734022354, 'J_norm': 0.5718723790407687, 'joint_makespan_s': np.float64(11082.025158389133), 'transport_energy_kwh': 66.23934988064016, 'relay_energy_kwh': 3.4588114668588856, 'total_energy_kwh': 69.69816134749905, 'transport_sorties': 24, 'relay_sorties': 6, 'total_transport_shift_s': 21295.80821387426, 'total_absolute_transport_shift_s': 30056.189291397906, 'max_transport_shift_s': 6415.490029861138, 'minimum_M_E_kwh': 1.6518429343432564}, 'elapsed_s': 3.224987423000016}
+B01 XB1_Q3_PENDING_INDEPENDENT_VALIDATION relay_sorties 6 shift 6780.660445782294
+B01 XB1_Q3_PENDING_INDEPENDENT_VALIDATION relay_sorties 6 shift 8680.408993311808
+B01 XB1_Q3_PENDING_INDEPENDENT_VALIDATION relay_sorties 6 shift 21295.80821387426

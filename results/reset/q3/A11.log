@@ -1,0 +1,40 @@
+TEMPLATE A11 M001 False
+TEMPLATE A11 M002 False
+TEMPLATE A11 M003 True
+TEMPLATE A11 M004 True
+TEMPLATE A11 M005 False
+TEMPLATE A11 M006 False
+TEMPLATE A11 M007 True
+TEMPLATE A11 M008 False
+TEMPLATE A11 M009 False
+TEMPLATE A11 M010 False
+TEMPLATE A11 M011 False
+TEMPLATE A11 M012 False
+TEMPLATE A11 M013 False
+TEMPLATE A11 M014 False
+TEMPLATE A11 M015 True
+TEMPLATE A11 M016 False
+TEMPLATE A11 M017 False
+TEMPLATE A11 M018 True
+TEMPLATE A11 M019 False
+TEMPLATE A11 M020 False
+TEMPLATE A11 M021 True
+TEMPLATE A11 M022 True
+TEMPLATE A11 M023 True
+TEMPLATE A11 M024 True
+TEMPLATE A11 M025 True
+POOL A11 0 118
+POOL A11 20 118
+POOL A11 40 118
+POOL A11 60 118
+POOL A11 80 118
+POOL A11 100 118
+SEARCH A11 8 {'status': 0, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'runtime_s': 1.4113237640000023, 'groups': 6, 'objective': 0.0, 'dual_bound': 0.0, 'scope': 'JOINT_TYPED_RESOURCES_MILP', 'limit_s': 60, 'transport_resource_repair_passed': True, 'batch': 8, 'groups_definition': [{'site_id': 'E52_214ce9a3b3bd3fa9c582335a', 'task_ids': ['A11_M003_G00', 'A11_M004_G00', 'A11_M015_G00', 'A11_M016_G00', 'A11_M023_G00']}, {'site_id': 'E52_beb70ec57fd2d66bf65b827f', 'task_ids': ['A11_M019_G00', 'A11_M020_G00', 'A11_M022_G00', 'A11_M024_G00']}, {'site_id': 'E52_47db2d0d55c92154c779a4c9', 'task_ids': ['A11_M006_G00', 'A11_M014_G00']}, {'site_id': 'E52_82c821a5773d0bfbe554f10a', 'task_ids': ['A11_M005_G00', 'A11_M008_G00', 'A11_M008_G01', 'A11_M008_G02', 'A11_M009_G00', 'A11_M009_G01', 'A11_M009_G02', 'A11_M010_G00', 'A11_M010_G01', 'A11_M010_G02', 'A11_M017_G00', 'A11_M025_G00']}, {'site_id': 'E52_30110e5b3ae38ecfab28ace2', 'task_ids': ['A11_M007_G00']}, {'site_id': 'E52_44ed69e1d99dc074a7941a18', 'task_ids': ['A11_M018_G00']}]}
+A11_timeliness {'iteration': 1, 'ranked': 28, 'repaired': 8, 'feasible': 8, 'metrics': {'J_late': 0.0, 'J_norm': 0.4673434992897176, 'joint_makespan_s': np.float64(7191.5822294705995), 'transport_energy_kwh': 67.38961978302869, 'relay_energy_kwh': 3.074615636843778, 'total_energy_kwh': 70.46423541987247, 'transport_sorties': 25, 'relay_sorties': 5, 'total_transport_shift_s': 2469.032084780407, 'total_absolute_transport_shift_s': 10853.94023918886, 'max_transport_shift_s': 2325.4969843784334, 'minimum_M_E_kwh': 1.60088415712142}, 'elapsed_s': 7.875281571000016}
+A11_makespan {'iteration': 1, 'ranked': 25, 'repaired': 8, 'feasible': 6, 'metrics': {'J_late': 5309.694225065716, 'J_norm': 0.497648327776679, 'joint_makespan_s': np.float64(7616.353652382613), 'transport_energy_kwh': 67.38961978302869, 'relay_energy_kwh': 3.6762513632534892, 'total_energy_kwh': 71.06587114628218, 'transport_sorties': 25, 'relay_sorties': 5, 'total_transport_shift_s': 8115.961021869925, 'total_absolute_transport_shift_s': 21358.20335333626, 'max_transport_shift_s': 2325.4969843784334, 'minimum_M_E_kwh': 1.5978178743551055}, 'elapsed_s': 4.199524981999986}
+A11_energy {'iteration': 1, 'ranked': 25, 'repaired': 8, 'feasible': 7, 'metrics': {'J_late': 72924.65496876868, 'J_norm': 0.5719354190111585, 'joint_makespan_s': np.float64(11082.025158389133), 'transport_energy_kwh': 67.38961978302869, 'relay_energy_kwh': 2.9413382265057755, 'total_energy_kwh': 70.33095800953447, 'transport_sorties': 25, 'relay_sorties': 5, 'total_transport_shift_s': 26720.571824068968, 'total_absolute_transport_shift_s': 43663.733530697755, 'max_transport_shift_s': 8686.324594455677, 'minimum_M_E_kwh': 1.6571120315654786}, 'elapsed_s': 4.830398480000014}
+A11 XB1_Q3_PENDING_INDEPENDENT_VALIDATION relay_sorties 5 shift 2469.032084780407
+A11 XB1_Q3_PENDING_INDEPENDENT_VALIDATION relay_sorties 6 shift 8026.6403877916055
+A11 XB1_Q3_PENDING_INDEPENDENT_VALIDATION relay_sorties 5 shift 24450.035992413723
+A11 XB1_Q3_PENDING_INDEPENDENT_VALIDATION relay_sorties 5 shift 21860.319487080233
+A11 XB1_Q3_PENDING_INDEPENDENT_VALIDATION relay_sorties 5 shift 26720.571824068968

@@ -1,0 +1,1 @@
+SOLVED A12 {'J_late': 0.0, 'J_norm': np.float64(0.5077804134727029), 'makespan': 6953.4894208244805, 'energy': 66.19169301226313, 'sorties': 24, 'source': 'A12', 'global_optimum_proven': False}

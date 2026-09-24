@@ -1,0 +1,9 @@
+{
+  "status": "G2_Q1_INDEPENDENT_PHYSICS_VERIFIED",
+  "boxes": 80,
+  "sorties": 18,
+  "payload_limits": 45,
+  "energy_kwh": 59.130796486658646,
+  "sum_sortie_duration_s": 32776.09267694376,
+  "optimality_scope": "generator complete subset DP per service; this independent checker verifies feasibility and payload boundaries, not a second global optimizer"
+}

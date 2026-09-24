@@ -1,0 +1,14 @@
+{
+  "status": "G2_SUBMISSION_INDEPENDENTLY_VERIFIED",
+  "official_sheets": 6,
+  "Q1_sorties": 18,
+  "Q2_transport_sorties": 25,
+  "Q3_transport_sorties": 25,
+  "Q3_relay_sorties": 5,
+  "Q3_communication_intervals": 75,
+  "Q4_configurations": 2,
+  "Q4_rows": 5,
+  "explicit_Q3_transport_and_delivery_supplements": true,
+  "source_hashes_verified": true,
+  "workbook_sha256": "c970377aa9ae25a91b14704a89b184ef4515a0f27db53f7a2768d8704e7ed303"
+}

@@ -1,0 +1,10 @@
+patterns 732 classes 53
+variables 54790 rows 1415 nnz 4495115
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 5e+00]
+  Cost   [9e-01, 6e+00]
+  Bound  [1e+00, 4e+00]
+  RHS    [1e+00, 8e+00]
+Presolving model
+1085 rows, 54790 cols, 4495107 nonzeros  1s

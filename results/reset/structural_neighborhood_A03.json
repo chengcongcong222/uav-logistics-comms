@@ -1,0 +1,63 @@
+{
+  "status": "NO_ALTERNATIVE_IN_CONFIGURED_LOCAL_PAIRS",
+  "records": [
+    {
+      "sorties": [
+        "M005",
+        "M007"
+      ],
+      "shared_relay_site": "E52_82c821a5773d0bfbe554f10a",
+      "active_communication_s": 2285.46875,
+      "boxes": [
+        "S003-FOD-01",
+        "S003-MED-01",
+        "S003-WAT-01",
+        "S005-FOD-01",
+        "S005-HYG-01",
+        "S005-MED-01",
+        "S005-WAT-01",
+        "S005-WAT-02",
+        "S005-WAT-03"
+      ],
+      "feasible_local_pairs": 0,
+      "masks": 511
+    },
+    {
+      "sorties": [
+        "M005",
+        "M009"
+      ],
+      "shared_relay_site": "E52_82c821a5773d0bfbe554f10a",
+      "active_communication_s": 2285.46875,
+      "boxes": [
+        "S003-FOD-01",
+        "S003-MED-01",
+        "S003-WAT-01",
+        "S008-HYG-01",
+        "S008-WAT-02"
+      ],
+      "feasible_local_pairs": 0,
+      "masks": 31
+    },
+    {
+      "sorties": [
+        "M005",
+        "M010"
+      ],
+      "shared_relay_site": "E52_82c821a5773d0bfbe554f10a",
+      "active_communication_s": 2285.46875,
+      "boxes": [
+        "S003-FOD-01",
+        "S003-MED-01",
+        "S003-WAT-01",
+        "S008-FOD-01",
+        "S008-MED-01",
+        "S008-WAT-01"
+      ],
+      "feasible_local_pairs": 0,
+      "masks": 63
+    }
+  ],
+  "scope": "first three shared-relay two-sortie subsets, ten boxes, three services, energy increase at most 0.5 kWh",
+  "infeasibility_proven": false
+}

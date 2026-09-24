@@ -1,0 +1,47 @@
+[
+  {
+    "source": "A03",
+    "challenger": "C01",
+    "result": null,
+    "domain": "own generated 2903-pattern pool; 180 s outward resource grid; all four Q2 criteria bounded; J_late=0 equality branch",
+    "primary_reduction_branch": "impossible because certified incumbent J_late=0 and tardiness nonnegative",
+    "continuous_incumbent_not_guaranteed_in_domain": true,
+    "certificate": "NO_RESTRICTED_OR_GLOBAL_NONDOMINANCE_PROOF"
+  },
+  {
+    "source": "A11",
+    "challenger": "C02",
+    "result": null,
+    "domain": "own generated 2903-pattern pool; 180 s outward resource grid; all four Q2 criteria bounded; J_late=0 equality branch",
+    "primary_reduction_branch": "impossible because certified incumbent J_late=0 and tardiness nonnegative",
+    "continuous_incumbent_not_guaranteed_in_domain": true,
+    "certificate": "NO_RESTRICTED_OR_GLOBAL_NONDOMINANCE_PROOF"
+  },
+  {
+    "source": "A12",
+    "challenger": "C03",
+    "result": null,
+    "domain": "own generated 2903-pattern pool; 180 s outward resource grid; all four Q2 criteria bounded; J_late=0 equality branch",
+    "primary_reduction_branch": "impossible because certified incumbent J_late=0 and tardiness nonnegative",
+    "continuous_incumbent_not_guaranteed_in_domain": true,
+    "certificate": "NO_RESTRICTED_OR_GLOBAL_NONDOMINANCE_PROOF"
+  },
+  {
+    "source": "B01",
+    "challenger": "C04",
+    "result": null,
+    "domain": "own generated 2903-pattern pool; 180 s outward resource grid; all four Q2 criteria bounded; J_late=0 equality branch",
+    "primary_reduction_branch": "impossible because certified incumbent J_late=0 and tardiness nonnegative",
+    "continuous_incumbent_not_guaranteed_in_domain": true,
+    "certificate": "NO_RESTRICTED_OR_GLOBAL_NONDOMINANCE_PROOF"
+  },
+  {
+    "source": "B02",
+    "challenger": "C05",
+    "result": null,
+    "domain": "own generated 2903-pattern pool; 180 s outward resource grid; all four Q2 criteria bounded; J_late=0 equality branch",
+    "primary_reduction_branch": "impossible because certified incumbent J_late=0 and tardiness nonnegative",
+    "continuous_incumbent_not_guaranteed_in_domain": true,
+    "certificate": "NO_RESTRICTED_OR_GLOBAL_NONDOMINANCE_PROOF"
+  }
+]

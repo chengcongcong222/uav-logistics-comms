@@ -1,0 +1,24 @@
+{
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "runtime_s": 46.64065790800004,
+  "limit_s": 60,
+  "zero_lateness_constraint": true,
+  "scope": "FIXED_EXTERNAL_STRUCTURE_FRESH_RESOURCE_ASSIGNMENT",
+  "variables": 282,
+  "objective": 9214.61365231755,
+  "global_optimum_proven": false,
+  "metrics": {
+    "J_late": 0.0,
+    "J_norm": 0.5719587494464416,
+    "makespan": 9214.61365231755,
+    "energy": 60.949125377381236,
+    "sorties": 21,
+    "source": "B02",
+    "global_optimum_proven": false
+  },
+  "line": "EXTERNAL_XB_CONTROL",
+  "source_structure": "run02",
+  "geometry": "G2",
+  "given_clocks_used": false
+}

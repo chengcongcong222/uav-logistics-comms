@@ -1,0 +1,839 @@
+[
+  {
+    "mission_id": "M001",
+    "uav_type": "A",
+    "box_ids": [
+      "S001-WAT-06",
+      "S001-FOD-03"
+    ],
+    "service_sequence": [
+      "S001"
+    ],
+    "boxes_by_service": {
+      "S001": [
+        "S001-WAT-06",
+        "S001-FOD-03"
+      ]
+    },
+    "initial_payload_kg": 22.0,
+    "initial_volume_m3": 0.055,
+    "relative_prep_start": 0.0,
+    "relative_takeoff_time": 360.0,
+    "relative_delivery_times": {
+      "S001": 908.5739059656128
+    },
+    "relative_return_time": 1250.9011452645589,
+    "energy_kwh": 1.2823246082352031,
+    "energy_margin_kwh": 2.317675391764797,
+    "hard_deadline_latest_start": null,
+    "uav_id": "U01",
+    "battery_id": "BAT-A-01",
+    "preparation_start_s": 0,
+    "takeoff_s": 360.0,
+    "return_s": 1250.9011452645589,
+    "delivery_times_s": {
+      "S001": 908.5739059656128
+    }
+  },
+  {
+    "mission_id": "M002",
+    "uav_type": "A",
+    "box_ids": [
+      "S001-WAT-07",
+      "S001-FOD-01"
+    ],
+    "service_sequence": [
+      "S001"
+    ],
+    "boxes_by_service": {
+      "S001": [
+        "S001-WAT-07",
+        "S001-FOD-01"
+      ]
+    },
+    "initial_payload_kg": 22.0,
+    "initial_volume_m3": 0.055,
+    "relative_prep_start": 0.0,
+    "relative_takeoff_time": 360.0,
+    "relative_delivery_times": {
+      "S001": 908.5739059656128
+    },
+    "relative_return_time": 1250.9011452645589,
+    "energy_kwh": 1.2823246082352031,
+    "energy_margin_kwh": 2.317675391764797,
+    "hard_deadline_latest_start": null,
+    "uav_id": "U02",
+    "battery_id": "BAT-A-02",
+    "preparation_start_s": 0,
+    "takeoff_s": 360.0,
+    "return_s": 1250.9011452645589,
+    "delivery_times_s": {
+      "S001": 908.5739059656128
+    }
+  },
+  {
+    "mission_id": "M003",
+    "uav_type": "A",
+    "box_ids": [
+      "S001-WAT-08",
+      "S001-FOD-02"
+    ],
+    "service_sequence": [
+      "S001"
+    ],
+    "boxes_by_service": {
+      "S001": [
+        "S001-WAT-08",
+        "S001-FOD-02"
+      ]
+    },
+    "initial_payload_kg": 22.0,
+    "initial_volume_m3": 0.055,
+    "relative_prep_start": 0.0,
+    "relative_takeoff_time": 360.0,
+    "relative_delivery_times": {
+      "S001": 908.5739059656128
+    },
+    "relative_return_time": 1250.9011452645589,
+    "energy_kwh": 1.2823246082352031,
+    "energy_margin_kwh": 2.317675391764797,
+    "hard_deadline_latest_start": null,
+    "uav_id": "U03",
+    "battery_id": "BAT-A-03",
+    "preparation_start_s": 0,
+    "takeoff_s": 360.0,
+    "return_s": 1250.9011452645589,
+    "delivery_times_s": {
+      "S001": 908.5739059656128
+    }
+  },
+  {
+    "mission_id": "M004",
+    "uav_type": "B",
+    "box_ids": [
+      "S010-MED-01",
+      "S010-WAT-01",
+      "S010-FOD-01"
+    ],
+    "service_sequence": [
+      "S010"
+    ],
+    "boxes_by_service": {
+      "S010": [
+        "S010-MED-01",
+        "S010-WAT-01",
+        "S010-FOD-01"
+      ]
+    },
+    "initial_payload_kg": 25.0,
+    "initial_volume_m3": 0.067,
+    "relative_prep_start": 0.0,
+    "relative_takeoff_time": 390.0,
+    "relative_delivery_times": {
+      "S010": 1085.2251178898362
+    },
+    "relative_return_time": 1555.376902446339,
+    "energy_kwh": 1.8231457316476736,
+    "energy_margin_kwh": 1.3768542683523266,
+    "hard_deadline_latest_start": 2514.774882110164,
+    "uav_id": "U05",
+    "battery_id": "BAT-B-03",
+    "preparation_start_s": 1510.470290292942,
+    "takeoff_s": 1900.470290292942,
+    "return_s": 3065.847192739281,
+    "delivery_times_s": {
+      "S010": 2595.695408182778
+    }
+  },
+  {
+    "mission_id": "M005",
+    "uav_type": "B",
+    "box_ids": [
+      "S012-MED-01",
+      "S012-WAT-01",
+      "S012-FOD-01"
+    ],
+    "service_sequence": [
+      "S012"
+    ],
+    "boxes_by_service": {
+      "S012": [
+        "S012-MED-01",
+        "S012-WAT-01",
+        "S012-FOD-01"
+      ]
+    },
+    "initial_payload_kg": 25.0,
+    "initial_volume_m3": 0.067,
+    "relative_prep_start": 0.0,
+    "relative_takeoff_time": 390.0,
+    "relative_delivery_times": {
+      "S012": 1271.2972779850415
+    },
+    "relative_return_time": 1922.734555970083,
+    "energy_kwh": 2.75235444190214,
+    "energy_margin_kwh": 0.44764555809786,
+    "hard_deadline_latest_start": 2328.7027220149585,
+    "uav_id": "U06",
+    "battery_id": "BAT-B-02",
+    "preparation_start_s": 0,
+    "takeoff_s": 390.0,
+    "return_s": 1922.734555970083,
+    "delivery_times_s": {
+      "S012": 1271.2972779850415
+    }
+  },
+  {
+    "mission_id": "M006",
+    "uav_type": "C",
+    "box_ids": [
+      "S001-MED-01",
+      "S001-MED-02",
+      "S001-WAT-01",
+      "S001-WAT-02",
+      "S001-WAT-03",
+      "S001-WAT-04",
+      "S001-WAT-05"
+    ],
+    "service_sequence": [
+      "S001"
+    ],
+    "boxes_by_service": {
+      "S001": [
+        "S001-MED-01",
+        "S001-MED-02",
+        "S001-WAT-01",
+        "S001-WAT-02",
+        "S001-WAT-03",
+        "S001-WAT-04",
+        "S001-WAT-05"
+      ]
+    },
+    "initial_payload_kg": 76.0,
+    "initial_volume_m3": 0.159,
+    "relative_prep_start": 0.0,
+    "relative_takeoff_time": 510.0,
+    "relative_delivery_times": {
+      "S001": 1248.2701959394824
+    },
+    "relative_return_time": 1560.170391878965,
+    "energy_kwh": 2.917555936277246,
+    "energy_margin_kwh": 3.4824440637227543,
+    "hard_deadline_latest_start": 2351.7298040605174,
+    "uav_id": "U07",
+    "battery_id": "BAT-C-02",
+    "preparation_start_s": 0,
+    "takeoff_s": 510.0,
+    "return_s": 1560.170391878965,
+    "delivery_times_s": {
+      "S001": 1248.2701959394824
+    }
+  },
+  {
+    "mission_id": "M007",
+    "uav_type": "C",
+    "box_ids": [
+      "S002-MED-01",
+      "S002-WAT-01",
+      "S002-WAT-02",
+      "S002-WAT-03",
+      "S002-WAT-04",
+      "S002-FOD-01"
+    ],
+    "service_sequence": [
+      "S002"
+    ],
+    "boxes_by_service": {
+      "S002": [
+        "S002-MED-01",
+        "S002-WAT-01",
+        "S002-WAT-02",
+        "S002-WAT-03",
+        "S002-WAT-04",
+        "S002-FOD-01"
+      ]
+    },
+    "initial_payload_kg": 67.0,
+    "initial_volume_m3": 0.148,
+    "relative_prep_start": 0.0,
+    "relative_takeoff_time": 480.0,
+    "relative_delivery_times": {
+      "S002": 1487.3160093193542
+    },
+    "relative_return_time": 2107.812018638708,
+    "energy_kwh": 6.280782227150773,
+    "energy_margin_kwh": 0.11921777284922719,
+    "hard_deadline_latest_start": 2112.683990680646,
+    "uav_id": "U08",
+    "battery_id": "BAT-C-01",
+    "preparation_start_s": 0,
+    "takeoff_s": 480.0,
+    "return_s": 2107.812018638708,
+    "delivery_times_s": {
+      "S002": 1487.3160093193542
+    }
+  },
+  {
+    "mission_id": "M008",
+    "uav_type": "B",
+    "box_ids": [
+      "S013-MED-01",
+      "S013-WAT-01",
+      "S013-FOD-01"
+    ],
+    "service_sequence": [
+      "S013"
+    ],
+    "boxes_by_service": {
+      "S013": [
+        "S013-MED-01",
+        "S013-WAT-01",
+        "S013-FOD-01"
+      ]
+    },
+    "initial_payload_kg": 25.0,
+    "initial_volume_m3": 0.067,
+    "relative_prep_start": 0.0,
+    "relative_takeoff_time": 390.0,
+    "relative_delivery_times": {
+      "S013": 1062.7684734798056
+    },
+    "relative_return_time": 1510.4702802929446,
+    "energy_kwh": 1.8247182633032644,
+    "energy_margin_kwh": 1.3752817366967358,
+    "hard_deadline_latest_start": 2537.231526520194,
+    "uav_id": "U05",
+    "battery_id": "BAT-B-01",
+    "preparation_start_s": 0,
+    "takeoff_s": 390.0,
+    "return_s": 1510.4702802929446,
+    "delivery_times_s": {
+      "S013": 1062.7684734798056
+    }
+  },
+  {
+    "mission_id": "M009",
+    "uav_type": "C",
+    "box_ids": [
+      "S007-MED-01",
+      "S007-WAT-01",
+      "S007-HYG-01",
+      "S007-FOD-01",
+      "S007-WAT-02",
+      "S015-MED-01",
+      "S015-WAT-01",
+      "S015-FOD-01"
+    ],
+    "service_sequence": [
+      "S007",
+      "S015"
+    ],
+    "boxes_by_service": {
+      "S007": [
+        "S007-MED-01",
+        "S007-WAT-01",
+        "S007-HYG-01",
+        "S007-FOD-01",
+        "S007-WAT-02"
+      ],
+      "S015": [
+        "S015-MED-01",
+        "S015-WAT-01",
+        "S015-FOD-01"
+      ]
+    },
+    "initial_payload_kg": 70.0,
+    "initial_volume_m3": 0.196,
+    "relative_prep_start": 0.0,
+    "relative_takeoff_time": 540.0,
+    "relative_delivery_times": {
+      "S007": 1437.7477239180882,
+      "S015": 1949.6849179413148
+    },
+    "relative_return_time": 2611.2857525133886,
+    "energy_kwh": 5.382167635838981,
+    "energy_margin_kwh": 1.017832364161019,
+    "hard_deadline_latest_start": 2162.252276081912,
+    "uav_id": "U07",
+    "battery_id": "BAT-C-03",
+    "preparation_start_s": 1560.170401878946,
+    "takeoff_s": 2100.170401878946,
+    "return_s": 4171.456154392335,
+    "delivery_times_s": {
+      "S007": 2997.918125797034,
+      "S015": 3509.855319820261
+    }
+  },
+  {
+    "mission_id": "M010",
+    "uav_type": "B",
+    "box_ids": [
+      "S014-MED-01",
+      "S014-WAT-01",
+      "S014-FOD-01"
+    ],
+    "service_sequence": [
+      "S014"
+    ],
+    "boxes_by_service": {
+      "S014": [
+        "S014-MED-01",
+        "S014-WAT-01",
+        "S014-FOD-01"
+      ]
+    },
+    "initial_payload_kg": 25.0,
+    "initial_volume_m3": 0.067,
+    "relative_prep_start": 0.0,
+    "relative_takeoff_time": 390.0,
+    "relative_delivery_times": {
+      "S014": 1242.4327639761748
+    },
+    "relative_return_time": 1869.7521946190163,
+    "energy_kwh": 2.1403030047614893,
+    "energy_margin_kwh": 1.059696995238511,
+    "hard_deadline_latest_start": 2357.567236023825,
+    "uav_id": "U06",
+    "battery_id": "BAT-B-04",
+    "preparation_start_s": 1922.7345659700804,
+    "takeoff_s": 2312.7345659700804,
+    "return_s": 3792.486760589097,
+    "delivery_times_s": {
+      "S014": 3165.1673299462554
+    }
+  },
+  {
+    "mission_id": "M011",
+    "uav_type": "C",
+    "box_ids": [
+      "S006-MED-01",
+      "S006-WAT-01",
+      "S006-HYG-01",
+      "S006-FOD-01",
+      "S006-WAT-03",
+      "S006-WAT-02"
+    ],
+    "service_sequence": [
+      "S006"
+    ],
+    "boxes_by_service": {
+      "S006": [
+        "S006-MED-01",
+        "S006-WAT-01",
+        "S006-HYG-01",
+        "S006-FOD-01",
+        "S006-WAT-03",
+        "S006-WAT-02"
+      ]
+    },
+    "initial_payload_kg": 59.0,
+    "initial_volume_m3": 0.156,
+    "relative_prep_start": 0.0,
+    "relative_takeoff_time": 480.0,
+    "relative_delivery_times": {
+      "S006": 1209.4247629701733
+    },
+    "relative_return_time": 1561.5595259403467,
+    "energy_kwh": 2.5979763856932365,
+    "energy_margin_kwh": 3.802023614306764,
+    "hard_deadline_latest_start": 2390.575237029827,
+    "uav_id": "U08",
+    "battery_id": "BAT-C-04",
+    "preparation_start_s": 2390.575237029827,
+    "takeoff_s": 2870.575237029827,
+    "return_s": 3952.1347629701736,
+    "delivery_times_s": {
+      "S006": 3600.0
+    }
+  },
+  {
+    "mission_id": "M012",
+    "uav_type": "B",
+    "box_ids": [
+      "S008-WAT-02",
+      "S008-HYG-01"
+    ],
+    "service_sequence": [
+      "S008"
+    ],
+    "boxes_by_service": {
+      "S008": [
+        "S008-WAT-02",
+        "S008-HYG-01"
+      ]
+    },
+    "initial_payload_kg": 20.0,
+    "initial_volume_m3": 0.062,
+    "relative_prep_start": 0.0,
+    "relative_takeoff_time": 360.0,
+    "relative_delivery_times": {
+      "S008": 1231.1478202501887
+    },
+    "relative_return_time": 1901.842307167044,
+    "energy_kwh": 2.763432587771086,
+    "energy_margin_kwh": 0.43656741222891426,
+    "hard_deadline_latest_start": null,
+    "uav_id": "U06",
+    "battery_id": "BAT-B-02",
+    "preparation_start_s": 3792.4867705890792,
+    "takeoff_s": 4152.486770589079,
+    "return_s": 5694.329077756123,
+    "delivery_times_s": {
+      "S008": 5023.634590839268
+    }
+  },
+  {
+    "mission_id": "M013",
+    "uav_type": "C",
+    "box_ids": [
+      "S005-MED-01",
+      "S005-WAT-01",
+      "S005-HYG-01",
+      "S005-FOD-01",
+      "S005-WAT-03",
+      "S005-WAT-02"
+    ],
+    "service_sequence": [
+      "S005"
+    ],
+    "boxes_by_service": {
+      "S005": [
+        "S005-MED-01",
+        "S005-WAT-01",
+        "S005-HYG-01",
+        "S005-FOD-01",
+        "S005-WAT-03",
+        "S005-WAT-02"
+      ]
+    },
+    "initial_payload_kg": 59.0,
+    "initial_volume_m3": 0.156,
+    "relative_prep_start": 0.0,
+    "relative_takeoff_time": 480.0,
+    "relative_delivery_times": {
+      "S005": 1373.2325790977711
+    },
+    "relative_return_time": 1877.1951581955423,
+    "energy_kwh": 4.2221748035098585,
+    "energy_margin_kwh": 2.177825196490142,
+    "hard_deadline_latest_start": 9426.76742090223,
+    "uav_id": "U08",
+    "battery_id": "BAT-C-04",
+    "preparation_start_s": 6472.517240985486,
+    "takeoff_s": 6952.517240985486,
+    "return_s": 8349.712399181028,
+    "delivery_times_s": {
+      "S005": 7845.749820083257
+    }
+  },
+  {
+    "mission_id": "M014",
+    "uav_type": "B",
+    "box_ids": [
+      "S003-WAT-02"
+    ],
+    "service_sequence": [
+      "S003"
+    ],
+    "boxes_by_service": {
+      "S003": [
+        "S003-WAT-02"
+      ]
+    },
+    "initial_payload_kg": 14.0,
+    "initial_volume_m3": 0.027,
+    "relative_prep_start": 0.0,
+    "relative_takeoff_time": 330.0,
+    "relative_delivery_times": {
+      "S003": 1228.2448824712747
+    },
+    "relative_return_time": 1960.5430982758826,
+    "energy_kwh": 2.4241014729901127,
+    "energy_margin_kwh": 0.7758985270098875,
+    "hard_deadline_latest_start": null,
+    "uav_id": "U05",
+    "battery_id": "BAT-B-04",
+    "preparation_start_s": 5971.755117528725,
+    "takeoff_s": 6301.755117528725,
+    "return_s": 7932.298215804608,
+    "delivery_times_s": {
+      "S003": 7200.0
+    }
+  },
+  {
+    "mission_id": "M015",
+    "uav_type": "C",
+    "box_ids": [
+      "S003-MED-01",
+      "S003-WAT-01",
+      "S003-HYG-01",
+      "S003-FOD-02",
+      "S003-FOD-01",
+      "S003-WAT-04",
+      "S003-WAT-03"
+    ],
+    "service_sequence": [
+      "S003"
+    ],
+    "boxes_by_service": {
+      "S003": [
+        "S003-MED-01",
+        "S003-WAT-01",
+        "S003-HYG-01",
+        "S003-FOD-02",
+        "S003-FOD-01",
+        "S003-WAT-04",
+        "S003-WAT-03"
+      ]
+    },
+    "initial_payload_kg": 67.0,
+    "initial_volume_m3": 0.184,
+    "relative_prep_start": 0.0,
+    "relative_takeoff_time": 510.0,
+    "relative_delivery_times": {
+      "S003": 1711.51557216854
+    },
+    "relative_return_time": 2502.11114433708,
+    "energy_kwh": 6.324084213938969,
+    "energy_margin_kwh": 0.07591578606103155,
+    "hard_deadline_latest_start": 5488.4844278314595,
+    "uav_id": "U07",
+    "battery_id": "BAT-C-01",
+    "preparation_start_s": 5488.4844278314595,
+    "takeoff_s": 5998.4844278314595,
+    "return_s": 7990.59557216854,
+    "delivery_times_s": {
+      "S003": 7200.0
+    }
+  },
+  {
+    "mission_id": "M016",
+    "uav_type": "B",
+    "box_ids": [
+      "S002-HYG-01",
+      "S002-FOD-02"
+    ],
+    "service_sequence": [
+      "S002"
+    ],
+    "boxes_by_service": {
+      "S002": [
+        "S002-HYG-01",
+        "S002-FOD-02"
+      ]
+    },
+    "initial_payload_kg": 14.0,
+    "initial_volume_m3": 0.063,
+    "relative_prep_start": 0.0,
+    "relative_takeoff_time": 360.0,
+    "relative_delivery_times": {
+      "S002": 1160.2869669609559
+    },
+    "relative_return_time": 1756.6939339219116,
+    "energy_kwh": 2.361235504600835,
+    "energy_margin_kwh": 0.8387644953991651,
+    "hard_deadline_latest_start": null,
+    "uav_id": "U05",
+    "battery_id": "BAT-B-03",
+    "preparation_start_s": 4215.061173606812,
+    "takeoff_s": 4575.061173606812,
+    "return_s": 5971.755107528724,
+    "delivery_times_s": {
+      "S002": 5375.3481405677685
+    }
+  },
+  {
+    "mission_id": "M017",
+    "uav_type": "C",
+    "box_ids": [
+      "S004-MED-01",
+      "S004-WAT-01",
+      "S004-HYG-01",
+      "S004-FOD-01",
+      "S004-WAT-03",
+      "S004-WAT-02"
+    ],
+    "service_sequence": [
+      "S004"
+    ],
+    "boxes_by_service": {
+      "S004": [
+        "S004-MED-01",
+        "S004-WAT-01",
+        "S004-HYG-01",
+        "S004-FOD-01",
+        "S004-WAT-03",
+        "S004-WAT-02"
+      ]
+    },
+    "initial_payload_kg": 59.0,
+    "initial_volume_m3": 0.156,
+    "relative_prep_start": 0.0,
+    "relative_takeoff_time": 480.0,
+    "relative_delivery_times": {
+      "S004": 1583.5005332965816
+    },
+    "relative_return_time": 2301.061066593163,
+    "energy_kwh": 6.152897007997176,
+    "energy_margin_kwh": 0.2471029920028247,
+    "hard_deadline_latest_start": 5616.499466703419,
+    "uav_id": "U08",
+    "battery_id": "BAT-C-02",
+    "preparation_start_s": 4171.4561643923225,
+    "takeoff_s": 4651.4561643923225,
+    "return_s": 6472.517230985486,
+    "delivery_times_s": {
+      "S004": 5754.956697688904
+    }
+  },
+  {
+    "mission_id": "M018",
+    "uav_type": "B",
+    "box_ids": [
+      "S008-MED-01",
+      "S008-WAT-01",
+      "S008-FOD-01"
+    ],
+    "service_sequence": [
+      "S008"
+    ],
+    "boxes_by_service": {
+      "S008": [
+        "S008-MED-01",
+        "S008-WAT-01",
+        "S008-FOD-01"
+      ]
+    },
+    "initial_payload_kg": 25.0,
+    "initial_volume_m3": 0.067,
+    "relative_prep_start": 0.0,
+    "relative_takeoff_time": 390.0,
+    "relative_delivery_times": {
+      "S008": 1291.1478202501887
+    },
+    "relative_return_time": 1961.842307167044,
+    "energy_kwh": 2.9752083647603644,
+    "energy_margin_kwh": 0.22479163523963575,
+    "hard_deadline_latest_start": 5908.8521797498115,
+    "uav_id": "U06",
+    "battery_id": "BAT-B-01",
+    "preparation_start_s": 5694.329087756112,
+    "takeoff_s": 6084.329087756112,
+    "return_s": 7656.171394923156,
+    "delivery_times_s": {
+      "S008": 6985.476908006301
+    }
+  },
+  {
+    "mission_id": "M019",
+    "uav_type": "B",
+    "box_ids": [
+      "S011-MED-01",
+      "S011-WAT-01",
+      "S011-FOD-01"
+    ],
+    "service_sequence": [
+      "S011"
+    ],
+    "boxes_by_service": {
+      "S011": [
+        "S011-MED-01",
+        "S011-WAT-01",
+        "S011-FOD-01"
+      ]
+    },
+    "initial_payload_kg": 25.0,
+    "initial_volume_m3": 0.067,
+    "relative_prep_start": 0.0,
+    "relative_takeoff_time": 390.0,
+    "relative_delivery_times": {
+      "S011": 906.398491722467
+    },
+    "relative_return_time": 1188.4236501116006,
+    "energy_kwh": 1.0739337252089312,
+    "energy_margin_kwh": 2.126066274791069,
+    "hard_deadline_latest_start": 9893.601508277534,
+    "uav_id": "U05",
+    "battery_id": "BAT-B-03",
+    "preparation_start_s": 8026.190002205949,
+    "takeoff_s": 8416.190002205949,
+    "return_s": 9214.61365231755,
+    "delivery_times_s": {
+      "S011": 8932.588493928415
+    }
+  },
+  {
+    "mission_id": "M020",
+    "uav_type": "B",
+    "box_ids": [
+      "S009-MED-01",
+      "S009-WAT-01",
+      "S009-FOD-01"
+    ],
+    "service_sequence": [
+      "S009"
+    ],
+    "boxes_by_service": {
+      "S009": [
+        "S009-MED-01",
+        "S009-WAT-01",
+        "S009-FOD-01"
+      ]
+    },
+    "initial_payload_kg": 25.0,
+    "initial_volume_m3": 0.067,
+    "relative_prep_start": 0.0,
+    "relative_takeoff_time": 390.0,
+    "relative_delivery_times": {
+      "S009": 1090.8111236972043
+    },
+    "relative_return_time": 1558.4422473944087,
+    "energy_kwh": 2.096210537071622,
+    "energy_margin_kwh": 1.1037894629283782,
+    "hard_deadline_latest_start": 9709.188876302796,
+    "uav_id": "U06",
+    "battery_id": "BAT-B-02",
+    "preparation_start_s": 7656.171404923141,
+    "takeoff_s": 8046.171404923141,
+    "return_s": 9214.61365231755,
+    "delivery_times_s": {
+      "S009": 8746.982528620345
+    }
+  },
+  {
+    "mission_id": "M021",
+    "uav_type": "B",
+    "box_ids": [
+      "S001-HYG-01",
+      "S001-HYG-02"
+    ],
+    "service_sequence": [
+      "S001"
+    ],
+    "boxes_by_service": {
+      "S001": [
+        "S001-HYG-01",
+        "S001-HYG-02"
+      ]
+    },
+    "initial_payload_kg": 12.0,
+    "initial_volume_m3": 0.07,
+    "relative_prep_start": 0.0,
+    "relative_takeoff_time": 360.0,
+    "relative_delivery_times": {
+      "S001": 857.674094254912
+    },
+    "relative_return_time": 1149.1015218431576,
+    "energy_kwh": 0.9898697082518688,
+    "energy_margin_kwh": 2.2101302917481314,
+    "hard_deadline_latest_start": null,
+    "uav_id": "U05",
+    "battery_id": "BAT-B-01",
+    "preparation_start_s": 3065.8472027392563,
+    "takeoff_s": 3425.8472027392563,
+    "return_s": 4214.948724582414,
+    "delivery_times_s": {
+      "S001": 3923.5212969941686
+    }
+  }
+]

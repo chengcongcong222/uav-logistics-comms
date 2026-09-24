@@ -1,0 +1,98 @@
+{
+  "pareto_id": "B02",
+  "conclusion": "E8_PLAN_INDEPENDENTLY_VALIDATED",
+  "J_late": 29620.73128509657,
+  "J_norm": 0.5476554504294565,
+  "joint_makespan_s": 9573.30215819571,
+  "transport_energy_kwh": 60.94912537738123,
+  "relay_energy_kwh": 4.111751382595289,
+  "total_energy_kwh": 65.06087675997652,
+  "transport_sorties": 21,
+  "relay_sorties": 6,
+  "total_transport_shift_s": -3668.6358218366777,
+  "max_transport_shift_s": 3629.590253303631,
+  "hard_deadline_violations": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "communication_validation": "E8_PLAN_INDEPENDENTLY_VALIDATED",
+  "minimum_M_E_kwh": 1.4270978054807295,
+  "minimum_M_C_db": 0.6230836731091074,
+  "relay_uav_utilization": {
+    "R01": {
+      "sorties": 3,
+      "operating_s": 6351.133693454972,
+      "unavailable_s": 7251.133693454972,
+      "utilization": 0.6883850219236212
+    },
+    "R02": {
+      "sorties": 3,
+      "operating_s": 8871.273396020528,
+      "unavailable_s": 9771.273396020528,
+      "utilization": 0.9276340135629657
+    }
+  },
+  "energy_component_utilization": {
+    "REC-01": {
+      "sorties": 1,
+      "unavailable_s": 2743.290652793741,
+      "utilization": 0.26043378539149414
+    },
+    "REC-02": {
+      "sorties": 1,
+      "unavailable_s": 4167.28624926519,
+      "utilization": 0.3956205411923063
+    },
+    "REC-03": {
+      "sorties": 1,
+      "unavailable_s": 2584.4503813409783,
+      "utilization": 0.2453543139089783
+    },
+    "REC-04": {
+      "sorties": 1,
+      "unavailable_s": 1792.4744361719386,
+      "utilization": 0.17016822557767844
+    },
+    "REC-05": {
+      "sorties": 1,
+      "unavailable_s": 2667.184998617553,
+      "utilization": 0.2532087093367146
+    },
+    "REC-06": {
+      "sorties": 1,
+      "unavailable_s": 4858.119370465434,
+      "utilization": 0.46120465443410785
+    }
+  },
+  "resource_calendar_horizon_s": 10533.543674719163,
+  "candidate_set_complete": false,
+  "one_to_many_relay": true,
+  "comm_power_counted_once_per_active_module": true,
+  "total_absolute_transport_shift_s": 23069.225979482915,
+  "Gamma_C_db": 0.0,
+  "solution_id": "B02_Q3_002",
+  "global_optimum_proven": false,
+  "geometry_version": "G2_UTM49N_STRAIGHT_NATIVE_SUPERCOVER_V1",
+  "result_line": "EXTERNAL_CONTROL",
+  "source_provenance": "results/xb1/source/manifest.json",
+  "full_flight_margin_distribution_db": {
+    "direct_active_path": {
+      "0": 0.00015063811276050387,
+      "0.01": 0.26037194951107934,
+      "0.05": 1.8679100272745779,
+      "0.25": 4.558707637292222,
+      "0.5": 17.83210517995719,
+      "0.75": 32.21116157314452,
+      "0.95": 51.945612783298714,
+      "1": 201.94577516576788
+    },
+    "relayed_active_path": {
+      "0": 0.6230836731091074,
+      "0.01": 0.6230836731091074,
+      "0.05": 2.43785423226241,
+      "0.25": 3.9055423871373875,
+      "0.5": 5.839199789598638,
+      "0.75": 7.760329046990023,
+      "0.95": 11.397135806608844,
+      "1": 15.148765975323101
+    }
+  }
+}
