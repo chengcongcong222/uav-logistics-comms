@@ -1,0 +1,27 @@
+{
+  "gate": "E5_Q3_RELAY_TASKS_READY",
+  "candidates": "E52_RELAY_CANDIDATES_VALID",
+  "energy": "E52_RELAY_ENERGY_VALID",
+  "atomic_tasks": "E52_ATOMIC_TASKS_VALID",
+  "fingerprint": "2f92ed204e2a85f8926d62a908fb8db59bfe9160f5b1b8d7fdcc96c3044b153c",
+  "parent_gaps": 78,
+  "atomic_task_count": 78,
+  "all_candidate_pairs_checked": 126,
+  "sites_checked": 68,
+  "unresolved": 0,
+  "access_samples": 107676,
+  "boundary_refinement_samples": 66,
+  "adjacent_union_checks": 0,
+  "runtime_s": 16.255823648999993,
+  "output_sha256": {
+    "relay_atomic_tasks_e52.csv": "7b76a38309026ea5808db75a69ecd6871cbf8fac9e8a635c694ba18b55f22ec5",
+    "relay_task_candidates_e52.csv": "a7fb38ebe42493f4583ed2633e9b53756be08c189c944a3cbe80588141de1be8",
+    "relay_sites_e52.csv": "0143e7a3146d39cc1a1b3a4fef90363a1cf21c83b2fe0628f7f8e582b5d12799",
+    "relay_unresolved_e52.csv": "69bca4750fec2700da9811a8131eef9827e5c4c9c344770080e2c746cb6dac64"
+  },
+  "limitations": [
+    "Candidate set incomplete; no relay resource scheduling yet.",
+    "Numerical 0.5s plus phase/boundary/refinement validation, not analytic continuous-time proof.",
+    "Frozen primary DEM LOS semantics reused; independent path sampling is a separate sensitivity question."
+  ]
+}

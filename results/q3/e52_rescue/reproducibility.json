@@ -1,0 +1,21 @@
+{
+  "controlled_stop_after_jobs": 3,
+  "pending_at_controlled_stop": 123,
+  "completed_jobs_after_resume": 126,
+  "duplicate_completed_jobs": 0,
+  "pending_after_resume": 0,
+  "stale_code_fingerprint_rejected": true,
+  "pilot_final_canonical_hashes_equal": {
+    "relay_atomic_tasks_e52.csv": true,
+    "relay_task_candidates_e52.csv": true,
+    "relay_sites_e52.csv": true,
+    "relay_unresolved_e52.csv": true
+  },
+  "regression_tests_passed": 10,
+  "bbox_area_ratio_union_over_intersection_correct_sorties": {
+    "min": 1.0533249232537392,
+    "median": 1.2575678715820078,
+    "max": 2.463234923969914
+  },
+  "bbox_measurement_scope": "78 canonical parent-gap phase-vertex trajectories; geometry area ratio, not runtime ablation"
+}

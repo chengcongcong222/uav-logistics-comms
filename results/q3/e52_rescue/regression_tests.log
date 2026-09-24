@@ -1,0 +1,15 @@
+test_cache_identity_and_static_reuse (__main__.RegressionTests.test_cache_identity_and_static_reuse) ... ok
+test_conflicting_phase_endpoints_rejected (__main__.RegressionTests.test_conflicting_phase_endpoints_rejected) ... ok
+test_dense_check_rejects_phase_boundary_outage (__main__.RegressionTests.test_dense_check_rejects_phase_boundary_outage) ... ok
+test_fingerprint_covers_scientific_inputs (__main__.RegressionTests.test_fingerprint_covers_scientific_inputs) ... ok
+test_intersection_box_and_empty_domain (__main__.RegressionTests.test_intersection_box_and_empty_domain) ... ok
+test_necessary_box_never_discards_known_feasible_site (__main__.RegressionTests.test_necessary_box_never_discards_known_feasible_site) ... ok
+test_partition_covers_endpoints_and_phase_boundaries (__main__.RegressionTests.test_partition_covers_endpoints_and_phase_boundaries) ... ok
+test_refinement_catches_outage_near_los_transition (__main__.RegressionTests.test_refinement_catches_outage_near_los_transition) ... ok
+test_sortie_isolation_and_boundary_support (__main__.RegressionTests.test_sortie_isolation_and_boundary_support) ... ok
+test_three_dimensional_diameter (__main__.RegressionTests.test_three_dimensional_diameter) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.269s
+
+OK

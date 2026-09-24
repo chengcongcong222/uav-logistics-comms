@@ -1,4 +1,8 @@
-"""E5.1 compliant relay search: no Top-K, safe bbox, depth=10, MIN_ATOMIC=2s."""
+"""Legacy E5.1 attempt, incomplete and superseded by e52_lazy.
+
+The bbox extrema are corrected for consistency. Other known E5.1 limitations
+remain; this module is not the authoritative E52 generation/validation path.
+"""
 from __future__ import annotations
 
 import json
@@ -42,10 +46,10 @@ def sample_interval(margin_df, t0, t1, step_s=0.5):
 
 def safe_bbox(pts, d_tr, d_rg, g01, dem):
     gx, gy, _ = g01
-    x_low = max(min(p[0] for p in pts) - d_tr, gx - d_rg)
-    x_high = min(max(p[0] for p in pts) + d_tr, gx + d_rg)
-    y_low = max(min(p[1] for p in pts) - d_tr, gy - d_rg)
-    y_high = min(max(p[1] for p in pts) + d_tr, gy + d_rg)
+    x_low = max(max(p[0] for p in pts) - d_tr, gx - d_rg)
+    x_high = min(min(p[0] for p in pts) + d_tr, gx + d_rg)
+    y_low = max(max(p[1] for p in pts) - d_tr, gy - d_rg)
+    y_high = min(min(p[1] for p in pts) + d_tr, gy + d_rg)
     if x_low > x_high or y_low > y_high:
         return None
     # intersect DEM projected bounds (lon/lat -> utm via site sample)

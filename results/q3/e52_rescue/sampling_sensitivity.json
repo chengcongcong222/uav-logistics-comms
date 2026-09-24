@@ -1,0 +1,11 @@
+{
+  "step_s": 0.25,
+  "all_pairs_checked": 126,
+  "violations": 0,
+  "minimum_access_margin_db": 0.0961803787852773,
+  "maximum_absolute_margin_difference_db": 1.2079226507921703e-12,
+  "samples": 214651,
+  "runtime_s": 30.286211640000005,
+  "candidate_sha256": "a7fb38ebe42493f4583ed2633e9b53756be08c189c944a3cbe80588141de1be8",
+  "status": "E52_QUARTER_SECOND_CHECK_VALID"
+}
