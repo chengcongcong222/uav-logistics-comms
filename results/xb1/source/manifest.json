@@ -1,0 +1,37 @@
+{
+  "repository": "https://github.com/superZhuMY/UAV-Transport-Comm-2026D",
+  "commit": "98fc5da2eba04d54e8c003f31232f85c17a9ebf5",
+  "license": "No LICENSE file in pinned repository tree; external factual solution structures only; no external code executed or incorporated.",
+  "files": [
+    {
+      "file": "run01_solution.json",
+      "source_path": "02_求解结果/运行记录/q2_run01/solution.json",
+      "url": "https://raw.githubusercontent.com/superZhuMY/UAV-Transport-Comm-2026D/98fc5da2eba04d54e8c003f31232f85c17a9ebf5/02_%E6%B1%82%E8%A7%A3%E7%BB%93%E6%9E%9C/%E8%BF%90%E8%A1%8C%E8%AE%B0%E5%BD%95/q2_run01/solution.json",
+      "sha256": "eff479f280c3fb5773cbbc2877e8c21f09221e68706bfd948e0be23534f0507d"
+    },
+    {
+      "file": "run02_solution.json",
+      "source_path": "02_求解结果/运行记录/q2_run02/solution.json",
+      "url": "https://raw.githubusercontent.com/superZhuMY/UAV-Transport-Comm-2026D/98fc5da2eba04d54e8c003f31232f85c17a9ebf5/02_%E6%B1%82%E8%A7%A3%E7%BB%93%E6%9E%9C/%E8%BF%90%E8%A1%8C%E8%AE%B0%E5%BD%95/q2_run02/solution.json",
+      "sha256": "460ce8bb41f729c457eabb9b48b650359827c512a80c2661dd750b22eb21522d"
+    },
+    {
+      "file": "run01_rescheduled.json",
+      "source_path": "02_求解结果/审查/q2_run01_fixed_route_rescheduled.json",
+      "url": "https://raw.githubusercontent.com/superZhuMY/UAV-Transport-Comm-2026D/98fc5da2eba04d54e8c003f31232f85c17a9ebf5/02_%E6%B1%82%E8%A7%A3%E7%BB%93%E6%9E%9C/%E5%AE%A1%E6%9F%A5/q2_run01_fixed_route_rescheduled.json",
+      "sha256": "f0fa98ed8c02d4b7cecf78de9e94f2b13610cf561d06620a7db4d6b9807420a3"
+    },
+    {
+      "file": "run02_rescheduled.json",
+      "source_path": "02_求解结果/审查/q2_run02_fixed_route_rescheduled.json",
+      "url": "https://raw.githubusercontent.com/superZhuMY/UAV-Transport-Comm-2026D/98fc5da2eba04d54e8c003f31232f85c17a9ebf5/02_%E6%B1%82%E8%A7%A3%E7%BB%93%E6%9E%9C/%E5%AE%A1%E6%9F%A5/q2_run02_fixed_route_rescheduled.json",
+      "sha256": "773844f2d3bfd75e1da46620b822a0d1933c5cd5d18b48bc336a5f0ccb1bbd8e"
+    },
+    {
+      "file": "review_evidence.json",
+      "source_path": "02_求解结果/审查/review_evidence.json",
+      "url": "https://raw.githubusercontent.com/superZhuMY/UAV-Transport-Comm-2026D/98fc5da2eba04d54e8c003f31232f85c17a9ebf5/02_%E6%B1%82%E8%A7%A3%E7%BB%93%E6%9E%9C/%E5%AE%A1%E6%9F%A5/review_evidence.json",
+      "sha256": "d04636b9154a6420fe3bce1b7c19f2ce67075e11d83a11cfdeb1e54052b0658c"
+    }
+  ]
+}

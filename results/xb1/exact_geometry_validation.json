@@ -1,0 +1,6 @@
+{
+  "status": "EXACT_CELL_GEOMETRY_CROSSCHECK_PASS",
+  "legs": 240,
+  "method": "independent row-strip clipping vs grid boundary events",
+  "interpretation": "Affine lon/lat segment through native raster cells; no interpolation or DEM resampling"
+}

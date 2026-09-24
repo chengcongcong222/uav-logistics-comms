@@ -52,10 +52,10 @@
   "ns3_formal": "OPTIONAL_LATE_NOT_STARTED",
   "Q4": "Q4_INDEPENDENT_PARTITIONS_READY",
   "output_sha256": {
-    "README.md": "bed304540df9a55b6ddc3909ddbb41ecc7e6e611b608a3def4e9ddb484cd9de1",
+    "README.md": "c0977602be1e07c0a4446bd9a91ed41c2f8cb432ec05a6982c12067730e4da42",
     "docs/model/Q3_ROBUSTNESS_E8_SEMANTICS.md": "dfdd8e5d6e8b83a450cb291dad5a2def7b6f05adc47f3802ee03b6b19a030710",
-    "docs/paper/MAIN_RESULTS_FREEZE_20260925.md": "c99b0b4bc5eaddb503fb044cede2d78cdf7f5f414e6bec43e11f6b07b9542492",
-    "results/project_status.json": "f1c561413bce8c11d12a90767b07a1fe13fd48e60c3c298cea8ba9d507a4f6ec",
+    "docs/paper/MAIN_RESULTS_FREEZE_20260925.md": "bcbb8844ab8d38cb0654fa8aab1f0dfc06efe25bfe3c79272b283eeef921a443",
+    "results/project_status.json": "ddf0320d4c8191d43437120e1663ba8dfdd26fdcd385812d24454578eaf18a0e",
     "results/q3/E81_CRITICAL_WINDOW_REPORT.md": "4bc9ed1b68efcbf7b61511e47ce8e07bfc8723d20deec3506b1213464d53ab2b",
     "results/q3/E8_GPT_SYNC.md": "f2343e95ce248df905ac9bf4b9484731a5cb23311c750aa8f6fe0e3fa28a17ed",
     "results/q3/E8_ROBUSTNESS_REPORT.md": "4859e90cb360397b3b5c20e0b8ab26ff58347b2b5011e9902fa64bbb6cdb07e7",

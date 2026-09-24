@@ -1,50 +1,48 @@
 # UAV Logistics & Relay Communication Lab
 
-Current stage: **E8-A DONE; final optional Gamma 6 rescue closed; Q4 READY**.
-The main remaining work is whole-contest submission-table integration and paper
-assembly. Formal ns-3 is optional/late, not a gate for Q4.
+Current stage: **XB1 closed: external Q2 structures verified and new Q3 executions validated**.
 
+- [XB1 report: results, attribution, DEM findings and limits](results/xb1/XB1_REPORT.md)
+- [XB1 GPT handoff](results/xb1/XB1_GPT_SYNC.md)
+- [XB1 gate and artifact hashes](results/xb1/gate.json)
 - [Project status](results/project_status.json)
-- [Q4 report and exact resource tradeoffs](results/q4/Q4_REPORT.md)
-- [Q4 GPT handoff](results/q4/Q4_GPT_SYNC.md)
-- [Q4 independent validation](results/q4/validation.json)
-- [E8-A certified robustness costs](results/q3/E8_ROBUSTNESS_REPORT.md)
-- [E8.1 final Gamma 6 rescue and diagnostic limits](results/q3/E81_CRITICAL_WINDOW_REPORT.md)
-- [Paper main-result freeze and claim boundaries](docs/paper/MAIN_RESULTS_FREEZE_20260925.md)
+- [Q4 historical baseline report](results/q4/Q4_REPORT.md)
+- [E8 robustness on the old P01 structure](results/q3/E8_ROBUSTNESS_REPORT.md)
 
 ## Current result authority
 
-Q1 and Q2 retain their frozen results. E52/E6/E7 remain unchanged. E7 provides
-eight formal Gamma-zero Q3 executions. Q4 fixes the time-priority Q3E7_001 source
-and its whole-task communication dependencies; it enumerates all 15 two-group
-and 25 three-group partitions of five unsplittable blocks.
+Q2 XB01/XB02 import only attributed box groups, visit order and aircraft types
+from a pinned public external result. Local physics, schedules and independent
+validation replace all external clocks, metrics and feasibility claims. Both
+have zero weighted lateness and dominate old P01-P03 under the frozen ordering.
 
-Q4_READY means that partitions, exact minimum independent resource requirements
-and inventory gaps are validated. It does **not** mean current inventory is
-sufficient. Under this fixed source, even minimum-gap partitions require extra
-resources: K2 needs one B UAV and one B battery; K3 needs two B UAVs, one C UAV,
-two B batteries and one C battery. Balanced alternatives and the full Pareto
-sets are supplied. No Q3 task times, routes or communication relations change.
+Nine new Gamma-zero Q3 executions passed independent 0.5 s full-flight audits;
+one representative per structure also passed 0.25 s. Recommended main example
+XB01_Q3_001 has J_late=0, 8214.302952 s, 69.731633 kWh, 24 transport sorties and
+six relay sorties, using the original two relay UAVs and six energy components.
+It dominates all eight old E7 executions. External structure attribution is
+mandatory; these are not claimed as independently discovered box groups.
 
-E8-A has 23 validated points at Gamma 0/2/4 dB. The certified tested robustness
-level is 4 dB; the true physical upper boundary is unknown. E8-B ended as
-GAMMA6_NO_WITNESS_FOUND after one final bounded rescue, not as INFEASIBLE.
-The full-interval reference-window site-cover count of three is not a lower
-bound for free L1 timing: its midpoint instantaneous physical cover needs two.
+Old E6/E7/E8 and Q4 packages remain immutable historical evidence. Q4 resource
+requirements apply only to Q3E7_001 and must be recomputed for the new main
+example. E8 Gamma_cert=4 and robustness costs apply only to the old P01
+structure, not to XB01/XB02. Gamma6 rescue remains closed; ns-3 remains optional.
+
+XB1 also found that frozen transport geometry used roughly 30 m DEM sampling,
+not exact cell traversal. Exact-cell sensitivity for all five Q2 structures
+preserves the improvement conclusion, but exact-cell Q3 has not been rebuilt.
+Final DEM scope and new Q4/submission integration are the next tasks; previous
+paper-result freezing is reopened. See the report for explicit numerical limits.
 
 ## Review commands
 
-```bash
-export OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1
-.venv/bin/python validation/mathematical/e81_validate.py
-.venv/bin/python validation/mathematical/q4_validate.py
-.venv/bin/python validation/mathematical/test_q4_regressions.py
-.venv/bin/python validation/mathematical/e8_gate.py
-```
+Use OMP_NUM_THREADS=1, MKL_NUM_THREADS=1, OPENBLAS_NUM_THREADS=1.
 
-Model scopes: [E8](docs/model/Q3_ROBUSTNESS_E8_SEMANTICS.md),
-[Q4](docs/model/Q4_PARTITION_SEMANTICS.md). The two Q4 xlsx files are verified
-draft Q4 pages, not the final combined contest workbook. Raw data are immutable.
+- .venv/bin/python validation/mathematical/xb1_validate.py
+- .venv/bin/python -m unittest discover -s validation/mathematical -p test_xb1_regressions.py -v
+- .venv/bin/python validation/mathematical/xb1_gate.py
+
+Full solve/replay/audit commands are in the XB1 report. Raw data are immutable.
 Legacy modified top-level Q2 CSVs are not authoritative synchronized packages.
 
 ## Stack (frozen)

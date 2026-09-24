@@ -1,0 +1,11 @@
+{
+  "status": 1,
+  "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+  "runtime_s": 61.968895278000005,
+  "limit_s": 60,
+  "zero_lateness_constraint": true,
+  "scope": "FIXED_EXTERNAL_STRUCTURE_FRESH_RESOURCE_ASSIGNMENT",
+  "variables": 282,
+  "objective": 9256.714988673739,
+  "global_optimum_proven": false
+}

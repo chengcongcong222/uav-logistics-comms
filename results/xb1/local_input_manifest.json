@@ -1,0 +1,13 @@
+{
+  "data/processed/boxes.csv": "bfeca5816dfceab43ee691328969ca571792870c9670ca5e38681e90011cf120",
+  "data/processed/communication_parameters.json": "53b8d61f650c1c035a5463a7ab25981963d5d70e062ba41ef05108068031a33b",
+  "data/processed/dem_metadata.json": "e4804e98af8d1ab2072b8c5482eac0bbd55115d1eff241a6fa68dd5d26d39f55",
+  "data/processed/nodes.csv": "b04a3bb5cc95546135165c4965a0db08603fa050cc989b0f2f26b751c2edb3df",
+  "data/processed/relay_energy_components.csv": "117d488e8d42a2754c29d63889bc712afa835b671c58710171aa79715a0bd6a7",
+  "data/processed/relay_uav_types.csv": "384d4543cb53efc0c0dd93e98edbeb2b6abc5648272ab2c6ce4adb9baa4957b4",
+  "data/processed/relay_uavs.csv": "a13b6a71af7c45944860a13ed52b16c5e2728f8bb733b56d1276687f7557ea6a",
+  "data/processed/route_geometry.csv": "8f08b2a19c4838bfde682e3c73be7cf52604152df539479b17fa03fc6a6d9b7b",
+  "data/processed/transport_batteries.csv": "c0fc93bc96e485985aca7d3a7690da077149767e10ad45cda1aae59126d239d8",
+  "data/processed/transport_uav_types.csv": "e49dcf0068446cfe674abf56af042b5a440f3ec27c6be96552c09d4366e9e1f7",
+  "data/processed/transport_uavs.csv": "35ef7de8239abc9e047e668c5729ce32ca63118a000ed71844591e5933d09278"
+}

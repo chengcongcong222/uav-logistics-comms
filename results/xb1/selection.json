@@ -1,0 +1,10 @@
+{
+  "recommended_Q2": "XB01",
+  "energy_Q2": "XB02",
+  "recommended_Q3": "XB01_Q3_001",
+  "lower_energy_Q3": "XB02_Q3_002",
+  "Q4": "OLD_BASELINE_ONLY_REBASE_REQUIRED",
+  "E8": "OLD_P01_STRUCTURE_SENSITIVITY_ONLY",
+  "new_Q3_robustness_not_certified": true,
+  "exact_dem_Q3_not_recomputed": true
+}

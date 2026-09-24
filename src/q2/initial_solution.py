@@ -145,7 +145,7 @@ def build_b1(evaluator: MissionEvaluator, decoder: ResourceDecoder, b0: Solution
                 x1, y1 = xy[sb]
                 if (x1 - x0) ** 2 + (y1 - y0) ** 2 > 15000 ** 2:
                     continue
-                for cand in _merge_pair(evaluator, current[i], current[j])[:4]:
+                for cand in _merge_pair(evaluator, current[i], current[j]):
                     trial = current[:i] + current[i + 1 : j] + current[j + 1 :] + [cand]
                     sol = evaluate_solution(trial, evaluator, decoder)
                     if sol is None:

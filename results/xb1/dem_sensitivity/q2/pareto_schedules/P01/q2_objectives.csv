@@ -1,0 +1,2 @@
+tag,J_late,J_norm,makespan,energy,sorties,source,global_optimum_proven
+P01_exact_cells,28768.964570956734,0.5272795347526947,10268.473811110738,73.50423628673154,28,P01_exact_cells,False

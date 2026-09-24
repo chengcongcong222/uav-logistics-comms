@@ -1,0 +1,35 @@
+{
+  "experiment": "XB1_EXTERNAL_BENCHMARK_AUDIT",
+  "source_commit": "98fc5da2eba04d54e8c003f31232f85c17a9ebf5",
+  "imported_fields": [
+    "box grouping",
+    "visit sequence",
+    "aircraft type"
+  ],
+  "external_times_ids_metrics_used_for_scheduling": false,
+  "physics": "Frozen local authority; exact native-cell lon/lat traversal separately audited as sensitivity",
+  "Q2_search": {
+    "time_limit_per_structure_s": 60,
+    "requested_mip_relative_gap": 0.005,
+    "objective": "makespan with J_late=0 constraints",
+    "horizon_s": 20000
+  },
+  "Q3_search": {
+    "Gamma_C_db": 0,
+    "grouping_batches": [
+      8,
+      6,
+      12
+    ],
+    "stop_after_first_joint_seed": true,
+    "seed_time_limit_s": 60,
+    "neighborhood_rounds": 1,
+    "repairs_per_objective": 8,
+    "horizon_s": 40000
+  },
+  "random_sampling": false,
+  "seed": null,
+  "blas_threads": 1,
+  "external_code_executed": false,
+  "global_optimum_proven": false
+}

@@ -156,12 +156,8 @@ def _insert_box(
         trial = copy.deepcopy(ms)
         trial.append(pack_key(g, [svc], {svc: [box_id]}))
         cands.append(trial)
-        break  # one type is enough for new-mission probe; repair may try more via loops
-    for g in types[1:2]:
-        trial = copy.deepcopy(ms)
-        trial.append(pack_key(g, [svc], {svc: [box_id]}))
-        cands.append(trial)
-    return cands[:12]
+    # Keep every type and insertion position; list order is not a feasibility gate.
+    return cands
 
 
 def best_feasible_insertion(ms, loose, rng, evaluator, decoder, gate_stats=None):
@@ -184,6 +180,10 @@ def hard_deadline_first_insertion(ms, loose, rng, evaluator, decoder, gate_stats
     return _insert_many(ms, loose_sorted, evaluator, decoder, gate_stats, strategy="best")
 
 
+def _repair_key(sol):
+    return tuple(sol.metrics[k] for k in ("J_late", "J_norm", "makespan", "energy", "sorties"))
+
+
 def _insert_many(ms, loose, evaluator, decoder, gate_stats, strategy="best", rng=None):
     ms = copy.deepcopy(ms)
     remaining = list(loose)
@@ -198,7 +198,7 @@ def _insert_many(ms, loose, evaluator, decoder, gate_stats, strategy="best", rng
             if not options:
                 best_by_box[b] = None
                 continue
-            options.sort(key=lambda s: (s.metrics["J_time"], s.metrics["makespan"], s.metrics["energy"], s.metrics["sorties"]))
+            options.sort(key=_repair_key)
             best_by_box[b] = options[0]
             best_by_box[b + "::second"] = options[1] if len(options) > 1 else options[0]
         feasible = [(b, s) for b, s in best_by_box.items() if not b.endswith("::second") and s is not None]
@@ -208,11 +208,11 @@ def _insert_many(ms, loose, evaluator, decoder, gate_stats, strategy="best", rng
             def regret(item):
                 b, s = item
                 s2 = best_by_box[b + "::second"]
-                return (s2.metrics["energy"] - s.metrics["energy"], s2.metrics["J_time"] - s.metrics["J_time"], s.metrics["J_time"])
+                return tuple(b - a for a, b in zip(_repair_key(s), _repair_key(s2))) + tuple(-v for v in _repair_key(s))
             feasible.sort(key=regret, reverse=True)
             b, sol = feasible[0]
         else:
-            feasible.sort(key=lambda x: (x[1].metrics["J_time"], x[1].metrics["makespan"], x[1].metrics["energy"], x[1].metrics["sorties"]))
+            feasible.sort(key=lambda x: _repair_key(x[1]))
             b, sol = feasible[0]
         ms = sol.missions
         remaining.remove(b)

@@ -1,0 +1,96 @@
+{
+  "pareto_id": "XB02",
+  "conclusion": "E8_PLAN_INDEPENDENTLY_VALIDATED",
+  "J_late": 14285.374352860563,
+  "J_norm": 0.5394767302671873,
+  "joint_makespan_s": 9353.22648971371,
+  "transport_energy_kwh": 60.92694955817171,
+  "relay_energy_kwh": 3.8585163055394074,
+  "total_energy_kwh": 64.78546586371111,
+  "transport_sorties": 21,
+  "relay_sorties": 5,
+  "total_transport_shift_s": -294.27872971237093,
+  "max_transport_shift_s": 2170.2216528855497,
+  "hard_deadline_violations": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "communication_validation": "E8_PLAN_INDEPENDENTLY_VALIDATED",
+  "minimum_M_E_kwh": 1.1456588738322084,
+  "minimum_M_C_db": 0.6230836731091074,
+  "relay_uav_utilization": {
+    "R01": {
+      "sorties": 2,
+      "operating_s": 5666.114361420205,
+      "unavailable_s": 6266.114361420205,
+      "utilization": 0.6287722301365749
+    },
+    "R02": {
+      "sorties": 3,
+      "operating_s": 8482.970704084768,
+      "unavailable_s": 9382.970704084768,
+      "utilization": 0.9415326747366224
+    }
+  },
+  "energy_component_utilization": {
+    "REC-01": {
+      "sorties": 1,
+      "unavailable_s": 4267.397945687426,
+      "utilization": 0.4282113553034441
+    },
+    "REC-02": {
+      "sorties": 1,
+      "unavailable_s": 2337.034407209347,
+      "utilization": 0.23450933886145645
+    },
+    "REC-03": {
+      "sorties": 1,
+      "unavailable_s": 5876.244412163369,
+      "utilization": 0.5896507932590818
+    },
+    "REC-04": {
+      "sorties": 1,
+      "unavailable_s": 2667.184998617553,
+      "utilization": 0.26763824645349676
+    },
+    "REC-05": {
+      "sorties": 1,
+      "unavailable_s": 2168.7455509526635,
+      "utilization": 0.21762242085256367
+    },
+    "REC-06": {
+      "sorties": 0,
+      "unavailable_s": 0,
+      "utilization": 0.0
+    }
+  },
+  "resource_calendar_horizon_s": 9965.634710138438,
+  "candidate_set_complete": false,
+  "one_to_many_relay": true,
+  "comm_power_counted_once_per_active_module": true,
+  "total_absolute_transport_shift_s": 22338.855648941713,
+  "Gamma_C_db": 0.0,
+  "solution_id": "XB02_Q3_002",
+  "external_structure_provenance": "results/xb1/source/manifest.json",
+  "global_optimum_proven": false,
+  "full_flight_margin_distribution_db": {
+    "direct_active_path": {
+      "0": 0.00014884802227399518,
+      "0.01": 0.254120515743684,
+      "0.05": 1.8598416830526472,
+      "0.25": 4.44157208680085,
+      "0.5": 17.802592621306832,
+      "0.75": 32.232011414241626,
+      "0.95": 52.02220922019831,
+      "1": 201.94577516576788
+    },
+    "relayed_active_path": {
+      "0": 0.6230836731091074,
+      "0.01": 0.6230836731091074,
+      "0.05": 0.8951419926504371,
+      "0.25": 2.099203328999508,
+      "0.5": 5.2771999539777354,
+      "0.75": 7.773035975627522,
+      "0.95": 11.397135806608844,
+      "1": 14.242343906173588
+    }
+  }
+}

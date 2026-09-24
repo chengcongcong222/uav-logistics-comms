@@ -1,0 +1,72 @@
+[
+  {
+    "pareto_id": "P01",
+    "status": "XB1_Q2_INDEPENDENTLY_VALIDATED",
+    "J_late": 28768.964570956734,
+    "J_norm": 0.5272795347526947,
+    "makespan": 10268.473811110738,
+    "energy": 73.50423628673154,
+    "sorties": 28,
+    "source": "P01_exact_cells",
+    "global_optimum_proven": false,
+    "maximum_start_delay_s": 267.88018306451704,
+    "maximum_takeoff_delay_s": 15.218382753908372,
+    "interpretation": "Exact-cell heights plus earliest delay-only repair preserving original UAV/battery orders and original takeoff lower bounds; preparation waits compressed; not reoptimized"
+  },
+  {
+    "pareto_id": "P02",
+    "status": "XB1_Q2_INDEPENDENTLY_VALIDATED",
+    "J_late": 27312.963431633114,
+    "J_norm": 0.5260967797222993,
+    "makespan": 10329.889107828416,
+    "energy": 73.38395491187775,
+    "sorties": 28,
+    "source": "P02_exact_cells",
+    "global_optimum_proven": false,
+    "maximum_start_delay_s": 267.8801830645175,
+    "maximum_takeoff_delay_s": 17.962777864582677,
+    "interpretation": "Exact-cell heights plus earliest delay-only repair preserving original UAV/battery orders and original takeoff lower bounds; preparation waits compressed; not reoptimized"
+  },
+  {
+    "pareto_id": "P03",
+    "status": "XB1_Q2_INDEPENDENTLY_VALIDATED",
+    "J_late": 27312.963431633114,
+    "J_norm": 0.5242969352225725,
+    "makespan": 10329.889107828416,
+    "energy": 73.4005918975576,
+    "sorties": 28,
+    "source": "P03_exact_cells",
+    "global_optimum_proven": false,
+    "maximum_start_delay_s": 267.88018306451704,
+    "maximum_takeoff_delay_s": 17.962777864582677,
+    "interpretation": "Exact-cell heights plus earliest delay-only repair preserving original UAV/battery orders and original takeoff lower bounds; preparation waits compressed; not reoptimized"
+  },
+  {
+    "pareto_id": "XB01",
+    "status": "XB1_Q2_INDEPENDENTLY_VALIDATED",
+    "J_late": 89.25576171875036,
+    "J_norm": 0.4970848839191734,
+    "makespan": 6494.823722548477,
+    "energy": 66.23934988064018,
+    "sorties": 24,
+    "source": "XB01_exact_cells",
+    "global_optimum_proven": false,
+    "maximum_start_delay_s": 18.67703247071904,
+    "maximum_takeoff_delay_s": 18.677032470719496,
+    "interpretation": "Exact-cell heights plus earliest delay-only repair preserving original UAV/battery orders and original takeoff lower bounds; preparation waits compressed; not reoptimized"
+  },
+  {
+    "pareto_id": "XB02",
+    "status": "XB1_Q2_INDEPENDENTLY_VALIDATED",
+    "J_late": 0.0,
+    "J_norm": 0.5657437103844682,
+    "makespan": 9273.314443426432,
+    "energy": 60.949125377381236,
+    "sorties": 21,
+    "source": "XB02_exact_cells",
+    "global_optimum_proven": false,
+    "maximum_start_delay_s": 16.5994547526916,
+    "maximum_takeoff_delay_s": 16.5994547526916,
+    "interpretation": "Exact-cell heights plus earliest delay-only repair preserving original UAV/battery orders and original takeoff lower bounds; preparation waits compressed; not reoptimized"
+  }
+]

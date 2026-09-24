@@ -1,0 +1,82 @@
+{
+  "status": "XB1_Q3_INDEPENDENTLY_VALIDATED",
+  "solutions": [
+    {
+      "Gamma_C_db": 0.0,
+      "minimum_twohop_robust_slack_db": 0.6230836731091074,
+      "pareto_id": "XB02",
+      "status": "XB1_Q3_INDEPENDENTLY_VALIDATED",
+      "step_s": 0.25,
+      "hard_violations": 0,
+      "uncovered_sample_count": 0,
+      "communication_uncovered_duration_s": 0.0,
+      "full_flight_samples": 111855,
+      "direct_samples": 69665,
+      "relayed_samples": 42190,
+      "relay_sorties": 5,
+      "full_flight_boundary_refinements": 208,
+      "boundary_refinement_s": 0.1,
+      "relay_ids": [
+        "R01",
+        "R02"
+      ],
+      "energy_components": [
+        "REC-01",
+        "REC-02",
+        "REC-03",
+        "REC-04",
+        "REC-05"
+      ],
+      "minimum_relay_energy_margin_kwh": 0.9231215918560038,
+      "minimum_twohop_margin_db": 0.6230836731091074,
+      "runtime_s": 47.89421580099997,
+      "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+      "J_late": 1388.0042463522022,
+      "J_norm": 0.551551057072725,
+      "transport_energy_kwh": 60.926949558171714,
+      "transport_makespan_s": 9894.518144171521,
+      "transport_sorties": 21,
+      "minimum_transport_energy_margin_kwh": 0.08403420729624589,
+      "hard_deadline_violations": 0,
+      "margin_distribution_db": {
+        "direct_active_path": {
+          "0": 4.802915372081884e-06,
+          "0.01": 0.27703741339146504,
+          "0.05": 1.8651264812151371,
+          "0.25": 4.4712554387660735,
+          "0.5": 17.893830032979142,
+          "0.75": 32.2807187660235,
+          "0.95": 51.90576656797658,
+          "1": 201.94577516576788
+        },
+        "relayed_active_path": {
+          "0": 0.6230836731091074,
+          "0.01": 0.6230836731091074,
+          "0.05": 0.8951419926504371,
+          "0.25": 2.099203328999508,
+          "0.5": 5.276932699167929,
+          "0.75": 7.765056561604634,
+          "0.95": 11.397135806608844,
+          "1": 14.243546599681082
+        }
+      },
+      "artifact_sha256": {
+        "results/xb1/q3/XB02/solutions/XB02_Q3_001/transport_sorties_XB02.csv": "e3df620cc1ddabe47734e1cccb98bf707adb0a41d8c9276db57ab32b49ed59db",
+        "results/xb1/q3/XB02/solutions/XB02_Q3_001/box_delivery_XB02.csv": "a514e3032a457a0f113684fef826864aa2a829a1c2ccb2425a9af9603c6021c3",
+        "results/xb1/q3/XB02/solutions/XB02_Q3_001/transport_shifts_XB02.csv": "96c4a47d4848d21c237170816767e28a6588913d4fbdbf7310d5cd3396d71574",
+        "results/xb1/q3/XB02/solutions/XB02_Q3_001/transport_uav_calendar_XB02.csv": "d4233bc80559913327710e36998e05ddad4e906ec53220bc9e6e80d3e6ade28f",
+        "results/xb1/q3/XB02/solutions/XB02_Q3_001/transport_battery_calendar_XB02.csv": "bb51b0c7f775dac2f6c75077383c3649ccebbc2515b68ae82e2451431e1af41a",
+        "results/xb1/q3/XB02/solutions/XB02_Q3_001/relay_sorties_XB02.csv": "1b2e3069383cdd5b62ccf38f8f7ca56444691473f43dbba2f21f030e19bc5af2",
+        "results/xb1/q3/XB02/solutions/XB02_Q3_001/relay_uav_calendar_XB02.csv": "c2af22b7c7b20adc857461db9d222198d49334ec736ca0ac9b2fcb5a7a3f4bbc",
+        "results/xb1/q3/XB02/solutions/XB02_Q3_001/relay_energy_calendar_XB02.csv": "9f05408f34727d8ddc88103b019b32b974ca6f4df3c847ac5df79ebf524178bd",
+        "results/xb1/q3/XB02/solutions/XB02_Q3_001/communication_guarantee_XB02.csv": "11d9e4c4f921331e48a9b8b4b27effb61bcb1eba4111891fefa07dd7b13deaea",
+        "results/xb1/q3/XB02/solutions/XB02_Q3_001/candidate_sites_XB02.csv": "0984ab1ce055c2984fa1453dd7af4dd498382b522890c6b98c550f85aff235f6",
+        "results/xb1/q3/XB02/solutions/XB02_Q3_001/guarded_selected_pairs_XB02.csv": "c5abd9b6923b6518d6c0ce02d441b5fc1bf6d712f7858bd103c252b5ac471ac6",
+        "results/xb1/q3/XB02/solutions/XB02_Q3_001/scenario.json": "058aa7e563d7ed0306ffac2bef9f16abb46076e354ddc43214bc13492ab3ba32",
+        "results/xb1/q3/XB02/solutions/XB02_Q3_001/guarded_atomic_tasks.csv": "325324121da9284428ecc43235bcd753d556f79ea2e7e44bb450115b6c3527e8",
+        "results/xb1/q3/XB02/solutions/XB02_Q3_001/joint_metrics_XB02.json": "6bacdfde928bc9903800593e3ca10c1056d2bb8eba0ab3a9aefe14da2a5216dd"
+      },
+      "solution_id": "XB02_Q3_001"
+    }
+  ]
+}

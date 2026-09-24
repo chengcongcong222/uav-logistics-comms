@@ -1,0 +1,79 @@
+{
+  "gate": "XB1_Q2_EXTERNAL_STRUCTURES_VERIFIED",
+  "solutions": [
+    {
+      "J_late": 0.0,
+      "J_norm": 0.4966504793854576,
+      "transport_energy_kwh": 66.20353151380728,
+      "transport_makespan_s": 6489.127319553667,
+      "transport_sorties": 24,
+      "minimum_transport_energy_margin_kwh": 0.07942948400219052,
+      "hard_deadline_violations": 0,
+      "status": "XB1_Q2_INDEPENDENTLY_VALIDATED",
+      "trace_waypoints_checked": 440,
+      "checks": [
+        "80 boxes exactly once",
+        "mass and volume",
+        "per-leg payload and energy",
+        "31 hard deadlines",
+        "typed UAV non-overlap",
+        "typed battery SOC and recharge non-overlap",
+        "J_late/J_norm recomputed",
+        "every trajectory waypoint reconstructed"
+      ],
+      "artifact_sha256": {
+        "metadata.json": "83d5a64c6b8c91791128f9dfce9c8efdeb4c5dc48b944775a06b2adc2b86ef5f",
+        "missions.json": "38b5bcde6cbba23733824801a88b951ad7aa815b03ddc097ceeaef243fb42127",
+        "box_delivery_XB01.csv": "6d2624192f6eee14bb245832257a08248e66a94b003574ccb0a215c587968af5",
+        "transport_trace.csv": "ed0878d3f9dda55f7bfe6bb771d17f23a34e93e708a0e83ed1cb630f9a89abf4",
+        "transport_sorties_XB01.csv": "8d96bceb9a1fda5487d3e18afff61c532eb0509a22ca6f001d8ad24367b2a205",
+        "q2_objectives.csv": "8740fecd074e3e903d4ce01c29a2e334fd89d4c47ea79d3e7ec5475e7b6e8415",
+        "q2_sorties.csv": "8d96bceb9a1fda5487d3e18afff61c532eb0509a22ca6f001d8ad24367b2a205",
+        "q2_battery_calendar.csv": "6b0a6d256972c3de94fa6c4041c634100426826bd4559238ff9f7d61d5e20bf0",
+        "transport_uav_calendar_XB01.csv": "5d38771b8452260dfc895e9c3cc7c612e9150ff8ced39a8e6909644b3fc040d8",
+        "q2_uav_calendar.csv": "5d38771b8452260dfc895e9c3cc7c612e9150ff8ced39a8e6909644b3fc040d8",
+        "transport_battery_calendar_XB01.csv": "6b0a6d256972c3de94fa6c4041c634100426826bd4559238ff9f7d61d5e20bf0",
+        "q2_box_delivery.csv": "6d2624192f6eee14bb245832257a08248e66a94b003574ccb0a215c587968af5"
+      },
+      "pareto_id": "XB01",
+      "source_structure_verified": true
+    },
+    {
+      "J_late": 0.0,
+      "J_norm": 0.5652688886502517,
+      "transport_energy_kwh": 60.926949558171714,
+      "transport_makespan_s": 9256.714988673739,
+      "transport_sorties": 21,
+      "minimum_transport_energy_margin_kwh": 0.08403420729624589,
+      "hard_deadline_violations": 0,
+      "status": "XB1_Q2_INDEPENDENTLY_VALIDATED",
+      "trace_waypoints_checked": 386,
+      "checks": [
+        "80 boxes exactly once",
+        "mass and volume",
+        "per-leg payload and energy",
+        "31 hard deadlines",
+        "typed UAV non-overlap",
+        "typed battery SOC and recharge non-overlap",
+        "J_late/J_norm recomputed",
+        "every trajectory waypoint reconstructed"
+      ],
+      "artifact_sha256": {
+        "metadata.json": "29a346acedff78c9ee7ff133fb31dce71c7564bcdf13349ff664c55735b515ec",
+        "missions.json": "f242fd51977a1b1c596180bdf7b318ddbf1b25e026d87db058f6de093312bbf2",
+        "transport_sorties_XB02.csv": "c3555eef9c6df19c0dc131c8c35464ff9318b0ab6d665e388e51a1eb47b3a4bd",
+        "transport_trace.csv": "19415767b797b03fcc8c18e31ab983be2198ee6f6a99adc326c772c04a5aa68e",
+        "box_delivery_XB02.csv": "cc376e39a937f45766f62a6366c95c3ce41ebbba41e48366ed0fa03fd2ca6892",
+        "q2_objectives.csv": "c8c23aa79d4d5bbfbec959104fe1f15a5c996a59984c856907207e93bc471f26",
+        "q2_sorties.csv": "c3555eef9c6df19c0dc131c8c35464ff9318b0ab6d665e388e51a1eb47b3a4bd",
+        "q2_battery_calendar.csv": "e69c27c399eebf4d0315bc1ce93c8cec1ec7e421018fb51048720591a2f9a5ca",
+        "q2_uav_calendar.csv": "1453df8b78016a7936c0382846622dfe6f2e38b5af531734a360f3f8121617a6",
+        "transport_uav_calendar_XB02.csv": "1453df8b78016a7936c0382846622dfe6f2e38b5af531734a360f3f8121617a6",
+        "transport_battery_calendar_XB02.csv": "e69c27c399eebf4d0315bc1ce93c8cec1ec7e421018fb51048720591a2f9a5ca",
+        "q2_box_delivery.csv": "cc376e39a937f45766f62a6366c95c3ce41ebbba41e48366ed0fa03fd2ca6892"
+      },
+      "pareto_id": "XB02",
+      "source_structure_verified": true
+    }
+  ]
+}

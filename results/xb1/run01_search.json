@@ -1,0 +1,11 @@
+{
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "runtime_s": 25.009465004,
+  "limit_s": 60,
+  "zero_lateness_constraint": true,
+  "scope": "FIXED_EXTERNAL_STRUCTURE_FRESH_RESOURCE_ASSIGNMENT",
+  "variables": 385,
+  "objective": 6489.127319553667,
+  "global_optimum_proven": false
+}

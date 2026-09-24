@@ -1,0 +1,9 @@
+{
+  "J_late": 28768.964570956734,
+  "J_norm": 0.5272795347526947,
+  "makespan": 10268.473811110738,
+  "energy": 73.50423628673154,
+  "sorties": 28,
+  "source": "P01_exact_cells",
+  "global_optimum_proven": false
+}

@@ -1,21 +1,31 @@
 {
   "as_of": "2026-09-25",
   "Q1": "DONE",
-  "Q2_Pareto": "DONE",
+  "Q2_Pareto": "XB1_UPGRADED_TWO_EXTERNAL_STRUCTURES_VERIFIED",
   "Q3_communication_and_relay_tasks": "DONE",
   "Q3_resource_executability": "DONE",
-  "Q3_joint_Pareto": "DONE",
+  "Q3_joint_Pareto": "XB1_NINE_EXECUTIONS_VERIFIED",
   "E8_A_Gamma_0_2_4": "DONE",
   "E8_B_Gamma6": "GAMMA6_NO_WITNESS_FOUND",
   "E8_1_last_rescue": "CLOSED_STOP_RULE_REACHED",
   "Gamma_C_cert_db": 4,
-  "Q4": "Q4_INDEPENDENT_PARTITIONS_READY",
+  "Q4": "VALIDATED_ON_OLD_BASELINE_REBASE_REQUIRED",
   "Q4_source": "Q3E7_001_Gamma0",
   "Q4_existing_inventory_sufficient": false,
   "ns3": "OPTIONAL_LATE_NOT_STARTED",
-  "paper_main_result_and_claim_framework": "FROZEN_FOR_INTEGRATION",
+  "paper_main_result_and_claim_framework": "REOPENED_AFTER_XB1",
   "combined_submission_workbook": "NEXT",
   "final_paper": "NEXT",
-  "next_main_task": "INTEGRATE_SUBMISSION_TABLES_AND_ASSEMBLE_PAPER",
-  "Gamma6_blocks_Q4": false
+  "next_main_task": "FIX_FINAL_DEM_SCOPE_AND_REBASE_Q4_THEN_SUBMISSION_PAPER",
+  "Gamma6_blocks_Q4": false,
+  "Q2_authority": [
+    "XB01",
+    "XB02"
+  ],
+  "Q3_recommended": "XB01_Q3_001",
+  "XB1": "EXTERNAL_BENCHMARK_AND_Q3_CLOSED",
+  "E8_scope": "OLD_P01_STRUCTURE_ONLY_NOT_TRANSFERABLE_TO_XB",
+  "Gamma_C_cert_scope": "OLD_P01_STRUCTURE",
+  "exact_DEM_Q2_sensitivity": "FIVE_STRUCTURES_VERIFIED",
+  "exact_DEM_Q3": "NOT_REBUILT"
 }

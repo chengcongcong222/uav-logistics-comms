@@ -1,0 +1,188 @@
+[
+  {
+    "solution_id": "XB01",
+    "byte_identical": true,
+    "files": {
+      "transport_trace.csv": true,
+      "q2_objectives.csv": true,
+      "q2_sorties.csv": true,
+      "q2_battery_calendar.csv": true,
+      "q2_uav_calendar.csv": true,
+      "q2_box_delivery.csv": true
+    }
+  },
+  {
+    "solution_id": "XB01_Q3_001",
+    "byte_identical": true,
+    "files": {
+      "box_delivery_XB01.csv": true,
+      "guarded_atomic_tasks.csv": true,
+      "transport_sorties_XB01.csv": true,
+      "candidate_sites_XB01.csv": true,
+      "relay_energy_calendar_XB01.csv": true,
+      "guarded_selected_pairs_XB01.csv": true,
+      "transport_uav_calendar_XB01.csv": true,
+      "relay_uav_calendar_XB01.csv": true,
+      "transport_shifts_XB01.csv": true,
+      "transport_battery_calendar_XB01.csv": true,
+      "communication_guarantee_XB01.csv": true,
+      "relay_sorties_XB01.csv": true
+    }
+  },
+  {
+    "solution_id": "XB01_Q3_002",
+    "byte_identical": true,
+    "files": {
+      "box_delivery_XB01.csv": true,
+      "guarded_atomic_tasks.csv": true,
+      "transport_sorties_XB01.csv": true,
+      "candidate_sites_XB01.csv": true,
+      "relay_energy_calendar_XB01.csv": true,
+      "guarded_selected_pairs_XB01.csv": true,
+      "transport_uav_calendar_XB01.csv": true,
+      "relay_uav_calendar_XB01.csv": true,
+      "transport_shifts_XB01.csv": true,
+      "transport_battery_calendar_XB01.csv": true,
+      "communication_guarantee_XB01.csv": true,
+      "relay_sorties_XB01.csv": true
+    }
+  },
+  {
+    "solution_id": "XB01_Q3_003",
+    "byte_identical": true,
+    "files": {
+      "box_delivery_XB01.csv": true,
+      "guarded_atomic_tasks.csv": true,
+      "transport_sorties_XB01.csv": true,
+      "candidate_sites_XB01.csv": true,
+      "relay_energy_calendar_XB01.csv": true,
+      "guarded_selected_pairs_XB01.csv": true,
+      "transport_uav_calendar_XB01.csv": true,
+      "relay_uav_calendar_XB01.csv": true,
+      "transport_shifts_XB01.csv": true,
+      "transport_battery_calendar_XB01.csv": true,
+      "communication_guarantee_XB01.csv": true,
+      "relay_sorties_XB01.csv": true
+    }
+  },
+  {
+    "solution_id": "XB01_Q3_004",
+    "byte_identical": true,
+    "files": {
+      "box_delivery_XB01.csv": true,
+      "guarded_atomic_tasks.csv": true,
+      "transport_sorties_XB01.csv": true,
+      "candidate_sites_XB01.csv": true,
+      "relay_energy_calendar_XB01.csv": true,
+      "guarded_selected_pairs_XB01.csv": true,
+      "transport_uav_calendar_XB01.csv": true,
+      "relay_uav_calendar_XB01.csv": true,
+      "transport_shifts_XB01.csv": true,
+      "transport_battery_calendar_XB01.csv": true,
+      "communication_guarantee_XB01.csv": true,
+      "relay_sorties_XB01.csv": true
+    }
+  },
+  {
+    "solution_id": "XB01_Q3_005",
+    "byte_identical": true,
+    "files": {
+      "box_delivery_XB01.csv": true,
+      "guarded_atomic_tasks.csv": true,
+      "transport_sorties_XB01.csv": true,
+      "candidate_sites_XB01.csv": true,
+      "relay_energy_calendar_XB01.csv": true,
+      "guarded_selected_pairs_XB01.csv": true,
+      "transport_uav_calendar_XB01.csv": true,
+      "relay_uav_calendar_XB01.csv": true,
+      "transport_shifts_XB01.csv": true,
+      "transport_battery_calendar_XB01.csv": true,
+      "communication_guarantee_XB01.csv": true,
+      "relay_sorties_XB01.csv": true
+    }
+  },
+  {
+    "solution_id": "XB02",
+    "byte_identical": true,
+    "files": {
+      "transport_trace.csv": true,
+      "q2_objectives.csv": true,
+      "q2_sorties.csv": true,
+      "q2_battery_calendar.csv": true,
+      "q2_uav_calendar.csv": true,
+      "q2_box_delivery.csv": true
+    }
+  },
+  {
+    "solution_id": "XB02_Q3_001",
+    "byte_identical": true,
+    "files": {
+      "guarded_selected_pairs_XB02.csv": true,
+      "transport_sorties_XB02.csv": true,
+      "communication_guarantee_XB02.csv": true,
+      "guarded_atomic_tasks.csv": true,
+      "candidate_sites_XB02.csv": true,
+      "relay_sorties_XB02.csv": true,
+      "box_delivery_XB02.csv": true,
+      "relay_uav_calendar_XB02.csv": true,
+      "transport_shifts_XB02.csv": true,
+      "transport_uav_calendar_XB02.csv": true,
+      "transport_battery_calendar_XB02.csv": true,
+      "relay_energy_calendar_XB02.csv": true
+    }
+  },
+  {
+    "solution_id": "XB02_Q3_002",
+    "byte_identical": true,
+    "files": {
+      "guarded_selected_pairs_XB02.csv": true,
+      "transport_sorties_XB02.csv": true,
+      "communication_guarantee_XB02.csv": true,
+      "guarded_atomic_tasks.csv": true,
+      "candidate_sites_XB02.csv": true,
+      "relay_sorties_XB02.csv": true,
+      "box_delivery_XB02.csv": true,
+      "relay_uav_calendar_XB02.csv": true,
+      "transport_shifts_XB02.csv": true,
+      "transport_uav_calendar_XB02.csv": true,
+      "transport_battery_calendar_XB02.csv": true,
+      "relay_energy_calendar_XB02.csv": true
+    }
+  },
+  {
+    "solution_id": "XB02_Q3_003",
+    "byte_identical": true,
+    "files": {
+      "guarded_selected_pairs_XB02.csv": true,
+      "transport_sorties_XB02.csv": true,
+      "communication_guarantee_XB02.csv": true,
+      "guarded_atomic_tasks.csv": true,
+      "candidate_sites_XB02.csv": true,
+      "relay_sorties_XB02.csv": true,
+      "box_delivery_XB02.csv": true,
+      "relay_uav_calendar_XB02.csv": true,
+      "transport_shifts_XB02.csv": true,
+      "transport_uav_calendar_XB02.csv": true,
+      "transport_battery_calendar_XB02.csv": true,
+      "relay_energy_calendar_XB02.csv": true
+    }
+  },
+  {
+    "solution_id": "XB02_Q3_004",
+    "byte_identical": true,
+    "files": {
+      "guarded_selected_pairs_XB02.csv": true,
+      "transport_sorties_XB02.csv": true,
+      "communication_guarantee_XB02.csv": true,
+      "guarded_atomic_tasks.csv": true,
+      "candidate_sites_XB02.csv": true,
+      "relay_sorties_XB02.csv": true,
+      "box_delivery_XB02.csv": true,
+      "relay_uav_calendar_XB02.csv": true,
+      "transport_shifts_XB02.csv": true,
+      "transport_uav_calendar_XB02.csv": true,
+      "transport_battery_calendar_XB02.csv": true,
+      "relay_energy_calendar_XB02.csv": true
+    }
+  }
+]
