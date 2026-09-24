@@ -1,70 +1,71 @@
-# E4 Communication Report
+# E4 Communication Report (E4.1)
 
 ## Gate
 
 ```text
-E4_PARETO_SCHEDULES_READY
-E4_LINK_BUDGET_VALID
-E4_LOS_VALID
-E4_GAP_VALID
 E4_Q3_COMMUNICATION_READY
 ```
 
-## 1. Link budgets (from attachment parameters)
+Validated: `E4_LINK_BUDGET_VALID`, `E4_LOS_VALID`, `E41_GAPS_VALID`, `E4_REPORT_CONSISTENT`.
+
+## Link budgets (unchanged)
 
 | pair | L_max |
 | --- | ---: |
-| transport ↔ G01 | **122.0 dB** |
-| transport ↔ relay | **116.0 dB** |
-| relay ↔ G01 | **126.0 dB** |
+| transport ↔ G01 | 122.0 dB |
+| transport ↔ relay | 116.0 dB |
+| relay ↔ G01 | 126.0 dB |
 
-Theoretical ranges (code-computed): T-G 12.51 km LOS / 3.96 km +10 dB; T-R 6.27 / 1.98 km; R-G 19.83 / 6.27 km.
+## Methods (E4.1 corrections)
 
-## 2. DEM occlusion
+- analysis **per sortie_id only** (no cross-sortie interpolation)
+- activity **takeoff_s … return_s** only (no prep)
+- full `handover_start → handover_end` intervals
+- adaptive sampling + **binary refine** of `M_C` sign / LOS transitions (0.1 s)
+- gaps = maximal `{t: M_C<0}` with duration > 0.1 s
 
-Two independent implementations (raster line vs dense ≤10 m). Cross-check 1000 random 3D pairs: **agreement 99.4%** (`E4_LOS_VALID`). Endpoint self-occlusion excluded.
+## Communication burden (auto CSV `q2_pareto_communication_burden.csv`)
 
-## 3–6. Q2 Pareto communication burden (direct only)
+| | P01 | P02 | P03 |
+| --- | ---: | ---: | ---: |
+| J_late | 28569.8 | **27140.2** | **27140.2** |
+| J_norm | 0.5270 | 0.5257 | **0.5240** |
+| sorties | 28 | 28 | 28 |
+| active_time (s) | 37078.8 | 37072.8 | 37072.8 |
+| gap_time (s) | 13378 | 13368 | 13372 |
+| availability ratio | 0.639 | 0.639 | 0.639 |
+| gap_count | 26 | 26 | 26 |
+| max_gap (s) | 1143.5 | 1143.5 | 1143.5 |
+| sorties requiring relay | 21 | 21 | 21 |
+| min M_C (dB) | -6.2 | -6.2 | -6.2 |
+| terrain gap (s) | 13370 | 13360 | 13364 |
+| distance gap (s) | 0 | 0 | 0 |
 
-| | P01 | P02 | P03 | P04 |
-| --- | ---: | ---: | ---: | ---: |
-| transport sorties | 26 | 28 | 29 | 30 |
-| direct availability ratio | 0.857 | 0.843 | 0.854 | 0.859 |
-| gap count | **100** | 106 | **87** | 101 |
-| total gap duration (s) | **13418** | 15809 | 15444 | 15683 |
-| max single gap (s) | 939 | 1017 | **794** | 824 |
-| sorties needing relay | 26 | 28 | 27 | 30 |
-| min M_C (dB) | -6.2 | -6.2 | -6.2 | -6.2 |
-| terrain-caused gap (s) | 13418 | 15809 | 15444 | 15683 |
-| distance-caused gap (s) | **0** | 0 | 0 | 0 |
+Identity `active ≈ gap + available` holds (error ≈ 5e-10 s).
 
-**All gaps are terrain-caused** (not range). Distance-only duration is zero on all four plans.
+## Gap causes
 
-## 7. Is one Q2 structure easier to support?
+Almost all gap time is **TERRAIN_BLOCKAGE**; distance-only gap time is **0** on all three plans.
 
-**P01 (26 sorties)** has the **lowest total communication gap burden** (13.4 ks vs 15.4–15.8 ks) and the fewest sorties requiring relay support coverage windows in aggregate time, despite P03 having fewer discrete gap segments.
+## Which Q2 structure is easier to support?
 
-P01 is also best on transport energy / makespan / sorties (E3.1). Evidence currently **favors P01** for joint Q3.
+Communication burden is **essentially tied** (gap_time 13368–13378 s). Slight edge to **P02** (lowest gap_time and lower `J_late` than P01). Differences are small versus terrain-induced gaps shared across plans.
 
-## 8. Need to change Q2 transport structure?
+## Need to change Q2 structure?
 
-**Not yet required to redesign Q2**, but there is already evidence that the 26-sortie Pareto point is simultaneously better on transport metrics *and* lower direct-gap burden than the more “timely” 30-sortie point. Q3 should still re-optimize jointly (relay energy may change the ranking).
+**Not strongly required for communication alone.** Prefer P02/P03 on timeliness; P01 is slightly worse on `J_late` with similar comm cost. Joint Q3 (relay energy) should re-rank.
 
-## Pareto schedule persistence
+## LOS disagreements
 
-`results/q2/pareto_schedules/P01..P04/` with sorties, deliveries, calendars, `transport_trace.csv`, `objectives.json`, `missions.json`.
-
-- **P01** exact match to stage1 seed `2026092302` metrics.
-- **P02–P04** are real ALNS recoveries (saved mission structures). Exact original Stage2 epsilon points were not structure-cached; recovery used explicit seeds (`fast_eps_points.py`, `fix_p03.py`). Metrics recorded in each `objectives.json`. All traces pass `E3_TRACE_VALID` when regenerated.
+`results/q3/los_disagreements.csv` — 6 / 1000 pairs (99.4% agreement), near-tangent / cell-boundary class.
 
 ## Artifacts
 
-- `results/q3/link_budget.csv`, `theoretical_ranges.csv`
+- `results/q2/pareto_schedules/P01..P03/` (full traces)
 - `results/q3/direct_margin_Pxx.csv`, `direct_gaps_Pxx.csv`, `direct_gaps.csv`
 - `results/q3/q2_pareto_communication_burden.csv`
-- `docs/model/Q3_COMMUNICATION_SEMANTICS.md`
-- Relay margin helpers in `src/q3/communication_margin.py` (no scheduling)
+- `results/q3/los_disagreements.csv`
 
 ## Not done (by design)
 
-Relay placement, R01/R02 assignment, relay energy packs, Q3 ALNS, SOCP, ns-3 formal runs, Q4.
+Relay grid/placement, relay task merge, R01/R02, relay energy, Q3 ALNS, SOCP, ns-3 formal, Q4, E5.
