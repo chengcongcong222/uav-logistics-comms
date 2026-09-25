@@ -1,0 +1,37 @@
+[
+  {
+    "signature": "288fca997fc25c736183d3bbb5be8f1a1eae27b7fdb66d2e318527139d29d110",
+    "objective_value": 25.0,
+    "wall_s": 4.257902748
+  },
+  {
+    "signature": "6081f78f34dd8a32ca8204970a167d057f159a4fc4d121254e227eefe46247d4",
+    "objective_value": 24.0,
+    "wall_s": 4.938013355000001
+  },
+  {
+    "signature": "6160764a9bad168829cbf8e0b551d8a0f6c3ef81fa1f58ba6798833731ec883a",
+    "objective_value": 23.0,
+    "wall_s": 12.922561099000001
+  },
+  {
+    "signature": "2bfde13cd65b0533df72c062bb1afd3c16a5dae750a22ec749dcddbe97000499",
+    "objective_value": 22.0,
+    "wall_s": 14.135538295000002
+  },
+  {
+    "signature": "cf8ebf2dce9515436f92d596f1e1ca300206dbfb6d6826300acbfe7d912e16df",
+    "objective_value": 21.0,
+    "wall_s": 30.364073877000003
+  },
+  {
+    "signature": "2b6f63922d099489a16db5804c6ec961b9ca0eedc282ee32553a776ccf0b24cb",
+    "objective_value": 20.0,
+    "wall_s": 61.07795713
+  },
+  {
+    "signature": "f095b5796228726836d0d52d65891f9204a6cfc051457cecc7e464feed0f7ed4",
+    "objective_value": 19.0,
+    "wall_s": 70.05567971900001
+  }
+]

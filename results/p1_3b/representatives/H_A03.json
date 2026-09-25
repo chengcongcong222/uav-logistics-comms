@@ -1,0 +1,90 @@
+{
+  "id": "H_A03",
+  "origin_run": "HISTORICAL_AUTONOMOUS_FULL_POOL_READMISSION",
+  "anchor": "HISTORICAL",
+  "signature": "863d2c21c775eb21ab27c0f49ac68786c9fa2e04499e4b9f11cafa92ef5fd1ba",
+  "pattern_occurrences": [
+    19,
+    28,
+    41,
+    59,
+    85,
+    115,
+    140,
+    175,
+    203,
+    208,
+    222,
+    234,
+    246,
+    258,
+    270,
+    282,
+    294,
+    868,
+    1611
+  ],
+  "metrics": {
+    "J_late": 0.0,
+    "J_norm": 0.5552755835113111,
+    "makespan": 8844.595055034788,
+    "energy": 60.047644724851246,
+    "sorties": 19,
+    "source": "A03",
+    "global_optimum_proven": false
+  },
+  "package": "results/p1_3b/q2/pareto_schedules/H_A03",
+  "validation_status": "XB1_Q2_INDEPENDENTLY_VALIDATED",
+  "validation_sha256": "999b3dc3f7395d498990203061a062374e8b306de237f8eda8c6bdee9aba2cc0",
+  "source_package": "results/reset/q2/pareto_schedules/A03",
+  "source_hashes": {
+    "metadata.json": "61c2765eb861c794a5ba1f1b70d6b4c6d10ea21c2471bb43e6919d3db6be33d9",
+    "missions.json": "a776b0edf51467d4ecda7a6f4b2490d29ebf93d3169bfe9273ecdbc7789d557d",
+    "transport_trace.csv": "b1ea6de863f5838607ac18d3c21c8ce5049cfaab803c2ba8d92465f7435cbd7c",
+    "validation.json": "b9361f414b9c18e26f1c5c28cc9a9bddfd5ba73077f52e912c8a82f282df398d",
+    "q2_objectives.csv": "ca4640e10da84f11a086fc7f2716f39b4c1f2d91e4e0beecfe2081f53fbf043a",
+    "transport_battery_calendar_A03.csv": "cc295dd288e2e89431f2c0bdb86b4820bc143fc3fb884cace0fdaf4ad1eeb34f",
+    "q2_sorties.csv": "9a51865262147db35402d6ddd95ceda585056397293a7207ea7c3e8a8e182b77",
+    "box_delivery_A03.csv": "60b32b47bfe38a54c9dd9cc7e434eaec15d3d9505fe6b923353f2c1932d11b3e",
+    "transport_sorties_A03.csv": "9a51865262147db35402d6ddd95ceda585056397293a7207ea7c3e8a8e182b77",
+    "q2_battery_calendar.csv": "cc295dd288e2e89431f2c0bdb86b4820bc143fc3fb884cace0fdaf4ad1eeb34f",
+    "transport_uav_calendar_A03.csv": "2d916b16e607fa6a2a1884493732e9f904ee42b7dbe50f382b7762ec8c034080",
+    "q2_uav_calendar.csv": "2d916b16e607fa6a2a1884493732e9f904ee42b7dbe50f382b7762ec8c034080",
+    "q2_box_delivery.csv": "60b32b47bfe38a54c9dd9cc7e434eaec15d3d9505fe6b923353f2c1932d11b3e"
+  },
+  "pattern_pool_sha256": "3a451cd1df7cd11c288e63f63e348611bb3637edac5cba3e9f8fc52228e1db08",
+  "transport_workload_lower_bound_s": 8688.858063732405,
+  "typed_loads": [
+    {
+      "type": "A",
+      "uavs": 4,
+      "batteries": 6,
+      "sorties": 2,
+      "uav_occupation_s": 3731.172846887551,
+      "battery_occupation_s": 5452.598053297757,
+      "uav_workload_lower_bound_s": 932.7932117218877,
+      "battery_workload_lower_bound_s": -463.2910498551206
+    },
+    {
+      "type": "B",
+      "uavs": 2,
+      "batteries": 4,
+      "sorties": 10,
+      "uav_occupation_s": 17377.716127464813,
+      "battery_occupation_s": 29940.2568044113,
+      "uav_workload_lower_bound_s": 8688.858063732407,
+      "battery_workload_lower_bound_s": 5529.140576373334
+    },
+    {
+      "type": "C",
+      "uavs": 2,
+      "batteries": 4,
+      "sorties": 7,
+      "uav_occupation_s": 14579.595333747457,
+      "battery_occupation_s": 25710.825059293544,
+      "uav_workload_lower_bound_s": 7289.797666873728,
+      "battery_workload_lower_bound_s": 3927.963325157484
+    }
+  ],
+  "scope": "Any schedule of this fixed transport box/visit/type structure, independent of relay grouping"
+}

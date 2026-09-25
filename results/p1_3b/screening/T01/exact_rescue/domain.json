@@ -1,0 +1,18 @@
+{
+  "scope": "EXACT_PARTIAL_FINITE_GROUP_AND_ENDPOINT_ORDER_DOMAIN",
+  "groups": 82,
+  "modes": 115,
+  "variables": 16414,
+  "constraints": 92493,
+  "group_sources": "Three batch partitions; three global greedy partitions; all atoms; common-site pairs within two neighbors in nominal task-start order",
+  "endpoint_orders": "Q2 schedule order and all preparations-at-zero order; other permutations not enumerated",
+  "resource_assignments_and_orders_free": true,
+  "all_common_frozen_sites": true,
+  "exact_union_energy": true,
+  "exact_charge_graph": true,
+  "Gamma_C_db": 0,
+  "seed": 26092511,
+  "threads": 1,
+  "late_hard_layer": 0.0001,
+  "global_Q3_optimality_claim": false
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "signature": "288fca997fc25c736183d3bbb5be8f1a1eae27b7fdb66d2e318527139d29d110",
+    "objective_value": 0.492142420279,
+    "wall_s": 3.270979155
+  },
+  {
+    "signature": "288fca997fc25c736183d3bbb5be8f1a1eae27b7fdb66d2e318527139d29d110",
+    "objective_value": 0.485704486533,
+    "wall_s": 3.368071177
+  },
+  {
+    "signature": "288fca997fc25c736183d3bbb5be8f1a1eae27b7fdb66d2e318527139d29d110",
+    "objective_value": 0.457385587881,
+    "wall_s": 4.294925946
+  },
+  {
+    "signature": "288fca997fc25c736183d3bbb5be8f1a1eae27b7fdb66d2e318527139d29d110",
+    "objective_value": 0.455440851861,
+    "wall_s": 4.332909987
+  },
+  {
+    "signature": "288fca997fc25c736183d3bbb5be8f1a1eae27b7fdb66d2e318527139d29d110",
+    "objective_value": 0.454710861299,
+    "wall_s": 4.5901312480000005
+  },
+  {
+    "signature": "288fca997fc25c736183d3bbb5be8f1a1eae27b7fdb66d2e318527139d29d110",
+    "objective_value": 0.454406337253,
+    "wall_s": 5.430033857000001
+  },
+  {
+    "signature": "288fca997fc25c736183d3bbb5be8f1a1eae27b7fdb66d2e318527139d29d110",
+    "objective_value": 0.454161334953,
+    "wall_s": 5.479092266
+  },
+  {
+    "signature": "288fca997fc25c736183d3bbb5be8f1a1eae27b7fdb66d2e318527139d29d110",
+    "objective_value": 0.453336731114,
+    "wall_s": 8.257570765
+  },
+  {
+    "signature": "288fca997fc25c736183d3bbb5be8f1a1eae27b7fdb66d2e318527139d29d110",
+    "objective_value": 0.45234375092,
+    "wall_s": 11.604814863000001
+  },
+  {
+    "signature": "288fca997fc25c736183d3bbb5be8f1a1eae27b7fdb66d2e318527139d29d110",
+    "objective_value": 0.451395088177,
+    "wall_s": 14.004557832000001
+  },
+  {
+    "signature": "288fca997fc25c736183d3bbb5be8f1a1eae27b7fdb66d2e318527139d29d110",
+    "objective_value": 0.447852009078,
+    "wall_s": 16.393392758
+  },
+  {
+    "signature": "288fca997fc25c736183d3bbb5be8f1a1eae27b7fdb66d2e318527139d29d110",
+    "objective_value": 0.447366885936,
+    "wall_s": 16.423917184
+  },
+  {
+    "signature": "288fca997fc25c736183d3bbb5be8f1a1eae27b7fdb66d2e318527139d29d110",
+    "objective_value": 0.447078600512,
+    "wall_s": 16.570419438000002
+  },
+  {
+    "signature": "1b3d81d4d685ddea87efa3d239df182962b1f7b7cdf96311db8990f252aed5e6",
+    "objective_value": 0.445765370371,
+    "wall_s": 29.137696946000002
+  },
+  {
+    "signature": "1b3d81d4d685ddea87efa3d239df182962b1f7b7cdf96311db8990f252aed5e6",
+    "objective_value": 0.445433419591,
+    "wall_s": 31.948588757000003
+  },
+  {
+    "signature": "1b3d81d4d685ddea87efa3d239df182962b1f7b7cdf96311db8990f252aed5e6",
+    "objective_value": 0.442764654462,
+    "wall_s": 50.034693690000005
+  },
+  {
+    "signature": "1b3d81d4d685ddea87efa3d239df182962b1f7b7cdf96311db8990f252aed5e6",
+    "objective_value": 0.442432703682,
+    "wall_s": 50.03769802
+  },
+  {
+    "signature": "f93fe19c75a902a7a082637d849ddc41cd9d63734889eb72143cf61b66befc69",
+    "objective_value": 0.442298463793,
+    "wall_s": 50.071691599000005
+  },
+  {
+    "signature": "ef945e6d43af2293553f7cf1fc0fb9c0886afb57aea788f9c4b328750ce934d5",
+    "objective_value": 0.441507749828,
+    "wall_s": 65.21632722400001
+  },
+  {
+    "signature": "ef945e6d43af2293553f7cf1fc0fb9c0886afb57aea788f9c4b328750ce934d5",
+    "objective_value": 0.441453271703,
+    "wall_s": 76.63008347200001
+  },
+  {
+    "signature": "ef945e6d43af2293553f7cf1fc0fb9c0886afb57aea788f9c4b328750ce934d5",
+    "objective_value": 0.441351764567,
+    "wall_s": 78.555668878
+  },
+  {
+    "signature": "ef945e6d43af2293553f7cf1fc0fb9c0886afb57aea788f9c4b328750ce934d5",
+    "objective_value": 0.441288567767,
+    "wall_s": 79.473672788
+  }
+]

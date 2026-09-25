@@ -1,0 +1,221 @@
+{
+  "id": "N01",
+  "origin_run": "J_norm_v3",
+  "anchor": "J_norm",
+  "rank": 0,
+  "signature": "ef945e6d43af2293553f7cf1fc0fb9c0886afb57aea788f9c4b328750ce934d5",
+  "pattern_occurrences": [
+    12,
+    31,
+    41,
+    59,
+    70,
+    79,
+    80,
+    115,
+    126,
+    137,
+    151,
+    157,
+    162,
+    169,
+    175,
+    186,
+    192,
+    199,
+    208,
+    224,
+    233,
+    246,
+    258,
+    270,
+    282,
+    294,
+    1414
+  ],
+  "trips": [
+    {
+      "pattern": 12,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 31,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 41,
+      "copy": 0,
+      "start_units": 18324
+    },
+    {
+      "pattern": 59,
+      "copy": 0,
+      "start_units": 14942
+    },
+    {
+      "pattern": 70,
+      "copy": 0,
+      "start_units": 36035
+    },
+    {
+      "pattern": 79,
+      "copy": 0,
+      "start_units": 36021
+    },
+    {
+      "pattern": 80,
+      "copy": 0,
+      "start_units": 29084
+    },
+    {
+      "pattern": 115,
+      "copy": 0,
+      "start_units": 16922
+    },
+    {
+      "pattern": 126,
+      "copy": 0,
+      "start_units": 38362
+    },
+    {
+      "pattern": 137,
+      "copy": 0,
+      "start_units": 30410
+    },
+    {
+      "pattern": 151,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 157,
+      "copy": 0,
+      "start_units": 19228
+    },
+    {
+      "pattern": 162,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 169,
+      "copy": 0,
+      "start_units": 18756
+    },
+    {
+      "pattern": 175,
+      "copy": 0,
+      "start_units": 13135
+    },
+    {
+      "pattern": 186,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 192,
+      "copy": 0,
+      "start_units": 50920
+    },
+    {
+      "pattern": 199,
+      "copy": 0,
+      "start_units": 47332
+    },
+    {
+      "pattern": 208,
+      "copy": 0,
+      "start_units": 31301
+    },
+    {
+      "pattern": 224,
+      "copy": 0,
+      "start_units": 13135
+    },
+    {
+      "pattern": 233,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 246,
+      "copy": 0,
+      "start_units": 33921
+    },
+    {
+      "pattern": 258,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 270,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 282,
+      "copy": 0,
+      "start_units": 15105
+    },
+    {
+      "pattern": 294,
+      "copy": 0,
+      "start_units": 45806
+    },
+    {
+      "pattern": 1414,
+      "copy": 0,
+      "start_units": 39933
+    }
+  ],
+  "metrics": {
+    "J_late": 0.0,
+    "J_norm": 0.44128856776241876,
+    "makespan": 6933.842307167044,
+    "energy": 73.82368715225522,
+    "sorties": 27,
+    "source": "N01",
+    "global_optimum_proven": false
+  },
+  "package": "results/p1_3b/q2/pareto_schedules/N01",
+  "validation_status": "XB1_Q2_INDEPENDENTLY_VALIDATED",
+  "validation_cpu_s": 0.6047443669999994,
+  "validation_sha256": "9bcf445cf987a24afad133e9d77cc12590d6458551f0f0c72395c785aeefc3a4",
+  "pattern_pool_sha256": "3a451cd1df7cd11c288e63f63e348611bb3637edac5cba3e9f8fc52228e1db08",
+  "transport_workload_lower_bound_s": 6665.315396085019,
+  "typed_loads": [
+    {
+      "type": "A",
+      "uavs": 4,
+      "batteries": 6,
+      "sorties": 13,
+      "uav_occupation_s": 22963.57949845447,
+      "battery_occupation_s": 33112.49926262381,
+      "uav_workload_lower_bound_s": 5740.8948746136175,
+      "battery_workload_lower_bound_s": 4127.9379696975775
+    },
+    {
+      "type": "B",
+      "uavs": 2,
+      "batteries": 4,
+      "sorties": 8,
+      "uav_occupation_s": 13330.630792170039,
+      "battery_occupation_s": 22914.577073810597,
+      "uav_workload_lower_bound_s": 6665.3153960850195,
+      "battery_workload_lower_bound_s": 3772.720643723158
+    },
+    {
+      "type": "C",
+      "uavs": 2,
+      "batteries": 4,
+      "sorties": 6,
+      "uav_occupation_s": 12251.825449421383,
+      "battery_occupation_s": 22089.49534822306,
+      "uav_workload_lower_bound_s": 6125.912724710692,
+      "battery_workload_lower_bound_s": 3022.630897389863
+    }
+  ],
+  "scope": "Any schedule of this fixed transport box/visit/type structure, independent of relay grouping"
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "FINITE_COLD_GROUP_CATALOGUE_COUNT_RELAXATION; ignores timing, energy overlaps and all resources",
+  "groups": 26,
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "cpu_s": 0.0020416210000036017,
+  "iterations": 4,
+  "nodes": null,
+  "full_Q3_lower_bound": false,
+  "finite_group_catalogue_only": true,
+  "lower_bound": 5,
+  "bound_status": "VALID_FOR_DECLARED_COLD_GROUP_CATALOGUE_ONLY"
+}

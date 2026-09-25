@@ -1,0 +1,22 @@
+{
+  "status": "P1_3B_Q3_COUPLING_BLOCKED",
+  "primary_scope": "Fast transport candidates and their corresponding Q3 closure, not universal Q3 feasibility",
+  "bound_status": "VALID_CONTINUOUS_FULL_POOL_CERTIFICATES",
+  "faster_than_A11_fixed_structure_bound": [
+    "T01",
+    "T02",
+    "T03"
+  ],
+  "corresponding_fast_Q3_witnesses": 0,
+  "other_new_Q3_verified_witnesses": [
+    "C01_Q3_001"
+  ],
+  "all_pool_Q3_infeasibility_claim": false,
+  "all_Q3_structures_blocked": false,
+  "evidence": "Three independently validated fast structures beat the A11 structure lower bound; none closed in bounded cold Q3 screening, including one exact finite-mode rescue. A distinct 19-sortie slower structure did close.",
+  "next_priority": "Improve transport-relay coupling and relay group/site scheduling; do not infer pool insufficiency or start column generation from these bounds",
+  "no_global_optimality_claim": true,
+  "no_final_pareto_claim": true,
+  "no_formal_comparison": true,
+  "stop_after_this_phase": true
+}

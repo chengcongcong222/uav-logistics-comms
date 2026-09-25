@@ -1,0 +1,24 @@
+{
+  "python": "3.12.3",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "pandas": "3.0.6",
+  "ortools": "9.14.6206",
+  "dependency_target": ".deps_p13b (not committed; installation instructions provided)",
+  "original_venv_not_modified": true,
+  "transport_CP_seed": 26092511,
+  "transport_CP_workers": 4,
+  "parallel_worker_search_not_bitwise_reproducible": true,
+  "Q3_initial_T01_HiGHS_seed": 0,
+  "Q3_initial_T01_seed_note": "Unchanged original helper used HiGHS default 0; confirmed via HighsOptions().random_seed; source snapshot preserved",
+  "other_Q3_seed": 26092511,
+  "Q3_threads": 1,
+  "formal_equal_CPU_comparison": false,
+  "primary_transport_limits_s": {
+    "makespan": 180,
+    "sorties": 90,
+    "J_norm": 90,
+    "energy": 90
+  },
+  "process_CPU_vs_wall": "Both recorded per solve; four CP workers can consume roughly four CPU seconds per wall second"
+}

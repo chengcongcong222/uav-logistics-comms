@@ -1,0 +1,29 @@
+{
+  "axis": "makespan",
+  "time_limit_s": 180.0,
+  "time_grid_s": 0.1,
+  "seed": 26092511,
+  "workers": 4,
+  "optional_trip_copies": 2973,
+  "patterns": 2903,
+  "objective_scale": 10,
+  "objective": "SINGLE_AXIS_INTEGER_COEFFICIENT_ROUNDING",
+  "transport_starts": "All 0.1 s grid starts within original deadlines",
+  "conservative_intervals": "UAV duration ceil; battery start floor(prep), end ceil(duration+charge)",
+  "cp_bound_scope": "CONSERVATIVE_GRID_PRIMAL_DOMAIN_ONLY_NOT_A_CONTINUOUS_FULL_POOL_BOUND",
+  "no_external_threshold": true,
+  "near_optimal_cap": null,
+  "excluded_prior_runs": [],
+  "hint": {
+    "used": true,
+    "source": "results/reset/q2/pareto_schedules/A11/missions.json",
+    "sha256": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+    "source_line": "AUTONOMOUS_A11",
+    "role": "GRID_REPAIRED_HINT_ONLY; NO RESOURCE ORDER FIXED IN MODEL"
+  },
+  "source_hashes": {
+    "src/bench_p1_3b/bounds.py": "6eef255b043788bd3bb7eff51e5bac42c0a7128ad2276cacc886266840084093",
+    "src/bench_p1_3b/common.py": "d43934d91e928698f1eaed6efa2a9dfbafc1cae71ee0b66b487ef232433ef5fe",
+    "src/bench_p1_3b/transport.py": "74d59691114cc32a8b826ac8d51c27b4924388436983f69a768b9b1d0731fa33"
+  }
+}

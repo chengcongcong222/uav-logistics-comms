@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/ccc/projects/uav-logistics-comms/src/bench_p1_3b/transport.py", line 135, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/ccc/projects/uav-logistics-comms/src/bench_p1_3b/transport.py", line 122, in main
+    assert status in (cp_model.OPTIMAL,cp_model.FEASIBLE),'Grid hint must pass the full compiled model'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Grid hint must pass the full compiled model

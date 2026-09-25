@@ -1,0 +1,9 @@
+{
+  "cold_builder": "results/p1_3b/screening/T01",
+  "source_hashes": {
+    "results/p1_3b/screening/T01/q3/T01/guarded_atomic_tasks.csv": "36fec345acc30e01bb5ad8e831d59147342a225176ad50022e213726b266b668",
+    "results/p1_3b/screening/T01/q3/T01/candidate_pairs.csv": "3a5b5e2b5e43c109f100e9ff87dc220225a7253b79957986e76867db89047f80",
+    "results/p1_3b/screening/T01/q3/T01/candidate_sites.csv": "d5f3c398a18e482f76f4505a29b67ec0eb00439715baf1975f19b08be096b90d"
+  },
+  "reason": "Reuse only this representative own completed cold build; no other structure or historical pairs"
+}

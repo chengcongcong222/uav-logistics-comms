@@ -1,0 +1,11 @@
+test_battery_recharge_changes_optimal_schedule (src.bench_p1_3b.test_models.ModelTests.test_battery_recharge_changes_optimal_schedule) ... ok
+test_complete_grid_hint_is_feasible (src.bench_p1_3b.test_models.ModelTests.test_complete_grid_hint_is_feasible) ... ok
+test_full_continuous_relaxation_contains_verified_A11 (src.bench_p1_3b.test_models.ModelTests.test_full_continuous_relaxation_contains_verified_A11) ... ok
+test_outward_arithmetic_is_conservative (src.bench_p1_3b.test_models.ModelTests.test_outward_arithmetic_is_conservative) ... ok
+test_parallel_machine_workload_inequality (src.bench_p1_3b.test_models.ModelTests.test_parallel_machine_workload_inequality) ... ok
+test_rounding_encloses_physical_intervals (src.bench_p1_3b.test_models.ModelTests.test_rounding_encloses_physical_intervals) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 2.671s
+
+OK

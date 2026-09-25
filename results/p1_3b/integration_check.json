@@ -1,0 +1,29 @@
+{
+  "status": "PASSED",
+  "complete_pool_verified": true,
+  "full_pool_bounds": 4,
+  "independent_certificate_replays": 19,
+  "validated_Q2": 12,
+  "validated_Q3": 1,
+  "all_cold_templates_misses": true,
+  "source_checks": [
+    {
+      "run": "makespan_v3",
+      "executed_model_source_matches": true
+    },
+    {
+      "run": "sorties_v3",
+      "executed_model_source_matches": true
+    },
+    {
+      "run": "energy_v3",
+      "executed_model_source_matches": true
+    },
+    {
+      "run": "J_norm_v3",
+      "executed_model_source_matches": true
+    }
+  ],
+  "historical_A11_lower_bound_unchanged": true,
+  "history_files_unchanged": 13576
+}

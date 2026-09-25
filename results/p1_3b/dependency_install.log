@@ -1,0 +1,34 @@
+Collecting ortools==9.14.6206
+  Downloading ortools-9.14.6206-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (3.3 kB)
+Collecting absl-py>=2.0.0 (from ortools==9.14.6206)
+  Downloading absl_py-2.5.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting numpy>=1.13.3 (from ortools==9.14.6206)
+  Using cached numpy-2.5.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+Collecting pandas>=2.0.0 (from ortools==9.14.6206)
+  Using cached pandas-3.0.6-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (79 kB)
+Collecting protobuf<6.32,>=6.31.1 (from ortools==9.14.6206)
+  Downloading protobuf-6.31.1-cp39-abi3-manylinux2014_x86_64.whl.metadata (593 bytes)
+Collecting typing-extensions>=4.12 (from ortools==9.14.6206)
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting immutabledict>=3.0.0 (from ortools==9.14.6206)
+  Downloading immutabledict-4.3.1-py3-none-any.whl.metadata (3.5 kB)
+Collecting python-dateutil>=2.8.2 (from pandas>=2.0.0->ortools==9.14.6206)
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Requirement already satisfied: six>=1.5 in /usr/lib/python3/dist-packages (from python-dateutil>=2.8.2->pandas>=2.0.0->ortools==9.14.6206) (1.16.0)
+Downloading ortools-9.14.6206-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (27.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 27.7/27.7 MB 2.7 MB/s eta 0:00:00
+Downloading absl_py-2.5.0-py3-none-any.whl (137 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 137.4/137.4 kB 657.3 kB/s eta 0:00:00
+Downloading immutabledict-4.3.1-py3-none-any.whl (5.0 kB)
+Using cached numpy-2.5.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+Using cached pandas-3.0.6-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (10.8 MB)
+Downloading protobuf-6.31.1-cp39-abi3-manylinux2014_x86_64.whl (321 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 321.1/321.1 kB 1.0 MB/s eta 0:00:00
+Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Installing collected packages: typing-extensions, python-dateutil, protobuf, numpy, immutabledict, absl-py, pandas, ortools
+  Attempting uninstall: typing-extensions
+    Found existing installation: typing_extensions 4.10.0
+    Not uninstalling typing-extensions at /usr/lib/python3/dist-packages, outside environment /tmp/uav_p13b_env
+    Can't uninstall 'typing_extensions'. No files were found to uninstall.
+Successfully installed absl-py-2.5.0 immutabledict-4.3.1 numpy-2.5.3 ortools-9.14.6206 pandas-3.0.6 protobuf-6.31.1 python-dateutil-2.9.0.post0 typing-extensions-4.16.0

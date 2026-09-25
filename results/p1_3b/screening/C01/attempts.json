@@ -1,0 +1,20 @@
+[
+  {
+    "batch": 12,
+    "groups": 4,
+    "raw_solver": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "runtime_s": 0.5317023690000156,
+      "groups": 4,
+      "objective": 0.0,
+      "dual_bound": 0.0,
+      "scope": "JOINT_TYPED_RESOURCES_MILP",
+      "limit_s": 30.0,
+      "transport_resource_repair_passed": true
+    },
+    "cpu_s": 1.9969631800000087,
+    "raw_dual_scope": "Conservative fixed-group seed MILP objective is lateness, NOT a full-Q3 count or energy lower bound",
+    "outcome": "INDEPENDENTLY_VALIDATED_ZERO_LATE_LAYER"
+  }
+]

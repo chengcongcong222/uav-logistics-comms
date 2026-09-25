@@ -1,0 +1,39 @@
+{
+  "J_late": 0.0,
+  "J_norm": 0.4921360646731479,
+  "transport_energy_kwh": 67.38961978302872,
+  "transport_makespan_s": 6412.642380995723,
+  "transport_sorties": 25,
+  "minimum_transport_energy_margin_kwh": 0.2471029920028247,
+  "hard_deadline_violations": 0,
+  "status": "XB1_Q2_INDEPENDENTLY_VALIDATED",
+  "trace_waypoints_checked": 450,
+  "checks": [
+    "80 boxes exactly once",
+    "mass and volume",
+    "per-leg payload and energy",
+    "31 hard deadlines",
+    "typed UAV non-overlap",
+    "typed battery SOC and recharge non-overlap",
+    "J_late/J_norm recomputed",
+    "every trajectory waypoint reconstructed"
+  ],
+  "artifact_sha256": {
+    "metadata.json": "6451a97894fecbceb2c45319d48358846a4303ffcfcf1f630709302452c48613",
+    "missions.json": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+    "transport_trace.csv": "842c76bd3832e75fb931897211a6e3fd632e067cf8b3601d9b840075bd4919b0",
+    "transport_sorties_H_A11.csv": "7424859a36a250f1b5e6b6bee2fb95d93a74bbf68b99deab2693eb306cf3569c",
+    "q2_objectives.csv": "40e485bb49e73bb5ac434530043bb4ff2c01b87d8e91a8af1c3d167d7d99c9f5",
+    "transport_sorties_A11.csv": "7424859a36a250f1b5e6b6bee2fb95d93a74bbf68b99deab2693eb306cf3569c",
+    "q2_sorties.csv": "7424859a36a250f1b5e6b6bee2fb95d93a74bbf68b99deab2693eb306cf3569c",
+    "transport_battery_calendar_H_A11.csv": "b98b2d8b6f213dde6e0c8b72458754053570dd194e5da329b7ab2cc7d5f79f40",
+    "transport_uav_calendar_H_A11.csv": "336ff40950e33cb5f8ce6e1e2fed7c933ea6c96c72e2577e89d8f0d00486412d",
+    "transport_uav_calendar_A11.csv": "336ff40950e33cb5f8ce6e1e2fed7c933ea6c96c72e2577e89d8f0d00486412d",
+    "q2_battery_calendar.csv": "b98b2d8b6f213dde6e0c8b72458754053570dd194e5da329b7ab2cc7d5f79f40",
+    "box_delivery_H_A11.csv": "31d1b0a795f6c1fb2913d3da274b16fb40e2725f053ab1ad90a530b3b61272df",
+    "q2_uav_calendar.csv": "336ff40950e33cb5f8ce6e1e2fed7c933ea6c96c72e2577e89d8f0d00486412d",
+    "box_delivery_A11.csv": "31d1b0a795f6c1fb2913d3da274b16fb40e2725f053ab1ad90a530b3b61272df",
+    "q2_box_delivery.csv": "31d1b0a795f6c1fb2913d3da274b16fb40e2725f053ab1ad90a530b3b61272df",
+    "transport_battery_calendar_A11.csv": "b98b2d8b6f213dde6e0c8b72458754053570dd194e5da329b7ab2cc7d5f79f40"
+  }
+}

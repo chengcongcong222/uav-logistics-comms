@@ -1,0 +1,686 @@
+{
+  "accepted_full_pool_bounds": [
+    {
+      "anchor": "makespan",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "cpu_s": 0.4302300859999999,
+      "iterations": 1489,
+      "nodes": null,
+      "scope": "FULL_POOL_CONTINUOUS_OUTER_RELAXATION",
+      "full_pool_optimality_proven": false,
+      "lower_bound": 5539.261004279375,
+      "raw_lp_value": 5539.261004279377,
+      "bound_status": "VALID_FULL_POOL_CONTINUOUS_RELAXATION",
+      "certificate": "results/p1_3b/bounds/makespan/certificate.json"
+    },
+    {
+      "anchor": "sorties",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "cpu_s": 0.6498972360000002,
+      "iterations": 2518,
+      "nodes": null,
+      "scope": "FULL_POOL_CONTINUOUS_OUTER_RELAXATION",
+      "full_pool_optimality_proven": false,
+      "lower_bound": 16,
+      "raw_lp_value": 15.497110838306643,
+      "bound_status": "VALID_FULL_POOL_CONTINUOUS_RELAXATION",
+      "certificate": "results/p1_3b/bounds/sorties/certificate.json"
+    },
+    {
+      "anchor": "J_norm",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "cpu_s": 0.20033473899999965,
+      "iterations": 291,
+      "nodes": null,
+      "scope": "FULL_POOL_CONTINUOUS_OUTER_RELAXATION",
+      "full_pool_optimality_proven": false,
+      "lower_bound": 0.2501488973231646,
+      "raw_lp_value": 0.2501488973231647,
+      "bound_status": "VALID_FULL_POOL_CONTINUOUS_RELAXATION",
+      "certificate": "results/p1_3b/bounds/J_norm/certificate.json"
+    },
+    {
+      "anchor": "energy",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "cpu_s": 0.6260766950000001,
+      "iterations": 2302,
+      "nodes": null,
+      "scope": "FULL_POOL_CONTINUOUS_OUTER_RELAXATION",
+      "full_pool_optimality_proven": false,
+      "lower_bound": 57.762203105785794,
+      "raw_lp_value": 57.76220310591067,
+      "bound_status": "VALID_FULL_POOL_CONTINUOUS_RELAXATION",
+      "certificate": "results/p1_3b/bounds/energy/certificate.json"
+    }
+  ],
+  "extremes": [
+    {
+      "anchor": "makespan",
+      "verified_incumbent": "T01",
+      "incumbent_package": "results/p1_3b/q2/pareto_schedules/T01",
+      "upper_bound": 6101.161066593163,
+      "best_new_run_representative": "T01",
+      "best_new_value": 6101.161066593163,
+      "valid_full_pool_lower_bound": 5539.261004279375,
+      "relative_gap": 0.0920972346379225,
+      "bound_status": "VALID_FULL_POOL_CONTINUOUS_RELAXATION",
+      "certificate": "results/p1_3b/bounds/makespan/certificate.json",
+      "finite_continuous_pool_optimality_proven": false,
+      "tie_break": "Known feasible incumbent selection only: requested axis, J_norm, makespan, energy, ID; no secondary optimality claim"
+    },
+    {
+      "anchor": "sorties",
+      "verified_incumbent": "C01",
+      "incumbent_package": "results/p1_3b/q2/pareto_schedules/C01",
+      "upper_bound": 19,
+      "best_new_run_representative": "C01",
+      "best_new_value": 19,
+      "valid_full_pool_lower_bound": 16,
+      "relative_gap": 0.15789473684210525,
+      "bound_status": "VALID_FULL_POOL_CONTINUOUS_RELAXATION",
+      "certificate": "results/p1_3b/bounds/sorties/certificate.json",
+      "finite_continuous_pool_optimality_proven": false,
+      "tie_break": "Known feasible incumbent selection only: requested axis, J_norm, makespan, energy, ID; no secondary optimality claim"
+    },
+    {
+      "anchor": "J_norm",
+      "verified_incumbent": "N01",
+      "incumbent_package": "results/p1_3b/q2/pareto_schedules/N01",
+      "upper_bound": 0.44128856776241876,
+      "best_new_run_representative": "N01",
+      "best_new_value": 0.44128856776241876,
+      "valid_full_pool_lower_bound": 0.2501488973231646,
+      "relative_gap": 0.4331398644846836,
+      "bound_status": "VALID_FULL_POOL_CONTINUOUS_RELAXATION",
+      "certificate": "results/p1_3b/bounds/J_norm/certificate.json",
+      "finite_continuous_pool_optimality_proven": false,
+      "tie_break": "Known feasible incumbent selection only: requested axis, J_norm, makespan, energy, ID; no secondary optimality claim"
+    },
+    {
+      "anchor": "energy",
+      "verified_incumbent": "H_A03",
+      "incumbent_package": "results/p1_3b/q2/pareto_schedules/H_A03",
+      "upper_bound": 60.047644724851246,
+      "best_new_run_representative": "E01",
+      "best_new_value": 61.40262959881916,
+      "valid_full_pool_lower_bound": 57.762203105785794,
+      "relative_gap": 0.038060470640234816,
+      "bound_status": "VALID_FULL_POOL_CONTINUOUS_RELAXATION",
+      "certificate": "results/p1_3b/bounds/energy/certificate.json",
+      "finite_continuous_pool_optimality_proven": false,
+      "tie_break": "Known feasible incumbent selection only: requested axis, J_norm, makespan, energy, ID; no secondary optimality claim"
+    }
+  ],
+  "raw_transport_solver_runs": [
+    {
+      "run": "J_norm_v3",
+      "config": {
+        "axis": "J_norm",
+        "time_limit_s": 90.0,
+        "time_grid_s": 0.1,
+        "seed": 26092511,
+        "workers": 4,
+        "optional_trip_copies": 2973,
+        "patterns": 2903,
+        "objective_scale": 1000000000000,
+        "objective": "SINGLE_AXIS_INTEGER_COEFFICIENT_ROUNDING",
+        "transport_starts": "All 0.1 s grid starts within original deadlines",
+        "conservative_intervals": "UAV duration ceil; battery start floor(prep), end ceil(duration+charge)",
+        "cp_bound_scope": "CONSERVATIVE_GRID_PRIMAL_DOMAIN_ONLY_NOT_A_CONTINUOUS_FULL_POOL_BOUND",
+        "no_external_threshold": true,
+        "near_optimal_cap": null,
+        "excluded_prior_runs": [],
+        "hint": {
+          "used": true,
+          "source": "results/reset/q2/pareto_schedules/A11/missions.json",
+          "sha256": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "source_line": "AUTONOMOUS_A11",
+          "role": "GRID_REPAIRED_HINT_ONLY; NO RESOURCE ORDER FIXED IN MODEL"
+        },
+        "source_hashes": {
+          "src/bench_p1_3b/packages.py": "754924a2f309e0c688393ab87d96a90909fb559d54a1dbf8c87d732d561399e0",
+          "src/bench_p1_3b/bounds.py": "6eef255b043788bd3bb7eff51e5bac42c0a7128ad2276cacc886266840084093",
+          "src/bench_p1_3b/common.py": "d43934d91e928698f1eaed6efa2a9dfbafc1cae71ee0b66b487ef232433ef5fe",
+          "src/bench_p1_3b/transport.py": "74d59691114cc32a8b826ac8d51c27b4924388436983f69a768b9b1d0731fa33"
+        }
+      },
+      "result": {
+        "axis": "J_norm",
+        "status": 2,
+        "status_name": "FEASIBLE",
+        "solver_objective": 0.441288567767,
+        "raw_grid_bound": 0.188778444216,
+        "raw_grid_relative_gap": 0.572210888736019,
+        "cpu_s": 347.35288729900003,
+        "wall_s": 90.02277193,
+        "branches": 687490,
+        "conflicts": 9386,
+        "iterations": null,
+        "iterations_note": "CP-SAT does not expose a single LP iteration count here",
+        "full_pool_continuous_optimality_proven": false,
+        "grid_optimal": false,
+        "structure_count": 4,
+        "total_process_cpu_s": 347.770115776
+      },
+      "source": "results/p1_3b/transport_runs/J_norm_v3/result.json"
+    },
+    {
+      "run": "energy_v3",
+      "config": {
+        "axis": "energy",
+        "time_limit_s": 90.0,
+        "time_grid_s": 0.1,
+        "seed": 26092511,
+        "workers": 4,
+        "optional_trip_copies": 2973,
+        "patterns": 2903,
+        "objective_scale": 1000000000,
+        "objective": "SINGLE_AXIS_INTEGER_COEFFICIENT_ROUNDING",
+        "transport_starts": "All 0.1 s grid starts within original deadlines",
+        "conservative_intervals": "UAV duration ceil; battery start floor(prep), end ceil(duration+charge)",
+        "cp_bound_scope": "CONSERVATIVE_GRID_PRIMAL_DOMAIN_ONLY_NOT_A_CONTINUOUS_FULL_POOL_BOUND",
+        "no_external_threshold": true,
+        "near_optimal_cap": null,
+        "excluded_prior_runs": [],
+        "hint": {
+          "used": true,
+          "source": "results/reset/q2/pareto_schedules/A11/missions.json",
+          "sha256": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "source_line": "AUTONOMOUS_A11",
+          "role": "GRID_REPAIRED_HINT_ONLY; NO RESOURCE ORDER FIXED IN MODEL"
+        },
+        "source_hashes": {
+          "src/bench_p1_3b/bounds.py": "6eef255b043788bd3bb7eff51e5bac42c0a7128ad2276cacc886266840084093",
+          "src/bench_p1_3b/common.py": "d43934d91e928698f1eaed6efa2a9dfbafc1cae71ee0b66b487ef232433ef5fe",
+          "src/bench_p1_3b/transport.py": "74d59691114cc32a8b826ac8d51c27b4924388436983f69a768b9b1d0731fa33"
+        }
+      },
+      "result": {
+        "axis": "energy",
+        "status": 2,
+        "status_name": "FEASIBLE",
+        "solver_objective": 61.4026296,
+        "raw_grid_bound": 58.652560602,
+        "raw_grid_relative_gap": 0.04478747923199687,
+        "cpu_s": 345.899363115,
+        "wall_s": 90.04122921800001,
+        "branches": 1256475,
+        "conflicts": 88537,
+        "iterations": null,
+        "iterations_note": "CP-SAT does not expose a single LP iteration count here",
+        "full_pool_continuous_optimality_proven": false,
+        "grid_optimal": false,
+        "structure_count": 20,
+        "total_process_cpu_s": 346.41339255
+      },
+      "source": "results/p1_3b/transport_runs/energy_v3/result.json"
+    },
+    {
+      "run": "makespan",
+      "config": {
+        "axis": "makespan",
+        "time_limit_s": 180.0,
+        "time_grid_s": 0.1,
+        "seed": 26092511,
+        "workers": 1,
+        "optional_trip_copies": 2973,
+        "patterns": 2903,
+        "objective_scale": 10,
+        "objective": "SINGLE_AXIS_INTEGER_COEFFICIENT_ROUNDING",
+        "transport_starts": "All 0.1 s grid starts within original deadlines",
+        "conservative_intervals": "UAV duration ceil; battery start floor(prep), end ceil(duration+charge)",
+        "cp_bound_scope": "CONSERVATIVE_GRID_PRIMAL_DOMAIN_ONLY_NOT_A_CONTINUOUS_FULL_POOL_BOUND",
+        "no_external_threshold": true,
+        "near_optimal_cap": null,
+        "excluded_prior_runs": [],
+        "hint": {
+          "used": true,
+          "source": "results/reset/q2/pareto_schedules/A11/missions.json",
+          "sha256": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "source_line": "AUTONOMOUS_A11",
+          "role": "HINT_ONLY_NOT_FIXED_OR_ADMITTED_AS_GRID_FEASIBLE"
+        },
+        "source_hashes": {
+          "src/bench_p1_3b/bounds.py": "499fce3ab34b1149340cf6fed36d0681bcf7a989472d888a4cd532a45c01d3f9",
+          "src/bench_p1_3b/common.py": "d43934d91e928698f1eaed6efa2a9dfbafc1cae71ee0b66b487ef232433ef5fe",
+          "src/bench_p1_3b/transport.py": "52f1b5a22f973e3fb29e7466cadf97c0c20eb2e906572d9fa345df7af7e30ba8"
+        }
+      },
+      "result": {
+        "axis": "makespan",
+        "status": 0,
+        "status_name": "UNKNOWN",
+        "solver_objective": null,
+        "raw_grid_bound": 5598.8,
+        "raw_grid_relative_gap": null,
+        "cpu_s": 180.095831904,
+        "wall_s": 180.006919102,
+        "branches": 2144654,
+        "conflicts": 24032,
+        "iterations": null,
+        "iterations_note": "CP-SAT does not expose a single LP iteration count here",
+        "full_pool_continuous_optimality_proven": false,
+        "grid_optimal": false,
+        "structure_count": 0,
+        "total_process_cpu_s": 180.460722102
+      },
+      "source": "results/p1_3b/transport_runs/makespan/result.json"
+    },
+    {
+      "run": "makespan_v3",
+      "config": {
+        "axis": "makespan",
+        "time_limit_s": 180.0,
+        "time_grid_s": 0.1,
+        "seed": 26092511,
+        "workers": 4,
+        "optional_trip_copies": 2973,
+        "patterns": 2903,
+        "objective_scale": 10,
+        "objective": "SINGLE_AXIS_INTEGER_COEFFICIENT_ROUNDING",
+        "transport_starts": "All 0.1 s grid starts within original deadlines",
+        "conservative_intervals": "UAV duration ceil; battery start floor(prep), end ceil(duration+charge)",
+        "cp_bound_scope": "CONSERVATIVE_GRID_PRIMAL_DOMAIN_ONLY_NOT_A_CONTINUOUS_FULL_POOL_BOUND",
+        "no_external_threshold": true,
+        "near_optimal_cap": null,
+        "excluded_prior_runs": [],
+        "hint": {
+          "used": true,
+          "source": "results/reset/q2/pareto_schedules/A11/missions.json",
+          "sha256": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "source_line": "AUTONOMOUS_A11",
+          "role": "GRID_REPAIRED_HINT_ONLY; NO RESOURCE ORDER FIXED IN MODEL"
+        },
+        "source_hashes": {
+          "src/bench_p1_3b/bounds.py": "6eef255b043788bd3bb7eff51e5bac42c0a7128ad2276cacc886266840084093",
+          "src/bench_p1_3b/common.py": "d43934d91e928698f1eaed6efa2a9dfbafc1cae71ee0b66b487ef232433ef5fe",
+          "src/bench_p1_3b/transport.py": "74d59691114cc32a8b826ac8d51c27b4924388436983f69a768b9b1d0731fa33"
+        }
+      },
+      "result": {
+        "axis": "makespan",
+        "status": 2,
+        "status_name": "FEASIBLE",
+        "solver_objective": 6101.2,
+        "raw_grid_bound": 5603.7,
+        "raw_grid_relative_gap": 0.08154133613059726,
+        "cpu_s": 710.404626685,
+        "wall_s": 180.05423249900002,
+        "branches": 1710498,
+        "conflicts": 97742,
+        "iterations": null,
+        "iterations_note": "CP-SAT does not expose a single LP iteration count here",
+        "full_pool_continuous_optimality_proven": false,
+        "grid_optimal": false,
+        "structure_count": 5,
+        "total_process_cpu_s": 710.79148751
+      },
+      "source": "results/p1_3b/transport_runs/makespan_v3/result.json"
+    },
+    {
+      "run": "sorties",
+      "config": {
+        "axis": "sorties",
+        "time_limit_s": 90.0,
+        "time_grid_s": 0.1,
+        "seed": 26092511,
+        "workers": 1,
+        "optional_trip_copies": 2973,
+        "patterns": 2903,
+        "objective_scale": 1,
+        "objective": "SINGLE_AXIS_INTEGER_COEFFICIENT_ROUNDING",
+        "transport_starts": "All 0.1 s grid starts within original deadlines",
+        "conservative_intervals": "UAV duration ceil; battery start floor(prep), end ceil(duration+charge)",
+        "cp_bound_scope": "CONSERVATIVE_GRID_PRIMAL_DOMAIN_ONLY_NOT_A_CONTINUOUS_FULL_POOL_BOUND",
+        "no_external_threshold": true,
+        "near_optimal_cap": null,
+        "excluded_prior_runs": [],
+        "hint": {
+          "used": true,
+          "source": "results/reset/q2/pareto_schedules/A11/missions.json",
+          "sha256": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "source_line": "AUTONOMOUS_A11",
+          "role": "HINT_ONLY_NOT_FIXED_OR_ADMITTED_AS_GRID_FEASIBLE"
+        },
+        "source_hashes": {
+          "src/bench_p1_3b/bounds.py": "499fce3ab34b1149340cf6fed36d0681bcf7a989472d888a4cd532a45c01d3f9",
+          "src/bench_p1_3b/common.py": "d43934d91e928698f1eaed6efa2a9dfbafc1cae71ee0b66b487ef232433ef5fe",
+          "src/bench_p1_3b/transport.py": "52f1b5a22f973e3fb29e7466cadf97c0c20eb2e906572d9fa345df7af7e30ba8"
+        }
+      },
+      "result": {
+        "axis": "sorties",
+        "status": 0,
+        "status_name": "UNKNOWN",
+        "solver_objective": null,
+        "raw_grid_bound": 13.0,
+        "raw_grid_relative_gap": null,
+        "cpu_s": 89.503554648,
+        "wall_s": 90.009254126,
+        "branches": 1038964,
+        "conflicts": 30091,
+        "iterations": null,
+        "iterations_note": "CP-SAT does not expose a single LP iteration count here",
+        "full_pool_continuous_optimality_proven": false,
+        "grid_optimal": false,
+        "structure_count": 0,
+        "total_process_cpu_s": 89.900711695
+      },
+      "source": "results/p1_3b/transport_runs/sorties/result.json"
+    },
+    {
+      "run": "sorties_v3",
+      "config": {
+        "axis": "sorties",
+        "time_limit_s": 90.0,
+        "time_grid_s": 0.1,
+        "seed": 26092511,
+        "workers": 4,
+        "optional_trip_copies": 2973,
+        "patterns": 2903,
+        "objective_scale": 1,
+        "objective": "SINGLE_AXIS_INTEGER_COEFFICIENT_ROUNDING",
+        "transport_starts": "All 0.1 s grid starts within original deadlines",
+        "conservative_intervals": "UAV duration ceil; battery start floor(prep), end ceil(duration+charge)",
+        "cp_bound_scope": "CONSERVATIVE_GRID_PRIMAL_DOMAIN_ONLY_NOT_A_CONTINUOUS_FULL_POOL_BOUND",
+        "no_external_threshold": true,
+        "near_optimal_cap": null,
+        "excluded_prior_runs": [],
+        "hint": {
+          "used": true,
+          "source": "results/reset/q2/pareto_schedules/A11/missions.json",
+          "sha256": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "source_line": "AUTONOMOUS_A11",
+          "role": "GRID_REPAIRED_HINT_ONLY; NO RESOURCE ORDER FIXED IN MODEL"
+        },
+        "source_hashes": {
+          "src/bench_p1_3b/bounds.py": "6eef255b043788bd3bb7eff51e5bac42c0a7128ad2276cacc886266840084093",
+          "src/bench_p1_3b/common.py": "d43934d91e928698f1eaed6efa2a9dfbafc1cae71ee0b66b487ef232433ef5fe",
+          "src/bench_p1_3b/transport.py": "74d59691114cc32a8b826ac8d51c27b4924388436983f69a768b9b1d0731fa33"
+        }
+      },
+      "result": {
+        "axis": "sorties",
+        "status": 2,
+        "status_name": "FEASIBLE",
+        "solver_objective": 19.0,
+        "raw_grid_bound": 14.0,
+        "raw_grid_relative_gap": 0.2631578947368421,
+        "cpu_s": 347.40005501999997,
+        "wall_s": 90.036004206,
+        "branches": 129608,
+        "conflicts": 87234,
+        "iterations": null,
+        "iterations_note": "CP-SAT does not expose a single LP iteration count here",
+        "full_pool_continuous_optimality_proven": false,
+        "grid_optimal": false,
+        "structure_count": 7,
+        "total_process_cpu_s": 347.94633034599997
+      },
+      "source": "results/p1_3b/transport_runs/sorties_v3/result.json"
+    }
+  ],
+  "cp_solver_bounds_not_used_as_continuous_pool_bounds": true,
+  "reason": "Conservative time-grid occupancy and rounded single-objective coefficients define a restricted primal domain; its dual does not bound the continuous full pool",
+  "rational_verification": [
+    {
+      "path": "results/p1_3b/bounds/J_norm/certificate.json",
+      "matrix_sha256": "086452cadddd62a27343e6d1f85216da6397b8a87c315e6cc61c44524461548a",
+      "status": "INDEPENDENT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 0.2501488973231646,
+      "integer_ceiling": 1
+    },
+    {
+      "path": "results/p1_3b/bounds/energy/certificate.json",
+      "matrix_sha256": "b8153ad8ae0ba9d650acf4c1ee88bedc5ed6f68ffc0749865cf6bab30c1c10fc",
+      "status": "INDEPENDENT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 57.762203105785794,
+      "integer_ceiling": 58
+    },
+    {
+      "path": "results/p1_3b/bounds/makespan/certificate.json",
+      "matrix_sha256": "1409b8649be56c6ab11f835d2eeaf336e6e6e6a6966d461457fbf9e303216716",
+      "status": "INDEPENDENT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 5539.261004279375,
+      "integer_ceiling": 5540
+    },
+    {
+      "path": "results/p1_3b/bounds/sorties/certificate.json",
+      "matrix_sha256": "fa71b9d0a7b2841b47e5ddca38b2f85a2de3e94709df0708fafe1a94f25d61ff",
+      "status": "INDEPENDENT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 15.497110838306627,
+      "integer_ceiling": 16
+    },
+    {
+      "path": "results/p1_3b/diagnostics/bounds_binary64_v1/J_norm/certificate.json",
+      "matrix_sha256": "0131874c1e0b3e7a22538e2cc9caf148b87a78b5befe8f25d17b099fa6f14f8a",
+      "status": "INDEPENDENT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 0.25014889732316464,
+      "integer_ceiling": 1
+    },
+    {
+      "path": "results/p1_3b/diagnostics/bounds_binary64_v1/energy/certificate.json",
+      "matrix_sha256": "3a9e52cadf27f859fcacb1422500e69dc5fcb18c72e7b57b51752ef22bc5ebf1",
+      "status": "INDEPENDENT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 57.762203105785794,
+      "integer_ceiling": 58
+    },
+    {
+      "path": "results/p1_3b/diagnostics/bounds_binary64_v1/makespan/certificate.json",
+      "matrix_sha256": "d9b1fc3dee049c04b819bac10f01261fe2c3878f766df0fa4231ceaafe9f2b86",
+      "status": "INDEPENDENT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 5539.261004279376,
+      "integer_ceiling": 5540
+    },
+    {
+      "path": "results/p1_3b/diagnostics/bounds_binary64_v1/sorties/certificate.json",
+      "matrix_sha256": "89fc913e9f97d6b4cc4ab14eca2f5abcd5c1499be4c5d2be015348b7ee0da5c7",
+      "status": "INDEPENDENT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 15.497110838306638,
+      "integer_ceiling": 16
+    },
+    {
+      "path": "results/p1_3b/diagnostics/bounds_outward_v2/J_norm/certificate.json",
+      "matrix_sha256": "67c6f03be813090554924531392ec812eb52be020141f6b38d00c9ff9614062f",
+      "status": "INDEPENDENT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 0.2501488973231646,
+      "integer_ceiling": 1
+    },
+    {
+      "path": "results/p1_3b/diagnostics/bounds_outward_v2/energy/certificate.json",
+      "matrix_sha256": "0291d94f5b794e8f12d6569bd69f21e262152267181d184c92c0f40b51358fc8",
+      "status": "INDEPENDENT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 57.762203105785794,
+      "integer_ceiling": 58
+    },
+    {
+      "path": "results/p1_3b/diagnostics/bounds_outward_v2/makespan/certificate.json",
+      "matrix_sha256": "ca1124b4a54f00584c74d8745c17df7e17520604f55cc2ba8fde750bb670a10e",
+      "status": "INDEPENDENT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 5539.261004279375,
+      "integer_ceiling": 5540
+    },
+    {
+      "path": "results/p1_3b/diagnostics/bounds_outward_v2/sorties/certificate.json",
+      "matrix_sha256": "c50f70e997b90737bddfa3c0ffd8f28ef3bd2673638dd803d3f13b3b479840bd",
+      "status": "INDEPENDENT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 15.497110838306636,
+      "integer_ceiling": 16
+    },
+    {
+      "path": "results/p1_3b/screening/C01/relay_count_bound/certificate.json",
+      "matrix_sha256": "bde82ba527f34dabccdb14aba16cca0010f47c1c0f3357ae634fb839a100984d",
+      "status": "INDEPENDENT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 3.9999999999999996,
+      "integer_ceiling": 4
+    },
+    {
+      "path": "results/p1_3b/screening/E01/relay_count_bound/certificate.json",
+      "matrix_sha256": "7eda6ba65ca0c4d8ff08ee6cdef6f61a957b95612f0825008a2753a0772bf06e",
+      "status": "INDEPENDENT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 4.999999999999999,
+      "integer_ceiling": 5
+    },
+    {
+      "path": "results/p1_3b/screening/N01/relay_count_bound/certificate.json",
+      "matrix_sha256": "1655f0593c2bd36e820343451b95169652365820b51bcda8d1c740c1f8468cf2",
+      "status": "INDEPENDENT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 4.999999999999999,
+      "integer_ceiling": 5
+    },
+    {
+      "path": "results/p1_3b/screening/T01/exact_rescue/certificate.json",
+      "matrix_sha256": "646b7b47980410da1dfc9ca29e35b893691f01854b44f445cb586cd5935678eb",
+      "status": "INDEPENDENT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 2.9999999999999996,
+      "integer_ceiling": 3
+    },
+    {
+      "path": "results/p1_3b/screening/T01/relay_count_bound/certificate.json",
+      "matrix_sha256": "7e4a944952a15b23245953d6b4016d949a1c02309951efa0913bf76a5b6ca935",
+      "status": "INDEPENDENT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 6.999999999999999,
+      "integer_ceiling": 7
+    },
+    {
+      "path": "results/p1_3b/screening/T02/relay_count_bound/certificate.json",
+      "matrix_sha256": "9132730345cdcf3d10e4be4e38fcbda89df040adbbd73476df57f9e914fded35",
+      "status": "INDEPENDENT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 6.999999999999999,
+      "integer_ceiling": 7
+    },
+    {
+      "path": "results/p1_3b/screening/T03/relay_count_bound/certificate.json",
+      "matrix_sha256": "3c1dd0f1f3eb7b6e13aeb421a2ddb5146ec9a529037a826a57a51e4fd57cbc8b",
+      "status": "INDEPENDENT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 5.999999999999999,
+      "integer_ceiling": 6
+    }
+  ],
+  "q3_bounds": [
+    {
+      "pid": "T01",
+      "seed_group_count": {
+        "scope": "FINITE_COLD_GROUP_CATALOGUE_COUNT_RELAXATION; ignores timing, energy overlaps and all resources",
+        "groups": 39,
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "cpu_s": 0.002341125000000943,
+        "iterations": 9,
+        "nodes": null,
+        "full_Q3_lower_bound": false,
+        "finite_group_catalogue_only": true,
+        "lower_bound": 7,
+        "bound_status": "VALID_FOR_DECLARED_COLD_GROUP_CATALOGUE_ONLY"
+      },
+      "exact_rescue": {
+        "pid": "T01",
+        "status": 1,
+        "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+        "raw_objective": null,
+        "raw_dual_bound": null,
+        "raw_mip_gap": null,
+        "mip_cpu_s": 94.234730609,
+        "lp_cpu_s": 0.48900247699999966,
+        "lp_status": 0,
+        "lp_iterations": 205,
+        "nodes": null,
+        "certified_relay_count_lower_bound": 3,
+        "bound_scope": "Declared exact partial group/order/site domain only",
+        "witnesses": [],
+        "infeasibility_proven": false,
+        "total_cpu_s": 98.792711576
+      }
+    },
+    {
+      "pid": "T02",
+      "seed_group_count": {
+        "scope": "FINITE_COLD_GROUP_CATALOGUE_COUNT_RELAXATION; ignores timing, energy overlaps and all resources",
+        "groups": 39,
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "cpu_s": 0.002231284999993477,
+        "iterations": 9,
+        "nodes": null,
+        "full_Q3_lower_bound": false,
+        "finite_group_catalogue_only": true,
+        "lower_bound": 7,
+        "bound_status": "VALID_FOR_DECLARED_COLD_GROUP_CATALOGUE_ONLY"
+      },
+      "exact_rescue": null
+    },
+    {
+      "pid": "T03",
+      "seed_group_count": {
+        "scope": "FINITE_COLD_GROUP_CATALOGUE_COUNT_RELAXATION; ignores timing, energy overlaps and all resources",
+        "groups": 40,
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "cpu_s": 0.0019462959999998475,
+        "iterations": 9,
+        "nodes": null,
+        "full_Q3_lower_bound": false,
+        "finite_group_catalogue_only": true,
+        "lower_bound": 6,
+        "bound_status": "VALID_FOR_DECLARED_COLD_GROUP_CATALOGUE_ONLY"
+      },
+      "exact_rescue": null
+    },
+    {
+      "pid": "C01",
+      "seed_group_count": {
+        "scope": "FINITE_COLD_GROUP_CATALOGUE_COUNT_RELAXATION; ignores timing, energy overlaps and all resources",
+        "groups": 30,
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "cpu_s": 0.0020800460000032217,
+        "iterations": 5,
+        "nodes": null,
+        "full_Q3_lower_bound": false,
+        "finite_group_catalogue_only": true,
+        "lower_bound": 4,
+        "bound_status": "VALID_FOR_DECLARED_COLD_GROUP_CATALOGUE_ONLY"
+      },
+      "exact_rescue": null
+    },
+    {
+      "pid": "E01",
+      "seed_group_count": {
+        "scope": "FINITE_COLD_GROUP_CATALOGUE_COUNT_RELAXATION; ignores timing, energy overlaps and all resources",
+        "groups": 26,
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "cpu_s": 0.0020416210000036017,
+        "iterations": 4,
+        "nodes": null,
+        "full_Q3_lower_bound": false,
+        "finite_group_catalogue_only": true,
+        "lower_bound": 5,
+        "bound_status": "VALID_FOR_DECLARED_COLD_GROUP_CATALOGUE_ONLY"
+      },
+      "exact_rescue": null
+    },
+    {
+      "pid": "N01",
+      "seed_group_count": {
+        "scope": "FINITE_COLD_GROUP_CATALOGUE_COUNT_RELAXATION; ignores timing, energy overlaps and all resources",
+        "groups": 37,
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "cpu_s": 0.0020329049999929794,
+        "iterations": 5,
+        "nodes": null,
+        "full_Q3_lower_bound": false,
+        "finite_group_catalogue_only": true,
+        "lower_bound": 5,
+        "bound_status": "VALID_FOR_DECLARED_COLD_GROUP_CATALOGUE_ONLY"
+      },
+      "exact_rescue": null
+    }
+  ],
+  "invalid_bound_policy": "Any raw bound above a validated upper bound is BOUND_NOT_VALID and excluded; none of the accepted rational full-pool bounds contradicts a validated upper bound"
+}

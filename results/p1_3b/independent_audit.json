@@ -1,0 +1,88 @@
+{
+  "status": "PASSED",
+  "packages": [
+    {
+      "id": "C01",
+      "scope": "Q2",
+      "status": "INDEPENDENT_VALIDATION_AND_ARTIFACT_HASHES_PASSED",
+      "validation": "results/p1_3b/q2/pareto_schedules/C01/validation.json"
+    },
+    {
+      "id": "C02",
+      "scope": "Q2",
+      "status": "INDEPENDENT_VALIDATION_AND_ARTIFACT_HASHES_PASSED",
+      "validation": "results/p1_3b/q2/pareto_schedules/C02/validation.json"
+    },
+    {
+      "id": "E01",
+      "scope": "Q2",
+      "status": "INDEPENDENT_VALIDATION_AND_ARTIFACT_HASHES_PASSED",
+      "validation": "results/p1_3b/q2/pareto_schedules/E01/validation.json"
+    },
+    {
+      "id": "E02",
+      "scope": "Q2",
+      "status": "INDEPENDENT_VALIDATION_AND_ARTIFACT_HASHES_PASSED",
+      "validation": "results/p1_3b/q2/pareto_schedules/E02/validation.json"
+    },
+    {
+      "id": "H_A03",
+      "scope": "Q2",
+      "status": "INDEPENDENT_VALIDATION_AND_ARTIFACT_HASHES_PASSED",
+      "validation": "results/p1_3b/q2/pareto_schedules/H_A03/validation.json"
+    },
+    {
+      "id": "H_A11",
+      "scope": "Q2",
+      "status": "INDEPENDENT_VALIDATION_AND_ARTIFACT_HASHES_PASSED",
+      "validation": "results/p1_3b/q2/pareto_schedules/H_A11/validation.json"
+    },
+    {
+      "id": "H_A12",
+      "scope": "Q2",
+      "status": "INDEPENDENT_VALIDATION_AND_ARTIFACT_HASHES_PASSED",
+      "validation": "results/p1_3b/q2/pareto_schedules/H_A12/validation.json"
+    },
+    {
+      "id": "N01",
+      "scope": "Q2",
+      "status": "INDEPENDENT_VALIDATION_AND_ARTIFACT_HASHES_PASSED",
+      "validation": "results/p1_3b/q2/pareto_schedules/N01/validation.json"
+    },
+    {
+      "id": "N02",
+      "scope": "Q2",
+      "status": "INDEPENDENT_VALIDATION_AND_ARTIFACT_HASHES_PASSED",
+      "validation": "results/p1_3b/q2/pareto_schedules/N02/validation.json"
+    },
+    {
+      "id": "T01",
+      "scope": "Q2",
+      "status": "INDEPENDENT_VALIDATION_AND_ARTIFACT_HASHES_PASSED",
+      "validation": "results/p1_3b/q2/pareto_schedules/T01/validation.json"
+    },
+    {
+      "id": "T02",
+      "scope": "Q2",
+      "status": "INDEPENDENT_VALIDATION_AND_ARTIFACT_HASHES_PASSED",
+      "validation": "results/p1_3b/q2/pareto_schedules/T02/validation.json"
+    },
+    {
+      "id": "T03",
+      "scope": "Q2",
+      "status": "INDEPENDENT_VALIDATION_AND_ARTIFACT_HASHES_PASSED",
+      "validation": "results/p1_3b/q2/pareto_schedules/T03/validation.json"
+    },
+    {
+      "id": "C01_Q3_001",
+      "scope": "Q3",
+      "status": "INDEPENDENT_VALIDATION_AND_ARTIFACT_HASHES_PASSED",
+      "validation": "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/validation_0.5.json"
+    }
+  ],
+  "q2_count": 12,
+  "q3_count": 1,
+  "legacy_validator_labels": "XB1_Q2_INDEPENDENTLY_VALIDATED is the reused generic checker name, not external provenance. Q3 uses the unchanged original validator.",
+  "independent_rational_certificate_replays": 19,
+  "all_new_q3_claims_require_original_independent_validation": true
+}

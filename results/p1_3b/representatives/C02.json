@@ -1,0 +1,179 @@
+{
+  "id": "C02",
+  "origin_run": "sorties_v3",
+  "anchor": "sorties",
+  "rank": 1,
+  "signature": "2b6f63922d099489a16db5804c6ec961b9ca0eedc282ee32553a776ccf0b24cb",
+  "pattern_occurrences": [
+    17,
+    30,
+    41,
+    59,
+    70,
+    115,
+    165,
+    166,
+    176,
+    211,
+    222,
+    224,
+    233,
+    258,
+    270,
+    282,
+    294,
+    853,
+    1500,
+    2061
+  ],
+  "trips": [
+    {
+      "pattern": 17,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 30,
+      "copy": 0,
+      "start_units": 21079
+    },
+    {
+      "pattern": 41,
+      "copy": 0,
+      "start_units": 16675
+    },
+    {
+      "pattern": 59,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 70,
+      "copy": 0,
+      "start_units": 23416
+    },
+    {
+      "pattern": 115,
+      "copy": 0,
+      "start_units": 42539
+    },
+    {
+      "pattern": 165,
+      "copy": 0,
+      "start_units": 14942
+    },
+    {
+      "pattern": 166,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 176,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 211,
+      "copy": 0,
+      "start_units": 31630
+    },
+    {
+      "pattern": 222,
+      "copy": 0,
+      "start_units": 37565
+    },
+    {
+      "pattern": 224,
+      "copy": 0,
+      "start_units": 16549
+    },
+    {
+      "pattern": 233,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 258,
+      "copy": 0,
+      "start_units": 12073
+    },
+    {
+      "pattern": 270,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 282,
+      "copy": 0,
+      "start_units": 18867
+    },
+    {
+      "pattern": 294,
+      "copy": 0,
+      "start_units": 31301
+    },
+    {
+      "pattern": 853,
+      "copy": 0,
+      "start_units": 53628
+    },
+    {
+      "pattern": 1500,
+      "copy": 0,
+      "start_units": 65550
+    },
+    {
+      "pattern": 2061,
+      "copy": 0,
+      "start_units": 0
+    }
+  ],
+  "metrics": {
+    "J_late": 0.0,
+    "J_norm": 0.5488679848581238,
+    "makespan": 8794.167913324178,
+    "energy": 64.31850383551543,
+    "sorties": 20,
+    "source": "C02",
+    "global_optimum_proven": false
+  },
+  "package": "results/p1_3b/q2/pareto_schedules/C02",
+  "validation_status": "XB1_Q2_INDEPENDENTLY_VALIDATED",
+  "validation_cpu_s": 0.47157329699999995,
+  "validation_sha256": "b18957bee660310b71565f463740c751bc7d8a792822ea0033ce0479481ae271",
+  "pattern_pool_sha256": "3a451cd1df7cd11c288e63f63e348611bb3637edac5cba3e9f8fc52228e1db08",
+  "transport_workload_lower_bound_s": 8144.632769785928,
+  "typed_loads": [
+    {
+      "type": "A",
+      "uavs": 4,
+      "batteries": 6,
+      "sorties": 7,
+      "uav_occupation_s": 12948.393812236716,
+      "battery_occupation_s": 18542.90079573699,
+      "uav_workload_lower_bound_s": 3237.098453059179,
+      "battery_workload_lower_bound_s": 1699.671558549774
+    },
+    {
+      "type": "B",
+      "uavs": 2,
+      "batteries": 4,
+      "sorties": 5,
+      "uav_occupation_s": 8689.687862296903,
+      "battery_occupation_s": 14892.125975989191,
+      "uav_workload_lower_bound_s": 4344.843931148452,
+      "battery_workload_lower_bound_s": 1863.6779025063704
+    },
+    {
+      "type": "C",
+      "uavs": 2,
+      "batteries": 4,
+      "sorties": 8,
+      "uav_occupation_s": 16289.265539571858,
+      "battery_occupation_s": 29105.611210268104,
+      "uav_workload_lower_bound_s": 8144.632769785929,
+      "battery_workload_lower_bound_s": 4758.055764722354
+    }
+  ],
+  "scope": "Any schedule of this fixed transport box/visit/type structure, independent of relay grouping"
+}

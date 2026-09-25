@@ -1,0 +1,18 @@
+{
+  "pid": "T01",
+  "status": 1,
+  "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+  "raw_objective": null,
+  "raw_dual_bound": null,
+  "raw_mip_gap": null,
+  "mip_cpu_s": 94.234730609,
+  "lp_cpu_s": 0.48900247699999966,
+  "lp_status": 0,
+  "lp_iterations": 205,
+  "nodes": null,
+  "certified_relay_count_lower_bound": 3,
+  "bound_scope": "Declared exact partial group/order/site domain only",
+  "witnesses": [],
+  "infeasibility_proven": false,
+  "total_cpu_s": 98.792711576
+}

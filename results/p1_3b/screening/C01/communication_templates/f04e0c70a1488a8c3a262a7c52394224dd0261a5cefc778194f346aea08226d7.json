@@ -1,0 +1,57 @@
+{
+  "signature": "f04e0c70a1488a8c3a262a7c52394224dd0261a5cefc778194f346aea08226d7",
+  "shape": {
+    "uav_type": "C",
+    "box_ids": [
+      "S011-WAT-01",
+      "S005-MED-01",
+      "S005-HYG-01",
+      "S005-FOD-01",
+      "S005-WAT-02",
+      "S005-WAT-03",
+      "S005-WAT-01"
+    ],
+    "service_sequence": [
+      "S011",
+      "S005"
+    ],
+    "boxes_by_service": {
+      "S005": [
+        "S005-MED-01",
+        "S005-HYG-01",
+        "S005-FOD-01",
+        "S005-WAT-02",
+        "S005-WAT-03",
+        "S005-WAT-01"
+      ],
+      "S011": [
+        "S011-WAT-01"
+      ]
+    },
+    "relative_takeoff_time": 510.0,
+    "relative_delivery_times": {
+      "S011": 1021.9021176176493,
+      "S005": 1735.2053342264076
+    },
+    "relative_return_time": 2239.1679133241787
+  },
+  "geometry": "9db8a5d8afb2e9e498db2a10a895bb133d2e00de24515202080374a3fe4318dc",
+  "intervals": [
+    [
+      1164.59375,
+      1223.375
+    ],
+    [
+      1255.375,
+      1840.25
+    ],
+    [
+      1847.78125,
+      1873.125
+    ]
+  ],
+  "samples": 3514,
+  "step_s": 0.5,
+  "boundary_s": 0.05,
+  "guard_s": 2.0
+}

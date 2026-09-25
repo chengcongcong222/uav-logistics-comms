@@ -1,0 +1,1448 @@
+{
+  "records": [
+    {
+      "pid": "T01",
+      "status": "NO_WITNESS_IN_BOUNDED_COLD_SCREEN",
+      "witnesses": [],
+      "relay_count_bound": {
+        "scope": "FINITE_COLD_GROUP_CATALOGUE_COUNT_RELAXATION; ignores timing, energy overlaps and all resources",
+        "groups": 39,
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "cpu_s": 0.002341125000000943,
+        "iterations": 9,
+        "nodes": null,
+        "full_Q3_lower_bound": false,
+        "finite_group_catalogue_only": true,
+        "lower_bound": 7,
+        "bound_status": "VALID_FOR_DECLARED_COLD_GROUP_CATALOGUE_ONLY"
+      },
+      "attempts": 3,
+      "infeasibility_proven": false,
+      "total_cpu_s": 119.94043924099999,
+      "cold_config": {
+        "pid": "T01",
+        "transport_structure": "4ec7af6a56b425b0015d46056c71737406ec117c272e2ce1fcc53430ae6ac68a",
+        "Gamma_C_db": 0,
+        "sites": 118,
+        "relay_uavs": 2,
+        "energy_components": 6,
+        "cold_tasks_and_pairs": true,
+        "historical_pair_cache_used": false,
+        "mip_limit_per_partition_s": 30.0,
+        "partition_batches": [
+          6,
+          8,
+          12
+        ],
+        "source": "Entire autonomous 2903 pattern pool",
+        "seed_model_scope": "Fixed proposed task groups/sites; free transport shifts and typed resource orders; conservative span-based relay energy only in seed MILP, original union energy in execution validation",
+        "rejection_does_not_prove_Q3_infeasibility": true
+      },
+      "candidate_summary": {
+        "tasks": 26,
+        "sites": 118,
+        "pairs": 1340,
+        "unresolved": [],
+        "pool_scope": "FROZEN_SHARED_SITE_COORDINATES"
+      },
+      "cold_template_log": [
+        {
+          "sortie_id": "M001",
+          "signature": "3bdacca0f32f7d2113f9a01b52f9ec9821037eb443df3e75768d8f0cb87e7311",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M002",
+          "signature": "94ff749e013c5c68e62ab558d6446bc9075548fcdaf66d004990f2b4e6c600af",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M003",
+          "signature": "2bc1b9a03fa810f97154b1cdc94c8468f3fd8c254fc0139c474d54ed3964b801",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M004",
+          "signature": "f1da2fda57d3eaa310ead0c1028d2addcfc0184fc903dd9858a1f7bbc697e3ef",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M005",
+          "signature": "8d00b7036301787a43d994e5a4347e200a1a8fb6f522f64e47dd53da93af77a1",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M006",
+          "signature": "295cf2f2d5e497bfb5b4bb6837559ce1fa4fa000c50fb1154a9967588b50073e",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M007",
+          "signature": "c633dc1ed38c14de0884e6ac2968fb20d3345a268f1c1d0d3eccab8da847451b",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M008",
+          "signature": "d68cb18c1111c050fb6a4c7c720bdc3418cc7aebc26a7b04c7a5077f198f5c13",
+          "cache_hit": false,
+          "intervals": 3
+        },
+        {
+          "sortie_id": "M009",
+          "signature": "f0dab3606317d64566f99634c4780b9016d38fb6f80728ff8c99d84094d3234d",
+          "cache_hit": false,
+          "intervals": 3
+        },
+        {
+          "sortie_id": "M010",
+          "signature": "f14149e81db37412de3119748ba44fbd4e5caca162307ac70a6a3ea741919163",
+          "cache_hit": false,
+          "intervals": 3
+        },
+        {
+          "sortie_id": "M011",
+          "signature": "03e613d056b16f46ece671ba66cf174a57b10f2b7adb56478da7c3b162f16e5a",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M012",
+          "signature": "0af13fa3fbde73f8ee978aacc3f87286ecd051eca0b6b540c72beee11c8b7ab4",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M013",
+          "signature": "a883e48b948d1e2db764b0cc4da0675194c62226160c72243a37306691c7ccc7",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M014",
+          "signature": "fdfb9e1879cec199ade7f1f6c968261e3ce0433987d51d26291d0e5b16f6e273",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M015",
+          "signature": "fc9df679ad136bf77bbd9d938d1d6fa26a1754f7e5d684ee4e51f38fa61cef75",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M016",
+          "signature": "720bab88f2b43633c2a63942cb68a6966c7a78fdc9a438c58ea25347a5bf9c0c",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M017",
+          "signature": "f0768ce9e7cb7446f8162c320650a96cfa9de16631cf59719eb06ae21fcd1b5d",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M018",
+          "signature": "aa2ca6cec631d87af1b8e1f905cc8b2c76b24cf35e9f417629cfae7513ae64b0",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M019",
+          "signature": "045017c2bed9a3eef4fa329650f6ee105e7c376570278e5b9363db08d78dd8ad",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M020",
+          "signature": "60d7a1b88c6cc5749ecb42858473d9ea70710361bed38dc4ea6baca71e252a20",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M021",
+          "signature": "70d5329387053a64b8af19aab5d750f2781b86714a444db6b9d5ab9fd4e913b5",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M022",
+          "signature": "82b2d9797e930c15aaf5c16aff27768bbe295d37d17f0e2b52f9d5cfebd26ecf",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M023",
+          "signature": "9cdc411ecf10a6c9b30af1b43ba7cc0b88d6ccfcd3134a8b635b0393b6c8147c",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M024",
+          "signature": "07b77be11241ed3434843ad1a16652f79e288236c19d78a249aced740f5631f2",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M025",
+          "signature": "32c7dbb896ae40b16a41f4650a5fb9e148fce2522217950dc36ef6f2058e3fca",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M026",
+          "signature": "3aa333a94990bd347bd758bc973f0b161f8b095224b84fb9f7e52732c5b617de",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M027",
+          "signature": "585e59bbf2ede055473f26234743b5d97c521b23517a7f8a15741823fae4fd7d",
+          "cache_hit": false,
+          "intervals": 1
+        }
+      ],
+      "relay_count_comparison": {
+        "verified_upper": null,
+        "catalogue_relaxation_lower": 7,
+        "relative_gap": null,
+        "scope": "Cold proposed group catalogue only, not complete Q3"
+      },
+      "exact_rescue": {
+        "pid": "T01",
+        "status": 1,
+        "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+        "raw_objective": null,
+        "raw_dual_bound": null,
+        "raw_mip_gap": null,
+        "mip_cpu_s": 94.234730609,
+        "lp_cpu_s": 0.48900247699999966,
+        "lp_status": 0,
+        "lp_iterations": 205,
+        "nodes": null,
+        "certified_relay_count_lower_bound": 3,
+        "bound_scope": "Declared exact partial group/order/site domain only",
+        "witnesses": [],
+        "infeasibility_proven": false,
+        "total_cpu_s": 98.792711576
+      }
+    },
+    {
+      "pid": "T02",
+      "status": "NO_WITNESS_IN_BOUNDED_COLD_SCREEN",
+      "witnesses": [],
+      "relay_count_bound": {
+        "scope": "FINITE_COLD_GROUP_CATALOGUE_COUNT_RELAXATION; ignores timing, energy overlaps and all resources",
+        "groups": 39,
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "cpu_s": 0.002231284999993477,
+        "iterations": 9,
+        "nodes": null,
+        "full_Q3_lower_bound": false,
+        "finite_group_catalogue_only": true,
+        "lower_bound": 7,
+        "bound_status": "VALID_FOR_DECLARED_COLD_GROUP_CATALOGUE_ONLY"
+      },
+      "attempts": 3,
+      "infeasibility_proven": false,
+      "total_cpu_s": 125.22494812900001,
+      "cold_config": {
+        "pid": "T02",
+        "transport_structure": "30c276a155b09968dccf8e284028c5ea808db9dc9e25192e8bf314af67ba384a",
+        "Gamma_C_db": 0,
+        "sites": 118,
+        "relay_uavs": 2,
+        "energy_components": 6,
+        "solver_seed": 26092511,
+        "solver_threads": 1,
+        "cold_tasks_and_pairs": true,
+        "historical_pair_cache_used": false,
+        "mip_limit_per_partition_s": 30.0,
+        "partition_batches": [
+          6,
+          8,
+          12
+        ],
+        "source": "Entire autonomous 2903 pattern pool",
+        "seed_model_scope": "Fixed proposed task groups/sites; free transport shifts and typed resource orders; conservative span-based relay energy only in seed MILP, original union energy in execution validation",
+        "rejection_does_not_prove_Q3_infeasibility": true
+      },
+      "candidate_summary": {
+        "tasks": 26,
+        "sites": 118,
+        "pairs": 1358,
+        "unresolved": [],
+        "pool_scope": "FROZEN_SHARED_SITE_COORDINATES"
+      },
+      "cold_template_log": [
+        {
+          "sortie_id": "M001",
+          "signature": "1b704017fcd3ac826fdbf4bb2926bd408794fac6ef6502e433ebd1b34701f927",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M002",
+          "signature": "663a9c80e693d7f22d3e07efd92a4bb1677004b89db932363d1cff900bf1b7dc",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M003",
+          "signature": "02f17b12ce24ba3345157e13ec1f12ee30d7b523a4ea55aa09393ea1a4401394",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M004",
+          "signature": "701edd700a9a6e77fb7312eb558158738e5f11ec089f7947675290c4f9044477",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M005",
+          "signature": "8930836b80b987915da8b467ce9e7617f50f3b979af082f34a4949226c9bf8d9",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M006",
+          "signature": "aaaa937e165f5ca35a309f5236029ac1388818105944974562044dac343f24cc",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M007",
+          "signature": "abb1fe509769a54888d0983f9d35d151ffd4cefcb73d32512a9da5fb40c9db9b",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M008",
+          "signature": "44291142084e279fee7b39fa10a4f34a66d3ac13516725f3ae84811f3c99cf2b",
+          "cache_hit": false,
+          "intervals": 3
+        },
+        {
+          "sortie_id": "M009",
+          "signature": "ac669ddeeac99f433917b65c9e78e44729e0023a7cc74e4ca15c9fe213e7cee2",
+          "cache_hit": false,
+          "intervals": 3
+        },
+        {
+          "sortie_id": "M010",
+          "signature": "6c292cf62044c070cdc27296ff1c81befc0dba8907996e7c0686b32999b0ce54",
+          "cache_hit": false,
+          "intervals": 3
+        },
+        {
+          "sortie_id": "M011",
+          "signature": "60aec6da7d6b4ef0b37aac2f4af385ab410bb159ac28df3ac8fa96bc52cf7e78",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M012",
+          "signature": "8c538dfa3c12ec691b07b91b1bb432bf305bf6dcccc5df71fd0ee4c5af5eb252",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M013",
+          "signature": "2547bd42b4d5f9574512b348ea37c2dce8df27ba03bd0ea21f0c483b8f3fb681",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M014",
+          "signature": "5bcb1d00f4db6e9e5ca5e6385ef309e2829703fedfabaa6c0b21d0098416c151",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M015",
+          "signature": "c8084b68d02e62057a0ad2feb9d5f76d4d0dfcd66921e3281f05259bbfed01ef",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M016",
+          "signature": "b172cef9cbc3c6677e56093a5ecf5a13a6e2f7cbd9b39237f2fe18f39b13d7be",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M017",
+          "signature": "bb1f521b2ca07ad21ba543d342ed69f9f9f3e754c7ee1efb56d4161ad73ad8e4",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M018",
+          "signature": "c0e5e3f778e57e6c74810d534ba8db9f4b14bb157ed403b6f881eca1a778a0c1",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M019",
+          "signature": "53469659cbdf64dd9e398e070317fb3507c410088927ac8cc164b563714eefe1",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M020",
+          "signature": "67ce764d0ce4a18492c6f3c427eca6a7b10378131969230d383bb655ccd86280",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M021",
+          "signature": "670e28db3d7600305d223885c4152473694f78c2182233e5e9c26b2d2e0f06b0",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M022",
+          "signature": "236ea0557232d3bca9ad63d667ea8d0aa39b158d74db199ec209e6cc9b2add57",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M023",
+          "signature": "5a90f54732b3c72e9eb66a308c048062ac4082e69ebae8709c10adcaf90c29b0",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M024",
+          "signature": "41f01cbec62e7e48aa9a40f4460c90fd57dac445f983ca9e356738cf9690bc12",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M025",
+          "signature": "a922617ee83b29411d3fa987b41624bc41c4cd94de1bf2ee019eedfc1d350413",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M026",
+          "signature": "6c4023341b9ddd9ed55f8a81f5d3895467e0a68db4fb6508f482d03fe16df325",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M027",
+          "signature": "914b280b36c7de3e7a00bcbe8482cd10d002e04da6c8de8d4ceb2007388b5483",
+          "cache_hit": false,
+          "intervals": 1
+        }
+      ],
+      "relay_count_comparison": {
+        "verified_upper": null,
+        "catalogue_relaxation_lower": 7,
+        "relative_gap": null,
+        "scope": "Cold proposed group catalogue only, not complete Q3"
+      }
+    },
+    {
+      "pid": "T03",
+      "status": "NO_WITNESS_IN_BOUNDED_COLD_SCREEN",
+      "witnesses": [],
+      "relay_count_bound": {
+        "scope": "FINITE_COLD_GROUP_CATALOGUE_COUNT_RELAXATION; ignores timing, energy overlaps and all resources",
+        "groups": 40,
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "cpu_s": 0.0019462959999998475,
+        "iterations": 9,
+        "nodes": null,
+        "full_Q3_lower_bound": false,
+        "finite_group_catalogue_only": true,
+        "lower_bound": 6,
+        "bound_status": "VALID_FOR_DECLARED_COLD_GROUP_CATALOGUE_ONLY"
+      },
+      "attempts": 3,
+      "infeasibility_proven": false,
+      "total_cpu_s": 124.690174997,
+      "cold_config": {
+        "pid": "T03",
+        "transport_structure": "288667011ca61600cf0240b6ec47315bd9c0c942618c9a8342f54b4e5423fe4c",
+        "Gamma_C_db": 0,
+        "sites": 118,
+        "relay_uavs": 2,
+        "energy_components": 6,
+        "solver_seed": 26092511,
+        "solver_threads": 1,
+        "cold_tasks_and_pairs": true,
+        "historical_pair_cache_used": false,
+        "mip_limit_per_partition_s": 30.0,
+        "partition_batches": [
+          6,
+          8,
+          12
+        ],
+        "source": "Entire autonomous 2903 pattern pool",
+        "seed_model_scope": "Fixed proposed task groups/sites; free transport shifts and typed resource orders; conservative span-based relay energy only in seed MILP, original union energy in execution validation",
+        "rejection_does_not_prove_Q3_infeasibility": true
+      },
+      "candidate_summary": {
+        "tasks": 26,
+        "sites": 118,
+        "pairs": 1358,
+        "unresolved": [],
+        "pool_scope": "FROZEN_SHARED_SITE_COORDINATES"
+      },
+      "cold_template_log": [
+        {
+          "sortie_id": "M001",
+          "signature": "7e21a22f34c0dc69d1c1e4185030eb32fd18fdd1c39117dd9efa60f6767f44f5",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M002",
+          "signature": "04cf6a9801573eeb02cee699ea396af51c252b65353dadadc510bd4d3633694f",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M003",
+          "signature": "18c54be52dd84dcda975bf8b0c7a44171c9bd6ff49b82f4f0f6652311ca86f96",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M004",
+          "signature": "0b3958a8f406311b0e454f1e25dbfd43be047bff0e931bce27798ff9402a50b9",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M005",
+          "signature": "67f18b1c9827fddae21e8863fd21cb9554b6b0787d76064709a2c5a4cdc91cd4",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M006",
+          "signature": "2dd86a92528c4219b1acca3889f5b623a9b46cab694bfed25d459ad39b58967d",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M007",
+          "signature": "c042c0a211a9257e2ec20c49fba0ca93dbd2db053de56ee2bd22e41f15168df6",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M008",
+          "signature": "445c822d129e730ed4ffd909ce6ad5f83251ba421afad8c8255abd5dc87d6494",
+          "cache_hit": false,
+          "intervals": 3
+        },
+        {
+          "sortie_id": "M009",
+          "signature": "ed7affb19d7f4392a0b982890415a18b37bddeb0990e7b773a9bcfe42ab4b65b",
+          "cache_hit": false,
+          "intervals": 3
+        },
+        {
+          "sortie_id": "M010",
+          "signature": "8c8b9698f45aa698d72bb073cd1f2dab5ff49bf00ae4602d34cf6e293d888c08",
+          "cache_hit": false,
+          "intervals": 3
+        },
+        {
+          "sortie_id": "M011",
+          "signature": "9115b4196465438267ad422430989df2bccb59b512a305e2256e5827af74ad68",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M012",
+          "signature": "b6f007ce91accf94abdf4691e59be4537ee8138cb3587e0781a4d8cf26ea7d88",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M013",
+          "signature": "3b5433e5fd5ab2cdda3db5fa43ac1225f8a5660a0e741761976094203c89f7ee",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M014",
+          "signature": "c788d7b56564c012e379489d3f42e7a688d1e5a441086e60b4518fab925fcbcd",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M015",
+          "signature": "c8584cea4e03ca46a5ae5fe9ff584513caef187a0d10d05ad8aff414a351a0f6",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M016",
+          "signature": "b178fea554e0e6f0d42a6e585605999a3510806852941d7ba42eba9754c1dcf3",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M017",
+          "signature": "22e0896cf20d3127b640e29d68cae65205ad6de2bc43aca3d31e1cea5c3c8836",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M018",
+          "signature": "a57eaf77ec98f34f23fb6d85b66fb8745826922018811fc774a92eee2194a8d5",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M019",
+          "signature": "c1a5748362874f504cd6a8112d5d346d6f95bc63fb93eb70f6b750525dd7f43e",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M020",
+          "signature": "4de3159886716693350731c34cadc7745a47ab169f049a8098cc5ba406156278",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M021",
+          "signature": "be3f8e7fd056cb394c1b2d272bb7df5ab65c4bb94a900382644895f433774adb",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M022",
+          "signature": "d4c6b27da63fc9466d8a01180aa56682e77a76c608083c861a40f0f5e10ee526",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M023",
+          "signature": "f381c9ad04298c1f2ab4fa223295bc8a539a016add0c57c850f66bfae5c38acb",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M024",
+          "signature": "b13e9034d2ed37ecf5369a44be65d1194806eeab47b719e54e4e941ff9ee3d80",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M025",
+          "signature": "372727dd3a9d8f9cb3a87be1f9e6b6c30905c136f06526902b4514f1d93ed256",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M026",
+          "signature": "3076ccf45667a9bfc6246e3340186b62f3b8c8910ce021d5881765297cd88ebe",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M027",
+          "signature": "994bb25dc3794965739af936cb665e9ce53fa7fcf5093d53d990873154765575",
+          "cache_hit": false,
+          "intervals": 1
+        }
+      ],
+      "relay_count_comparison": {
+        "verified_upper": null,
+        "catalogue_relaxation_lower": 6,
+        "relative_gap": null,
+        "scope": "Cold proposed group catalogue only, not complete Q3"
+      }
+    },
+    {
+      "pid": "C01",
+      "status": "Q3_ZERO_LATE_WITNESS_INDEPENDENTLY_VALIDATED",
+      "witnesses": [
+        {
+          "id": "C01_Q3_001",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.6321312161713558,
+            "joint_makespan_s": 11388.198010976872,
+            "transport_energy_kwh": 62.32791033452269,
+            "relay_energy_kwh": 4.172566327648371,
+            "total_energy_kwh": 66.50047666217107,
+            "transport_sorties": 19,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 20860.985311627177,
+            "total_absolute_transport_shift_s": 27534.714056756657,
+            "max_transport_shift_s": 6328.888876302795,
+            "minimum_M_E_kwh": 1.000169589646363
+          },
+          "package": "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001",
+          "validation": {
+            "Gamma_C_db": 0.0,
+            "minimum_twohop_robust_slack_db": 0.14955749359428694,
+            "pareto_id": "C01",
+            "status": "E8_PLAN_INDEPENDENTLY_VALIDATED",
+            "step_s": 0.5,
+            "hard_violations": 0,
+            "uncovered_sample_count": 0,
+            "communication_uncovered_duration_s": 0.0,
+            "full_flight_samples": 56821,
+            "direct_samples": 34711,
+            "relayed_samples": 22110,
+            "relay_sorties": 4,
+            "full_flight_boundary_refinements": 357,
+            "boundary_refinement_s": 0.1,
+            "relay_ids": [
+              "R01",
+              "R02"
+            ],
+            "energy_components": [
+              "REC-01",
+              "REC-02",
+              "REC-03",
+              "REC-04"
+            ],
+            "minimum_relay_energy_margin_kwh": 1.000169589646363,
+            "minimum_twohop_margin_db": 0.14955749359428694,
+            "runtime_s": 24.117731279000054,
+            "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+            "J_late": 0.0,
+            "J_norm": 0.6321312161713556,
+            "transport_energy_kwh": 62.32791033452269,
+            "transport_makespan_s": 11303.96257909777,
+            "transport_sorties": 19,
+            "minimum_transport_energy_margin_kwh": 0.17841093718890288,
+            "hard_deadline_violations": 0,
+            "margin_distribution_db": {
+              "direct_active_path": {
+                "0": 7.3614433590663e-05,
+                "0.01": 0.18092993682519243,
+                "0.05": 1.4393540101097226,
+                "0.25": 5.662371024755014,
+                "0.5": 17.582691859498453,
+                "0.75": 31.863160903898205,
+                "0.95": 50.96219995342529,
+                "1": 201.94577516576788
+              },
+              "relayed_active_path": {
+                "0": 0.14955749359428694,
+                "0.01": 0.14955749359428694,
+                "0.05": 0.14955749359428694,
+                "0.25": 1.6365151586515374,
+                "0.5": 3.8094716871601975,
+                "0.75": 3.8094716871601975,
+                "0.95": 9.480572002738498,
+                "1": 13.2783241346674
+              }
+            },
+            "artifact_sha256": {
+              "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/transport_sorties_C01.csv": "aab55480695785248b14b92c4dd5c691f34e31a7f3087bd6dcfa5f915ff25059",
+              "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/box_delivery_C01.csv": "6a8beba219ee2834d668adf8f296599ca9f0ad7d45fa98639f87a19e96c6891f",
+              "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/transport_shifts_C01.csv": "23ee003af004e3bd902c0c83784b523a2bfa832395b147e3ebf2b3209979dd53",
+              "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/transport_uav_calendar_C01.csv": "fbd8f930f2e254426f3b755376714ce2149c489a059b32eabdcaac5375bf854d",
+              "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/transport_battery_calendar_C01.csv": "7125f84421cb003d1873cd7f30de2b0b982ac39bdf6e5b4a777abd9167e24fa5",
+              "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/relay_sorties_C01.csv": "07d9dd358d47cd9fed5ab5cd69a446550904b362ee891727ad88262cd706a708",
+              "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/relay_uav_calendar_C01.csv": "4310071dea3aed9d31b8d978805422fa71deb18aa8eeeb5b38e514df4dfb3868",
+              "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/relay_energy_calendar_C01.csv": "2cd2903d2a3536a6c2a33db17e652fcf8b0860e234a066cdb6b3aff069701a93",
+              "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/communication_guarantee_C01.csv": "5983a319f247ed36b625db34444960e5fca327f04faf23eda462a6aa729a3d4f",
+              "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/candidate_sites_C01.csv": "401259ebf438643cd13df779ab57821d68f9800b757d1ad250d20a4c9246066e",
+              "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/guarded_selected_pairs_C01.csv": "8eee65c7b88ab24b5d0082823cfe1f04f9dd455cb7dd51e31fd9712eec395e2d",
+              "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/scenario.json": "789d67e3431eb5602631bace74d7be63ea891672b51370e3df3dffed70af0ff2",
+              "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/guarded_atomic_tasks.csv": "f814281310d68a3a8ea632d7a1e962ccef923baf7a5ab76db02b5b73c7fbe7f1",
+              "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/joint_metrics_C01.json": "4ef3d73d45ee89b561f74d3fcf8eb0b37f4a9f012933faa571900f651046fbd4"
+            }
+          },
+          "validation_sha256": "2f4526cb11be17419e5ba5ac0be38c744f726650ebb4eee940528566cd598979"
+        }
+      ],
+      "relay_count_bound": {
+        "scope": "FINITE_COLD_GROUP_CATALOGUE_COUNT_RELAXATION; ignores timing, energy overlaps and all resources",
+        "groups": 30,
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "cpu_s": 0.0020800460000032217,
+        "iterations": 5,
+        "nodes": null,
+        "full_Q3_lower_bound": false,
+        "finite_group_catalogue_only": true,
+        "lower_bound": 4,
+        "bound_status": "VALID_FOR_DECLARED_COLD_GROUP_CATALOGUE_ONLY"
+      },
+      "attempts": 1,
+      "infeasibility_proven": false,
+      "total_cpu_s": 136.111662685,
+      "cold_config": {
+        "pid": "C01",
+        "transport_structure": "f095b5796228726836d0d52d65891f9204a6cfc051457cecc7e464feed0f7ed4",
+        "Gamma_C_db": 0,
+        "sites": 118,
+        "relay_uavs": 2,
+        "energy_components": 6,
+        "solver_seed": 26092511,
+        "solver_threads": 1,
+        "cold_tasks_and_pairs": true,
+        "historical_pair_cache_used": false,
+        "mip_limit_per_partition_s": 30.0,
+        "partition_batches": [
+          6,
+          8,
+          12
+        ],
+        "source": "Entire autonomous 2903 pattern pool",
+        "seed_model_scope": "Fixed proposed task groups/sites; free transport shifts and typed resource orders; conservative span-based relay energy only in seed MILP, original union energy in execution validation",
+        "rejection_does_not_prove_Q3_infeasibility": true
+      },
+      "candidate_summary": {
+        "tasks": 18,
+        "sites": 118,
+        "pairs": 777,
+        "unresolved": [],
+        "pool_scope": "FROZEN_SHARED_SITE_COORDINATES"
+      },
+      "cold_template_log": [
+        {
+          "sortie_id": "M001",
+          "signature": "14f153a0f0addd32c1d8970a4974f66979a7693f5236dfed006bcf6d50cf2b78",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M002",
+          "signature": "dec60dfa48209e251493c4335611cc68ad1b75f932a1b9d985296c8170c80fae",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M003",
+          "signature": "b9f43e51b23e49700927a36da0243850e7ded8cb9134583d429287f962e90f24",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M004",
+          "signature": "f9022b5cc2163611c4ed8fef5f9696347ca72e6106eca19b50c1fdb3ef14ab58",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M005",
+          "signature": "780b6413f502a98dcc845b8312484479f6a5abd3dbb4a11b939c9a5fc5faa23a",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M006",
+          "signature": "58a2eb85c268ade989a04e5ed9f28af18cc968bf53fbe925a4a2f5e4838286e4",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M007",
+          "signature": "0520ab3e57439136db0b3ea9f8fe49b5053bc03cb2917f230ff973ebd0a49484",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M008",
+          "signature": "a65696a1ac46ab4d0476c9b6216fd8f6daa31f137bb72ea7f5bbf3911a226878",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M009",
+          "signature": "6a24f366c6d72132911b7f68993895c249f5374c55e5a7513deeca4a00a8a00b",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M010",
+          "signature": "39157bb64aaa315759b5f4e94e6ed1c70ee7bd23b6ca1cbe5c05535621406dd7",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M011",
+          "signature": "6ff1b6d47160d2038419425cd7261a9352a4c52c9bb9c1f15755c89b5d7eca8f",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M012",
+          "signature": "de9c6caaf59db0a5a65a09c2f85f50dbe51354df7a565584099df6a82c6446d9",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M013",
+          "signature": "7df842956bcc5987c98e2cd2ce52673db62dfabdc890ee3a7ea4faf861b7cb89",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M014",
+          "signature": "32c5562888ce3be825174e8380d2441a1c504245bc9184cc07c2fca7202f901f",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M015",
+          "signature": "83651b1b5ba3ceaa49b522854779762fd3db95b550ea61fa4a0fea2d8b739ca8",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M016",
+          "signature": "9970b7a1309f8a78a08ee8cd42af7969e1d21ca53d0b14d88623504f46e5052d",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M017",
+          "signature": "1a3ab4985253146f8bc6ead9217e4eb5b08a6ab37355047202619762fc20c934",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M018",
+          "signature": "f04e0c70a1488a8c3a262a7c52394224dd0261a5cefc778194f346aea08226d7",
+          "cache_hit": false,
+          "intervals": 3
+        },
+        {
+          "sortie_id": "M019",
+          "signature": "84da47c249b87f736adecea1ba3f71dd8fee3483d8fe9a9816c4004486cad608",
+          "cache_hit": false,
+          "intervals": 1
+        }
+      ],
+      "relay_count_comparison": {
+        "verified_upper": 4,
+        "catalogue_relaxation_lower": 4,
+        "relative_gap": 0,
+        "scope": "Cold proposed group catalogue only, not complete Q3"
+      }
+    },
+    {
+      "pid": "E01",
+      "status": "NO_WITNESS_IN_BOUNDED_COLD_SCREEN",
+      "witnesses": [],
+      "relay_count_bound": {
+        "scope": "FINITE_COLD_GROUP_CATALOGUE_COUNT_RELAXATION; ignores timing, energy overlaps and all resources",
+        "groups": 26,
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "cpu_s": 0.0020416210000036017,
+        "iterations": 4,
+        "nodes": null,
+        "full_Q3_lower_bound": false,
+        "finite_group_catalogue_only": true,
+        "lower_bound": 5,
+        "bound_status": "VALID_FOR_DECLARED_COLD_GROUP_CATALOGUE_ONLY"
+      },
+      "attempts": 3,
+      "infeasibility_proven": false,
+      "total_cpu_s": 90.079667851,
+      "cold_config": {
+        "pid": "E01",
+        "transport_structure": "c93c015429ff8d4d0f4216a9c676832b11741fe7f83c8cdf9e5a4bd57706f9fa",
+        "Gamma_C_db": 0,
+        "sites": 118,
+        "relay_uavs": 2,
+        "energy_components": 6,
+        "solver_seed": 26092511,
+        "solver_threads": 1,
+        "cold_tasks_and_pairs": true,
+        "historical_pair_cache_used": false,
+        "mip_limit_per_partition_s": 30.0,
+        "partition_batches": [
+          6,
+          8,
+          12
+        ],
+        "source": "Entire autonomous 2903 pattern pool",
+        "seed_model_scope": "Fixed proposed task groups/sites; free transport shifts and typed resource orders; conservative span-based relay energy only in seed MILP, original union energy in execution validation",
+        "rejection_does_not_prove_Q3_infeasibility": true
+      },
+      "candidate_summary": {
+        "tasks": 15,
+        "sites": 118,
+        "pairs": 451,
+        "unresolved": [],
+        "pool_scope": "FROZEN_SHARED_SITE_COORDINATES"
+      },
+      "cold_template_log": [
+        {
+          "sortie_id": "M001",
+          "signature": "4efc2b5887844d32874f4b83e984de7ced7dbe4544cc642a66bd0447f6a641f0",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M002",
+          "signature": "7887fe250054ce9e9dcbc5b3837c209281fd561bce80b4de650c87c51121ca25",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M003",
+          "signature": "fcfeda05e9cef49edeac9bd82067e84ae992740a1097b3ca4066056d1fc2af91",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M004",
+          "signature": "668facfd23c90e355570cafedcf6f23bcea4457dc384b94154e1baadfa63e672",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M005",
+          "signature": "d69e969cd1a5630d7f8e5c4ef21291dd88c74c68032ec83dbed4cf19e65af617",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M006",
+          "signature": "82c6ef8b80b90984586468337d8b71429baff1de885f05166e932033fd4b7f61",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M007",
+          "signature": "c409673dd41116118dd98bd5241d9b34744b3559c54f42e0e39f572a391df87b",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M008",
+          "signature": "3bcb6d78d1a733bf5a1eb20fbc9800d1b38cd0a8d6373f4f2a6c310cc5982b9d",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M009",
+          "signature": "73dc276f0e16f6a69914642f480775cb0507436154ecfcbbf59b61f79ea943a7",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M010",
+          "signature": "bf898dfdf2a2c7c16f89e25ea25dd8fb440d8c0a399380174d01aa775452c43b",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M011",
+          "signature": "83c4224324f5f3a779bcddf233bd11456ad48b9be87b746247916ba3057caf1a",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M012",
+          "signature": "4337a5ad21ea16980e799e22c3ce0129b220f476694c228fd80fc7cb89d79ce0",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M013",
+          "signature": "4ea2a3a862b4d5e36ea6eec69ea891ab3a3bfdceb209025eebe01b20d5dddc5b",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M014",
+          "signature": "ec6755de5e27a6ddcfe8603e5d43de4cf974f0945f42532ea65c2933d6b609cf",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M015",
+          "signature": "695e097bbdd74b87ba63a3d2c8dc4ca73b9edea6a10e6536edaba288229deddb",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M016",
+          "signature": "de370d06aa7596fcc37bf6ce4dbf4a7b5355660722ce7ebfb0583e098f9e7468",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M017",
+          "signature": "9c8b33d788196d6a3043ff76b1ef86876cbaa317c793f407a5859ef3252c4d4e",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M018",
+          "signature": "db3dfb8dd2cec62d0ea9dbfd54aaebf46d13467545473ec4b0b145ffaf1b54c5",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M019",
+          "signature": "857fb942d86700de79b4d64fa835ff3b8886ca8a5b764598ffb8c0698cfdfe0d",
+          "cache_hit": false,
+          "intervals": 2
+        },
+        {
+          "sortie_id": "M020",
+          "signature": "316ff4bc5adfb7e01f380ecc4f5b03225f147e62cc38e9ba88b676ebfd29f1fa",
+          "cache_hit": false,
+          "intervals": 1
+        }
+      ],
+      "relay_count_comparison": {
+        "verified_upper": null,
+        "catalogue_relaxation_lower": 5,
+        "relative_gap": null,
+        "scope": "Cold proposed group catalogue only, not complete Q3"
+      }
+    },
+    {
+      "pid": "N01",
+      "status": "NO_WITNESS_IN_BOUNDED_COLD_SCREEN",
+      "witnesses": [],
+      "relay_count_bound": {
+        "scope": "FINITE_COLD_GROUP_CATALOGUE_COUNT_RELAXATION; ignores timing, energy overlaps and all resources",
+        "groups": 37,
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "cpu_s": 0.0020329049999929794,
+        "iterations": 5,
+        "nodes": null,
+        "full_Q3_lower_bound": false,
+        "finite_group_catalogue_only": true,
+        "lower_bound": 5,
+        "bound_status": "VALID_FOR_DECLARED_COLD_GROUP_CATALOGUE_ONLY"
+      },
+      "attempts": 3,
+      "infeasibility_proven": false,
+      "total_cpu_s": 160.39293035600002,
+      "cold_config": {
+        "pid": "N01",
+        "transport_structure": "ef945e6d43af2293553f7cf1fc0fb9c0886afb57aea788f9c4b328750ce934d5",
+        "Gamma_C_db": 0,
+        "sites": 118,
+        "relay_uavs": 2,
+        "energy_components": 6,
+        "solver_seed": 26092511,
+        "solver_threads": 1,
+        "cold_tasks_and_pairs": true,
+        "historical_pair_cache_used": false,
+        "mip_limit_per_partition_s": 30.0,
+        "partition_batches": [
+          6,
+          8,
+          12
+        ],
+        "source": "Entire autonomous 2903 pattern pool",
+        "seed_model_scope": "Fixed proposed task groups/sites; free transport shifts and typed resource orders; conservative span-based relay energy only in seed MILP, original union energy in execution validation",
+        "rejection_does_not_prove_Q3_infeasibility": true
+      },
+      "candidate_summary": {
+        "tasks": 26,
+        "sites": 118,
+        "pairs": 1167,
+        "unresolved": [],
+        "pool_scope": "FROZEN_SHARED_SITE_COORDINATES"
+      },
+      "cold_template_log": [
+        {
+          "sortie_id": "M001",
+          "signature": "38c3a9891d02554751e269ad8f5705ccbf370769934379ee290fb595e2784cc2",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M002",
+          "signature": "aa5219dbe20229cf08e03d4ced07de8e7365467226d4ed3863ec9046f2b06767",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M003",
+          "signature": "ed29174c59ada827385480214fdb345ecfe71a7e6c9e71dd3e0e6add4fb94a95",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M004",
+          "signature": "de8b0836f40f84d31b5335fae1bc9bd239e26913835d166fe12a442a765d38a0",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M005",
+          "signature": "0257210d20c39c638db822fdc22771456f623230b082da24629a6a4781eeefaa",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M006",
+          "signature": "7360c216e5e10c513c783dda2b3d522f5f1c5c26f0731fdf8f0a3e0bfaf34287",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M007",
+          "signature": "48fb4bd4a6bdc51d49542fd3c7d73773dac8f89813e638bc57726324aacb4e91",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M008",
+          "signature": "2ebc3982d59b2d49f2ecb8072b8949a01f6f498d265b30f0af5c512507944b63",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M009",
+          "signature": "87fa6a66b595c5015b073f0f67e464db89cad23644ec2d248f796f240be8fbf3",
+          "cache_hit": false,
+          "intervals": 3
+        },
+        {
+          "sortie_id": "M010",
+          "signature": "a8f0614f189e1efc9be3889311b23be03d68d99cff3f110c77d76a0c3eebb34c",
+          "cache_hit": false,
+          "intervals": 3
+        },
+        {
+          "sortie_id": "M011",
+          "signature": "10abb05acd58af8d5150ca695e4e97eacaaf40fd040c629ac7a7b541da6f9200",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M012",
+          "signature": "f7edea85b4c3978be6e14c1eade4b7b0e24ce5e40181228c965c4b9a64a1dd9f",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M013",
+          "signature": "45e1c074d485a61b50d19af8bec75613f417c9a2c1f69ed726ced39e04747e7b",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M014",
+          "signature": "a93aeb1389e69de61cf3f8114b3f59a63f9e54a74392155a51a2510231d75063",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M015",
+          "signature": "c6595c269b1a961b07c2d9ecdb6335e3815b12039a25e2b31339cf1b72219d17",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M016",
+          "signature": "3bdbc7a13269d3f8fa4a17fb7574f6aa079fb59beeb3c4d59bfebfc056c79e3b",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M017",
+          "signature": "906c003cefa11634730cbb4130f5257b3ed605132f8481d5227254eae8131881",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M018",
+          "signature": "726c9d551300788b5c4dfe599abe27d7fc9253705c4d550a3acd56562d34cbad",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M019",
+          "signature": "0df0cd3a3a7a05bdf58c9e5e2db65765a57241fcb91116ee31bd7b88bd29f557",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M020",
+          "signature": "f42193f354ed6fe3360e0cf2351a05b724d4b7d0c7fe9226e01aa4d333c765c9",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M021",
+          "signature": "2970eb516d1a944f91b299339258a2622756c991c56c831c6f6cdca0615b3bcb",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M022",
+          "signature": "7a310c6751673a5e319aa386b072c3cde4ed8498fd52de5ab9d320b32dbbd8fa",
+          "cache_hit": false,
+          "intervals": 0
+        },
+        {
+          "sortie_id": "M023",
+          "signature": "98278d610dd876c153be38a2b7137121eb44e97ec685c25cfd37459f0d79f99a",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M024",
+          "signature": "049a66ffb39e24020aaac5f421ffc8aac364d052c98a52728efa087e412f09b9",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M025",
+          "signature": "2d0745805c4c74feef1566c9ef8016a7a07f3c656c8b04e98deaffb4e4a485f8",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M026",
+          "signature": "0f82e0f3e13b6a5d173ce2526d79ce9491af3e8da427e4fb90f9b19131f47710",
+          "cache_hit": false,
+          "intervals": 1
+        },
+        {
+          "sortie_id": "M027",
+          "signature": "a0e45f9e659a197ce43d552a44120aeb6c22a61bfc9a823a9f5bdb6b14e6fb55",
+          "cache_hit": false,
+          "intervals": 2
+        }
+      ],
+      "relay_count_comparison": {
+        "verified_upper": null,
+        "catalogue_relaxation_lower": 5,
+        "relative_gap": null,
+        "scope": "Cold proposed group catalogue only, not complete Q3"
+      }
+    }
+  ],
+  "verified_witnesses": [
+    {
+      "transport_id": "C01",
+      "id": "C01_Q3_001",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.6321312161713558,
+        "joint_makespan_s": 11388.198010976872,
+        "transport_energy_kwh": 62.32791033452269,
+        "relay_energy_kwh": 4.172566327648371,
+        "total_energy_kwh": 66.50047666217107,
+        "transport_sorties": 19,
+        "relay_sorties": 4,
+        "total_transport_shift_s": 20860.985311627177,
+        "total_absolute_transport_shift_s": 27534.714056756657,
+        "max_transport_shift_s": 6328.888876302795,
+        "minimum_M_E_kwh": 1.000169589646363
+      },
+      "package": "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001",
+      "validation": {
+        "Gamma_C_db": 0.0,
+        "minimum_twohop_robust_slack_db": 0.14955749359428694,
+        "pareto_id": "C01",
+        "status": "E8_PLAN_INDEPENDENTLY_VALIDATED",
+        "step_s": 0.5,
+        "hard_violations": 0,
+        "uncovered_sample_count": 0,
+        "communication_uncovered_duration_s": 0.0,
+        "full_flight_samples": 56821,
+        "direct_samples": 34711,
+        "relayed_samples": 22110,
+        "relay_sorties": 4,
+        "full_flight_boundary_refinements": 357,
+        "boundary_refinement_s": 0.1,
+        "relay_ids": [
+          "R01",
+          "R02"
+        ],
+        "energy_components": [
+          "REC-01",
+          "REC-02",
+          "REC-03",
+          "REC-04"
+        ],
+        "minimum_relay_energy_margin_kwh": 1.000169589646363,
+        "minimum_twohop_margin_db": 0.14955749359428694,
+        "runtime_s": 24.117731279000054,
+        "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+        "J_late": 0.0,
+        "J_norm": 0.6321312161713556,
+        "transport_energy_kwh": 62.32791033452269,
+        "transport_makespan_s": 11303.96257909777,
+        "transport_sorties": 19,
+        "minimum_transport_energy_margin_kwh": 0.17841093718890288,
+        "hard_deadline_violations": 0,
+        "margin_distribution_db": {
+          "direct_active_path": {
+            "0": 7.3614433590663e-05,
+            "0.01": 0.18092993682519243,
+            "0.05": 1.4393540101097226,
+            "0.25": 5.662371024755014,
+            "0.5": 17.582691859498453,
+            "0.75": 31.863160903898205,
+            "0.95": 50.96219995342529,
+            "1": 201.94577516576788
+          },
+          "relayed_active_path": {
+            "0": 0.14955749359428694,
+            "0.01": 0.14955749359428694,
+            "0.05": 0.14955749359428694,
+            "0.25": 1.6365151586515374,
+            "0.5": 3.8094716871601975,
+            "0.75": 3.8094716871601975,
+            "0.95": 9.480572002738498,
+            "1": 13.2783241346674
+          }
+        },
+        "artifact_sha256": {
+          "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/transport_sorties_C01.csv": "aab55480695785248b14b92c4dd5c691f34e31a7f3087bd6dcfa5f915ff25059",
+          "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/box_delivery_C01.csv": "6a8beba219ee2834d668adf8f296599ca9f0ad7d45fa98639f87a19e96c6891f",
+          "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/transport_shifts_C01.csv": "23ee003af004e3bd902c0c83784b523a2bfa832395b147e3ebf2b3209979dd53",
+          "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/transport_uav_calendar_C01.csv": "fbd8f930f2e254426f3b755376714ce2149c489a059b32eabdcaac5375bf854d",
+          "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/transport_battery_calendar_C01.csv": "7125f84421cb003d1873cd7f30de2b0b982ac39bdf6e5b4a777abd9167e24fa5",
+          "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/relay_sorties_C01.csv": "07d9dd358d47cd9fed5ab5cd69a446550904b362ee891727ad88262cd706a708",
+          "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/relay_uav_calendar_C01.csv": "4310071dea3aed9d31b8d978805422fa71deb18aa8eeeb5b38e514df4dfb3868",
+          "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/relay_energy_calendar_C01.csv": "2cd2903d2a3536a6c2a33db17e652fcf8b0860e234a066cdb6b3aff069701a93",
+          "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/communication_guarantee_C01.csv": "5983a319f247ed36b625db34444960e5fca327f04faf23eda462a6aa729a3d4f",
+          "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/candidate_sites_C01.csv": "401259ebf438643cd13df779ab57821d68f9800b757d1ad250d20a4c9246066e",
+          "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/guarded_selected_pairs_C01.csv": "8eee65c7b88ab24b5d0082823cfe1f04f9dd455cb7dd51e31fd9712eec395e2d",
+          "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/scenario.json": "789d67e3431eb5602631bace74d7be63ea891672b51370e3df3dffed70af0ff2",
+          "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/guarded_atomic_tasks.csv": "f814281310d68a3a8ea632d7a1e962ccef923baf7a5ab76db02b5b73c7fbe7f1",
+          "results/p1_3b/screening/C01/q3/C01/solutions/C01_Q3_001/joint_metrics_C01.json": "4ef3d73d45ee89b561f74d3fcf8eb0b37f4a9f012933faa571900f651046fbd4"
+        }
+      },
+      "validation_sha256": "2f4526cb11be17419e5ba5ac0be38c744f726650ebb4eee940528566cd598979"
+    }
+  ],
+  "fast_Q2_structures": [
+    "T01",
+    "T02",
+    "T03"
+  ],
+  "fast_Q3_closed": false,
+  "limitations": [
+    "Three initial fixed partition/site conservative seed models per structure are not the full Q3 domain",
+    "T01 received one additional exact partial group/order/site-domain MILP; time limit is not infeasibility",
+    "Relay-count certificate scopes differ between cold group catalogue and exact rescue catalogue; neither is a global Q3 lower bound",
+    "Communication verification uses original full-flight numerical sampling and boundary refinement, not an analytic continuous-time proof"
+  ]
+}

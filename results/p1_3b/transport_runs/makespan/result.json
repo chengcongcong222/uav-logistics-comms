@@ -1,0 +1,18 @@
+{
+  "axis": "makespan",
+  "status": 0,
+  "status_name": "UNKNOWN",
+  "solver_objective": null,
+  "raw_grid_bound": 5598.8,
+  "raw_grid_relative_gap": null,
+  "cpu_s": 180.095831904,
+  "wall_s": 180.006919102,
+  "branches": 2144654,
+  "conflicts": 24032,
+  "iterations": null,
+  "iterations_note": "CP-SAT does not expose a single LP iteration count here",
+  "full_pool_continuous_optimality_proven": false,
+  "grid_optimal": false,
+  "structure_count": 0,
+  "total_process_cpu_s": 180.460722102
+}

@@ -1,0 +1,45 @@
+{
+  "base_commit": "62e8d6b72fe9305c00d228d820a065ddefb22524",
+  "source": "results/reset/pattern_pool.json",
+  "sha256": "3a451cd1df7cd11c288e63f63e348611bb3637edac5cba3e9f8fc52228e1db08",
+  "geometry": "G2_UTM49N_STRAIGHT_NATIVE_SUPERCOVER_V1",
+  "actual_patterns": 2903,
+  "single_stop": 296,
+  "two_stop": 2607,
+  "other": 0,
+  "class_count": 61,
+  "box_count": 80,
+  "max_multiplicity_counts": {
+    "1": 2860,
+    "7": 3,
+    "3": 12,
+    "2": 28
+  },
+  "full_existing_pool": true,
+  "all_possible_transport_patterns": false,
+  "single_stop_enumerated_before_selection": 1074,
+  "generation_scope": "296 retained of 1074 feasible single-stop patterns; neighbor/load-filtered 2607 two-stop patterns; no longer routes",
+  "autonomous_generator": "src/reset/patterns.py",
+  "generator_sha256": "91f70ccf5bc76f62675c36f8b5ce6b7fa07ace70201d5bfa3a28220924746ac2",
+  "source_inputs": {
+    "results/reset/geometry/route_geometry.csv": "45c97d859f60edbc21b2b7ef67fdbf56914200d7eaa0d736d23914ee71be94ff",
+    "data/processed/boxes.csv": "bfeca5816dfceab43ee691328969ca571792870c9670ca5e38681e90011cf120",
+    "data/processed/nodes.csv": "b04a3bb5cc95546135165c4965a0db08603fa050cc989b0f2f26b751c2edb3df",
+    "data/processed/transport_uav_types.csv": "e49dcf0068446cfe674abf56af042b5a440f3ec27c6be96552c09d4366e9e1f7",
+    "data/processed/transport_uavs.csv": "35ef7de8239abc9e047e668c5729ce32ca63118a000ed71844591e5933d09278",
+    "data/processed/transport_batteries.csv": "c0fc93bc96e485985aca7d3a7690da077149767e10ad45cda1aae59126d239d8"
+  },
+  "all_pattern_physics_crosscheck": {
+    "evaluator": "Original MissionEvaluator, not an independent solver/geometry proof",
+    "max_absolute_residuals": {
+      "energy": 8.881784197001252e-16,
+      "duration": 0.0,
+      "prep": 0.0,
+      "delivery": 0.0,
+      "charge": 4.547473508864641e-13
+    },
+    "cpu_s": 6.0308536319999995
+  },
+  "external_structures_read": false,
+  "external_targets_in_solver": false
+}

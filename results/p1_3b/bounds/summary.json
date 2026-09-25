@@ -1,0 +1,58 @@
+[
+  {
+    "anchor": "makespan",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "cpu_s": 0.4302300859999999,
+    "iterations": 1489,
+    "nodes": null,
+    "scope": "FULL_POOL_CONTINUOUS_OUTER_RELAXATION",
+    "full_pool_optimality_proven": false,
+    "lower_bound": 5539.261004279375,
+    "raw_lp_value": 5539.261004279377,
+    "bound_status": "VALID_FULL_POOL_CONTINUOUS_RELAXATION",
+    "certificate": "results/p1_3b/bounds/makespan/certificate.json"
+  },
+  {
+    "anchor": "sorties",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "cpu_s": 0.6498972360000002,
+    "iterations": 2518,
+    "nodes": null,
+    "scope": "FULL_POOL_CONTINUOUS_OUTER_RELAXATION",
+    "full_pool_optimality_proven": false,
+    "lower_bound": 16,
+    "raw_lp_value": 15.497110838306643,
+    "bound_status": "VALID_FULL_POOL_CONTINUOUS_RELAXATION",
+    "certificate": "results/p1_3b/bounds/sorties/certificate.json"
+  },
+  {
+    "anchor": "J_norm",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "cpu_s": 0.20033473899999965,
+    "iterations": 291,
+    "nodes": null,
+    "scope": "FULL_POOL_CONTINUOUS_OUTER_RELAXATION",
+    "full_pool_optimality_proven": false,
+    "lower_bound": 0.2501488973231646,
+    "raw_lp_value": 0.2501488973231647,
+    "bound_status": "VALID_FULL_POOL_CONTINUOUS_RELAXATION",
+    "certificate": "results/p1_3b/bounds/J_norm/certificate.json"
+  },
+  {
+    "anchor": "energy",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "cpu_s": 0.6260766950000001,
+    "iterations": 2302,
+    "nodes": null,
+    "scope": "FULL_POOL_CONTINUOUS_OUTER_RELAXATION",
+    "full_pool_optimality_proven": false,
+    "lower_bound": 57.762203105785794,
+    "raw_lp_value": 57.76220310591067,
+    "bound_status": "VALID_FULL_POOL_CONTINUOUS_RELAXATION",
+    "certificate": "results/p1_3b/bounds/energy/certificate.json"
+  }
+]

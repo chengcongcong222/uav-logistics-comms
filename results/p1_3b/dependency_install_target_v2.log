@@ -1,0 +1,15 @@
+Collecting ortools==9.14.6206
+  Using cached ortools-9.14.6206-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (3.3 kB)
+Collecting protobuf==6.31.1
+  Using cached protobuf-6.31.1-cp39-abi3-manylinux2014_x86_64.whl.metadata (593 bytes)
+Collecting absl-py==2.5.0
+  Using cached absl_py-2.5.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting immutabledict==4.3.1
+  Using cached immutabledict-4.3.1-py3-none-any.whl.metadata (3.5 kB)
+Using cached ortools-9.14.6206-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (27.7 MB)
+Using cached protobuf-6.31.1-cp39-abi3-manylinux2014_x86_64.whl (321 kB)
+Using cached absl_py-2.5.0-py3-none-any.whl (137 kB)
+Using cached immutabledict-4.3.1-py3-none-any.whl (5.0 kB)
+Installing collected packages: protobuf, ortools, immutabledict, absl-py
+
+Successfully installed absl-py-2.5.0 immutabledict-4.3.1 ortools-9.14.6206 protobuf-6.31.1

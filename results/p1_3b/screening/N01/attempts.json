@@ -1,0 +1,56 @@
+[
+  {
+    "batch": 12,
+    "groups": 5,
+    "raw_solver": {
+      "status": 1,
+      "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+      "runtime_s": 30.419692241000007,
+      "groups": 5,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "JOINT_TYPED_RESOURCES_MILP",
+      "limit_s": 30.0
+    },
+    "cpu_s": 30.322617829999984,
+    "raw_dual_scope": "Conservative fixed-group seed MILP objective is lateness, NOT a full-Q3 count or energy lower bound",
+    "outcome": "NO_ZERO_LATE_WITNESS",
+    "candidate_metrics": null
+  },
+  {
+    "batch": 8,
+    "groups": 7,
+    "raw_solver": {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 1.2092213389999529,
+      "groups": 7,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "JOINT_TYPED_RESOURCES_MILP",
+      "limit_s": 30.0
+    },
+    "cpu_s": 1.2593368710000163,
+    "raw_dual_scope": "Conservative fixed-group seed MILP objective is lateness, NOT a full-Q3 count or energy lower bound",
+    "outcome": "NO_ZERO_LATE_WITNESS",
+    "candidate_metrics": null
+  },
+  {
+    "batch": 6,
+    "groups": 8,
+    "raw_solver": {
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "runtime_s": 1.104227182000045,
+      "groups": 8,
+      "objective": null,
+      "dual_bound": null,
+      "scope": "JOINT_TYPED_RESOURCES_MILP",
+      "limit_s": 30.0
+    },
+    "cpu_s": 1.155186619999995,
+    "raw_dual_scope": "Conservative fixed-group seed MILP objective is lateness, NOT a full-Q3 count or energy lower bound",
+    "outcome": "NO_ZERO_LATE_WITNESS",
+    "candidate_metrics": null
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "lower_bound": 3.9999999999999996,
+  "numerator": "4",
+  "denominator": "1",
+  "upper_multipliers": [],
+  "equality_multipliers": [
+    -0.0,
+    -0.0,
+    1.0,
+    1.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    1.0,
+    -0.0,
+    1.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0
+  ],
+  "proof": "EXACT_RATIONAL_LAGRANGIAN_WITH_BOX_RESIDUAL_CORRECTION_FOR_STORED_BINARY64_MILP",
+  "matrix_sha256": "bde82ba527f34dabccdb14aba16cca0010f47c1c0f3357ae634fb839a100984d"
+}

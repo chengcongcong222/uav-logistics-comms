@@ -1,0 +1,121 @@
+{
+  "domain": "Entire frozen 2903-pattern pool, original continuous-time physics and original resources, J_late <= 1e-4",
+  "certified_lower_bound_domain": "Continuous-time outer relaxation",
+  "primal_search_domain": "Conservative 0.1 s optional-interval CP-SAT; all pool patterns and all class-bounded copies; free resource assignment/order",
+  "results": [
+    {
+      "anchor": "makespan",
+      "verified_incumbent": "T01",
+      "incumbent_package": "results/p1_3b/q2/pareto_schedules/T01",
+      "upper_bound": 6101.161066593163,
+      "best_new_run_representative": "T01",
+      "best_new_value": 6101.161066593163,
+      "valid_full_pool_lower_bound": 5539.261004279375,
+      "relative_gap": 0.0920972346379225,
+      "bound_status": "VALID_FULL_POOL_CONTINUOUS_RELAXATION",
+      "certificate": "results/p1_3b/bounds/makespan/certificate.json",
+      "finite_continuous_pool_optimality_proven": false,
+      "tie_break": "Known feasible incumbent selection only: requested axis, J_norm, makespan, energy, ID; no secondary optimality claim"
+    },
+    {
+      "anchor": "sorties",
+      "verified_incumbent": "C01",
+      "incumbent_package": "results/p1_3b/q2/pareto_schedules/C01",
+      "upper_bound": 19,
+      "best_new_run_representative": "C01",
+      "best_new_value": 19,
+      "valid_full_pool_lower_bound": 16,
+      "relative_gap": 0.15789473684210525,
+      "bound_status": "VALID_FULL_POOL_CONTINUOUS_RELAXATION",
+      "certificate": "results/p1_3b/bounds/sorties/certificate.json",
+      "finite_continuous_pool_optimality_proven": false,
+      "tie_break": "Known feasible incumbent selection only: requested axis, J_norm, makespan, energy, ID; no secondary optimality claim"
+    },
+    {
+      "anchor": "J_norm",
+      "verified_incumbent": "N01",
+      "incumbent_package": "results/p1_3b/q2/pareto_schedules/N01",
+      "upper_bound": 0.44128856776241876,
+      "best_new_run_representative": "N01",
+      "best_new_value": 0.44128856776241876,
+      "valid_full_pool_lower_bound": 0.2501488973231646,
+      "relative_gap": 0.4331398644846836,
+      "bound_status": "VALID_FULL_POOL_CONTINUOUS_RELAXATION",
+      "certificate": "results/p1_3b/bounds/J_norm/certificate.json",
+      "finite_continuous_pool_optimality_proven": false,
+      "tie_break": "Known feasible incumbent selection only: requested axis, J_norm, makespan, energy, ID; no secondary optimality claim"
+    },
+    {
+      "anchor": "energy",
+      "verified_incumbent": "H_A03",
+      "incumbent_package": "results/p1_3b/q2/pareto_schedules/H_A03",
+      "upper_bound": 60.047644724851246,
+      "best_new_run_representative": "E01",
+      "best_new_value": 61.40262959881916,
+      "valid_full_pool_lower_bound": 57.762203105785794,
+      "relative_gap": 0.038060470640234816,
+      "bound_status": "VALID_FULL_POOL_CONTINUOUS_RELAXATION",
+      "certificate": "results/p1_3b/bounds/energy/certificate.json",
+      "finite_continuous_pool_optimality_proven": false,
+      "tie_break": "Known feasible incumbent selection only: requested axis, J_norm, makespan, energy, ID; no secondary optimality claim"
+    }
+  ],
+  "raw_full_pool_LP_solves": [
+    {
+      "anchor": "makespan",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "cpu_s": 0.4302300859999999,
+      "iterations": 1489,
+      "nodes": null,
+      "scope": "FULL_POOL_CONTINUOUS_OUTER_RELAXATION",
+      "full_pool_optimality_proven": false,
+      "lower_bound": 5539.261004279375,
+      "raw_lp_value": 5539.261004279377,
+      "bound_status": "VALID_FULL_POOL_CONTINUOUS_RELAXATION",
+      "certificate": "results/p1_3b/bounds/makespan/certificate.json"
+    },
+    {
+      "anchor": "sorties",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "cpu_s": 0.6498972360000002,
+      "iterations": 2518,
+      "nodes": null,
+      "scope": "FULL_POOL_CONTINUOUS_OUTER_RELAXATION",
+      "full_pool_optimality_proven": false,
+      "lower_bound": 16,
+      "raw_lp_value": 15.497110838306643,
+      "bound_status": "VALID_FULL_POOL_CONTINUOUS_RELAXATION",
+      "certificate": "results/p1_3b/bounds/sorties/certificate.json"
+    },
+    {
+      "anchor": "J_norm",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "cpu_s": 0.20033473899999965,
+      "iterations": 291,
+      "nodes": null,
+      "scope": "FULL_POOL_CONTINUOUS_OUTER_RELAXATION",
+      "full_pool_optimality_proven": false,
+      "lower_bound": 0.2501488973231646,
+      "raw_lp_value": 0.2501488973231647,
+      "bound_status": "VALID_FULL_POOL_CONTINUOUS_RELAXATION",
+      "certificate": "results/p1_3b/bounds/J_norm/certificate.json"
+    },
+    {
+      "anchor": "energy",
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "cpu_s": 0.6260766950000001,
+      "iterations": 2302,
+      "nodes": null,
+      "scope": "FULL_POOL_CONTINUOUS_OUTER_RELAXATION",
+      "full_pool_optimality_proven": false,
+      "lower_bound": 57.762203105785794,
+      "raw_lp_value": 57.76220310591067,
+      "bound_status": "VALID_FULL_POOL_CONTINUOUS_RELAXATION",
+      "certificate": "results/p1_3b/bounds/energy/certificate.json"
+    }
+  ]
+}

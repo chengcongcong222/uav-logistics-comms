@@ -1,0 +1,21 @@
+{
+  "scope": "OUTER_RELAXATION_OF_ALL_CONTINUOUS_SCHEDULES_IN_ENTIRE_2903_PATTERN_POOL",
+  "variables": 14675,
+  "constraints": 14868,
+  "integer_pattern_counts_relaxed_for_LP": true,
+  "preserves": [
+    "All pool patterns with full class-bounded multiplicities",
+    "Exact class cover",
+    "Original hard and 1e-4 aggregate soft deadline necessities",
+    "Typed UAV/battery workload necessities",
+    "Aggregate continuous starts",
+    "Parallel machine completion-time tangent inequalities"
+  ],
+  "relaxed": [
+    "Individual starts replaced by pattern aggregate start sum",
+    "Explicit machine assignment/order and all interval conflicts relaxed",
+    "Individual lateness replaced by Jensen lower bound"
+  ],
+  "no_time_grid_restriction": true,
+  "no_external_targets": true
+}

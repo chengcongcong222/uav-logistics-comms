@@ -1,0 +1,35 @@
+{
+  "signature": "3bdbc7a13269d3f8fa4a17fb7574f6aa079fb59beeb3c4d59bfebfc056c79e3b",
+  "shape": {
+    "uav_type": "A",
+    "box_ids": [
+      "S007-MED-01",
+      "S007-HYG-01"
+    ],
+    "service_sequence": [
+      "S007"
+    ],
+    "boxes_by_service": {
+      "S007": [
+        "S007-MED-01",
+        "S007-HYG-01"
+      ]
+    },
+    "relative_takeoff_time": 360.0,
+    "relative_delivery_times": {
+      "S007": 1141.357661336819
+    },
+    "relative_return_time": 1727.4353226736384
+  },
+  "geometry": "9db8a5d8afb2e9e498db2a10a895bb133d2e00de24515202080374a3fe4318dc",
+  "intervals": [
+    [
+      816.0625,
+      1245.75
+    ]
+  ],
+  "samples": 2782,
+  "step_s": 0.5,
+  "boundary_s": 0.05,
+  "guard_s": 2.0
+}

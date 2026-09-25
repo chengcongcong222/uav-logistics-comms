@@ -1,0 +1,21 @@
+{
+  "pid": "T02",
+  "status": "NO_WITNESS_IN_BOUNDED_COLD_SCREEN",
+  "witnesses": [],
+  "relay_count_bound": {
+    "scope": "FINITE_COLD_GROUP_CATALOGUE_COUNT_RELAXATION; ignores timing, energy overlaps and all resources",
+    "groups": 39,
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "cpu_s": 0.002231284999993477,
+    "iterations": 9,
+    "nodes": null,
+    "full_Q3_lower_bound": false,
+    "finite_group_catalogue_only": true,
+    "lower_bound": 7,
+    "bound_status": "VALID_FOR_DECLARED_COLD_GROUP_CATALOGUE_ONLY"
+  },
+  "attempts": 3,
+  "infeasibility_proven": false,
+  "total_cpu_s": 125.22494812900001
+}

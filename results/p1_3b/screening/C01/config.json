@@ -1,0 +1,21 @@
+{
+  "pid": "C01",
+  "transport_structure": "f095b5796228726836d0d52d65891f9204a6cfc051457cecc7e464feed0f7ed4",
+  "Gamma_C_db": 0,
+  "sites": 118,
+  "relay_uavs": 2,
+  "energy_components": 6,
+  "solver_seed": 26092511,
+  "solver_threads": 1,
+  "cold_tasks_and_pairs": true,
+  "historical_pair_cache_used": false,
+  "mip_limit_per_partition_s": 30.0,
+  "partition_batches": [
+    6,
+    8,
+    12
+  ],
+  "source": "Entire autonomous 2903 pattern pool",
+  "seed_model_scope": "Fixed proposed task groups/sites; free transport shifts and typed resource orders; conservative span-based relay energy only in seed MILP, original union energy in execution validation",
+  "rejection_does_not_prove_Q3_infeasibility": true
+}
