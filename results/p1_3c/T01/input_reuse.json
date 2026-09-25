@@ -1,0 +1,27 @@
+{
+  "base_commit": "f150743dea36d655204e74372580f98ebd9a8cf8",
+  "source": "Same structure own P1.3-B cold tasks/edges; time translation invariant link geometry",
+  "hashes": {
+    "results/p1_3c/T01/q2/pareto_schedules/T01/metadata.json": "08430cf77734a7f152209dbfbf06b41863a41693e1f0e9dadaf363c9737f4e94",
+    "results/p1_3c/T01/q2/pareto_schedules/T01/missions.json": "04e3e21708b6604f62d4dd2812204175545ebb99359586ac97bbb8d6b4eb6fdf",
+    "results/p1_3c/T01/q2/pareto_schedules/T01/transport_trace.csv": "9e69669e11ad67609bee5cfc5674fb91d728b838e865ebe45e9a0dfdbbe51c15",
+    "results/p1_3c/T01/q2/pareto_schedules/T01/validation.json": "72e3bac3900402eb8e37a6882e2a6195d4abecce3d54783b9e717bf75aa53308",
+    "results/p1_3c/T01/q2/pareto_schedules/T01/q2_objectives.csv": "b51281a455e5084f30c6243d477e8f7caabe8677aaf14d44891443d6f9634fc1",
+    "results/p1_3c/T01/q2/pareto_schedules/T01/transport_sorties_T01.csv": "781d477cf3db2a2ce4efbfeca82224d97bd96a290b10a345e4c378d85674ddee",
+    "results/p1_3c/T01/q2/pareto_schedules/T01/box_delivery_T01.csv": "270e2f6768bd02cd63e89b4820b62a6eff6b3a65817f56348fcab4e0f1aeb76d",
+    "results/p1_3c/T01/q2/pareto_schedules/T01/q2_sorties.csv": "781d477cf3db2a2ce4efbfeca82224d97bd96a290b10a345e4c378d85674ddee",
+    "results/p1_3c/T01/q2/pareto_schedules/T01/q2_battery_calendar.csv": "fd4fa1a0a7de715dd755c1a2cb87c5d7989d524e57a60d1dfc2b47f4ab810d8d",
+    "results/p1_3c/T01/q2/pareto_schedules/T01/transport_uav_calendar_T01.csv": "c8e7269f2bcf58d309d31793f4ffbe896cfdbf3b30d7ee5a163e711e7cd820c3",
+    "results/p1_3c/T01/q2/pareto_schedules/T01/q2_uav_calendar.csv": "c8e7269f2bcf58d309d31793f4ffbe896cfdbf3b30d7ee5a163e711e7cd820c3",
+    "results/p1_3c/T01/q2/pareto_schedules/T01/transport_battery_calendar_T01.csv": "fd4fa1a0a7de715dd755c1a2cb87c5d7989d524e57a60d1dfc2b47f4ab810d8d",
+    "results/p1_3c/T01/q2/pareto_schedules/T01/q2_box_delivery.csv": "270e2f6768bd02cd63e89b4820b62a6eff6b3a65817f56348fcab4e0f1aeb76d",
+    "results/p1_3b/screening/T01/q3/T01/guarded_atomic_tasks.csv": "36fec345acc30e01bb5ad8e831d59147342a225176ad50022e213726b266b668",
+    "results/p1_3b/screening/T01/q3/T01/candidate_pairs.csv": "3a5b5e2b5e43c109f100e9ff87dc220225a7253b79957986e76867db89047f80",
+    "results/p1_3b/screening/T01/q3/T01/candidate_sites.csv": "d5f3c398a18e482f76f4505a29b67ec0eb00439715baf1975f19b08be096b90d"
+  },
+  "Gamma_C_db": 0,
+  "relay_uavs": 2,
+  "energy_components": 6,
+  "sites": 118,
+  "external_structure_used": false
+}

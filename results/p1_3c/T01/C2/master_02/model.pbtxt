@@ -1,0 +1,1289 @@
+variables { name: "start_M001" domain: [0, 24177] }
+variables { name: "start_M002" domain: [0, 22197] }
+variables { name: "start_M003" domain: [0, 23161] }
+variables { name: "start_M004" domain: [0, 21126] }
+variables { name: "start_M005" domain: [0, 57906] }
+variables { name: "start_M006" domain: [0, 56204] }
+variables { name: "start_M007" domain: [0, 56164] }
+variables { name: "start_M008" domain: [0, 96711] }
+variables { name: "start_M009" domain: [0, 97591] }
+variables { name: "start_M010" domain: [0, 96711] }
+variables { name: "start_M011" domain: [0, 26644] }
+variables { name: "start_M012" domain: [0, 27175] }
+variables { name: "start_M013" domain: [0, 26644] }
+variables { name: "start_M014" domain: [0, 25186] }
+variables { name: "start_M015" domain: [0, 24586] }
+variables { name: "start_M016" domain: [0, 24586] }
+variables { name: "start_M017" domain: [0, 57023] }
+variables { name: "start_M018" domain: [0, 97091] }
+variables { name: "start_M019" domain: [0, 25550] }
+variables { name: "start_M020" domain: [0, 24950] }
+variables { name: "start_M021" domain: [0, 99667] }
+variables { name: "start_M022" domain: [0, 99067] }
+variables { name: "start_M023" domain: [0, 23287] }
+variables { name: "start_M024" domain: [0, 25372] }
+variables { name: "start_M025" domain: [0, 23575] }
+variables { name: "start_M026" domain: [0, 59422] }
+variables { name: "start_M027" domain: [0, 56537] }
+variables { name: "joint_completion_lower_envelope" domain: [0, 400000] }
+variables { name: "cut_0_T01_M007_G00_T01_M025_G00" domain: [0, 1] }
+variables { name: "cut_0_T01_M007_G00_T01_M027_G00" domain: [0, 1] }
+variables { name: "cut_0_T01_M025_G00_T01_M007_G00" domain: [0, 1] }
+variables { name: "cut_0_T01_M025_G00_T01_M027_G00" domain: [0, 1] }
+variables { name: "cut_0_T01_M027_G00_T01_M007_G00" domain: [0, 1] }
+variables { name: "cut_0_T01_M027_G00_T01_M025_G00" domain: [0, 1] }
+variables { name: "cut_1_T01_M007_G00_T01_M019_G00" domain: [0, 1] }
+variables { name: "cut_1_T01_M007_G00_T01_M027_G00" domain: [0, 1] }
+variables { name: "cut_1_T01_M019_G00_T01_M007_G00" domain: [0, 1] }
+variables { name: "cut_1_T01_M019_G00_T01_M027_G00" domain: [0, 1] }
+variables { name: "cut_1_T01_M027_G00_T01_M007_G00" domain: [0, 1] }
+variables { name: "cut_1_T01_M027_G00_T01_M019_G00" domain: [0, 1] }
+variables { name: "cut_2_T01_M007_G00_T01_M020_G00" domain: [0, 1] }
+variables { name: "cut_2_T01_M007_G00_T01_M027_G00" domain: [0, 1] }
+variables { name: "cut_2_T01_M020_G00_T01_M007_G00" domain: [0, 1] }
+variables { name: "cut_2_T01_M020_G00_T01_M027_G00" domain: [0, 1] }
+variables { name: "cut_2_T01_M027_G00_T01_M007_G00" domain: [0, 1] }
+variables { name: "cut_2_T01_M027_G00_T01_M020_G00" domain: [0, 1] }
+constraints {
+  linear {
+    vars: [0, 27]
+    coeffs: [-1, 1]
+    domain: [14942, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [1, 27]
+    coeffs: [-1, 1]
+    domain: [16922, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [2, 27]
+    coeffs: [-1, 1]
+    domain: [20038, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [3, 27]
+    coeffs: [-1, 1]
+    domain: [21079, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [4, 27]
+    coeffs: [-1, 1]
+    domain: [22627, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [5, 27]
+    coeffs: [-1, 1]
+    domain: [23702, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [6, 27]
+    coeffs: [-1, 1]
+    domain: [23011, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [7, 27]
+    coeffs: [-1, 1]
+    domain: [16922, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [8, 27]
+    coeffs: [-1, 1]
+    domain: [15162, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [9, 27]
+    coeffs: [-1, 1]
+    domain: [16922, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [10, 27]
+    coeffs: [-1, 1]
+    domain: [13135, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [11, 27]
+    coeffs: [-1, 1]
+    domain: [12073, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [12, 27]
+    coeffs: [-1, 1]
+    domain: [13135, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [13, 27]
+    coeffs: [-1, 1]
+    domain: [16675, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [14, 27]
+    coeffs: [-1, 1]
+    domain: [17275, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [15, 27]
+    coeffs: [-1, 1]
+    domain: [17275, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [16, 27]
+    coeffs: [-1, 1]
+    domain: [21998, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [17, 27]
+    coeffs: [-1, 1]
+    domain: [15585, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [18, 27]
+    coeffs: [-1, 1]
+    domain: [15949, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [19, 27]
+    coeffs: [-1, 1]
+    domain: [16549, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [20, 27]
+    coeffs: [-1, 1]
+    domain: [11621, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [21, 27]
+    coeffs: [-1, 1]
+    domain: [12221, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [22, 27]
+    coeffs: [-1, 1]
+    domain: [19228, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [23, 27]
+    coeffs: [-1, 1]
+    domain: [15105, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [24, 27]
+    coeffs: [-1, 1]
+    domain: [18698, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [25, 27]
+    coeffs: [-1, 1]
+    domain: [19687, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [26, 27]
+    coeffs: [-1, 1]
+    domain: [22786, 9223372036854775807]
+  }
+}
+constraints {
+  name: "UAV_M003"
+  interval {
+    start { vars: [2] coeffs: [1] }
+    end { vars: [2] coeffs: [1] offset: 20038 }
+    size { offset: 20038 }
+  }
+}
+constraints {
+  name: "UAV_M005"
+  interval {
+    start { vars: [4] coeffs: [1] }
+    end { vars: [4] coeffs: [1] offset: 22627 }
+    size { offset: 22627 }
+  }
+}
+constraints {
+  name: "UAV_M008"
+  interval {
+    start { vars: [7] coeffs: [1] }
+    end { vars: [7] coeffs: [1] offset: 16922 }
+    size { offset: 16922 }
+  }
+}
+constraints {
+  name: "UAV_M010"
+  interval {
+    start { vars: [9] coeffs: [1] }
+    end { vars: [9] coeffs: [1] offset: 16922 }
+    size { offset: 16922 }
+  }
+}
+constraints {
+  name: "UAV_M011"
+  interval {
+    start { vars: [10] coeffs: [1] }
+    end { vars: [10] coeffs: [1] offset: 13135 }
+    size { offset: 13135 }
+  }
+}
+constraints {
+  name: "UAV_M013"
+  interval {
+    start { vars: [12] coeffs: [1] }
+    end { vars: [12] coeffs: [1] offset: 13135 }
+    size { offset: 13135 }
+  }
+}
+constraints {
+  name: "UAV_M014"
+  interval {
+    start { vars: [13] coeffs: [1] }
+    end { vars: [13] coeffs: [1] offset: 16675 }
+    size { offset: 16675 }
+  }
+}
+constraints {
+  name: "UAV_M015"
+  interval {
+    start { vars: [14] coeffs: [1] }
+    end { vars: [14] coeffs: [1] offset: 17275 }
+    size { offset: 17275 }
+  }
+}
+constraints {
+  name: "UAV_M016"
+  interval {
+    start { vars: [15] coeffs: [1] }
+    end { vars: [15] coeffs: [1] offset: 17275 }
+    size { offset: 17275 }
+  }
+}
+constraints {
+  name: "UAV_M019"
+  interval {
+    start { vars: [18] coeffs: [1] }
+    end { vars: [18] coeffs: [1] offset: 15949 }
+    size { offset: 15949 }
+  }
+}
+constraints {
+  name: "UAV_M020"
+  interval {
+    start { vars: [19] coeffs: [1] }
+    end { vars: [19] coeffs: [1] offset: 16549 }
+    size { offset: 16549 }
+  }
+}
+constraints {
+  name: "UAV_M021"
+  interval {
+    start { vars: [20] coeffs: [1] }
+    end { vars: [20] coeffs: [1] offset: 11621 }
+    size { offset: 11621 }
+  }
+}
+constraints {
+  name: "UAV_M022"
+  interval {
+    start { vars: [21] coeffs: [1] }
+    end { vars: [21] coeffs: [1] offset: 12221 }
+    size { offset: 12221 }
+  }
+}
+constraints {
+  name: "UAV_M026"
+  interval {
+    start { vars: [25] coeffs: [1] }
+    end { vars: [25] coeffs: [1] offset: 19687 }
+    size { offset: 19687 }
+  }
+}
+constraints {
+  cumulative {
+    capacity { offset: 4 }
+    intervals: [27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+  }
+}
+constraints {
+  name: "UAV_M009"
+  interval {
+    start { vars: [8] coeffs: [1] }
+    end { vars: [8] coeffs: [1] offset: 15162 }
+    size { offset: 15162 }
+  }
+}
+constraints {
+  name: "UAV_M012"
+  interval {
+    start { vars: [11] coeffs: [1] }
+    end { vars: [11] coeffs: [1] offset: 12073 }
+    size { offset: 12073 }
+  }
+}
+constraints {
+  name: "UAV_M018"
+  interval {
+    start { vars: [17] coeffs: [1] }
+    end { vars: [17] coeffs: [1] offset: 15585 }
+    size { offset: 15585 }
+  }
+}
+constraints {
+  name: "UAV_M023"
+  interval {
+    start { vars: [22] coeffs: [1] }
+    end { vars: [22] coeffs: [1] offset: 19228 }
+    size { offset: 19228 }
+  }
+}
+constraints {
+  name: "UAV_M024"
+  interval {
+    start { vars: [23] coeffs: [1] }
+    end { vars: [23] coeffs: [1] offset: 15105 }
+    size { offset: 15105 }
+  }
+}
+constraints {
+  name: "UAV_M025"
+  interval {
+    start { vars: [24] coeffs: [1] }
+    end { vars: [24] coeffs: [1] offset: 18698 }
+    size { offset: 18698 }
+  }
+}
+constraints {
+  name: "UAV_M027"
+  interval {
+    start { vars: [26] coeffs: [1] }
+    end { vars: [26] coeffs: [1] offset: 22786 }
+    size { offset: 22786 }
+  }
+}
+constraints {
+  cumulative {
+    capacity { offset: 2 }
+    intervals: [42, 43, 44, 45, 46, 47, 48]
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+  }
+}
+constraints {
+  name: "UAV_M001"
+  interval {
+    start { vars: [0] coeffs: [1] }
+    end { vars: [0] coeffs: [1] offset: 14942 }
+    size { offset: 14942 }
+  }
+}
+constraints {
+  name: "UAV_M002"
+  interval {
+    start { vars: [1] coeffs: [1] }
+    end { vars: [1] coeffs: [1] offset: 16922 }
+    size { offset: 16922 }
+  }
+}
+constraints {
+  name: "UAV_M004"
+  interval {
+    start { vars: [3] coeffs: [1] }
+    end { vars: [3] coeffs: [1] offset: 21079 }
+    size { offset: 21079 }
+  }
+}
+constraints {
+  name: "UAV_M006"
+  interval {
+    start { vars: [5] coeffs: [1] }
+    end { vars: [5] coeffs: [1] offset: 23702 }
+    size { offset: 23702 }
+  }
+}
+constraints {
+  name: "UAV_M007"
+  interval {
+    start { vars: [6] coeffs: [1] }
+    end { vars: [6] coeffs: [1] offset: 23011 }
+    size { offset: 23011 }
+  }
+}
+constraints {
+  name: "UAV_M017"
+  interval {
+    start { vars: [16] coeffs: [1] }
+    end { vars: [16] coeffs: [1] offset: 21998 }
+    size { offset: 21998 }
+  }
+}
+constraints {
+  cumulative {
+    capacity { offset: 2 }
+    intervals: [50, 51, 52, 53, 54, 55]
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+  }
+}
+constraints {
+  name: "BATTERY_M003"
+  interval {
+    start { vars: [2] coeffs: [1] offset: 3600 }
+    end { vars: [2] coeffs: [1] offset: 33758 }
+    size { offset: 30158 }
+  }
+}
+constraints {
+  name: "BATTERY_M005"
+  interval {
+    start { vars: [4] coeffs: [1] offset: 3600 }
+    end { vars: [4] coeffs: [1] offset: 36535 }
+    size { offset: 32935 }
+  }
+}
+constraints {
+  name: "BATTERY_M008"
+  interval {
+    start { vars: [7] coeffs: [1] offset: 3600 }
+    end { vars: [7] coeffs: [1] offset: 28258 }
+    size { offset: 24658 }
+  }
+}
+constraints {
+  name: "BATTERY_M010"
+  interval {
+    start { vars: [9] coeffs: [1] offset: 3600 }
+    end { vars: [9] coeffs: [1] offset: 28051 }
+    size { offset: 24451 }
+  }
+}
+constraints {
+  name: "BATTERY_M011"
+  interval {
+    start { vars: [10] coeffs: [1] offset: 3600 }
+    end { vars: [10] coeffs: [1] offset: 22056 }
+    size { offset: 18456 }
+  }
+}
+constraints {
+  name: "BATTERY_M013"
+  interval {
+    start { vars: [12] coeffs: [1] offset: 3600 }
+    end { vars: [12] coeffs: [1] offset: 21924 }
+    size { offset: 18324 }
+  }
+}
+constraints {
+  name: "BATTERY_M014"
+  interval {
+    start { vars: [13] coeffs: [1] offset: 3300 }
+    end { vars: [13] coeffs: [1] offset: 27084 }
+    size { offset: 23784 }
+  }
+}
+constraints {
+  name: "BATTERY_M015"
+  interval {
+    start { vars: [14] coeffs: [1] offset: 3600 }
+    end { vars: [14] coeffs: [1] offset: 27969 }
+    size { offset: 24369 }
+  }
+}
+constraints {
+  name: "BATTERY_M016"
+  interval {
+    start { vars: [15] coeffs: [1] offset: 3600 }
+    end { vars: [15] coeffs: [1] offset: 27554 }
+    size { offset: 23954 }
+  }
+}
+constraints {
+  name: "BATTERY_M019"
+  interval {
+    start { vars: [18] coeffs: [1] offset: 3300 }
+    end { vars: [18] coeffs: [1] offset: 26500 }
+    size { offset: 23200 }
+  }
+}
+constraints {
+  name: "BATTERY_M020"
+  interval {
+    start { vars: [19] coeffs: [1] offset: 3600 }
+    end { vars: [19] coeffs: [1] offset: 27016 }
+    size { offset: 23416 }
+  }
+}
+constraints {
+  name: "BATTERY_M021"
+  interval {
+    start { vars: [20] coeffs: [1] offset: 3300 }
+    end { vars: [20] coeffs: [1] offset: 19892 }
+    size { offset: 16592 }
+  }
+}
+constraints {
+  name: "BATTERY_M022"
+  interval {
+    start { vars: [21] coeffs: [1] offset: 3600 }
+    end { vars: [21] coeffs: [1] offset: 20444 }
+    size { offset: 16844 }
+  }
+}
+constraints {
+  name: "BATTERY_M026"
+  interval {
+    start { vars: [25] coeffs: [1] offset: 3600 }
+    end { vars: [25] coeffs: [1] offset: 31598 }
+    size { offset: 27998 }
+  }
+}
+constraints {
+  cumulative {
+    capacity { offset: 6 }
+    intervals: [57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+  }
+}
+constraints {
+  name: "BATTERY_M009"
+  interval {
+    start { vars: [8] coeffs: [1] offset: 3600 }
+    end { vars: [8] coeffs: [1] offset: 29778 }
+    size { offset: 26178 }
+  }
+}
+constraints {
+  name: "BATTERY_M012"
+  interval {
+    start { vars: [11] coeffs: [1] offset: 3600 }
+    end { vars: [11] coeffs: [1] offset: 23672 }
+    size { offset: 20072 }
+  }
+}
+constraints {
+  name: "BATTERY_M018"
+  interval {
+    start { vars: [17] coeffs: [1] offset: 3900 }
+    end { vars: [17] coeffs: [1] offset: 31335 }
+    size { offset: 27435 }
+  }
+}
+constraints {
+  name: "BATTERY_M023"
+  interval {
+    start { vars: [22] coeffs: [1] offset: 3900 }
+    end { vars: [22] coeffs: [1] offset: 37821 }
+    size { offset: 33921 }
+  }
+}
+constraints {
+  name: "BATTERY_M024"
+  interval {
+    start { vars: [23] coeffs: [1] offset: 3900 }
+    end { vars: [23] coeffs: [1] offset: 29679 }
+    size { offset: 25779 }
+  }
+}
+constraints {
+  name: "BATTERY_M025"
+  interval {
+    start { vars: [24] coeffs: [1] offset: 3900 }
+    end { vars: [24] coeffs: [1] offset: 34639 }
+    size { offset: 30739 }
+  }
+}
+constraints {
+  name: "BATTERY_M027"
+  interval {
+    start { vars: [26] coeffs: [1] offset: 3600 }
+    end { vars: [26] coeffs: [1] offset: 40993 }
+    size { offset: 37393 }
+  }
+}
+constraints {
+  cumulative {
+    capacity { offset: 4 }
+    intervals: [72, 73, 74, 75, 76, 77, 78]
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+  }
+}
+constraints {
+  name: "BATTERY_M001"
+  interval {
+    start { vars: [0] coeffs: [1] offset: 4800 }
+    end { vars: [0] coeffs: [1] offset: 31177 }
+    size { offset: 26377 }
+  }
+}
+constraints {
+  name: "BATTERY_M002"
+  interval {
+    start { vars: [1] coeffs: [1] offset: 5700 }
+    end { vars: [1] coeffs: [1] offset: 33369 }
+    size { offset: 27669 }
+  }
+}
+constraints {
+  name: "BATTERY_M004"
+  interval {
+    start { vars: [3] coeffs: [1] offset: 4800 }
+    end { vars: [3] coeffs: [1] offset: 45264 }
+    size { offset: 40464 }
+  }
+}
+constraints {
+  name: "BATTERY_M006"
+  interval {
+    start { vars: [5] coeffs: [1] offset: 4500 }
+    end { vars: [5] coeffs: [1] offset: 47648 }
+    size { offset: 43148 }
+  }
+}
+constraints {
+  name: "BATTERY_M007"
+  interval {
+    start { vars: [6] coeffs: [1] offset: 4800 }
+    end { vars: [6] coeffs: [1] offset: 48009 }
+    size { offset: 43209 }
+  }
+}
+constraints {
+  name: "BATTERY_M017"
+  interval {
+    start { vars: [16] coeffs: [1] offset: 4500 }
+    end { vars: [16] coeffs: [1] offset: 46137 }
+    size { offset: 41637 }
+  }
+}
+constraints {
+  cumulative {
+    capacity { offset: 4 }
+    intervals: [80, 81, 82, 83, 84, 85]
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+    demands { offset: 1 }
+  }
+}
+constraints {
+  linear {
+    vars: [2]
+    coeffs: [1]
+    domain: [-2063, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [2, 27]
+    coeffs: [-1, 1]
+    domain: [19692, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [3]
+    coeffs: [1]
+    domain: [-2725, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [3, 27]
+    coeffs: [-1, 1]
+    domain: [21210, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [4]
+    coeffs: [1]
+    domain: [-3079, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [4, 27]
+    coeffs: [-1, 1]
+    domain: [21145, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [5]
+    coeffs: [1]
+    domain: [-3613, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [5, 27]
+    coeffs: [-1, 1]
+    domain: [22442, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [6]
+    coeffs: [1]
+    domain: [-2303, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [6, 27]
+    coeffs: [-1, 1]
+    domain: [23471, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [7]
+    coeffs: [1]
+    domain: [-3618, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [7, 27]
+    coeffs: [-1, 1]
+    domain: [9899, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [7]
+    coeffs: [1]
+    domain: [-3788, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [7, 27]
+    coeffs: [-1, 1]
+    domain: [14640, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [7]
+    coeffs: [1]
+    domain: [-8498, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [7, 27]
+    coeffs: [-1, 1]
+    domain: [14779, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [8]
+    coeffs: [1]
+    domain: [-2946, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [8, 27]
+    coeffs: [-1, 1]
+    domain: [9174, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [8]
+    coeffs: [1]
+    domain: [-3034, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [8, 27]
+    coeffs: [-1, 1]
+    domain: [13633, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [8]
+    coeffs: [1]
+    domain: [-7463, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [8, 27]
+    coeffs: [-1, 1]
+    domain: [13691, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [9]
+    coeffs: [1]
+    domain: [-3618, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [9, 27]
+    coeffs: [-1, 1]
+    domain: [9899, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [9]
+    coeffs: [1]
+    domain: [-3788, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [9, 27]
+    coeffs: [-1, 1]
+    domain: [14640, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [9]
+    coeffs: [1]
+    domain: [-8498, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [9, 27]
+    coeffs: [-1, 1]
+    domain: [14779, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [13]
+    coeffs: [1]
+    domain: [-3273, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [13, 27]
+    coeffs: [-1, 1]
+    domain: [14532, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [14]
+    coeffs: [1]
+    domain: [-3573, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [14, 27]
+    coeffs: [-1, 1]
+    domain: [15132, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [15]
+    coeffs: [1]
+    domain: [-3573, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [15, 27]
+    coeffs: [-1, 1]
+    domain: [15132, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [16]
+    coeffs: [1]
+    domain: [-1186, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [16, 27]
+    coeffs: [-1, 1]
+    domain: [23312, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [17]
+    coeffs: [1]
+    domain: [-3084, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [17, 27]
+    coeffs: [-1, 1]
+    domain: [14297, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [18]
+    coeffs: [1]
+    domain: [-2859, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [18, 27]
+    coeffs: [-1, 1]
+    domain: [14442, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [19]
+    coeffs: [1]
+    domain: [-3159, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [19, 27]
+    coeffs: [-1, 1]
+    domain: [15042, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [22]
+    coeffs: [1]
+    domain: [-1458, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [22, 27]
+    coeffs: [-1, 1]
+    domain: [19704, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [23]
+    coeffs: [1]
+    domain: [-3434, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [23, 27]
+    coeffs: [-1, 1]
+    domain: [13398, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [24]
+    coeffs: [1]
+    domain: [-1657, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [24, 27]
+    coeffs: [-1, 1]
+    domain: [18899, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [25]
+    coeffs: [1]
+    domain: [-3111, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [25, 27]
+    coeffs: [-1, 1]
+    domain: [18166, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [26]
+    coeffs: [1]
+    domain: [-1551, 9223372036854775807]
+  }
+}
+constraints {
+  linear {
+    vars: [26, 27]
+    coeffs: [-1, 1]
+    domain: [22930, 9223372036854775807]
+  }
+}
+constraints {
+  enforcement_literal: [28]
+  linear {
+    vars: [6, 24]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -24813]
+  }
+}
+constraints {
+  enforcement_literal: [29]
+  linear {
+    vars: [6, 26]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -24919]
+  }
+}
+constraints {
+  enforcement_literal: [30]
+  linear {
+    vars: [6, 24]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -19595]
+  }
+}
+constraints {
+  enforcement_literal: [31]
+  linear {
+    vars: [24, 26]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -20348]
+  }
+}
+constraints {
+  enforcement_literal: [32]
+  linear {
+    vars: [6, 26]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -23626]
+  }
+}
+constraints {
+  enforcement_literal: [33]
+  linear {
+    vars: [24, 26]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -24272]
+  }
+}
+constraints {
+  bool_or {
+    literals: [28, 29, 30, 31, 32, 33]
+  }
+}
+constraints {
+  enforcement_literal: [34]
+  linear {
+    vars: [6, 18]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -23611]
+  }
+}
+constraints {
+  enforcement_literal: [35]
+  linear {
+    vars: [6, 26]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -24919]
+  }
+}
+constraints {
+  enforcement_literal: [36]
+  linear {
+    vars: [6, 18]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -15138]
+  }
+}
+constraints {
+  enforcement_literal: [37]
+  linear {
+    vars: [18, 26]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -15890]
+  }
+}
+constraints {
+  enforcement_literal: [38]
+  linear {
+    vars: [6, 26]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -23626]
+  }
+}
+constraints {
+  enforcement_literal: [39]
+  linear {
+    vars: [18, 26]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -23071]
+  }
+}
+constraints {
+  bool_or {
+    literals: [34, 35, 36, 37, 38, 39]
+  }
+}
+constraints {
+  enforcement_literal: [40]
+  linear {
+    vars: [6, 19]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -23311]
+  }
+}
+constraints {
+  enforcement_literal: [41]
+  linear {
+    vars: [6, 26]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -24919]
+  }
+}
+constraints {
+  enforcement_literal: [42]
+  linear {
+    vars: [6, 19]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -15738]
+  }
+}
+constraints {
+  enforcement_literal: [43]
+  linear {
+    vars: [19, 26]
+    coeffs: [1, -1]
+    domain: [-9223372036854775808, -16490]
+  }
+}
+constraints {
+  enforcement_literal: [44]
+  linear {
+    vars: [6, 26]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -23626]
+  }
+}
+constraints {
+  enforcement_literal: [45]
+  linear {
+    vars: [19, 26]
+    coeffs: [-1, 1]
+    domain: [-9223372036854775808, -22771]
+  }
+}
+constraints {
+  bool_or {
+    literals: [40, 41, 42, 43, 44, 45]
+  }
+}
+objective {
+  vars: [27]
+  scaling_factor: 1
+  coeffs: [1]
+}
+solution_hint {
+  vars: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+  values: [0, 0, 0, 16922, 37089, 36940, 38001, 30410, 27179, 42631, 16550, 15105, 0, 18624, 0, 13135, 14942, 42341, 0, 22900, 49372, 47332, 18976, 0, 278, 29685, 38204]
+}

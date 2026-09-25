@@ -1,0 +1,326 @@
+[
+  {
+    "row": 26,
+    "time": 165.7615848333134,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 27,
+    "time": 206.3451452504487,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 28,
+    "time": 285.9159221170443,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 29,
+    "time": 316.11592211704436,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 30,
+    "time": 1724.5705608528606,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 31,
+    "time": 1964.7638952504485,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 32,
+    "time": 2188.352097649412,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 33,
+    "time": 2189.888593491709,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 34,
+    "time": 2266.2119394117626,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 35,
+    "time": 2645.852097649412,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 36,
+    "time": 2647.388593491709,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 37,
+    "time": 2801.452097649412,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 38,
+    "time": 2802.988593491709,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 39,
+    "time": 3385.5744394117623,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 40,
+    "time": 3402.8494394117624,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 41,
+    "time": 3419.8727390093973,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 42,
+    "time": 3588.4508318583153,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 43,
+    "time": 3868.0354007514184,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 44,
+    "time": 3890.8806894117624,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 45,
+    "time": 3911.633338528062,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 46,
+    "time": 3918.7093520659073,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 47,
+    "time": 4156.610400751419,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 48,
+    "time": 4324.6046697407555,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 49,
+    "time": 4328.6854007514185,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 50,
+    "time": 4655.649439411763,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 51,
+    "time": 4672.672739009397,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 52,
+    "time": 4930.261939411763,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 53,
+    "time": 4939.066489009398,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 54,
+    "time": 5143.680689411763,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 55,
+    "time": 5381.980689411763,
+    "kind": "preparation_start_s",
+    "capacity": 2
+  },
+  {
+    "row": 56,
+    "time": 1904.5705608528606,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 57,
+    "time": 2368.352097649412,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 58,
+    "time": 2369.888593491709,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 59,
+    "time": 2446.2119394117626,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 60,
+    "time": 2827.388593491709,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 61,
+    "time": 2981.452097649412,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 62,
+    "time": 2982.988593491709,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 63,
+    "time": 3565.5744394117623,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 64,
+    "time": 3582.8494394117624,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 65,
+    "time": 3599.8727390093973,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 66,
+    "time": 3768.4508318583153,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 67,
+    "time": 4048.0354007514184,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 68,
+    "time": 4070.8806894117624,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 69,
+    "time": 4091.633338528062,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 70,
+    "time": 4098.709352065907,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 71,
+    "time": 4336.610400751419,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 72,
+    "time": 4504.6046697407555,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 73,
+    "time": 4508.6854007514185,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 74,
+    "time": 4835.649439411763,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 75,
+    "time": 4852.672739009397,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 76,
+    "time": 5110.261939411763,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 77,
+    "time": 5119.066489009398,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 78,
+    "time": 5323.680689411763,
+    "kind": "takeoff_s",
+    "capacity": 6
+  },
+  {
+    "row": 79,
+    "time": 5561.980689411763,
+    "kind": "takeoff_s",
+    "capacity": 6
+  }
+]

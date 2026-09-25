@@ -1,0 +1,9 @@
+.T01 communication_templates
+T01 task_site_edges
+/home/ccc/projects/uav-logistics-comms/src/reset/geometry.py:23: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+  lon,lat=TF.transform(q[...,0],q[...,1]);c,r=self.inv*(lon,lat)
+....
+----------------------------------------------------------------------
+Ran 5 tests in 1.384s
+
+OK

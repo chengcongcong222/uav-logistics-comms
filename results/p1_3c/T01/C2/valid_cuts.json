@@ -1,0 +1,100 @@
+[
+  {
+    "tasks": [
+      "T01_M007_G00",
+      "T01_M025_G00",
+      "T01_M027_G00"
+    ],
+    "mandatory_overlap": [
+      4030.47056085286,
+      4112.654713587911
+    ],
+    "all_site_two_cover_impossible": true,
+    "scope": "118_SITES_UNSPLIT_ATOMIC_TASK_SINGLE_SORTIE_SERVICE",
+    "proof": "Each task forces its serving UAV to occupy its mandatory interval. Two UAVs can serve at most two sites; exhaustive two-site union cannot cover these tasks."
+  },
+  {
+    "tasks": [
+      "T01_M007_G00",
+      "T01_M019_G00",
+      "T01_M027_G00"
+    ],
+    "mandatory_overlap": [
+      4030.47056085286,
+      4115.8036101502075
+    ],
+    "all_site_two_cover_impossible": true,
+    "scope": "118_SITES_UNSPLIT_ATOMIC_TASK_SINGLE_SORTIE_SERVICE",
+    "proof": "Each task forces its serving UAV to occupy its mandatory interval. Two UAVs can serve at most two sites; exhaustive two-site union cannot cover these tasks."
+  },
+  {
+    "tasks": [
+      "T01_M007_G00",
+      "T01_M020_G00",
+      "T01_M027_G00"
+    ],
+    "mandatory_overlap": [
+      4030.47056085286,
+      4094.103610150208
+    ],
+    "all_site_two_cover_impossible": true,
+    "scope": "118_SITES_UNSPLIT_ATOMIC_TASK_SINGLE_SORTIE_SERVICE",
+    "proof": "Each task forces its serving UAV to occupy its mandatory interval. Two UAVs can serve at most two sites; exhaustive two-site union cannot cover these tasks."
+  },
+  {
+    "tasks": [
+      "T01_M007_G00",
+      "T01_M016_G00",
+      "T01_M025_G00"
+    ],
+    "mandatory_overlap": [
+      1724.5705608528606,
+      2217.654713587911
+    ],
+    "all_site_two_cover_impossible": true,
+    "scope": "118_SITES_UNSPLIT_ATOMIC_TASK_SINGLE_SORTIE_SERVICE",
+    "proof": "Each task forces its serving UAV to occupy its mandatory interval. Two UAVs can serve at most two sites; exhaustive two-site union cannot cover these tasks."
+  },
+  {
+    "tasks": [
+      "T01_M007_G00",
+      "T01_M016_G00",
+      "T01_M020_G00"
+    ],
+    "mandatory_overlap": [
+      2148.3159221170445,
+      3126.67831222932
+    ],
+    "all_site_two_cover_impossible": true,
+    "scope": "118_SITES_UNSPLIT_ATOMIC_TASK_SINGLE_SORTIE_SERVICE",
+    "proof": "Each task forces its serving UAV to occupy its mandatory interval. Two UAVs can serve at most two sites; exhaustive two-site union cannot cover these tasks."
+  },
+  {
+    "tasks": [
+      "T01_M007_G00",
+      "T01_M020_G00",
+      "T01_M026_G00"
+    ],
+    "mandatory_overlap": [
+      3279.6854007514185,
+      3636.5036101502083
+    ],
+    "all_site_two_cover_impossible": true,
+    "scope": "118_SITES_UNSPLIT_ATOMIC_TASK_SINGLE_SORTIE_SERVICE",
+    "proof": "Each task forces its serving UAV to occupy its mandatory interval. Two UAVs can serve at most two sites; exhaustive two-site union cannot cover these tasks."
+  },
+  {
+    "tasks": [
+      "T01_M007_G00",
+      "T01_M015_G00",
+      "T01_M025_G00"
+    ],
+    "mandatory_overlap": [
+      1724.5705608528606,
+      1813.1783122293198
+    ],
+    "all_site_two_cover_impossible": true,
+    "scope": "118_SITES_UNSPLIT_ATOMIC_TASK_SINGLE_SORTIE_SERVICE",
+    "proof": "Each task forces its serving UAV to occupy its mandatory interval. Two UAVs can serve at most two sites; exhaustive two-site union cannot cover these tasks."
+  }
+]

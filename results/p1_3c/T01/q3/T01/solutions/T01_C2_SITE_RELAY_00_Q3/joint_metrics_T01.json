@@ -1,0 +1,96 @@
+{
+  "pareto_id": "T01",
+  "conclusion": "E8_PLAN_INDEPENDENTLY_VALIDATED",
+  "J_late": 0.0,
+  "J_norm": 0.4696999113606767,
+  "joint_makespan_s": 6153.896634674075,
+  "transport_energy_kwh": 71.17986721130418,
+  "relay_energy_kwh": 3.337084214442291,
+  "total_energy_kwh": 74.51695142574647,
+  "transport_sorties": 27,
+  "relay_sorties": 3,
+  "total_transport_shift_s": -843.2000000000006,
+  "max_transport_shift_s": 2292.6,
+  "hard_deadline_violations": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "communication_validation": "E8_PLAN_INDEPENDENTLY_VALIDATED",
+  "minimum_M_E_kwh": 0.7844726080918996,
+  "minimum_M_C_db": 0.4692401324579123,
+  "relay_uav_utilization": {
+    "R01": {
+      "sorties": 1,
+      "operating_s": 6142.212921636401,
+      "unavailable_s": 6442.212921636401,
+      "utilization": 0.8734965526609958
+    },
+    "R02": {
+      "sorties": 2,
+      "operating_s": 5730.801431570359,
+      "unavailable_s": 6330.801431570359,
+      "utilization": 0.8583903222890271
+    }
+  },
+  "energy_component_utilization": {
+    "REC-01": {
+      "sorties": 1,
+      "unavailable_s": 7183.520924599067,
+      "utilization": 0.9740101483655315
+    },
+    "REC-02": {
+      "sorties": 1,
+      "unavailable_s": 2320.7408223182056,
+      "utilization": 0.3146681322975699
+    },
+    "REC-03": {
+      "sorties": 1,
+      "unavailable_s": 4684.443068406668,
+      "utilization": 0.6351613833885117
+    },
+    "REC-04": {
+      "sorties": 0,
+      "unavailable_s": 0,
+      "utilization": 0.0
+    },
+    "REC-05": {
+      "sorties": 0,
+      "unavailable_s": 0,
+      "utilization": 0.0
+    },
+    "REC-06": {
+      "sorties": 0,
+      "unavailable_s": 0,
+      "utilization": 0.0
+    }
+  },
+  "resource_calendar_horizon_s": 7375.201312484887,
+  "candidate_set_complete": false,
+  "one_to_many_relay": true,
+  "comm_power_counted_once_per_active_module": true,
+  "total_absolute_transport_shift_s": 25086.2,
+  "Gamma_C_db": 0.0,
+  "solution_id": "T01_C2_SITE_RELAY_00_Q3",
+  "source_provenance": "FRESH_P1_TRANSPORT",
+  "global_optimum_proven": false,
+  "full_flight_margin_distribution_db": {
+    "direct_active_path": {
+      "0": 3.231746354970255e-07,
+      "0.01": 0.22016967797091522,
+      "0.05": 1.8235533856912574,
+      "0.25": 7.590220205397268,
+      "0.5": 18.268140317604516,
+      "0.75": 31.935556955241136,
+      "0.95": 50.84091057950523,
+      "1": 201.94577516576788
+    },
+    "relayed_active_path": {
+      "0": 0.4692401324579123,
+      "0.01": 0.4692401324579123,
+      "0.05": 1.7861321679213804,
+      "0.25": 3.8094716871601975,
+      "0.5": 3.8094716871601975,
+      "0.75": 6.998531091809255,
+      "0.95": 10.01648148125875,
+      "1": 10.01648148125875
+    }
+  }
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "pid": "T01",
+    "source": "results/p1_3c/T01/C2_SITE/master_00/result.json",
+    "encoded_objective_lower_bound": 6154.0,
+    "verified_continuous_Q3_makespan": 6153.896634674075,
+    "continuous_bound_status": "BOUND_NOT_VALID",
+    "continuous_Q3_lower_bound": null,
+    "reason": "Conservative grid/offset master objective is a different quantity. Raw bound exceeds the physical witness; never transfer this bound or gap to continuous Q3.",
+    "raw_bound_status": "Retained only for its declared encoded model",
+    "difference_s": 0.10336532592464209
+  },
+  {
+    "pid": "T02",
+    "source": "results/p1_3c/T02/C2_SITE/master_00/result.json",
+    "encoded_objective_lower_bound": 6154.0,
+    "verified_continuous_Q3_makespan": 6153.893309522221,
+    "continuous_bound_status": "BOUND_NOT_VALID",
+    "continuous_Q3_lower_bound": null,
+    "reason": "Conservative grid/offset master objective is a different quantity. Raw bound exceeds the physical witness; never transfer this bound or gap to continuous Q3.",
+    "raw_bound_status": "Retained only for its declared encoded model",
+    "difference_s": 0.10669047777901142
+  },
+  {
+    "pid": "T03",
+    "source": "results/p1_3c/T03/C2_SITE/master_00/result.json",
+    "encoded_objective_lower_bound": 6210.1,
+    "verified_continuous_Q3_makespan": 6210.0236501116015,
+    "continuous_bound_status": "BOUND_NOT_VALID",
+    "continuous_Q3_lower_bound": null,
+    "reason": "Conservative grid/offset master objective is a different quantity. Raw bound exceeds the physical witness; never transfer this bound or gap to continuous Q3.",
+    "raw_bound_status": "Retained only for its declared encoded model",
+    "difference_s": 0.07634988839890866
+  }
+]

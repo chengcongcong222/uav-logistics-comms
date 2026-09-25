@@ -1,0 +1,21 @@
+{
+  "status": "PASSED",
+  "gate": "P1_3C_FAST_Q3_CLOSED",
+  "packages": 4,
+  "structures": 3,
+  "tests": 5,
+  "conflict_certificates": 9,
+  "matrix_primals": 19,
+  "protected_historical_files": 14053,
+  "baseline": "f150743dea36d655204e74372580f98ebd9a8cf8",
+  "unrelated_initial_dirty_paths_preserved": [
+    "results/q2/q2_battery_calendar.csv",
+    "results/q2/q2_box_delivery.csv",
+    "results/q2/q2_sorties.csv",
+    "results/q2/q2_uav_calendar.csv",
+    "results/q3/relay_candidate_gate_stats_raw.csv"
+  ],
+  "all_required_files_present": true,
+  "continuous_Q3_bound_transfer_rejected": true,
+  "relay_count_optimality_scope": "Each of the three fixed transport structures, frozen site/task relation, unsplit atoms, arbitrary timings."
+}

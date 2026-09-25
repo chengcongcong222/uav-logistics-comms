@@ -1,0 +1,787 @@
+[
+  {
+    "pid": "T01",
+    "q2_baseline": {
+      "id": "T01",
+      "origin_run": "makespan_v3",
+      "anchor": "makespan",
+      "rank": 0,
+      "signature": "4ec7af6a56b425b0015d46056c71737406ec117c272e2ce1fcc53430ae6ac68a",
+      "pattern_occurrences": [
+        17,
+        30,
+        41,
+        59,
+        70,
+        79,
+        115,
+        126,
+        132,
+        137,
+        151,
+        157,
+        162,
+        169,
+        175,
+        186,
+        211,
+        222,
+        224,
+        233,
+        236,
+        245,
+        258,
+        270,
+        282,
+        293,
+        995
+      ],
+      "trips": [
+        {
+          "pattern": 17,
+          "copy": 0,
+          "start_units": 0
+        },
+        {
+          "pattern": 30,
+          "copy": 0,
+          "start_units": 0
+        },
+        {
+          "pattern": 41,
+          "copy": 0,
+          "start_units": 0
+        },
+        {
+          "pattern": 59,
+          "copy": 0,
+          "start_units": 16922
+        },
+        {
+          "pattern": 70,
+          "copy": 0,
+          "start_units": 37089
+        },
+        {
+          "pattern": 79,
+          "copy": 0,
+          "start_units": 14942
+        },
+        {
+          "pattern": 115,
+          "copy": 0,
+          "start_units": 38001
+        },
+        {
+          "pattern": 126,
+          "copy": 0,
+          "start_units": 30410
+        },
+        {
+          "pattern": 132,
+          "copy": 0,
+          "start_units": 27178
+        },
+        {
+          "pattern": 137,
+          "copy": 0,
+          "start_units": 42631
+        },
+        {
+          "pattern": 151,
+          "copy": 0,
+          "start_units": 16550
+        },
+        {
+          "pattern": 157,
+          "copy": 0,
+          "start_units": 0
+        },
+        {
+          "pattern": 162,
+          "copy": 0,
+          "start_units": 0
+        },
+        {
+          "pattern": 169,
+          "copy": 0,
+          "start_units": 18624
+        },
+        {
+          "pattern": 175,
+          "copy": 0,
+          "start_units": 0
+        },
+        {
+          "pattern": 186,
+          "copy": 0,
+          "start_units": 13135
+        },
+        {
+          "pattern": 211,
+          "copy": 0,
+          "start_units": 38644
+        },
+        {
+          "pattern": 222,
+          "copy": 0,
+          "start_units": 42340
+        },
+        {
+          "pattern": 224,
+          "copy": 0,
+          "start_units": 23717
+        },
+        {
+          "pattern": 233,
+          "copy": 0,
+          "start_units": 1
+        },
+        {
+          "pattern": 236,
+          "copy": 0,
+          "start_units": 49372
+        },
+        {
+          "pattern": 245,
+          "copy": 0,
+          "start_units": 47332
+        },
+        {
+          "pattern": 258,
+          "copy": 0,
+          "start_units": 0
+        },
+        {
+          "pattern": 270,
+          "copy": 0,
+          "start_units": 12073
+        },
+        {
+          "pattern": 282,
+          "copy": 0,
+          "start_units": 19228
+        },
+        {
+          "pattern": 293,
+          "copy": 0,
+          "start_units": 29685
+        },
+        {
+          "pattern": 995,
+          "copy": 0,
+          "start_units": 37926
+        }
+      ],
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.47250806260815853,
+        "makespan": 6101.161066593163,
+        "energy": 71.17986721130418,
+        "sorties": 27,
+        "source": "T01",
+        "global_optimum_proven": false
+      },
+      "package": "results/p1_3b/q2/pareto_schedules/T01",
+      "validation_status": "XB1_Q2_INDEPENDENTLY_VALIDATED",
+      "validation_cpu_s": 0.580537417,
+      "validation_sha256": "72e3bac3900402eb8e37a6882e2a6195d4abecce3d54783b9e717bf75aa53308",
+      "pattern_pool_sha256": "3a451cd1df7cd11c288e63f63e348611bb3637edac5cba3e9f8fc52228e1db08",
+      "transport_workload_lower_bound_s": 6082.518548959527,
+      "typed_loads": [
+        {
+          "type": "A",
+          "uavs": 4,
+          "batteries": 6,
+          "sorties": 14,
+          "uav_occupation_s": 23002.437521882133,
+          "battery_occupation_s": 32913.155245535774,
+          "uav_workload_lower_bound_s": 5750.609380470533,
+          "battery_workload_lower_bound_s": 4094.7139668495715
+        },
+        {
+          "type": "B",
+          "uavs": 2,
+          "batteries": 4,
+          "sorties": 7,
+          "uav_occupation_s": 11863.388967728544,
+          "battery_occupation_s": 20151.48532962774,
+          "uav_workload_lower_bound_s": 5931.694483864272,
+          "battery_workload_lower_bound_s": 3178.517740916008
+        },
+        {
+          "type": "C",
+          "uavs": 2,
+          "batteries": 4,
+          "sorties": 6,
+          "uav_occupation_s": 12165.037097919056,
+          "battery_occupation_s": 22250.101375534985,
+          "uav_workload_lower_bound_s": 6082.518548959528,
+          "battery_workload_lower_bound_s": 3062.7824042178445
+        }
+      ],
+      "scope": "Any schedule of this fixed transport box/visit/type structure, independent of relay grouping"
+    },
+    "Q3_closed": true,
+    "witnesses": [
+      {
+        "package": "results/p1_3c/T01/q3/T01/solutions/T01_C2_SITE_RELAY_00_Q3",
+        "id": "T01_C2_SITE_RELAY_00_Q3",
+        "metrics": {
+          "J_late": 0.0,
+          "J_norm": 0.4696999113606767,
+          "joint_makespan_s": 6153.896634674075,
+          "transport_energy_kwh": 71.17986721130418,
+          "relay_energy_kwh": 3.337084214442291,
+          "total_energy_kwh": 74.51695142574647,
+          "transport_sorties": 27,
+          "relay_sorties": 3,
+          "total_transport_shift_s": -843.2000000000006,
+          "total_absolute_transport_shift_s": 25086.2,
+          "max_transport_shift_s": 2292.6,
+          "minimum_M_E_kwh": 0.7844726080918996
+        },
+        "fixed_transport_timing": false,
+        "minimum_shift_s": -3623.5,
+        "maximum_shift_s": 2292.6,
+        "relay_lower_bound": 3,
+        "relay_upper_bound": 3,
+        "relay_count_gap": 0,
+        "relay_bound_scope": "All 118 frozen site/task relations; fixed transport structure; unsplit atoms. Not all Q3 structures or arbitrary handover.",
+        "independent_validation_sha256": "32a7886e236b4b028c8268de32af8f9e428a002b3146d8c8b272413b8537e95d"
+      }
+    ]
+  },
+  {
+    "pid": "T02",
+    "q2_baseline": {
+      "id": "T02",
+      "origin_run": "makespan_v3",
+      "anchor": "makespan",
+      "rank": 1,
+      "signature": "30c276a155b09968dccf8e284028c5ea808db9dc9e25192e8bf314af67ba384a",
+      "pattern_occurrences": [
+        17,
+        30,
+        41,
+        59,
+        70,
+        89,
+        115,
+        126,
+        132,
+        137,
+        151,
+        157,
+        162,
+        169,
+        175,
+        186,
+        211,
+        222,
+        224,
+        233,
+        236,
+        245,
+        258,
+        270,
+        282,
+        285,
+        293
+      ],
+      "trips": [
+        {
+          "pattern": 17,
+          "copy": 0,
+          "start_units": 0
+        },
+        {
+          "pattern": 30,
+          "copy": 0,
+          "start_units": 0
+        },
+        {
+          "pattern": 41,
+          "copy": 0,
+          "start_units": 0
+        },
+        {
+          "pattern": 59,
+          "copy": 0,
+          "start_units": 16922
+        },
+        {
+          "pattern": 70,
+          "copy": 0,
+          "start_units": 37089
+        },
+        {
+          "pattern": 89,
+          "copy": 0,
+          "start_units": 14942
+        },
+        {
+          "pattern": 115,
+          "copy": 0,
+          "start_units": 38001
+        },
+        {
+          "pattern": 126,
+          "copy": 0,
+          "start_units": 30410
+        },
+        {
+          "pattern": 132,
+          "copy": 0,
+          "start_units": 27178
+        },
+        {
+          "pattern": 137,
+          "copy": 0,
+          "start_units": 42631
+        },
+        {
+          "pattern": 151,
+          "copy": 0,
+          "start_units": 16550
+        },
+        {
+          "pattern": 157,
+          "copy": 0,
+          "start_units": 0
+        },
+        {
+          "pattern": 162,
+          "copy": 0,
+          "start_units": 0
+        },
+        {
+          "pattern": 169,
+          "copy": 0,
+          "start_units": 18624
+        },
+        {
+          "pattern": 175,
+          "copy": 0,
+          "start_units": 0
+        },
+        {
+          "pattern": 186,
+          "copy": 0,
+          "start_units": 13135
+        },
+        {
+          "pattern": 211,
+          "copy": 0,
+          "start_units": 39304
+        },
+        {
+          "pattern": 222,
+          "copy": 0,
+          "start_units": 42340
+        },
+        {
+          "pattern": 224,
+          "copy": 0,
+          "start_units": 23717
+        },
+        {
+          "pattern": 233,
+          "copy": 0,
+          "start_units": 1
+        },
+        {
+          "pattern": 236,
+          "copy": 0,
+          "start_units": 49372
+        },
+        {
+          "pattern": 245,
+          "copy": 0,
+          "start_units": 47332
+        },
+        {
+          "pattern": 258,
+          "copy": 0,
+          "start_units": 0
+        },
+        {
+          "pattern": 270,
+          "copy": 0,
+          "start_units": 12073
+        },
+        {
+          "pattern": 282,
+          "copy": 0,
+          "start_units": 19228
+        },
+        {
+          "pattern": 285,
+          "copy": 0,
+          "start_units": 37926
+        },
+        {
+          "pattern": 293,
+          "copy": 0,
+          "start_units": 29685
+        }
+      ],
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.4669259957593513,
+        "makespan": 6130.112084592174,
+        "energy": 70.65827723798252,
+        "sorties": 27,
+        "source": "T02",
+        "global_optimum_proven": false
+      },
+      "package": "results/p1_3b/q2/pareto_schedules/T02",
+      "validation_status": "XB1_Q2_INDEPENDENTLY_VALIDATED",
+      "validation_cpu_s": 0.5838081900000001,
+      "validation_sha256": "4d1d757b6ff1cd469183098393319a1b49fd79634e0379888b7a5c064f0b39b6",
+      "pattern_pool_sha256": "3a451cd1df7cd11c288e63f63e348611bb3637edac5cba3e9f8fc52228e1db08",
+      "transport_workload_lower_bound_s": 6115.518548959527,
+      "typed_loads": [
+        {
+          "type": "A",
+          "uavs": 4,
+          "batteries": 6,
+          "sorties": 14,
+          "uav_occupation_s": 23002.437521882133,
+          "battery_occupation_s": 32913.155245535774,
+          "uav_workload_lower_bound_s": 5750.609380470533,
+          "battery_workload_lower_bound_s": 4094.7139668495715
+        },
+        {
+          "type": "B",
+          "uavs": 2,
+          "batteries": 4,
+          "sorties": 7,
+          "uav_occupation_s": 11293.139637090344,
+          "battery_occupation_s": 19327.959632296985,
+          "uav_workload_lower_bound_s": 5646.569818545172,
+          "battery_workload_lower_bound_s": 2972.636316583319
+        },
+        {
+          "type": "C",
+          "uavs": 2,
+          "batteries": 4,
+          "sorties": 6,
+          "uav_occupation_s": 12231.037097919056,
+          "battery_occupation_s": 22321.88515360988,
+          "uav_workload_lower_bound_s": 6115.518548959528,
+          "battery_workload_lower_bound_s": 3080.7283487365685
+        }
+      ],
+      "scope": "Any schedule of this fixed transport box/visit/type structure, independent of relay grouping"
+    },
+    "Q3_closed": true,
+    "witnesses": [
+      {
+        "package": "results/p1_3c/T02/q3/T02/solutions/T02_C2_SITE_RELAY_00_Q3",
+        "id": "T02_C2_SITE_RELAY_00_Q3",
+        "metrics": {
+          "J_late": 0.0,
+          "J_norm": 0.47471098820472546,
+          "joint_makespan_s": 6153.893309522221,
+          "transport_energy_kwh": 70.65827723798253,
+          "relay_energy_kwh": 3.299400267544511,
+          "total_energy_kwh": 73.95767750552704,
+          "transport_sorties": 27,
+          "relay_sorties": 3,
+          "total_transport_shift_s": -1264.4000000000003,
+          "total_absolute_transport_shift_s": 22647.999999999996,
+          "max_transport_shift_s": 2290.0,
+          "minimum_M_E_kwh": 0.7881831115641216
+        },
+        "fixed_transport_timing": false,
+        "minimum_shift_s": -3623.6,
+        "maximum_shift_s": 2290.0,
+        "relay_lower_bound": 3,
+        "relay_upper_bound": 3,
+        "relay_count_gap": 0,
+        "relay_bound_scope": "All 118 frozen site/task relations; fixed transport structure; unsplit atoms. Not all Q3 structures or arbitrary handover.",
+        "independent_validation_sha256": "35585e61fac700bf88625e0a3c7d8068f6557ecb2e7bb8583c0b717ab15610a3"
+      }
+    ]
+  },
+  {
+    "pid": "T03",
+    "q2_baseline": {
+      "id": "T03",
+      "origin_run": "makespan_v3",
+      "anchor": "makespan",
+      "rank": 2,
+      "signature": "288667011ca61600cf0240b6ec47315bd9c0c942618c9a8342f54b4e5423fe4c",
+      "pattern_occurrences": [
+        17,
+        30,
+        41,
+        59,
+        70,
+        89,
+        115,
+        126,
+        132,
+        137,
+        151,
+        157,
+        162,
+        169,
+        175,
+        186,
+        211,
+        222,
+        224,
+        233,
+        237,
+        245,
+        258,
+        270,
+        282,
+        285,
+        293
+      ],
+      "trips": [
+        {
+          "pattern": 17,
+          "copy": 0,
+          "start_units": 0
+        },
+        {
+          "pattern": 30,
+          "copy": 0,
+          "start_units": 0
+        },
+        {
+          "pattern": 41,
+          "copy": 0,
+          "start_units": 0
+        },
+        {
+          "pattern": 59,
+          "copy": 0,
+          "start_units": 16922
+        },
+        {
+          "pattern": 70,
+          "copy": 0,
+          "start_units": 37089
+        },
+        {
+          "pattern": 89,
+          "copy": 0,
+          "start_units": 14942
+        },
+        {
+          "pattern": 115,
+          "copy": 0,
+          "start_units": 38001
+        },
+        {
+          "pattern": 126,
+          "copy": 0,
+          "start_units": 33224
+        },
+        {
+          "pattern": 132,
+          "copy": 0,
+          "start_units": 31301
+        },
+        {
+          "pattern": 137,
+          "copy": 0,
+          "start_units": 42631
+        },
+        {
+          "pattern": 151,
+          "copy": 0,
+          "start_units": 23954
+        },
+        {
+          "pattern": 157,
+          "copy": 0,
+          "start_units": 0
+        },
+        {
+          "pattern": 162,
+          "copy": 0,
+          "start_units": 0
+        },
+        {
+          "pattern": 169,
+          "copy": 0,
+          "start_units": 18624
+        },
+        {
+          "pattern": 175,
+          "copy": 0,
+          "start_units": 0
+        },
+        {
+          "pattern": 186,
+          "copy": 0,
+          "start_units": 13135
+        },
+        {
+          "pattern": 211,
+          "copy": 0,
+          "start_units": 39304
+        },
+        {
+          "pattern": 222,
+          "copy": 0,
+          "start_units": 46463
+        },
+        {
+          "pattern": 224,
+          "copy": 0,
+          "start_units": 17275
+        },
+        {
+          "pattern": 233,
+          "copy": 0,
+          "start_units": 1
+        },
+        {
+          "pattern": 237,
+          "copy": 0,
+          "start_units": 51416
+        },
+        {
+          "pattern": 245,
+          "copy": 0,
+          "start_units": 30410
+        },
+        {
+          "pattern": 258,
+          "copy": 0,
+          "start_units": 12073
+        },
+        {
+          "pattern": 270,
+          "copy": 0,
+          "start_units": 19228
+        },
+        {
+          "pattern": 282,
+          "copy": 0,
+          "start_units": 0
+        },
+        {
+          "pattern": 285,
+          "copy": 0,
+          "start_units": 34333
+        },
+        {
+          "pattern": 293,
+          "copy": 0,
+          "start_units": 40175
+        }
+      ],
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.47261806310442656,
+        "makespan": 6210.0236501116015,
+        "energy": 70.4621711663904,
+        "sorties": 27,
+        "source": "T03",
+        "global_optimum_proven": false
+      },
+      "package": "results/p1_3b/q2/pareto_schedules/T03",
+      "validation_status": "XB1_Q2_INDEPENDENTLY_VALIDATED",
+      "validation_cpu_s": 0.608115247,
+      "validation_sha256": "10418e6310fb552413bb5b75ca458f77d35d3ae816b6aca3dcb347f3a81d0ddb",
+      "pattern_pool_sha256": "3a451cd1df7cd11c288e63f63e348611bb3637edac5cba3e9f8fc52228e1db08",
+      "transport_workload_lower_bound_s": 6180.781643600971,
+      "typed_loads": [
+        {
+          "type": "A",
+          "uavs": 4,
+          "batteries": 6,
+          "sorties": 13,
+          "uav_occupation_s": 21840.4106028787,
+          "battery_occupation_s": 31253.964526273456,
+          "uav_workload_lower_bound_s": 5460.102650719675,
+          "battery_workload_lower_bound_s": 3818.1821803058515
+        },
+        {
+          "type": "B",
+          "uavs": 2,
+          "batteries": 4,
+          "sorties": 8,
+          "uav_occupation_s": 12361.563287201943,
+          "battery_occupation_s": 21138.816351773665,
+          "uav_workload_lower_bound_s": 6180.781643600972,
+          "battery_workload_lower_bound_s": 3425.350496452489
+        },
+        {
+          "type": "C",
+          "uavs": 2,
+          "batteries": 4,
+          "sorties": 6,
+          "uav_occupation_s": 12231.037097919056,
+          "battery_occupation_s": 22321.88515360988,
+          "uav_workload_lower_bound_s": 6115.518548959528,
+          "battery_workload_lower_bound_s": 3080.7283487365685
+        }
+      ],
+      "scope": "Any schedule of this fixed transport box/visit/type structure, independent of relay grouping"
+    },
+    "Q3_closed": true,
+    "witnesses": [
+      {
+        "package": "results/p1_3c/T03/q3/T03/solutions/T03_C2_SITE_RELAY_00_Q3",
+        "id": "T03_C2_SITE_RELAY_00_Q3",
+        "metrics": {
+          "J_late": 0.0,
+          "J_norm": 0.47317135711496416,
+          "joint_makespan_s": 6210.0236501116015,
+          "transport_energy_kwh": 70.4621711663904,
+          "relay_energy_kwh": 3.309964572437184,
+          "total_energy_kwh": 73.77213573882759,
+          "transport_sorties": 27,
+          "relay_sorties": 3,
+          "total_transport_shift_s": 1806.0999999999983,
+          "total_absolute_transport_shift_s": 24688.7,
+          "max_transport_shift_s": 2290.0,
+          "minimum_M_E_kwh": 0.7858060282307884
+        },
+        "fixed_transport_timing": false,
+        "minimum_shift_s": -2436.1000000000004,
+        "maximum_shift_s": 2290.0,
+        "relay_lower_bound": 3,
+        "relay_upper_bound": 3,
+        "relay_count_gap": 0,
+        "relay_bound_scope": "All 118 frozen site/task relations; fixed transport structure; unsplit atoms. Not all Q3 structures or arbitrary handover.",
+        "independent_validation_sha256": "f03e4917c5944fb0eafa4ba1f8d3e8963413806013431fb6f8be96639031a8e1"
+      },
+      {
+        "package": "results/p1_3c/T03/q3/T03/solutions/T03_C1_FIXED_Q3",
+        "id": "T03_C1_FIXED_Q3",
+        "metrics": {
+          "J_late": 0.0,
+          "J_norm": 0.47261806310442644,
+          "joint_makespan_s": 6443.030006300225,
+          "transport_energy_kwh": 70.4621711663904,
+          "relay_energy_kwh": 3.352405444143505,
+          "total_energy_kwh": 73.8145766105339,
+          "transport_sorties": 27,
+          "relay_sorties": 3,
+          "total_transport_shift_s": 0.0,
+          "total_absolute_transport_shift_s": 0.0,
+          "max_transport_shift_s": 0.0,
+          "minimum_M_E_kwh": 0.7135854651249589
+        },
+        "fixed_transport_timing": true,
+        "minimum_shift_s": 0.0,
+        "maximum_shift_s": 0.0,
+        "relay_lower_bound": 3,
+        "relay_upper_bound": 3,
+        "relay_count_gap": 0,
+        "relay_bound_scope": "All 118 frozen site/task relations; fixed transport structure; unsplit atoms. Not all Q3 structures or arbitrary handover.",
+        "independent_validation_sha256": "dc187231fb887583932354894e2ab58c1c075c6b829838afb9977673e889d510"
+      }
+    ]
+  }
+]

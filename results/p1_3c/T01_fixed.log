@@ -1,0 +1,6 @@
+T01 communication_templates
+T01 task_site_edges
+T01 C1_FIXED round 0 columns 1336 uncovered 19.0
+T01 C1_FIXED round 1 columns 8665 uncovered None
+T01 C1_FIXED round 2 columns 8793 uncovered None
+T01 C1_FIXED round 3 columns 11948 uncovered None

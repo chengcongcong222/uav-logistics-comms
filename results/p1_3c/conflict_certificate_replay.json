@@ -1,0 +1,128 @@
+[
+  {
+    "source": "results/p1_3c/T01/C2",
+    "stage": "fixed",
+    "tasks": [
+      "T01_M007_G00",
+      "T01_M025_G00",
+      "T01_M027_G00"
+    ],
+    "overlap_s": [
+      4030.47056085286,
+      4112.654713587911
+    ],
+    "replayed": true
+  },
+  {
+    "source": "results/p1_3c/T01/C2",
+    "stage": "iteration_0",
+    "tasks": [
+      "T01_M007_G00",
+      "T01_M019_G00",
+      "T01_M027_G00"
+    ],
+    "overlap_s": [
+      4030.47056085286,
+      4115.8036101502075
+    ],
+    "replayed": true
+  },
+  {
+    "source": "results/p1_3c/T01/C2",
+    "stage": "iteration_1",
+    "tasks": [
+      "T01_M007_G00",
+      "T01_M020_G00",
+      "T01_M027_G00"
+    ],
+    "overlap_s": [
+      4030.47056085286,
+      4094.103610150208
+    ],
+    "replayed": true
+  },
+  {
+    "source": "results/p1_3c/T01/C2",
+    "stage": "iteration_3",
+    "tasks": [
+      "T01_M007_G00",
+      "T01_M016_G00",
+      "T01_M025_G00"
+    ],
+    "overlap_s": [
+      1724.5705608528606,
+      2217.654713587911
+    ],
+    "replayed": true
+  },
+  {
+    "source": "results/p1_3c/T01/C2",
+    "stage": "iteration_3",
+    "tasks": [
+      "T01_M007_G00",
+      "T01_M016_G00",
+      "T01_M020_G00"
+    ],
+    "overlap_s": [
+      2148.3159221170445,
+      3126.67831222932
+    ],
+    "replayed": true
+  },
+  {
+    "source": "results/p1_3c/T01/C2",
+    "stage": "iteration_3",
+    "tasks": [
+      "T01_M007_G00",
+      "T01_M020_G00",
+      "T01_M026_G00"
+    ],
+    "overlap_s": [
+      3279.685400751419,
+      3636.5036101502083
+    ],
+    "replayed": true
+  },
+  {
+    "source": "results/p1_3c/T01/C2",
+    "stage": "iteration_4",
+    "tasks": [
+      "T01_M007_G00",
+      "T01_M015_G00",
+      "T01_M025_G00"
+    ],
+    "overlap_s": [
+      1724.5705608528606,
+      1813.1783122293198
+    ],
+    "replayed": true
+  },
+  {
+    "source": "results/p1_3c/T01/C2_SITE",
+    "stage": "fixed",
+    "tasks": [
+      "T01_M007_G00",
+      "T01_M025_G00",
+      "T01_M027_G00"
+    ],
+    "overlap_s": [
+      4030.47056085286,
+      4112.654713587911
+    ],
+    "replayed": true
+  },
+  {
+    "source": "results/p1_3c/T02/C2_SITE",
+    "stage": "fixed",
+    "tasks": [
+      "T02_M007_G00",
+      "T02_M025_G00",
+      "T02_M027_G00"
+    ],
+    "overlap_s": [
+      4030.47056085286,
+      4112.654713587911
+    ],
+    "replayed": true
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "hashes": {
+    "results/p1_3c/T02/q2/pareto_schedules/T02/metadata.json": "10d6e6085e9d8fe134ee38e4fdf04455b6af0d8c14e2f37339e6c4a12b9a5dcc",
+    "results/p1_3c/T02/q2/pareto_schedules/T02/missions.json": "5102c04678b3ff4738e16f49e69799a81b4c74f262fbdee9da9491bd42041ca2",
+    "results/p1_3c/T02/q2/pareto_schedules/T02/transport_uav_calendar_T02.csv": "eeb733c8c10b7cdd14de99d49ca05e894e622ffb02c592c3b73ae4719643d3e4",
+    "results/p1_3c/T02/q2/pareto_schedules/T02/transport_trace.csv": "50737eb6fd7119a7670fd66c18347ed049fd749d601d1b53276eebfb7ef113bd",
+    "results/p1_3c/T02/q2/pareto_schedules/T02/q2_objectives.csv": "a1d042d8302ae088bb9a5209f7d83f0b7fbd4c1471169d6b0179a551e0732036",
+    "results/p1_3c/T02/q2/pareto_schedules/T02/transport_sorties_T02.csv": "c555115fc7041fe81a87b17d759f21c58d6055a50a4c5a3911cbaa7bb3b7be2e",
+    "results/p1_3c/T02/q2/pareto_schedules/T02/q2_sorties.csv": "c555115fc7041fe81a87b17d759f21c58d6055a50a4c5a3911cbaa7bb3b7be2e",
+    "results/p1_3c/T02/q2/pareto_schedules/T02/transport_battery_calendar_T02.csv": "4c80c33c4d649936dff718a8aa1a1456eb410c9a222e2f5022ed204891f5d328",
+    "results/p1_3c/T02/q2/pareto_schedules/T02/q2_battery_calendar.csv": "4c80c33c4d649936dff718a8aa1a1456eb410c9a222e2f5022ed204891f5d328",
+    "results/p1_3c/T02/q2/pareto_schedules/T02/q2_uav_calendar.csv": "eeb733c8c10b7cdd14de99d49ca05e894e622ffb02c592c3b73ae4719643d3e4",
+    "results/p1_3c/T02/q2/pareto_schedules/T02/box_delivery_T02.csv": "e5a8a84affc97374e041bdc1040419eb8bf374eced3f7adc418682a33f12a73c",
+    "results/p1_3c/T02/q2/pareto_schedules/T02/q2_box_delivery.csv": "e5a8a84affc97374e041bdc1040419eb8bf374eced3f7adc418682a33f12a73c",
+    "data/processed/transport_batteries.csv": "c0fc93bc96e485985aca7d3a7690da077149767e10ad45cda1aae59126d239d8",
+    "data/processed/transport_uavs.csv": "35ef7de8239abc9e047e668c5729ce32ca63118a000ed71844591e5933d09278",
+    "data/processed/boxes.csv": "bfeca5816dfceab43ee691328969ca571792870c9670ca5e38681e90011cf120",
+    "data/processed/relay_uavs.csv": "a13b6a71af7c45944860a13ed52b16c5e2728f8bb733b56d1276687f7557ea6a",
+    "data/processed/relay_energy_components.csv": "117d488e8d42a2754c29d63889bc712afa835b671c58710171aa79715a0bd6a7",
+    "data/processed/relay_uav_types.csv": "384d4543cb53efc0c0dd93e98edbeb2b6abc5648272ab2c6ce4adb9baa4957b4",
+    "data/processed/transport_uav_types.csv": "e49dcf0068446cfe674abf56af042b5a440f3ec27c6be96552c09d4366e9e1f7",
+    "data/processed/nodes.csv": "b04a3bb5cc95546135165c4965a0db08603fa050cc989b0f2f26b751c2edb3df",
+    "data/processed/route_geometry.csv": "8f08b2a19c4838bfde682e3c73be7cf52604152df539479b17fa03fc6a6d9b7b",
+    "data/processed/dem_metadata.json": "e4804e98af8d1ab2072b8c5482eac0bbd55115d1eff241a6fa68dd5d26d39f55",
+    "data/processed/communication_parameters.json": "53b8d61f650c1c035a5463a7ab25981963d5d70e062ba41ef05108068031a33b"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "phase": "phase1",
+  "columns": 8793,
+  "rows": 2698,
+  "scope": "EXACT_FIXED_TIMING_FINITE_GENERATED_COLUMNS; continuous binary64 occupation endpoints",
+  "lp_status": 0,
+  "lp_objective": 1.0,
+  "lp_cpu_s": 8.373250913,
+  "lp_wall_s": 8.423421802000007,
+  "lp_iterations": 53,
+  "pricing_complete": false,
+  "global_bound": false,
+  "status": 1,
+  "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+  "incumbent": null,
+  "dual_bound": null,
+  "gap": null,
+  "cpu_s": 32.770194992,
+  "wall_s": 33.608589292999994,
+  "nodes": null,
+  "conflicts": null
+}

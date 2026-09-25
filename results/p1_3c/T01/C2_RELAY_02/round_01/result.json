@@ -1,0 +1,27 @@
+{
+  "phase": "phase1",
+  "columns": 1031,
+  "rows": 460,
+  "scope": "EXACT_FIXED_TIMING_FINITE_GENERATED_COLUMNS; continuous binary64 occupation endpoints",
+  "lp_status": 0,
+  "lp_objective": 1.0,
+  "lp_cpu_s": 0.1339710030000001,
+  "lp_wall_s": 0.13397459900000008,
+  "lp_iterations": 52,
+  "pricing_complete": false,
+  "global_bound": false,
+  "status": 4,
+  "message": "OPTIMAL",
+  "incumbent": 1.0,
+  "dual_bound": 1.0,
+  "gap": 0.0,
+  "cpu_s": 1.6781300849999998,
+  "wall_s": 1.679445566,
+  "nodes": 23563,
+  "conflicts": 1319,
+  "solver": "CP-SAT",
+  "response_stats": "CpSolverResponse summary:\nstatus: OPTIMAL\nobjective: 1\nbest_bound: 1\nintegers: 983\nbooleans: 945\nconflicts: 1319\nbranches: 23563\npropagations: 1614408\ninteger_propagations: 1761818\nrestarts: 3253\nlp_iterations: 8288\nwalltime: 1.30461\nusertime: 1.30461\ndeterministic_time: 0.728473\ngap_integral: 0\nsolution_fingerprint: 0x66f7dab5da633fae\n",
+  "uncovered_tasks": [
+    "T01_M007_G00"
+  ]
+}

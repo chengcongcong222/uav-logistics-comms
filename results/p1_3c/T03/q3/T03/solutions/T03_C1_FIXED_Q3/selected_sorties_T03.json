@@ -1,0 +1,149 @@
+[
+  {
+    "site_id": "E52_30110e5b3ae38ecfab28ace2",
+    "task_ids": [
+      "T03_M007_G00"
+    ],
+    "preparation_start_s": 4030.47056085286,
+    "takeoff_s": 4210.47056085286,
+    "arrival_s": 4724.88125,
+    "setup_start_s": 4724.88125,
+    "service_start_s": 4754.88125,
+    "service_end_s": 5599.35,
+    "return_s": 6147.1006496268765,
+    "uav_available_s": 6447.1006496268765,
+    "energy_ready_s": 6877.655559470413,
+    "charge_duration_s": 730.5549098435363,
+    "return_soc": 0.822650069351126,
+    "outbound_time_s": 514.4106891471403,
+    "return_time_s": 547.7506496268766,
+    "flight_energy_kwh": 0.30032099335417484,
+    "setup_energy_kwh": 0.009166666666666667,
+    "active_communication_s": 844.46875,
+    "idle_hover_s": 0.0,
+    "active_energy_kwh": 0.2580321180555556,
+    "idle_energy_kwh": 0.0,
+    "total_energy_kwh": 0.5675197780763971,
+    "energy_margin_kwh": 1.9924802219236035,
+    "service_windows": [
+      [
+        4754.88125,
+        5599.35
+      ]
+    ],
+    "relay_id": "R02",
+    "energy_component_id": "REC-03",
+    "relay_sortie_id": "T03_C1_FIXED_Q3_R003"
+  },
+  {
+    "site_id": "E52_82c821a5773d0bfbe554f10a",
+    "task_ids": [
+      "T03_M003_G00",
+      "T03_M004_G00",
+      "T03_M005_G00",
+      "T03_M006_G00",
+      "T03_M008_G00",
+      "T03_M008_G01",
+      "T03_M008_G02",
+      "T03_M009_G00",
+      "T03_M009_G01",
+      "T03_M009_G02",
+      "T03_M010_G00",
+      "T03_M010_G01",
+      "T03_M010_G02",
+      "T03_M014_G00",
+      "T03_M015_G00",
+      "T03_M016_G00",
+      "T03_M017_G00",
+      "T03_M018_G00",
+      "T03_M026_G00",
+      "T03_M027_G00"
+    ],
+    "preparation_start_s": 24.87708852806236,
+    "takeoff_s": 204.87708852806236,
+    "arrival_s": 717.8125,
+    "setup_start_s": 717.8125,
+    "service_start_s": 747.8125,
+    "service_end_s": 5876.95625,
+    "return_s": 6443.030006300225,
+    "uav_available_s": 6743.030006300225,
+    "energy_ready_s": 7693.135911093211,
+    "charge_duration_s": 1250.1059047929855,
+    "return_soc": 0.42299545785154957,
+    "outbound_time_s": 512.9354114719376,
+    "return_time_s": 566.0737563002253,
+    "flight_energy_kwh": 0.2825549862639304,
+    "setup_energy_kwh": 0.009166666666666667,
+    "active_communication_s": 4225.86875,
+    "idle_hover_s": 903.2750000000005,
+    "active_energy_kwh": 1.291237673611111,
+    "idle_energy_kwh": 0.2634552083333335,
+    "total_energy_kwh": 1.8464145348750416,
+    "energy_margin_kwh": 0.7135854651249589,
+    "service_windows": [
+      [
+        747.8125,
+        1603.84375
+      ],
+      [
+        2129.5625,
+        3452.98125
+      ],
+      [
+        3823.0375,
+        3848.38125
+      ],
+      [
+        3855.88125,
+        5876.95625
+      ]
+    ],
+    "relay_id": "R01",
+    "energy_component_id": "REC-01",
+    "relay_sortie_id": "T03_C1_FIXED_Q3_R001"
+  },
+  {
+    "site_id": "E52_beb70ec57fd2d66bf65b827f",
+    "task_ids": [
+      "T03_M019_G00",
+      "T03_M020_G00",
+      "T03_M023_G00",
+      "T03_M024_G00",
+      "T03_M025_G00"
+    ],
+    "preparation_start_s": 149.8787621751806,
+    "takeoff_s": 329.8787621751806,
+    "arrival_s": 759.5375,
+    "setup_start_s": 759.5375,
+    "service_start_s": 789.5375,
+    "service_end_s": 3063.4875,
+    "return_s": 3531.582945385041,
+    "uav_available_s": 3831.582945385041,
+    "energy_ready_s": 4412.836842431818,
+    "charge_duration_s": 881.2538970467772,
+    "return_soc": 0.7067277715024791,
+    "outbound_time_s": 429.6587378248194,
+    "return_time_s": 468.09544538504076,
+    "flight_energy_kwh": 0.2418430061920666,
+    "setup_energy_kwh": 0.009166666666666667,
+    "active_communication_s": 1744.275,
+    "idle_hover_s": 529.6750000000002,
+    "active_energy_kwh": 0.5329729166666668,
+    "idle_energy_kwh": 0.1544885416666667,
+    "total_energy_kwh": 0.9384711311920667,
+    "energy_margin_kwh": 1.6215288688079337,
+    "service_windows": [
+      [
+        789.5375,
+        1423.96875
+      ],
+      [
+        1953.64375,
+        3063.4875
+      ]
+    ],
+    "relay_id": "R02",
+    "energy_component_id": "REC-02",
+    "relay_sortie_id": "T03_C1_FIXED_Q3_R002"
+  }
+]

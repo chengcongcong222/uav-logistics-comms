@@ -1,0 +1,210 @@
+{
+  "coordinates": 118,
+  "Gamma_C_db": 0,
+  "relay_uavs": 2,
+  "energy_components": 6,
+  "source": "Same-structure P1.3-B cold templates/edges, hash-bound reuse",
+  "mechanism": "Singleton restricted master -> site/time-window columns -> task-dual-guided subsets; C2 site/UAV relaxation supplies additional groups.",
+  "pricing": "HEURISTIC_DYNAMIC_GENERATION_NOT_PROVEN_COMPLETE_COLUMN_GENERATION",
+  "safe_pruning": "Only same-task-set columns dominated in all resource endpoints, return time and energy are removed.",
+  "catalogues": [
+    {
+      "pid": "T01",
+      "stage": "C1_FIXED",
+      "path": "results/p1_3c/T01/C1_FIXED/columns.json",
+      "sha256": "8db5648b9321800612a73bf4cc656adc622007925d9dd2e5e67f593fc1a7ee13",
+      "generated_modes": 11948,
+      "unique_task_groups": 1677,
+      "represented_sites": 118,
+      "master_columns": [
+        1336,
+        8665,
+        8793,
+        11948
+      ],
+      "heuristic_pricing": true,
+      "exact_fields": [
+        "tasks",
+        "site",
+        "endpoint_order",
+        "outbound/return time",
+        "service interval",
+        "union energy",
+        "UAV occupation",
+        "component occupation"
+      ]
+    },
+    {
+      "pid": "T01",
+      "stage": "C2_RELAY_02",
+      "path": "results/p1_3c/T01/C2_RELAY_02/columns.json",
+      "sha256": "400ea7711c74d6812582549616dfea6ddfc8038560e1b1bc8496a341eba6aab0",
+      "generated_modes": 8645,
+      "unique_task_groups": 913,
+      "represented_sites": 118,
+      "master_columns": [
+        32,
+        1031,
+        1034
+      ],
+      "heuristic_pricing": true,
+      "exact_fields": [
+        "tasks",
+        "site",
+        "endpoint_order",
+        "outbound/return time",
+        "service interval",
+        "union energy",
+        "UAV occupation",
+        "component occupation"
+      ]
+    },
+    {
+      "pid": "T01",
+      "stage": "C2_RELAY_05",
+      "path": "results/p1_3c/T01/C2_RELAY_05/columns.json",
+      "sha256": "c8a0c521b54deb89eb577b3dd643d316a6e64431ebecd8847669fcf95055887a",
+      "generated_modes": 8695,
+      "unique_task_groups": 984,
+      "represented_sites": 118,
+      "master_columns": [
+        32,
+        1096,
+        1110
+      ],
+      "heuristic_pricing": true,
+      "exact_fields": [
+        "tasks",
+        "site",
+        "endpoint_order",
+        "outbound/return time",
+        "service interval",
+        "union energy",
+        "UAV occupation",
+        "component occupation"
+      ]
+    },
+    {
+      "pid": "T01",
+      "stage": "C2_SITE_RELAY_00",
+      "path": "results/p1_3c/T01/C2_SITE_RELAY_00/columns.json",
+      "sha256": "4b0d05b90daf902be445d2ce75f2130b11a0b2d20f96a1959c393cad1e0ef0b6",
+      "generated_modes": 1337,
+      "unique_task_groups": 29,
+      "represented_sites": 118,
+      "master_columns": [
+        35,
+        35
+      ],
+      "heuristic_pricing": true,
+      "exact_fields": [
+        "tasks",
+        "site",
+        "endpoint_order",
+        "outbound/return time",
+        "service interval",
+        "union energy",
+        "UAV occupation",
+        "component occupation"
+      ]
+    },
+    {
+      "pid": "T02",
+      "stage": "C1_FIXED",
+      "path": "results/p1_3c/T02/C1_FIXED/columns.json",
+      "sha256": "38126299b891ba8ce1d2d854c75ae00930139fe733d7cc485e24648778bb7e6f",
+      "generated_modes": 8938,
+      "unique_task_groups": 954,
+      "represented_sites": 118,
+      "master_columns": [
+        33,
+        1058,
+        1058
+      ],
+      "heuristic_pricing": true,
+      "exact_fields": [
+        "tasks",
+        "site",
+        "endpoint_order",
+        "outbound/return time",
+        "service interval",
+        "union energy",
+        "UAV occupation",
+        "component occupation"
+      ]
+    },
+    {
+      "pid": "T02",
+      "stage": "C2_SITE_RELAY_00",
+      "path": "results/p1_3c/T02/C2_SITE_RELAY_00/columns.json",
+      "sha256": "849ea958cf7c7ab038ddcad207a6a5f52f995255b343811a0a1bb34505c7d693",
+      "generated_modes": 1361,
+      "unique_task_groups": 29,
+      "represented_sites": 118,
+      "master_columns": [
+        36,
+        36
+      ],
+      "heuristic_pricing": true,
+      "exact_fields": [
+        "tasks",
+        "site",
+        "endpoint_order",
+        "outbound/return time",
+        "service interval",
+        "union energy",
+        "UAV occupation",
+        "component occupation"
+      ]
+    },
+    {
+      "pid": "T03",
+      "stage": "C1_FIXED",
+      "path": "results/p1_3c/T03/C1_FIXED/columns.json",
+      "sha256": "1ae4d3e8b3ca4fed46e184ac80b4e1d30ecbaa5b55ee5aa6ff3d8898269ef0e3",
+      "generated_modes": 8989,
+      "unique_task_groups": 909,
+      "represented_sites": 118,
+      "master_columns": [
+        33,
+        1005,
+        1005
+      ],
+      "heuristic_pricing": true,
+      "exact_fields": [
+        "tasks",
+        "site",
+        "endpoint_order",
+        "outbound/return time",
+        "service interval",
+        "union energy",
+        "UAV occupation",
+        "component occupation"
+      ]
+    },
+    {
+      "pid": "T03",
+      "stage": "C2_SITE_RELAY_00",
+      "path": "results/p1_3c/T03/C2_SITE_RELAY_00/columns.json",
+      "sha256": "59d9a2ed845c461ebdd0ad49be5bb167ac968aafb52c92b14ba9bef66ce694fb",
+      "generated_modes": 1355,
+      "unique_task_groups": 29,
+      "represented_sites": 118,
+      "master_columns": [
+        36,
+        36
+      ],
+      "heuristic_pricing": true,
+      "exact_fields": [
+        "tasks",
+        "site",
+        "endpoint_order",
+        "outbound/return time",
+        "service interval",
+        "union energy",
+        "UAV occupation",
+        "component occupation"
+      ]
+    }
+  ]
+}

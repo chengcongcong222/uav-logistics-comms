@@ -1,0 +1,28 @@
+{
+  "status": "P1_3C_FAST_Q3_CLOSED",
+  "base_commit": "f150743dea36d655204e74372580f98ebd9a8cf8",
+  "branch": "p1-3c-fast-q3-rescue",
+  "verified_structures": [
+    "T01",
+    "T02",
+    "T03"
+  ],
+  "verified_packages": 4,
+  "hard_layer_J_late_max": 0.0001,
+  "all_witnesses_J_late": 0.0,
+  "Gamma_C_db": 0,
+  "relay_uavs": 2,
+  "energy_components": 6,
+  "transport_structure_changed": false,
+  "fixed_T03_closed": true,
+  "fixed_T01_closed": false,
+  "fixed_T01_conflict_scope": "Proven only within frozen 118-site unsplit guarded atom service domain; not arbitrary handover or analytic full-physics infeasibility.",
+  "certified_relay_sorties": 3,
+  "relay_count_claim_scope": "Each of the three fixed transport structures, frozen site/task relation, unsplit atoms, arbitrary timings.",
+  "global_Q3_makespan_optimality_proven": false,
+  "pricing_complete": false,
+  "formal_algorithm_comparison": false,
+  "final_pareto_front_generated": false,
+  "official_example_Q4_submission_replaced": false,
+  "stop_after_this_phase": true
+}
