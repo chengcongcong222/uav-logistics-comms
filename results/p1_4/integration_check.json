@@ -1,0 +1,18 @@
+{
+  "status": "PASSED",
+  "Q2": 19,
+  "new_Q3": 5,
+  "readmitted_Q3_anchors": 4,
+  "finite_nondominated": 7,
+  "unit_tests": 3,
+  "finite_matrix_primals": 22,
+  "site_cover_lower_bounds": 8,
+  "F18_three_pair_feedback_integration": "PASSED: four-pair guidance failed restricted repair; necessary <=3 pair feedback produced independently validated three-flight witness",
+  "paper_files": 15,
+  "paper_source_hashes": 119,
+  "paper_original_Q3_artifact_hashes": 84,
+  "historical_files_preserved": 14434,
+  "main_Q4_workbook_unchanged": true,
+  "plots_visually_checked": true,
+  "continuous_global_optimality_proven": false
+}

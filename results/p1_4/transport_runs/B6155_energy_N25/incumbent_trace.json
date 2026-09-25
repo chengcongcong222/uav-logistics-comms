@@ -1,0 +1,27 @@
+[
+  {
+    "signature": "92ff581873305359c0ec7e54584efebe593c23f9327bd342503d238f90bf341d",
+    "objective_value": 70.615244872,
+    "wall_s": 3.221764808
+  },
+  {
+    "signature": "b4251118868abf8716e3c53591bf7951e4b49c7b494a8bd9884997863d639a74",
+    "objective_value": 70.409310898,
+    "wall_s": 3.8861428960000004
+  },
+  {
+    "signature": "85069593d518eacc60b0512a5f61f30aee1208a4d9acbe8fc418c9b5f34d2934",
+    "objective_value": 69.812446332,
+    "wall_s": 8.345183306000001
+  },
+  {
+    "signature": "e53b422986a68ecb7d62ede874f4242baf50e9a2adce8562d5f057741a05b562",
+    "objective_value": 69.804551794,
+    "wall_s": 9.316893004
+  },
+  {
+    "signature": "f31d0e60d4004a8c3e5d7eb4aac8a356ad8005534b6077a26159c65b7c403e26",
+    "objective_value": 68.248679294,
+    "wall_s": 10.178037654
+  }
+]

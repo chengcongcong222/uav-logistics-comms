@@ -1,0 +1,17 @@
+[
+  {
+    "signature": "435dd862cc0c6ca52f0a039f54e57d57b4e6317bc5595772c18020bf0b04f3ef",
+    "objective_value": 67.312324793,
+    "wall_s": 3.9372109170000003
+  },
+  {
+    "signature": "1eca7b535c8295c3e621011c085971abafe279d23904284099ac26986261fab5",
+    "objective_value": 66.817568017,
+    "wall_s": 5.416909652
+  },
+  {
+    "signature": "720983c34a4df543acb4f37df309db78b94b279c9a5276232c539e08dadf0d47",
+    "objective_value": 66.696849881,
+    "wall_s": 5.754767728
+  }
+]

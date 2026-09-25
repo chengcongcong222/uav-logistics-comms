@@ -1,0 +1,139 @@
+[
+  {
+    "site_id": "E52_c515ea57360fd29f9add62f7",
+    "task_ids": [
+      "F13_M003_G00",
+      "F13_M016_G00",
+      "F13_M019_G00"
+    ],
+    "preparation_start_s": 12.214498897820818,
+    "takeoff_s": 192.21449889782082,
+    "arrival_s": 717.8125,
+    "setup_start_s": 717.8125,
+    "service_start_s": 747.8125,
+    "service_end_s": 1603.84375,
+    "return_s": 2175.899213158657,
+    "uav_available_s": 2475.899213158657,
+    "energy_ready_s": 2906.2648009999057,
+    "charge_duration_s": 730.3655878412488,
+    "return_soc": 0.8227957016605778,
+    "outbound_time_s": 525.5980011021792,
+    "return_time_s": 572.0554631586571,
+    "flight_energy_kwh": 0.29632198385281766,
+    "setup_energy_kwh": 0.009166666666666667,
+    "active_communication_s": 856.03125,
+    "idle_hover_s": 0.0,
+    "active_energy_kwh": 0.2615651041666667,
+    "idle_energy_kwh": 0.0,
+    "total_energy_kwh": 0.5670537546861509,
+    "energy_margin_kwh": 1.9929462453138496,
+    "service_windows": [
+      [
+        747.8125,
+        1603.84375
+      ]
+    ],
+    "relay_id": "R01",
+    "energy_component_id": "REC-01",
+    "relay_sortie_id": "F13_C2_SITE_B6500_RELAY_00_Q3_R001"
+  },
+  {
+    "site_id": "E52_cdef0b479e00ae29ebd83132",
+    "task_ids": [
+      "F13_M004_G00",
+      "F13_M006_G00",
+      "F13_M014_G00",
+      "F13_M017_G00",
+      "F13_M018_G00"
+    ],
+    "preparation_start_s": 1567.1803878858195,
+    "takeoff_s": 1747.1803878858195,
+    "arrival_s": 2267.1875,
+    "setup_start_s": 2267.1875,
+    "service_start_s": 2297.1875,
+    "service_end_s": 5691.25,
+    "return_s": 6245.793309522221,
+    "uav_available_s": 6545.793309522221,
+    "energy_ready_s": 7286.1784392209975,
+    "charge_duration_s": 1040.385129698777,
+    "return_soc": 0.5843191310009407,
+    "outbound_time_s": 520.0071121141804,
+    "return_time_s": 554.5433095222207,
+    "flight_energy_kwh": 0.3028799960747676,
+    "setup_energy_kwh": 0.009166666666666667,
+    "active_communication_s": 2030.1999999999998,
+    "idle_hover_s": 1363.8625000000002,
+    "active_energy_kwh": 0.6203388888888889,
+    "idle_energy_kwh": 0.3977932291666667,
+    "total_energy_kwh": 1.3301787807969898,
+    "energy_margin_kwh": 1.2298212192030107,
+    "service_windows": [
+      [
+        2297.1875,
+        3482.91875
+      ],
+      [
+        4846.78125,
+        5691.25
+      ]
+    ],
+    "relay_id": "R02",
+    "energy_component_id": "REC-02",
+    "relay_sortie_id": "F13_C2_SITE_B6500_RELAY_00_Q3_R002"
+  },
+  {
+    "site_id": "E52_189eb019491ad876aa165071",
+    "task_ids": [
+      "F13_M005_G00",
+      "F13_M007_G00",
+      "F13_M007_G01",
+      "F13_M007_G02",
+      "F13_M008_G00",
+      "F13_M008_G01",
+      "F13_M008_G02",
+      "F13_M013_G00",
+      "F13_M015_G00",
+      "F13_M020_G00",
+      "F13_M021_G00",
+      "F13_M021_G01",
+      "F13_M021_G02",
+      "F13_M022_G00",
+      "F13_M023_G00",
+      "F13_M024_G00"
+    ],
+    "preparation_start_s": 2476.063331858314,
+    "takeoff_s": 2656.063331858314,
+    "arrival_s": 3059.1625,
+    "setup_start_s": 3059.1625,
+    "service_start_s": 3089.1625,
+    "service_end_s": 5794.5,
+    "return_s": 6242.8528846740755,
+    "uav_available_s": 6542.8528846740755,
+    "energy_ready_s": 7171.35509818165,
+    "charge_duration_s": 928.5022135075737,
+    "return_soc": 0.6703829126864818,
+    "outbound_time_s": 403.09916814168594,
+    "return_time_s": 448.35288467407526,
+    "flight_energy_kwh": 0.21908171065325852,
+    "setup_energy_kwh": 0.009166666666666667,
+    "active_communication_s": 2697.80625,
+    "idle_hover_s": 7.53125,
+    "active_energy_kwh": 0.8243296875000001,
+    "idle_energy_kwh": 0.0021966145833333334,
+    "total_energy_kwh": 1.0547746794032586,
+    "energy_margin_kwh": 1.5052253205967419,
+    "service_windows": [
+      [
+        3089.1625,
+        5761.625
+      ],
+      [
+        5769.15625,
+        5794.5
+      ]
+    ],
+    "relay_id": "R01",
+    "energy_component_id": "REC-03",
+    "relay_sortie_id": "F13_C2_SITE_B6500_RELAY_00_Q3_R003"
+  }
+]

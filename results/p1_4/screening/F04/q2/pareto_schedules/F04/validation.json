@@ -1,0 +1,35 @@
+{
+  "J_late": 0.0,
+  "J_norm": 0.4639820088425259,
+  "transport_energy_kwh": 66.55189636568672,
+  "transport_makespan_s": 6497.2236501116,
+  "transport_sorties": 23,
+  "minimum_transport_energy_margin_kwh": 0.2471029920028247,
+  "hard_deadline_violations": 0,
+  "status": "XB1_Q2_INDEPENDENTLY_VALIDATED",
+  "trace_waypoints_checked": 446,
+  "checks": [
+    "80 boxes exactly once",
+    "mass and volume",
+    "per-leg payload and energy",
+    "31 hard deadlines",
+    "typed UAV non-overlap",
+    "typed battery SOC and recharge non-overlap",
+    "J_late/J_norm recomputed",
+    "every trajectory waypoint reconstructed"
+  ],
+  "artifact_sha256": {
+    "metadata.json": "605a96f30b7d4342889bdc2cbb7d3403a81b872d94f19d1050d826f17b180940",
+    "missions.json": "ade6a0477a62d2efa03629bcb924a19fe034355dac403ec3db42982570ff35ac",
+    "transport_trace.csv": "1c5ac5ad5ee4a607b0332187516ddcc2eb15dfb5e5016c543e1f7d7f77631328",
+    "transport_uav_calendar_F04.csv": "57eeac155bae2fb5c3117f7d6c6fae84b4e91f8a212d8becc75b4fdbaad42779",
+    "q2_objectives.csv": "45affcc1c7534a26b2667d42c92483882b1ab039a2fd9c2baef0a6a9991c1bb5",
+    "transport_sorties_F04.csv": "b70b5aed61a052747cc0030bb8cd62d1c7f49dceca04f5edbfd91934f02cf0c4",
+    "q2_sorties.csv": "b70b5aed61a052747cc0030bb8cd62d1c7f49dceca04f5edbfd91934f02cf0c4",
+    "box_delivery_F04.csv": "efdb7bee2ed118b0e92dd0c9bfca6b2dcd633c26b2273e8dca6697ac58e9bf1a",
+    "transport_battery_calendar_F04.csv": "e80c4d91e35929c6d9e4eab605df0e74f79831f0f81e15da2a5addda774204e1",
+    "q2_battery_calendar.csv": "e80c4d91e35929c6d9e4eab605df0e74f79831f0f81e15da2a5addda774204e1",
+    "q2_uav_calendar.csv": "57eeac155bae2fb5c3117f7d6c6fae84b4e91f8a212d8becc75b4fdbaad42779",
+    "q2_box_delivery.csv": "efdb7bee2ed118b0e92dd0c9bfca6b2dcd633c26b2273e8dca6697ac58e9bf1a"
+  }
+}

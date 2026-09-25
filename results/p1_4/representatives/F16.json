@@ -1,0 +1,206 @@
+{
+  "id": "F16",
+  "origin": "B6155_energy_N25",
+  "signature": "f31d0e60d4004a8c3e5d7eb4aac8a356ad8005534b6077a26159c65b7c403e26",
+  "trips": [
+    {
+      "pattern": 17,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 30,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 41,
+      "copy": 0,
+      "start_units": 13135
+    },
+    {
+      "pattern": 59,
+      "copy": 0,
+      "start_units": 16922
+    },
+    {
+      "pattern": 70,
+      "copy": 0,
+      "start_units": 37089
+    },
+    {
+      "pattern": 89,
+      "copy": 0,
+      "start_units": 14942
+    },
+    {
+      "pattern": 115,
+      "copy": 0,
+      "start_units": 38001
+    },
+    {
+      "pattern": 126,
+      "copy": 0,
+      "start_units": 43293
+    },
+    {
+      "pattern": 132,
+      "copy": 0,
+      "start_units": 46244
+    },
+    {
+      "pattern": 137,
+      "copy": 0,
+      "start_units": 42631
+    },
+    {
+      "pattern": 144,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 144,
+      "copy": 1,
+      "start_units": 0
+    },
+    {
+      "pattern": 151,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 164,
+      "copy": 0,
+      "start_units": 17659
+    },
+    {
+      "pattern": 175,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 211,
+      "copy": 0,
+      "start_units": 39304
+    },
+    {
+      "pattern": 222,
+      "copy": 0,
+      "start_units": 30659
+    },
+    {
+      "pattern": 234,
+      "copy": 0,
+      "start_units": 15105
+    },
+    {
+      "pattern": 245,
+      "copy": 0,
+      "start_units": 30794
+    },
+    {
+      "pattern": 258,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 270,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 282,
+      "copy": 0,
+      "start_units": 19228
+    },
+    {
+      "pattern": 2151,
+      "copy": 0,
+      "start_units": 12535
+    },
+    {
+      "pattern": 2215,
+      "copy": 0,
+      "start_units": 37926
+    },
+    {
+      "pattern": 2693,
+      "copy": 0,
+      "start_units": 17659
+    }
+  ],
+  "pattern_occurrences": [
+    17,
+    30,
+    41,
+    59,
+    70,
+    89,
+    115,
+    126,
+    132,
+    137,
+    144,
+    144,
+    151,
+    164,
+    175,
+    211,
+    222,
+    234,
+    245,
+    258,
+    270,
+    282,
+    2151,
+    2215,
+    2693
+  ],
+  "metrics": {
+    "J_late": 0.0,
+    "J_norm": 0.4646499231571923,
+    "makespan": 6140.574861971583,
+    "energy": 68.24867929527107,
+    "sorties": 25,
+    "source": "F16",
+    "global_optimum_proven": false
+  },
+  "package": "results/p1_4/q2/pareto_schedules/F16",
+  "validation_status": "XB1_Q2_INDEPENDENTLY_VALIDATED",
+  "validation_sha256": "0e088692fbf8b208bf3e40183b873b1c2fcbf2f6b1e26e1825d5d5e2159099f6",
+  "validation_cpu_s": 0.6045356569998148,
+  "transport_workload_lower_bound_s": 6115.518548959527,
+  "typed_loads": [
+    {
+      "type": "A",
+      "uavs": 4,
+      "batteries": 6,
+      "sorties": 12,
+      "uav_occupation_s": 20257.93437340973,
+      "battery_occupation_s": 28861.054299674714,
+      "uav_workload_lower_bound_s": 5064.483593352433,
+      "battery_workload_lower_bound_s": 3419.3638092060614
+    },
+    {
+      "type": "B",
+      "uavs": 2,
+      "batteries": 4,
+      "sorties": 7,
+      "uav_occupation_s": 11970.238354656007,
+      "battery_occupation_s": 20352.29593743734,
+      "uav_workload_lower_bound_s": 5985.119177328003,
+      "battery_workload_lower_bound_s": 3228.7203928684075
+    },
+    {
+      "type": "C",
+      "uavs": 2,
+      "batteries": 4,
+      "sorties": 6,
+      "uav_occupation_s": 12231.037097919056,
+      "battery_occupation_s": 22321.88515360988,
+      "uav_workload_lower_bound_s": 6115.518548959528,
+      "battery_workload_lower_bound_s": 3080.7283487365685
+    }
+  ],
+  "scope": "Any schedule of this fixed transport box/visit/type structure, independent of relay grouping"
+}

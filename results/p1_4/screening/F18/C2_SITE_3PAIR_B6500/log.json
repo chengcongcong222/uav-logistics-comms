@@ -1,0 +1,99 @@
+[
+  {
+    "iteration": 0,
+    "master": {
+      "status": "OPTIMAL",
+      "incumbent": 6295.8,
+      "dual_bound": 6295.8,
+      "gap": 0.0,
+      "cpu_s": 3.9221619459999997,
+      "wall_s": 1.6881087229999991,
+      "nodes": 93531,
+      "conflicts": 6698,
+      "iterations": null,
+      "valid_necessary_cuts": 1,
+      "heuristic_timing_boxes_excluded": 0,
+      "shifts": {
+        "M001": 0.0,
+        "M002": 0.0,
+        "M003": -1313.5,
+        "M004": 0.0,
+        "M005": 0.0,
+        "M006": 0.0,
+        "M007": 0.0,
+        "M008": 0.1000000000003638,
+        "M009": 0.0,
+        "M010": 0.0,
+        "M011": 0.0,
+        "M012": 0.0,
+        "M013": 0.0,
+        "M014": 2014.1,
+        "M015": 0.0,
+        "M016": 0.09999999999990905,
+        "M017": 0.1,
+        "M018": 1869.8,
+        "M019": 0.09999999999990905,
+        "M020": -1922.8,
+        "M021": 0.0,
+        "M022": -1650.1000000000001,
+        "M023": 2420.0,
+        "M024": 0.0
+      },
+      "scope": "Conservative 0.1s transport grid; joint-completion necessary envelope plus unsplit-atom relay cuts; no full relay schedule",
+      "full_continuous_Q3_bound": false,
+      "seed": 26092511,
+      "workers": 4,
+      "response_stats": "CpSolverResponse summary:\nstatus: OPTIMAL\nobjective: 62958\nbest_bound: 62958\nintegers: 346\nbooleans: 6871\nconflicts: 6698\nbranches: 93531\npropagations: 8632253\ninteger_propagations: 534344\nrestarts: 27094\nlp_iterations: 0\nwalltime: 1.01428\nusertime: 1.01428\ndeterministic_time: 4.17787\ngap_integral: 17.6849\nsolution_fingerprint: 0x5ae016230de54c21\n",
+      "site_assignment_relaxation": true,
+      "necessary_three_UAV_site_pair_cap": true,
+      "site_assignment_scope": "Exact site and 2-UAV atom assignment in conservative grid; same-site atoms may share an unlimited-energy flight. Energy and component calendars relaxed, pricing validates them.",
+      "relay_guidance": [
+        {
+          "relay_index": 0,
+          "site_id": "E52_cdef0b479e00ae29ebd83132",
+          "task_ids": [
+            "F18_M003_G00",
+            "F18_M004_G00",
+            "F18_M006_G00",
+            "F18_M015_G00",
+            "F18_M016_G00",
+            "F18_M018_G00",
+            "F18_M019_G00",
+            "F18_M022_G00",
+            "F18_M022_G02"
+          ]
+        },
+        {
+          "relay_index": 1,
+          "site_id": "E52_189eb019491ad876aa165071",
+          "task_ids": [
+            "F18_M005_G00",
+            "F18_M007_G00",
+            "F18_M007_G01",
+            "F18_M007_G02",
+            "F18_M008_G00",
+            "F18_M008_G01",
+            "F18_M008_G02",
+            "F18_M013_G00",
+            "F18_M014_G00",
+            "F18_M021_G00",
+            "F18_M022_G01",
+            "F18_M023_G00",
+            "F18_M024_G00"
+          ]
+        },
+        {
+          "relay_index": 1,
+          "site_id": "E52_be79b94db4a0a5b6faaed631",
+          "task_ids": [
+            "F18_M017_G00",
+            "F18_M020_G00"
+          ]
+        }
+      ]
+    },
+    "new_valid_cuts": [],
+    "relay_result": "results/p1_4/screening/F18/C2_SITE_3PAIR_B6500_RELAY_00/result.json",
+    "action": "INDEPENDENTLY_VALIDATED"
+  }
+]

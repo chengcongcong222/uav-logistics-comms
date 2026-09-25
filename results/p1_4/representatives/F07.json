@@ -1,0 +1,212 @@
+{
+  "id": "F07",
+  "origin": "B6350_sorties",
+  "signature": "af5cdda8349692c105699c0ae201fa733700604870c32ff721163fae8d12fff9",
+  "trips": [
+    {
+      "pattern": 17,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 30,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 41,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 59,
+      "copy": 0,
+      "start_units": 16922
+    },
+    {
+      "pattern": 70,
+      "copy": 0,
+      "start_units": 37089
+    },
+    {
+      "pattern": 79,
+      "copy": 0,
+      "start_units": 14942
+    },
+    {
+      "pattern": 115,
+      "copy": 0,
+      "start_units": 38001
+    },
+    {
+      "pattern": 127,
+      "copy": 0,
+      "start_units": 30410
+    },
+    {
+      "pattern": 132,
+      "copy": 0,
+      "start_units": 27178
+    },
+    {
+      "pattern": 152,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 157,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 169,
+      "copy": 0,
+      "start_units": 18624
+    },
+    {
+      "pattern": 175,
+      "copy": 0,
+      "start_units": 24297
+    },
+    {
+      "pattern": 186,
+      "copy": 0,
+      "start_units": 13135
+    },
+    {
+      "pattern": 211,
+      "copy": 0,
+      "start_units": 38644
+    },
+    {
+      "pattern": 222,
+      "copy": 0,
+      "start_units": 42340
+    },
+    {
+      "pattern": 224,
+      "copy": 0,
+      "start_units": 23717
+    },
+    {
+      "pattern": 233,
+      "copy": 0,
+      "start_units": 1
+    },
+    {
+      "pattern": 236,
+      "copy": 0,
+      "start_units": 49372
+    },
+    {
+      "pattern": 258,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 270,
+      "copy": 0,
+      "start_units": 12073
+    },
+    {
+      "pattern": 282,
+      "copy": 0,
+      "start_units": 19228
+    },
+    {
+      "pattern": 995,
+      "copy": 0,
+      "start_units": 37926
+    },
+    {
+      "pattern": 1516,
+      "copy": 0,
+      "start_units": 41808
+    },
+    {
+      "pattern": 1895,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 2670,
+      "copy": 0,
+      "start_units": 39666
+    }
+  ],
+  "pattern_occurrences": [
+    17,
+    30,
+    41,
+    59,
+    70,
+    79,
+    115,
+    127,
+    132,
+    152,
+    157,
+    169,
+    175,
+    186,
+    211,
+    222,
+    224,
+    233,
+    236,
+    258,
+    270,
+    282,
+    995,
+    1516,
+    1895,
+    2670
+  ],
+  "metrics": {
+    "J_late": 0.0,
+    "J_norm": 0.4702940642422618,
+    "makespan": 6187.072279197948,
+    "energy": 71.842512963288,
+    "sorties": 26,
+    "source": "F07",
+    "global_optimum_proven": false
+  },
+  "package": "results/p1_4/q2/pareto_schedules/F07",
+  "validation_status": "XB1_Q2_INDEPENDENTLY_VALIDATED",
+  "validation_sha256": "f900938c3824e9fb064864476bfa9ce7fef458c80d030c4739bcddcade127f1d",
+  "validation_cpu_s": 0.7023414149998644,
+  "transport_workload_lower_bound_s": 6082.518548959527,
+  "typed_loads": [
+    {
+      "type": "A",
+      "uavs": 4,
+      "batteries": 6,
+      "sorties": 13,
+      "uav_occupation_s": 23455.73913251924,
+      "battery_occupation_s": 33357.887851190426,
+      "uav_workload_lower_bound_s": 5863.93478312981,
+      "battery_workload_lower_bound_s": 4168.836067792014
+    },
+    {
+      "type": "B",
+      "uavs": 2,
+      "batteries": 4,
+      "sorties": 7,
+      "uav_occupation_s": 11863.388967728544,
+      "battery_occupation_s": 20151.48532962774,
+      "uav_workload_lower_bound_s": 5931.694483864272,
+      "battery_workload_lower_bound_s": 3178.517740916008
+    },
+    {
+      "type": "C",
+      "uavs": 2,
+      "batteries": 4,
+      "sorties": 6,
+      "uav_occupation_s": 12165.037097919056,
+      "battery_occupation_s": 22250.101375534985,
+      "uav_workload_lower_bound_s": 6082.518548959528,
+      "battery_workload_lower_bound_s": 3062.7824042178445
+    }
+  ],
+  "scope": "Any schedule of this fixed transport box/visit/type structure, independent of relay grouping"
+}

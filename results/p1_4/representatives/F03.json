@@ -1,0 +1,206 @@
+{
+  "id": "F03",
+  "origin": "B6500_sorties",
+  "signature": "288fca997fc25c736183d3bbb5be8f1a1eae27b7fdb66d2e318527139d29d110",
+  "trips": [
+    {
+      "pattern": 17,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 30,
+      "copy": 0,
+      "start_units": 21079
+    },
+    {
+      "pattern": 41,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 59,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 70,
+      "copy": 0,
+      "start_units": 29684
+    },
+    {
+      "pattern": 89,
+      "copy": 0,
+      "start_units": 14942
+    },
+    {
+      "pattern": 115,
+      "copy": 0,
+      "start_units": 40464
+    },
+    {
+      "pattern": 126,
+      "copy": 0,
+      "start_units": 33224
+    },
+    {
+      "pattern": 132,
+      "copy": 0,
+      "start_units": 31301
+    },
+    {
+      "pattern": 137,
+      "copy": 0,
+      "start_units": 37089
+    },
+    {
+      "pattern": 151,
+      "copy": 0,
+      "start_units": 23954
+    },
+    {
+      "pattern": 157,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 162,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 169,
+      "copy": 0,
+      "start_units": 18624
+    },
+    {
+      "pattern": 175,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 186,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 211,
+      "copy": 0,
+      "start_units": 38001
+    },
+    {
+      "pattern": 222,
+      "copy": 0,
+      "start_units": 46463
+    },
+    {
+      "pattern": 224,
+      "copy": 0,
+      "start_units": 17275
+    },
+    {
+      "pattern": 233,
+      "copy": 0,
+      "start_units": 13135
+    },
+    {
+      "pattern": 246,
+      "copy": 0,
+      "start_units": 33803
+    },
+    {
+      "pattern": 258,
+      "copy": 0,
+      "start_units": 12073
+    },
+    {
+      "pattern": 270,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 282,
+      "copy": 0,
+      "start_units": 15105
+    },
+    {
+      "pattern": 294,
+      "copy": 0,
+      "start_units": 45844
+    }
+  ],
+  "pattern_occurrences": [
+    17,
+    30,
+    41,
+    59,
+    70,
+    89,
+    115,
+    126,
+    132,
+    137,
+    151,
+    157,
+    162,
+    169,
+    175,
+    186,
+    211,
+    222,
+    224,
+    233,
+    246,
+    258,
+    270,
+    282,
+    294
+  ],
+  "metrics": {
+    "J_late": 0.0,
+    "J_norm": 0.4921424600316355,
+    "makespan": 6412.6885840204495,
+    "energy": 67.3896197830287,
+    "sorties": 25,
+    "source": "F03",
+    "global_optimum_proven": false
+  },
+  "package": "results/p1_4/q2/pareto_schedules/F03",
+  "validation_status": "XB1_Q2_INDEPENDENTLY_VALIDATED",
+  "validation_sha256": "8d0a0214aa95ce980f823c37948163ab15232ea6bb1593a4775eadcd8ccd4cdc",
+  "validation_cpu_s": 0.6127072280000903,
+  "transport_workload_lower_bound_s": 6300.781643600971,
+  "typed_loads": [
+    {
+      "type": "A",
+      "uavs": 4,
+      "batteries": 6,
+      "sorties": 11,
+      "uav_occupation_s": 18649.77934748577,
+      "battery_occupation_s": 26769.906929738216,
+      "uav_workload_lower_bound_s": 4662.444836871443,
+      "battery_workload_lower_bound_s": 3070.839247549978
+    },
+    {
+      "type": "B",
+      "uavs": 2,
+      "batteries": 4,
+      "sorties": 8,
+      "uav_occupation_s": 12601.563287201943,
+      "battery_occupation_s": 21447.516930697064,
+      "uav_workload_lower_bound_s": 6300.781643600972,
+      "battery_workload_lower_bound_s": 3502.525641183339
+    },
+    {
+      "type": "C",
+      "uavs": 2,
+      "batteries": 4,
+      "sorties": 6,
+      "uav_occupation_s": 12231.037097919056,
+      "battery_occupation_s": 22321.88515360988,
+      "uav_workload_lower_bound_s": 6115.518548959528,
+      "battery_workload_lower_bound_s": 3080.7283487365685
+    }
+  ],
+  "scope": "Any schedule of this fixed transport box/visit/type structure, independent of relay grouping"
+}

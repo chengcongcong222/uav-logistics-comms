@@ -1,0 +1,14 @@
+{
+  "status": "P1_4_NEAR_FAST_TRADEOFFS_VERIFIED_PAPER_V01_READY",
+  "new_Q3_packages": 5,
+  "independently_validated_Q2": 19,
+  "finite_archive_nondominated_points": 7,
+  "paper_base": "842d950eba19374a287351b9b839fb446ff55d14",
+  "paper_status": "V01_DRAFT_NOT_FINAL_SUBMISSION",
+  "main_Q4_submission_replaced": false,
+  "formal_comparison": false,
+  "global_optimality_proven": false,
+  "complete_pareto_front": false,
+  "G2_Q1_reserve_sensitivity_complete": false,
+  "new_main_Q4_complete": false
+}

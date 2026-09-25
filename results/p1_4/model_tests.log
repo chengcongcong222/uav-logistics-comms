@@ -1,0 +1,7 @@
+/home/ccc/projects/uav-logistics-comms/src/bench_p1_4/fixed.py:106: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  lp=linprog(c,A_ub=a[n:],b_ub=hi[n:],A_eq=a[:n],b_eq=hi[:n],bounds=(0,1),method='highs',options=dict(threads=1,time_limit=limit))
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.091s
+
+OK

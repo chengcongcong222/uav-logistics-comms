@@ -1,0 +1,91 @@
+{
+  "status": "OPTIMAL",
+  "incumbent": 6184.1,
+  "dual_bound": 6184.1,
+  "gap": 0.0,
+  "cpu_s": 3.8067991570000004,
+  "wall_s": 1.6053955469999437,
+  "nodes": 100730,
+  "conflicts": 3847,
+  "iterations": null,
+  "valid_necessary_cuts": 1,
+  "heuristic_timing_boxes_excluded": 0,
+  "shifts": {
+    "M001": 0.0,
+    "M002": 0.0,
+    "M003": -1313.4,
+    "M004": 0.0,
+    "M005": 0.09999999999990905,
+    "M006": 2199.8,
+    "M007": 0.0,
+    "M008": -349.5,
+    "M009": 0.0,
+    "M010": -508.60000000000036,
+    "M011": 0.1,
+    "M012": 0.0,
+    "M013": 0.0,
+    "M014": 0.09999999999990905,
+    "M015": 2027.0,
+    "M016": -2436.2,
+    "M017": 0.0,
+    "M018": -1510.5,
+    "M019": 1384.4999999999995,
+    "M020": 1869.9,
+    "M021": 1555.4,
+    "M022": -1922.7,
+    "M023": 743.5,
+    "M024": 0.09999999999990905,
+    "M025": 0.09999999999990905
+  },
+  "scope": "Conservative 0.1s transport grid; joint-completion necessary envelope plus unsplit-atom relay cuts; no full relay schedule",
+  "full_continuous_Q3_bound": false,
+  "seed": 26092511,
+  "workers": 4,
+  "response_stats": "CpSolverResponse summary:\nstatus: OPTIMAL\nobjective: 61841\nbest_bound: 61841\nintegers: 112\nbooleans: 8251\nconflicts: 3847\nbranches: 100730\npropagations: 6375187\ninteger_propagations: 566011\nrestarts: 25346\nlp_iterations: 0\nwalltime: 1.60287\nusertime: 1.60287\ndeterministic_time: 3.47605\ngap_integral: 13.8902\nsolution_fingerprint: 0xd720a9dba9f7d16c\n",
+  "site_assignment_relaxation": true,
+  "site_assignment_scope": "Exact site and 2-UAV atom assignment in conservative grid; same-site atoms may share an unlimited-energy flight. Energy and component calendars relaxed, pricing validates them.",
+  "relay_guidance": [
+    {
+      "relay_index": 0,
+      "site_id": "E52_cdef0b479e00ae29ebd83132",
+      "task_ids": [
+        "F16_M003_G00",
+        "F16_M004_G00",
+        "F16_M007_G00",
+        "F16_M008_G02",
+        "F16_M009_G00",
+        "F16_M010_G00",
+        "F16_M010_G02",
+        "F16_M016_G00",
+        "F16_M017_G00",
+        "F16_M020_G00",
+        "F16_M021_G00"
+      ]
+    },
+    {
+      "relay_index": 1,
+      "site_id": "E52_d6d1511afdebb88632549a71",
+      "task_ids": [
+        "F16_M005_G00",
+        "F16_M006_G00",
+        "F16_M008_G00",
+        "F16_M008_G01",
+        "F16_M009_G01",
+        "F16_M009_G02",
+        "F16_M010_G01",
+        "F16_M015_G00",
+        "F16_M023_G00",
+        "F16_M024_G00",
+        "F16_M025_G00"
+      ]
+    },
+    {
+      "relay_index": 1,
+      "site_id": "E52_b45db00398315637fb020e5f",
+      "task_ids": [
+        "F16_M018_G00",
+        "F16_M022_G00"
+      ]
+    }
+  ]
+}

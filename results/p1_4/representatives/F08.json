@@ -1,0 +1,206 @@
+{
+  "id": "F08",
+  "origin": "B6350_energy_N25",
+  "signature": "e12c5ee60f5fb6a75f05aa88f764781b78701f4a8781dc40c3d31f7c4f4332ee",
+  "trips": [
+    {
+      "pattern": 19,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 28,
+      "copy": 0,
+      "start_units": 23011
+    },
+    {
+      "pattern": 41,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 70,
+      "copy": 0,
+      "start_units": 33237
+    },
+    {
+      "pattern": 89,
+      "copy": 0,
+      "start_units": 38613
+    },
+    {
+      "pattern": 115,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 140,
+      "copy": 0,
+      "start_units": 44090
+    },
+    {
+      "pattern": 151,
+      "copy": 0,
+      "start_units": 15949
+    },
+    {
+      "pattern": 157,
+      "copy": 0,
+      "start_units": 18698
+    },
+    {
+      "pattern": 162,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 175,
+      "copy": 0,
+      "start_units": 22900
+    },
+    {
+      "pattern": 177,
+      "copy": 0,
+      "start_units": 29084
+    },
+    {
+      "pattern": 184,
+      "copy": 0,
+      "start_units": 20038
+    },
+    {
+      "pattern": 203,
+      "copy": 0,
+      "start_units": 38847
+    },
+    {
+      "pattern": 208,
+      "copy": 0,
+      "start_units": 30771
+    },
+    {
+      "pattern": 212,
+      "copy": 0,
+      "start_units": 41656
+    },
+    {
+      "pattern": 224,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 237,
+      "copy": 0,
+      "start_units": 50390
+    },
+    {
+      "pattern": 245,
+      "copy": 0,
+      "start_units": 37313
+    },
+    {
+      "pattern": 258,
+      "copy": 0,
+      "start_units": 18283
+    },
+    {
+      "pattern": 282,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 294,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 604,
+      "copy": 0,
+      "start_units": 16262
+    },
+    {
+      "pattern": 2434,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 2476,
+      "copy": 0,
+      "start_units": 13135
+    }
+  ],
+  "pattern_occurrences": [
+    19,
+    28,
+    41,
+    70,
+    89,
+    115,
+    140,
+    151,
+    157,
+    162,
+    175,
+    177,
+    184,
+    203,
+    208,
+    212,
+    224,
+    237,
+    245,
+    258,
+    282,
+    294,
+    604,
+    2434,
+    2476
+  ],
+  "metrics": {
+    "J_late": 0.0,
+    "J_norm": 0.5234032986364463,
+    "makespan": 6297.41114433708,
+    "energy": 67.83001714992768,
+    "sorties": 25,
+    "source": "F08",
+    "global_optimum_proven": false
+  },
+  "package": "results/p1_4/q2/pareto_schedules/F08",
+  "validation_status": "XB1_Q2_INDEPENDENTLY_VALIDATED",
+  "validation_sha256": "6c2fad1704ffed8a6fe55fde68cd4b8c11a9dc7605884d5539eec3acc53db7ab",
+  "validation_cpu_s": 0.622957413999984,
+  "transport_workload_lower_bound_s": 6148.025285052417,
+  "typed_loads": [
+    {
+      "type": "A",
+      "uavs": 4,
+      "batteries": 6,
+      "sorties": 12,
+      "uav_occupation_s": 20541.464384042174,
+      "battery_occupation_s": 29286.352416669237,
+      "uav_workload_lower_bound_s": 5135.3660960105435,
+      "battery_workload_lower_bound_s": 3490.2468287051483
+    },
+    {
+      "type": "B",
+      "uavs": 2,
+      "batteries": 4,
+      "sorties": 7,
+      "uav_occupation_s": 11760.160511877095,
+      "battery_occupation_s": 20322.565185441515,
+      "uav_workload_lower_bound_s": 5880.080255938547,
+      "battery_workload_lower_bound_s": 3124.7176716308877
+    },
+    {
+      "type": "C",
+      "uavs": 2,
+      "batteries": 4,
+      "sorties": 6,
+      "uav_occupation_s": 12296.050570104835,
+      "battery_occupation_s": 22003.511429977945,
+      "uav_workload_lower_bound_s": 6148.0252850524175,
+      "battery_workload_lower_bound_s": 2938.6516890643484
+    }
+  ],
+  "scope": "Any schedule of this fixed transport box/visit/type structure, independent of relay grouping"
+}

@@ -1,0 +1,96 @@
+{
+  "pareto_id": "F18",
+  "conclusion": "E8_PLAN_INDEPENDENTLY_VALIDATED",
+  "J_late": 0.0,
+  "J_norm": 0.4707412385640689,
+  "joint_makespan_s": 6295.712146725356,
+  "transport_energy_kwh": 66.69684988211523,
+  "relay_energy_kwh": 3.387081856781421,
+  "total_energy_kwh": 70.08393173889665,
+  "transport_sorties": 24,
+  "relay_sorties": 3,
+  "total_transport_shift_s": 1417.8999999999999,
+  "max_transport_shift_s": 2420.0,
+  "hard_deadline_violations": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "communication_validation": "E8_PLAN_INDEPENDENTLY_VALIDATED",
+  "minimum_M_E_kwh": 0.7587543789252329,
+  "minimum_M_C_db": 0.4692401324579123,
+  "relay_uav_utilization": {
+    "R01": {
+      "sorties": 1,
+      "operating_s": 6227.987921636401,
+      "unavailable_s": 6527.987921636401,
+      "utilization": 0.8730116809826584
+    },
+    "R02": {
+      "sorties": 2,
+      "operating_s": 5862.060426408215,
+      "unavailable_s": 6462.060426408215,
+      "utilization": 0.8641949561168889
+    }
+  },
+  "energy_component_utilization": {
+    "REC-01": {
+      "sorties": 1,
+      "unavailable_s": 7279.743955198025,
+      "utilization": 0.9735467626076216
+    },
+    "REC-02": {
+      "sorties": 1,
+      "unavailable_s": 2314.805046964839,
+      "utilization": 0.3095673382758557
+    },
+    "REC-03": {
+      "sorties": 1,
+      "unavailable_s": 4831.501350199203,
+      "utilization": 0.6461343320546549
+    },
+    "REC-04": {
+      "sorties": 0,
+      "unavailable_s": 0,
+      "utilization": 0.0
+    },
+    "REC-05": {
+      "sorties": 0,
+      "unavailable_s": 0,
+      "utilization": 0.0
+    },
+    "REC-06": {
+      "sorties": 0,
+      "unavailable_s": 0,
+      "utilization": 0.0
+    }
+  },
+  "resource_calendar_horizon_s": 7477.549343083845,
+  "candidate_set_complete": false,
+  "one_to_many_relay": true,
+  "comm_power_counted_once_per_active_module": true,
+  "total_absolute_transport_shift_s": 11190.7,
+  "Gamma_C_db": 0.0,
+  "solution_id": "F18_C2_SITE_3PAIR_B6500_RELAY_00_Q3",
+  "source_provenance": "FRESH_P1_TRANSPORT",
+  "global_optimum_proven": false,
+  "full_flight_margin_distribution_db": {
+    "direct_active_path": {
+      "0": 2.832057401214172e-05,
+      "0.01": 0.24582855320247263,
+      "0.05": 1.8666598513960202,
+      "0.25": 5.431879206399813,
+      "0.5": 17.108481529729907,
+      "0.75": 31.142428722692692,
+      "0.95": 50.4343286775736,
+      "1": 201.94577516576788
+    },
+    "relayed_active_path": {
+      "0": 0.4692401324579123,
+      "0.01": 0.4692401324579123,
+      "0.05": 1.4638119366943732,
+      "0.25": 3.8094716871601975,
+      "0.5": 3.8094716871601975,
+      "0.75": 10.01648148125875,
+      "0.95": 13.11389912953588,
+      "1": 13.435452033242427
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "base_commit": "842d950eba19374a287351b9b839fb446ff55d14",
+  "branch": "p1-4-fast-frontier-paper",
+  "Gamma_C_db": 0,
+  "J_late_required": 0,
+  "numerical_lateness_tolerance": 1e-08,
+  "anchor": {
+    "id": "T02_C2_SITE_RELAY_00_Q3",
+    "joint_makespan_s": 6153.893309522221
+  },
+  "budgets": [
+    {
+      "seconds": 6155,
+      "relative_increase_percent": 0.01798358245936882
+    },
+    {
+      "seconds": 6250,
+      "relative_increase_percent": 1.561721753106582
+    },
+    {
+      "seconds": 6350,
+      "relative_increase_percent": 3.1867093011562764
+    },
+    {
+      "seconds": 6500,
+      "relative_increase_percent": 5.624190623230851
+    }
+  ],
+  "maximum_relay_sorties": 3,
+  "transport_pool_patterns": 2903,
+  "sites": 118,
+  "relay_uavs": 2,
+  "relay_energy_components": 6,
+  "search": "Full-pool transport count objective, then energy at best-known count; cold communication; site/UAV-consistent joint retiming and dynamic relay columns; original independent validation.",
+  "no_global_lexicographic_optimality_claim": true,
+  "raw_grid_bounds_not_continuous_Q3_bounds": true,
+  "priorities": [
+    "zero lateness and all hard constraints",
+    "epsilon joint-completion cap",
+    "minimize transport sorties",
+    "minimize total energy"
+  ],
+  "transport_generation_wall_limit_per_call_s": 75,
+  "seed": 26092511,
+  "transport_workers": 4,
+  "Q3_master_workers": 4,
+  "formal_equal_CPU_comparison": false,
+  "external_structures_or_targets_used": false,
+  "paper_version": "V0.1 frozen to P1.3-C; P1.4 kept as separate evidence until formally admitted",
+  "official_main_Q4_submission_unchanged": true
+}

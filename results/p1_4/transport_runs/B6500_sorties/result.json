@@ -1,0 +1,17 @@
+{
+  "name": "B6500_sorties",
+  "status": "FEASIBLE",
+  "incumbent": 23.0,
+  "raw_grid_bound": 21.0,
+  "gap": 0.08695652173913043,
+  "cpu_s": 283.421928506,
+  "wall_s": 76.475904622,
+  "nodes": 639205,
+  "conflicts": 98994,
+  "iterations": null,
+  "structure_count": 3,
+  "count": null,
+  "cap_s": 6500,
+  "axis": "sorties",
+  "full_Q3_optimality_proven": false
+}

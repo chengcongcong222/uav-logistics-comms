@@ -1,0 +1,16 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "pandas": "3.0.6",
+  "ortools": "9.14.6206",
+  "protobuf": "6.31.1",
+  "development_seed": 26092511,
+  "CP_master_workers": 4,
+  "CP_column_workers": 1,
+  "BLAS_threads": 1,
+  "base_commit": "842d950eba19374a287351b9b839fb446ff55d14",
+  "dependencies_target": ".deps_p13b",
+  "bitwise_reproducibility_not_claimed": true
+}

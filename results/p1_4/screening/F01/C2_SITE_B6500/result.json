@@ -1,0 +1,35 @@
+{
+  "pid": "F01",
+  "witnesses": [],
+  "iterations": [
+    {
+      "iteration": 0,
+      "master": {
+        "status": "INFEASIBLE",
+        "incumbent": null,
+        "dual_bound": 0.0,
+        "gap": null,
+        "cpu_s": 2.299271461999993,
+        "wall_s": 1.046159819999957,
+        "nodes": 48449,
+        "conflicts": 101,
+        "iterations": null,
+        "valid_necessary_cuts": 0,
+        "heuristic_timing_boxes_excluded": 0,
+        "shifts": null,
+        "scope": "Conservative 0.1s transport grid; joint-completion necessary envelope plus unsplit-atom relay cuts; no full relay schedule",
+        "full_continuous_Q3_bound": false,
+        "seed": 26092511,
+        "workers": 4,
+        "response_stats": "CpSolverResponse summary:\nstatus: INFEASIBLE\nobjective: NA\nbest_bound: NA\nintegers: 114\nbooleans: 6506\nconflicts: 101\nbranches: 48449\npropagations: 4987831\ninteger_propagations: 406788\nrestarts: 25519\nlp_iterations: 0\nwalltime: 1.04323\nusertime: 1.04323\ndeterministic_time: 2.2178\ngap_integral: 0\n",
+        "site_assignment_relaxation": true,
+        "site_assignment_scope": "Exact site and 2-UAV atom assignment in conservative grid; same-site atoms may share an unlimited-energy flight. Energy and component calendars relaxed, pricing validates them."
+      },
+      "termination": "NO_MASTER_INCUMBENT"
+    }
+  ],
+  "valid_cuts": [],
+  "heuristic_tabus": [],
+  "infeasibility_proven": false,
+  "cut_scope": "Unsplit atomic tasks and 118 frozen sites; no solver timeout used as infeasibility cut"
+}

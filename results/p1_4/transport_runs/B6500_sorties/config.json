@@ -1,0 +1,22 @@
+{
+  "cap_s": 6500,
+  "axis": "sorties",
+  "exact_transport_sorties": null,
+  "seed": 26092511,
+  "workers": 4,
+  "time_limit_s": 75.0,
+  "hint": {
+    "used": true,
+    "source": "results/reset/q2/pareto_schedules/A11/missions.json",
+    "sha256": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+    "source_line": "AUTONOMOUS_A11",
+    "role": "GRID_REPAIRED_HINT_ONLY; NO RESOURCE ORDER FIXED IN MODEL"
+  },
+  "pool_sha256": "3a451cd1df7cd11c288e63f63e348611bb3637edac5cba3e9f8fc52228e1db08",
+  "patterns": 2903,
+  "optional_copies": 2973,
+  "J_late": 0,
+  "time_grid_s": 0.1,
+  "bound_scope": "Conservative transport grid only; Q3 constraints relaxed; not a continuous full-Q3 bound",
+  "purpose": "Candidate generation for epsilon Q3 budget, no external target or arbitrary weighted objective"
+}

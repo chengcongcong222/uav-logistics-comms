@@ -1,0 +1,19 @@
+{
+  "cap_s": 6350,
+  "axis": "sorties",
+  "exact_transport_sorties": null,
+  "seed": 26092511,
+  "workers": 4,
+  "time_limit_s": 75.0,
+  "hint": {
+    "source": "P1.3-B T01",
+    "trip_count": 27
+  },
+  "pool_sha256": "3a451cd1df7cd11c288e63f63e348611bb3637edac5cba3e9f8fc52228e1db08",
+  "patterns": 2903,
+  "optional_copies": 2973,
+  "J_late": 0,
+  "time_grid_s": 0.1,
+  "bound_scope": "Conservative transport grid only; Q3 constraints relaxed; not a continuous full-Q3 bound",
+  "purpose": "Candidate generation for epsilon Q3 budget, no external target or arbitrary weighted objective"
+}

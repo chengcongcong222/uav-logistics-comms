@@ -1,0 +1,25 @@
+{
+  "pid": "F12",
+  "cold_build": true,
+  "own_structure_cache_only": true,
+  "cpu_s": 149.012141135,
+  "wall_s": 149.8683185550001,
+  "site_count": 118,
+  "atoms": 26,
+  "Gamma_C_db": 0,
+  "source_hashes": {
+    "metadata.json": "f7c01f6ca1c6fb8b406dcd97ab5945ab6d15a6d6842cd67e24d48a402e77d68a",
+    "missions.json": "d9141f5edea5f411b3883d21a37e877e37082d46c740176140857a93a36f255a",
+    "transport_trace.csv": "b12b6c8a5638902e2e88e9ac006ee1c3999383e4aac89b2f9731cf124da537de",
+    "validation.json": "e81ceb4ae67bbb06ea742d621e05d66cd06c0951382f70dd0bfa70de9c99a70c",
+    "transport_battery_calendar_F12.csv": "757814ecc4d8fe9ba428515e8599a063668d746bfd20335fc67cfb76d00eeacd",
+    "q2_objectives.csv": "43fed8d516c500cc269087f04e7df8cd5e9843c38105c476bc9c1357bc4781fd",
+    "transport_sorties_F12.csv": "57a587de8fa30818de47b53169547d33480ba86d9d6af48a5a91efd3d1d74b95",
+    "q2_sorties.csv": "57a587de8fa30818de47b53169547d33480ba86d9d6af48a5a91efd3d1d74b95",
+    "box_delivery_F12.csv": "f41f25d706e62f415cdcb82604805a5547e5148a52435f5009bbdc5a4c31a380",
+    "q2_battery_calendar.csv": "757814ecc4d8fe9ba428515e8599a063668d746bfd20335fc67cfb76d00eeacd",
+    "q2_uav_calendar.csv": "5d1c0bc32e234693f56902dcbc2de322a2e87e717f948be8179b086fe401a68c",
+    "q2_box_delivery.csv": "f41f25d706e62f415cdcb82604805a5547e5148a52435f5009bbdc5a4c31a380",
+    "transport_uav_calendar_F12.csv": "5d1c0bc32e234693f56902dcbc2de322a2e87e717f948be8179b086fe401a68c"
+  }
+}

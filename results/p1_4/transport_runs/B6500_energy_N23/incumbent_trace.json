@@ -1,0 +1,62 @@
+[
+  {
+    "signature": "276cbcbfb9b68deceb697b997030e0e47917744aa33538cd3b01e3cf3e42f896",
+    "objective_value": 68.350171156,
+    "wall_s": 3.9802694370000005
+  },
+  {
+    "signature": "f3936111ae2300a0a6ede0670feabd98434456debe337bf247ae836b8920448c",
+    "objective_value": 68.179373337,
+    "wall_s": 4.239552922000001
+  },
+  {
+    "signature": "83b5ab82d020f1144c963e8f5e5e48e1a035cc88aad2b4a7b57f142cf5ecb487",
+    "objective_value": 67.419522119,
+    "wall_s": 4.931746288
+  },
+  {
+    "signature": "240003955244a4c09e2f29cdcc1a44238ca5c3f47ba98174fdedbc36c22b100d",
+    "objective_value": 67.277222238,
+    "wall_s": 4.973653707
+  },
+  {
+    "signature": "67d78210e6681a88332bda991e379867c5c129099dbefbb0430fecd11cdcce6d",
+    "objective_value": 67.240731871,
+    "wall_s": 13.866221189000001
+  },
+  {
+    "signature": "32c9ee3f5b15ea133dbbf6a174ec941f54d87fe5ab6588297e32fc4b9cd1b1d4",
+    "objective_value": 67.182083885,
+    "wall_s": 20.493927464000002
+  },
+  {
+    "signature": "088d01324aa6fbc804c93763858f89abda94473baf27f78811b70779a8c0c1f9",
+    "objective_value": 67.018818338,
+    "wall_s": 21.71245214
+  },
+  {
+    "signature": "d9751ba3527d97afa8120548983f18bc77ef1532310c35fefaabff40d0a41312",
+    "objective_value": 66.967069889,
+    "wall_s": 30.404519163000003
+  },
+  {
+    "signature": "65ab063d9337d0420f755386b9469d1258b43d5da7d3bd482eb88c15ca2c62d8",
+    "objective_value": 66.871167464,
+    "wall_s": 31.574566868
+  },
+  {
+    "signature": "9a304078cec9edbdcf47d1dc96982fb73bce9865c9a731382f721259c3f64e39",
+    "objective_value": 66.750259082,
+    "wall_s": 34.363143127
+  },
+  {
+    "signature": "e3b4b20ab8a2e92ec1f1257a089a69a316ffb8b41f5a3ccd8c67bdb0cd208982",
+    "objective_value": 66.742743495,
+    "wall_s": 35.233117424
+  },
+  {
+    "signature": "e076e01d5edb3e0b0fff67707da76500e418bb6fa0ae6188604f02ffe6bfc163",
+    "objective_value": 66.551896365,
+    "wall_s": 67.63704924800001
+  }
+]

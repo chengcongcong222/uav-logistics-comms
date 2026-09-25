@@ -1,0 +1,9 @@
+{
+  "id": "F13_C2_SITE_B6500_RELAY_00_Q3",
+  "time_increment_s": 91.89999999999964,
+  "energy_saving_kwh": 3.6933454968008164,
+  "energy_saving_percent": 4.993863546519296,
+  "transport_sorties_reduction": 3,
+  "status": "RECOMMENDATION_ONLY_NOT_OFFICIAL_MAIN",
+  "criterion": "Smallest declared non-anchor epsilon budget (6250s), then minimum observed transport sorties and energy"
+}

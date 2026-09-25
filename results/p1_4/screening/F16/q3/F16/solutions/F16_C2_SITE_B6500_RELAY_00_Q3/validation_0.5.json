@@ -1,0 +1,74 @@
+{
+  "Gamma_C_db": 0.0,
+  "minimum_twohop_robust_slack_db": 0.4692401324579123,
+  "pareto_id": "F16",
+  "status": "P1_Q3_INDEPENDENTLY_VALIDATED",
+  "step_s": 0.5,
+  "hard_violations": 0,
+  "uncovered_sample_count": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "full_flight_samples": 69846,
+  "direct_samples": 44650,
+  "relayed_samples": 25196,
+  "relay_sorties": 3,
+  "full_flight_boundary_refinements": 464,
+  "boundary_refinement_s": 0.1,
+  "relay_ids": [
+    "R01",
+    "R02"
+  ],
+  "energy_components": [
+    "REC-01",
+    "REC-02",
+    "REC-03"
+  ],
+  "minimum_relay_energy_margin_kwh": 0.7856475212863439,
+  "minimum_twohop_margin_db": 0.4692401324579123,
+  "runtime_s": 27.06771035299994,
+  "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+  "J_late": 0.0,
+  "J_norm": 0.4806827228240138,
+  "transport_energy_kwh": 68.24867929527107,
+  "transport_makespan_s": 6140.574861971583,
+  "transport_sorties": 25,
+  "minimum_transport_energy_margin_kwh": 0.2471029920028247,
+  "hard_deadline_violations": 0,
+  "margin_distribution_db": {
+    "direct_active_path": {
+      "0": 0.00015175305729719923,
+      "0.01": 0.2450277671353807,
+      "0.05": 1.8648285353808234,
+      "0.25": 6.275839693377453,
+      "0.5": 17.7391065488598,
+      "0.75": 31.595714933577874,
+      "0.95": 50.75668985288084,
+      "1": 201.94577516576788
+    },
+    "relayed_active_path": {
+      "0": 0.4692401324579123,
+      "0.01": 0.4692401324579123,
+      "0.05": 1.6436388661920631,
+      "0.25": 3.4411238617578626,
+      "0.5": 6.641163065701633,
+      "0.75": 10.01648148125875,
+      "0.95": 12.013046017570645,
+      "1": 16.177909036830457
+    }
+  },
+  "artifact_sha256": {
+    "results/p1_4/screening/F16/q3/F16/solutions/F16_C2_SITE_B6500_RELAY_00_Q3/transport_sorties_F16.csv": "fc04a4834cd1b3fa908baa39fe6152e7c5a0ace71251e71b9dc9dc52d355607e",
+    "results/p1_4/screening/F16/q3/F16/solutions/F16_C2_SITE_B6500_RELAY_00_Q3/box_delivery_F16.csv": "b403c1a01eaac5fccbd28dd5f4c2d2ec7b690c0f0a84bf1147cd2eb88ee6c8af",
+    "results/p1_4/screening/F16/q3/F16/solutions/F16_C2_SITE_B6500_RELAY_00_Q3/transport_shifts_F16.csv": "89fad6bae5b33f7a88bd6b70580b718f8a60581eaceb17a0ee497d03b5a6b570",
+    "results/p1_4/screening/F16/q3/F16/solutions/F16_C2_SITE_B6500_RELAY_00_Q3/transport_uav_calendar_F16.csv": "fae9d526ad77a7e445ed9c62475a83fc4a35538be8584fec3b8c115ef7ced457",
+    "results/p1_4/screening/F16/q3/F16/solutions/F16_C2_SITE_B6500_RELAY_00_Q3/transport_battery_calendar_F16.csv": "5850ff470c511686ae0411b2c7d2c4f6270b775d6f3a4ea0215d5a032d7cf43f",
+    "results/p1_4/screening/F16/q3/F16/solutions/F16_C2_SITE_B6500_RELAY_00_Q3/relay_sorties_F16.csv": "5f4c1e36fafc63c916fd0c6273d438c4f73ddbf09fc1296abcdd7ab0a7d08608",
+    "results/p1_4/screening/F16/q3/F16/solutions/F16_C2_SITE_B6500_RELAY_00_Q3/relay_uav_calendar_F16.csv": "d6216b284eb1735a2a7483edc1a972ead280b31c42d5165a879574ce7512a1eb",
+    "results/p1_4/screening/F16/q3/F16/solutions/F16_C2_SITE_B6500_RELAY_00_Q3/relay_energy_calendar_F16.csv": "164bd64b09857964c5bea6e5d82a4c93973e86154c1eb8eddb0b683dda8c0676",
+    "results/p1_4/screening/F16/q3/F16/solutions/F16_C2_SITE_B6500_RELAY_00_Q3/communication_guarantee_F16.csv": "a8b5991b57c11318afaa56350a90c30df0fea4abefe6850443a7e60729f2c0ab",
+    "results/p1_4/screening/F16/q3/F16/solutions/F16_C2_SITE_B6500_RELAY_00_Q3/candidate_sites_F16.csv": "67fc00cb6aecc8f1c39bea933eb9b40db74a682902bbed2bd68e3de69f82abfc",
+    "results/p1_4/screening/F16/q3/F16/solutions/F16_C2_SITE_B6500_RELAY_00_Q3/guarded_selected_pairs_F16.csv": "fd9d126f3f47604aef9c39b06881aaeee911019b0331d233fc96e830785a43a3",
+    "results/p1_4/screening/F16/q3/F16/solutions/F16_C2_SITE_B6500_RELAY_00_Q3/scenario.json": "d76e10ec96f726031af74d51644c4b8e85f08207a7f5a5fb1e24f243d3891b04",
+    "results/p1_4/screening/F16/q3/F16/solutions/F16_C2_SITE_B6500_RELAY_00_Q3/guarded_atomic_tasks.csv": "c9a15b5a1de2cc1d2d30c5379585a90f36ff55057b4e33e5bf7f24cef4202a0b",
+    "results/p1_4/screening/F16/q3/F16/solutions/F16_C2_SITE_B6500_RELAY_00_Q3/joint_metrics_F16.json": "d3a695f01574fb04ea0bda8e30ea18b99e061f8ead38a150866cb9a3b1410a7c"
+  }
+}

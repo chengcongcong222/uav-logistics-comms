@@ -1,0 +1,22 @@
+[
+  {
+    "signature": "4ec7af6a56b425b0015d46056c71737406ec117c272e2ce1fcc53430ae6ac68a",
+    "objective_value": 27.0,
+    "wall_s": 4.8876082620000005
+  },
+  {
+    "signature": "99da6da6383b53f9a7317e57c7be6b432a2aed843d4f12a2dbab59688d489f08",
+    "objective_value": 26.0,
+    "wall_s": 8.253344098000001
+  },
+  {
+    "signature": "a26e23cbea234db27362dc273a9e6ee4e55c24c1207be96c9ac3830e87af8031",
+    "objective_value": 25.0,
+    "wall_s": 9.025983344
+  },
+  {
+    "signature": "06eae14d37c9109081c21798e197bb1230ebd4c0209888c6aa8c401106fcbbf9",
+    "objective_value": 24.0,
+    "wall_s": 9.439868707
+  }
+]

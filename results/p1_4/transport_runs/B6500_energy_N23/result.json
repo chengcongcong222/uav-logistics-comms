@@ -1,0 +1,17 @@
+{
+  "name": "B6500_energy_N23",
+  "status": "FEASIBLE",
+  "incumbent": 66.551896365,
+  "raw_grid_bound": 63.484333242,
+  "gap": 0.04609279811015655,
+  "cpu_s": 286.42379514,
+  "wall_s": 76.33654540099997,
+  "nodes": 748469,
+  "conflicts": 63430,
+  "iterations": null,
+  "structure_count": 12,
+  "count": 23,
+  "cap_s": 6500,
+  "axis": "energy",
+  "full_Q3_optimality_proven": false
+}

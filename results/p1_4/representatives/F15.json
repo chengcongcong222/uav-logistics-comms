@@ -1,0 +1,206 @@
+{
+  "id": "F15",
+  "origin": "B6155_sorties",
+  "signature": "92ff581873305359c0ec7e54584efebe593c23f9327bd342503d238f90bf341d",
+  "trips": [
+    {
+      "pattern": 17,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 30,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 41,
+      "copy": 0,
+      "start_units": 11
+    },
+    {
+      "pattern": 59,
+      "copy": 0,
+      "start_units": 16922
+    },
+    {
+      "pattern": 70,
+      "copy": 0,
+      "start_units": 37089
+    },
+    {
+      "pattern": 79,
+      "copy": 0,
+      "start_units": 14942
+    },
+    {
+      "pattern": 115,
+      "copy": 0,
+      "start_units": 38001
+    },
+    {
+      "pattern": 126,
+      "copy": 0,
+      "start_units": 30410
+    },
+    {
+      "pattern": 132,
+      "copy": 0,
+      "start_units": 27178
+    },
+    {
+      "pattern": 137,
+      "copy": 0,
+      "start_units": 42631
+    },
+    {
+      "pattern": 151,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 157,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 162,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 175,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 211,
+      "copy": 0,
+      "start_units": 38644
+    },
+    {
+      "pattern": 222,
+      "copy": 0,
+      "start_units": 42340
+    },
+    {
+      "pattern": 224,
+      "copy": 0,
+      "start_units": 13135
+    },
+    {
+      "pattern": 233,
+      "copy": 0,
+      "start_units": 18324
+    },
+    {
+      "pattern": 258,
+      "copy": 0,
+      "start_units": 0
+    },
+    {
+      "pattern": 270,
+      "copy": 0,
+      "start_units": 12073
+    },
+    {
+      "pattern": 282,
+      "copy": 0,
+      "start_units": 19228
+    },
+    {
+      "pattern": 925,
+      "copy": 0,
+      "start_units": 34873
+    },
+    {
+      "pattern": 2151,
+      "copy": 0,
+      "start_units": 13135
+    },
+    {
+      "pattern": 2628,
+      "copy": 0,
+      "start_units": 37926
+    },
+    {
+      "pattern": 2693,
+      "copy": 0,
+      "start_units": 20049
+    }
+  ],
+  "pattern_occurrences": [
+    17,
+    30,
+    41,
+    59,
+    70,
+    79,
+    115,
+    126,
+    132,
+    137,
+    151,
+    157,
+    162,
+    175,
+    211,
+    222,
+    224,
+    233,
+    258,
+    270,
+    282,
+    925,
+    2151,
+    2628,
+    2693
+  ],
+  "metrics": {
+    "J_late": 0.0,
+    "J_norm": 0.4694705369128165,
+    "makespan": 6101.161066593163,
+    "energy": 70.61524487451645,
+    "sorties": 25,
+    "source": "F15",
+    "global_optimum_proven": false
+  },
+  "package": "results/p1_4/q2/pareto_schedules/F15",
+  "validation_status": "XB1_Q2_INDEPENDENTLY_VALIDATED",
+  "validation_sha256": "7f75b43f1867cada7ceaa4b9c9eed5a0493afa24bcc4c282c06d0bdd9fd1c1c9",
+  "validation_cpu_s": 0.6782877410000765,
+  "transport_workload_lower_bound_s": 6082.518548959527,
+  "typed_loads": [
+    {
+      "type": "A",
+      "uavs": 4,
+      "batteries": 6,
+      "sorties": 12,
+      "uav_occupation_s": 22200.84171175823,
+      "battery_occupation_s": 31646.994762101356,
+      "uav_workload_lower_bound_s": 5550.210427939557,
+      "battery_workload_lower_bound_s": 3883.687219610502
+    },
+    {
+      "type": "B",
+      "uavs": 2,
+      "batteries": 4,
+      "sorties": 7,
+      "uav_occupation_s": 11653.940091881754,
+      "battery_occupation_s": 19809.213784472042,
+      "uav_workload_lower_bound_s": 5826.970045940877,
+      "battery_workload_lower_bound_s": 3092.9498546270834
+    },
+    {
+      "type": "C",
+      "uavs": 2,
+      "batteries": 4,
+      "sorties": 6,
+      "uav_occupation_s": 12165.037097919056,
+      "battery_occupation_s": 22250.101375534985,
+      "uav_workload_lower_bound_s": 6082.518548959528,
+      "battery_workload_lower_bound_s": 3062.7824042178445
+    }
+  ],
+  "scope": "Any schedule of this fixed transport box/visit/type structure, independent of relay grouping"
+}

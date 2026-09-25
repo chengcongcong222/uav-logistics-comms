@@ -1,0 +1,98 @@
+[
+  {
+    "pid": "F18",
+    "site_masks": 40,
+    "minimum_distinct_sites": 3,
+    "relay_sorties_lower_bound": 3,
+    "example_cover": [
+      "E52_0c56c0f390b777971f9a7e58",
+      "E52_189eb019491ad876aa165071",
+      "E52_2e64690809088e2a96fb2160"
+    ],
+    "scope": "Full frozen task-site relation, unsplit atoms; necessary flight-count bound, arbitrary timing. Exact <=3 site set-cover enumeration, not a makespan proof."
+  },
+  {
+    "pid": "F04",
+    "site_masks": 29,
+    "minimum_distinct_sites": 3,
+    "relay_sorties_lower_bound": 3,
+    "example_cover": [
+      "E52_0c56c0f390b777971f9a7e58",
+      "E52_189eb019491ad876aa165071",
+      "E52_2e64690809088e2a96fb2160"
+    ],
+    "scope": "Full frozen task-site relation, unsplit atoms; necessary flight-count bound, arbitrary timing. Exact <=3 site set-cover enumeration, not a makespan proof."
+  },
+  {
+    "pid": "F12",
+    "site_masks": 39,
+    "minimum_distinct_sites": 3,
+    "relay_sorties_lower_bound": 3,
+    "example_cover": [
+      "E52_0c56c0f390b777971f9a7e58",
+      "E52_189eb019491ad876aa165071",
+      "E52_2e64690809088e2a96fb2160"
+    ],
+    "scope": "Full frozen task-site relation, unsplit atoms; necessary flight-count bound, arbitrary timing. Exact <=3 site set-cover enumeration, not a makespan proof."
+  },
+  {
+    "pid": "F05",
+    "site_masks": 32,
+    "minimum_distinct_sites": 3,
+    "relay_sorties_lower_bound": 3,
+    "example_cover": [
+      "E52_0c56c0f390b777971f9a7e58",
+      "E52_189eb019491ad876aa165071",
+      "E52_2e64690809088e2a96fb2160"
+    ],
+    "scope": "Full frozen task-site relation, unsplit atoms; necessary flight-count bound, arbitrary timing. Exact <=3 site set-cover enumeration, not a makespan proof."
+  },
+  {
+    "pid": "F13",
+    "site_masks": 40,
+    "minimum_distinct_sites": 3,
+    "relay_sorties_lower_bound": 3,
+    "example_cover": [
+      "E52_0c56c0f390b777971f9a7e58",
+      "E52_189eb019491ad876aa165071",
+      "E52_2e64690809088e2a96fb2160"
+    ],
+    "scope": "Full frozen task-site relation, unsplit atoms; necessary flight-count bound, arbitrary timing. Exact <=3 site set-cover enumeration, not a makespan proof."
+  },
+  {
+    "pid": "F02",
+    "site_masks": 41,
+    "minimum_distinct_sites": 3,
+    "relay_sorties_lower_bound": 3,
+    "example_cover": [
+      "E52_0c56c0f390b777971f9a7e58",
+      "E52_189eb019491ad876aa165071",
+      "E52_2e64690809088e2a96fb2160"
+    ],
+    "scope": "Full frozen task-site relation, unsplit atoms; necessary flight-count bound, arbitrary timing. Exact <=3 site set-cover enumeration, not a makespan proof."
+  },
+  {
+    "pid": "F16",
+    "site_masks": 38,
+    "minimum_distinct_sites": 3,
+    "relay_sorties_lower_bound": 3,
+    "example_cover": [
+      "E52_0c56c0f390b777971f9a7e58",
+      "E52_189eb019491ad876aa165071",
+      "E52_2e64690809088e2a96fb2160"
+    ],
+    "scope": "Full frozen task-site relation, unsplit atoms; necessary flight-count bound, arbitrary timing. Exact <=3 site set-cover enumeration, not a makespan proof."
+  },
+  {
+    "pid": "F01",
+    "site_masks": 35,
+    "minimum_distinct_sites": 3,
+    "relay_sorties_lower_bound": 3,
+    "example_cover": [
+      "E52_0c56c0f390b777971f9a7e58",
+      "E52_189eb019491ad876aa165071",
+      "E52_2e64690809088e2a96fb2160"
+    ],
+    "scope": "Full frozen task-site relation, unsplit atoms; necessary flight-count bound, arbitrary timing. Exact <=3 site set-cover enumeration, not a makespan proof."
+  }
+]

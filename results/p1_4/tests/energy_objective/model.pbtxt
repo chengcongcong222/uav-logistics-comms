@@ -1,0 +1,21 @@
+variables { name: "column_0" domain: [0, 1] }
+variables { name: "column_1" domain: [0, 1] }
+constraints {
+  linear {
+    vars: [0, 1]
+    coeffs: [1, 1]
+    domain: [1, 1]
+  }
+}
+constraints {
+  linear {
+    vars: [0, 1]
+    coeffs: [1, 1]
+    domain: [-9223372036854775808, 3]
+  }
+}
+objective {
+  vars: [0, 1]
+  scaling_factor: 1
+  coeffs: [2000000, 700000]
+}

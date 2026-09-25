@@ -1,0 +1,234 @@
+{
+  "pid": "F12",
+  "witnesses": [
+    {
+      "id": "F12_C2_SITE_B6500_RELAY_00_Q3",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.47479476695526196,
+        "joint_makespan_s": 6153.893309522221,
+        "transport_energy_kwh": 70.60151573926277,
+        "relay_energy_kwh": 2.932248202503427,
+        "total_energy_kwh": 73.5337639417662,
+        "transport_sorties": 26,
+        "relay_sorties": 3,
+        "total_transport_shift_s": -1321.1000000000001,
+        "total_absolute_transport_shift_s": 30639.5,
+        "max_transport_shift_s": 2199.8,
+        "minimum_M_E_kwh": 1.1850700039252324
+      },
+      "cap_s": 6500.0,
+      "package": "results/p1_4/screening/F12/q3/F12/solutions/F12_C2_SITE_B6500_RELAY_00_Q3",
+      "validation": {
+        "Gamma_C_db": 0.0,
+        "minimum_twohop_robust_slack_db": 0.4692401324579123,
+        "pareto_id": "F12",
+        "status": "E8_PLAN_INDEPENDENTLY_VALIDATED",
+        "step_s": 0.5,
+        "hard_violations": 0,
+        "uncovered_sample_count": 0,
+        "communication_uncovered_duration_s": 0.0,
+        "full_flight_samples": 72838,
+        "direct_samples": 46554,
+        "relayed_samples": 26284,
+        "relay_sorties": 3,
+        "full_flight_boundary_refinements": 495,
+        "boundary_refinement_s": 0.1,
+        "relay_ids": [
+          "R01",
+          "R02"
+        ],
+        "energy_components": [
+          "REC-01",
+          "REC-02",
+          "REC-03"
+        ],
+        "minimum_relay_energy_margin_kwh": 1.1850700039252324,
+        "minimum_twohop_margin_db": 0.4692401324579123,
+        "runtime_s": 36.55328522299999,
+        "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+        "J_late": 0.0,
+        "J_norm": 0.474794766955262,
+        "transport_energy_kwh": 70.60151573926278,
+        "transport_makespan_s": 6101.161066593163,
+        "transport_sorties": 26,
+        "minimum_transport_energy_margin_kwh": 0.2471029920028247,
+        "hard_deadline_violations": 0,
+        "margin_distribution_db": {
+          "direct_active_path": {
+            "0": 3.231746354970255e-07,
+            "0.01": 0.22361798093943575,
+            "0.05": 1.8607037935303459,
+            "0.25": 7.5359695246423914,
+            "0.5": 17.93238183606778,
+            "0.75": 31.70696066299787,
+            "0.95": 50.713958534249564,
+            "1": 201.94577516576788
+          },
+          "relayed_active_path": {
+            "0": 0.4692401324579123,
+            "0.01": 0.4692401324579123,
+            "0.05": 0.6683873012807737,
+            "0.25": 2.7678218309538885,
+            "0.5": 3.8094716871601975,
+            "0.75": 4.640389078516122,
+            "0.95": 10.01648148125875,
+            "1": 10.01648148125875
+          }
+        },
+        "artifact_sha256": {
+          "results/p1_4/screening/F12/q3/F12/solutions/F12_C2_SITE_B6500_RELAY_00_Q3/transport_sorties_F12.csv": "cca61c7ab5b6fb134b4b62459c08e8e028839cf75c282361ff59ddcf72ecda09",
+          "results/p1_4/screening/F12/q3/F12/solutions/F12_C2_SITE_B6500_RELAY_00_Q3/box_delivery_F12.csv": "b773c9191835ea6b63c20305f91b9248c2bba73a38e59045f2164e9b73dfb6cc",
+          "results/p1_4/screening/F12/q3/F12/solutions/F12_C2_SITE_B6500_RELAY_00_Q3/transport_shifts_F12.csv": "394e486cb9a896652ed89b6e6780ea3615174d41235789463b4e953177d5bc27",
+          "results/p1_4/screening/F12/q3/F12/solutions/F12_C2_SITE_B6500_RELAY_00_Q3/transport_uav_calendar_F12.csv": "3114accc376075d35c2928c30698f407c1e8d02ec590bfe9e25d97b3efdd1c4e",
+          "results/p1_4/screening/F12/q3/F12/solutions/F12_C2_SITE_B6500_RELAY_00_Q3/transport_battery_calendar_F12.csv": "4f0e26b8d162ff308bd80a4a0be5d9712a6a65cfb8dc7b84648c1ba1c9f2c62f",
+          "results/p1_4/screening/F12/q3/F12/solutions/F12_C2_SITE_B6500_RELAY_00_Q3/relay_sorties_F12.csv": "ea8fb8cd5f7e8a8b889ae71f9a4bce92b0ebd752173f54bc4aa81a93263f5a46",
+          "results/p1_4/screening/F12/q3/F12/solutions/F12_C2_SITE_B6500_RELAY_00_Q3/relay_uav_calendar_F12.csv": "38fdbb8a84d261c81deb02d56e9ad2884711aff0498fce9596fb26148a99f9be",
+          "results/p1_4/screening/F12/q3/F12/solutions/F12_C2_SITE_B6500_RELAY_00_Q3/relay_energy_calendar_F12.csv": "3d610354e07ea8b4ed7b001412c03fd1fdabfd712f536073f0f5e15ff4ab4b3f",
+          "results/p1_4/screening/F12/q3/F12/solutions/F12_C2_SITE_B6500_RELAY_00_Q3/communication_guarantee_F12.csv": "73969e6bc9c91eb4a4b04da504cda99f0280d828f5543c6e38089138f72d7a6f",
+          "results/p1_4/screening/F12/q3/F12/solutions/F12_C2_SITE_B6500_RELAY_00_Q3/candidate_sites_F12.csv": "55a5e521dcda3e19e648080e800916100a8c2a9d6f63414937d94537bb31098c",
+          "results/p1_4/screening/F12/q3/F12/solutions/F12_C2_SITE_B6500_RELAY_00_Q3/guarded_selected_pairs_F12.csv": "42829731c5d307d94fdf6c8920577ccb6e3a3c40c34659792f015ef72760ee3e",
+          "results/p1_4/screening/F12/q3/F12/solutions/F12_C2_SITE_B6500_RELAY_00_Q3/scenario.json": "d67ba7a2b5a599fb9efb431feadefd69420e66630618425b32acf441aebdb19b",
+          "results/p1_4/screening/F12/q3/F12/solutions/F12_C2_SITE_B6500_RELAY_00_Q3/guarded_atomic_tasks.csv": "f37531b79669a4f443ba94d6d29ddb834f326d395049c6edcf66bd70de7ebaa3",
+          "results/p1_4/screening/F12/q3/F12/solutions/F12_C2_SITE_B6500_RELAY_00_Q3/joint_metrics_F12.json": "0876023a77a7a9009a48960ef86ebfa5e69425d4d6fb3394aa3edfbcb7c31bc9"
+        }
+      },
+      "validation_sha256": "994706d3c068799ef291b53d29f759a59020017da0ea75ccec80bff79a911d5c"
+    }
+  ],
+  "iterations": [
+    {
+      "iteration": 0,
+      "master": {
+        "status": "OPTIMAL",
+        "incumbent": 6154.0,
+        "dual_bound": 6154.0,
+        "gap": 0.0,
+        "cpu_s": 20.451658907000024,
+        "wall_s": 6.154750983000099,
+        "nodes": 936639,
+        "conflicts": 15077,
+        "iterations": null,
+        "valid_necessary_cuts": 2,
+        "heuristic_timing_boxes_excluded": 0,
+        "shifts": {
+          "M001": 0.0,
+          "M002": 0.0,
+          "M003": 1313.6,
+          "M004": 0.0,
+          "M005": 7.799999999999727,
+          "M006": 2199.8,
+          "M007": 0.0,
+          "M008": 1343.6000000000004,
+          "M009": 1558.5,
+          "M010": 66.29999999999927,
+          "M011": -1655.0,
+          "M012": 1510.5,
+          "M013": 1162.1,
+          "M014": 613.1999999999998,
+          "M015": 1989.2,
+          "M016": 675.7,
+          "M017": -2370.2,
+          "M018": -1516.1999999999998,
+          "M019": -2371.6,
+          "M020": 0.1,
+          "M021": -4937.2,
+          "M022": 1869.8,
+          "M023": -1207.3,
+          "M024": -1922.8,
+          "M025": 348.9000000000001,
+          "M026": 0.09999999999990905
+        },
+        "scope": "Conservative 0.1s transport grid; joint-completion necessary envelope plus unsplit-atom relay cuts; no full relay schedule",
+        "full_continuous_Q3_bound": false,
+        "seed": 26092511,
+        "workers": 4,
+        "response_stats": "CpSolverResponse summary:\nstatus: OPTIMAL\nobjective: 61540\nbest_bound: 61540\nintegers: 121\nbooleans: 19972\nconflicts: 15077\nbranches: 936639\npropagations: 24832193\ninteger_propagations: 2741169\nrestarts: 35212\nlp_iterations: 0\nwalltime: 6.15196\nusertime: 6.15196\ndeterministic_time: 12.075\ngap_integral: 18.7561\nsolution_fingerprint: 0x31616dfeddda535d\n",
+        "site_assignment_relaxation": true,
+        "site_assignment_scope": "Exact site and 2-UAV atom assignment in conservative grid; same-site atoms may share an unlimited-energy flight. Energy and component calendars relaxed, pricing validates them.",
+        "relay_guidance": [
+          {
+            "relay_index": 0,
+            "site_id": "E52_cdef0b479e00ae29ebd83132",
+            "task_ids": [
+              "F12_M003_G00",
+              "F12_M004_G00",
+              "F12_M007_G00",
+              "F12_M008_G00",
+              "F12_M009_G00",
+              "F12_M017_G00",
+              "F12_M022_G00"
+            ]
+          },
+          {
+            "relay_index": 1,
+            "site_id": "E52_189eb019491ad876aa165071",
+            "task_ids": [
+              "F12_M005_G00",
+              "F12_M006_G00",
+              "F12_M008_G01",
+              "F12_M008_G02",
+              "F12_M009_G01",
+              "F12_M009_G02",
+              "F12_M010_G00",
+              "F12_M010_G01",
+              "F12_M010_G02",
+              "F12_M014_G00",
+              "F12_M015_G00",
+              "F12_M016_G00",
+              "F12_M018_G00",
+              "F12_M025_G00",
+              "F12_M026_G00"
+            ]
+          },
+          {
+            "relay_index": 1,
+            "site_id": "E52_beb70ec57fd2d66bf65b827f",
+            "task_ids": [
+              "F12_M019_G00",
+              "F12_M020_G00",
+              "F12_M023_G00",
+              "F12_M024_G00"
+            ]
+          }
+        ]
+      },
+      "new_valid_cuts": [],
+      "relay_result": "results/p1_4/screening/F12/C2_SITE_B6500_RELAY_00/result.json",
+      "action": "INDEPENDENTLY_VALIDATED"
+    }
+  ],
+  "valid_cuts": [
+    {
+      "tasks": [
+        "F12_M007_G00",
+        "F12_M024_G00",
+        "F12_M025_G00"
+      ],
+      "mandatory_overlap": [
+        4030.47056085286,
+        4112.654713587911
+      ],
+      "all_site_two_cover_impossible": true,
+      "scope": "118_SITES_UNSPLIT_ATOMIC_TASK_SINGLE_SORTIE_SERVICE",
+      "proof": "Each task forces its serving UAV to occupy its mandatory interval. Two UAVs can serve at most two sites; exhaustive two-site union cannot cover these tasks."
+    },
+    {
+      "tasks": [
+        "F12_M007_G00",
+        "F12_M024_G00",
+        "F12_M026_G00"
+      ],
+      "mandatory_overlap": [
+        4068.222900751419,
+        4112.654713587911
+      ],
+      "all_site_two_cover_impossible": true,
+      "scope": "118_SITES_UNSPLIT_ATOMIC_TASK_SINGLE_SORTIE_SERVICE",
+      "proof": "Each task forces its serving UAV to occupy its mandatory interval. Two UAVs can serve at most two sites; exhaustive two-site union cannot cover these tasks."
+    }
+  ],
+  "heuristic_tabus": [],
+  "infeasibility_proven": false,
+  "cut_scope": "Unsplit atomic tasks and 118 frozen sites; no solver timeout used as infeasibility cut"
+}

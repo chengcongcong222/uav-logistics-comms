@@ -1,0 +1,21 @@
+{
+  "status": "INFEASIBLE",
+  "incumbent": null,
+  "dual_bound": 0.0,
+  "gap": null,
+  "cpu_s": 1.7687600399999894,
+  "wall_s": 1.1878577850000056,
+  "nodes": 10277,
+  "conflicts": 4,
+  "iterations": null,
+  "valid_necessary_cuts": 0,
+  "heuristic_timing_boxes_excluded": 0,
+  "shifts": null,
+  "scope": "Conservative 0.1s transport grid; joint-completion necessary envelope plus unsplit-atom relay cuts; no full relay schedule",
+  "full_continuous_Q3_bound": false,
+  "seed": 26092511,
+  "workers": 4,
+  "response_stats": "CpSolverResponse summary:\nstatus: INFEASIBLE\nobjective: NA\nbest_bound: NA\nintegers: 102\nbooleans: 5140\nconflicts: 4\nbranches: 10277\npropagations: 1176768\ninteger_propagations: 192285\nrestarts: 10277\nlp_iterations: 0\nwalltime: 1.18525\nusertime: 1.18525\ndeterministic_time: 1.13649\ngap_integral: 0\n",
+  "site_assignment_relaxation": true,
+  "site_assignment_scope": "Exact site and 2-UAV atom assignment in conservative grid; same-site atoms may share an unlimited-energy flight. Energy and component calendars relaxed, pricing validates them."
+}

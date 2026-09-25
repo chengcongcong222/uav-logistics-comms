@@ -1,0 +1,94 @@
+[
+  {
+    "cap_s": 6155,
+    "eligible": 3,
+    "lexicographic_best_known_id": "F12_C2_SITE_B6500_RELAY_00_Q3",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.47479476695526196,
+      "joint_makespan_s": 6153.893309522221,
+      "transport_energy_kwh": 70.60151573926277,
+      "relay_energy_kwh": 2.932248202503427,
+      "total_energy_kwh": 73.5337639417662,
+      "transport_sorties": 26,
+      "relay_sorties": 3,
+      "total_transport_shift_s": -1321.1000000000001,
+      "total_absolute_transport_shift_s": 30639.5,
+      "max_transport_shift_s": 2199.8,
+      "minimum_M_E_kwh": 1.1850700039252324
+    },
+    "minimum_observed_energy_id": "F12_C2_SITE_B6500_RELAY_00_Q3",
+    "minimum_transport_sorties_proven": false,
+    "minimum_total_energy_proven": false,
+    "scope": "Within this finite independently validated archive, not all pool structures"
+  },
+  {
+    "cap_s": 6250,
+    "eligible": 6,
+    "lexicographic_best_known_id": "F13_C2_SITE_B6500_RELAY_00_Q3",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.47326486271966883,
+      "joint_makespan_s": 6245.793309522221,
+      "transport_energy_kwh": 67.31232479383984,
+      "relay_energy_kwh": 2.9520072148863994,
+      "total_energy_kwh": 70.26433200872623,
+      "transport_sorties": 24,
+      "relay_sorties": 3,
+      "total_transport_shift_s": 1790.4999999999995,
+      "total_absolute_transport_shift_s": 8872.9,
+      "max_transport_shift_s": 2243.1,
+      "minimum_M_E_kwh": 1.2298212192030107
+    },
+    "minimum_observed_energy_id": "F13_C2_SITE_B6500_RELAY_00_Q3",
+    "minimum_transport_sorties_proven": false,
+    "minimum_total_energy_proven": false,
+    "scope": "Within this finite independently validated archive, not all pool structures"
+  },
+  {
+    "cap_s": 6350,
+    "eligible": 7,
+    "lexicographic_best_known_id": "F18_C2_SITE_3PAIR_B6500_RELAY_00_Q3",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.4707412385640689,
+      "joint_makespan_s": 6295.712146725356,
+      "transport_energy_kwh": 66.69684988211523,
+      "relay_energy_kwh": 3.387081856781421,
+      "total_energy_kwh": 70.08393173889665,
+      "transport_sorties": 24,
+      "relay_sorties": 3,
+      "total_transport_shift_s": 1417.8999999999999,
+      "total_absolute_transport_shift_s": 11190.7,
+      "max_transport_shift_s": 2420.0,
+      "minimum_M_E_kwh": 0.7587543789252329
+    },
+    "minimum_observed_energy_id": "F18_C2_SITE_3PAIR_B6500_RELAY_00_Q3",
+    "minimum_transport_sorties_proven": false,
+    "minimum_total_energy_proven": false,
+    "scope": "Within this finite independently validated archive, not all pool structures"
+  },
+  {
+    "cap_s": 6500,
+    "eligible": 9,
+    "lexicographic_best_known_id": "F18_C2_SITE_3PAIR_B6500_RELAY_00_Q3",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.4707412385640689,
+      "joint_makespan_s": 6295.712146725356,
+      "transport_energy_kwh": 66.69684988211523,
+      "relay_energy_kwh": 3.387081856781421,
+      "total_energy_kwh": 70.08393173889665,
+      "transport_sorties": 24,
+      "relay_sorties": 3,
+      "total_transport_shift_s": 1417.8999999999999,
+      "total_absolute_transport_shift_s": 11190.7,
+      "max_transport_shift_s": 2420.0,
+      "minimum_M_E_kwh": 0.7587543789252329
+    },
+    "minimum_observed_energy_id": "F18_C2_SITE_3PAIR_B6500_RELAY_00_Q3",
+    "minimum_transport_sorties_proven": false,
+    "minimum_total_energy_proven": false,
+    "scope": "Within this finite independently validated archive, not all pool structures"
+  }
+]

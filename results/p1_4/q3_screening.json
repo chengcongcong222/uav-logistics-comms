@@ -1,0 +1,84 @@
+[
+  {
+    "pid": "F01",
+    "result": "results/p1_4/screening/F01/C2_SITE_B6500/result.json",
+    "witnesses": 0,
+    "termination": [
+      "INFEASIBLE"
+    ],
+    "zero_witness_is_not_continuous_physical_infeasibility": true
+  },
+  {
+    "pid": "F02",
+    "result": "results/p1_4/screening/F02/C2_SITE_B6500/result.json",
+    "witnesses": 1,
+    "termination": [
+      "OPTIMAL"
+    ],
+    "zero_witness_is_not_continuous_physical_infeasibility": true
+  },
+  {
+    "pid": "F04",
+    "result": "results/p1_4/screening/F04/C2_SITE_B6500/result.json",
+    "witnesses": 0,
+    "termination": [
+      "INFEASIBLE"
+    ],
+    "zero_witness_is_not_continuous_physical_infeasibility": true
+  },
+  {
+    "pid": "F05",
+    "result": "results/p1_4/screening/F05/C2_SITE_B6500/result.json",
+    "witnesses": 0,
+    "termination": [
+      "INFEASIBLE"
+    ],
+    "zero_witness_is_not_continuous_physical_infeasibility": true
+  },
+  {
+    "pid": "F12",
+    "result": "results/p1_4/screening/F12/C2_SITE_B6500/result.json",
+    "witnesses": 1,
+    "termination": [
+      "OPTIMAL"
+    ],
+    "zero_witness_is_not_continuous_physical_infeasibility": true
+  },
+  {
+    "pid": "F13",
+    "result": "results/p1_4/screening/F13/C2_SITE_B6500/result.json",
+    "witnesses": 1,
+    "termination": [
+      "OPTIMAL"
+    ],
+    "zero_witness_is_not_continuous_physical_infeasibility": true
+  },
+  {
+    "pid": "F16",
+    "result": "results/p1_4/screening/F16/C2_SITE_B6500/result.json",
+    "witnesses": 1,
+    "termination": [
+      "OPTIMAL"
+    ],
+    "zero_witness_is_not_continuous_physical_infeasibility": true
+  },
+  {
+    "pid": "F18",
+    "result": "results/p1_4/screening/F18/C2_SITE_3PAIR_B6500/result.json",
+    "witnesses": 1,
+    "termination": [
+      "OPTIMAL"
+    ],
+    "zero_witness_is_not_continuous_physical_infeasibility": true
+  },
+  {
+    "pid": "F18",
+    "result": "results/p1_4/screening/F18/C2_SITE_B6500/result.json",
+    "witnesses": 0,
+    "termination": [
+      "OPTIMAL",
+      "OPTIMAL"
+    ],
+    "zero_witness_is_not_continuous_physical_infeasibility": true
+  }
+]

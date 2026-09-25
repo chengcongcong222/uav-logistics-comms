@@ -1,0 +1,17 @@
+{
+  "name": "B6155_energy_N25",
+  "status": "FEASIBLE",
+  "incumbent": 68.248679294,
+  "raw_grid_bound": 65.761997543,
+  "gap": 0.03643560251602709,
+  "cpu_s": 290.36954500100023,
+  "wall_s": 75.07226743299998,
+  "nodes": 472443,
+  "conflicts": 73085,
+  "iterations": null,
+  "structure_count": 5,
+  "count": 25,
+  "cap_s": 6155,
+  "axis": "energy",
+  "full_Q3_optimality_proven": false
+}

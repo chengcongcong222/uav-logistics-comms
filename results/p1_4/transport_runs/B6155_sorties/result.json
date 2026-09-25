@@ -1,0 +1,17 @@
+{
+  "name": "B6155_sorties",
+  "status": "FEASIBLE",
+  "incumbent": 25.0,
+  "raw_grid_bound": 22.0,
+  "gap": 0.12,
+  "cpu_s": 283.951642795,
+  "wall_s": 75.603948672,
+  "nodes": 609813,
+  "conflicts": 93661,
+  "iterations": null,
+  "structure_count": 3,
+  "count": null,
+  "cap_s": 6155,
+  "axis": "sorties",
+  "full_Q3_optimality_proven": false
+}

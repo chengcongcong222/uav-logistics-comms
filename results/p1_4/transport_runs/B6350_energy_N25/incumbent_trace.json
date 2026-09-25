@@ -1,0 +1,92 @@
+[
+  {
+    "signature": "659176bf89c4e9cf3a9778cad513a2a2cf6a1dcedbe8204ff849b4082d012802",
+    "objective_value": 71.88434994,
+    "wall_s": 4.07100839
+  },
+  {
+    "signature": "84592f505f5f460160f4daa27ad4478f02799d2d3ece1c474055a42c494bf1a7",
+    "objective_value": 70.850928331,
+    "wall_s": 4.431919205000001
+  },
+  {
+    "signature": "42d7c47ca5e86b0258581fd7bea11528f89c4644c15295d15b931a2846ae0d71",
+    "objective_value": 70.345067706,
+    "wall_s": 4.847612471000001
+  },
+  {
+    "signature": "194056c1f75d96531e831a756a21d17d7cd2cc7fd036c0cde40f173aea555ff8",
+    "objective_value": 69.625169847,
+    "wall_s": 9.120824523000001
+  },
+  {
+    "signature": "5d150e28708f469cddb85e6391fa181658d241631da14ce559b22c853e1d8a37",
+    "objective_value": 69.373641993,
+    "wall_s": 9.748204615
+  },
+  {
+    "signature": "18147d8c3e0bf618f8ff2d23365b61388f3c3be44409d639a7e31c69b1a5baec",
+    "objective_value": 68.858584052,
+    "wall_s": 10.540928722
+  },
+  {
+    "signature": "0629baeda3e58a48824ba9d992fd531eadabe89532a7c9324a0e753c367f668c",
+    "objective_value": 68.771703903,
+    "wall_s": 10.607597685
+  },
+  {
+    "signature": "0bb7361eaeeae9cefd01e9cf052753d80e9d02da4863db68dd0d877a09552a2c",
+    "objective_value": 68.664190688,
+    "wall_s": 14.172081419000001
+  },
+  {
+    "signature": "6e37b895af063f911f7143d3fc67b90181c52759a331a75bb899afcd3cc8bd18",
+    "objective_value": 68.637604129,
+    "wall_s": 15.763713945000001
+  },
+  {
+    "signature": "198f764b8b5c0cb138211c40acc3fb69083b6d5fe2ec1a6d8a35b005e700d3f7",
+    "objective_value": 68.569431092,
+    "wall_s": 26.808533930000003
+  },
+  {
+    "signature": "578688fe5dc4ff25a8a0a5c98616405fbf3dbe42672e1859389e95454d165229",
+    "objective_value": 68.44519791,
+    "wall_s": 27.044274382
+  },
+  {
+    "signature": "b6e4f55ccbce5d6487cfdaa881556b5fb52b2624f77058c0b6f25dfed9c04eaf",
+    "objective_value": 68.356275838,
+    "wall_s": 27.160239323000003
+  },
+  {
+    "signature": "eb2d3d0da74dcff4a5742b25bdbc1120e8f0ee7496e9edefa57fc3df192dfcc4",
+    "objective_value": 68.340169606,
+    "wall_s": 29.460295888
+  },
+  {
+    "signature": "f257a5fa1995ac894107c626cd69b07f66f75cb84fcefacf78e32639dd412591",
+    "objective_value": 68.335461039,
+    "wall_s": 35.859689049
+  },
+  {
+    "signature": "c0283c21c2abf2bc4fac695659d93d5d2fbcf7f910ade94b1df65249d0b67252",
+    "objective_value": 68.172195492,
+    "wall_s": 62.4547402
+  },
+  {
+    "signature": "6facf421a90fd324b97d5c0d5323783cc9b86d29f9fc2f5c0ebfb3223ff47733",
+    "objective_value": 68.090570825,
+    "wall_s": 63.191331472
+  },
+  {
+    "signature": "28c85d032c732905f81957d5dfac4277d3341e35b143384565ccdd46f39e0c12",
+    "objective_value": 67.866916523,
+    "wall_s": 67.49194987300001
+  },
+  {
+    "signature": "e12c5ee60f5fb6a75f05aa88f764781b78701f4a8781dc40c3d31f7c4f4332ee",
+    "objective_value": 67.83001715,
+    "wall_s": 71.336248708
+  }
+]
