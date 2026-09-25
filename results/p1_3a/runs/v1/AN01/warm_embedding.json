@@ -1,0 +1,268 @@
+[
+  {
+    "id": "AN01_Q3_001_CC",
+    "violation": {
+      "rows": 2.637534635141492e-11,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 0.0,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092511_003",
+    "violation": {
+      "rows": 1.8189894035458565e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 0.0,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092511_004",
+    "violation": {
+      "rows": 9.094947017729282e-13,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092511_008",
+    "violation": {
+      "rows": 9.094947017729282e-13,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092511_009",
+    "violation": {
+      "rows": 2.2737367544323206e-13,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 1.4210854715202004e-14,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092511_011",
+    "violation": {
+      "rows": 2.2737367544323206e-13,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 1.1102230246251565e-16,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092511_012",
+    "violation": {
+      "rows": 9.094947017729282e-13,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 0.0,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092511_015",
+    "violation": {
+      "rows": 9.094947017729282e-13,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 0.0,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 1.4210854715202004e-14,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092511_022",
+    "violation": {
+      "rows": 9.094947017729282e-13,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 0.0,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092511_023",
+    "violation": {
+      "rows": 2.2737367544323206e-13,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 1.6653345369377348e-16,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092512_003",
+    "violation": {
+      "rows": 1.8189894035458565e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 0.0,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092512_004",
+    "violation": {
+      "rows": 9.094947017729282e-13,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092512_008",
+    "violation": {
+      "rows": 9.094947017729282e-13,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092512_009",
+    "violation": {
+      "rows": 2.2737367544323206e-13,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 1.4210854715202004e-14,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092512_011",
+    "violation": {
+      "rows": 2.2737367544323206e-13,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 1.1102230246251565e-16,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092512_012",
+    "violation": {
+      "rows": 9.094947017729282e-13,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 0.0,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092512_015",
+    "violation": {
+      "rows": 9.094947017729282e-13,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 0.0,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 1.4210854715202004e-14,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092512_023",
+    "violation": {
+      "rows": 9.094947017729282e-13,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092512_024",
+    "violation": {
+      "rows": 2.2737367544323206e-13,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  }
+]

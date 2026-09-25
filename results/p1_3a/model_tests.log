@@ -1,0 +1,12 @@
+test_conditional_m_all_trigger_patterns (src.bench_p1_3a.test_model.ExactDomainTests.test_conditional_m_all_trigger_patterns) ... ok
+test_equality_dual_free_sign (src.bench_p1_3a.test_model.ExactDomainTests.test_equality_dual_free_sign) ... ok
+test_exact_rational_dual_stationarity_correction (src.bench_p1_3a.test_model.ExactDomainTests.test_exact_rational_dual_stationarity_correction) ... ok
+test_free_resource_order_can_reverse_reference (src.bench_p1_3a.test_model.ExactDomainTests.test_free_resource_order_can_reverse_reference) ... ok
+test_inactive_charge_is_zero (src.bench_p1_3a.test_model.ExactDomainTests.test_inactive_charge_is_zero) ... ok
+test_original_charge_graph_both_pieces (src.bench_p1_3a.test_model.ExactDomainTests.test_original_charge_graph_both_pieces) ... ok
+test_overlap_union_is_not_all_active_span (src.bench_p1_3a.test_model.ExactDomainTests.test_overlap_union_is_not_all_active_span) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.023s
+
+OK

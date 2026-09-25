@@ -1,0 +1,46 @@
+BUILD_PRIVATE_COMMUNICATION AN01
+AN01 communication_templates
+TEMPLATE AN01 M001 False
+TEMPLATE AN01 M002 False
+TEMPLATE AN01 M003 False
+TEMPLATE AN01 M004 False
+TEMPLATE AN01 M005 False
+TEMPLATE AN01 M006 False
+TEMPLATE AN01 M007 False
+TEMPLATE AN01 M008 False
+TEMPLATE AN01 M009 False
+TEMPLATE AN01 M010 False
+TEMPLATE AN01 M011 False
+TEMPLATE AN01 M012 False
+TEMPLATE AN01 M013 False
+TEMPLATE AN01 M014 False
+TEMPLATE AN01 M015 False
+TEMPLATE AN01 M016 False
+TEMPLATE AN01 M017 False
+TEMPLATE AN01 M018 False
+TEMPLATE AN01 M019 False
+TEMPLATE AN01 M020 False
+TEMPLATE AN01 M021 False
+TEMPLATE AN01 M022 False
+TEMPLATE AN01 M023 False
+TEMPLATE AN01 M024 False
+TEMPLATE AN01 M025 False
+AN01 task_site_edges
+MODEL_PASS AN01 42 4105 14187 zero_warm 19
+LP_BOUND AN01 J_norm 0.23622593871304703
+AN01 XB1_Q3_PENDING_INDEPENDENT_VALIDATION relay_sorties 5 shift 61167.94772973957
+ANCHOR_DONE AN01 J_norm UB 0.481975586528024 LB 0.30858821528103275 GAP 0.35974305772624404 status 1
+LP_BOUND AN01 joint_makespan_s 8069.140623724704
+AN01 XB1_Q3_PENDING_INDEPENDENT_VALIDATION relay_sorties 5 shift 62687.11195991612
+ANCHOR_DONE AN01 joint_makespan_s UB 8653.014191459653 LB 8069.140623724705 GAP 0.06747632152403261 status 1
+LP_BOUND AN01 total_energy_kwh 68.79987908834421
+AN01 XB1_Q3_PENDING_INDEPENDENT_VALIDATION relay_sorties 5 shift 67200.94797383809
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/ccc/projects/uav-logistics-comms/src/bench_p1_3a/run.py", line 164, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/ccc/projects/uav-logistics-comms/src/bench_p1_3a/run.py", line 137, in main
+    raise AssertionError(('Lower bound exceeds verified incumbent',args.pid,axis,bound,ub))
+AssertionError: ('Lower bound exceeds verified incumbent', 'AN01', 'total_energy_kwh', 69.94824687112558, 69.93946010877801)

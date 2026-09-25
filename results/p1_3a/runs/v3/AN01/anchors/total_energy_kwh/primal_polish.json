@@ -1,0 +1,7 @@
+{
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "cpu_s": 0.03600608699997565,
+  "primal_only": true,
+  "never_used_as_lower_bound": true
+}

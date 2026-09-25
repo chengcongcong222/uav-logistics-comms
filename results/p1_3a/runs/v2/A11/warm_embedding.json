@@ -1,0 +1,380 @@
+[
+  {
+    "id": "A11_Q3_001",
+    "violation": {
+      "rows": 2.637534635141492e-11,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 0.0,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": -1.4210854715202004e-14,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "A11_Q3_002",
+    "violation": {
+      "rows": 2.637534635141492e-11,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "A11_Q3_004_CC",
+    "violation": {
+      "rows": 2.637534635141492e-11,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 0.0,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": -1.4210854715202004e-14,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092511_001",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092511_002",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092511_005",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092511_006",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 1.1102230246251565e-16,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092511_007",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 1.1102230246251565e-16,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092511_010",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 1.1102230246251565e-16,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092511_016",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092511_017",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092511_019",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092511_020",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092511_021",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092511_024",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092512_001",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092512_002",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092512_005",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092512_006",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 1.1102230246251565e-16,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092512_007",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 1.1102230246251565e-16,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092512_010",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 1.1102230246251565e-16,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092512_016",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092512_017",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092512_020",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092512_021",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092512_022",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  },
+  {
+    "id": "D26092512_025",
+    "violation": {
+      "rows": 7.275957614183426e-12,
+      "bounds": 0.0,
+      "integrality": 0.0
+    },
+    "objective_residuals": {
+      "J_norm": 5.551115123125783e-17,
+      "joint_makespan_s": 0.0,
+      "total_energy_kwh": 0.0,
+      "relay_sorties": 0.0
+    }
+  }
+]

@@ -1,0 +1,768 @@
+{
+  "mode": "STRUCTURE_FIXED_EXACT_AUDIT",
+  "domain_type": "FINITE_DISCRETE_CANDIDATES_WITH_BOUNDED_CONTINUOUS_TIMES",
+  "base_commit": "dc49b4267c5860d8a6e10728cd629be1009cacc3",
+  "physics": "G2: UTM49N straight segments and native DEM supercover; unchanged original wireless LOS",
+  "Gamma_C_db": 0,
+  "transport_structures": [
+    "A11",
+    "AN01",
+    "A03"
+  ],
+  "new_transport_structure_in_p1_2": false,
+  "external_solution_structures_used": false,
+  "fixed": [
+    "Transport boxes per sortie, service visit order, UAV type, relative flight and delivery times, fixed transport flight energy",
+    "Atomic communication tasks from original 0.5 s sampling / 0.05 s boundary refinement / 2 s guards",
+    "Frozen 118 relay site coordinates and eligible task-site relations",
+    "Finite catalogue of (task group, endpoint order) modes: observed internal witnesses, all singletons, one-step disjoint observed-group unions in reference order",
+    "No splitting atomic tasks or handoffs inside an atom; no new sites",
+    "Transport return and relay service endpoints <= 40000 s; relay return bounded by horizon plus site flight tail"
+  ],
+  "released": [
+    "Every transport start within preparation and hard-deadline bounds",
+    "Same-type transport UAV and battery assignment and pairwise resource orders",
+    "Exact-cover selection and recombination of relay group/order modes",
+    "All energy-eligible common sites among the frozen 118 for every selected mode",
+    "Two relay UAV and six energy-component assignments and pairwise orders"
+  ],
+  "not_fixed_to_warm": [
+    "Transport machine orders",
+    "Transport battery orders",
+    "Relay UAV orders",
+    "Relay energy-component orders",
+    "Warm relay partition",
+    "Warm relay sites"
+  ],
+  "omissions": [
+    "Not all possible task subsets or all endpoint permutations are enumerated",
+    "No transport box/visit/type reconstruction; no full transport pattern pool",
+    "Numerical communication validation, not analytic continuous-trajectory proof"
+  ],
+  "resource_model": "Original immediate full recharging with exact two-piece charge graph; no additional charger-port restriction",
+  "late_hard_layer": 0.0001,
+  "objectives": [
+    "J_norm",
+    "joint_makespan_s",
+    "total_energy_kwh",
+    "relay_sorties"
+  ],
+  "transport_sorties": "Fixed constant conditional on feasibility",
+  "arbitrary_weighted_sum": false,
+  "tie_break": "Only selection among known feasible incumbents: anchor, J_norm, makespan, energy, transport, relay, ID; repeated axis removed. No secondary optimality claim.",
+  "warm_start": "External verified incumbent; v2 has no objective cutoff and supplies no primal MIP start to scipy.milp",
+  "model_coefficients": "Stored binary64 coefficients interpreted exactly as rationals for lower-bound certificates",
+  "models": [
+    {
+      "pid": "A11",
+      "variables": 4185,
+      "binary_variables": 3638,
+      "constraints": 15021,
+      "nonzero_coefficients": 78276,
+      "group_modes": 44,
+      "site_options": 1418,
+      "transport_sorties": 25,
+      "no_warm_resource_orders_fixed": true,
+      "energy": "EXACT_FIXED_ENDPOINT_ORDER_UNION",
+      "charge": "EXACT_TWO_PIECE_GRAPH",
+      "catalogue": "results/p1_3a/runs/v2/A11/group_mode_catalogue.json",
+      "catalogue_sha256": "394eae6ecd4e490ab41b473bf028c367021a5683459c22ab15efe08c3926c6c8",
+      "catalogue_origins": [
+        "ATOMIC_SINGLETON",
+        "OBSERVED_VERIFIED_MODE",
+        "ONE_STEP_DISJOINT_OBSERVED_GROUP_UNION"
+      ],
+      "warm_embedding": [
+        {
+          "id": "A11_Q3_001",
+          "violation": {
+            "rows": 2.637534635141492e-11,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 0.0,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": -1.4210854715202004e-14,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "A11_Q3_002",
+          "violation": {
+            "rows": 2.637534635141492e-11,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "A11_Q3_004_CC",
+          "violation": {
+            "rows": 2.637534635141492e-11,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 0.0,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": -1.4210854715202004e-14,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092511_001",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092511_002",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092511_005",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092511_006",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 1.1102230246251565e-16,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092511_007",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 1.1102230246251565e-16,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092511_010",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 1.1102230246251565e-16,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092511_016",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092511_017",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092511_019",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092511_020",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092511_021",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092511_024",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092512_001",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092512_002",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092512_005",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092512_006",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 1.1102230246251565e-16,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092512_007",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 1.1102230246251565e-16,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092512_010",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 1.1102230246251565e-16,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092512_016",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092512_017",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092512_020",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092512_021",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092512_022",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092512_025",
+          "violation": {
+            "rows": 7.275957614183426e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "pid": "AN01",
+      "variables": 4105,
+      "binary_variables": 3578,
+      "constraints": 14187,
+      "nonzero_coefficients": 74610,
+      "group_modes": 42,
+      "site_options": 1456,
+      "transport_sorties": 25,
+      "no_warm_resource_orders_fixed": true,
+      "energy": "EXACT_FIXED_ENDPOINT_ORDER_UNION",
+      "charge": "EXACT_TWO_PIECE_GRAPH",
+      "catalogue": "results/p1_3a/runs/v3/AN01/group_mode_catalogue.json",
+      "catalogue_sha256": "02ae3f711d751112c477bb3d636f3d7bde5552cfe0b1a786dd574508b2926dad",
+      "catalogue_origins": [
+        "ATOMIC_SINGLETON",
+        "OBSERVED_VERIFIED_MODE",
+        "ONE_STEP_DISJOINT_OBSERVED_GROUP_UNION"
+      ],
+      "warm_embedding": [
+        {
+          "id": "AN01_Q3_001_CC",
+          "violation": {
+            "rows": 2.637534635141492e-11,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 0.0,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092511_003",
+          "violation": {
+            "rows": 1.8189894035458565e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 0.0,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092511_004",
+          "violation": {
+            "rows": 9.094947017729282e-13,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092511_008",
+          "violation": {
+            "rows": 9.094947017729282e-13,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092511_009",
+          "violation": {
+            "rows": 2.2737367544323206e-13,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 1.4210854715202004e-14,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092511_011",
+          "violation": {
+            "rows": 2.2737367544323206e-13,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 1.1102230246251565e-16,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092511_012",
+          "violation": {
+            "rows": 9.094947017729282e-13,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 0.0,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092511_015",
+          "violation": {
+            "rows": 9.094947017729282e-13,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 0.0,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 1.4210854715202004e-14,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092511_022",
+          "violation": {
+            "rows": 9.094947017729282e-13,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 0.0,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092511_023",
+          "violation": {
+            "rows": 2.2737367544323206e-13,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 1.6653345369377348e-16,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092512_003",
+          "violation": {
+            "rows": 1.8189894035458565e-12,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 0.0,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092512_004",
+          "violation": {
+            "rows": 9.094947017729282e-13,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092512_008",
+          "violation": {
+            "rows": 9.094947017729282e-13,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092512_009",
+          "violation": {
+            "rows": 2.2737367544323206e-13,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 1.4210854715202004e-14,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092512_011",
+          "violation": {
+            "rows": 2.2737367544323206e-13,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 1.1102230246251565e-16,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092512_012",
+          "violation": {
+            "rows": 9.094947017729282e-13,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 0.0,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092512_015",
+          "violation": {
+            "rows": 9.094947017729282e-13,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 0.0,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 1.4210854715202004e-14,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092512_023",
+          "violation": {
+            "rows": 9.094947017729282e-13,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        },
+        {
+          "id": "D26092512_024",
+          "violation": {
+            "rows": 2.2737367544323206e-13,
+            "bounds": 0.0,
+            "integrality": 0.0
+          },
+          "objective_residuals": {
+            "J_norm": 5.551115123125783e-17,
+            "joint_makespan_s": 0.0,
+            "total_energy_kwh": 0.0,
+            "relay_sorties": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "pid": "A03",
+      "variables": 2808,
+      "binary_variables": 2367,
+      "constraints": 9787,
+      "nonzero_coefficients": 50108,
+      "group_modes": 34,
+      "site_options": 859,
+      "transport_sorties": 19,
+      "no_warm_resource_orders_fixed": true,
+      "energy": "EXACT_FIXED_ENDPOINT_ORDER_UNION",
+      "charge": "EXACT_TWO_PIECE_GRAPH",
+      "catalogue": "results/p1_3a/runs/v2/A03/group_mode_catalogue.json",
+      "catalogue_sha256": "3cea1187663e3c34495e6d409d5d90927c47d85a5cff8930c47469452f6019c7",
+      "catalogue_origins": [
+        "ATOMIC_SINGLETON",
+        "OBSERVED_VERIFIED_MODE",
+        "ONE_STEP_DISJOINT_OBSERVED_GROUP_UNION"
+      ],
+      "warm_embedding": []
+    }
+  ],
+  "Q3_global_optimal": false,
+  "whole_transport_pool_bound": false
+}

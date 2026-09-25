@@ -1,0 +1,4 @@
+{
+  "error": "ValueError('Numerical candidate outside zero-lateness hard layer')",
+  "solver_status": 0
+}

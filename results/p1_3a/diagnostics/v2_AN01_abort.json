@@ -1,0 +1,20 @@
+{
+  "revision": "v2",
+  "pid": "AN01",
+  "anchor": "total_energy_kwh",
+  "status": "ABORTED_ON_BOUND_CONTRADICTION",
+  "raw_dual_bound": 69.94824687112558,
+  "verified_warm_upper_bound": 69.93946010877801,
+  "raw_bound_status": "BOUND_NOT_VALID",
+  "source_log": "results/p1_3a/AN01_v2.log",
+  "matrix": "results/p1_3a/runs/v2/AN01/anchors/total_energy_kwh/model.npz",
+  "independently_validated_candidate": "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_003",
+  "missing_fields": [
+    "solver termination API object",
+    "MIP CPU",
+    "MIP node count",
+    "solver MIP gap"
+  ],
+  "missing_reason": "Assertion occurred before result row serialization; not reconstructed or fabricated",
+  "replacement": "AN01 v3, MILP presolve disabled"
+}

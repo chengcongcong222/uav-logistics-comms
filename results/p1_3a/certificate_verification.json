@@ -1,0 +1,146 @@
+{
+  "records": [
+    {
+      "certificate": "results/p1_3a/runs/v1/A03/anchors/J_norm/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 0.24987523342587498
+    },
+    {
+      "certificate": "results/p1_3a/runs/v1/A03/anchors/joint_makespan_s/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 8688.858063732405
+    },
+    {
+      "certificate": "results/p1_3a/runs/v1/A03/anchors/relay_sorties/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 4.999999999999999,
+      "integer_objective_lower_bound": 5
+    },
+    {
+      "certificate": "results/p1_3a/runs/v1/A03/anchors/total_energy_kwh/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 62.666697754732574
+    },
+    {
+      "certificate": "results/p1_3a/runs/v1/A11/anchors/J_norm/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 0.23660215997739695
+    },
+    {
+      "certificate": "results/p1_3a/runs/v1/A11/anchors/joint_makespan_s/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 6300.781643600972
+    },
+    {
+      "certificate": "results/p1_3a/runs/v1/A11/anchors/relay_sorties/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 3.9999999999999996,
+      "integer_objective_lower_bound": 4
+    },
+    {
+      "certificate": "results/p1_3a/runs/v1/A11/anchors/total_energy_kwh/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 69.53700685810045
+    },
+    {
+      "certificate": "results/p1_3a/runs/v1/AN01/anchors/J_norm/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 0.23622593871304703
+    },
+    {
+      "certificate": "results/p1_3a/runs/v1/AN01/anchors/joint_makespan_s/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 8069.140623724704
+    },
+    {
+      "certificate": "results/p1_3a/runs/v1/AN01/anchors/relay_sorties/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 3.9999999999999996,
+      "integer_objective_lower_bound": 4
+    },
+    {
+      "certificate": "results/p1_3a/runs/v1/AN01/anchors/total_energy_kwh/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 68.79987908834421
+    },
+    {
+      "certificate": "results/p1_3a/runs/v2/A03/anchors/J_norm/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 0.24987523342587498
+    },
+    {
+      "certificate": "results/p1_3a/runs/v2/A03/anchors/joint_makespan_s/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 8688.858063732405
+    },
+    {
+      "certificate": "results/p1_3a/runs/v2/A03/anchors/relay_sorties/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 4.999999999999999,
+      "integer_objective_lower_bound": 5
+    },
+    {
+      "certificate": "results/p1_3a/runs/v2/A03/anchors/total_energy_kwh/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 62.666697754732574
+    },
+    {
+      "certificate": "results/p1_3a/runs/v2/A11/anchors/J_norm/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 0.23660215997739695
+    },
+    {
+      "certificate": "results/p1_3a/runs/v2/A11/anchors/joint_makespan_s/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 6300.781643600972
+    },
+    {
+      "certificate": "results/p1_3a/runs/v2/A11/anchors/relay_sorties/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 3.9999999999999996,
+      "integer_objective_lower_bound": 4
+    },
+    {
+      "certificate": "results/p1_3a/runs/v2/A11/anchors/total_energy_kwh/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 69.53700685810045
+    },
+    {
+      "certificate": "results/p1_3a/runs/v2/AN01/anchors/J_norm/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 0.23622593871304703
+    },
+    {
+      "certificate": "results/p1_3a/runs/v2/AN01/anchors/joint_makespan_s/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 8069.140623724704
+    },
+    {
+      "certificate": "results/p1_3a/runs/v2/AN01/anchors/total_energy_kwh/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 68.79987908834421
+    },
+    {
+      "certificate": "results/p1_3a/runs/v3/AN01/anchors/J_norm/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 0.23622593871304703
+    },
+    {
+      "certificate": "results/p1_3a/runs/v3/AN01/anchors/joint_makespan_s/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 8069.140623724704
+    },
+    {
+      "certificate": "results/p1_3a/runs/v3/AN01/anchors/relay_sorties/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 3.9999999999999996,
+      "integer_objective_lower_bound": 4
+    },
+    {
+      "certificate": "results/p1_3a/runs/v3/AN01/anchors/total_energy_kwh/lp_lower_bound_certificate.json",
+      "status": "EXACT_RATIONAL_REPLAY_PASSED",
+      "lower_bound": 68.79987908834421
+    }
+  ],
+  "all_passed": true
+}

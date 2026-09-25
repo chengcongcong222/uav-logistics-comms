@@ -1,0 +1,76 @@
+{
+  "Gamma_C_db": 0.0,
+  "minimum_twohop_robust_slack_db": 0.14955749359428694,
+  "pareto_id": "AN01",
+  "status": "P1_Q3_INDEPENDENTLY_VALIDATED",
+  "step_s": 0.5,
+  "hard_violations": 0,
+  "uncovered_sample_count": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "full_flight_samples": 67045,
+  "direct_samples": 43327,
+  "relayed_samples": 23718,
+  "relay_sorties": 5,
+  "full_flight_boundary_refinements": 468,
+  "boundary_refinement_s": 0.1,
+  "relay_ids": [
+    "R01",
+    "R02"
+  ],
+  "energy_components": [
+    "REC-01",
+    "REC-02",
+    "REC-03",
+    "REC-04",
+    "REC-05"
+  ],
+  "minimum_relay_energy_margin_kwh": 1.4505348885356613,
+  "minimum_twohop_margin_db": 0.14955749359428694,
+  "runtime_s": 26.614767690999997,
+  "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+  "J_late": 9.990000216930639e-05,
+  "J_norm": 0.5608701372907409,
+  "transport_energy_kwh": 66.65249201327234,
+  "transport_makespan_s": 11082.025158389135,
+  "transport_sorties": 25,
+  "minimum_transport_energy_margin_kwh": 0.2471029920028247,
+  "hard_deadline_violations": 0,
+  "margin_distribution_db": {
+    "direct_active_path": {
+      "0": 0.0001653203010825166,
+      "0.01": 0.22024367380767676,
+      "0.05": 1.7703876433990393,
+      "0.25": 7.420339604750788,
+      "0.5": 18.23208552066408,
+      "0.75": 32.251475126916446,
+      "0.95": 51.121985424097005,
+      "1": 201.94577516576788
+    },
+    "relayed_active_path": {
+      "0": 0.14955749359428694,
+      "0.01": 0.14955749359428694,
+      "0.05": 0.14955749359428694,
+      "0.25": 2.6213389901810835,
+      "0.5": 5.523919136465679,
+      "0.75": 9.987469372231445,
+      "0.95": 13.11389912953588,
+      "1": 16.177909036830457
+    }
+  },
+  "artifact_sha256": {
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_002/transport_sorties_AN01.csv": "fe08373dde461386620bf188e956e974dcab31b59b511eca2215e5dfd495e10d",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_002/box_delivery_AN01.csv": "d781dc14bc3310297ae8813970a03c84e91f0f75d34d09e6bab8c0fa18f60600",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_002/transport_shifts_AN01.csv": "7743bc65f60b4cabfbd08b0f5c47b71629d9c62d026f74da05786c1b8cad88b6",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_002/transport_uav_calendar_AN01.csv": "f3ad86ed08c9397c8a71f4cd4bd94a2295862bb597713b7390f86c9f88b52960",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_002/transport_battery_calendar_AN01.csv": "2b68fc5886c6519c6c4ccdcd7e878df7e10a16027fd48e1ec058e93acf9a72a5",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_002/relay_sorties_AN01.csv": "3653cf3353be6d2dd6d2d57a8ea2f2cd4b4757a0f3c1125407e2e8844547218d",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_002/relay_uav_calendar_AN01.csv": "3ea08669420f236101c33d6e409edff6e3eff77b04d17e9b08e9584046310b78",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_002/relay_energy_calendar_AN01.csv": "8f3e57360f3a62e8debf03e865263c4f537cbb3708c9883e44dcb2ada1167e58",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_002/communication_guarantee_AN01.csv": "bc859877a71b4b5219db6eb4506fbddea5634877dae2e4a907a2df7e4f408470",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_002/candidate_sites_AN01.csv": "c38db4e365e2bc01f7cc538065a2b2d991cd7e0d4f70258eb7d613d9c2f714b9",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_002/guarded_selected_pairs_AN01.csv": "dfb1b11a5cf26ed256d10dfff6e075c0f05eaaf2af30648439595cd887eb1165",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_002/scenario.json": "fa958f8f47ad4ac279ecaa6cb3224adb33b0280c7102d6f3ef3f5e00abb21bc8",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_002/guarded_atomic_tasks.csv": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_002/joint_metrics_AN01.json": "b5d7f4f6dc3c96430134c70f93df7614492f4d67463ead0af11a17048cf2d460"
+  }
+}

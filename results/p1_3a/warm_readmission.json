@@ -1,0 +1,499 @@
+[
+  {
+    "id": "A11_Q3_001",
+    "pid": "A11",
+    "status": "VALIDATED",
+    "zero_late_eligible": true,
+    "resumed_completed_audit": true,
+    "result": {
+      "Gamma_C_db": 0.0,
+      "minimum_twohop_robust_slack_db": 0.14955749359387482,
+      "pareto_id": "A11",
+      "status": "P1_Q3_INDEPENDENTLY_VALIDATED",
+      "step_s": 0.5,
+      "hard_violations": 0,
+      "uncovered_sample_count": 0,
+      "communication_uncovered_duration_s": 0.0,
+      "full_flight_samples": 67890,
+      "direct_samples": 43888,
+      "relayed_samples": 24002,
+      "relay_sorties": 5,
+      "full_flight_boundary_refinements": 468,
+      "boundary_refinement_s": 0.1,
+      "relay_ids": [
+        "R01",
+        "R02"
+      ],
+      "energy_components": [
+        "REC-01",
+        "REC-02",
+        "REC-03",
+        "REC-04",
+        "REC-05"
+      ],
+      "minimum_relay_energy_margin_kwh": 1.6008841571214198,
+      "minimum_twohop_margin_db": 0.14955749359387482,
+      "runtime_s": 25.48892859300001,
+      "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+      "J_late": 0.0,
+      "J_norm": 0.46734349928971775,
+      "transport_energy_kwh": 67.38961978302872,
+      "transport_makespan_s": 6971.683335141957,
+      "transport_sorties": 25,
+      "minimum_transport_energy_margin_kwh": 0.2471029920028247,
+      "hard_deadline_violations": 0,
+      "margin_distribution_db": {
+        "direct_active_path": {
+          "0": 0.00024680231596718727,
+          "0.01": 0.21789887826005874,
+          "0.05": 1.7865463972789948,
+          "0.25": 7.7246565063540835,
+          "0.5": 18.17181745951661,
+          "0.75": 32.06724198658835,
+          "0.95": 50.95078618693173,
+          "1": 201.94577516576788
+        },
+        "relayed_active_path": {
+          "0": 0.14955749359387482,
+          "0.01": 0.14955749359387482,
+          "0.05": 0.14955749359387482,
+          "0.25": 2.43785423226241,
+          "0.5": 4.668258638762396,
+          "0.75": 8.268318178923838,
+          "0.95": 11.397135806608844,
+          "1": 14.483964931027813
+        }
+      },
+      "artifact_sha256": {
+        "results/p1_3a/admission/q3/A11/solutions/A11_Q3_001/transport_sorties_A11.csv": "cab35d63577fe7792d37ab1f0778a3cd7ca5f37b20b5a48bdeb90fc1c0827140",
+        "results/p1_3a/admission/q3/A11/solutions/A11_Q3_001/box_delivery_A11.csv": "403ee4607cf914050d410bc59ada4454bcd8e32aee04b6c62ffce66af809ed2d",
+        "results/p1_3a/admission/q3/A11/solutions/A11_Q3_001/transport_shifts_A11.csv": "00d7510903df615dc5c92da563f8e1298aa55fe7e06d97759492247d9de87b8c",
+        "results/p1_3a/admission/q3/A11/solutions/A11_Q3_001/transport_uav_calendar_A11.csv": "8e5cdb2b5d0b650391660bc9d39243db39eeaea39b1e97538c516e7087ec4f04",
+        "results/p1_3a/admission/q3/A11/solutions/A11_Q3_001/transport_battery_calendar_A11.csv": "ac09f182d52a14e7ebecab3fd171408c9ad4583e5c465d848a0a08b595c99fd1",
+        "results/p1_3a/admission/q3/A11/solutions/A11_Q3_001/relay_sorties_A11.csv": "1cdde530ac8f5607afa2129ad6992219a09b094f682d29789b448ad8a437ff20",
+        "results/p1_3a/admission/q3/A11/solutions/A11_Q3_001/relay_uav_calendar_A11.csv": "993abeaa0c72d85632c815b329482f3d2ce49326cceb03439154f934805387c4",
+        "results/p1_3a/admission/q3/A11/solutions/A11_Q3_001/relay_energy_calendar_A11.csv": "6c606e1917b41a5a2b1fecea99e4fc072d09af9fbb1ad86d682f87e4fd39d21e",
+        "results/p1_3a/admission/q3/A11/solutions/A11_Q3_001/communication_guarantee_A11.csv": "7fce86429e9a30b8e47847ba22c14b2f118ff7f36c6036771f13c112d892ddce",
+        "results/p1_3a/admission/q3/A11/solutions/A11_Q3_001/candidate_sites_A11.csv": "a70cfe61a3fc19118d31fc7006d511eb62f81d70ee1a0fab318ca4a00baeab62",
+        "results/p1_3a/admission/q3/A11/solutions/A11_Q3_001/guarded_selected_pairs_A11.csv": "9bd8130b829b22134dedff6d3e6892b5103e0f64b0d3f56d0787293b4dae0671",
+        "results/p1_3a/admission/q3/A11/solutions/A11_Q3_001/scenario.json": "513041fa7ab33d2e7a8066500ec5c4fd6e9f0b15b6c32f02eed59c7f8c336b4b",
+        "results/p1_3a/admission/q3/A11/solutions/A11_Q3_001/guarded_atomic_tasks.csv": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+        "results/p1_3a/admission/q3/A11/solutions/A11_Q3_001/joint_metrics_A11.json": "1afb09bf529d625f849b31cf1ebb0a3d7d747258d7b978e40bc9a4ac48406ac2"
+      }
+    }
+  },
+  {
+    "id": "AN01_Q3_001_CC",
+    "pid": "AN01",
+    "status": "VALIDATED",
+    "zero_late_eligible": true,
+    "resumed_completed_audit": false,
+    "result": {
+      "Gamma_C_db": 0.0,
+      "minimum_twohop_robust_slack_db": 0.14955749359387482,
+      "pareto_id": "AN01",
+      "status": "E8_PLAN_INDEPENDENTLY_VALIDATED",
+      "step_s": 0.5,
+      "hard_violations": 0,
+      "uncovered_sample_count": 0,
+      "communication_uncovered_duration_s": 0.0,
+      "full_flight_samples": 67042,
+      "direct_samples": 43331,
+      "relayed_samples": 23711,
+      "relay_sorties": 6,
+      "full_flight_boundary_refinements": 468,
+      "boundary_refinement_s": 0.1,
+      "relay_ids": [
+        "R01",
+        "R02"
+      ],
+      "energy_components": [
+        "REC-01",
+        "REC-02",
+        "REC-03",
+        "REC-04",
+        "REC-05",
+        "REC-06"
+      ],
+      "minimum_relay_energy_margin_kwh": 1.4408797006008869,
+      "minimum_twohop_margin_db": 0.14955749359387482,
+      "runtime_s": 25.53973298199999,
+      "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+      "J_late": 0.0,
+      "J_norm": 0.49357134168401795,
+      "transport_energy_kwh": 66.65249201327234,
+      "transport_makespan_s": 8524.782787328473,
+      "transport_sorties": 25,
+      "minimum_transport_energy_margin_kwh": 0.2471029920028247,
+      "hard_deadline_violations": 0,
+      "margin_distribution_db": {
+        "direct_active_path": {
+          "0": 0.0001220965636434812,
+          "0.01": 0.21870074045695773,
+          "0.05": 1.7752586583920893,
+          "0.25": 7.426211868431112,
+          "0.5": 18.226015250313456,
+          "0.75": 32.233154994965915,
+          "0.95": 51.10469728859145,
+          "1": 201.94577516576788
+        },
+        "relayed_active_path": {
+          "0": 0.14955749359387482,
+          "0.01": 0.14955749359387482,
+          "0.05": 0.14955749359387482,
+          "0.25": 2.43785423226241,
+          "0.5": 4.502277501424359,
+          "0.75": 8.226809702901718,
+          "0.95": 11.397135806608844,
+          "1": 14.483964931027813
+        }
+      },
+      "artifact_sha256": {
+        "results/p1_3a/admission/q3/AN01/solutions/AN01_Q3_001_CC/transport_sorties_AN01.csv": "92ed9f79b8a093a7869c66c89912bf546f770b9cd8467eaefabc5d7799fe097b",
+        "results/p1_3a/admission/q3/AN01/solutions/AN01_Q3_001_CC/box_delivery_AN01.csv": "4eb5e29db3c9aaa808250700168a85d03ef64bdfb119b64c0dee55be6858b12e",
+        "results/p1_3a/admission/q3/AN01/solutions/AN01_Q3_001_CC/transport_shifts_AN01.csv": "7e878f1edee5f933c785c7398928e73e553170a28d9490454ff4efe3d459ef07",
+        "results/p1_3a/admission/q3/AN01/solutions/AN01_Q3_001_CC/transport_uav_calendar_AN01.csv": "9b422ad03f3fd76f4a35ab6543be76860dd0e6eecd2872be1082063eedc7aff3",
+        "results/p1_3a/admission/q3/AN01/solutions/AN01_Q3_001_CC/transport_battery_calendar_AN01.csv": "dd388ae447e1298e4914a033df0a6df1c1d043c31d26aa14d1cbb783e8ca2648",
+        "results/p1_3a/admission/q3/AN01/solutions/AN01_Q3_001_CC/relay_sorties_AN01.csv": "76b815a2388c2d9dd47bbedcb1f5e0990f0d4554a85bfe699c5fabf07a34d080",
+        "results/p1_3a/admission/q3/AN01/solutions/AN01_Q3_001_CC/relay_uav_calendar_AN01.csv": "9daa4c4535101ec11764f3ef1ede6fdef5ad99bd982bf40ce08f7032d975608c",
+        "results/p1_3a/admission/q3/AN01/solutions/AN01_Q3_001_CC/relay_energy_calendar_AN01.csv": "6c43ba737a967bafcd62ae36aca0463d12222e086ba9d1456f3df2d95d687d5c",
+        "results/p1_3a/admission/q3/AN01/solutions/AN01_Q3_001_CC/communication_guarantee_AN01.csv": "c266791d90b6fe55c54e017904ad59d6cd11a9f7d20e1422a8b73ec5228ffcef",
+        "results/p1_3a/admission/q3/AN01/solutions/AN01_Q3_001_CC/candidate_sites_AN01.csv": "0ff40e7f97d470082972138f2a60cbf1e2798815d9fb8ce06a7ed9350e87ae0c",
+        "results/p1_3a/admission/q3/AN01/solutions/AN01_Q3_001_CC/guarded_selected_pairs_AN01.csv": "91136ef1ae8e74a3af4b91be352a49ab1453b31fe4ed845c83b9b88d80162cfa",
+        "results/p1_3a/admission/q3/AN01/solutions/AN01_Q3_001_CC/scenario.json": "fa958f8f47ad4ac279ecaa6cb3224adb33b0280c7102d6f3ef3f5e00abb21bc8",
+        "results/p1_3a/admission/q3/AN01/solutions/AN01_Q3_001_CC/guarded_atomic_tasks.csv": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+        "results/p1_3a/admission/q3/AN01/solutions/AN01_Q3_001_CC/joint_metrics_AN01.json": "6d0461a0d06b16bc3cc5096dcb607464c4e70352cff6089630fcee0dd402a643"
+      }
+    }
+  },
+  {
+    "id": "A03_Q3_001",
+    "pid": "A03",
+    "status": "VALIDATED",
+    "zero_late_eligible": false,
+    "resumed_completed_audit": false,
+    "result": {
+      "Gamma_C_db": 0.0,
+      "minimum_twohop_robust_slack_db": 0.3453400539276714,
+      "pareto_id": "A03",
+      "status": "E8_PLAN_INDEPENDENTLY_VALIDATED",
+      "step_s": 0.5,
+      "hard_violations": 0,
+      "uncovered_sample_count": 0,
+      "communication_uncovered_duration_s": 0.0,
+      "full_flight_samples": 55721,
+      "direct_samples": 33092,
+      "relayed_samples": 22629,
+      "relay_sorties": 7,
+      "full_flight_boundary_refinements": 338,
+      "boundary_refinement_s": 0.1,
+      "relay_ids": [
+        "R01",
+        "R02"
+      ],
+      "energy_components": [
+        "REC-01",
+        "REC-02",
+        "REC-03",
+        "REC-04",
+        "REC-05",
+        "REC-06"
+      ],
+      "minimum_relay_energy_margin_kwh": 1.442883802326238,
+      "minimum_twohop_margin_db": 0.3453400539276714,
+      "runtime_s": 23.963597915999998,
+      "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+      "J_late": 43657.35191538907,
+      "J_norm": 0.5888172625200163,
+      "transport_energy_kwh": 60.047644724851246,
+      "transport_makespan_s": 9436.061648344094,
+      "transport_sorties": 19,
+      "minimum_transport_energy_margin_kwh": 0.22479163523963575,
+      "hard_deadline_violations": 0,
+      "margin_distribution_db": {
+        "direct_active_path": {
+          "0": 3.0389816716436258e-05,
+          "0.01": 0.20893362124091183,
+          "0.05": 1.5790688166873115,
+          "0.25": 7.530827505091246,
+          "0.5": 17.868458220549496,
+          "0.75": 32.36378004453564,
+          "0.95": 51.488225092873506,
+          "1": 201.94577516576788
+        },
+        "relayed_active_path": {
+          "0": 0.3453400539276714,
+          "0.01": 0.3453400539276714,
+          "0.05": 0.8652103016192001,
+          "0.25": 2.099203328999508,
+          "0.5": 3.9055423871373875,
+          "0.75": 7.274314710317057,
+          "0.95": 11.397135806608844,
+          "1": 15.224985333727275
+        }
+      },
+      "artifact_sha256": {
+        "results/p1_3a/admission/q3/A03/solutions/A03_Q3_001/transport_sorties_A03.csv": "db092ee2970a51429dc721e05ebc92bdce1943961444dde452fab2f8551ab3dc",
+        "results/p1_3a/admission/q3/A03/solutions/A03_Q3_001/box_delivery_A03.csv": "c0b20830fd3e0e725506733c887e7362d9f63f9a653d86ac9ca9ead3cfd42a7c",
+        "results/p1_3a/admission/q3/A03/solutions/A03_Q3_001/transport_shifts_A03.csv": "9678c4ec56fea9e5e407a5122543b81903565c3c16f0be6b0cb269ef83ade23c",
+        "results/p1_3a/admission/q3/A03/solutions/A03_Q3_001/transport_uav_calendar_A03.csv": "0e8e61eef9e97955ddec82f6e8ea7e366984e0cfcaf22120fdb6e38662375a94",
+        "results/p1_3a/admission/q3/A03/solutions/A03_Q3_001/transport_battery_calendar_A03.csv": "a80425a7a6d1b0a4b138f7c68566f9cfbcc34fe6a2063eb758e13eebbae27b2f",
+        "results/p1_3a/admission/q3/A03/solutions/A03_Q3_001/relay_sorties_A03.csv": "9de0abdf20e1aa7a134b5130d8272caf37dc3248610177310ce1a59f74565a1c",
+        "results/p1_3a/admission/q3/A03/solutions/A03_Q3_001/relay_uav_calendar_A03.csv": "a50025a45cb761d70421603dd3390edaf46efc0734ef8df7827fdbe6ac318c5f",
+        "results/p1_3a/admission/q3/A03/solutions/A03_Q3_001/relay_energy_calendar_A03.csv": "10a96288e7c3b08334f09e6b20d899ce5062f4071fcf036b7aa8bee4fa01283a",
+        "results/p1_3a/admission/q3/A03/solutions/A03_Q3_001/communication_guarantee_A03.csv": "45b8f58a929de91e0dbf86df8fa11a5506c66b5ca00fb60770600a91216fc1e5",
+        "results/p1_3a/admission/q3/A03/solutions/A03_Q3_001/candidate_sites_A03.csv": "7be7f5771c161430049fda2af242271d7977951463d66fbc9a6264bbab02e40f",
+        "results/p1_3a/admission/q3/A03/solutions/A03_Q3_001/guarded_selected_pairs_A03.csv": "31835e6aa02b275ff38325f778373938b55f2e10801f8137c1684af2c51dc105",
+        "results/p1_3a/admission/q3/A03/solutions/A03_Q3_001/scenario.json": "7772e16ac271253bb86628ef94b34d858b38d5dcc82e5959085f202deca01edf",
+        "results/p1_3a/admission/q3/A03/solutions/A03_Q3_001/guarded_atomic_tasks.csv": "6fbef07d836021ebcd898f493b537585c58bb4bb027bf3c14452efa34c19efa1",
+        "results/p1_3a/admission/q3/A03/solutions/A03_Q3_001/joint_metrics_A03.json": "4733eb592e48edd5d9ee0a657514bcb3145060a46a7a9f38378405ca79f52e30"
+      }
+    }
+  },
+  {
+    "id": "D26092511_002",
+    "pid": "A11",
+    "status": "VALIDATED",
+    "zero_late_eligible": true,
+    "resumed_completed_audit": false,
+    "result": {
+      "Gamma_C_db": 0.0,
+      "minimum_twohop_robust_slack_db": 0.14955749359428694,
+      "pareto_id": "A11",
+      "status": "E8_PLAN_INDEPENDENTLY_VALIDATED",
+      "step_s": 0.5,
+      "hard_violations": 0,
+      "uncovered_sample_count": 0,
+      "communication_uncovered_duration_s": 0.0,
+      "full_flight_samples": 67890,
+      "direct_samples": 43893,
+      "relayed_samples": 23997,
+      "relay_sorties": 4,
+      "full_flight_boundary_refinements": 468,
+      "boundary_refinement_s": 0.1,
+      "relay_ids": [
+        "R01",
+        "R02"
+      ],
+      "energy_components": [
+        "REC-01",
+        "REC-02",
+        "REC-03",
+        "REC-04"
+      ],
+      "minimum_relay_energy_margin_kwh": 1.2856986397590238,
+      "minimum_twohop_margin_db": 0.14955749359428694,
+      "runtime_s": 24.960865624999997,
+      "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+      "J_late": 0.0,
+      "J_norm": 0.4631731428974893,
+      "transport_energy_kwh": 67.38961978302872,
+      "transport_makespan_s": 6967.1433629753,
+      "transport_sorties": 25,
+      "minimum_transport_energy_margin_kwh": 0.2471029920028247,
+      "hard_deadline_violations": 0,
+      "margin_distribution_db": {
+        "direct_active_path": {
+          "0": 0.0002468285921448654,
+          "0.01": 0.218866676843727,
+          "0.05": 1.7955028777070479,
+          "0.25": 7.733985591110091,
+          "0.5": 18.169426085861843,
+          "0.75": 32.06362973021945,
+          "0.95": 50.956370868447515,
+          "1": 201.94577516576788
+        },
+        "relayed_active_path": {
+          "0": 0.14955749359428694,
+          "0.01": 0.14955749359428694,
+          "0.05": 0.14955749359428694,
+          "0.25": 2.43785423226241,
+          "0.5": 4.758424024762121,
+          "0.75": 8.226809702901718,
+          "0.95": 11.397135806608844,
+          "1": 11.397135806608844
+        }
+      },
+      "artifact_sha256": {
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_002/transport_sorties_A11.csv": "2c533fc53b91eb8da0d2ab4456e229c44aa934c67e3c227b28f80d8045840974",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_002/box_delivery_A11.csv": "79f0140e1803e69d42df04fd5e1132a1aac8b4938f5fe8d2f41f38cfe41133f7",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_002/transport_shifts_A11.csv": "cbc540e588f22e354e00ac226fd39a943a9ca007508ba856735a05ea28d2234e",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_002/transport_uav_calendar_A11.csv": "d065713c9338547192ce49846e529b660ebe7093597c15a1ccf849e42137e0e2",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_002/transport_battery_calendar_A11.csv": "28f95aa79b4b136782a85a277514c7f657c3914ae18b9bc2f209b4b8827a3881",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_002/relay_sorties_A11.csv": "0d738e3201faeae64b792c953229dd577f5a52edd1c09c27a4eb12b8fa46b9e1",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_002/relay_uav_calendar_A11.csv": "14b0028a3ab6eead08ab70551f3bc599c5f126f8c1b54f0aad051936e6c80117",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_002/relay_energy_calendar_A11.csv": "280818b2ab3765013345d424f5ecee7f27001b433900cc2718d4fefb0ce5dcf0",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_002/communication_guarantee_A11.csv": "bb5d3e7bbcbb11cdff277140d025a5b53f7a3c6a1464f154f6ee8b81905e2cf8",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_002/candidate_sites_A11.csv": "5f39bffb3b0dff3eda142e3231b97d4aefc8b021e9074d6936062e7535c34db5",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_002/guarded_selected_pairs_A11.csv": "17b7895f1325200a68cd3ce8ade0ffd6e8dac17659c0af9db8bc482b44dfa501",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_002/scenario.json": "513041fa7ab33d2e7a8066500ec5c4fd6e9f0b15b6c32f02eed59c7f8c336b4b",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_002/guarded_atomic_tasks.csv": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_002/joint_metrics_A11.json": "b96dedede69830c6c0e13d574f82dc200483fbeffc5c86a96129d0acfdee18cf"
+      }
+    }
+  },
+  {
+    "id": "D26092511_005",
+    "pid": "A11",
+    "status": "VALIDATED",
+    "zero_late_eligible": true,
+    "resumed_completed_audit": false,
+    "result": {
+      "Gamma_C_db": 0.0,
+      "minimum_twohop_robust_slack_db": 0.14955749359428694,
+      "pareto_id": "A11",
+      "status": "E8_PLAN_INDEPENDENTLY_VALIDATED",
+      "step_s": 0.5,
+      "hard_violations": 0,
+      "uncovered_sample_count": 0,
+      "communication_uncovered_duration_s": 0.0,
+      "full_flight_samples": 67890,
+      "direct_samples": 43889,
+      "relayed_samples": 24001,
+      "relay_sorties": 4,
+      "full_flight_boundary_refinements": 468,
+      "boundary_refinement_s": 0.1,
+      "relay_ids": [
+        "R01",
+        "R02"
+      ],
+      "energy_components": [
+        "REC-01",
+        "REC-02",
+        "REC-03",
+        "REC-04"
+      ],
+      "minimum_relay_energy_margin_kwh": 1.2856986397590238,
+      "minimum_twohop_margin_db": 0.14955749359428694,
+      "runtime_s": 26.19436284599999,
+      "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+      "J_late": 0.0,
+      "J_norm": 0.4630299300029348,
+      "transport_energy_kwh": 67.38961978302872,
+      "transport_makespan_s": 6967.1433629753,
+      "transport_sorties": 25,
+      "minimum_transport_energy_margin_kwh": 0.2471029920028247,
+      "hard_deadline_violations": 0,
+      "margin_distribution_db": {
+        "direct_active_path": {
+          "0": 0.0002468285921448654,
+          "0.01": 0.2188324336994934,
+          "0.05": 1.7947073193727365,
+          "0.25": 7.732646070670047,
+          "0.5": 18.17195185751141,
+          "0.75": 32.064935980112864,
+          "0.95": 50.959644146875966,
+          "1": 201.94577516576788
+        },
+        "relayed_active_path": {
+          "0": 0.14955749359428694,
+          "0.01": 0.14955749359428694,
+          "0.05": 0.14955749359428694,
+          "0.25": 2.43785423226241,
+          "0.5": 4.762272500145329,
+          "0.75": 8.226809702901718,
+          "0.95": 11.397135806608844,
+          "1": 11.397135806608844
+        }
+      },
+      "artifact_sha256": {
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_005/transport_sorties_A11.csv": "ddadafc41bf1f7159bb10fd62c6294107d4016b2a64baa2d8991139cc5d2b0fa",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_005/box_delivery_A11.csv": "714908c4d8d047f87edb7a9d01205de0241b491a25a554de12907c7ca7c3c06e",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_005/transport_shifts_A11.csv": "dc20c646f363fb3966924c7d5883ce9800caa8fda8d8bbf4dec7eec47debbb8f",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_005/transport_uav_calendar_A11.csv": "58d56218f7e16122ca194d9710b1ad41478c5e9ea98e05ab0f3b37b78e5fef0a",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_005/transport_battery_calendar_A11.csv": "7c3c2da065ee90fea871d95803a1dd1229476e566ca7982ee88d6981b228f7f2",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_005/relay_sorties_A11.csv": "49e1b58d3f4e9463ae4d20013c45b51299567acef4bb030b46c7d10a638fcc3c",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_005/relay_uav_calendar_A11.csv": "793990d0e0256cac5128901f9a59719ee13f56a3a2d75bf04ab49dcf7166de81",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_005/relay_energy_calendar_A11.csv": "456f007e25a445ba5aa548d586191ac08a3407b1ef00530df0418070483e4fa0",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_005/communication_guarantee_A11.csv": "097e54b85e329eb05f86eb9a7f8b84328203d40028289da6394944f6fb4b7f4e",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_005/candidate_sites_A11.csv": "5f39bffb3b0dff3eda142e3231b97d4aefc8b021e9074d6936062e7535c34db5",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_005/guarded_selected_pairs_A11.csv": "17b7895f1325200a68cd3ce8ade0ffd6e8dac17659c0af9db8bc482b44dfa501",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_005/scenario.json": "513041fa7ab33d2e7a8066500ec5c4fd6e9f0b15b6c32f02eed59c7f8c336b4b",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_005/guarded_atomic_tasks.csv": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+        "results/p1_3a/admission/q3/A11/solutions/D26092511_005/joint_metrics_A11.json": "2b04f415e3a85582b1bd5d9ce83c51fb32084ed2c452b61bea631424f1f50211"
+      }
+    }
+  },
+  {
+    "id": "D26092511_015",
+    "pid": "AN01",
+    "status": "VALIDATED",
+    "zero_late_eligible": true,
+    "resumed_completed_audit": false,
+    "result": {
+      "Gamma_C_db": 0.0,
+      "minimum_twohop_robust_slack_db": 0.14955749359428694,
+      "pareto_id": "AN01",
+      "status": "E8_PLAN_INDEPENDENTLY_VALIDATED",
+      "step_s": 0.5,
+      "hard_violations": 0,
+      "uncovered_sample_count": 0,
+      "communication_uncovered_duration_s": 0.0,
+      "full_flight_samples": 67044,
+      "direct_samples": 43327,
+      "relayed_samples": 23717,
+      "relay_sorties": 4,
+      "full_flight_boundary_refinements": 468,
+      "boundary_refinement_s": 0.1,
+      "relay_ids": [
+        "R01",
+        "R02"
+      ],
+      "energy_components": [
+        "REC-01",
+        "REC-02",
+        "REC-03",
+        "REC-04"
+      ],
+      "minimum_relay_energy_margin_kwh": 0.8315445488272837,
+      "minimum_twohop_margin_db": 0.14955749359428694,
+      "runtime_s": 25.694934095999997,
+      "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+      "J_late": 9.999894245993346e-08,
+      "J_norm": 0.4884402189926684,
+      "transport_energy_kwh": 66.65249201327234,
+      "transport_makespan_s": 8433.115297231012,
+      "transport_sorties": 25,
+      "minimum_transport_energy_margin_kwh": 0.2471029920028247,
+      "hard_deadline_violations": 0,
+      "margin_distribution_db": {
+        "direct_active_path": {
+          "0": 0.0001494036299316548,
+          "0.01": 0.21784957060172394,
+          "0.05": 1.7546162586705245,
+          "0.25": 7.402684721243352,
+          "0.5": 18.230750258699942,
+          "0.75": 32.23915776319221,
+          "0.95": 51.10563481180635,
+          "1": 201.94577516576788
+        },
+        "relayed_active_path": {
+          "0": 0.14955749359428694,
+          "0.01": 0.14955749359428694,
+          "0.05": 0.14955749359428694,
+          "0.25": 3.233006509302413,
+          "0.5": 5.883572306040506,
+          "0.75": 9.466834534918036,
+          "0.95": 13.11389912953588,
+          "1": 13.435452033242427
+        }
+      },
+      "artifact_sha256": {
+        "results/p1_3a/admission/q3/AN01/solutions/D26092511_015/transport_sorties_AN01.csv": "6e80e6379f27ba9d440ddbdf965da938ea29939cc39848244c12bf6344a46b91",
+        "results/p1_3a/admission/q3/AN01/solutions/D26092511_015/box_delivery_AN01.csv": "16c5448edfaac7709c65d463f69691b68e3af924374319b08c545528291fa0a8",
+        "results/p1_3a/admission/q3/AN01/solutions/D26092511_015/transport_shifts_AN01.csv": "6b65f7f48c40c2cf79d497ecbbd4b85f3a19702d86d7e9a5f4eaf258612a30bc",
+        "results/p1_3a/admission/q3/AN01/solutions/D26092511_015/transport_uav_calendar_AN01.csv": "352635df1ef81c0602274dff920a26b681a4f54fd71f10a3d75be6f32206084c",
+        "results/p1_3a/admission/q3/AN01/solutions/D26092511_015/transport_battery_calendar_AN01.csv": "899c49b44af804e60bd5580c82e4c1c07c2abc5b6fc10008e14f4c81ab8411a0",
+        "results/p1_3a/admission/q3/AN01/solutions/D26092511_015/relay_sorties_AN01.csv": "09f00641b954fac9aea21a1547eee5e9677552b3efed03399b7251eba5c2dcf8",
+        "results/p1_3a/admission/q3/AN01/solutions/D26092511_015/relay_uav_calendar_AN01.csv": "206e26b738ed6683886ddd380771dda566540397e08f4548cf162c9c6ef5f1fd",
+        "results/p1_3a/admission/q3/AN01/solutions/D26092511_015/relay_energy_calendar_AN01.csv": "77dc3860ca8cf6349294eb345caf79b5424cbbb7d66c84c2502aaed4ad8d9762",
+        "results/p1_3a/admission/q3/AN01/solutions/D26092511_015/communication_guarantee_AN01.csv": "c48a2d619b9318bfe3d740f958080e8878f136fe4dd5c49c04df970fefd6a0bf",
+        "results/p1_3a/admission/q3/AN01/solutions/D26092511_015/candidate_sites_AN01.csv": "f5a53f96c03f77016fe4d2786abcda9da779e965e89a596370357f54cd8e91a4",
+        "results/p1_3a/admission/q3/AN01/solutions/D26092511_015/guarded_selected_pairs_AN01.csv": "ab01a53e644b9eed82ab61a6adeeff637b12445a5a66be39df482d72a93e1949",
+        "results/p1_3a/admission/q3/AN01/solutions/D26092511_015/scenario.json": "fa958f8f47ad4ac279ecaa6cb3224adb33b0280c7102d6f3ef3f5e00abb21bc8",
+        "results/p1_3a/admission/q3/AN01/solutions/D26092511_015/guarded_atomic_tasks.csv": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+        "results/p1_3a/admission/q3/AN01/solutions/D26092511_015/joint_metrics_AN01.json": "fe994fbf7a50436808bfe0443baad580493d3e8d299e6f394851b455dc2c3fb9"
+      }
+    }
+  }
+]

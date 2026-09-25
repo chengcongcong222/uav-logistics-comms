@@ -1,0 +1,50 @@
+{
+  "protected_files": 12680,
+  "changed": [],
+  "all_unchanged": true,
+  "branch": "p1-3a-finite-domain-audit",
+  "main_commit": "c13306ecbc36933502d1197228e5d80f9f7e40cf",
+  "main_unchanged": true,
+  "executed_source_checks": [
+    {
+      "path": "src/bench_p1_3a/run.py",
+      "matches_executed_snapshot": true
+    },
+    {
+      "path": "src/bench_p1_3a/model.py",
+      "matches_executed_snapshot": true
+    },
+    {
+      "path": "src/bench_p1_3a/test_model.py",
+      "matches_executed_snapshot": true
+    },
+    {
+      "path": "src/bench_p1_3a/admit.py",
+      "matches_executed_snapshot": true
+    },
+    {
+      "path": "v2/A11/run.py",
+      "matches_executed_snapshot": true
+    },
+    {
+      "path": "v2/A11/model.py",
+      "matches_executed_snapshot": true
+    },
+    {
+      "path": "v3/AN01/run.py",
+      "matches_executed_snapshot": true
+    },
+    {
+      "path": "v3/AN01/model.py",
+      "matches_executed_snapshot": true
+    },
+    {
+      "path": "v2/A03/run.py",
+      "matches_executed_snapshot": true
+    },
+    {
+      "path": "v2/A03/model.py",
+      "matches_executed_snapshot": true
+    }
+  ]
+}

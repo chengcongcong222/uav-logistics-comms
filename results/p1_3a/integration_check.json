@@ -1,0 +1,10 @@
+{
+  "status": "PASSED",
+  "anchor_records": 12,
+  "certificate_replays": 27,
+  "history_unchanged": true,
+  "old_main_unchanged": true,
+  "zero_late_incumbents_checked": true,
+  "catalogue_cardinality_claims_checked": true,
+  "new_validation_packages_checked": true
+}

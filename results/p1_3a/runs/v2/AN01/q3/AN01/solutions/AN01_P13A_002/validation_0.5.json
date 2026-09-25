@@ -1,0 +1,76 @@
+{
+  "Gamma_C_db": 0.0,
+  "minimum_twohop_robust_slack_db": 0.14955749359428694,
+  "pareto_id": "AN01",
+  "status": "P1_Q3_INDEPENDENTLY_VALIDATED",
+  "step_s": 0.5,
+  "hard_violations": 0,
+  "uncovered_sample_count": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "full_flight_samples": 67043,
+  "direct_samples": 43336,
+  "relayed_samples": 23707,
+  "relay_sorties": 5,
+  "full_flight_boundary_refinements": 468,
+  "boundary_refinement_s": 0.1,
+  "relay_ids": [
+    "R01",
+    "R02"
+  ],
+  "energy_components": [
+    "REC-01",
+    "REC-02",
+    "REC-03",
+    "REC-04",
+    "REC-05"
+  ],
+  "minimum_relay_energy_margin_kwh": 1.3901247177111598,
+  "minimum_twohop_margin_db": 0.14955749359428694,
+  "runtime_s": 30.320857315000012,
+  "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+  "J_late": 0.0,
+  "J_norm": 0.5283911338886342,
+  "transport_energy_kwh": 66.65249201327234,
+  "transport_makespan_s": 9091.70052678253,
+  "transport_sorties": 25,
+  "minimum_transport_energy_margin_kwh": 0.2471029920028247,
+  "hard_deadline_violations": 0,
+  "margin_distribution_db": {
+    "direct_active_path": {
+      "0": 6.99947268945067e-05,
+      "0.01": 0.21810788254336105,
+      "0.05": 1.7587518678007203,
+      "0.25": 7.397468595220433,
+      "0.5": 18.226015250313456,
+      "0.75": 32.233723114182354,
+      "0.95": 51.08793884363508,
+      "1": 201.94577516576788
+    },
+    "relayed_active_path": {
+      "0": 0.14955749359428694,
+      "0.01": 0.14955749359428694,
+      "0.05": 0.14955749359428694,
+      "0.25": 2.43785423226241,
+      "0.5": 4.498279856208441,
+      "0.75": 9.49195233085419,
+      "0.95": 11.397135806608844,
+      "1": 14.486152628365573
+    }
+  },
+  "artifact_sha256": {
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_002/transport_sorties_AN01.csv": "8c52738db7099c8610ff59758d656d8cfc2d8702a0b812fa95a851f0df15a99f",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_002/box_delivery_AN01.csv": "b70a3e25cb2dea31803449a79c5e5f9a3e6318410e6dd19697b6cb2ceaeb49fb",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_002/transport_shifts_AN01.csv": "f053ae31e08c90a59e36e62d07637901554283b82ece0fd340f9031cccaf9acb",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_002/transport_uav_calendar_AN01.csv": "b672585113808ada2703cb5e450f8944381b9cafbf4d6b08e624a9ac73d37c2e",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_002/transport_battery_calendar_AN01.csv": "b7b60c90b872de71243140ef0c8874cad486a6f2b26fe56a6b7f42df4ba993ae",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_002/relay_sorties_AN01.csv": "1bbed4ac3a8f4287360bcfd1b0f7cdeb1a1f5396f5225c74f4fd53235564fd54",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_002/relay_uav_calendar_AN01.csv": "cedf45b4bf46b503c0de0644bf4d0ce6f67b4098eebf208c2778a89824d2aadc",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_002/relay_energy_calendar_AN01.csv": "340a166685ddc8d53df711fc1e4c72c861ece4005eea1b55054d7c369ea76cf8",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_002/communication_guarantee_AN01.csv": "fcafe64e96a5955f44f747f86c14f83822597fd643319b2d547881b2c75d8c03",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_002/candidate_sites_AN01.csv": "a07fb0e2c4aa9ed357b0fe372b4b350b823d0a512403c5248046ef0808893473",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_002/guarded_selected_pairs_AN01.csv": "de768f4ca2483da61c3296363c3c1317290b09672dd03cb5d04ee9da97f3910f",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_002/scenario.json": "fa958f8f47ad4ac279ecaa6cb3224adb33b0280c7102d6f3ef3f5e00abb21bc8",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_002/guarded_atomic_tasks.csv": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_002/joint_metrics_AN01.json": "b1d8a0d5c487265d9064bf157909b71f1fe0a0aba4f4a247c3ad1474d363a25e"
+  }
+}

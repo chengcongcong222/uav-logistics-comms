@@ -1,0 +1,75 @@
+{
+  "Gamma_C_db": 0.0,
+  "minimum_twohop_robust_slack_db": 0.14955749359428694,
+  "pareto_id": "AN01",
+  "status": "P1_Q3_INDEPENDENTLY_VALIDATED",
+  "step_s": 0.5,
+  "hard_violations": 0,
+  "uncovered_sample_count": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "full_flight_samples": 67042,
+  "direct_samples": 43335,
+  "relayed_samples": 23707,
+  "relay_sorties": 4,
+  "full_flight_boundary_refinements": 468,
+  "boundary_refinement_s": 0.1,
+  "relay_ids": [
+    "R01",
+    "R02"
+  ],
+  "energy_components": [
+    "REC-01",
+    "REC-02",
+    "REC-03",
+    "REC-04"
+  ],
+  "minimum_relay_energy_margin_kwh": 0.3226843278524485,
+  "minimum_twohop_margin_db": 0.14955749359428694,
+  "runtime_s": 25.6612719310001,
+  "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+  "J_late": 0.0,
+  "J_norm": 0.5216349451057753,
+  "transport_energy_kwh": 66.65249201327234,
+  "transport_makespan_s": 9953.348077776183,
+  "transport_sorties": 25,
+  "minimum_transport_energy_margin_kwh": 0.2471029920028247,
+  "hard_deadline_violations": 0,
+  "margin_distribution_db": {
+    "direct_active_path": {
+      "0": 1.673330804408124e-05,
+      "0.01": 0.22195349078589008,
+      "0.05": 1.7653542479113336,
+      "0.25": 7.414971381343836,
+      "0.5": 18.22950778717098,
+      "0.75": 32.23315500996729,
+      "0.95": 51.13174167537773,
+      "1": 201.94577516576788
+    },
+    "relayed_active_path": {
+      "0": 0.14955749359428694,
+      "0.01": 0.14955749359428694,
+      "0.05": 0.14955749359428694,
+      "0.25": 3.2286777897790557,
+      "0.5": 7.089275575683686,
+      "0.75": 9.500767968691491,
+      "0.95": 13.11389912953588,
+      "1": 13.435452033242427
+    }
+  },
+  "artifact_sha256": {
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_003/transport_sorties_AN01.csv": "b0dac53f9d4155394d3c92687989e8bf1be4b616cf4007d08be9142c497a18ab",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_003/box_delivery_AN01.csv": "26c80e827b30a4eed9bc54d786f377a6df0acc0a93dbbedeefe6ae469da11256",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_003/transport_shifts_AN01.csv": "b52cd699ad1df22ccf4a3bfb02f7793cccabe0c416c5701f8f62c7531c8407ea",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_003/transport_uav_calendar_AN01.csv": "7b2070b78aee2f4f35eb6051ad8cf49a1f28b770d7c6823da0eb1bef6139bf18",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_003/transport_battery_calendar_AN01.csv": "dc001bf2b558ef5df944d3367ff8f4fa8b82b7f139024fc4d71b757e2adae533",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_003/relay_sorties_AN01.csv": "9a0065eea128655f33faf96aacfdf26c77e8db69059deb0f4f3a85c81736112f",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_003/relay_uav_calendar_AN01.csv": "d5e5b98c7474e9288203f1eb6a2b416fbb914f2e7428a5f4d5d9a573316380a2",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_003/relay_energy_calendar_AN01.csv": "3f246cbe6d33abab73d4a199a708be8ee4f60ae06d900f30f4c786c4484f4bdb",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_003/communication_guarantee_AN01.csv": "f623adb2cb8c67934db5381895d7be1e1b457ad64c1356434ff1c82cf2ce1ce9",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_003/candidate_sites_AN01.csv": "41398c9c0d8b329c254fa4be6da31df25e2f6095bda77d9429825549e88897b0",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_003/guarded_selected_pairs_AN01.csv": "9ed80372af033383446648fa7b74b911cdd3972471cdef84e8d0be89d6a618f7",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_003/scenario.json": "fa958f8f47ad4ac279ecaa6cb3224adb33b0280c7102d6f3ef3f5e00abb21bc8",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_003/guarded_atomic_tasks.csv": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_003/joint_metrics_AN01.json": "3dc529f58e7c2eb44c444f4a62eea5c43f449ad2c12f30632bdb2f10e13451cc"
+  }
+}

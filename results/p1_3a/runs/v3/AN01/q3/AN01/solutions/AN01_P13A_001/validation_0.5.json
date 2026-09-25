@@ -1,0 +1,76 @@
+{
+  "Gamma_C_db": 0.0,
+  "minimum_twohop_robust_slack_db": 0.14955749359428694,
+  "pareto_id": "AN01",
+  "status": "P1_Q3_INDEPENDENTLY_VALIDATED",
+  "step_s": 0.5,
+  "hard_violations": 0,
+  "uncovered_sample_count": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "full_flight_samples": 67044,
+  "direct_samples": 43330,
+  "relayed_samples": 23714,
+  "relay_sorties": 5,
+  "full_flight_boundary_refinements": 468,
+  "boundary_refinement_s": 0.1,
+  "relay_ids": [
+    "R01",
+    "R02"
+  ],
+  "energy_components": [
+    "REC-01",
+    "REC-02",
+    "REC-03",
+    "REC-04",
+    "REC-05"
+  ],
+  "minimum_relay_energy_margin_kwh": 1.4527223885356613,
+  "minimum_twohop_margin_db": 0.14955749359428694,
+  "runtime_s": 26.238808549000055,
+  "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+  "J_late": 0.0,
+  "J_norm": 0.5308926778137694,
+  "transport_energy_kwh": 66.65249201327234,
+  "transport_makespan_s": 9298.567963956675,
+  "transport_sorties": 25,
+  "minimum_transport_energy_margin_kwh": 0.2471029920028247,
+  "hard_deadline_violations": 0,
+  "margin_distribution_db": {
+    "direct_active_path": {
+      "0": 0.00018961648703097467,
+      "0.01": 0.22123576331751316,
+      "0.05": 1.7594483445981444,
+      "0.25": 7.4007239754216325,
+      "0.5": 18.229026215818756,
+      "0.75": 32.23549466360426,
+      "0.95": 51.11513279354034,
+      "1": 201.94577516576788
+    },
+    "relayed_active_path": {
+      "0": 0.14955749359428694,
+      "0.01": 0.14955749359428694,
+      "0.05": 0.14955749359428694,
+      "0.25": 2.43785423226241,
+      "0.5": 4.505092515554757,
+      "0.75": 8.226809702901718,
+      "0.95": 11.397135806608844,
+      "1": 14.483032309827351
+    }
+  },
+  "artifact_sha256": {
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_001/transport_sorties_AN01.csv": "daddc23f14f38213756d6faee703788a75ffd3e7478697530fd9af7350ca9249",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_001/box_delivery_AN01.csv": "aee2763348b8ade4bcfa7a95eb90e2abf71de1b49a13eb412fd619ea1ac473f7",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_001/transport_shifts_AN01.csv": "aba4b2941f507e639b5b8035a868af536205db12ee74b7dccb756026e4d0095f",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_001/transport_uav_calendar_AN01.csv": "77dced2c6fac1969c90e6cb569dd91871cf9a45d804a1c9aab39375ba6657f04",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_001/transport_battery_calendar_AN01.csv": "bb56634fee9bdb41768928362238404c635f986b6882d997d3b62a518c4c51a3",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_001/relay_sorties_AN01.csv": "b166fa4df0da8d59e165a5197c79c6a8633773c95697ba72bca05600566ecd38",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_001/relay_uav_calendar_AN01.csv": "3047a42baefa4ee5f280644eccdc3c89b38ae1492a7773236cd1088ca2c304e6",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_001/relay_energy_calendar_AN01.csv": "3265b1236b8884ba6f990a8ad7a04ec992f582e84d5b848ce89be6e8b29c7199",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_001/communication_guarantee_AN01.csv": "3f8300673fcf9ca38a38d71bc308f95b42a0aae59e1ed0353e30e2be4b4ed70c",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_001/candidate_sites_AN01.csv": "899eefe3ff2210a8dfe324602d74166e748c641099b02c3874cb0bc40d806c69",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_001/guarded_selected_pairs_AN01.csv": "1978554ebc4c837ff4ce7833834e33b8a00ca843ed33db4e614be4c70ace9b44",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_001/scenario.json": "fa958f8f47ad4ac279ecaa6cb3224adb33b0280c7102d6f3ef3f5e00abb21bc8",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_001/guarded_atomic_tasks.csv": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+    "results/p1_3a/runs/v3/AN01/q3/AN01/solutions/AN01_P13A_001/joint_metrics_AN01.json": "e6411057174086152ba07d7c55534287d59f14fbf70b53019f23fe024ba8b839"
+  }
+}

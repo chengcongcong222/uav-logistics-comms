@@ -1,0 +1,25 @@
+{
+  "mode": "STRUCTURE_FIXED_EXACT_AUDIT",
+  "pid": "AN01",
+  "solver_seed": 26092511,
+  "formal_seed": false,
+  "mip_limit_per_anchor_s": 90.0,
+  "lp_limit_per_anchor_s": 60,
+  "threads": 1,
+  "mip_relative_gap_tolerance": 1e-06,
+  "zero_lateness_hard_layer": 0.0001,
+  "objective_order": [
+    "J_norm",
+    "joint_makespan_s",
+    "total_energy_kwh",
+    "relay_sorties"
+  ],
+  "tie_break": "INCUMBENT_SELECTION_ONLY: anchor, J_norm, makespan, energy, transport, relay, ID; no secondary optimality claim",
+  "no_external_targets": true,
+  "source_hashes": {
+    "src/bench_p1_3a/run.py": "1081639f318509e8549564c3b1eb7636e26ff32fc7b14b5c9829ca3bbdd13601",
+    "src/bench_p1_3a/model.py": "6e46860d0067b2a2fddcca271f4d08fe05e2a6b3fff84434df3152025f41367a",
+    "src/bench_p1_3a/test_model.py": "013f6c65fb271575eecc3781b0a9207c0080782378aef451233b2fcd07255389",
+    "src/bench_p1_3a/admit.py": "f605a5a016c4d8d473a72c65b92af543f1d0e5c7aac1e38ca3e1c177d83c8c51"
+  }
+}

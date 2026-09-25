@@ -1,0 +1,19 @@
+{
+  "status": "P1_3A_FINITE_DOMAIN_AUDIT_READY",
+  "requirements": {
+    "joint_makespan_s": true,
+    "total_energy_kwh": true,
+    "relay_sorties": true
+  },
+  "scope": "A11 and AN01 have validated incumbents and exact-rational relaxation bounds in declared partial finite domains; A03 zero-late witness remains absent",
+  "no_full_structure_optimality_claim": true,
+  "no_global_pareto_claim": true,
+  "no_global_Q3_optimality_claim": true,
+  "no_formal_algorithm_comparison": true,
+  "formal_seeds_used": false,
+  "external_structures_used": false,
+  "raw_solver_anomalies_not_accepted_as_proofs": true,
+  "main_Q4_submission_untouched": true,
+  "blocked_reasons": [],
+  "stop_after_this_phase": true
+}

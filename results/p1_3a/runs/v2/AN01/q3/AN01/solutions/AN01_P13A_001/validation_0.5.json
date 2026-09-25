@@ -1,0 +1,76 @@
+{
+  "Gamma_C_db": 0.0,
+  "minimum_twohop_robust_slack_db": 0.14955749359428694,
+  "pareto_id": "AN01",
+  "status": "P1_Q3_INDEPENDENTLY_VALIDATED",
+  "step_s": 0.5,
+  "hard_violations": 0,
+  "uncovered_sample_count": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "full_flight_samples": 67044,
+  "direct_samples": 43333,
+  "relayed_samples": 23711,
+  "relay_sorties": 5,
+  "full_flight_boundary_refinements": 468,
+  "boundary_refinement_s": 0.1,
+  "relay_ids": [
+    "R01",
+    "R02"
+  ],
+  "energy_components": [
+    "REC-01",
+    "REC-02",
+    "REC-03",
+    "REC-04",
+    "REC-05"
+  ],
+  "minimum_relay_energy_margin_kwh": 1.0734366610584851,
+  "minimum_twohop_margin_db": 0.14955749359428694,
+  "runtime_s": 33.37378895400002,
+  "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+  "J_late": 0.0,
+  "J_norm": 0.512099278929966,
+  "transport_energy_kwh": 66.65249201327234,
+  "transport_makespan_s": 9882.056350025625,
+  "transport_sorties": 25,
+  "minimum_transport_energy_margin_kwh": 0.2471029920028247,
+  "hard_deadline_violations": 0,
+  "margin_distribution_db": {
+    "direct_active_path": {
+      "0": 0.00024184324701792548,
+      "0.01": 0.21920781579835044,
+      "0.05": 1.76383005550439,
+      "0.25": 7.41132293554562,
+      "0.5": 18.229125221226212,
+      "0.75": 32.2428176169839,
+      "0.95": 51.10463440646346,
+      "1": 201.94577516576788
+    },
+    "relayed_active_path": {
+      "0": 0.14955749359428694,
+      "0.01": 0.14955749359428694,
+      "0.05": 0.14955749359428694,
+      "0.25": 2.43785423226241,
+      "0.5": 4.501294028932733,
+      "0.75": 9.49195233085419,
+      "0.95": 11.397135806608844,
+      "1": 14.483544557064945
+    }
+  },
+  "artifact_sha256": {
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_001/transport_sorties_AN01.csv": "bf22019152a1fc88304e36a5a0c3fe3f5160b8fa1f1d21ea4119825d19c269cc",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_001/box_delivery_AN01.csv": "07454653d1594e962f0174b60dff949fd3a5d118f94a28db1cbc46698c43d1a4",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_001/transport_shifts_AN01.csv": "802bd764755c6e7d6c6a850cc5433287d45ed5f96e39d3b751e246694ef34e11",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_001/transport_uav_calendar_AN01.csv": "e6443569c15fab7c9cd7704d480c736c1cf234111d122d62311d8b935881eb89",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_001/transport_battery_calendar_AN01.csv": "be351be6301f5b71c99a7298c0685d97785297c2ee63a17a92ce6ce2c697f6db",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_001/relay_sorties_AN01.csv": "6d858a86a9d7e1744fb90db909d6af9722fd669d657e9b41081246d2d2a4ddf6",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_001/relay_uav_calendar_AN01.csv": "b3b66eae88d7734d8782031489e2fbaf4e1d6b3337d98496a6c5165a032ee2c0",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_001/relay_energy_calendar_AN01.csv": "bc37b834835111f41e8f4678091512f4deb5cd2db78317c0126f29cd201e27db",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_001/communication_guarantee_AN01.csv": "7e476557f04f0152cb86b0265591e4e059b44089c5fb12b96d2336943b999a82",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_001/candidate_sites_AN01.csv": "cb81f8f2b6aa2f08c85ad56f4a05f8ffb783369d21e6f4882d0a3518cf4b01e5",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_001/guarded_selected_pairs_AN01.csv": "b9556a6addf1d6c50b8cddf14d8efa04da393e0e8e8384ef572d24c69822ad1e",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_001/scenario.json": "fa958f8f47ad4ac279ecaa6cb3224adb33b0280c7102d6f3ef3f5e00abb21bc8",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_001/guarded_atomic_tasks.csv": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+    "results/p1_3a/runs/v2/AN01/q3/AN01/solutions/AN01_P13A_001/joint_metrics_AN01.json": "39229e9f374e4ffeaf26d119ca0321aa7251c217ff45bf385fcd2cff2d2ffde3"
+  }
+}

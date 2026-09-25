@@ -1,0 +1,12 @@
+{
+  "variables": 4105,
+  "binary_variables": 3578,
+  "constraints": 14187,
+  "nonzero_coefficients": 74610,
+  "group_modes": 42,
+  "site_options": 1456,
+  "transport_sorties": 25,
+  "no_warm_resource_orders_fixed": true,
+  "energy": "EXACT_FIXED_ENDPOINT_ORDER_UNION",
+  "charge": "EXACT_TWO_PIECE_GRAPH"
+}

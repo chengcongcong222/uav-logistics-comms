@@ -1,0 +1,152 @@
+[
+  {
+    "sortie_id": "M001",
+    "signature": "3a95775d7787c94423dc6fd2b0cdcb2494aa6603b1646d0a4d2def725e501603",
+    "cache_hit": false,
+    "intervals": 0
+  },
+  {
+    "sortie_id": "M002",
+    "signature": "ba44847010082e20c32860623ed4538d9dd1de1074334b1a592fc0292418b640",
+    "cache_hit": false,
+    "intervals": 0
+  },
+  {
+    "sortie_id": "M003",
+    "signature": "76ba81164dd1f5c8552995e872e4dbb70a94b485ccfc7ba408f9e1fb6a3bfb9e",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M004",
+    "signature": "a1e45880cb3b5cb2f26ca61575ffea4475c7f7df2349b5d84c6b91a37cdbd873",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M005",
+    "signature": "1c27864be2b7429a88f6ce5a1afbd112a39a2d64cfa474e434428c9196f37858",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M006",
+    "signature": "3693981d98420208ef512903288d29e6cc3cd2a19bc4feea9e997ee59c6998a9",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M007",
+    "signature": "c396dccb06413eabbc5426e23dc5a39a2bdb73c53470f56b2cd83a56c355fbf2",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M008",
+    "signature": "658f0ce69822c81382271bbfb96825a39db058be4e6fa6c02c378399b36e5d6e",
+    "cache_hit": false,
+    "intervals": 3
+  },
+  {
+    "sortie_id": "M009",
+    "signature": "d0006496d20d8874bc3124af48cdbb1c4f691db8e411dcd8752d45be5de40a20",
+    "cache_hit": false,
+    "intervals": 3
+  },
+  {
+    "sortie_id": "M010",
+    "signature": "946a059c394074b208b14335c43a71b48cc724a41a2850e17b639441d2f3c7f5",
+    "cache_hit": false,
+    "intervals": 3
+  },
+  {
+    "sortie_id": "M011",
+    "signature": "08740a204971295dae2aecc2fda7ade23a05e7feac78a70befe389615c421e79",
+    "cache_hit": false,
+    "intervals": 0
+  },
+  {
+    "sortie_id": "M012",
+    "signature": "6c79dd3b04802442995e1ad897d222ffcbc101590c5b751b8c619a115b65e287",
+    "cache_hit": false,
+    "intervals": 0
+  },
+  {
+    "sortie_id": "M013",
+    "signature": "8b530b1713bb00ccea3577c3929fea3e14ecf546db56e862cd8c87d0ec6467ad",
+    "cache_hit": false,
+    "intervals": 0
+  },
+  {
+    "sortie_id": "M014",
+    "signature": "aa219174ac3f81c1d2fd8edcd11227cab538c478a16e2349a0090cc16da17add",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M015",
+    "signature": "169c7b8f70f9b928c2d287d1dbb6c6108f684c63f5fd0bbaf3baf44a59cdd33f",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M016",
+    "signature": "4667956b9fdedffa0ccc6fb507cc69029aeac2f6ca602fd1229cfe75d9572773",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M017",
+    "signature": "11ecd0b28bebfd41f20a2f3e065d75eb8396d5689c41b89ddd9221c87777037b",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M018",
+    "signature": "6214788d118c75c33386ff228090460385547e878b7fbe881484af55c7bcfcc7",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M019",
+    "signature": "34949814836327002963746d10440101a347c77da37b93498f3c9e8adcf323fe",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M020",
+    "signature": "3d9b237a12679f6b6207d42ff600bff3e92d45be5d29a70e271dc9dcd14e232b",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M021",
+    "signature": "2e31413b5cf7ef0e10cd6f8b0d7e613c2d197b28bdee400a7e7edcb363f31b32",
+    "cache_hit": false,
+    "intervals": 0
+  },
+  {
+    "sortie_id": "M022",
+    "signature": "60d991a0eba80abaf85da8d467362721db40a8fd0037b08bf0a878571c06890e",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M023",
+    "signature": "be9054d87eede6257092bb15ff6a955c3032848ec913f7cd58b9153c7909bc41",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M024",
+    "signature": "df6663cb45640dda0cd4356ce8dc167dd7fd503194196a1c772c495d62fb54e1",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M025",
+    "signature": "0ebadb78a19f8a39107ddf4996ab55f970a1ca04acf4b4acb5e24e8cebf95086",
+    "cache_hit": false,
+    "intervals": 1
+  }
+]

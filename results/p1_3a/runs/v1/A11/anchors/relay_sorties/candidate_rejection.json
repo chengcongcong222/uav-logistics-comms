@@ -1,0 +1,4 @@
+{
+  "error": "ValueError(('Physical/linear objective mismatch', {'J_norm': 5.551115123125783e-17, 'joint_makespan_s': np.float64(32254.939103487195), 'total_energy_kwh': 0.0, 'relay_sorties': 0.0}))",
+  "solver_status": 0
+}

@@ -1,0 +1,143 @@
+[
+  {
+    "pid": "A11",
+    "input_sha256": "7424859a36a250f1b5e6b6bee2fb95d93a74bbf68b99deab2693eb306cf3569c",
+    "individual_duration_lower_bound_s": 2436.1111443370796,
+    "typed_resource_bounds": [
+      {
+        "type": "A",
+        "uavs": 4,
+        "batteries": 6,
+        "uav_workload_s": 18649.77934748577,
+        "uav_workload_lower_bound_s": 4662.444836871442,
+        "battery_workload_lower_bound_s": 3070.8392475499777,
+        "uav_bound_rational": {
+          "numerator": "82022596992069235",
+          "denominator": "17592186044416"
+        }
+      },
+      {
+        "type": "B",
+        "uavs": 2,
+        "batteries": 4,
+        "uav_workload_s": 12601.563287201945,
+        "uav_workload_lower_bound_s": 6300.781643600972,
+        "battery_workload_lower_bound_s": 3502.5256411833384,
+        "uav_bound_rational": {
+          "numerator": "27711130724867383",
+          "denominator": "4398046511104"
+        }
+      },
+      {
+        "type": "C",
+        "uavs": 2,
+        "batteries": 4,
+        "uav_workload_s": 12231.037097919056,
+        "uav_workload_lower_bound_s": 6115.518548959527,
+        "battery_workload_lower_bound_s": 3080.728348736568,
+        "uav_bound_rational": {
+          "numerator": "53792670035686499",
+          "denominator": "8796093022208"
+        }
+      }
+    ],
+    "universal_fixed_transport_makespan_lower_bound_s": 6300.781643600972,
+    "scope": "ANY_Q3_SCHEDULE_WITH_THIS_TRANSPORT_BOX_VISIT_TYPE_STRUCTURE_AND_ORIGINAL_RESOURCES; INDEPENDENT_OF_RELAY_CATALOGUE_OR_EVENT_ORDERS",
+    "derivation": "UAV: sum(return-preparation) <= count*T. Battery: sum(return+charge-takeoff) <= pool*(T+max_charge). Individual: T >= return-preparation.",
+    "does_not_bound_entire_transport_pattern_pool": true
+  },
+  {
+    "pid": "AN01",
+    "input_sha256": "db8c210487a5512c767b686c1ac305941f2a16204e5fbc53bbdf3fe719410183",
+    "individual_duration_lower_bound_s": 2436.1111443370796,
+    "typed_resource_bounds": [
+      {
+        "type": "A",
+        "uavs": 4,
+        "batteries": 6,
+        "uav_workload_s": 14694.929073690111,
+        "uav_workload_lower_bound_s": 3673.7322684225273,
+        "battery_workload_lower_bound_s": 2129.7294503332387,
+        "uav_bound_rational": {
+          "numerator": "64628981543463525",
+          "denominator": "17592186044416"
+        }
+      },
+      {
+        "type": "B",
+        "uavs": 2,
+        "batteries": 4,
+        "uav_workload_s": 16138.28124744941,
+        "uav_workload_lower_bound_s": 8069.140623724704,
+        "battery_workload_lower_bound_s": 5031.808806756252,
+        "uav_bound_rational": {
+          "numerator": "70976911535559987",
+          "denominator": "8796093022208"
+        }
+      },
+      {
+        "type": "C",
+        "uavs": 2,
+        "batteries": 4,
+        "uav_workload_s": 12231.037097919056,
+        "uav_workload_lower_bound_s": 6115.518548959527,
+        "battery_workload_lower_bound_s": 3080.728348736568,
+        "uav_bound_rational": {
+          "numerator": "1681020938615203",
+          "denominator": "274877906944"
+        }
+      }
+    ],
+    "universal_fixed_transport_makespan_lower_bound_s": 8069.140623724704,
+    "scope": "ANY_Q3_SCHEDULE_WITH_THIS_TRANSPORT_BOX_VISIT_TYPE_STRUCTURE_AND_ORIGINAL_RESOURCES; INDEPENDENT_OF_RELAY_CATALOGUE_OR_EVENT_ORDERS",
+    "derivation": "UAV: sum(return-preparation) <= count*T. Battery: sum(return+charge-takeoff) <= pool*(T+max_charge). Individual: T >= return-preparation.",
+    "does_not_bound_entire_transport_pattern_pool": true
+  },
+  {
+    "pid": "A03",
+    "input_sha256": "9a51865262147db35402d6ddd95ceda585056397293a7207ea7c3e8a8e182b77",
+    "individual_duration_lower_bound_s": 2627.6121467253556,
+    "typed_resource_bounds": [
+      {
+        "type": "A",
+        "uavs": 4,
+        "batteries": 6,
+        "uav_workload_s": 3731.172846887551,
+        "uav_workload_lower_bound_s": 932.7932117218876,
+        "battery_workload_lower_bound_s": -463.2910498551205,
+        "uav_bound_rational": {
+          "numerator": "16409871721579773",
+          "denominator": "17592186044416"
+        }
+      },
+      {
+        "type": "B",
+        "uavs": 2,
+        "batteries": 4,
+        "uav_workload_s": 17377.716127464813,
+        "uav_workload_lower_bound_s": 8688.858063732405,
+        "battery_workload_lower_bound_s": 5529.140576373333,
+        "uav_bound_rational": {
+          "numerator": "38214001892676169",
+          "denominator": "4398046511104"
+        }
+      },
+      {
+        "type": "C",
+        "uavs": 2,
+        "batteries": 4,
+        "uav_workload_s": 14579.595333747457,
+        "uav_workload_lower_bound_s": 7289.797666873727,
+        "battery_workload_lower_bound_s": 3927.9633251574837,
+        "uav_bound_rational": {
+          "numerator": "32060869195448079",
+          "denominator": "4398046511104"
+        }
+      }
+    ],
+    "universal_fixed_transport_makespan_lower_bound_s": 8688.858063732405,
+    "scope": "ANY_Q3_SCHEDULE_WITH_THIS_TRANSPORT_BOX_VISIT_TYPE_STRUCTURE_AND_ORIGINAL_RESOURCES; INDEPENDENT_OF_RELAY_CATALOGUE_OR_EVENT_ORDERS",
+    "derivation": "UAV: sum(return-preparation) <= count*T. Battery: sum(return+charge-takeoff) <= pool*(T+max_charge). Individual: T >= return-preparation.",
+    "does_not_bound_entire_transport_pattern_pool": true
+  }
+]

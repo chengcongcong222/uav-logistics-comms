@@ -1,0 +1,4 @@
+{
+  "error": "ValueError(('Physical/linear objective mismatch', {'J_norm': 0.0, 'joint_makespan_s': 30180.806537530487, 'total_energy_kwh': 0.0, 'relay_sorties': 0.0}))",
+  "solver_status": 0
+}
