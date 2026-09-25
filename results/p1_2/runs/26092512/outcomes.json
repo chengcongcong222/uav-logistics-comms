@@ -1,0 +1,127 @@
+[
+  {
+    "anchor": "J_norm",
+    "best_id": "D26092512_005",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.46302993000293485,
+      "joint_makespan_s": 7013.0829460090135,
+      "transport_energy_kwh": 67.38961978302869,
+      "relay_energy_kwh": 2.8945232021926754,
+      "total_energy_kwh": 70.28414298522137,
+      "transport_sorties": 25,
+      "relay_sorties": 4,
+      "total_transport_shift_s": 773.1720931688521,
+      "total_absolute_transport_shift_s": 11270.716549621204,
+      "max_transport_shift_s": 2078.4995701404714,
+      "minimum_M_E_kwh": 1.2856986397590238
+    },
+    "verified_new_paths": [
+      "D26092512_001",
+      "D26092512_002",
+      "D26092512_003",
+      "D26092512_004",
+      "D26092512_005"
+    ]
+  },
+  {
+    "anchor": "joint_makespan_s",
+    "best_id": "D26092512_002",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.4631731428974892,
+      "joint_makespan_s": 7013.0829460090135,
+      "transport_energy_kwh": 67.38961978302869,
+      "relay_energy_kwh": 2.8945232021926754,
+      "total_energy_kwh": 70.28414298522137,
+      "transport_sorties": 25,
+      "relay_sorties": 4,
+      "total_transport_shift_s": 834.7822804061566,
+      "total_absolute_transport_shift_s": 11209.1063623839,
+      "max_transport_shift_s": 2078.4995701404714,
+      "minimum_M_E_kwh": 1.2856986397590238
+    },
+    "verified_new_paths": [
+      "D26092512_006",
+      "D26092512_007",
+      "D26092512_008",
+      "D26092512_009",
+      "D26092512_010"
+    ]
+  },
+  {
+    "anchor": "total_energy_kwh",
+    "best_id": "D26092512_015",
+    "metrics": {
+      "J_late": 9.999894245993346e-08,
+      "J_norm": 0.4884402189926683,
+      "joint_makespan_s": 8653.014191559654,
+      "transport_energy_kwh": 66.65249201327232,
+      "relay_energy_kwh": 3.286968095505689,
+      "total_energy_kwh": 69.93946010877801,
+      "transport_sorties": 25,
+      "relay_sorties": 4,
+      "total_transport_shift_s": 56200.84458686302,
+      "total_absolute_transport_shift_s": 56200.84458686302,
+      "max_transport_shift_s": 6916.940435259428,
+      "minimum_M_E_kwh": 0.8315445488272837
+    },
+    "verified_new_paths": [
+      "D26092512_011",
+      "D26092512_012",
+      "D26092512_013",
+      "D26092512_014",
+      "D26092512_015"
+    ]
+  },
+  {
+    "anchor": "transport_sorties",
+    "best_id": "A11_Q3_001",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.4673434992897176,
+      "joint_makespan_s": 7191.5822294705995,
+      "transport_energy_kwh": 67.38961978302869,
+      "relay_energy_kwh": 3.074615636843778,
+      "total_energy_kwh": 70.46423541987247,
+      "transport_sorties": 25,
+      "relay_sorties": 5,
+      "total_transport_shift_s": 2469.032084780407,
+      "total_absolute_transport_shift_s": 10853.94023918886,
+      "max_transport_shift_s": 2325.4969843784334,
+      "minimum_M_E_kwh": 1.60088415712142
+    },
+    "verified_new_paths": [
+      "D26092512_016",
+      "D26092512_017",
+      "D26092512_018",
+      "D26092512_019",
+      "D26092512_020"
+    ]
+  },
+  {
+    "anchor": "relay_sorties",
+    "best_id": "D26092512_002",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.4631731428974892,
+      "joint_makespan_s": 7013.0829460090135,
+      "transport_energy_kwh": 67.38961978302869,
+      "relay_energy_kwh": 2.8945232021926754,
+      "total_energy_kwh": 70.28414298522137,
+      "transport_sorties": 25,
+      "relay_sorties": 4,
+      "total_transport_shift_s": 834.7822804061566,
+      "total_absolute_transport_shift_s": 11209.1063623839,
+      "max_transport_shift_s": 2078.4995701404714,
+      "minimum_M_E_kwh": 1.2856986397590238
+    },
+    "verified_new_paths": [
+      "D26092512_021",
+      "D26092512_022",
+      "D26092512_023",
+      "D26092512_024",
+      "D26092512_025"
+    ]
+  }
+]

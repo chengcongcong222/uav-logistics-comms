@@ -1,0 +1,75 @@
+{
+  "Gamma_C_db": 0.0,
+  "minimum_twohop_robust_slack_db": 0.14955749359428694,
+  "pareto_id": "AN01",
+  "status": "P1_Q3_INDEPENDENTLY_VALIDATED",
+  "step_s": 0.5,
+  "hard_violations": 0,
+  "uncovered_sample_count": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "full_flight_samples": 67044,
+  "direct_samples": 43332,
+  "relayed_samples": 23712,
+  "relay_sorties": 4,
+  "full_flight_boundary_refinements": 468,
+  "boundary_refinement_s": 0.1,
+  "relay_ids": [
+    "R01",
+    "R02"
+  ],
+  "energy_components": [
+    "REC-01",
+    "REC-02",
+    "REC-03",
+    "REC-04"
+  ],
+  "minimum_relay_energy_margin_kwh": 0.7724831566362556,
+  "minimum_twohop_margin_db": 0.14955749359428694,
+  "runtime_s": 25.02274833499996,
+  "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+  "J_late": 0.0,
+  "J_norm": 0.48651027780002226,
+  "transport_energy_kwh": 66.65249201327234,
+  "transport_makespan_s": 8433.115297131011,
+  "transport_sorties": 25,
+  "minimum_transport_energy_margin_kwh": 0.2471029920028247,
+  "hard_deadline_violations": 0,
+  "margin_distribution_db": {
+    "direct_active_path": {
+      "0": 0.00017986236421130286,
+      "0.01": 0.21749385780832114,
+      "0.05": 1.7518456950117705,
+      "0.25": 7.40096658047528,
+      "0.5": 18.232228414975154,
+      "0.75": 32.24435285871807,
+      "0.95": 51.13529916789022,
+      "1": 201.94577516576788
+    },
+    "relayed_active_path": {
+      "0": 0.14955749359428694,
+      "0.01": 0.14955749359428694,
+      "0.05": 0.14955749359428694,
+      "0.25": 2.43785423226241,
+      "0.5": 4.621635726340379,
+      "0.75": 8.226809702901718,
+      "0.95": 11.397135806608844,
+      "1": 11.397135806608844
+    }
+  },
+  "artifact_sha256": {
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_024/transport_sorties_AN01.csv": "1c97fb691df363a55f4b6ac517115ce246319dbe43f56bc0a037b90ce0f6df50",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_024/box_delivery_AN01.csv": "5f807df9aefc9a067b55da894c1e5f2aa5485e1be155c6ea646d75f0e7eb8f58",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_024/transport_shifts_AN01.csv": "30f21b8f109352f37952cb4bd81e924daebb3b6df8f9d06eb3a88642bb410ad6",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_024/transport_uav_calendar_AN01.csv": "10dcb2afb2e761054475d2759002763418abf9887ee3302239e94bf210c5f13c",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_024/transport_battery_calendar_AN01.csv": "c2ff37d297cf65a32b7036f0119583f146aca48f819d901649a38cff345116cf",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_024/relay_sorties_AN01.csv": "663b36d6319ac2cae325e54e5f2347121dd34a2ae1d71c6bd5e4cc13a1794add",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_024/relay_uav_calendar_AN01.csv": "819bed23c785b703ade001c4151e52533cfcc63fec515b8aa83355fb022e7606",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_024/relay_energy_calendar_AN01.csv": "a7d3269598f670447f911be2cd7d50f5fb226edd3cbf33d7c0e48c7cbc088fc9",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_024/communication_guarantee_AN01.csv": "c046163a2816c5be57aa3fda02fcec6769c73440d068ee38c7f7dc5e664a657b",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_024/candidate_sites_AN01.csv": "5f39bffb3b0dff3eda142e3231b97d4aefc8b021e9074d6936062e7535c34db5",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_024/guarded_selected_pairs_AN01.csv": "ef7328717fcfaadb17bb98dfce3e82b223e7fd87e682aef203adc471db20af74",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_024/scenario.json": "fa958f8f47ad4ac279ecaa6cb3224adb33b0280c7102d6f3ef3f5e00abb21bc8",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_024/guarded_atomic_tasks.csv": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_024/joint_metrics_AN01.json": "4e7d19875d8cf59566baf3c51f08aad970444c8792c188a0e1481ffd3b29405f"
+  }
+}

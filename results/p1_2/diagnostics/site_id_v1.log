@@ -1,0 +1,40 @@
+26092511 A11 communication_templates
+TEMPLATE A11 M001 False
+TEMPLATE A11 M002 False
+TEMPLATE A11 M003 False
+TEMPLATE A11 M004 False
+TEMPLATE A11 M005 False
+TEMPLATE A11 M006 False
+TEMPLATE A11 M007 False
+TEMPLATE A11 M008 False
+TEMPLATE A11 M009 False
+TEMPLATE A11 M010 False
+TEMPLATE A11 M011 False
+TEMPLATE A11 M012 False
+TEMPLATE A11 M013 False
+TEMPLATE A11 M014 False
+TEMPLATE A11 M015 False
+TEMPLATE A11 M016 False
+TEMPLATE A11 M017 False
+TEMPLATE A11 M018 False
+TEMPLATE A11 M019 False
+TEMPLATE A11 M020 False
+TEMPLATE A11 M021 False
+TEMPLATE A11 M022 False
+TEMPLATE A11 M023 False
+TEMPLATE A11 M024 False
+TEMPLATE A11 M025 False
+26092511 A11 task_site_edges
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/ccc/projects/uav-logistics-comms/src/bench_p1_2/driver.py", line 255, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/ccc/projects/uav-logistics-comms/src/bench_p1_2/driver.py", line 253, in main
+    else:run(a.seed,a.mode)
+         ^^^^^^^^^^^^^^^^^^
+  File "/home/ccc/projects/uav-logistics-comms/src/bench_p1_2/driver.py", line 181, in run
+    assert all(g['site_id'] in e.common(g['task_ids']) for g in w['groups'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

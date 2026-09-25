@@ -1,0 +1,35 @@
+{
+  "signature": "265704ad760c38347cf51b68b66bb264205356d7ce4340cef9046d327ea90424",
+  "shape": {
+    "uav_type": "A",
+    "box_ids": [
+      "S003-FOD-01",
+      "S003-WAT-01"
+    ],
+    "service_sequence": [
+      "S003"
+    ],
+    "boxes_by_service": {
+      "S003": [
+        "S003-FOD-01",
+        "S003-WAT-01"
+      ]
+    },
+    "relative_takeoff_time": 360.0,
+    "relative_delivery_times": {
+      "S003": 1409.300344422101
+    },
+    "relative_return_time": 2262.6540221775354
+  },
+  "geometry": "9db8a5d8afb2e9e498db2a10a895bb133d2e00de24515202080374a3fe4318dc",
+  "intervals": [
+    [
+      830.5625,
+      1763.15625
+    ]
+  ],
+  "samples": 3846,
+  "step_s": 0.5,
+  "boundary_s": 0.05,
+  "guard_s": 2.0
+}

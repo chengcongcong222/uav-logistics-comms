@@ -1,0 +1,76 @@
+{
+  "Gamma_C_db": 0.0,
+  "minimum_twohop_robust_slack_db": 0.14955749359428694,
+  "pareto_id": "A11",
+  "status": "P1_Q3_INDEPENDENTLY_VALIDATED",
+  "step_s": 0.5,
+  "hard_violations": 0,
+  "uncovered_sample_count": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "full_flight_samples": 67890,
+  "direct_samples": 43888,
+  "relayed_samples": 24002,
+  "relay_sorties": 5,
+  "full_flight_boundary_refinements": 468,
+  "boundary_refinement_s": 0.1,
+  "relay_ids": [
+    "R01",
+    "R02"
+  ],
+  "energy_components": [
+    "REC-01",
+    "REC-02",
+    "REC-03",
+    "REC-04",
+    "REC-05"
+  ],
+  "minimum_relay_energy_margin_kwh": 1.6008841574269757,
+  "minimum_twohop_margin_db": 0.14955749359428694,
+  "runtime_s": 26.50458584899991,
+  "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+  "J_late": 0.0,
+  "J_norm": 0.46734349917980755,
+  "transport_energy_kwh": 67.38961978302872,
+  "transport_makespan_s": 6971.6833331419575,
+  "transport_sorties": 25,
+  "minimum_transport_energy_margin_kwh": 0.2471029920028247,
+  "hard_deadline_violations": 0,
+  "margin_distribution_db": {
+    "direct_active_path": {
+      "0": 0.0002468285921448654,
+      "0.01": 0.2178989016579484,
+      "0.05": 1.7865463689875047,
+      "0.25": 7.724656522236518,
+      "0.5": 18.171817342913734,
+      "0.75": 32.06724204577844,
+      "0.95": 50.95078646874108,
+      "1": 201.94577516576788
+    },
+    "relayed_active_path": {
+      "0": 0.14955749359428694,
+      "0.01": 0.14955749359428694,
+      "0.05": 0.14955749359428694,
+      "0.25": 2.43785423226241,
+      "0.5": 4.668258638762673,
+      "0.75": 8.268318199339657,
+      "0.95": 11.397135806608844,
+      "1": 14.483965009844326
+    }
+  },
+  "artifact_sha256": {
+    "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_001/transport_sorties_A11.csv": "bca2eb8cf8af31b48af6bfcf7e01009dc3703dba62592ef21ce1b3b111439873",
+    "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_001/box_delivery_A11.csv": "420d2a703b271623b9edeb439f8acdca7f08b78a0cb3835c4acfe91b28409c66",
+    "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_001/transport_shifts_A11.csv": "7523edb6d1e6f813cc63e625f11cf27bfbdbff0800351b6832257e8b688a268d",
+    "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_001/transport_uav_calendar_A11.csv": "acaaa5ed8f43e2cc7e7fa81f1e2cd9e95c4a79f3dd890b0869147505f94a9a7e",
+    "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_001/transport_battery_calendar_A11.csv": "ffabc171a8dcd72c57ec417fead16ecd147dbfd0de57a36eb0a288d2c8a411d0",
+    "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_001/relay_sorties_A11.csv": "08cca31fdb7cacaee7cf465e4e048817a5d729711f65e4fc695a1cd5f46f6253",
+    "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_001/relay_uav_calendar_A11.csv": "bdbbb3e24027c23881d7e244233ee53744e39b828b8a1f4859ecf7d600a8512a",
+    "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_001/relay_energy_calendar_A11.csv": "084e38658c619d6581d08a83be976e290b17f22d47046fe4fad8930c21e22c97",
+    "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_001/communication_guarantee_A11.csv": "d90dd5dc94cc18f0c5d54104fde994aa69db6a472b158638b840a041916456c7",
+    "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_001/candidate_sites_A11.csv": "899eefe3ff2210a8dfe324602d74166e748c641099b02c3874cb0bc40d806c69",
+    "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_001/guarded_selected_pairs_A11.csv": "75e702ec7be41e7e192d02ce876ccb8aace6fef605dfec6e7edafac60898f891",
+    "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_001/scenario.json": "513041fa7ab33d2e7a8066500ec5c4fd6e9f0b15b6c32f02eed59c7f8c336b4b",
+    "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_001/guarded_atomic_tasks.csv": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+    "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_001/joint_metrics_A11.json": "33a1672634721ba33301ece30d9d0eb78bf45eb2cfaa3f73a57f50ae68cd25ba"
+  }
+}

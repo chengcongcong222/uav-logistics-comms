@@ -1,0 +1,75 @@
+{
+  "Gamma_C_db": 0.0,
+  "minimum_twohop_robust_slack_db": 0.14955749359428694,
+  "pareto_id": "AN01",
+  "status": "P1_Q3_INDEPENDENTLY_VALIDATED",
+  "step_s": 0.5,
+  "hard_violations": 0,
+  "uncovered_sample_count": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "full_flight_samples": 67044,
+  "direct_samples": 43335,
+  "relayed_samples": 23709,
+  "relay_sorties": 4,
+  "full_flight_boundary_refinements": 468,
+  "boundary_refinement_s": 0.1,
+  "relay_ids": [
+    "R01",
+    "R02"
+  ],
+  "energy_components": [
+    "REC-01",
+    "REC-02",
+    "REC-03",
+    "REC-04"
+  ],
+  "minimum_relay_energy_margin_kwh": 0.7982436497498013,
+  "minimum_twohop_margin_db": 0.14955749359428694,
+  "runtime_s": 25.691826393999918,
+  "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+  "J_late": 0.0,
+  "J_norm": 0.4819755867280239,
+  "transport_energy_kwh": 66.65249201327234,
+  "transport_makespan_s": 8433.115297131011,
+  "transport_sorties": 25,
+  "minimum_transport_energy_margin_kwh": 0.2471029920028247,
+  "hard_deadline_violations": 0,
+  "margin_distribution_db": {
+    "direct_active_path": {
+      "0": 0.00014940625750625713,
+      "0.01": 0.21750510503306925,
+      "0.05": 1.7559147919256586,
+      "0.25": 7.4041601146751574,
+      "0.5": 18.229143056514488,
+      "0.75": 32.23775177916605,
+      "0.95": 51.10506312916763,
+      "1": 201.94577516576788
+    },
+    "relayed_active_path": {
+      "0": 0.14955749359428694,
+      "0.01": 0.14955749359428694,
+      "0.05": 0.14955749359428694,
+      "0.25": 2.43785423226241,
+      "0.5": 4.617832010329835,
+      "0.75": 8.226809702901718,
+      "0.95": 11.397135806608844,
+      "1": 11.397135806608844
+    }
+  },
+  "artifact_sha256": {
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_022/transport_sorties_AN01.csv": "1302ffb0c4d23ad1f125a014f427065d67c16dac5c9338c28ae25d33817592c7",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_022/box_delivery_AN01.csv": "a1b9c21d59d51f2e212039abe71b05025deadb97dbcb70a3e247a4c89c4a633c",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_022/transport_shifts_AN01.csv": "31aa56b528e5d2249f49171cc0890299e8a8e68d5b0c0ea70335fc46d70d6fc0",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_022/transport_uav_calendar_AN01.csv": "194cdeadd414eb979f43bad1d91d31f449563ffc63a5293cb09c9adfa7abd676",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_022/transport_battery_calendar_AN01.csv": "2a7db3d1756bd65bac435890e319dda34608ed99734d523a8867d44255cb7ab1",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_022/relay_sorties_AN01.csv": "83a8a3e5a819593578fde2f2add45f64cba4976b1a88ba9562b416b847afdb8c",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_022/relay_uav_calendar_AN01.csv": "8dfc26a8f4510fdcbd660f362feee7ee0f262685dce86b69ff319c98bda04b30",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_022/relay_energy_calendar_AN01.csv": "7fdbb7748d2ade12ec00da6f8cd52cf50fbd08fd784abae9984387054e15ee7f",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_022/communication_guarantee_AN01.csv": "ead7eded21be15dc7385c081ad4574191a417499b2c9ddfbdc1e2089cee30694",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_022/candidate_sites_AN01.csv": "5f39bffb3b0dff3eda142e3231b97d4aefc8b021e9074d6936062e7535c34db5",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_022/guarded_selected_pairs_AN01.csv": "ef7328717fcfaadb17bb98dfce3e82b223e7fd87e682aef203adc471db20af74",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_022/scenario.json": "fa958f8f47ad4ac279ecaa6cb3224adb33b0280c7102d6f3ef3f5e00abb21bc8",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_022/guarded_atomic_tasks.csv": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_022/joint_metrics_AN01.json": "c6bbb3bbdfbba0b9c8927f6920fdd26da1b96b0c63469d5f00baef5c39db0cf4"
+  }
+}

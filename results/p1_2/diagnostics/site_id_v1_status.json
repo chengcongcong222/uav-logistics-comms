@@ -1,0 +1,11 @@
+{
+  "status": "PRE_OPTIMIZATION_SITE_ID_ASSERTION",
+  "seed": 26092511,
+  "mode": "DIAGNOSTIC_WARM",
+  "count_as_anchor_admission": false,
+  "new_verified_Q3_packages": 0,
+  "reason": "One old coordinate differs by one floating-point serialization unit; site hash differs",
+  "fix": "Unique coordinate match within 1e-7 m to existing frozen pool; no coordinates added or edited",
+  "source_snapshot": "source_v1",
+  "log": "site_id_v1.log"
+}

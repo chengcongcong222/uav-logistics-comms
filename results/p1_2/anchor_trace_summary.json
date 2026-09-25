@@ -1,0 +1,1623 @@
+{
+  "mode": "DIAGNOSTIC_WARM",
+  "runs": [
+    {
+      "seed": 26092511,
+      "timing": {
+        "total_cpu_s": 969.244703416,
+        "audit_cpu_s": 625.6723447519997,
+        "search_export_cpu_s": 343.5723601950002,
+        "formal_comparison": false
+      },
+      "outcomes": [
+        {
+          "anchor": "J_norm",
+          "best_id": "D26092511_005",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.46302993000293485,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.8945232021926754,
+            "total_energy_kwh": 70.28414298522137,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 773.1720931688521,
+            "total_absolute_transport_shift_s": 11270.716549621204,
+            "max_transport_shift_s": 2078.4995701404714,
+            "minimum_M_E_kwh": 1.2856986397590238
+          },
+          "verified_new_paths": [
+            "D26092511_001",
+            "D26092511_002",
+            "D26092511_003",
+            "D26092511_004",
+            "D26092511_005"
+          ]
+        },
+        {
+          "anchor": "joint_makespan_s",
+          "best_id": "D26092511_002",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.4631731428974892,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.8945232021926754,
+            "total_energy_kwh": 70.28414298522137,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 834.7822804061566,
+            "total_absolute_transport_shift_s": 11209.1063623839,
+            "max_transport_shift_s": 2078.4995701404714,
+            "minimum_M_E_kwh": 1.2856986397590238
+          },
+          "verified_new_paths": [
+            "D26092511_006",
+            "D26092511_007",
+            "D26092511_008",
+            "D26092511_009",
+            "D26092511_010"
+          ]
+        },
+        {
+          "anchor": "total_energy_kwh",
+          "best_id": "D26092511_015",
+          "metrics": {
+            "J_late": 9.999894245993346e-08,
+            "J_norm": 0.4884402189926683,
+            "joint_makespan_s": 8653.014191559654,
+            "transport_energy_kwh": 66.65249201327232,
+            "relay_energy_kwh": 3.286968095505689,
+            "total_energy_kwh": 69.93946010877801,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 56200.84458686302,
+            "total_absolute_transport_shift_s": 56200.84458686302,
+            "max_transport_shift_s": 6916.940435259428,
+            "minimum_M_E_kwh": 0.8315445488272837
+          },
+          "verified_new_paths": [
+            "D26092511_011",
+            "D26092511_012",
+            "D26092511_013",
+            "D26092511_014",
+            "D26092511_015"
+          ]
+        },
+        {
+          "anchor": "transport_sorties",
+          "best_id": "A11_Q3_001",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.4673434992897176,
+            "joint_makespan_s": 7191.5822294705995,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 3.074615636843778,
+            "total_energy_kwh": 70.46423541987247,
+            "transport_sorties": 25,
+            "relay_sorties": 5,
+            "total_transport_shift_s": 2469.032084780407,
+            "total_absolute_transport_shift_s": 10853.94023918886,
+            "max_transport_shift_s": 2325.4969843784334,
+            "minimum_M_E_kwh": 1.60088415712142
+          },
+          "verified_new_paths": [
+            "D26092511_016",
+            "D26092511_017",
+            "D26092511_018",
+            "D26092511_019"
+          ]
+        },
+        {
+          "anchor": "relay_sorties",
+          "best_id": "D26092511_002",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.4631731428974892,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.8945232021926754,
+            "total_energy_kwh": 70.28414298522137,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 834.7822804061566,
+            "total_absolute_transport_shift_s": 11209.1063623839,
+            "max_transport_shift_s": 2078.4995701404714,
+            "minimum_M_E_kwh": 1.2856986397590238
+          },
+          "verified_new_paths": [
+            "D26092511_020",
+            "D26092511_021",
+            "D26092511_022",
+            "D26092511_023",
+            "D26092511_024"
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 26092512,
+      "timing": {
+        "total_cpu_s": 986.575830363,
+        "audit_cpu_s": 645.2840916750001,
+        "search_export_cpu_s": 341.2917398459999,
+        "formal_comparison": false
+      },
+      "outcomes": [
+        {
+          "anchor": "J_norm",
+          "best_id": "D26092512_005",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.46302993000293485,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.8945232021926754,
+            "total_energy_kwh": 70.28414298522137,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 773.1720931688521,
+            "total_absolute_transport_shift_s": 11270.716549621204,
+            "max_transport_shift_s": 2078.4995701404714,
+            "minimum_M_E_kwh": 1.2856986397590238
+          },
+          "verified_new_paths": [
+            "D26092512_001",
+            "D26092512_002",
+            "D26092512_003",
+            "D26092512_004",
+            "D26092512_005"
+          ]
+        },
+        {
+          "anchor": "joint_makespan_s",
+          "best_id": "D26092512_002",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.4631731428974892,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.8945232021926754,
+            "total_energy_kwh": 70.28414298522137,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 834.7822804061566,
+            "total_absolute_transport_shift_s": 11209.1063623839,
+            "max_transport_shift_s": 2078.4995701404714,
+            "minimum_M_E_kwh": 1.2856986397590238
+          },
+          "verified_new_paths": [
+            "D26092512_006",
+            "D26092512_007",
+            "D26092512_008",
+            "D26092512_009",
+            "D26092512_010"
+          ]
+        },
+        {
+          "anchor": "total_energy_kwh",
+          "best_id": "D26092512_015",
+          "metrics": {
+            "J_late": 9.999894245993346e-08,
+            "J_norm": 0.4884402189926683,
+            "joint_makespan_s": 8653.014191559654,
+            "transport_energy_kwh": 66.65249201327232,
+            "relay_energy_kwh": 3.286968095505689,
+            "total_energy_kwh": 69.93946010877801,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 56200.84458686302,
+            "total_absolute_transport_shift_s": 56200.84458686302,
+            "max_transport_shift_s": 6916.940435259428,
+            "minimum_M_E_kwh": 0.8315445488272837
+          },
+          "verified_new_paths": [
+            "D26092512_011",
+            "D26092512_012",
+            "D26092512_013",
+            "D26092512_014",
+            "D26092512_015"
+          ]
+        },
+        {
+          "anchor": "transport_sorties",
+          "best_id": "A11_Q3_001",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.4673434992897176,
+            "joint_makespan_s": 7191.5822294705995,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 3.074615636843778,
+            "total_energy_kwh": 70.46423541987247,
+            "transport_sorties": 25,
+            "relay_sorties": 5,
+            "total_transport_shift_s": 2469.032084780407,
+            "total_absolute_transport_shift_s": 10853.94023918886,
+            "max_transport_shift_s": 2325.4969843784334,
+            "minimum_M_E_kwh": 1.60088415712142
+          },
+          "verified_new_paths": [
+            "D26092512_016",
+            "D26092512_017",
+            "D26092512_018",
+            "D26092512_019",
+            "D26092512_020"
+          ]
+        },
+        {
+          "anchor": "relay_sorties",
+          "best_id": "D26092512_002",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.4631731428974892,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.8945232021926754,
+            "total_energy_kwh": 70.28414298522137,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 834.7822804061566,
+            "total_absolute_transport_shift_s": 11209.1063623839,
+            "max_transport_shift_s": 2078.4995701404714,
+            "minimum_M_E_kwh": 1.2856986397590238
+          },
+          "verified_new_paths": [
+            "D26092512_021",
+            "D26092512_022",
+            "D26092512_023",
+            "D26092512_024",
+            "D26092512_025"
+          ]
+        }
+      ]
+    }
+  ],
+  "anchors": [
+    {
+      "seed": 26092511,
+      "anchor": "J_norm",
+      "new_validated_packages": 5,
+      "structure_feedback": [
+        "A11",
+        "AN01"
+      ],
+      "task_hashes": [
+        "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+        "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2"
+      ],
+      "missing_trace_stages": [],
+      "feedback": [
+        {
+          "id": "D26092511_001",
+          "pid": "A11",
+          "origin": "CONTINUOUS_JOINT_ADJUSTMENT",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.46734349917980744,
+            "joint_makespan_s": 7191.582227470599,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 3.074615636538239,
+            "total_energy_kwh": 70.46423541956693,
+            "transport_sorties": 25,
+            "relay_sorties": 5,
+            "total_transport_shift_s": 2469.0320637804107,
+            "total_absolute_transport_shift_s": 10853.94024218886,
+            "max_transport_shift_s": 2325.496982378434,
+            "minimum_M_E_kwh": 1.6008841574269757
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_001"
+        },
+        {
+          "id": "D26092511_002",
+          "pid": "A11",
+          "origin": "RELAY_MERGE",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.4631731428974892,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.8945232021926754,
+            "total_energy_kwh": 70.28414298522137,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 834.7822804061566,
+            "total_absolute_transport_shift_s": 11209.1063623839,
+            "max_transport_shift_s": 2078.4995701404714,
+            "minimum_M_E_kwh": 1.2856986397590238
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_002"
+        },
+        {
+          "id": "D26092511_003",
+          "pid": "AN01",
+          "origin": "CONTINUOUS_JOINT_ADJUSTMENT",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.49354065847975237,
+            "joint_makespan_s": 8719.337929657117,
+            "transport_energy_kwh": 66.65249201327232,
+            "relay_energy_kwh": 3.5054885005008254,
+            "total_energy_kwh": 70.15798051377315,
+            "transport_sorties": 25,
+            "relay_sorties": 6,
+            "total_transport_shift_s": 57607.95518747319,
+            "total_absolute_transport_shift_s": 57607.95518747319,
+            "max_transport_shift_s": 6983.264173356891,
+            "minimum_M_E_kwh": 1.4486236245175537
+          },
+          "tasks": 25,
+          "structure_hash": "a8d372e5b4d6b5c4c719c3644cab4408f94a4e3cc565a016ff87a395eb1d469a",
+          "tasks_hash": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+          "package": "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_003"
+        },
+        {
+          "id": "D26092511_004",
+          "pid": "AN01",
+          "origin": "RELAY_MERGE",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.4868972906706395,
+            "joint_makespan_s": 8653.014191459653,
+            "transport_energy_kwh": 66.65249201327232,
+            "relay_energy_kwh": 3.743094866498219,
+            "total_energy_kwh": 70.39558687977055,
+            "transport_sorties": 25,
+            "relay_sorties": 5,
+            "total_transport_shift_s": 55701.38698370905,
+            "total_absolute_transport_shift_s": 55701.38698370905,
+            "max_transport_shift_s": 6916.940435159428,
+            "minimum_M_E_kwh": 1.1584510291211871
+          },
+          "tasks": 25,
+          "structure_hash": "a8d372e5b4d6b5c4c719c3644cab4408f94a4e3cc565a016ff87a395eb1d469a",
+          "tasks_hash": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+          "package": "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_004"
+        },
+        {
+          "id": "D26092511_005",
+          "pid": "A11",
+          "origin": "FEEDBACK_SELECTED_CHALLENGE",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.46302993000293485,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.8945232021926754,
+            "total_energy_kwh": 70.28414298522137,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 773.1720931688521,
+            "total_absolute_transport_shift_s": 11270.716549621204,
+            "max_transport_shift_s": 2078.4995701404714,
+            "minimum_M_E_kwh": 1.2856986397590238
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_005"
+        }
+      ]
+    },
+    {
+      "seed": 26092511,
+      "anchor": "joint_makespan_s",
+      "new_validated_packages": 5,
+      "structure_feedback": [
+        "A11",
+        "AN01"
+      ],
+      "task_hashes": [
+        "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+        "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2"
+      ],
+      "missing_trace_stages": [],
+      "feedback": [
+        {
+          "id": "D26092511_006",
+          "pid": "A11",
+          "origin": "CONTINUOUS_JOINT_ADJUSTMENT",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.46317314299748913,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.8945232021926754,
+            "total_energy_kwh": 70.28414298522137,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 814.2455800070311,
+            "total_absolute_transport_shift_s": 11311.790036459384,
+            "max_transport_shift_s": 2078.4995701404714,
+            "minimum_M_E_kwh": 1.2856986397590238
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_006"
+        },
+        {
+          "id": "D26092511_007",
+          "pid": "A11",
+          "origin": "RELAY_SITE",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.4641421121165672,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.928354875080653,
+            "total_energy_kwh": 70.31797465810935,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 981.910966869933,
+            "total_absolute_transport_shift_s": 11572.102082739399,
+            "max_transport_shift_s": 2146.997700916848,
+            "minimum_M_E_kwh": 1.2657200182825807
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_007"
+        },
+        {
+          "id": "D26092511_008",
+          "pid": "AN01",
+          "origin": "CONTINUOUS_JOINT_ADJUSTMENT",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.4868972906706395,
+            "joint_makespan_s": 8653.014191459653,
+            "transport_energy_kwh": 66.65249201327232,
+            "relay_energy_kwh": 3.743094866498219,
+            "total_energy_kwh": 70.39558687977055,
+            "transport_sorties": 25,
+            "relay_sorties": 5,
+            "total_transport_shift_s": 55701.38698370905,
+            "total_absolute_transport_shift_s": 55701.38698370905,
+            "max_transport_shift_s": 6916.940435159428,
+            "minimum_M_E_kwh": 1.1584510291211871
+          },
+          "tasks": 25,
+          "structure_hash": "a8d372e5b4d6b5c4c719c3644cab4408f94a4e3cc565a016ff87a395eb1d469a",
+          "tasks_hash": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+          "package": "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_008"
+        },
+        {
+          "id": "D26092511_009",
+          "pid": "AN01",
+          "origin": "RELAY_MERGE",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.481975586528024,
+            "joint_makespan_s": 8653.014191459653,
+            "transport_energy_kwh": 66.65249201327232,
+            "relay_energy_kwh": 3.388427020178797,
+            "total_energy_kwh": 70.04091903345112,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 54798.28442288525,
+            "total_absolute_transport_shift_s": 54798.28442288525,
+            "max_transport_shift_s": 6916.940435159428,
+            "minimum_M_E_kwh": 0.7724831566362556
+          },
+          "tasks": 25,
+          "structure_hash": "a8d372e5b4d6b5c4c719c3644cab4408f94a4e3cc565a016ff87a395eb1d469a",
+          "tasks_hash": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+          "package": "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_009"
+        },
+        {
+          "id": "D26092511_010",
+          "pid": "A11",
+          "origin": "FEEDBACK_SELECTED_CHALLENGE",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.46317314299748913,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.8945232021926754,
+            "total_energy_kwh": 70.28414298522137,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 814.2455800070311,
+            "total_absolute_transport_shift_s": 11311.790036459384,
+            "max_transport_shift_s": 2078.4995701404714,
+            "minimum_M_E_kwh": 1.2856986397590238
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_010"
+        }
+      ]
+    },
+    {
+      "seed": 26092511,
+      "anchor": "total_energy_kwh",
+      "new_validated_packages": 5,
+      "structure_feedback": [
+        "A03",
+        "AN01"
+      ],
+      "task_hashes": [
+        "6fbef07d836021ebcd898f493b537585c58bb4bb027bf3c14452efa34c19efa1",
+        "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2"
+      ],
+      "missing_trace_stages": [],
+      "feedback": [
+        {
+          "id": "D26092511_011",
+          "pid": "AN01",
+          "origin": "CONTINUOUS_JOINT_ADJUSTMENT",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.481975586628024,
+            "joint_makespan_s": 8653.014191459653,
+            "transport_energy_kwh": 66.65249201327232,
+            "relay_energy_kwh": 3.327033690030171,
+            "total_energy_kwh": 69.9795257033025,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 54747.02656947207,
+            "total_absolute_transport_shift_s": 54747.02656947207,
+            "max_transport_shift_s": 6916.940435159428,
+            "minimum_M_E_kwh": 0.7982436507498072
+          },
+          "tasks": 25,
+          "structure_hash": "a8d372e5b4d6b5c4c719c3644cab4408f94a4e3cc565a016ff87a395eb1d469a",
+          "tasks_hash": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+          "package": "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_011"
+        },
+        {
+          "id": "D26092511_012",
+          "pid": "AN01",
+          "origin": "RELAY_SITE",
+          "metrics": {
+            "J_late": 9.999894245993346e-08,
+            "J_norm": 0.48870303034119666,
+            "joint_makespan_s": 8653.014191459653,
+            "transport_energy_kwh": 66.65249201327232,
+            "relay_energy_kwh": 3.290840228283582,
+            "total_energy_kwh": 69.94333224155591,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 56191.18475687637,
+            "total_absolute_transport_shift_s": 56191.18475687637,
+            "max_transport_shift_s": 6916.940435159428,
+            "minimum_M_E_kwh": 0.8276724160799467
+          },
+          "tasks": 25,
+          "structure_hash": "a8d372e5b4d6b5c4c719c3644cab4408f94a4e3cc565a016ff87a395eb1d469a",
+          "tasks_hash": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+          "package": "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_012"
+        },
+        {
+          "id": "D26092511_013",
+          "pid": "A03",
+          "origin": "CONTINUOUS_JOINT_ADJUSTMENT",
+          "metrics": {
+            "J_late": 43657.35189538907,
+            "J_norm": 0.5888172626200164,
+            "joint_makespan_s": 9617.668095477275,
+            "transport_energy_kwh": 60.047644724851246,
+            "relay_energy_kwh": 4.390596762494358,
+            "total_energy_kwh": 64.4382414873456,
+            "transport_sorties": 19,
+            "relay_sorties": 7,
+            "total_transport_shift_s": 4699.957104104505,
+            "total_absolute_transport_shift_s": 13046.235849871047,
+            "max_transport_shift_s": 2256.6948637646856,
+            "minimum_M_E_kwh": 1.4428838026179047
+          },
+          "tasks": 19,
+          "structure_hash": "a776b0edf51467d4ecda7a6f4b2490d29ebf93d3169bfe9273ecdbc7789d557d",
+          "tasks_hash": "6fbef07d836021ebcd898f493b537585c58bb4bb027bf3c14452efa34c19efa1",
+          "package": "results/p1_2/runs/26092511/q3/A03/solutions/D26092511_013"
+        },
+        {
+          "id": "D26092511_014",
+          "pid": "A03",
+          "origin": "RELAY_MERGE",
+          "metrics": {
+            "J_late": 40736.000669490546,
+            "J_norm": 0.5973486784674426,
+            "joint_makespan_s": 9484.625135255345,
+            "transport_energy_kwh": 60.047644724851246,
+            "relay_energy_kwh": 4.249918583414084,
+            "total_energy_kwh": 64.29756330826532,
+            "transport_sorties": 19,
+            "relay_sorties": 6,
+            "total_transport_shift_s": 5786.787696404095,
+            "total_absolute_transport_shift_s": 13405.775009945011,
+            "max_transport_shift_s": 2203.664142975379,
+            "minimum_M_E_kwh": 1.4518364935901265
+          },
+          "tasks": 19,
+          "structure_hash": "a776b0edf51467d4ecda7a6f4b2490d29ebf93d3169bfe9273ecdbc7789d557d",
+          "tasks_hash": "6fbef07d836021ebcd898f493b537585c58bb4bb027bf3c14452efa34c19efa1",
+          "package": "results/p1_2/runs/26092511/q3/A03/solutions/D26092511_014"
+        },
+        {
+          "id": "D26092511_015",
+          "pid": "AN01",
+          "origin": "FEEDBACK_SELECTED_CHALLENGE",
+          "metrics": {
+            "J_late": 9.999894245993346e-08,
+            "J_norm": 0.4884402189926683,
+            "joint_makespan_s": 8653.014191559654,
+            "transport_energy_kwh": 66.65249201327232,
+            "relay_energy_kwh": 3.286968095505689,
+            "total_energy_kwh": 69.93946010877801,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 56200.84458686302,
+            "total_absolute_transport_shift_s": 56200.84458686302,
+            "max_transport_shift_s": 6916.940435259428,
+            "minimum_M_E_kwh": 0.8315445488272837
+          },
+          "tasks": 25,
+          "structure_hash": "a8d372e5b4d6b5c4c719c3644cab4408f94a4e3cc565a016ff87a395eb1d469a",
+          "tasks_hash": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+          "package": "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_015"
+        }
+      ]
+    },
+    {
+      "seed": 26092511,
+      "anchor": "transport_sorties",
+      "new_validated_packages": 4,
+      "structure_feedback": [
+        "A03",
+        "A11"
+      ],
+      "task_hashes": [
+        "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+        "6fbef07d836021ebcd898f493b537585c58bb4bb027bf3c14452efa34c19efa1"
+      ],
+      "missing_trace_stages": [],
+      "feedback": [
+        {
+          "id": "D26092511_016",
+          "pid": "A11",
+          "origin": "CONTINUOUS_JOINT_ADJUSTMENT",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.46734349938971753,
+            "joint_makespan_s": 7191.5822295706,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 3.074615637150739,
+            "total_energy_kwh": 70.46423542017943,
+            "transport_sorties": 25,
+            "relay_sorties": 5,
+            "total_transport_shift_s": 2469.0321254759656,
+            "total_absolute_transport_shift_s": 10853.940303884416,
+            "max_transport_shift_s": 2325.4969844784346,
+            "minimum_M_E_kwh": 1.6008841568144754
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_016"
+        },
+        {
+          "id": "D26092511_017",
+          "pid": "A11",
+          "origin": "RELAY_MERGE",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.46495520143303215,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.8945232021926754,
+            "total_energy_kwh": 70.28414298522137,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 1287.2650111111493,
+            "total_absolute_transport_shift_s": 11161.167040848852,
+            "max_transport_shift_s": 2078.4995701404714,
+            "minimum_M_E_kwh": 1.2856986397590238
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_017"
+        },
+        {
+          "id": "D26092511_018",
+          "pid": "A03",
+          "origin": "CONTINUOUS_JOINT_ADJUSTMENT",
+          "metrics": {
+            "J_late": 43657.35189538907,
+            "J_norm": 0.5888172627200163,
+            "joint_makespan_s": 9617.668095477275,
+            "transport_energy_kwh": 60.047644724851246,
+            "relay_energy_kwh": 4.390596763494362,
+            "total_energy_kwh": 64.43824148834561,
+            "transport_sorties": 19,
+            "relay_sorties": 7,
+            "total_transport_shift_s": 4699.957124134805,
+            "total_absolute_transport_shift_s": 13046.235823295261,
+            "max_transport_shift_s": 2256.6948637646856,
+            "minimum_M_E_kwh": 1.4428838026179047
+          },
+          "tasks": 19,
+          "structure_hash": "a776b0edf51467d4ecda7a6f4b2490d29ebf93d3169bfe9273ecdbc7789d557d",
+          "tasks_hash": "6fbef07d836021ebcd898f493b537585c58bb4bb027bf3c14452efa34c19efa1",
+          "package": "results/p1_2/runs/26092511/q3/A03/solutions/D26092511_018"
+        },
+        {
+          "id": "D26092511_019",
+          "pid": "A11",
+          "origin": "FEEDBACK_SELECTED_CHALLENGE",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.46734349938971753,
+            "joint_makespan_s": 7191.5822295706,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 3.074615637150739,
+            "total_energy_kwh": 70.46423542017943,
+            "transport_sorties": 25,
+            "relay_sorties": 5,
+            "total_transport_shift_s": 2469.0321254759656,
+            "total_absolute_transport_shift_s": 10853.940303884416,
+            "max_transport_shift_s": 2325.4969844784346,
+            "minimum_M_E_kwh": 1.6008841568144754
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_019"
+        }
+      ]
+    },
+    {
+      "seed": 26092511,
+      "anchor": "relay_sorties",
+      "new_validated_packages": 5,
+      "structure_feedback": [
+        "A11",
+        "AN01"
+      ],
+      "task_hashes": [
+        "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+        "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2"
+      ],
+      "missing_trace_stages": [],
+      "feedback": [
+        {
+          "id": "D26092511_020",
+          "pid": "A11",
+          "origin": "CONTINUOUS_JOINT_ADJUSTMENT",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.46317314299748913,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.8945232021926754,
+            "total_energy_kwh": 70.28414298522137,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 855.9553639689059,
+            "total_absolute_transport_shift_s": 11353.499760421259,
+            "max_transport_shift_s": 2078.4995701404714,
+            "minimum_M_E_kwh": 1.2856986397590238
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_020"
+        },
+        {
+          "id": "D26092511_021",
+          "pid": "A11",
+          "origin": "RELAY_SITE",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.46911895687079314,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.8563390656451437,
+            "total_energy_kwh": 70.24595884867384,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 2417.653794774277,
+            "total_absolute_transport_shift_s": 12520.753932379954,
+            "max_transport_shift_s": 2078.4995701404714,
+            "minimum_M_E_kwh": 1.2921157404534682
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_021"
+        },
+        {
+          "id": "D26092511_022",
+          "pid": "AN01",
+          "origin": "CONTINUOUS_JOINT_ADJUSTMENT",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.481975586728024,
+            "joint_makespan_s": 8653.014191459653,
+            "transport_energy_kwh": 66.65249201327232,
+            "relay_energy_kwh": 3.3270336910301768,
+            "total_energy_kwh": 69.9795257043025,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 54733.46912657311,
+            "total_absolute_transport_shift_s": 54733.46912657311,
+            "max_transport_shift_s": 6916.940435159428,
+            "minimum_M_E_kwh": 0.7982436497498013
+          },
+          "tasks": 25,
+          "structure_hash": "a8d372e5b4d6b5c4c719c3644cab4408f94a4e3cc565a016ff87a395eb1d469a",
+          "tasks_hash": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+          "package": "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_022"
+        },
+        {
+          "id": "D26092511_023",
+          "pid": "AN01",
+          "origin": "RELAY_SITE",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.4851477201159606,
+            "joint_makespan_s": 8653.014191459653,
+            "transport_energy_kwh": 66.65249201327232,
+            "relay_energy_kwh": 3.3553539016343725,
+            "total_energy_kwh": 70.0078459149067,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 55458.20006837612,
+            "total_absolute_transport_shift_s": 55458.20006837612,
+            "max_transport_shift_s": 6916.940435159428,
+            "minimum_M_E_kwh": 0.7724831566362556
+          },
+          "tasks": 25,
+          "structure_hash": "a8d372e5b4d6b5c4c719c3644cab4408f94a4e3cc565a016ff87a395eb1d469a",
+          "tasks_hash": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+          "package": "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_023"
+        },
+        {
+          "id": "D26092511_024",
+          "pid": "A11",
+          "origin": "FEEDBACK_SELECTED_CHALLENGE",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.46317314299748913,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.8945232021926754,
+            "total_energy_kwh": 70.28414298522137,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 855.9553639689059,
+            "total_absolute_transport_shift_s": 11353.499760421259,
+            "max_transport_shift_s": 2078.4995701404714,
+            "minimum_M_E_kwh": 1.2856986397590238
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092511/q3/A11/solutions/D26092511_024"
+        }
+      ],
+      "cross_structure_feedback": true,
+      "distinct_relay_counts": [
+        4
+      ]
+    },
+    {
+      "seed": 26092512,
+      "anchor": "J_norm",
+      "new_validated_packages": 5,
+      "structure_feedback": [
+        "A11",
+        "AN01"
+      ],
+      "task_hashes": [
+        "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+        "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2"
+      ],
+      "missing_trace_stages": [],
+      "feedback": [
+        {
+          "id": "D26092512_001",
+          "pid": "A11",
+          "origin": "CONTINUOUS_JOINT_ADJUSTMENT",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.46734349917980744,
+            "joint_makespan_s": 7191.582227470599,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 3.074615636538239,
+            "total_energy_kwh": 70.46423541956693,
+            "transport_sorties": 25,
+            "relay_sorties": 5,
+            "total_transport_shift_s": 2469.0320637804107,
+            "total_absolute_transport_shift_s": 10853.94024218886,
+            "max_transport_shift_s": 2325.496982378434,
+            "minimum_M_E_kwh": 1.6008841574269757
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092512/q3/A11/solutions/D26092512_001"
+        },
+        {
+          "id": "D26092512_002",
+          "pid": "A11",
+          "origin": "RELAY_MERGE",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.4631731428974892,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.8945232021926754,
+            "total_energy_kwh": 70.28414298522137,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 834.7822804061566,
+            "total_absolute_transport_shift_s": 11209.1063623839,
+            "max_transport_shift_s": 2078.4995701404714,
+            "minimum_M_E_kwh": 1.2856986397590238
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092512/q3/A11/solutions/D26092512_002"
+        },
+        {
+          "id": "D26092512_003",
+          "pid": "AN01",
+          "origin": "CONTINUOUS_JOINT_ADJUSTMENT",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.49354065847975237,
+            "joint_makespan_s": 8719.337929657117,
+            "transport_energy_kwh": 66.65249201327232,
+            "relay_energy_kwh": 3.5054885005008254,
+            "total_energy_kwh": 70.15798051377315,
+            "transport_sorties": 25,
+            "relay_sorties": 6,
+            "total_transport_shift_s": 57607.95518747319,
+            "total_absolute_transport_shift_s": 57607.95518747319,
+            "max_transport_shift_s": 6983.264173356891,
+            "minimum_M_E_kwh": 1.4486236245175537
+          },
+          "tasks": 25,
+          "structure_hash": "a8d372e5b4d6b5c4c719c3644cab4408f94a4e3cc565a016ff87a395eb1d469a",
+          "tasks_hash": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+          "package": "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_003"
+        },
+        {
+          "id": "D26092512_004",
+          "pid": "AN01",
+          "origin": "RELAY_MERGE",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.4868972906706395,
+            "joint_makespan_s": 8653.014191459653,
+            "transport_energy_kwh": 66.65249201327232,
+            "relay_energy_kwh": 3.743094866498219,
+            "total_energy_kwh": 70.39558687977055,
+            "transport_sorties": 25,
+            "relay_sorties": 5,
+            "total_transport_shift_s": 55701.38698370905,
+            "total_absolute_transport_shift_s": 55701.38698370905,
+            "max_transport_shift_s": 6916.940435159428,
+            "minimum_M_E_kwh": 1.1584510291211871
+          },
+          "tasks": 25,
+          "structure_hash": "a8d372e5b4d6b5c4c719c3644cab4408f94a4e3cc565a016ff87a395eb1d469a",
+          "tasks_hash": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+          "package": "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_004"
+        },
+        {
+          "id": "D26092512_005",
+          "pid": "A11",
+          "origin": "FEEDBACK_SELECTED_CHALLENGE",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.46302993000293485,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.8945232021926754,
+            "total_energy_kwh": 70.28414298522137,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 773.1720931688521,
+            "total_absolute_transport_shift_s": 11270.716549621204,
+            "max_transport_shift_s": 2078.4995701404714,
+            "minimum_M_E_kwh": 1.2856986397590238
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092512/q3/A11/solutions/D26092512_005"
+        }
+      ]
+    },
+    {
+      "seed": 26092512,
+      "anchor": "joint_makespan_s",
+      "new_validated_packages": 5,
+      "structure_feedback": [
+        "A11",
+        "AN01"
+      ],
+      "task_hashes": [
+        "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+        "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2"
+      ],
+      "missing_trace_stages": [],
+      "feedback": [
+        {
+          "id": "D26092512_006",
+          "pid": "A11",
+          "origin": "CONTINUOUS_JOINT_ADJUSTMENT",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.46317314299748913,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.8945232021926754,
+            "total_energy_kwh": 70.28414298522137,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 814.2455800070311,
+            "total_absolute_transport_shift_s": 11311.790036459384,
+            "max_transport_shift_s": 2078.4995701404714,
+            "minimum_M_E_kwh": 1.2856986397590238
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092512/q3/A11/solutions/D26092512_006"
+        },
+        {
+          "id": "D26092512_007",
+          "pid": "A11",
+          "origin": "RELAY_SITE",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.4641421121165672,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.928354875080653,
+            "total_energy_kwh": 70.31797465810935,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 981.910966869933,
+            "total_absolute_transport_shift_s": 11572.102082739399,
+            "max_transport_shift_s": 2146.997700916848,
+            "minimum_M_E_kwh": 1.2657200182825807
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092512/q3/A11/solutions/D26092512_007"
+        },
+        {
+          "id": "D26092512_008",
+          "pid": "AN01",
+          "origin": "CONTINUOUS_JOINT_ADJUSTMENT",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.4868972906706395,
+            "joint_makespan_s": 8653.014191459653,
+            "transport_energy_kwh": 66.65249201327232,
+            "relay_energy_kwh": 3.743094866498219,
+            "total_energy_kwh": 70.39558687977055,
+            "transport_sorties": 25,
+            "relay_sorties": 5,
+            "total_transport_shift_s": 55701.38698370905,
+            "total_absolute_transport_shift_s": 55701.38698370905,
+            "max_transport_shift_s": 6916.940435159428,
+            "minimum_M_E_kwh": 1.1584510291211871
+          },
+          "tasks": 25,
+          "structure_hash": "a8d372e5b4d6b5c4c719c3644cab4408f94a4e3cc565a016ff87a395eb1d469a",
+          "tasks_hash": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+          "package": "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_008"
+        },
+        {
+          "id": "D26092512_009",
+          "pid": "AN01",
+          "origin": "RELAY_MERGE",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.481975586528024,
+            "joint_makespan_s": 8653.014191459653,
+            "transport_energy_kwh": 66.65249201327232,
+            "relay_energy_kwh": 3.388427020178797,
+            "total_energy_kwh": 70.04091903345112,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 54798.28442288525,
+            "total_absolute_transport_shift_s": 54798.28442288525,
+            "max_transport_shift_s": 6916.940435159428,
+            "minimum_M_E_kwh": 0.7724831566362556
+          },
+          "tasks": 25,
+          "structure_hash": "a8d372e5b4d6b5c4c719c3644cab4408f94a4e3cc565a016ff87a395eb1d469a",
+          "tasks_hash": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+          "package": "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_009"
+        },
+        {
+          "id": "D26092512_010",
+          "pid": "A11",
+          "origin": "FEEDBACK_SELECTED_CHALLENGE",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.46317314299748913,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.8945232021926754,
+            "total_energy_kwh": 70.28414298522137,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 814.2455800070311,
+            "total_absolute_transport_shift_s": 11311.790036459384,
+            "max_transport_shift_s": 2078.4995701404714,
+            "minimum_M_E_kwh": 1.2856986397590238
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092512/q3/A11/solutions/D26092512_010"
+        }
+      ]
+    },
+    {
+      "seed": 26092512,
+      "anchor": "total_energy_kwh",
+      "new_validated_packages": 5,
+      "structure_feedback": [
+        "A03",
+        "AN01"
+      ],
+      "task_hashes": [
+        "6fbef07d836021ebcd898f493b537585c58bb4bb027bf3c14452efa34c19efa1",
+        "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2"
+      ],
+      "missing_trace_stages": [],
+      "feedback": [
+        {
+          "id": "D26092512_011",
+          "pid": "AN01",
+          "origin": "CONTINUOUS_JOINT_ADJUSTMENT",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.481975586628024,
+            "joint_makespan_s": 8653.014191459653,
+            "transport_energy_kwh": 66.65249201327232,
+            "relay_energy_kwh": 3.327033690030171,
+            "total_energy_kwh": 69.9795257033025,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 54747.02656947207,
+            "total_absolute_transport_shift_s": 54747.02656947207,
+            "max_transport_shift_s": 6916.940435159428,
+            "minimum_M_E_kwh": 0.7982436507498072
+          },
+          "tasks": 25,
+          "structure_hash": "a8d372e5b4d6b5c4c719c3644cab4408f94a4e3cc565a016ff87a395eb1d469a",
+          "tasks_hash": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+          "package": "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_011"
+        },
+        {
+          "id": "D26092512_012",
+          "pid": "AN01",
+          "origin": "RELAY_SITE",
+          "metrics": {
+            "J_late": 9.999894245993346e-08,
+            "J_norm": 0.48870303034119666,
+            "joint_makespan_s": 8653.014191459653,
+            "transport_energy_kwh": 66.65249201327232,
+            "relay_energy_kwh": 3.290840228283582,
+            "total_energy_kwh": 69.94333224155591,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 56191.18475687637,
+            "total_absolute_transport_shift_s": 56191.18475687637,
+            "max_transport_shift_s": 6916.940435159428,
+            "minimum_M_E_kwh": 0.8276724160799467
+          },
+          "tasks": 25,
+          "structure_hash": "a8d372e5b4d6b5c4c719c3644cab4408f94a4e3cc565a016ff87a395eb1d469a",
+          "tasks_hash": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+          "package": "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_012"
+        },
+        {
+          "id": "D26092512_013",
+          "pid": "A03",
+          "origin": "CONTINUOUS_JOINT_ADJUSTMENT",
+          "metrics": {
+            "J_late": 43657.35189538907,
+            "J_norm": 0.5888172626200164,
+            "joint_makespan_s": 9617.668095477275,
+            "transport_energy_kwh": 60.047644724851246,
+            "relay_energy_kwh": 4.390596762494358,
+            "total_energy_kwh": 64.4382414873456,
+            "transport_sorties": 19,
+            "relay_sorties": 7,
+            "total_transport_shift_s": 4699.957104104505,
+            "total_absolute_transport_shift_s": 13046.235849871047,
+            "max_transport_shift_s": 2256.6948637646856,
+            "minimum_M_E_kwh": 1.4428838026179047
+          },
+          "tasks": 19,
+          "structure_hash": "a776b0edf51467d4ecda7a6f4b2490d29ebf93d3169bfe9273ecdbc7789d557d",
+          "tasks_hash": "6fbef07d836021ebcd898f493b537585c58bb4bb027bf3c14452efa34c19efa1",
+          "package": "results/p1_2/runs/26092512/q3/A03/solutions/D26092512_013"
+        },
+        {
+          "id": "D26092512_014",
+          "pid": "A03",
+          "origin": "RELAY_MERGE",
+          "metrics": {
+            "J_late": 40736.000669490546,
+            "J_norm": 0.5973486784674426,
+            "joint_makespan_s": 9484.625135255345,
+            "transport_energy_kwh": 60.047644724851246,
+            "relay_energy_kwh": 4.249918583414084,
+            "total_energy_kwh": 64.29756330826532,
+            "transport_sorties": 19,
+            "relay_sorties": 6,
+            "total_transport_shift_s": 5786.787696404095,
+            "total_absolute_transport_shift_s": 13405.775009945011,
+            "max_transport_shift_s": 2203.664142975379,
+            "minimum_M_E_kwh": 1.4518364935901265
+          },
+          "tasks": 19,
+          "structure_hash": "a776b0edf51467d4ecda7a6f4b2490d29ebf93d3169bfe9273ecdbc7789d557d",
+          "tasks_hash": "6fbef07d836021ebcd898f493b537585c58bb4bb027bf3c14452efa34c19efa1",
+          "package": "results/p1_2/runs/26092512/q3/A03/solutions/D26092512_014"
+        },
+        {
+          "id": "D26092512_015",
+          "pid": "AN01",
+          "origin": "FEEDBACK_SELECTED_CHALLENGE",
+          "metrics": {
+            "J_late": 9.999894245993346e-08,
+            "J_norm": 0.4884402189926683,
+            "joint_makespan_s": 8653.014191559654,
+            "transport_energy_kwh": 66.65249201327232,
+            "relay_energy_kwh": 3.286968095505689,
+            "total_energy_kwh": 69.93946010877801,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 56200.84458686302,
+            "total_absolute_transport_shift_s": 56200.84458686302,
+            "max_transport_shift_s": 6916.940435259428,
+            "minimum_M_E_kwh": 0.8315445488272837
+          },
+          "tasks": 25,
+          "structure_hash": "a8d372e5b4d6b5c4c719c3644cab4408f94a4e3cc565a016ff87a395eb1d469a",
+          "tasks_hash": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+          "package": "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_015"
+        }
+      ]
+    },
+    {
+      "seed": 26092512,
+      "anchor": "transport_sorties",
+      "new_validated_packages": 5,
+      "structure_feedback": [
+        "A03",
+        "A11"
+      ],
+      "task_hashes": [
+        "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+        "6fbef07d836021ebcd898f493b537585c58bb4bb027bf3c14452efa34c19efa1"
+      ],
+      "missing_trace_stages": [],
+      "feedback": [
+        {
+          "id": "D26092512_016",
+          "pid": "A11",
+          "origin": "CONTINUOUS_JOINT_ADJUSTMENT",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.46734349938971753,
+            "joint_makespan_s": 7191.5822295706,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 3.074615637150739,
+            "total_energy_kwh": 70.46423542017943,
+            "transport_sorties": 25,
+            "relay_sorties": 5,
+            "total_transport_shift_s": 2469.0321254759656,
+            "total_absolute_transport_shift_s": 10853.940303884416,
+            "max_transport_shift_s": 2325.4969844784346,
+            "minimum_M_E_kwh": 1.6008841568144754
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092512/q3/A11/solutions/D26092512_016"
+        },
+        {
+          "id": "D26092512_017",
+          "pid": "A11",
+          "origin": "RELAY_MERGE",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.46495520143303215,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.8945232021926754,
+            "total_energy_kwh": 70.28414298522137,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 1287.2650111111493,
+            "total_absolute_transport_shift_s": 11161.167040848852,
+            "max_transport_shift_s": 2078.4995701404714,
+            "minimum_M_E_kwh": 1.2856986397590238
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092512/q3/A11/solutions/D26092512_017"
+        },
+        {
+          "id": "D26092512_018",
+          "pid": "A03",
+          "origin": "CONTINUOUS_JOINT_ADJUSTMENT",
+          "metrics": {
+            "J_late": 38756.000669490546,
+            "J_norm": 0.592525307260503,
+            "joint_makespan_s": 9484.625135255345,
+            "transport_energy_kwh": 60.047644724851246,
+            "relay_energy_kwh": 4.247239716973107,
+            "total_energy_kwh": 64.29488444182435,
+            "transport_sorties": 19,
+            "relay_sorties": 6,
+            "total_transport_shift_s": 5516.161348451662,
+            "total_absolute_transport_shift_s": 13193.398661992578,
+            "max_transport_shift_s": 2137.664142975379,
+            "minimum_M_E_kwh": 1.4518364935901265
+          },
+          "tasks": 19,
+          "structure_hash": "a776b0edf51467d4ecda7a6f4b2490d29ebf93d3169bfe9273ecdbc7789d557d",
+          "tasks_hash": "6fbef07d836021ebcd898f493b537585c58bb4bb027bf3c14452efa34c19efa1",
+          "package": "results/p1_2/runs/26092512/q3/A03/solutions/D26092512_018"
+        },
+        {
+          "id": "D26092512_019",
+          "pid": "A03",
+          "origin": "RELAY_MERGE",
+          "metrics": {
+            "J_late": 38756.000669490546,
+            "J_norm": 0.5967033597832674,
+            "joint_makespan_s": 9484.625135255345,
+            "transport_energy_kwh": 60.047644724851246,
+            "relay_energy_kwh": 4.644743944840773,
+            "total_energy_kwh": 64.69238866969202,
+            "transport_sorties": 19,
+            "relay_sorties": 5,
+            "total_transport_shift_s": 6022.22986418642,
+            "total_absolute_transport_shift_s": 13699.467177727336,
+            "max_transport_shift_s": 2137.664142975379,
+            "minimum_M_E_kwh": 1.1964951639387338
+          },
+          "tasks": 19,
+          "structure_hash": "a776b0edf51467d4ecda7a6f4b2490d29ebf93d3169bfe9273ecdbc7789d557d",
+          "tasks_hash": "6fbef07d836021ebcd898f493b537585c58bb4bb027bf3c14452efa34c19efa1",
+          "package": "results/p1_2/runs/26092512/q3/A03/solutions/D26092512_019"
+        },
+        {
+          "id": "D26092512_020",
+          "pid": "A11",
+          "origin": "FEEDBACK_SELECTED_CHALLENGE",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.46734349938971753,
+            "joint_makespan_s": 7191.5822295706,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 3.074615637150739,
+            "total_energy_kwh": 70.46423542017943,
+            "transport_sorties": 25,
+            "relay_sorties": 5,
+            "total_transport_shift_s": 2469.0321254759656,
+            "total_absolute_transport_shift_s": 10853.940303884416,
+            "max_transport_shift_s": 2325.4969844784346,
+            "minimum_M_E_kwh": 1.6008841568144754
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092512/q3/A11/solutions/D26092512_020"
+        }
+      ]
+    },
+    {
+      "seed": 26092512,
+      "anchor": "relay_sorties",
+      "new_validated_packages": 5,
+      "structure_feedback": [
+        "A11",
+        "AN01"
+      ],
+      "task_hashes": [
+        "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+        "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2"
+      ],
+      "missing_trace_stages": [],
+      "feedback": [
+        {
+          "id": "D26092512_021",
+          "pid": "A11",
+          "origin": "CONTINUOUS_JOINT_ADJUSTMENT",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.46317314299748913,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.8945232021926754,
+            "total_energy_kwh": 70.28414298522137,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 855.9553639689059,
+            "total_absolute_transport_shift_s": 11353.499760421259,
+            "max_transport_shift_s": 2078.4995701404714,
+            "minimum_M_E_kwh": 1.2856986397590238
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092512/q3/A11/solutions/D26092512_021"
+        },
+        {
+          "id": "D26092512_022",
+          "pid": "A11",
+          "origin": "RELAY_SITE",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.46911895687079314,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.8563390656451437,
+            "total_energy_kwh": 70.24595884867384,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 2417.653794774277,
+            "total_absolute_transport_shift_s": 12520.753932379954,
+            "max_transport_shift_s": 2078.4995701404714,
+            "minimum_M_E_kwh": 1.2921157404534682
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092512/q3/A11/solutions/D26092512_022"
+        },
+        {
+          "id": "D26092512_023",
+          "pid": "AN01",
+          "origin": "CONTINUOUS_JOINT_ADJUSTMENT",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.4887030304411966,
+            "joint_makespan_s": 8653.014191459653,
+            "transport_energy_kwh": 66.65249201327232,
+            "relay_energy_kwh": 3.2908402292835843,
+            "total_energy_kwh": 69.94333224255591,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 56261.67791593497,
+            "total_absolute_transport_shift_s": 56261.67791593497,
+            "max_transport_shift_s": 6916.940435159428,
+            "minimum_M_E_kwh": 0.8276724150799444
+          },
+          "tasks": 25,
+          "structure_hash": "a8d372e5b4d6b5c4c719c3644cab4408f94a4e3cc565a016ff87a395eb1d469a",
+          "tasks_hash": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+          "package": "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_023"
+        },
+        {
+          "id": "D26092512_024",
+          "pid": "AN01",
+          "origin": "RELAY_SITE",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.48651027780002226,
+            "joint_makespan_s": 8653.014191459653,
+            "transport_energy_kwh": 66.65249201327232,
+            "relay_energy_kwh": 3.362118598050822,
+            "total_energy_kwh": 70.01461061132315,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 55634.051763081115,
+            "total_absolute_transport_shift_s": 55634.051763081115,
+            "max_transport_shift_s": 6916.940435159428,
+            "minimum_M_E_kwh": 0.7724831566362556
+          },
+          "tasks": 25,
+          "structure_hash": "a8d372e5b4d6b5c4c719c3644cab4408f94a4e3cc565a016ff87a395eb1d469a",
+          "tasks_hash": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+          "package": "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_024"
+        },
+        {
+          "id": "D26092512_025",
+          "pid": "A11",
+          "origin": "FEEDBACK_SELECTED_CHALLENGE",
+          "metrics": {
+            "J_late": 0.0,
+            "J_norm": 0.46317314299748913,
+            "joint_makespan_s": 7013.0829460090135,
+            "transport_energy_kwh": 67.38961978302869,
+            "relay_energy_kwh": 2.8945232021926754,
+            "total_energy_kwh": 70.28414298522137,
+            "transport_sorties": 25,
+            "relay_sorties": 4,
+            "total_transport_shift_s": 855.9553639689059,
+            "total_absolute_transport_shift_s": 11353.499760421259,
+            "max_transport_shift_s": 2078.4995701404714,
+            "minimum_M_E_kwh": 1.2856986397590238
+          },
+          "tasks": 25,
+          "structure_hash": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+          "tasks_hash": "346c2fd133c6b2698eb8dcc6ab070a4f70c6b929f90f21754fe11d9d5195654e",
+          "package": "results/p1_2/runs/26092512/q3/A11/solutions/D26092512_025"
+        }
+      ],
+      "cross_structure_feedback": true,
+      "distinct_relay_counts": [
+        4
+      ]
+    }
+  ],
+  "structure_to_communication_bridge": [
+    {
+      "seed": 26092511,
+      "pid": "A11",
+      "transport_structure_signature_without_ids": "00ada174be1c26ac0e639242dc95da352b439ba062bd3b314814f610846a37cd",
+      "communication_signature_without_ids": "415262922494ede41cd6a1fe07e92049eb3e6115c374c9af12fce980c040c1b2",
+      "tasks": 25,
+      "guarded_duration_sum_s": 12028.90625
+    },
+    {
+      "seed": 26092511,
+      "pid": "AN01",
+      "transport_structure_signature_without_ids": "6632427e8c7bbb3b4e2cbb6a10eb1a88faabb431e0fe8f16b2fcedbf4636a382",
+      "communication_signature_without_ids": "75140b8125c9ef077b7745832b3ac43076abaecc29be6f17055b38b782702939",
+      "tasks": 25,
+      "guarded_duration_sum_s": 11882.03125
+    },
+    {
+      "seed": 26092511,
+      "pid": "A03",
+      "transport_structure_signature_without_ids": "1b15f521440523ce546548d82ab9add7fefcdb412b5aafc13efd075a8f4fd3ae",
+      "communication_signature_without_ids": "7b2cffaee465c6a75601f49d85c56add949d4ef5960a7b72c2306828d891ef31",
+      "tasks": 19,
+      "guarded_duration_sum_s": 11326.375
+    },
+    {
+      "seed": 26092512,
+      "pid": "A11",
+      "transport_structure_signature_without_ids": "00ada174be1c26ac0e639242dc95da352b439ba062bd3b314814f610846a37cd",
+      "communication_signature_without_ids": "415262922494ede41cd6a1fe07e92049eb3e6115c374c9af12fce980c040c1b2",
+      "tasks": 25,
+      "guarded_duration_sum_s": 12028.90625
+    },
+    {
+      "seed": 26092512,
+      "pid": "AN01",
+      "transport_structure_signature_without_ids": "6632427e8c7bbb3b4e2cbb6a10eb1a88faabb431e0fe8f16b2fcedbf4636a382",
+      "communication_signature_without_ids": "75140b8125c9ef077b7745832b3ac43076abaecc29be6f17055b38b782702939",
+      "tasks": 25,
+      "guarded_duration_sum_s": 11882.03125
+    },
+    {
+      "seed": 26092512,
+      "pid": "A03",
+      "transport_structure_signature_without_ids": "1b15f521440523ce546548d82ab9add7fefcdb412b5aafc13efd075a8f4fd3ae",
+      "communication_signature_without_ids": "7b2cffaee465c6a75601f49d85c56add949d4ef5960a7b72c2306828d891ef31",
+      "tasks": 19,
+      "guarded_duration_sum_s": 11326.375
+    }
+  ]
+}

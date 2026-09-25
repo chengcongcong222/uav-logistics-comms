@@ -1,0 +1,76 @@
+{
+  "Gamma_C_db": 0.0,
+  "minimum_twohop_robust_slack_db": 0.3453400539276714,
+  "pareto_id": "A03",
+  "status": "P1_Q3_INDEPENDENTLY_VALIDATED",
+  "step_s": 0.5,
+  "hard_violations": 0,
+  "uncovered_sample_count": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "full_flight_samples": 55715,
+  "direct_samples": 33100,
+  "relayed_samples": 22615,
+  "relay_sorties": 5,
+  "full_flight_boundary_refinements": 338,
+  "boundary_refinement_s": 0.1,
+  "relay_ids": [
+    "R01",
+    "R02"
+  ],
+  "energy_components": [
+    "REC-01",
+    "REC-02",
+    "REC-03",
+    "REC-04",
+    "REC-05"
+  ],
+  "minimum_relay_energy_margin_kwh": 1.1964951639387338,
+  "minimum_twohop_margin_db": 0.3453400539276714,
+  "runtime_s": 23.869489321999936,
+  "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+  "J_late": 38756.000669490546,
+  "J_norm": 0.5967033597832673,
+  "transport_energy_kwh": 60.047644724851246,
+  "transport_makespan_s": 9303.018686122163,
+  "transport_sorties": 19,
+  "minimum_transport_energy_margin_kwh": 0.22479163523963575,
+  "hard_deadline_violations": 0,
+  "margin_distribution_db": {
+    "direct_active_path": {
+      "0": 0.00025096138405622526,
+      "0.01": 0.20663297524964763,
+      "0.05": 1.5802535564430062,
+      "0.25": 7.559322534382316,
+      "0.5": 17.866444692043757,
+      "0.75": 32.356147142268426,
+      "0.95": 51.486332077276074,
+      "1": 201.94577516576788
+    },
+    "relayed_active_path": {
+      "0": 0.3453400539276714,
+      "0.01": 0.3453400539276714,
+      "0.05": 1.2735129256524829,
+      "0.25": 2.099203328999508,
+      "0.5": 4.957909742184256,
+      "0.75": 8.226809702901718,
+      "0.95": 11.397135806608844,
+      "1": 15.222965419783264
+    }
+  },
+  "artifact_sha256": {
+    "results/p1_2/runs/26092512/q3/A03/solutions/D26092512_019/transport_sorties_A03.csv": "67a2a45e2bbb72fa1713bd6411eb03cb1e3fc3100603509ecfa398011752bfa1",
+    "results/p1_2/runs/26092512/q3/A03/solutions/D26092512_019/box_delivery_A03.csv": "26f68e1a14a66b1ec4ad2e77f85df5a3863ca1f18faf1a27c49efd79fe526d98",
+    "results/p1_2/runs/26092512/q3/A03/solutions/D26092512_019/transport_shifts_A03.csv": "8d552b09be71bcf14690fca2cf61ab91637ef1291a850e36dce9867622562ed9",
+    "results/p1_2/runs/26092512/q3/A03/solutions/D26092512_019/transport_uav_calendar_A03.csv": "c9c50dbfd00459df19539ccb5392b4d8f301c221e1504f0f4ce4e6efd6be54db",
+    "results/p1_2/runs/26092512/q3/A03/solutions/D26092512_019/transport_battery_calendar_A03.csv": "140b4eced03610c3bef2dcb51434085cd8e74f659a117d9cd8b3e3f2a09a0909",
+    "results/p1_2/runs/26092512/q3/A03/solutions/D26092512_019/relay_sorties_A03.csv": "6ff6a1e1621ce3654967407619972454f028a63019294dc73842ee0fa10f47d6",
+    "results/p1_2/runs/26092512/q3/A03/solutions/D26092512_019/relay_uav_calendar_A03.csv": "fdf2fc7c0e8340ee0b79bc5a22a6fcbac905162df109dd7f15623f765ef1bb46",
+    "results/p1_2/runs/26092512/q3/A03/solutions/D26092512_019/relay_energy_calendar_A03.csv": "ee5b1b7319ec1782817a3ab2456bd27ae9439a42ceffe50cfb4ea0c39e7261d9",
+    "results/p1_2/runs/26092512/q3/A03/solutions/D26092512_019/communication_guarantee_A03.csv": "f0b86504c1beb99d51e8676296276b828f855d9d3e9162926a282042c0bebfea",
+    "results/p1_2/runs/26092512/q3/A03/solutions/D26092512_019/candidate_sites_A03.csv": "4faf76116d635d73cbac7b00c6d2c172d88d32f554838fa7c4cfd04df8a4a5b2",
+    "results/p1_2/runs/26092512/q3/A03/solutions/D26092512_019/guarded_selected_pairs_A03.csv": "8f8d361dac145d7820b78da51e9498b20036e27da9f14642d51997ebea7a9270",
+    "results/p1_2/runs/26092512/q3/A03/solutions/D26092512_019/scenario.json": "7772e16ac271253bb86628ef94b34d858b38d5dcc82e5959085f202deca01edf",
+    "results/p1_2/runs/26092512/q3/A03/solutions/D26092512_019/guarded_atomic_tasks.csv": "6fbef07d836021ebcd898f493b537585c58bb4bb027bf3c14452efa34c19efa1",
+    "results/p1_2/runs/26092512/q3/A03/solutions/D26092512_019/joint_metrics_A03.json": "fafa0e458711955dc8e73b8ffa3dcb29215ce68efd03f5df589eb00990765d29"
+  }
+}

@@ -1,0 +1,14 @@
+test_five_anchor_keys_discriminate (src.bench_p1_2.test_driver.AnchorContract.test_five_anchor_keys_discriminate) ... ok
+test_no_cold_entry (src.bench_p1_2.test_driver.AnchorContract.test_no_cold_entry) ... ok
+test_no_formal_seed (src.bench_p1_2.test_driver.AnchorContract.test_no_formal_seed) ... ok
+test_relay_feedback_reverses_transport_proxy (src.bench_p1_2.test_driver.AnchorContract.test_relay_feedback_reverses_transport_proxy) ... ok
+test_site_serialization_alias (src.bench_p1_2.test_driver.AnchorContract.test_site_serialization_alias) ... ok
+test_sorties_not_merged_for_dominance (src.bench_p1_2.test_driver.AnchorContract.test_sorties_not_merged_for_dominance) ... ok
+test_threshold_boundary (src.bench_p1_2.test_driver.AnchorContract.test_threshold_boundary) ... ok
+test_trace_records_preselection (src.bench_p1_2.test_driver.AnchorContract.test_trace_records_preselection) ... ok
+test_zero_late_always_protected (src.bench_p1_2.test_driver.AnchorContract.test_zero_late_always_protected) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.003s
+
+OK

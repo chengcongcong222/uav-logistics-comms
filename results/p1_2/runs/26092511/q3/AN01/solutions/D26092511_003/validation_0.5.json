@@ -1,0 +1,77 @@
+{
+  "Gamma_C_db": 0.0,
+  "minimum_twohop_robust_slack_db": 0.14955749359428694,
+  "pareto_id": "AN01",
+  "status": "P1_Q3_INDEPENDENTLY_VALIDATED",
+  "step_s": 0.5,
+  "hard_violations": 0,
+  "uncovered_sample_count": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "full_flight_samples": 67043,
+  "direct_samples": 43335,
+  "relayed_samples": 23708,
+  "relay_sorties": 6,
+  "full_flight_boundary_refinements": 468,
+  "boundary_refinement_s": 0.1,
+  "relay_ids": [
+    "R01",
+    "R02"
+  ],
+  "energy_components": [
+    "REC-01",
+    "REC-02",
+    "REC-03",
+    "REC-04",
+    "REC-05",
+    "REC-06"
+  ],
+  "minimum_relay_energy_margin_kwh": 1.4486236245175537,
+  "minimum_twohop_margin_db": 0.14955749359428694,
+  "runtime_s": 26.555838956000002,
+  "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+  "J_late": 0.0,
+  "J_norm": 0.4935406584797525,
+  "transport_energy_kwh": 66.65249201327234,
+  "transport_makespan_s": 8499.439035328474,
+  "transport_sorties": 25,
+  "minimum_transport_energy_margin_kwh": 0.2471029920028247,
+  "hard_deadline_violations": 0,
+  "margin_distribution_db": {
+    "direct_active_path": {
+      "0": 0.0001221620663898193,
+      "0.01": 0.21871408410996918,
+      "0.05": 1.7753131652070124,
+      "0.25": 7.427136837887179,
+      "0.5": 18.226015250313456,
+      "0.75": 32.234507521012716,
+      "0.95": 51.10585108524958,
+      "1": 201.94577516576788
+    },
+    "relayed_active_path": {
+      "0": 0.14955749359428694,
+      "0.01": 0.14955749359428694,
+      "0.05": 0.14955749359428694,
+      "0.25": 2.43785423226241,
+      "0.5": 4.501578203104543,
+      "0.75": 8.226809702901718,
+      "0.95": 11.397135806608844,
+      "1": 14.483965009844326
+    }
+  },
+  "artifact_sha256": {
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_003/transport_sorties_AN01.csv": "700b491aeda0881a104cfdd9551a22a7f3eef0b280e7713224067c6a649bf879",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_003/box_delivery_AN01.csv": "ae0801d23554667fc4cc38cf25e76a774c4af00c7447611771405ff520561eef",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_003/transport_shifts_AN01.csv": "6f9dcaeadefbec4166af80569396c6e18b9f2377debd5120767cbb87ba0618e6",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_003/transport_uav_calendar_AN01.csv": "0c07f2f71d9dae1840f514e080cdc85feefdfb1994ddd5f40e114b7b7b9c329a",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_003/transport_battery_calendar_AN01.csv": "0eb042901360a30f6dd6f76aff5f9366ee8053db2ec5fe0dfcc18c7b9091bcec",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_003/relay_sorties_AN01.csv": "20f9bf4bfe3aa99148823f7f0d349d802260bec8d02b2037bbc2f52bdd5871b6",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_003/relay_uav_calendar_AN01.csv": "cbed32b13b94351a77594d6a4e3423116434c6d3cde30568611aa4d0622eab1e",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_003/relay_energy_calendar_AN01.csv": "91ab5754689beb2207cb7c8eee8de1fea52936961722cf82d7146e8c6366cfbf",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_003/communication_guarantee_AN01.csv": "71ddfe56146965af1171ed46146e981eda8aa1356afb8e108ea8e54eb282616e",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_003/candidate_sites_AN01.csv": "e8a8bed35506d8d0618d08db0a8254250629b8879228293b48a893f642190ec7",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_003/guarded_selected_pairs_AN01.csv": "c29c6a47b7657d514c0b4b89eaa50eb51b59ad9673dabef06f58764d57db1809",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_003/scenario.json": "fa958f8f47ad4ac279ecaa6cb3224adb33b0280c7102d6f3ef3f5e00abb21bc8",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_003/guarded_atomic_tasks.csv": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_003/joint_metrics_AN01.json": "2c7b43c5512dc4be18d7d95a27a688625fc594c7e4597c77865ddaa418d37084"
+  }
+}

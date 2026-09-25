@@ -1,0 +1,77 @@
+{
+  "Gamma_C_db": 0.0,
+  "minimum_twohop_robust_slack_db": 0.3453400539276714,
+  "pareto_id": "A03",
+  "status": "P1_Q3_INDEPENDENTLY_VALIDATED",
+  "step_s": 0.5,
+  "hard_violations": 0,
+  "uncovered_sample_count": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "full_flight_samples": 55720,
+  "direct_samples": 33091,
+  "relayed_samples": 22629,
+  "relay_sorties": 7,
+  "full_flight_boundary_refinements": 338,
+  "boundary_refinement_s": 0.1,
+  "relay_ids": [
+    "R01",
+    "R02"
+  ],
+  "energy_components": [
+    "REC-01",
+    "REC-02",
+    "REC-03",
+    "REC-04",
+    "REC-05",
+    "REC-06"
+  ],
+  "minimum_relay_energy_margin_kwh": 1.4428838026179047,
+  "minimum_twohop_margin_db": 0.3453400539276714,
+  "runtime_s": 24.191568340999993,
+  "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+  "J_late": 43657.35189538906,
+  "J_norm": 0.5888172627200164,
+  "transport_energy_kwh": 60.047644724851246,
+  "transport_makespan_s": 9436.061646344093,
+  "transport_sorties": 19,
+  "minimum_transport_energy_margin_kwh": 0.22479163523963575,
+  "hard_deadline_violations": 0,
+  "margin_distribution_db": {
+    "direct_active_path": {
+      "0": 3.0357074106035498e-05,
+      "0.01": 0.20893150629742951,
+      "0.05": 1.5790006427912093,
+      "0.25": 7.529102460475234,
+      "0.5": 17.86825537589741,
+      "0.75": 32.36329121266054,
+      "0.95": 51.486259070119374,
+      "1": 201.94577516576788
+    },
+    "relayed_active_path": {
+      "0": 0.3453400539276714,
+      "0.01": 0.3453400539276714,
+      "0.05": 0.8652103016192001,
+      "0.25": 2.099203328999508,
+      "0.5": 3.9055423871373875,
+      "0.75": 7.274314758312471,
+      "0.95": 11.397135806608844,
+      "1": 15.224985453419421
+    }
+  },
+  "artifact_sha256": {
+    "results/p1_2/runs/26092511/q3/A03/solutions/D26092511_018/transport_sorties_A03.csv": "bfd838b35ea6402e33b5431ccaa350642fb045f932772818bdcfb0901b2d5ad8",
+    "results/p1_2/runs/26092511/q3/A03/solutions/D26092511_018/box_delivery_A03.csv": "1371284e30032e6049e6f59a54ba6601f1ddeca8a5bdb1899c32443aec09b7b4",
+    "results/p1_2/runs/26092511/q3/A03/solutions/D26092511_018/transport_shifts_A03.csv": "52f443fc339ffe3317cd0a2c692e766b7eb160555d78452f8ea73cc917ab1a0a",
+    "results/p1_2/runs/26092511/q3/A03/solutions/D26092511_018/transport_uav_calendar_A03.csv": "870c520ed3d956b6e270630038d3e5a0671eb8b3587614e68389fc578caa05be",
+    "results/p1_2/runs/26092511/q3/A03/solutions/D26092511_018/transport_battery_calendar_A03.csv": "cc3147285169010354b55c5ce5f016d696d965bd21f456ccdc533eaa274e0b71",
+    "results/p1_2/runs/26092511/q3/A03/solutions/D26092511_018/relay_sorties_A03.csv": "42b9766a6ee14095632740344cdec4bd7055cf123017d54e8c449ca4c4c501f0",
+    "results/p1_2/runs/26092511/q3/A03/solutions/D26092511_018/relay_uav_calendar_A03.csv": "027031546fddb55a9514288995b1fb5fc883e3bb4db717e9cd34c9a57769d5ae",
+    "results/p1_2/runs/26092511/q3/A03/solutions/D26092511_018/relay_energy_calendar_A03.csv": "d73c3890b66d528d6f80e76e719987d3a970f84d2b902c4e91d2c659bd429612",
+    "results/p1_2/runs/26092511/q3/A03/solutions/D26092511_018/communication_guarantee_A03.csv": "39af78c5fe1dc3ff7c421d503bd1289418e2fcc1d3c1437f1fd15d6d025bf3ea",
+    "results/p1_2/runs/26092511/q3/A03/solutions/D26092511_018/candidate_sites_A03.csv": "7be7f5771c161430049fda2af242271d7977951463d66fbc9a6264bbab02e40f",
+    "results/p1_2/runs/26092511/q3/A03/solutions/D26092511_018/guarded_selected_pairs_A03.csv": "31835e6aa02b275ff38325f778373938b55f2e10801f8137c1684af2c51dc105",
+    "results/p1_2/runs/26092511/q3/A03/solutions/D26092511_018/scenario.json": "7772e16ac271253bb86628ef94b34d858b38d5dcc82e5959085f202deca01edf",
+    "results/p1_2/runs/26092511/q3/A03/solutions/D26092511_018/guarded_atomic_tasks.csv": "6fbef07d836021ebcd898f493b537585c58bb4bb027bf3c14452efa34c19efa1",
+    "results/p1_2/runs/26092511/q3/A03/solutions/D26092511_018/joint_metrics_A03.json": "bc9f48eac64da61567f03a36c4573b9f0c29d4a475e57603462ed8d1c0dbc05f"
+  }
+}

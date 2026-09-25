@@ -1,0 +1,9 @@
+{
+  "status": "RELATIVE_Q3_STRUCTURE_TEMPLATE_NOT_AN_EXECUTABLE_Q2_SCHEDULE",
+  "source": "A11",
+  "changed_sorties": [
+    "M005",
+    "M008"
+  ],
+  "clocks_and_resource_ids_are_placeholders": true
+}

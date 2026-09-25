@@ -1,0 +1,29 @@
+{
+  "gate": "P1_2_ANCHOR_DRIVER_READY",
+  "blockers": [],
+  "mode": "DIAGNOSTIC_WARM",
+  "base_commit": "b7c8352332cee5c41ba75a9c6e2eb19254206e42",
+  "main": "c13306ecbc36933502d1197228e5d80f9f7e40cf",
+  "formal_run_permitted": false,
+  "P1_3_started": false,
+  "formal_cold_start_eligible": false,
+  "performance_superiority_proven": false,
+  "global_pareto_proven": false,
+  "admission_scope": "WARM_FINITE_STRUCTURE_PORTFOLIO_AND_LOCAL_RELAY_SEARCH",
+  "cold_start_driver_admitted": false,
+  "warm_packages_readmitted": 5,
+  "new_verified_Q3_packages": 49,
+  "development_seeds": [
+    26092511,
+    26092512
+  ],
+  "history_preserved": true,
+  "protected_files": 11005,
+  "frozen_common_sites": 118,
+  "Gamma_C_db": 0,
+  "normalization_formally_frozen": false,
+  "run_private_templates_built_fresh": true,
+  "independent_validation_step_s": 0.5,
+  "unit_tests": 9,
+  "artifact_manifest_file": "artifact_manifest.json"
+}

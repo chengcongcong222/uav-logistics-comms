@@ -1,0 +1,26 @@
+{
+  "mode": "DIAGNOSTIC_WARM",
+  "seed": 26092511,
+  "formal_cold_start_eligible": false,
+  "anchors": [
+    "J_norm",
+    "joint_makespan_s",
+    "total_energy_kwh",
+    "transport_sorties",
+    "relay_sorties"
+  ],
+  "structures": [
+    "A11",
+    "AN01",
+    "A03"
+  ],
+  "frozen_sites": 118,
+  "Gamma_C_db": 0,
+  "max_transport_paths_per_anchor": 2,
+  "max_relay_neighbors_per_path": 1,
+  "max_challenges_per_anchor": 1,
+  "solver_call_limit_s": 3,
+  "global_optimum_proven": false,
+  "cpu_scope": "ALL initialization+private radio+selection+LP+export; independent audits reported separately",
+  "budget_kind": "FIXED_SMALL_REQUEST_COUNTS_NOT_FORMAL_CPU_CALIBRATION"
+}

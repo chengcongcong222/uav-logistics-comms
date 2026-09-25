@@ -1,0 +1,602 @@
+[
+  {
+    "id": "A11_Q3_001",
+    "pid": "A11",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.4673434992897176,
+      "joint_makespan_s": 7191.5822294705995,
+      "transport_energy_kwh": 67.38961978302869,
+      "relay_energy_kwh": 3.074615636843778,
+      "total_energy_kwh": 70.46423541987247,
+      "transport_sorties": 25,
+      "relay_sorties": 5,
+      "total_transport_shift_s": 2469.032084780407,
+      "total_absolute_transport_shift_s": 10853.94023918886,
+      "max_transport_shift_s": 2325.4969843784334,
+      "minimum_M_E_kwh": 1.60088415712142
+    },
+    "verified": true,
+    "origin": "READMITTED_INTERNAL_WARM"
+  },
+  {
+    "id": "A11_Q3_002",
+    "pid": "A11",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.4868831080440261,
+      "joint_makespan_s": 7369.003090567623,
+      "transport_energy_kwh": 67.38961978302869,
+      "relay_energy_kwh": 2.9777492031371136,
+      "total_energy_kwh": 70.3673689861658,
+      "transport_sorties": 25,
+      "relay_sorties": 6,
+      "total_transport_shift_s": 8026.6403877916055,
+      "total_absolute_transport_shift_s": 16372.904221644738,
+      "max_transport_shift_s": 2047.7721493488189,
+      "minimum_M_E_kwh": 1.9760908470694034
+    },
+    "verified": true,
+    "origin": "READMITTED_INTERNAL_WARM"
+  },
+  {
+    "id": "A11_Q3_004_CC",
+    "pid": "A11",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.5242431369620049,
+      "joint_makespan_s": 7940.428839949525,
+      "transport_energy_kwh": 67.38961978302869,
+      "relay_energy_kwh": 2.9460660920891084,
+      "total_energy_kwh": 70.3356858751178,
+      "transport_sorties": 25,
+      "relay_sorties": 5,
+      "total_transport_shift_s": 13939.01139271452,
+      "total_absolute_transport_shift_s": 19575.69732594912,
+      "max_transport_shift_s": 3074.343594857359,
+      "minimum_M_E_kwh": 1.6523841669821453
+    },
+    "verified": true,
+    "origin": "READMITTED_INTERNAL_WARM"
+  },
+  {
+    "id": "AN01_Q3_001_CC",
+    "pid": "AN01",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.49357134168401784,
+      "joint_makespan_s": 8744.681681657115,
+      "transport_energy_kwh": 66.65249201327232,
+      "relay_energy_kwh": 3.5132324244174753,
+      "total_energy_kwh": 70.1657244376898,
+      "transport_sorties": 25,
+      "relay_sorties": 6,
+      "total_transport_shift_s": 57633.29895847319,
+      "total_absolute_transport_shift_s": 57633.29895847319,
+      "max_transport_shift_s": 7008.6079253568905,
+      "minimum_M_E_kwh": 1.4408797006008869
+    },
+    "verified": true,
+    "origin": "READMITTED_INTERNAL_WARM"
+  },
+  {
+    "id": "A03_Q3_001",
+    "pid": "A03",
+    "metrics": {
+      "J_late": 43657.351915389074,
+      "J_norm": 0.5888172625200164,
+      "joint_makespan_s": 9617.668097477275,
+      "transport_energy_kwh": 60.047644724851246,
+      "relay_energy_kwh": 4.390596769131322,
+      "total_energy_kwh": 64.43824149398257,
+      "transport_sorties": 19,
+      "relay_sorties": 7,
+      "total_transport_shift_s": 4699.957094338079,
+      "total_absolute_transport_shift_s": 13046.23583610462,
+      "max_transport_shift_s": 2256.6948637646856,
+      "minimum_M_E_kwh": 1.442883802326238
+    },
+    "verified": true,
+    "origin": "READMITTED_INTERNAL_WARM"
+  },
+  {
+    "id": "D26092512_001",
+    "pid": "A11",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.46734349917980744,
+      "joint_makespan_s": 7191.582227470599,
+      "transport_energy_kwh": 67.38961978302869,
+      "relay_energy_kwh": 3.074615636538239,
+      "total_energy_kwh": 70.46423541956693,
+      "transport_sorties": 25,
+      "relay_sorties": 5,
+      "total_transport_shift_s": 2469.0320637804107,
+      "total_absolute_transport_shift_s": 10853.94024218886,
+      "max_transport_shift_s": 2325.496982378434,
+      "minimum_M_E_kwh": 1.6008841574269757
+    },
+    "verified": true,
+    "origin": "CONTINUOUS_JOINT_ADJUSTMENT"
+  },
+  {
+    "id": "D26092512_002",
+    "pid": "A11",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.4631731428974892,
+      "joint_makespan_s": 7013.0829460090135,
+      "transport_energy_kwh": 67.38961978302869,
+      "relay_energy_kwh": 2.8945232021926754,
+      "total_energy_kwh": 70.28414298522137,
+      "transport_sorties": 25,
+      "relay_sorties": 4,
+      "total_transport_shift_s": 834.7822804061566,
+      "total_absolute_transport_shift_s": 11209.1063623839,
+      "max_transport_shift_s": 2078.4995701404714,
+      "minimum_M_E_kwh": 1.2856986397590238
+    },
+    "verified": true,
+    "origin": "RELAY_MERGE"
+  },
+  {
+    "id": "D26092512_003",
+    "pid": "AN01",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.49354065847975237,
+      "joint_makespan_s": 8719.337929657117,
+      "transport_energy_kwh": 66.65249201327232,
+      "relay_energy_kwh": 3.5054885005008254,
+      "total_energy_kwh": 70.15798051377315,
+      "transport_sorties": 25,
+      "relay_sorties": 6,
+      "total_transport_shift_s": 57607.95518747319,
+      "total_absolute_transport_shift_s": 57607.95518747319,
+      "max_transport_shift_s": 6983.264173356891,
+      "minimum_M_E_kwh": 1.4486236245175537
+    },
+    "verified": true,
+    "origin": "CONTINUOUS_JOINT_ADJUSTMENT"
+  },
+  {
+    "id": "D26092512_004",
+    "pid": "AN01",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.4868972906706395,
+      "joint_makespan_s": 8653.014191459653,
+      "transport_energy_kwh": 66.65249201327232,
+      "relay_energy_kwh": 3.743094866498219,
+      "total_energy_kwh": 70.39558687977055,
+      "transport_sorties": 25,
+      "relay_sorties": 5,
+      "total_transport_shift_s": 55701.38698370905,
+      "total_absolute_transport_shift_s": 55701.38698370905,
+      "max_transport_shift_s": 6916.940435159428,
+      "minimum_M_E_kwh": 1.1584510291211871
+    },
+    "verified": true,
+    "origin": "RELAY_MERGE"
+  },
+  {
+    "id": "D26092512_005",
+    "pid": "A11",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.46302993000293485,
+      "joint_makespan_s": 7013.0829460090135,
+      "transport_energy_kwh": 67.38961978302869,
+      "relay_energy_kwh": 2.8945232021926754,
+      "total_energy_kwh": 70.28414298522137,
+      "transport_sorties": 25,
+      "relay_sorties": 4,
+      "total_transport_shift_s": 773.1720931688521,
+      "total_absolute_transport_shift_s": 11270.716549621204,
+      "max_transport_shift_s": 2078.4995701404714,
+      "minimum_M_E_kwh": 1.2856986397590238
+    },
+    "verified": true,
+    "origin": "FEEDBACK_SELECTED_CHALLENGE"
+  },
+  {
+    "id": "D26092512_006",
+    "pid": "A11",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.46317314299748913,
+      "joint_makespan_s": 7013.0829460090135,
+      "transport_energy_kwh": 67.38961978302869,
+      "relay_energy_kwh": 2.8945232021926754,
+      "total_energy_kwh": 70.28414298522137,
+      "transport_sorties": 25,
+      "relay_sorties": 4,
+      "total_transport_shift_s": 814.2455800070311,
+      "total_absolute_transport_shift_s": 11311.790036459384,
+      "max_transport_shift_s": 2078.4995701404714,
+      "minimum_M_E_kwh": 1.2856986397590238
+    },
+    "verified": true,
+    "origin": "CONTINUOUS_JOINT_ADJUSTMENT"
+  },
+  {
+    "id": "D26092512_007",
+    "pid": "A11",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.4641421121165672,
+      "joint_makespan_s": 7013.0829460090135,
+      "transport_energy_kwh": 67.38961978302869,
+      "relay_energy_kwh": 2.928354875080653,
+      "total_energy_kwh": 70.31797465810935,
+      "transport_sorties": 25,
+      "relay_sorties": 4,
+      "total_transport_shift_s": 981.910966869933,
+      "total_absolute_transport_shift_s": 11572.102082739399,
+      "max_transport_shift_s": 2146.997700916848,
+      "minimum_M_E_kwh": 1.2657200182825807
+    },
+    "verified": true,
+    "origin": "RELAY_SITE"
+  },
+  {
+    "id": "D26092512_008",
+    "pid": "AN01",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.4868972906706395,
+      "joint_makespan_s": 8653.014191459653,
+      "transport_energy_kwh": 66.65249201327232,
+      "relay_energy_kwh": 3.743094866498219,
+      "total_energy_kwh": 70.39558687977055,
+      "transport_sorties": 25,
+      "relay_sorties": 5,
+      "total_transport_shift_s": 55701.38698370905,
+      "total_absolute_transport_shift_s": 55701.38698370905,
+      "max_transport_shift_s": 6916.940435159428,
+      "minimum_M_E_kwh": 1.1584510291211871
+    },
+    "verified": true,
+    "origin": "CONTINUOUS_JOINT_ADJUSTMENT"
+  },
+  {
+    "id": "D26092512_009",
+    "pid": "AN01",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.481975586528024,
+      "joint_makespan_s": 8653.014191459653,
+      "transport_energy_kwh": 66.65249201327232,
+      "relay_energy_kwh": 3.388427020178797,
+      "total_energy_kwh": 70.04091903345112,
+      "transport_sorties": 25,
+      "relay_sorties": 4,
+      "total_transport_shift_s": 54798.28442288525,
+      "total_absolute_transport_shift_s": 54798.28442288525,
+      "max_transport_shift_s": 6916.940435159428,
+      "minimum_M_E_kwh": 0.7724831566362556
+    },
+    "verified": true,
+    "origin": "RELAY_MERGE"
+  },
+  {
+    "id": "D26092512_010",
+    "pid": "A11",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.46317314299748913,
+      "joint_makespan_s": 7013.0829460090135,
+      "transport_energy_kwh": 67.38961978302869,
+      "relay_energy_kwh": 2.8945232021926754,
+      "total_energy_kwh": 70.28414298522137,
+      "transport_sorties": 25,
+      "relay_sorties": 4,
+      "total_transport_shift_s": 814.2455800070311,
+      "total_absolute_transport_shift_s": 11311.790036459384,
+      "max_transport_shift_s": 2078.4995701404714,
+      "minimum_M_E_kwh": 1.2856986397590238
+    },
+    "verified": true,
+    "origin": "FEEDBACK_SELECTED_CHALLENGE"
+  },
+  {
+    "id": "D26092512_011",
+    "pid": "AN01",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.481975586628024,
+      "joint_makespan_s": 8653.014191459653,
+      "transport_energy_kwh": 66.65249201327232,
+      "relay_energy_kwh": 3.327033690030171,
+      "total_energy_kwh": 69.9795257033025,
+      "transport_sorties": 25,
+      "relay_sorties": 4,
+      "total_transport_shift_s": 54747.02656947207,
+      "total_absolute_transport_shift_s": 54747.02656947207,
+      "max_transport_shift_s": 6916.940435159428,
+      "minimum_M_E_kwh": 0.7982436507498072
+    },
+    "verified": true,
+    "origin": "CONTINUOUS_JOINT_ADJUSTMENT"
+  },
+  {
+    "id": "D26092512_012",
+    "pid": "AN01",
+    "metrics": {
+      "J_late": 9.999894245993346e-08,
+      "J_norm": 0.48870303034119666,
+      "joint_makespan_s": 8653.014191459653,
+      "transport_energy_kwh": 66.65249201327232,
+      "relay_energy_kwh": 3.290840228283582,
+      "total_energy_kwh": 69.94333224155591,
+      "transport_sorties": 25,
+      "relay_sorties": 4,
+      "total_transport_shift_s": 56191.18475687637,
+      "total_absolute_transport_shift_s": 56191.18475687637,
+      "max_transport_shift_s": 6916.940435159428,
+      "minimum_M_E_kwh": 0.8276724160799467
+    },
+    "verified": true,
+    "origin": "RELAY_SITE"
+  },
+  {
+    "id": "D26092512_013",
+    "pid": "A03",
+    "metrics": {
+      "J_late": 43657.35189538907,
+      "J_norm": 0.5888172626200164,
+      "joint_makespan_s": 9617.668095477275,
+      "transport_energy_kwh": 60.047644724851246,
+      "relay_energy_kwh": 4.390596762494358,
+      "total_energy_kwh": 64.4382414873456,
+      "transport_sorties": 19,
+      "relay_sorties": 7,
+      "total_transport_shift_s": 4699.957104104505,
+      "total_absolute_transport_shift_s": 13046.235849871047,
+      "max_transport_shift_s": 2256.6948637646856,
+      "minimum_M_E_kwh": 1.4428838026179047
+    },
+    "verified": true,
+    "origin": "CONTINUOUS_JOINT_ADJUSTMENT"
+  },
+  {
+    "id": "D26092512_014",
+    "pid": "A03",
+    "metrics": {
+      "J_late": 40736.000669490546,
+      "J_norm": 0.5973486784674426,
+      "joint_makespan_s": 9484.625135255345,
+      "transport_energy_kwh": 60.047644724851246,
+      "relay_energy_kwh": 4.249918583414084,
+      "total_energy_kwh": 64.29756330826532,
+      "transport_sorties": 19,
+      "relay_sorties": 6,
+      "total_transport_shift_s": 5786.787696404095,
+      "total_absolute_transport_shift_s": 13405.775009945011,
+      "max_transport_shift_s": 2203.664142975379,
+      "minimum_M_E_kwh": 1.4518364935901265
+    },
+    "verified": true,
+    "origin": "RELAY_MERGE"
+  },
+  {
+    "id": "D26092512_015",
+    "pid": "AN01",
+    "metrics": {
+      "J_late": 9.999894245993346e-08,
+      "J_norm": 0.4884402189926683,
+      "joint_makespan_s": 8653.014191559654,
+      "transport_energy_kwh": 66.65249201327232,
+      "relay_energy_kwh": 3.286968095505689,
+      "total_energy_kwh": 69.93946010877801,
+      "transport_sorties": 25,
+      "relay_sorties": 4,
+      "total_transport_shift_s": 56200.84458686302,
+      "total_absolute_transport_shift_s": 56200.84458686302,
+      "max_transport_shift_s": 6916.940435259428,
+      "minimum_M_E_kwh": 0.8315445488272837
+    },
+    "verified": true,
+    "origin": "FEEDBACK_SELECTED_CHALLENGE"
+  },
+  {
+    "id": "D26092512_016",
+    "pid": "A11",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.46734349938971753,
+      "joint_makespan_s": 7191.5822295706,
+      "transport_energy_kwh": 67.38961978302869,
+      "relay_energy_kwh": 3.074615637150739,
+      "total_energy_kwh": 70.46423542017943,
+      "transport_sorties": 25,
+      "relay_sorties": 5,
+      "total_transport_shift_s": 2469.0321254759656,
+      "total_absolute_transport_shift_s": 10853.940303884416,
+      "max_transport_shift_s": 2325.4969844784346,
+      "minimum_M_E_kwh": 1.6008841568144754
+    },
+    "verified": true,
+    "origin": "CONTINUOUS_JOINT_ADJUSTMENT"
+  },
+  {
+    "id": "D26092512_017",
+    "pid": "A11",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.46495520143303215,
+      "joint_makespan_s": 7013.0829460090135,
+      "transport_energy_kwh": 67.38961978302869,
+      "relay_energy_kwh": 2.8945232021926754,
+      "total_energy_kwh": 70.28414298522137,
+      "transport_sorties": 25,
+      "relay_sorties": 4,
+      "total_transport_shift_s": 1287.2650111111493,
+      "total_absolute_transport_shift_s": 11161.167040848852,
+      "max_transport_shift_s": 2078.4995701404714,
+      "minimum_M_E_kwh": 1.2856986397590238
+    },
+    "verified": true,
+    "origin": "RELAY_MERGE"
+  },
+  {
+    "id": "D26092512_018",
+    "pid": "A03",
+    "metrics": {
+      "J_late": 38756.000669490546,
+      "J_norm": 0.592525307260503,
+      "joint_makespan_s": 9484.625135255345,
+      "transport_energy_kwh": 60.047644724851246,
+      "relay_energy_kwh": 4.247239716973107,
+      "total_energy_kwh": 64.29488444182435,
+      "transport_sorties": 19,
+      "relay_sorties": 6,
+      "total_transport_shift_s": 5516.161348451662,
+      "total_absolute_transport_shift_s": 13193.398661992578,
+      "max_transport_shift_s": 2137.664142975379,
+      "minimum_M_E_kwh": 1.4518364935901265
+    },
+    "verified": true,
+    "origin": "CONTINUOUS_JOINT_ADJUSTMENT"
+  },
+  {
+    "id": "D26092512_019",
+    "pid": "A03",
+    "metrics": {
+      "J_late": 38756.000669490546,
+      "J_norm": 0.5967033597832674,
+      "joint_makespan_s": 9484.625135255345,
+      "transport_energy_kwh": 60.047644724851246,
+      "relay_energy_kwh": 4.644743944840773,
+      "total_energy_kwh": 64.69238866969202,
+      "transport_sorties": 19,
+      "relay_sorties": 5,
+      "total_transport_shift_s": 6022.22986418642,
+      "total_absolute_transport_shift_s": 13699.467177727336,
+      "max_transport_shift_s": 2137.664142975379,
+      "minimum_M_E_kwh": 1.1964951639387338
+    },
+    "verified": true,
+    "origin": "RELAY_MERGE"
+  },
+  {
+    "id": "D26092512_020",
+    "pid": "A11",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.46734349938971753,
+      "joint_makespan_s": 7191.5822295706,
+      "transport_energy_kwh": 67.38961978302869,
+      "relay_energy_kwh": 3.074615637150739,
+      "total_energy_kwh": 70.46423542017943,
+      "transport_sorties": 25,
+      "relay_sorties": 5,
+      "total_transport_shift_s": 2469.0321254759656,
+      "total_absolute_transport_shift_s": 10853.940303884416,
+      "max_transport_shift_s": 2325.4969844784346,
+      "minimum_M_E_kwh": 1.6008841568144754
+    },
+    "verified": true,
+    "origin": "FEEDBACK_SELECTED_CHALLENGE"
+  },
+  {
+    "id": "D26092512_021",
+    "pid": "A11",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.46317314299748913,
+      "joint_makespan_s": 7013.0829460090135,
+      "transport_energy_kwh": 67.38961978302869,
+      "relay_energy_kwh": 2.8945232021926754,
+      "total_energy_kwh": 70.28414298522137,
+      "transport_sorties": 25,
+      "relay_sorties": 4,
+      "total_transport_shift_s": 855.9553639689059,
+      "total_absolute_transport_shift_s": 11353.499760421259,
+      "max_transport_shift_s": 2078.4995701404714,
+      "minimum_M_E_kwh": 1.2856986397590238
+    },
+    "verified": true,
+    "origin": "CONTINUOUS_JOINT_ADJUSTMENT"
+  },
+  {
+    "id": "D26092512_022",
+    "pid": "A11",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.46911895687079314,
+      "joint_makespan_s": 7013.0829460090135,
+      "transport_energy_kwh": 67.38961978302869,
+      "relay_energy_kwh": 2.8563390656451437,
+      "total_energy_kwh": 70.24595884867384,
+      "transport_sorties": 25,
+      "relay_sorties": 4,
+      "total_transport_shift_s": 2417.653794774277,
+      "total_absolute_transport_shift_s": 12520.753932379954,
+      "max_transport_shift_s": 2078.4995701404714,
+      "minimum_M_E_kwh": 1.2921157404534682
+    },
+    "verified": true,
+    "origin": "RELAY_SITE"
+  },
+  {
+    "id": "D26092512_023",
+    "pid": "AN01",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.4887030304411966,
+      "joint_makespan_s": 8653.014191459653,
+      "transport_energy_kwh": 66.65249201327232,
+      "relay_energy_kwh": 3.2908402292835843,
+      "total_energy_kwh": 69.94333224255591,
+      "transport_sorties": 25,
+      "relay_sorties": 4,
+      "total_transport_shift_s": 56261.67791593497,
+      "total_absolute_transport_shift_s": 56261.67791593497,
+      "max_transport_shift_s": 6916.940435159428,
+      "minimum_M_E_kwh": 0.8276724150799444
+    },
+    "verified": true,
+    "origin": "CONTINUOUS_JOINT_ADJUSTMENT"
+  },
+  {
+    "id": "D26092512_024",
+    "pid": "AN01",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.48651027780002226,
+      "joint_makespan_s": 8653.014191459653,
+      "transport_energy_kwh": 66.65249201327232,
+      "relay_energy_kwh": 3.362118598050822,
+      "total_energy_kwh": 70.01461061132315,
+      "transport_sorties": 25,
+      "relay_sorties": 4,
+      "total_transport_shift_s": 55634.051763081115,
+      "total_absolute_transport_shift_s": 55634.051763081115,
+      "max_transport_shift_s": 6916.940435159428,
+      "minimum_M_E_kwh": 0.7724831566362556
+    },
+    "verified": true,
+    "origin": "RELAY_SITE"
+  },
+  {
+    "id": "D26092512_025",
+    "pid": "A11",
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.46317314299748913,
+      "joint_makespan_s": 7013.0829460090135,
+      "transport_energy_kwh": 67.38961978302869,
+      "relay_energy_kwh": 2.8945232021926754,
+      "total_energy_kwh": 70.28414298522137,
+      "transport_sorties": 25,
+      "relay_sorties": 4,
+      "total_transport_shift_s": 855.9553639689059,
+      "total_absolute_transport_shift_s": 11353.499760421259,
+      "max_transport_shift_s": 2078.4995701404714,
+      "minimum_M_E_kwh": 1.2856986397590238
+    },
+    "verified": true,
+    "origin": "FEEDBACK_SELECTED_CHALLENGE"
+  }
+]

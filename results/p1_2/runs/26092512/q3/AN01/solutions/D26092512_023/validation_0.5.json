@@ -1,0 +1,75 @@
+{
+  "Gamma_C_db": 0.0,
+  "minimum_twohop_robust_slack_db": 0.14955749359428694,
+  "pareto_id": "AN01",
+  "status": "P1_Q3_INDEPENDENTLY_VALIDATED",
+  "step_s": 0.5,
+  "hard_violations": 0,
+  "uncovered_sample_count": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "full_flight_samples": 67044,
+  "direct_samples": 43321,
+  "relayed_samples": 23723,
+  "relay_sorties": 4,
+  "full_flight_boundary_refinements": 468,
+  "boundary_refinement_s": 0.1,
+  "relay_ids": [
+    "R01",
+    "R02"
+  ],
+  "energy_components": [
+    "REC-01",
+    "REC-02",
+    "REC-03",
+    "REC-04"
+  ],
+  "minimum_relay_energy_margin_kwh": 0.8276724150799444,
+  "minimum_twohop_margin_db": 0.14955749359428694,
+  "runtime_s": 24.955869882999878,
+  "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+  "J_late": 0.0,
+  "J_norm": 0.4887030304411967,
+  "transport_energy_kwh": 66.65249201327234,
+  "transport_makespan_s": 8433.115297131011,
+  "transport_sorties": 25,
+  "minimum_transport_energy_margin_kwh": 0.2471029920028247,
+  "hard_deadline_violations": 0,
+  "margin_distribution_db": {
+    "direct_active_path": {
+      "0": 0.00014940625750625713,
+      "0.01": 0.22189236838676862,
+      "0.05": 1.7587914219206517,
+      "0.25": 7.41132293554562,
+      "0.5": 18.234883871777,
+      "0.75": 32.242983942602,
+      "0.95": 51.10606348214405,
+      "1": 201.94577516576788
+    },
+    "relayed_active_path": {
+      "0": 0.14955749359428694,
+      "0.01": 0.14955749359428694,
+      "0.05": 0.14955749359428694,
+      "0.25": 3.2353224872619606,
+      "0.5": 5.886552878496374,
+      "0.75": 9.466834534918036,
+      "0.95": 13.11389912953588,
+      "1": 13.435452033242427
+    }
+  },
+  "artifact_sha256": {
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_023/transport_sorties_AN01.csv": "9489eb48dd0eaf4fa0dc8a30b8a539880b07a4ada77688564ce1f4f76c81d13c",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_023/box_delivery_AN01.csv": "1ebcbb43ae5866f0754e26b47066c4e6126caf162ab4223e300579dc68d05c2b",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_023/transport_shifts_AN01.csv": "3cb54a37988ed1c1d7202a4b51429cb6a2615bb39dd35ef6ea3af78e1ff55dc6",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_023/transport_uav_calendar_AN01.csv": "6f5c856ae449293297ee6dc5b3b0c871e5dabffa0b1344ad5a75d4fd90c2d94a",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_023/transport_battery_calendar_AN01.csv": "f9757394cce86bb010944b7c16fa6473d3d5ac31a005919c94bb89bf40a35780",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_023/relay_sorties_AN01.csv": "7fc7305f12cebcded38636d4f775c61857c518f320939b4d06b425061291c74e",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_023/relay_uav_calendar_AN01.csv": "8310debffa36441632fab497ce49bec884f75ac22982c9c766b09ebeaee769ec",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_023/relay_energy_calendar_AN01.csv": "a1b467d4b2298bd05ae3156434516c526129e5f23ee356e7abf23d05ed8495c0",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_023/communication_guarantee_AN01.csv": "09ef05d858e42030924544ce22f9baa37a125ae9b559c768dc1dd4d0cdc673c2",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_023/candidate_sites_AN01.csv": "f5a53f96c03f77016fe4d2786abcda9da779e965e89a596370357f54cd8e91a4",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_023/guarded_selected_pairs_AN01.csv": "ab01a53e644b9eed82ab61a6adeeff637b12445a5a66be39df482d72a93e1949",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_023/scenario.json": "fa958f8f47ad4ac279ecaa6cb3224adb33b0280c7102d6f3ef3f5e00abb21bc8",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_023/guarded_atomic_tasks.csv": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+    "results/p1_2/runs/26092512/q3/AN01/solutions/D26092512_023/joint_metrics_AN01.json": "954eb645f6dc3e67a3e0c3e9fab155209b3792b6b2febd61db510d989f17a7c9"
+  }
+}

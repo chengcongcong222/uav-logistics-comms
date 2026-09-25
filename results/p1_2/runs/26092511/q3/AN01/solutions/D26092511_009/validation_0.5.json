@@ -1,0 +1,75 @@
+{
+  "Gamma_C_db": 0.0,
+  "minimum_twohop_robust_slack_db": 0.14955749359428694,
+  "pareto_id": "AN01",
+  "status": "P1_Q3_INDEPENDENTLY_VALIDATED",
+  "step_s": 0.5,
+  "hard_violations": 0,
+  "uncovered_sample_count": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "full_flight_samples": 67046,
+  "direct_samples": 43334,
+  "relayed_samples": 23712,
+  "relay_sorties": 4,
+  "full_flight_boundary_refinements": 468,
+  "boundary_refinement_s": 0.1,
+  "relay_ids": [
+    "R01",
+    "R02"
+  ],
+  "energy_components": [
+    "REC-01",
+    "REC-02",
+    "REC-03",
+    "REC-04"
+  ],
+  "minimum_relay_energy_margin_kwh": 0.7724831566362556,
+  "minimum_twohop_margin_db": 0.14955749359428694,
+  "runtime_s": 25.947518360000004,
+  "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+  "J_late": 0.0,
+  "J_norm": 0.48197558652802397,
+  "transport_energy_kwh": 66.65249201327234,
+  "transport_makespan_s": 8433.115297131011,
+  "transport_sorties": 25,
+  "minimum_transport_energy_margin_kwh": 0.2471029920028247,
+  "hard_deadline_violations": 0,
+  "margin_distribution_db": {
+    "direct_active_path": {
+      "0": 0.00017986236421130286,
+      "0.01": 0.21807822288413026,
+      "0.05": 1.7587739271752563,
+      "0.25": 7.406467284946326,
+      "0.5": 18.232228414975154,
+      "0.75": 32.24371921444488,
+      "0.95": 51.145895137323095,
+      "1": 201.94577516576788
+    },
+    "relayed_active_path": {
+      "0": 0.14955749359428694,
+      "0.01": 0.14955749359428694,
+      "0.05": 0.14955749359428694,
+      "0.25": 2.43785423226241,
+      "0.5": 4.6201882598229815,
+      "0.75": 8.226809702901718,
+      "0.95": 11.397135806608844,
+      "1": 11.397135806608844
+    }
+  },
+  "artifact_sha256": {
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_009/transport_sorties_AN01.csv": "c15f8180bf1568cb30cb3cba9168c749208b424e74c92d6db57a656f36e3dfe4",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_009/box_delivery_AN01.csv": "714273b4406cb2906d4cf4d063f67ff05572002540489cb7f62cdf836ceb537f",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_009/transport_shifts_AN01.csv": "be6c543d25ab350262fb15ac58680c5c1b893c27bf00c87e8ff2a9898bf477dc",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_009/transport_uav_calendar_AN01.csv": "f1cacbf1b9814be43a68821fca2176feaefc8b4156fba56a29c10799d7f0f64c",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_009/transport_battery_calendar_AN01.csv": "8657945943232ea66c81f7ac96ff338d6f4a98ab905b14b3ede4aeda1fe88ee5",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_009/relay_sorties_AN01.csv": "51965326a2bddd089e3cf576fd0ec385163c975efd8eabb2003fdbe77205c5bc",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_009/relay_uav_calendar_AN01.csv": "8f8529c0e331d1338432b373f653b2c3e775c330fb3c5018da8b27af97ca3d1e",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_009/relay_energy_calendar_AN01.csv": "79f44a8b5b1303847ddad6aa6a32596061dc6d7003f2a46b68213d687cdb8f66",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_009/communication_guarantee_AN01.csv": "c567f28ffaba3df1d453a86463b6c1dc0e022dbacb16a30432b7ba28d5636755",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_009/candidate_sites_AN01.csv": "5f39bffb3b0dff3eda142e3231b97d4aefc8b021e9074d6936062e7535c34db5",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_009/guarded_selected_pairs_AN01.csv": "ef7328717fcfaadb17bb98dfce3e82b223e7fd87e682aef203adc471db20af74",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_009/scenario.json": "fa958f8f47ad4ac279ecaa6cb3224adb33b0280c7102d6f3ef3f5e00abb21bc8",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_009/guarded_atomic_tasks.csv": "da6f72de4d64424c6144544ef81fd248900cb609dfc1b537ec5fe1175cedcdd2",
+    "results/p1_2/runs/26092511/q3/AN01/solutions/D26092511_009/joint_metrics_AN01.json": "6179b3f3a57806b7d8364384c11c19df501660a5566de45a05417139720a602d"
+  }
+}
