@@ -1,0 +1,34 @@
+{
+  "scope": "Q2",
+  "budget": 30,
+  "methods": [
+    "UNIFORM_LNS",
+    "ALNS",
+    "POOL",
+    "POOL_CHALLENGE"
+  ],
+  "seeds": [
+    26092511,
+    26092512
+  ],
+  "physical_cores": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10
+  ],
+  "source_sha256": {
+    "src/bench_p1/run.py": "fcd7d95a18175e5382c1162410115f78e9d1761c32046eacf3b09594145dfad1",
+    "src/bench_p1/common.py": "326be73f615529dbfb97c42e0f456c5bb855003b0ae9a930c361224e47f28e91",
+    "src/bench_p1/preferences.py": "f5812b0ea3a416ca65a94c2e6e76146823dc801f3f00ac7ee32531363e47902e",
+    "src/bench_p1/patterns.py": "e2294a921d90a8a96f440b71e4efc45b54f5278a27b65cedb708dededa574863",
+    "src/bench_p1/worker.py": "c7c9de38beec01a1603aaf26c5369e89a0683f6ecbc0eacffa78c3822595853c",
+    "src/bench_p1/alns.py": "08ee39dd7481d16fa0a4e226b1b7f789de056293f2ed2d9203826f280d84450b",
+    "src/bench_p1/challenge.py": "07463c2c14c774766414d571a993e36f342ccd194749df3f45de6b49f852b437"
+  },
+  "cpu_clock": "POSIX process CPU",
+  "maximum_overshoot_s": 0.2,
+  "formal": false
+}

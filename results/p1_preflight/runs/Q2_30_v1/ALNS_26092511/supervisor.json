@@ -1,0 +1,17 @@
+{
+  "method": "ALNS",
+  "seed": 26092511,
+  "scope": "Q2",
+  "cpu_cap_s": 30,
+  "observed_cpu_s": 29.646926976,
+  "wall_s": 30.108751019999996,
+  "core": 2,
+  "exit_code": 0,
+  "termination": "WORKER_FINISHED",
+  "accepted": [
+    "P0001",
+    "P0002",
+    "P0003"
+  ],
+  "root": "results/p1_preflight/runs/Q2_30_v1/ALNS_26092511"
+}

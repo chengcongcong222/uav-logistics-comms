@@ -1,0 +1,16 @@
+{
+  "method": "SEQUENTIAL",
+  "seed": 26092512,
+  "scope": "Q3",
+  "cpu_cap_s": 30,
+  "observed_cpu_s": 30.020377263,
+  "wall_s": 30.062857635,
+  "core": 2,
+  "exit_code": -9,
+  "termination": "CPU_BUDGET",
+  "accepted": [
+    "P0001",
+    "P0002"
+  ],
+  "root": "results/p1_preflight/runs/Q3_30_v1/SEQUENTIAL_26092512"
+}

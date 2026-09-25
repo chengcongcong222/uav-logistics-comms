@@ -1,0 +1,38 @@
+[
+  {
+    "pid": "P0001",
+    "scope": "Q2",
+    "origin": "COMMON_FRESH_B0",
+    "preference_id": "Q3_SEARCH_070",
+    "cpu_ready_s": 1.008282937,
+    "metrics": {
+      "J_late": 65501.00549024007,
+      "J_norm": 0.5125647900904743,
+      "makespan": 10570.82377657593,
+      "energy": 85.66393821918167,
+      "sorties": 32,
+      "source": "P0001",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/p1_preflight/runs/Q3_30_v1/SEQUENTIAL_26092511/q2/pareto_schedules/P0001/missions.json",
+    "package": "/home/ccc/projects/uav-logistics-comms/results/p1_preflight/runs/Q3_30_v1/SEQUENTIAL_26092511/q2/pareto_schedules/P0001"
+  },
+  {
+    "pid": "P0002",
+    "scope": "Q2",
+    "origin": "PREFERENCE_PATTERN_MILP",
+    "preference_id": "Q3_SEARCH_070",
+    "cpu_ready_s": 11.014264581,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.41956265947198584,
+      "makespan": 6963.475961150738,
+      "energy": 75.94976547050335,
+      "sorties": 29,
+      "source": "P0002",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/p1_preflight/runs/Q3_30_v1/SEQUENTIAL_26092511/q2/pareto_schedules/P0002/missions.json",
+    "package": "/home/ccc/projects/uav-logistics-comms/results/p1_preflight/runs/Q3_30_v1/SEQUENTIAL_26092511/q2/pareto_schedules/P0002"
+  }
+]

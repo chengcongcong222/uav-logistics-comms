@@ -1,0 +1,8 @@
+{
+  "status": "HARNESS_PATH_ERROR_NOT_PHYSICAL_EVIDENCE",
+  "original": {
+    "status": "EXPECTED_PHYSICAL_REJECTION",
+    "case": "Complete physical mission shifted one second beyond its earliest hard delivery deadline; calendars and traces regenerated",
+    "error": "[Errno 2] No such file or directory: '/home/ccc/projects/uav-logistics-comms/results/q2/pareto_schedules/NEGATIVE/q2_sorties.csv'"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "Gamma_C_db": 0.0,
+  "minimum_twohop_robust_slack_db": 0.6230836731091074,
+  "pareto_id": "DEVFIX",
+  "status": "E8_PLAN_INDEPENDENTLY_VALIDATED",
+  "step_s": 0.5,
+  "hard_violations": 0,
+  "uncovered_sample_count": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "full_flight_samples": 80648,
+  "direct_samples": 51250,
+  "relayed_samples": 29398,
+  "relay_sorties": 6,
+  "full_flight_boundary_refinements": 480,
+  "boundary_refinement_s": 0.1,
+  "relay_ids": [
+    "R01",
+    "R02"
+  ],
+  "energy_components": [
+    "REC-01",
+    "REC-02",
+    "REC-03",
+    "REC-04",
+    "REC-05",
+    "REC-06"
+  ],
+  "minimum_relay_energy_margin_kwh": 1.7294540297057839,
+  "minimum_twohop_margin_db": 0.6230836731091074,
+  "runtime_s": 49.258606825000015,
+  "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+  "J_late": 39647.26745151995,
+  "J_norm": 0.5215080681533973,
+  "transport_energy_kwh": 75.94976547050334,
+  "transport_makespan_s": 9963.172102998862,
+  "transport_sorties": 29,
+  "minimum_transport_energy_margin_kwh": 0.22479163523963575,
+  "hard_deadline_violations": 0,
+  "margin_distribution_db": {
+    "direct_active_path": {
+      "0": 0.0001273874130482966,
+      "0.01": 0.1839715389963352,
+      "0.05": 1.4513146970771833,
+      "0.25": 9.320511112975336,
+      "0.5": 18.519394846751926,
+      "0.75": 32.0209778707547,
+      "0.95": 50.806210935744666,
+      "1": 201.94577516576788
+    },
+    "relayed_active_path": {
+      "0": 0.6230836731091074,
+      "0.01": 0.6230836731091074,
+      "0.05": 1.2735129256524829,
+      "0.25": 2.099203328999508,
+      "0.5": 3.908462506343753,
+      "0.75": 7.23543717988105,
+      "0.95": 11.397135806608844,
+      "1": 14.4846019183627
+    }
+  },
+  "artifact_sha256": {
+    "results/p1_preflight/fixtures/sequential_positive/q3/DEVFIX/solutions/POSITIVE/transport_sorties_DEVFIX.csv": "2b223c38fdf14c4614782b07348f12987690a710d121632611fa94e9eef18b2a",
+    "results/p1_preflight/fixtures/sequential_positive/q3/DEVFIX/solutions/POSITIVE/box_delivery_DEVFIX.csv": "49b7d2c411162b68e8f50b6d20705bed3c2eb5b94a46d03aa614865332722135",
+    "results/p1_preflight/fixtures/sequential_positive/q3/DEVFIX/solutions/POSITIVE/transport_shifts_DEVFIX.csv": "c9f9fa49faff9937f55702da850702c77d7014efff7da4f210d3571ab3fa21fc",
+    "results/p1_preflight/fixtures/sequential_positive/q3/DEVFIX/solutions/POSITIVE/transport_uav_calendar_DEVFIX.csv": "38bb30a62d4169d3c437f5d8ebba8dee89fb8c36b3de22c869a25f10ee178584",
+    "results/p1_preflight/fixtures/sequential_positive/q3/DEVFIX/solutions/POSITIVE/transport_battery_calendar_DEVFIX.csv": "8033ecd86524e71a6cf119bc008482d4519452620eeca48699419362c6e44392",
+    "results/p1_preflight/fixtures/sequential_positive/q3/DEVFIX/solutions/POSITIVE/relay_sorties_DEVFIX.csv": "6605aba266fd3b816ba390dcb34532d974dc3b18d768119da752a29256a1da96",
+    "results/p1_preflight/fixtures/sequential_positive/q3/DEVFIX/solutions/POSITIVE/relay_uav_calendar_DEVFIX.csv": "e273595eb72c27d79fcff2d863bead8f17689891c3524529e4d7af11cecf06fa",
+    "results/p1_preflight/fixtures/sequential_positive/q3/DEVFIX/solutions/POSITIVE/relay_energy_calendar_DEVFIX.csv": "fb9b06871123a946e34301777760c2b4d9f2818b164305b71b367ecbc13ca02c",
+    "results/p1_preflight/fixtures/sequential_positive/q3/DEVFIX/solutions/POSITIVE/communication_guarantee_DEVFIX.csv": "74ad5e09709f3059aba44a5dd3e495ca067c036fd5aa6a7a0301041e8016f32c",
+    "results/p1_preflight/fixtures/sequential_positive/q3/DEVFIX/solutions/POSITIVE/candidate_sites_DEVFIX.csv": "26c63691ed61925a53a4aeb18014082d8a198fafd918e296368d75b0520d4b1c",
+    "results/p1_preflight/fixtures/sequential_positive/q3/DEVFIX/solutions/POSITIVE/guarded_selected_pairs_DEVFIX.csv": "aeddfa6c3842e6624aa3364bec5069b0ee7bfa048ad4c6985e2275d6c5a44d68",
+    "results/p1_preflight/fixtures/sequential_positive/q3/DEVFIX/solutions/POSITIVE/scenario.json": "b70a69001cd64e9e85f57b07bf4097f2ccd318cadc78fa3069a154a429a6f85d",
+    "results/p1_preflight/fixtures/sequential_positive/q3/DEVFIX/solutions/POSITIVE/guarded_atomic_tasks.csv": "f3e64572204853c73eccdfa40af5667ed297fb0207a6072503633170507c60a6",
+    "results/p1_preflight/fixtures/sequential_positive/q3/DEVFIX/solutions/POSITIVE/joint_metrics_DEVFIX.json": "3a4483bef9a8c46ec3045d314a66803689f5c1a562dd7902698b6d450859df17"
+  },
+  "fixture_status": "SEQUENTIAL_POSITIVE_CONTROL_INDEPENDENTLY_VERIFIED",
+  "not_a_cold_start_benchmark": true,
+  "source": "fresh development JOINT witness; shifted transport is fixture input, never fed back to comparison runs",
+  "solver_info": {
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "runtime_s": 0.040468221000026006,
+    "groups": 6,
+    "objective": 39647.26745151995,
+    "dual_bound": 39647.26745151995,
+    "scope": "JOINT_TYPED_RESOURCES_MILP",
+    "limit_s": 8,
+    "transport_resource_repair_passed": true
+  }
+}

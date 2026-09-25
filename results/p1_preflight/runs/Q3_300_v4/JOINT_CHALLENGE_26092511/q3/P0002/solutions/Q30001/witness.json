@@ -1,0 +1,478 @@
+{
+  "pareto_id": "P0002",
+  "groups": [
+    {
+      "site_id": "E52_575c4f100493de938643a13d",
+      "task_ids": [
+        "P0002_M001_G00",
+        "P0002_M015_G00",
+        "P0002_M018_G00",
+        "P0002_M021_G00",
+        "P0002_M028_G00",
+        "P0002_M029_G00"
+      ]
+    },
+    {
+      "site_id": "E52_47db2d0d55c92154c779a4c9",
+      "task_ids": [
+        "P0002_M004_G00",
+        "P0002_M009_G00"
+      ]
+    },
+    {
+      "site_id": "E52_82c821a5773d0bfbe554f10a",
+      "task_ids": [
+        "P0002_M002_G00",
+        "P0002_M007_G00",
+        "P0002_M016_G00",
+        "P0002_M016_G01",
+        "P0002_M016_G02",
+        "P0002_M019_G00",
+        "P0002_M023_G00",
+        "P0002_M026_G00",
+        "P0002_M027_G00"
+      ]
+    },
+    {
+      "site_id": "E52_beb70ec57fd2d66bf65b827f",
+      "task_ids": [
+        "P0002_M011_G00",
+        "P0002_M013_G00"
+      ]
+    },
+    {
+      "site_id": "E52_30110e5b3ae38ecfab28ace2",
+      "task_ids": [
+        "P0002_M003_G00"
+      ]
+    },
+    {
+      "site_id": "E52_82c821a5773d0bfbe554f10a",
+      "task_ids": [
+        "P0002_M005_G00",
+        "P0002_M008_G00",
+        "P0002_M024_G00",
+        "P0002_M025_G00"
+      ]
+    }
+  ],
+  "sequences": [
+    [
+      0,
+      2,
+      5
+    ],
+    [
+      1,
+      4,
+      3
+    ]
+  ],
+  "shifts": {
+    "M001": 36.21874999999818,
+    "M002": -48.33583095541417,
+    "M003": 3437.3655400745047,
+    "M004": 130.88006630943528,
+    "M005": 819.6639525061637,
+    "M006": 305.15715506803645,
+    "M007": -321.3252539205273,
+    "M008": 606.2446556685372,
+    "M009": 1793.4912579744441,
+    "M010": 5714.802576013235,
+    "M011": 5045.052665427346,
+    "M012": -0.0,
+    "M013": 4479.408848716351,
+    "M014": 2558.134927250472,
+    "M015": -1517.6894124463406,
+    "M016": -740.8906947141804,
+    "M017": 1560.1703918789863,
+    "M018": 109.91011567829833,
+    "M019": 528.2377942110252,
+    "M020": -0.0,
+    "M021": -1560.1704018789649,
+    "M022": 7921.846669997107,
+    "M023": 16.626419380018888,
+    "M024": 847.5197520039001,
+    "M025": 1006.0237255854581,
+    "M026": -868.3073058969458,
+    "M027": -725.7121788637905,
+    "M028": 238.11435552811872,
+    "M029": 6.53124999999821
+  },
+  "selected": [
+    {
+      "site_id": "E52_575c4f100493de938643a13d",
+      "task_ids": [
+        "P0002_M001_G00",
+        "P0002_M015_G00",
+        "P0002_M018_G00",
+        "P0002_M021_G00",
+        "P0002_M028_G00",
+        "P0002_M029_G00"
+      ],
+      "preparation_start_s": 103.97719956104663,
+      "takeoff_s": 283.97719956104663,
+      "arrival_s": 754.0312499999982,
+      "setup_start_s": 754.0312499999982,
+      "service_start_s": 784.0312499999982,
+      "service_end_s": 1689.6562500000002,
+      "return_s": 2207.6686347895375,
+      "uav_available_s": 2507.6686347895375,
+      "energy_ready_s": 2929.2559248905145,
+      "charge_duration_s": 721.5872901009772,
+      "return_soc": 0.8295482383838637,
+      "outbound_time_s": 470.05405043895155,
+      "return_time_s": 518.0123847895375,
+      "flight_energy_kwh": 0.259560220504969,
+      "setup_energy_kwh": 0.009166666666666667,
+      "active_communication_s": 905.625000000002,
+      "idle_hover_s": 0.0,
+      "active_energy_kwh": 0.2767187500000007,
+      "idle_energy_kwh": 0.0,
+      "total_energy_kwh": 0.5454456371716363,
+      "energy_margin_kwh": 2.014554362828364,
+      "service_windows": [
+        [
+          784.0312499999982,
+          1689.6562500000002
+        ]
+      ],
+      "relay_id": "R01",
+      "energy_component_id": "REC-01",
+      "relay_sortie_id": "Q30001_R001"
+    },
+    {
+      "site_id": "E52_47db2d0d55c92154c779a4c9",
+      "task_ids": [
+        "P0002_M004_G00",
+        "P0002_M009_G00"
+      ],
+      "preparation_start_s": 2050.926658725863,
+      "takeoff_s": 2230.926658725863,
+      "arrival_s": 2543.553757974444,
+      "setup_start_s": 2543.553757974444,
+      "service_start_s": 2573.553757974444,
+      "service_end_s": 3506.147507974444,
+      "return_s": 3857.469417200239,
+      "uav_available_s": 4157.469417200239,
+      "energy_ready_s": 4544.742274441841,
+      "charge_duration_s": 687.2728572416015,
+      "return_soc": 0.8559439559679988,
+      "outbound_time_s": 312.62709924858126,
+      "return_time_s": 351.3219092257948,
+      "flight_energy_kwh": 0.16685347284684848,
+      "setup_energy_kwh": 0.009166666666666667,
+      "active_communication_s": 932.59375,
+      "idle_hover_s": 0.0,
+      "active_energy_kwh": 0.2849592013888889,
+      "idle_energy_kwh": 0.0,
+      "total_energy_kwh": 0.46097934090240406,
+      "energy_margin_kwh": 2.0990206590975964,
+      "service_windows": [
+        [
+          2573.553757974444,
+          3506.147507974444
+        ]
+      ],
+      "relay_id": "R02",
+      "energy_component_id": "REC-02",
+      "relay_sortie_id": "Q30001_R002"
+    },
+    {
+      "site_id": "E52_82c821a5773d0bfbe554f10a",
+      "task_ids": [
+        "P0002_M002_G00",
+        "P0002_M007_G00",
+        "P0002_M016_G00",
+        "P0002_M016_G01",
+        "P0002_M016_G02",
+        "P0002_M019_G00",
+        "P0002_M023_G00",
+        "P0002_M026_G00",
+        "P0002_M027_G00"
+      ],
+      "preparation_start_s": 2581.7694271912433,
+      "takeoff_s": 2761.7694271912433,
+      "arrival_s": 3274.704838663181,
+      "setup_start_s": 3274.704838663181,
+      "service_start_s": 3304.704838663181,
+      "service_end_s": 4697.497033757948,
+      "return_s": 5263.570790058173,
+      "uav_available_s": 5563.570790058173,
+      "energy_ready_s": 6054.930220913269,
+      "charge_duration_s": 791.3594308550965,
+      "return_soc": 0.775877360880695,
+      "outbound_time_s": 512.9354114719376,
+      "return_time_s": 566.0737563002253,
+      "flight_energy_kwh": 0.2825549862639304,
+      "setup_energy_kwh": 0.009166666666666667,
+      "active_communication_s": 1385.260945094767,
+      "idle_hover_s": 7.53125,
+      "active_energy_kwh": 0.42327417766784553,
+      "idle_energy_kwh": 0.0021966145833333334,
+      "total_energy_kwh": 0.7171924451817758,
+      "energy_margin_kwh": 1.8428075548182248,
+      "service_windows": [
+        [
+          3304.704838663181,
+          4664.622033757948
+        ],
+        [
+          4672.153283757948,
+          4697.497033757948
+        ]
+      ],
+      "relay_id": "R01",
+      "energy_component_id": "REC-03",
+      "relay_sortie_id": "Q30001_R003"
+    },
+    {
+      "site_id": "E52_beb70ec57fd2d66bf65b827f",
+      "task_ids": [
+        "P0002_M011_G00",
+        "P0002_M013_G00"
+      ],
+      "preparation_start_s": 8692.651151831426,
+      "takeoff_s": 8872.651151831426,
+      "arrival_s": 9302.309889656244,
+      "setup_start_s": 9302.309889656244,
+      "service_start_s": 9332.309889656244,
+      "service_end_s": 9941.091139656244,
+      "return_s": 10409.186585041285,
+      "uav_available_s": 10709.186585041285,
+      "energy_ready_s": 11086.728464943964,
+      "charge_duration_s": 677.5418799026797,
+      "return_soc": 0.8634293231517848,
+      "outbound_time_s": 429.6587378248194,
+      "return_time_s": 468.09544538504076,
+      "flight_energy_kwh": 0.2418430061920666,
+      "setup_energy_kwh": 0.009166666666666667,
+      "active_communication_s": 608.78125,
+      "idle_hover_s": 0.0,
+      "active_energy_kwh": 0.18601649305555557,
+      "idle_energy_kwh": 0.0,
+      "total_energy_kwh": 0.43702616591428883,
+      "energy_margin_kwh": 2.1229738340857116,
+      "service_windows": [
+        [
+          9332.309889656244,
+          9941.091139656244
+        ]
+      ],
+      "relay_id": "R02",
+      "energy_component_id": "REC-06",
+      "relay_sortie_id": "Q30001_R006"
+    },
+    {
+      "site_id": "E52_30110e5b3ae38ecfab28ace2",
+      "task_ids": [
+        "P0002_M003_G00"
+      ],
+      "preparation_start_s": 5293.90650280633,
+      "takeoff_s": 5473.90650280633,
+      "arrival_s": 5988.31719195347,
+      "setup_start_s": 5988.31719195347,
+      "service_start_s": 6018.31719195347,
+      "service_end_s": 6862.78594195347,
+      "return_s": 7410.536591580347,
+      "uav_available_s": 7710.536591580347,
+      "energy_ready_s": 8141.0915014238835,
+      "charge_duration_s": 730.5549098435363,
+      "return_soc": 0.822650069351126,
+      "outbound_time_s": 514.4106891471403,
+      "return_time_s": 547.7506496268766,
+      "flight_energy_kwh": 0.30032099335417484,
+      "setup_energy_kwh": 0.009166666666666667,
+      "active_communication_s": 844.46875,
+      "idle_hover_s": 0.0,
+      "active_energy_kwh": 0.2580321180555556,
+      "idle_energy_kwh": 0.0,
+      "total_energy_kwh": 0.5675197780763971,
+      "energy_margin_kwh": 1.9924802219236035,
+      "service_windows": [
+        [
+          6018.31719195347,
+          6862.78594195347
+        ]
+      ],
+      "relay_id": "R02",
+      "energy_component_id": "REC-04",
+      "relay_sortie_id": "Q30001_R004"
+    },
+    {
+      "site_id": "E52_82c821a5773d0bfbe554f10a",
+      "task_ids": [
+        "P0002_M005_G00",
+        "P0002_M008_G00",
+        "P0002_M024_G00",
+        "P0002_M025_G00"
+      ],
+      "preparation_start_s": 5658.112980007429,
+      "takeoff_s": 5838.112980007429,
+      "arrival_s": 6351.048391479367,
+      "setup_start_s": 6351.048391479367,
+      "service_start_s": 6381.048391479367,
+      "service_end_s": 7283.642141479367,
+      "return_s": 7849.715897779592,
+      "uav_available_s": 8149.715897779592,
+      "energy_ready_s": 8580.26853651355,
+      "charge_duration_s": 730.5526387339578,
+      "return_soc": 0.8226518163584939,
+      "outbound_time_s": 512.9354114719376,
+      "return_time_s": 566.0737563002253,
+      "flight_energy_kwh": 0.2825549862639304,
+      "setup_energy_kwh": 0.009166666666666667,
+      "active_communication_s": 902.59375,
+      "idle_hover_s": 0.0,
+      "active_energy_kwh": 0.27579253472222226,
+      "idle_energy_kwh": 0.0,
+      "total_energy_kwh": 0.5675141876528194,
+      "energy_margin_kwh": 1.9924858123471811,
+      "service_windows": [
+        [
+          6381.048391479367,
+          7283.642141479367
+        ]
+      ],
+      "relay_id": "R01",
+      "energy_component_id": "REC-05",
+      "relay_sortie_id": "Q30001_R005"
+    }
+  ],
+  "assignments": {
+    "M001": {
+      "uav_id": "U03",
+      "battery_id": "BAT-A-03"
+    },
+    "M002": {
+      "uav_id": "U06",
+      "battery_id": "BAT-B-02"
+    },
+    "M003": {
+      "uav_id": "U07",
+      "battery_id": "BAT-C-01"
+    },
+    "M004": {
+      "uav_id": "U02",
+      "battery_id": "BAT-A-06"
+    },
+    "M005": {
+      "uav_id": "U04",
+      "battery_id": "BAT-A-05"
+    },
+    "M006": {
+      "uav_id": "U01",
+      "battery_id": "BAT-A-05"
+    },
+    "M007": {
+      "uav_id": "U03",
+      "battery_id": "BAT-A-01"
+    },
+    "M008": {
+      "uav_id": "U05",
+      "battery_id": "BAT-B-01"
+    },
+    "M009": {
+      "uav_id": "U06",
+      "battery_id": "BAT-B-03"
+    },
+    "M010": {
+      "uav_id": "U05",
+      "battery_id": "BAT-B-02"
+    },
+    "M011": {
+      "uav_id": "U02",
+      "battery_id": "BAT-A-01"
+    },
+    "M012": {
+      "uav_id": "U07",
+      "battery_id": "BAT-C-02"
+    },
+    "M013": {
+      "uav_id": "U01",
+      "battery_id": "BAT-A-06"
+    },
+    "M014": {
+      "uav_id": "U02",
+      "battery_id": "BAT-A-03"
+    },
+    "M015": {
+      "uav_id": "U05",
+      "battery_id": "BAT-B-01"
+    },
+    "M016": {
+      "uav_id": "U07",
+      "battery_id": "BAT-C-02"
+    },
+    "M017": {
+      "uav_id": "U07",
+      "battery_id": "BAT-C-03"
+    },
+    "M018": {
+      "uav_id": "U04",
+      "battery_id": "BAT-A-04"
+    },
+    "M019": {
+      "uav_id": "U04",
+      "battery_id": "BAT-A-02"
+    },
+    "M020": {
+      "uav_id": "U01",
+      "battery_id": "BAT-A-01"
+    },
+    "M021": {
+      "uav_id": "U08",
+      "battery_id": "BAT-C-01"
+    },
+    "M022": {
+      "uav_id": "U03",
+      "battery_id": "BAT-A-04"
+    },
+    "M023": {
+      "uav_id": "U05",
+      "battery_id": "BAT-B-04"
+    },
+    "M024": {
+      "uav_id": "U06",
+      "battery_id": "BAT-B-03"
+    },
+    "M025": {
+      "uav_id": "U03",
+      "battery_id": "BAT-A-02"
+    },
+    "M026": {
+      "uav_id": "U08",
+      "battery_id": "BAT-C-04"
+    },
+    "M027": {
+      "uav_id": "U01",
+      "battery_id": "BAT-A-04"
+    },
+    "M028": {
+      "uav_id": "U06",
+      "battery_id": "BAT-B-02"
+    },
+    "M029": {
+      "uav_id": "U02",
+      "battery_id": "BAT-A-02"
+    }
+  },
+  "metrics": {
+    "J_late": 105033.10405663951,
+    "J_norm": 0.5118691114408045,
+    "joint_makespan_s": 14728.82679283505,
+    "transport_energy_kwh": 75.94976547050337,
+    "relay_energy_kwh": 3.2956775548993216,
+    "total_energy_kwh": 79.2454430254027,
+    "transport_sorties": 29,
+    "relay_sorties": 6,
+    "total_transport_shift_s": 31378.96979059527,
+    "total_absolute_transport_shift_s": 42943.8319479476,
+    "max_transport_shift_s": 7921.846669997107,
+    "minimum_M_E_kwh": 1.8428075548182248
+  },
+  "resource_precedence_cuts": [],
+  "objective": "timeliness",
+  "J_late_budget": null,
+  "level": "L1"
+}

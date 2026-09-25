@@ -1,0 +1,17 @@
+{
+  "method": "UNIFORM_LNS",
+  "seed": 26092511,
+  "scope": "Q2",
+  "cpu_cap_s": 120,
+  "observed_cpu_s": 120.0190374,
+  "wall_s": 119.921054522,
+  "core": 0,
+  "exit_code": -9,
+  "termination": "CPU_BUDGET",
+  "accepted": [
+    "P0001"
+  ],
+  "root": "results/p1_preflight/runs/Q2_120_v3/UNIFORM_LNS_26092511",
+  "maximum_observed_threads": 1,
+  "observed_children": []
+}

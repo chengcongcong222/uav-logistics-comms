@@ -1,0 +1,77 @@
+{
+  "Gamma_C_db": 0.0,
+  "minimum_twohop_robust_slack_db": 0.14955749359428694,
+  "pareto_id": "P0002",
+  "status": "P1_Q3_INDEPENDENTLY_VALIDATED",
+  "step_s": 0.5,
+  "hard_violations": 0,
+  "uncovered_sample_count": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "full_flight_samples": 76501,
+  "direct_samples": 49704,
+  "relayed_samples": 26797,
+  "relay_sorties": 6,
+  "full_flight_boundary_refinements": 420,
+  "boundary_refinement_s": 0.1,
+  "relay_ids": [
+    "R01",
+    "R02"
+  ],
+  "energy_components": [
+    "REC-01",
+    "REC-02",
+    "REC-03",
+    "REC-04",
+    "REC-05",
+    "REC-06"
+  ],
+  "minimum_relay_energy_margin_kwh": 1.4050120616883524,
+  "minimum_twohop_margin_db": 0.14955749359428694,
+  "runtime_s": 29.785274321000088,
+  "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+  "J_late": 59857.08336278983,
+  "J_norm": 0.5662304700448991,
+  "transport_energy_kwh": 73.258602538448,
+  "transport_makespan_s": 11082.025158389133,
+  "transport_sorties": 28,
+  "minimum_transport_energy_margin_kwh": 0.07591578606103155,
+  "hard_deadline_violations": 0,
+  "margin_distribution_db": {
+    "direct_active_path": {
+      "0": 5.0696813758577264e-05,
+      "0.01": 0.23442937562894434,
+      "0.05": 1.8682481629577854,
+      "0.25": 7.144069508841771,
+      "0.5": 17.81640557461822,
+      "0.75": 31.352583828731746,
+      "0.95": 50.75958768223706,
+      "1": 201.94577516576788
+    },
+    "relayed_active_path": {
+      "0": 0.14955749359428694,
+      "0.01": 0.14955749359428694,
+      "0.05": 0.1534623293029398,
+      "0.25": 2.4191590009326376,
+      "0.5": 5.268987734543231,
+      "0.75": 8.226809702901718,
+      "0.95": 11.397135806608844,
+      "1": 15.148878615981602
+    }
+  },
+  "artifact_sha256": {
+    "results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512/q3/P0002/solutions/Q30004/transport_sorties_P0002.csv": "79f61f4a92133154145fecc66270208f7f251506224829d0a2010773372d9fae",
+    "results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512/q3/P0002/solutions/Q30004/box_delivery_P0002.csv": "44586559a55190b9ff1d5eaa16700ec93dd18a5b70035477ebcd0db32543150e",
+    "results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512/q3/P0002/solutions/Q30004/transport_shifts_P0002.csv": "d700201a0e853afb1bd571728d4898a22e54131cab05e3971daeb2ba417f89a8",
+    "results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512/q3/P0002/solutions/Q30004/transport_uav_calendar_P0002.csv": "8032d778e0704f5ead9ea84e0e5cf67b89c91374373276bf6339ea509c2ad7ea",
+    "results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512/q3/P0002/solutions/Q30004/transport_battery_calendar_P0002.csv": "b1330877a422cc1f78acd03569c7f74b20229bd9f044891f65af7e0745774fbf",
+    "results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512/q3/P0002/solutions/Q30004/relay_sorties_P0002.csv": "f3b207419e7af79a6c268ffe04cb685ee46d0b8ef19c85b6731140c1163a2170",
+    "results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512/q3/P0002/solutions/Q30004/relay_uav_calendar_P0002.csv": "2be964eb303ff1b54e075bc3c720ce5298a5174d3af5f5d5ca1d6e5205ffcee1",
+    "results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512/q3/P0002/solutions/Q30004/relay_energy_calendar_P0002.csv": "b301239dbc3422b1c0d4586ffc2ba16a36453ca669a3150b7ebc9a8640182c66",
+    "results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512/q3/P0002/solutions/Q30004/communication_guarantee_P0002.csv": "ffdac5c43b3c9228a2b693bd7eef9b9e49f007c7e08fe69fb10fb6a70d4b74f6",
+    "results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512/q3/P0002/solutions/Q30004/candidate_sites_P0002.csv": "f58b0696a4392f07097d271a001f2d1cb68320d5895061b0fe21ebfdde8371f8",
+    "results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512/q3/P0002/solutions/Q30004/guarded_selected_pairs_P0002.csv": "c1aa9abd9baf28209c767255d747a9f290849bebc8b3f92672c82afea6e724c7",
+    "results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512/q3/P0002/solutions/Q30004/scenario.json": "b4a6490a6d05c066e676bb695ddcbb7076f67f2d8194d20e0f2bd09c5c61b17f",
+    "results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512/q3/P0002/solutions/Q30004/guarded_atomic_tasks.csv": "631980ae1979b8a36d7f3a53264dde29e6e332f7b58d6b891721b9d7f40f32f5",
+    "results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512/q3/P0002/solutions/Q30004/joint_metrics_P0002.json": "e0601fc51f0b2c46559d1a09f8caff91efc50eeef786875e9ef7f12c9c460b69"
+  }
+}

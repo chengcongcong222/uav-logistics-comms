@@ -1,0 +1,35 @@
+{
+  "signature": "0ec38f30f40be2f8a2f7d961f9de97d2b10ed6e68ab933d9cfc59eabb74a719e",
+  "shape": {
+    "uav_type": "B",
+    "box_ids": [
+      "S008-HYG-01",
+      "S008-WAT-01"
+    ],
+    "service_sequence": [
+      "S008"
+    ],
+    "boxes_by_service": {
+      "S008": [
+        "S008-HYG-01",
+        "S008-WAT-01"
+      ]
+    },
+    "relative_takeoff_time": 360.0,
+    "relative_delivery_times": {
+      "S008": 1231.1478202501887
+    },
+    "relative_return_time": 1901.842307167044
+  },
+  "geometry": "9db8a5d8afb2e9e498db2a10a895bb133d2e00de24515202080374a3fe4318dc",
+  "intervals": [
+    [
+      728.125,
+      1517.375
+    ]
+  ],
+  "samples": 3099,
+  "step_s": 0.5,
+  "boundary_s": 0.05,
+  "guard_s": 2.0
+}

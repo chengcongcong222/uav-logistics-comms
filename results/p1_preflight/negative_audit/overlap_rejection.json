@@ -1,0 +1,5 @@
+{
+  "status": "EXPECTED_PHYSICAL_REJECTION",
+  "case": "One-second hard deadline violation in regenerated execution package",
+  "error": "Overlap U01: start 2266.52858491209 previous end 4006.3441599388543"
+}

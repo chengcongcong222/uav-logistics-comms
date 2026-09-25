@@ -1,0 +1,18 @@
+{
+  "method": "JOINT_CHALLENGE",
+  "seed": 26092511,
+  "scope": "Q3",
+  "cpu_cap_s": 120,
+  "observed_cpu_s": 120.0174151,
+  "wall_s": 120.188207352,
+  "core": 4,
+  "exit_code": -9,
+  "termination": "CPU_BUDGET",
+  "accepted": [
+    "P0001",
+    "P0002"
+  ],
+  "root": "results/p1_preflight/runs/Q3_120_v2/JOINT_CHALLENGE_26092511",
+  "maximum_observed_threads": 1,
+  "observed_children": []
+}

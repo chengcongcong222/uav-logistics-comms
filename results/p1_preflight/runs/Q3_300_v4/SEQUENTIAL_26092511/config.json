@@ -1,0 +1,13 @@
+{
+  "scope": "Q3",
+  "method": "SEQUENTIAL",
+  "seed": 26092511,
+  "cpu_cap_s": 300.0,
+  "core": 0,
+  "threads": 1,
+  "formal": false,
+  "calibration_scale_status": "BOOTSTRAP_PHYSICAL_SCALES_NOT_FROZEN_FORMAL",
+  "scope_cost": "imports+fresh B0+pool+private templates+models+search+export",
+  "subprocess_policy": "DENY",
+  "search_manifest_sha256": "b9829494b1425c16e5d2a0187ccbe5fc23f826eda2e78503f76390d08ce622d6"
+}

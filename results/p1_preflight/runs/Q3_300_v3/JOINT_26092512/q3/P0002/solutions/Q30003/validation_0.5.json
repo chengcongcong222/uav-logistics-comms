@@ -1,0 +1,77 @@
+{
+  "Gamma_C_db": 0.0,
+  "minimum_twohop_robust_slack_db": 0.14955749359428694,
+  "pareto_id": "P0002",
+  "status": "P1_Q3_INDEPENDENTLY_VALIDATED",
+  "step_s": 0.5,
+  "hard_violations": 0,
+  "uncovered_sample_count": 0,
+  "communication_uncovered_duration_s": 0.0,
+  "full_flight_samples": 76501,
+  "direct_samples": 49700,
+  "relayed_samples": 26801,
+  "relay_sorties": 6,
+  "full_flight_boundary_refinements": 420,
+  "boundary_refinement_s": 0.1,
+  "relay_ids": [
+    "R01",
+    "R02"
+  ],
+  "energy_components": [
+    "REC-01",
+    "REC-02",
+    "REC-03",
+    "REC-04",
+    "REC-05",
+    "REC-06"
+  ],
+  "minimum_relay_energy_margin_kwh": 1.403656242809134,
+  "minimum_twohop_margin_db": 0.14955749359428694,
+  "runtime_s": 37.38576074600002,
+  "limitation": "Numerical whole-flight sampling including phase and gap boundaries; not analytic continuous-time proof",
+  "J_late": 19345.385472055394,
+  "J_norm": 0.5374217159804884,
+  "transport_energy_kwh": 73.258602538448,
+  "transport_makespan_s": 11082.025158389133,
+  "transport_sorties": 28,
+  "minimum_transport_energy_margin_kwh": 0.07591578606103155,
+  "hard_deadline_violations": 0,
+  "margin_distribution_db": {
+    "direct_active_path": {
+      "0": 0.0001546476212404002,
+      "0.01": 0.23322513452170648,
+      "0.05": 1.8682481629577854,
+      "0.25": 7.1449895941666846,
+      "0.5": 17.818976430457475,
+      "0.75": 31.354601705344614,
+      "0.95": 50.76524761855936,
+      "1": 201.94577516576788
+    },
+    "relayed_active_path": {
+      "0": 0.14955749359428694,
+      "0.01": 0.14955749359428694,
+      "0.05": 0.1534650667387183,
+      "0.25": 2.4191590009326376,
+      "0.5": 5.268987734543231,
+      "0.75": 8.226809702901718,
+      "0.95": 11.397135806608844,
+      "1": 15.14898295791913
+    }
+  },
+  "artifact_sha256": {
+    "results/p1_preflight/runs/Q3_300_v3/JOINT_26092512/q3/P0002/solutions/Q30003/transport_sorties_P0002.csv": "60fbd14647d01e5ae805c84390e342f4a520d0be6b3e7dd85884431317ef5d7b",
+    "results/p1_preflight/runs/Q3_300_v3/JOINT_26092512/q3/P0002/solutions/Q30003/box_delivery_P0002.csv": "ae7bee2f5c81b3abfecd2d4ec465ff7a6991d68df49e10bb6f6b497f18d060ae",
+    "results/p1_preflight/runs/Q3_300_v3/JOINT_26092512/q3/P0002/solutions/Q30003/transport_shifts_P0002.csv": "09e1fcf124295102de0650d498acc7e0d13894e71c9150f8f75e362aba0b0172",
+    "results/p1_preflight/runs/Q3_300_v3/JOINT_26092512/q3/P0002/solutions/Q30003/transport_uav_calendar_P0002.csv": "acdf6f3b0b9c524448741ee1603d0628072704a56b11988f747ddf3c40f1b5b9",
+    "results/p1_preflight/runs/Q3_300_v3/JOINT_26092512/q3/P0002/solutions/Q30003/transport_battery_calendar_P0002.csv": "0d70bea64e6d4ad6908f2765ed556f7fcace1b441dbffc2c86bb404360eb1842",
+    "results/p1_preflight/runs/Q3_300_v3/JOINT_26092512/q3/P0002/solutions/Q30003/relay_sorties_P0002.csv": "175898f377e58c78cf2520e79112337df865c1721fc59f981f0fbbc0ccff7708",
+    "results/p1_preflight/runs/Q3_300_v3/JOINT_26092512/q3/P0002/solutions/Q30003/relay_uav_calendar_P0002.csv": "f736ab0e989c12401aa06c9388369a015d875215cd0e4e49245588fbbf62b950",
+    "results/p1_preflight/runs/Q3_300_v3/JOINT_26092512/q3/P0002/solutions/Q30003/relay_energy_calendar_P0002.csv": "a55236536fa63fb5c43800f8da3a647b2396a126b2e899f39ce037475d7eff54",
+    "results/p1_preflight/runs/Q3_300_v3/JOINT_26092512/q3/P0002/solutions/Q30003/communication_guarantee_P0002.csv": "3218cdba1bebb7a47a85a2f80383bb80e4ce61212b90ccfef17451c6d834c99a",
+    "results/p1_preflight/runs/Q3_300_v3/JOINT_26092512/q3/P0002/solutions/Q30003/candidate_sites_P0002.csv": "f58b0696a4392f07097d271a001f2d1cb68320d5895061b0fe21ebfdde8371f8",
+    "results/p1_preflight/runs/Q3_300_v3/JOINT_26092512/q3/P0002/solutions/Q30003/guarded_selected_pairs_P0002.csv": "c1aa9abd9baf28209c767255d747a9f290849bebc8b3f92672c82afea6e724c7",
+    "results/p1_preflight/runs/Q3_300_v3/JOINT_26092512/q3/P0002/solutions/Q30003/scenario.json": "b4a6490a6d05c066e676bb695ddcbb7076f67f2d8194d20e0f2bd09c5c61b17f",
+    "results/p1_preflight/runs/Q3_300_v3/JOINT_26092512/q3/P0002/solutions/Q30003/guarded_atomic_tasks.csv": "631980ae1979b8a36d7f3a53264dde29e6e332f7b58d6b891721b9d7f40f32f5",
+    "results/p1_preflight/runs/Q3_300_v3/JOINT_26092512/q3/P0002/solutions/Q30003/joint_metrics_P0002.json": "9a8aebd11d6f2c666e60e058b19bea6b554ff9cc2fe9f80642e3b4c4d72d8b28"
+  }
+}

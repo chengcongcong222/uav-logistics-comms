@@ -1,0 +1,21 @@
+{
+  "method": "JOINT",
+  "seed": 26092512,
+  "scope": "Q3",
+  "cpu_cap_s": 300,
+  "observed_cpu_s": 182.343678448,
+  "wall_s": 182.09482264199994,
+  "core": 4,
+  "exit_code": 0,
+  "termination": "WORKER_FINISHED",
+  "accepted": [
+    "P0001",
+    "P0002",
+    "Q30001",
+    "Q30002",
+    "Q30003"
+  ],
+  "root": "results/p1_preflight/runs/Q3_300_v4/JOINT_26092512",
+  "maximum_observed_threads": 1,
+  "observed_children": []
+}

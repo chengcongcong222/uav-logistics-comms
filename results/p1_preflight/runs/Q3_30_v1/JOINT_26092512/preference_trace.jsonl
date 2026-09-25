@@ -1,0 +1,1 @@
+{"cpu_s": 5.425949883, "preference_id": "Q3_SEARCH_070", "weights": [1.0, 0.0, 0.0, 0.0, 0.0], "action": "milp_objective", "transport_projection": [1.0, 0.0, 0.0, 0.0], "horizon_s": 7200, "zero_lateness": true, "objective_coefficients_sha256": "20b6bdc031c4fdad4c60cac5d422531cc02ea1bb315119e4402241fe4c51800e", "transport_makespan_epigraph": true, "variables": 8405}

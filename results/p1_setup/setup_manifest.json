@@ -1,0 +1,19 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "files_sha256": {
+    "README_P1.md": "22e160ff06482dd4ae630fe5efd60b1af66cd69c41ccf5427a7108fcdef37fbd",
+    "results/p1_setup/P1_EXECUTION_PROMPT.md": "51700e30201b305366f17cfae0ba1228ec0ca101c522c4de0090c37cd5579384",
+    "results/p1_setup/P1_TASK.md": "e011d539523eba7be22066bcd400f089809f773c571bde2e664f930c5b8761d2",
+    "results/p1_setup/REFERENCES.md": "e3386a7b482e155f71226173a24d553022d3fc4d3b4adfac0fc7c59c382f6a6b",
+    "results/p1_setup/github_write_status.json": "73dd2097044edee63f1cda427f77dadd9170c41a94f88da538cbc8976f68a3da",
+    "results/p1_setup/preferences.json": "c8d8b520ec120c3e3622fe113472b34ec365160c047caef80b76226d7462fc97",
+    "results/p1_setup/protocol_design.json": "01d9e520c2e2aecf8401904c70b22a7cfffff53a69c2211a5fa01a931d4c9777",
+    "results/p1_setup/unit_tests.txt": "b82bfd78dfab0bdd3b1abe9b71deb2c88fd526a1153c2992ac01fbfb2185f58a",
+    "src/bench_p1/preferences.py": "f5812b0ea3a416ca65a94c2e6e76146823dc801f3f00ac7ee32531363e47902e",
+    "validation/p1_setup/test_preferences.py": "cc44ca3a3c7e6445490d7c021d7dbed01fc140abe8f5fbdf1e76bd7641d35820"
+  },
+  "solver_runs": 0,
+  "physical_validation_runs": 0,
+  "tool_unit_tests_passed": 20,
+  "github_pushed": false
+}

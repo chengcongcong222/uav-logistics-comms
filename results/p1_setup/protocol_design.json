@@ -1,0 +1,142 @@
+{
+  "schema": "P1_PROTOCOL_DESIGN_V1",
+  "status": "SETUP_COMPLETE_PREFLIGHT_NOT_RUN",
+  "formal_run_permitted": false,
+  "base_commit": "c13306ecbc36933502d1197228e5d80f9f7e40cf",
+  "geometry": "G2_UTM49N_STRAIGHT_NATIVE_SUPERCOVER_V1",
+  "communication_gamma_db": 0,
+  "replace_main_solution": false,
+  "write_main_branch": false,
+  "protected_roots": [
+    "data/raw",
+    "results/reset",
+    "results/ablation180_v2",
+    "docs/paper"
+  ],
+  "output_root_next": "results/p1_preflight",
+  "objective_order": {
+    "Q2": [
+      "J_norm",
+      "makespan_s",
+      "energy_kwh",
+      "transport_sorties"
+    ],
+    "Q3": [
+      "J_norm",
+      "joint_makespan_s",
+      "total_energy_kwh",
+      "transport_sorties",
+      "relay_sorties"
+    ]
+  },
+  "Q2_source_mapping": {
+    "makespan_s": "makespan",
+    "energy_kwh": "energy",
+    "transport_sorties": "sorties"
+  },
+  "zero_lateness_tolerance": 0.0001,
+  "hard_deadline_checks_required": true,
+  "soft_lateness_layer": "SEPARATE_NOT_MERGED_INTO_ZERO_LATENESS_FRONT",
+  "weights_are_real_disaster_estimates": false,
+  "preference_manifest_sha256": "c8d8b520ec120c3e3622fe113472b34ec365160c047caef80b76226d7462fc97",
+  "preference_recipe": {
+    "simplex_denominator": 4,
+    "inward_fraction": 0.1,
+    "include_axes": true,
+    "include_equal": true,
+    "dedup_round_digits": 14,
+    "evaluation_count_per_scope": 64,
+    "evaluation_seed_Q2": 26092504,
+    "evaluation_seed_Q3": 26092505
+  },
+  "preference_counts": {
+    "Q2": {
+      "search": 39,
+      "evaluation_only": 64
+    },
+    "Q3": {
+      "search": 76,
+      "evaluation_only": 64
+    }
+  },
+  "development_seeds": [
+    26092511,
+    26092512
+  ],
+  "proposed_formal_seeds": [
+    26092601,
+    26092602,
+    26092603,
+    26092604,
+    26092605,
+    26092606,
+    26092607,
+    26092608,
+    26092609,
+    26092610
+  ],
+  "methods_Q2": [
+    "UNIFORM_LNS_HISTORICAL",
+    "ADAPTED_ALNS_PENDING",
+    "POOL",
+    "POOL_CHALLENGE"
+  ],
+  "methods_Q3": [
+    "SEQUENTIAL_TRANSPORT_RELAY_PENDING",
+    "JOINT_ADJUSTMENT_PENDING",
+    "JOINT_CHALLENGE_PENDING"
+  ],
+  "budget_unit": "whole archive-generation run, not each weight",
+  "proposed_formal_cpu_s": {
+    "Q2": 180,
+    "Q3": 600
+  },
+  "development_smoke_cpu_ladder": [
+    30,
+    120,
+    300
+  ],
+  "normalization": "COMMON_DEVELOPMENT_CALIBRATION_THEN_FREEZE_NUMERIC_OFFSETS_SCALES;NO_CLIPPING",
+  "epsilon_budget_grid_fractions": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "formal_primary_metrics": [
+    "feasible_success",
+    "zero_late_success",
+    "evaluation_preference_score_gap",
+    "paired_effects",
+    "budget_query_attainment",
+    "cpu_anytime"
+  ],
+  "formal_secondary_metrics": [
+    "hypervolume_with_frozen_reference",
+    "archive_coverage"
+  ],
+  "reference_set": "pooled verified best-known, not global truth; no search feedback",
+  "main_case_rule": "valid physical/resource/communication/hard deadlines; prioritize zero lateness, then lex J_norm,T_joint,E_total,N_transport,N_relay; same for all methods",
+  "must_resolve_before_formal": [
+    "original_problem_alignment",
+    "baseline_admission",
+    "Q3_adapter_implementation",
+    "objective_unit_tolerance_and_dedup_regression",
+    "normalization_numeric_values",
+    "budget_query_numeric_values",
+    "Q3_CPU_budget_confirmation",
+    "candidate_site_and_cache_provenance",
+    "independent_validator_integration",
+    "process_tree_CPU_accounting",
+    "source_and_input_hashes"
+  ],
+  "tests_run_here": {
+    "kind": "synthetic utility unit tests only",
+    "count": 20,
+    "result": "PASS",
+    "uav_optimization_runs": 0,
+    "Q3_physical_audits": 0
+  },
+  "stop_after_next_task": "P1_READY_FOR_FORMAL or P1_BLOCKED; no formal benchmark or main replacement in P1.1"
+}

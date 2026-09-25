@@ -1,0 +1,176 @@
+[
+  {
+    "sortie_id": "M001",
+    "signature": "3858646482b4df0e7d61e6d9c4a17c910ae84679965c5fdcbc2c5159738aa0ee",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M002",
+    "signature": "38957bf2b2239322de346c276805bd2e351b20ced18fad3e25b5e59b9da57352",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M003",
+    "signature": "8cb08aadbd8d4c172c3ac398615d4c5788877caa3054819e4f6d092d2936a19d",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M004",
+    "signature": "27d37c517842bacf079f53a78d6efeee0f49661c89f5846be038345b9c81750d",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M005",
+    "signature": "ee62bdd3e828a45b170e5523fc38b25dadf073583d8e7a28553c45207fe1f144",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M006",
+    "signature": "2c25bddc670dbc8a1422c844c64a38f5163e380354948118471789652e2b2d63",
+    "cache_hit": false,
+    "intervals": 0
+  },
+  {
+    "sortie_id": "M007",
+    "signature": "721881b9b044aabfc72b6da76bab496baa8dace94d2fb4e38bf8332ea34eafe2",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M008",
+    "signature": "e993b50f5120349d5536e7d0f928030bf6d2eba0286cfd90808c7f42a2c97774",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M009",
+    "signature": "0bf382ab363be64f242a090c884134b43b8847f05a48e813e80571e76f6b14ad",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M010",
+    "signature": "a7e7ca97016dfec31d944d43f153e1950aa333e8a49abc3b5fc1c074c9e6ff28",
+    "cache_hit": false,
+    "intervals": 0
+  },
+  {
+    "sortie_id": "M011",
+    "signature": "f90936a00ef570ab572112a29d5ba6084129e60c217473232fa4d06a5bfedd34",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M012",
+    "signature": "f34b7bf6422e200fcc80f3699639432a0c23af3662c82ce1a27bb4a01580cb67",
+    "cache_hit": false,
+    "intervals": 0
+  },
+  {
+    "sortie_id": "M013",
+    "signature": "1379a4a46546a2166a78e7208f255ba128f101ebf7a51d1933bf1e496cc1dc95",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M014",
+    "signature": "adf0b85e73ea04204d190349ed719e2fce886c60ab566782cb6b8cf0d7682262",
+    "cache_hit": false,
+    "intervals": 0
+  },
+  {
+    "sortie_id": "M015",
+    "signature": "abff8a6d5bdf53231394888b63450eee26b3b76e808d5bd9f2eddd1d5b87c567",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M016",
+    "signature": "055fb0d7f27ba4a4ea9c7270897f5f206a72ced392b3159bbdedb22efa584f07",
+    "cache_hit": false,
+    "intervals": 3
+  },
+  {
+    "sortie_id": "M017",
+    "signature": "25cc60fc7c8f4c3b9c5d2a27ccc0166aed35fce64ec5a726cca6f5c334cb8fc4",
+    "cache_hit": false,
+    "intervals": 0
+  },
+  {
+    "sortie_id": "M018",
+    "signature": "b7bb0b923a9e487ec7d64687ce05cc18d022076a47294baec0830adbe2c595e6",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M019",
+    "signature": "175412aac88f933897c7398a1205ce604ce460d9fe0e4a5c30b15e70bc376e2e",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M020",
+    "signature": "2303b1cf6efa01798663b6fde73c36ffd9199965509b8879b1aaac2586094d4f",
+    "cache_hit": false,
+    "intervals": 0
+  },
+  {
+    "sortie_id": "M021",
+    "signature": "8589c542e9c535fa16ed78158967a77e2a675ab7e01dd36660beca29d4d18d47",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M022",
+    "signature": "8b85ebe5e47318cbc6891f0ce0d5fdebd7a0e0ff8f17e7e10e9da1057d07350c",
+    "cache_hit": false,
+    "intervals": 0
+  },
+  {
+    "sortie_id": "M023",
+    "signature": "0d56a69435a37858950b01d998b4af32292a8797f61143698f2348f0cf07e764",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M024",
+    "signature": "3dcc699843d83a04bfa58348298a69260fc4399a040cdd7d727236cb31a75913",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M025",
+    "signature": "049f30144e07060f8aa69a94541c08f4dc2aa999a96413b0579d23f2a2de8699",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M026",
+    "signature": "2f4cc711b9b288aa99414137252260af392e2e9f56e8a9252378b76475c60d3f",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M027",
+    "signature": "db195d4773e2129bd77bf2b0919e74fd1c91a797a1271911832574b49c2cae5b",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M028",
+    "signature": "5ed642c87ff28ddd15e80e4b494fbed27b39c8fe03a55c4d4bd11807e91b7272",
+    "cache_hit": false,
+    "intervals": 1
+  },
+  {
+    "sortie_id": "M029",
+    "signature": "5e389b66d9bbbca74f88517c1e67f500ece4a0e056db50fdf351eb4bd4c3676f",
+    "cache_hit": false,
+    "intervals": 1
+  }
+]

@@ -1,0 +1,459 @@
+{
+  "status": "ENUMERATED_DOMAIN_CHECKED",
+  "boxes": [
+    "S001-MED-01",
+    "S002-MED-01"
+  ],
+  "raw_candidates": 24,
+  "feasible_candidates": 24,
+  "scope": "ALL_TWO_BOX_PARTITIONS_TYPES_VISIT_ORDERS_AND_MISSION_ORDERS_WITH_FIXED_EARLIEST_RESOURCE_DECODER;NOT_ALL_CONTINUOUS_SCHEDULES",
+  "preferences": [
+    {
+      "preference_id": "Q2_SEARCH_035",
+      "best": {
+        "J_late": 0.0,
+        "J_norm": 0.2636057029466483,
+        "J_time": 0.2636057029466483,
+        "makespan": 1696.6939339219116,
+        "energy": 3.1385529461679766,
+        "sorties": 2,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      },
+      "feasible_candidates": 24
+    },
+    {
+      "preference_id": "Q2_SEARCH_036",
+      "best": {
+        "J_late": 0.0,
+        "J_norm": 0.2706751212398012,
+        "J_time": 0.2706751212398012,
+        "makespan": 1696.6939339219116,
+        "energy": 3.368469665813207,
+        "sorties": 2,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      },
+      "feasible_candidates": 24
+    },
+    {
+      "preference_id": "Q2_SEARCH_037",
+      "best": {
+        "J_late": 0.0,
+        "J_norm": 0.30606943881137355,
+        "J_time": 0.30606943881137355,
+        "makespan": 1972.4328321479334,
+        "energy": 2.237199005619196,
+        "sorties": 1,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      },
+      "feasible_candidates": 24
+    },
+    {
+      "preference_id": "Q2_SEARCH_038",
+      "best": {
+        "J_late": 0.0,
+        "J_norm": 0.3303022182128615,
+        "J_time": 0.3303022182128615,
+        "makespan": 2219.5308272739467,
+        "energy": 2.78855502661897,
+        "sorties": 1,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      },
+      "feasible_candidates": 24
+    }
+  ],
+  "repair_checks": [
+    {
+      "axis": 0,
+      "destroy": "random",
+      "repair": "greedy",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.2636057029466483,
+        "J_time": 0.2636057029466483,
+        "makespan": 1696.6939339219116,
+        "energy": 3.1385529461679766,
+        "sorties": 2,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 0,
+      "destroy": "random",
+      "repair": "regret2",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.2636057029466483,
+        "J_time": 0.2636057029466483,
+        "makespan": 1696.6939339219116,
+        "energy": 3.1385529461679766,
+        "sorties": 2,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 0,
+      "destroy": "timeliness",
+      "repair": "greedy",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.2636057029466483,
+        "J_time": 0.2636057029466483,
+        "makespan": 1696.6939339219116,
+        "energy": 3.1385529461679766,
+        "sorties": 2,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 0,
+      "destroy": "timeliness",
+      "repair": "regret2",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.2636057029466483,
+        "J_time": 0.2636057029466483,
+        "makespan": 1696.6939339219116,
+        "energy": 3.1385529461679766,
+        "sorties": 2,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 0,
+      "destroy": "related",
+      "repair": "greedy",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.2636057029466483,
+        "J_time": 0.2636057029466483,
+        "makespan": 1696.6939339219116,
+        "energy": 3.1385529461679766,
+        "sorties": 2,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 0,
+      "destroy": "related",
+      "repair": "regret2",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.2636057029466483,
+        "J_time": 0.2636057029466483,
+        "makespan": 1696.6939339219116,
+        "energy": 3.1385529461679766,
+        "sorties": 2,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 1,
+      "destroy": "random",
+      "repair": "greedy",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.2636057029466483,
+        "J_time": 0.2636057029466483,
+        "makespan": 1696.6939339219116,
+        "energy": 3.1385529461679766,
+        "sorties": 2,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 1,
+      "destroy": "random",
+      "repair": "regret2",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.2706751212398012,
+        "J_time": 0.2706751212398012,
+        "makespan": 1696.6939339219116,
+        "energy": 3.368469665813207,
+        "sorties": 2,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 1,
+      "destroy": "timeliness",
+      "repair": "greedy",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.2636057029466483,
+        "J_time": 0.2636057029466483,
+        "makespan": 1696.6939339219116,
+        "energy": 3.1385529461679766,
+        "sorties": 2,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 1,
+      "destroy": "timeliness",
+      "repair": "regret2",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.2706751212398012,
+        "J_time": 0.2706751212398012,
+        "makespan": 1696.6939339219116,
+        "energy": 3.368469665813207,
+        "sorties": 2,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 1,
+      "destroy": "related",
+      "repair": "greedy",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.2636057029466483,
+        "J_time": 0.2636057029466483,
+        "makespan": 1696.6939339219116,
+        "energy": 3.1385529461679766,
+        "sorties": 2,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 1,
+      "destroy": "related",
+      "repair": "regret2",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.2706751212398012,
+        "J_time": 0.2706751212398012,
+        "makespan": 1696.6939339219116,
+        "energy": 3.368469665813207,
+        "sorties": 2,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 2,
+      "destroy": "random",
+      "repair": "greedy",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.30606943881137355,
+        "J_time": 0.30606943881137355,
+        "makespan": 1972.4328321479334,
+        "energy": 2.237199005619196,
+        "sorties": 1,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 2,
+      "destroy": "random",
+      "repair": "regret2",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.30606943881137355,
+        "J_time": 0.30606943881137355,
+        "makespan": 1972.4328321479334,
+        "energy": 2.237199005619196,
+        "sorties": 1,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 2,
+      "destroy": "timeliness",
+      "repair": "greedy",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.30606943881137355,
+        "J_time": 0.30606943881137355,
+        "makespan": 1972.4328321479334,
+        "energy": 2.237199005619196,
+        "sorties": 1,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 2,
+      "destroy": "timeliness",
+      "repair": "regret2",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.30606943881137355,
+        "J_time": 0.30606943881137355,
+        "makespan": 1972.4328321479334,
+        "energy": 2.237199005619196,
+        "sorties": 1,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 2,
+      "destroy": "related",
+      "repair": "greedy",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.30606943881137355,
+        "J_time": 0.30606943881137355,
+        "makespan": 1972.4328321479334,
+        "energy": 2.237199005619196,
+        "sorties": 1,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 2,
+      "destroy": "related",
+      "repair": "regret2",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.30606943881137355,
+        "J_time": 0.30606943881137355,
+        "makespan": 1972.4328321479334,
+        "energy": 2.237199005619196,
+        "sorties": 1,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 3,
+      "destroy": "random",
+      "repair": "greedy",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.4348628264002718,
+        "J_time": 0.4348628264002718,
+        "makespan": 2219.5308272739467,
+        "energy": 2.8078544325925403,
+        "sorties": 1,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 3,
+      "destroy": "random",
+      "repair": "regret2",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.4348628264002718,
+        "J_time": 0.4348628264002718,
+        "makespan": 2219.5308272739467,
+        "energy": 2.8078544325925403,
+        "sorties": 1,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 3,
+      "destroy": "timeliness",
+      "repair": "greedy",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.4348628264002718,
+        "J_time": 0.4348628264002718,
+        "makespan": 2219.5308272739467,
+        "energy": 2.8078544325925403,
+        "sorties": 1,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 3,
+      "destroy": "timeliness",
+      "repair": "regret2",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.4348628264002718,
+        "J_time": 0.4348628264002718,
+        "makespan": 2219.5308272739467,
+        "energy": 2.8078544325925403,
+        "sorties": 1,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 3,
+      "destroy": "related",
+      "repair": "greedy",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.4348628264002718,
+        "J_time": 0.4348628264002718,
+        "makespan": 2219.5308272739467,
+        "energy": 2.8078544325925403,
+        "sorties": 1,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    },
+    {
+      "axis": 3,
+      "destroy": "related",
+      "repair": "regret2",
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.4348628264002718,
+        "J_time": 0.4348628264002718,
+        "makespan": 2219.5308272739467,
+        "energy": 2.8078544325925403,
+        "sorties": 1,
+        "soft_late_count": 0,
+        "soft_lateness_sum": 0.0,
+        "max_soft_lateness": 0.0
+      }
+    }
+  ],
+  "full_problem_global_optimum": false
+}

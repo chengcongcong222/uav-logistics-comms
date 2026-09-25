@@ -1,0 +1,1834 @@
+{
+  "records": [
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511",
+      "pid": "P0001",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092511,
+      "cpu_ready_s": 1.100164137,
+      "metrics": {
+        "J_late": 65501.00549024007,
+        "J_norm": 0.5125647900904743,
+        "makespan_s": 10570.82377657593,
+        "energy_kwh": 85.66393821918167,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511/q2/pareto_schedules/P0001"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511",
+      "pid": "P0002",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092511,
+      "cpu_ready_s": 9.529733439,
+      "metrics": {
+        "J_late": 55448.62621915569,
+        "J_norm": 0.5168356755278666,
+        "makespan_s": 11403.609273883865,
+        "energy_kwh": 87.36191004960412,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511/q2/pareto_schedules/P0002"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511",
+      "pid": "P0003",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092511,
+      "cpu_ready_s": 20.735361103,
+      "metrics": {
+        "J_late": 55448.62621915569,
+        "J_norm": 0.5168356755278666,
+        "makespan_s": 11403.609273883865,
+        "energy_kwh": 87.36191004960412,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511/q2/pareto_schedules/P0003"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511",
+      "pid": "P0004",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092511,
+      "cpu_ready_s": 29.653149501,
+      "metrics": {
+        "J_late": 55448.62621915569,
+        "J_norm": 0.510481619175824,
+        "makespan_s": 11403.609273883865,
+        "energy_kwh": 85.71466980211746,
+        "transport_sorties": 31.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511/q2/pareto_schedules/P0004"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511",
+      "pid": "P0005",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092511,
+      "cpu_ready_s": 37.506176889,
+      "metrics": {
+        "J_late": 48631.44469680959,
+        "J_norm": 0.5116720417351284,
+        "makespan_s": 11261.529121736738,
+        "energy_kwh": 88.38694825179992,
+        "transport_sorties": 33.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511/q2/pareto_schedules/P0005"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511",
+      "pid": "P0006",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092511,
+      "cpu_ready_s": 45.300432458,
+      "metrics": {
+        "J_late": 41285.559841639726,
+        "J_norm": 0.5150948368384503,
+        "makespan_s": 11261.529121736738,
+        "energy_kwh": 88.38694825179992,
+        "transport_sorties": 33.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511/q2/pareto_schedules/P0006"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511",
+      "pid": "P0007",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092511,
+      "cpu_ready_s": 56.628350974,
+      "metrics": {
+        "J_late": 43461.6058606429,
+        "J_norm": 0.5214430291231433,
+        "makespan_s": 11261.529121736738,
+        "energy_kwh": 89.8974537357056,
+        "transport_sorties": 33.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511/q2/pareto_schedules/P0007"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511",
+      "pid": "P0008",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092511,
+      "cpu_ready_s": 68.908707338,
+      "metrics": {
+        "J_late": 38975.22978195461,
+        "J_norm": 0.5386494023246124,
+        "makespan_s": 11209.04296772802,
+        "energy_kwh": 88.07640118048818,
+        "transport_sorties": 33.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511/q2/pareto_schedules/P0008"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511",
+      "pid": "P0009",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092511,
+      "cpu_ready_s": 79.985533435,
+      "metrics": {
+        "J_late": 38975.22978195461,
+        "J_norm": 0.5386494023246124,
+        "makespan_s": 11209.04296772802,
+        "energy_kwh": 88.07640118048818,
+        "transport_sorties": 33.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511/q2/pareto_schedules/P0009"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511",
+      "pid": "P0010",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092511,
+      "cpu_ready_s": 87.885525673,
+      "metrics": {
+        "J_late": 38975.22978195461,
+        "J_norm": 0.5386494023246124,
+        "makespan_s": 11209.04296772802,
+        "energy_kwh": 88.07640118048818,
+        "transport_sorties": 33.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511/q2/pareto_schedules/P0010"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511",
+      "pid": "P0011",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092511,
+      "cpu_ready_s": 100.752729924,
+      "metrics": {
+        "J_late": 24373.193819741224,
+        "J_norm": 0.5195325189373305,
+        "makespan_s": 11209.04296772802,
+        "energy_kwh": 88.3195488143022,
+        "transport_sorties": 33.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511/q2/pareto_schedules/P0011"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511",
+      "pid": "P0012",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092511,
+      "cpu_ready_s": 110.858515145,
+      "metrics": {
+        "J_late": 24373.193819741224,
+        "J_norm": 0.5195377234597979,
+        "makespan_s": 11209.04296772802,
+        "energy_kwh": 88.3195488143022,
+        "transport_sorties": 33.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511/q2/pareto_schedules/P0012"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511",
+      "pid": "P0001",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092511,
+      "cpu_ready_s": 1.097204443,
+      "metrics": {
+        "J_late": 65501.00549024007,
+        "J_norm": 0.5125647900904743,
+        "makespan_s": 10570.82377657593,
+        "energy_kwh": 85.66393821918167,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511/q2/pareto_schedules/P0001"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511",
+      "pid": "P0002",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092511,
+      "cpu_ready_s": 9.664454807,
+      "metrics": {
+        "J_late": 55448.62621915569,
+        "J_norm": 0.5168356755278666,
+        "makespan_s": 11403.609273883865,
+        "energy_kwh": 87.36191004960412,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511/q2/pareto_schedules/P0002"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511",
+      "pid": "P0003",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092511,
+      "cpu_ready_s": 20.813195599,
+      "metrics": {
+        "J_late": 55448.62621915569,
+        "J_norm": 0.5168356755278666,
+        "makespan_s": 11403.609273883865,
+        "energy_kwh": 87.36191004960412,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511/q2/pareto_schedules/P0003"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511",
+      "pid": "P0004",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092511,
+      "cpu_ready_s": 31.060157488,
+      "metrics": {
+        "J_late": 53996.62621915569,
+        "J_norm": 0.5162853544012885,
+        "makespan_s": 11337.609273883865,
+        "energy_kwh": 87.42546824177215,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511/q2/pareto_schedules/P0004"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511",
+      "pid": "P0005",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092511,
+      "cpu_ready_s": 39.863639799,
+      "metrics": {
+        "J_late": 53996.62621915569,
+        "J_norm": 0.5243817228049817,
+        "makespan_s": 11337.609273883865,
+        "energy_kwh": 86.32474390871234,
+        "transport_sorties": 31.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511/q2/pareto_schedules/P0005"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511",
+      "pid": "P0006",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092511,
+      "cpu_ready_s": 47.567845062,
+      "metrics": {
+        "J_late": 53996.62621915569,
+        "J_norm": 0.5622949301696678,
+        "makespan_s": 9596.46915725716,
+        "energy_kwh": 83.59036118725258,
+        "transport_sorties": 30.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511/q2/pareto_schedules/P0006"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511",
+      "pid": "P0007",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092511,
+      "cpu_ready_s": 56.670800632,
+      "metrics": {
+        "J_late": 53996.62621915569,
+        "J_norm": 0.5647152892883806,
+        "makespan_s": 9596.46915725716,
+        "energy_kwh": 82.82766351027989,
+        "transport_sorties": 30.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511/q2/pareto_schedules/P0007"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511",
+      "pid": "P0008",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092511,
+      "cpu_ready_s": 65.261428091,
+      "metrics": {
+        "J_late": 53996.62621915569,
+        "J_norm": 0.5720501527497762,
+        "makespan_s": 9596.46915725716,
+        "energy_kwh": 83.05756958513504,
+        "transport_sorties": 29.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511/q2/pareto_schedules/P0008"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511",
+      "pid": "P0009",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092511,
+      "cpu_ready_s": 73.631391196,
+      "metrics": {
+        "J_late": 53996.62621915569,
+        "J_norm": 0.5720501527497762,
+        "makespan_s": 9596.46915725716,
+        "energy_kwh": 83.05756958513504,
+        "transport_sorties": 29.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511/q2/pareto_schedules/P0009"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511",
+      "pid": "P0010",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092511,
+      "cpu_ready_s": 81.420248533,
+      "metrics": {
+        "J_late": 53996.62621915569,
+        "J_norm": 0.5647708775785286,
+        "makespan_s": 9596.46915725716,
+        "energy_kwh": 82.82766351027989,
+        "transport_sorties": 30.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511/q2/pareto_schedules/P0010"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511",
+      "pid": "P0011",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092511,
+      "cpu_ready_s": 90.588570832,
+      "metrics": {
+        "J_late": 53996.62621915569,
+        "J_norm": 0.5720501527497762,
+        "makespan_s": 9596.46915725716,
+        "energy_kwh": 83.05756958513504,
+        "transport_sorties": 29.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511/q2/pareto_schedules/P0011"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511",
+      "pid": "P0012",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092511,
+      "cpu_ready_s": 97.719547981,
+      "metrics": {
+        "J_late": 51966.90267394209,
+        "J_norm": 0.5761115084317779,
+        "makespan_s": 9601.607384650364,
+        "energy_kwh": 83.32672444439956,
+        "transport_sorties": 29.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511/q2/pareto_schedules/P0012"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511",
+      "pid": "P0013",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092511,
+      "cpu_ready_s": 104.437385861,
+      "metrics": {
+        "J_late": 51966.90267394209,
+        "J_norm": 0.5761115084317779,
+        "makespan_s": 9601.607384650364,
+        "energy_kwh": 83.32672444439956,
+        "transport_sorties": 29.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511/q2/pareto_schedules/P0013"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511",
+      "pid": "P0014",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092511,
+      "cpu_ready_s": 111.031427857,
+      "metrics": {
+        "J_late": 51966.90267394209,
+        "J_norm": 0.5693479527511689,
+        "makespan_s": 9601.607384650364,
+        "energy_kwh": 84.3516997210971,
+        "transport_sorties": 29.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511/q2/pareto_schedules/P0014"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511",
+      "pid": "P0001",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092511,
+      "cpu_ready_s": 1.091710013,
+      "metrics": {
+        "J_late": 65501.00549024007,
+        "J_norm": 0.5125647900904743,
+        "makespan_s": 10570.82377657593,
+        "energy_kwh": 85.66393821918167,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511/q2/pareto_schedules/P0001"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511",
+      "pid": "P0002",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092511,
+      "cpu_ready_s": 15.517179957,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.4945834385013644,
+        "makespan_s": 9163.009525481444,
+        "energy_kwh": 96.50584023627744,
+        "transport_sorties": 35.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511/q2/pareto_schedules/P0002"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511",
+      "pid": "P0003",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092511,
+      "cpu_ready_s": 25.232194494,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5461921433701395,
+        "makespan_s": 9590.503994252189,
+        "energy_kwh": 93.69875308928545,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511/q2/pareto_schedules/P0003"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511",
+      "pid": "P0004",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092511,
+      "cpu_ready_s": 34.876607947,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5461921433701395,
+        "makespan_s": 9590.503994252189,
+        "energy_kwh": 93.69875308928545,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511/q2/pareto_schedules/P0004"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511",
+      "pid": "P0005",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092511,
+      "cpu_ready_s": 44.982580207,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5461921433701395,
+        "makespan_s": 9590.503994252189,
+        "energy_kwh": 93.69875308928545,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511/q2/pareto_schedules/P0005"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511",
+      "pid": "P0006",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092511,
+      "cpu_ready_s": 54.669888978,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5461921433701395,
+        "makespan_s": 9590.503994252189,
+        "energy_kwh": 93.69875308928545,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511/q2/pareto_schedules/P0006"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511",
+      "pid": "P0007",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092511,
+      "cpu_ready_s": 64.460335045,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5461921433701395,
+        "makespan_s": 9590.503994252189,
+        "energy_kwh": 93.69875308928545,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511/q2/pareto_schedules/P0007"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511",
+      "pid": "P0008",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092511,
+      "cpu_ready_s": 74.300871398,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5461921433701395,
+        "makespan_s": 9590.503994252189,
+        "energy_kwh": 93.69875308928545,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511/q2/pareto_schedules/P0008"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511",
+      "pid": "P0009",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092511,
+      "cpu_ready_s": 84.06639062,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5461921433701395,
+        "makespan_s": 9590.503994252189,
+        "energy_kwh": 93.69875308928545,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511/q2/pareto_schedules/P0009"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511",
+      "pid": "P0010",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092511,
+      "cpu_ready_s": 93.738646978,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5461921433701395,
+        "makespan_s": 9590.503994252189,
+        "energy_kwh": 93.69875308928545,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511/q2/pareto_schedules/P0010"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511",
+      "pid": "P0011",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092511,
+      "cpu_ready_s": 103.399386043,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5461921433701395,
+        "makespan_s": 9590.503994252189,
+        "energy_kwh": 93.69875308928545,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511/q2/pareto_schedules/P0011"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511",
+      "pid": "P0012",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092511,
+      "cpu_ready_s": 113.14996052,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5461921433701395,
+        "makespan_s": 9590.503994252189,
+        "energy_kwh": 93.69875308928545,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511/q2/pareto_schedules/P0012"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092511",
+      "pid": "P0001",
+      "scope": "Q2",
+      "method": "POOL_CHALLENGE",
+      "seed": 26092511,
+      "cpu_ready_s": 1.074047594,
+      "metrics": {
+        "J_late": 65501.00549024007,
+        "J_norm": 0.5125647900904743,
+        "makespan_s": 10570.82377657593,
+        "energy_kwh": 85.66393821918167,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092511/q2/pareto_schedules/P0001"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092511",
+      "pid": "P0002",
+      "scope": "Q2",
+      "method": "POOL_CHALLENGE",
+      "seed": 26092511,
+      "cpu_ready_s": 15.398908761,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.4945834385013644,
+        "makespan_s": 9163.009525481444,
+        "energy_kwh": 96.50584023627744,
+        "transport_sorties": 35.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092511/q2/pareto_schedules/P0002"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092511",
+      "pid": "P0003",
+      "scope": "Q2",
+      "method": "POOL_CHALLENGE",
+      "seed": 26092511,
+      "cpu_ready_s": 25.114348261,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5461921433701395,
+        "makespan_s": 9590.503994252189,
+        "energy_kwh": 93.69875308928545,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092511/q2/pareto_schedules/P0003"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092511",
+      "pid": "P0004",
+      "scope": "Q2",
+      "method": "POOL_CHALLENGE",
+      "seed": 26092511,
+      "cpu_ready_s": 34.714690847,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5461921433701395,
+        "makespan_s": 9590.503994252189,
+        "energy_kwh": 93.69875308928545,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092511/q2/pareto_schedules/P0004"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092511",
+      "pid": "P0005",
+      "scope": "Q2",
+      "method": "POOL_CHALLENGE",
+      "seed": 26092511,
+      "cpu_ready_s": 44.80995141,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5461921433701395,
+        "makespan_s": 9590.503994252189,
+        "energy_kwh": 93.69875308928545,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092511/q2/pareto_schedules/P0005"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092511",
+      "pid": "P0006",
+      "scope": "Q2",
+      "method": "POOL_CHALLENGE",
+      "seed": 26092511,
+      "cpu_ready_s": 54.522888011,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5461921433701395,
+        "makespan_s": 9590.503994252189,
+        "energy_kwh": 93.69875308928545,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092511/q2/pareto_schedules/P0006"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092511",
+      "pid": "P0007",
+      "scope": "Q2",
+      "method": "POOL_CHALLENGE",
+      "seed": 26092511,
+      "cpu_ready_s": 64.2612865,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5461921433701395,
+        "makespan_s": 9590.503994252189,
+        "energy_kwh": 93.69875308928545,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092511/q2/pareto_schedules/P0007"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092511",
+      "pid": "P0008",
+      "scope": "Q2",
+      "method": "POOL_CHALLENGE",
+      "seed": 26092511,
+      "cpu_ready_s": 74.097199673,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5461921433701395,
+        "makespan_s": 9590.503994252189,
+        "energy_kwh": 93.69875308928545,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092511/q2/pareto_schedules/P0008"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092511",
+      "pid": "P0009",
+      "scope": "Q2",
+      "method": "POOL_CHALLENGE",
+      "seed": 26092511,
+      "cpu_ready_s": 114.538085197,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5460944286627433,
+        "makespan_s": 9015.388953898495,
+        "energy_kwh": 93.69875308928545,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092511/q2/pareto_schedules/P0009"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092512",
+      "pid": "P0001",
+      "scope": "Q2",
+      "method": "POOL_CHALLENGE",
+      "seed": 26092512,
+      "cpu_ready_s": 0.886573545,
+      "metrics": {
+        "J_late": 65501.00549024007,
+        "J_norm": 0.5125647900904743,
+        "makespan_s": 10570.82377657593,
+        "energy_kwh": 85.66393821918167,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092512/q2/pareto_schedules/P0001"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092512",
+      "pid": "P0002",
+      "scope": "Q2",
+      "method": "POOL_CHALLENGE",
+      "seed": 26092512,
+      "cpu_ready_s": 15.176175071,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5097040156696507,
+        "makespan_s": 10717.24511227824,
+        "energy_kwh": 97.91302214693084,
+        "transport_sorties": 37.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092512/q2/pareto_schedules/P0002"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092512",
+      "pid": "P0003",
+      "scope": "Q2",
+      "method": "POOL_CHALLENGE",
+      "seed": 26092512,
+      "cpu_ready_s": 25.037190696,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5429920060334967,
+        "makespan_s": 10337.943190034852,
+        "energy_kwh": 102.23307196496569,
+        "transport_sorties": 38.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092512/q2/pareto_schedules/P0003"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092512",
+      "pid": "P0004",
+      "scope": "Q2",
+      "method": "POOL_CHALLENGE",
+      "seed": 26092512,
+      "cpu_ready_s": 35.302987615,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5429920060334967,
+        "makespan_s": 10337.943190034852,
+        "energy_kwh": 102.23307196496569,
+        "transport_sorties": 38.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092512/q2/pareto_schedules/P0004"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092512",
+      "pid": "P0005",
+      "scope": "Q2",
+      "method": "POOL_CHALLENGE",
+      "seed": 26092512,
+      "cpu_ready_s": 46.461955165,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5429920060334967,
+        "makespan_s": 10337.943190034852,
+        "energy_kwh": 102.23307196496569,
+        "transport_sorties": 38.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092512/q2/pareto_schedules/P0005"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092512",
+      "pid": "P0006",
+      "scope": "Q2",
+      "method": "POOL_CHALLENGE",
+      "seed": 26092512,
+      "cpu_ready_s": 56.382201279,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5429920060334967,
+        "makespan_s": 10337.943190034852,
+        "energy_kwh": 102.23307196496569,
+        "transport_sorties": 38.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092512/q2/pareto_schedules/P0006"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092512",
+      "pid": "P0007",
+      "scope": "Q2",
+      "method": "POOL_CHALLENGE",
+      "seed": 26092512,
+      "cpu_ready_s": 66.203459264,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5318204212740577,
+        "makespan_s": 9448.597851680137,
+        "energy_kwh": 91.76743887085561,
+        "transport_sorties": 35.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092512/q2/pareto_schedules/P0007"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512",
+      "pid": "P0001",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092512,
+      "cpu_ready_s": 0.887793439,
+      "metrics": {
+        "J_late": 65501.00549024007,
+        "J_norm": 0.5125647900904743,
+        "makespan_s": 10570.82377657593,
+        "energy_kwh": 85.66393821918167,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512/q2/pareto_schedules/P0001"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512",
+      "pid": "P0002",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092512,
+      "cpu_ready_s": 12.088930537,
+      "metrics": {
+        "J_late": 51270.71396605145,
+        "J_norm": 0.522881230877908,
+        "makespan_s": 10516.553147310055,
+        "energy_kwh": 85.68610997144054,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512/q2/pareto_schedules/P0002"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512",
+      "pid": "P0003",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092512,
+      "cpu_ready_s": 24.366286582,
+      "metrics": {
+        "J_late": 25025.030659400058,
+        "J_norm": 0.5396138817101958,
+        "makespan_s": 12074.59696934719,
+        "energy_kwh": 92.2615848352905,
+        "transport_sorties": 33.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512/q2/pareto_schedules/P0003"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512",
+      "pid": "P0004",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092512,
+      "cpu_ready_s": 36.558128423,
+      "metrics": {
+        "J_late": 22674.5027481297,
+        "J_norm": 0.5239802664041365,
+        "makespan_s": 12074.59696934719,
+        "energy_kwh": 92.74890806543289,
+        "transport_sorties": 33.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512/q2/pareto_schedules/P0004"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512",
+      "pid": "P0005",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092512,
+      "cpu_ready_s": 49.682325997,
+      "metrics": {
+        "J_late": 18186.5027481297,
+        "J_norm": 0.5385570050965663,
+        "makespan_s": 11942.59696934719,
+        "energy_kwh": 93.74338668707955,
+        "transport_sorties": 33.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512/q2/pareto_schedules/P0005"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512",
+      "pid": "P0006",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092512,
+      "cpu_ready_s": 62.261113054,
+      "metrics": {
+        "J_late": 15942.502748129698,
+        "J_norm": 0.5327175155507766,
+        "makespan_s": 11876.59696934719,
+        "energy_kwh": 92.99841408129745,
+        "transport_sorties": 33.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512/q2/pareto_schedules/P0006"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512",
+      "pid": "P0007",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092512,
+      "cpu_ready_s": 72.011984065,
+      "metrics": {
+        "J_late": 15282.502748129698,
+        "J_norm": 0.5336395851791789,
+        "makespan_s": 11755.505703398876,
+        "energy_kwh": 95.64762568041323,
+        "transport_sorties": 34.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512/q2/pareto_schedules/P0007"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512",
+      "pid": "P0008",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092512,
+      "cpu_ready_s": 86.933813382,
+      "metrics": {
+        "J_late": 15282.502748129698,
+        "J_norm": 0.5263727679659722,
+        "makespan_s": 11755.505703398876,
+        "energy_kwh": 95.47432096081324,
+        "transport_sorties": 34.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512/q2/pareto_schedules/P0008"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512",
+      "pid": "P0009",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092512,
+      "cpu_ready_s": 96.981374122,
+      "metrics": {
+        "J_late": 15282.502748129698,
+        "J_norm": 0.5263727679659722,
+        "makespan_s": 11755.505703398876,
+        "energy_kwh": 95.47432096081324,
+        "transport_sorties": 34.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512/q2/pareto_schedules/P0009"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512",
+      "pid": "P0010",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092512,
+      "cpu_ready_s": 106.739519613,
+      "metrics": {
+        "J_late": 15282.502748129698,
+        "J_norm": 0.5240813530159623,
+        "makespan_s": 11755.505703398876,
+        "energy_kwh": 94.25152582186313,
+        "transport_sorties": 33.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512/q2/pareto_schedules/P0010"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512",
+      "pid": "P0011",
+      "scope": "Q2",
+      "method": "ALNS",
+      "seed": 26092512,
+      "cpu_ready_s": 115.927685401,
+      "metrics": {
+        "J_late": 15282.502748129698,
+        "J_norm": 0.5240813530159623,
+        "makespan_s": 11755.505703398876,
+        "energy_kwh": 94.25152582186313,
+        "transport_sorties": 33.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512/q2/pareto_schedules/P0011"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512",
+      "pid": "P0001",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092512,
+      "cpu_ready_s": 0.900648693,
+      "metrics": {
+        "J_late": 65501.00549024007,
+        "J_norm": 0.5125647900904743,
+        "makespan_s": 10570.82377657593,
+        "energy_kwh": 85.66393821918167,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512/q2/pareto_schedules/P0001"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512",
+      "pid": "P0002",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092512,
+      "cpu_ready_s": 12.207214304,
+      "metrics": {
+        "J_late": 51270.71396605145,
+        "J_norm": 0.522881230877908,
+        "makespan_s": 10516.553147310055,
+        "energy_kwh": 85.68610997144054,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512/q2/pareto_schedules/P0002"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512",
+      "pid": "P0003",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092512,
+      "cpu_ready_s": 24.585641494,
+      "metrics": {
+        "J_late": 25025.030659400058,
+        "J_norm": 0.5396138817101958,
+        "makespan_s": 12074.59696934719,
+        "energy_kwh": 92.2615848352905,
+        "transport_sorties": 33.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512/q2/pareto_schedules/P0003"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512",
+      "pid": "P0004",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092512,
+      "cpu_ready_s": 36.058332042,
+      "metrics": {
+        "J_late": 20537.030659400058,
+        "J_norm": 0.5428644696251927,
+        "makespan_s": 11942.59696934719,
+        "energy_kwh": 93.79415005503722,
+        "transport_sorties": 34.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512/q2/pareto_schedules/P0004"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512",
+      "pid": "P0005",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092512,
+      "cpu_ready_s": 48.369890304,
+      "metrics": {
+        "J_late": 18186.5027481297,
+        "J_norm": 0.5432772820824683,
+        "makespan_s": 11942.59696934719,
+        "energy_kwh": 93.04810737995466,
+        "transport_sorties": 33.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512/q2/pareto_schedules/P0005"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512",
+      "pid": "P0006",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092512,
+      "cpu_ready_s": 63.804115247,
+      "metrics": {
+        "J_late": 18186.5027481297,
+        "J_norm": 0.5275755380306894,
+        "makespan_s": 11942.59696934719,
+        "energy_kwh": 93.1570366490814,
+        "transport_sorties": 33.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512/q2/pareto_schedules/P0006"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512",
+      "pid": "P0007",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092512,
+      "cpu_ready_s": 74.348466729,
+      "metrics": {
+        "J_late": 18186.5027481297,
+        "J_norm": 0.526594161068472,
+        "makespan_s": 11942.59696934719,
+        "energy_kwh": 92.14247768694145,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512/q2/pareto_schedules/P0007"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512",
+      "pid": "P0008",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092512,
+      "cpu_ready_s": 86.645435045,
+      "metrics": {
+        "J_late": 18186.5027481297,
+        "J_norm": 0.5254628285896832,
+        "makespan_s": 10617.743562758082,
+        "energy_kwh": 90.1731087452844,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512/q2/pareto_schedules/P0008"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512",
+      "pid": "P0009",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092512,
+      "cpu_ready_s": 96.040888735,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.4925294714200475,
+        "makespan_s": 9642.467646295185,
+        "energy_kwh": 88.81966765354011,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512/q2/pareto_schedules/P0009"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512",
+      "pid": "P0010",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092512,
+      "cpu_ready_s": 106.234867025,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.49248431802694775,
+        "makespan_s": 9642.467646295185,
+        "energy_kwh": 88.00428324085352,
+        "transport_sorties": 31.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512/q2/pareto_schedules/P0010"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512",
+      "pid": "P0011",
+      "scope": "Q2",
+      "method": "UNIFORM_LNS",
+      "seed": 26092512,
+      "cpu_ready_s": 115.425367487,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.49075881247168834,
+        "makespan_s": 9642.467646295185,
+        "energy_kwh": 87.89130127154691,
+        "transport_sorties": 31.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512/q2/pareto_schedules/P0011"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512",
+      "pid": "P0001",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092512,
+      "cpu_ready_s": 0.879310457,
+      "metrics": {
+        "J_late": 65501.00549024007,
+        "J_norm": 0.5125647900904743,
+        "makespan_s": 10570.82377657593,
+        "energy_kwh": 85.66393821918167,
+        "transport_sorties": 32.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512/q2/pareto_schedules/P0001"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512",
+      "pid": "P0002",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092512,
+      "cpu_ready_s": 15.113031473,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5097040156696507,
+        "makespan_s": 10717.24511227824,
+        "energy_kwh": 97.91302214693084,
+        "transport_sorties": 37.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512/q2/pareto_schedules/P0002"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512",
+      "pid": "P0003",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092512,
+      "cpu_ready_s": 24.895874204,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5429920060334967,
+        "makespan_s": 10337.943190034852,
+        "energy_kwh": 102.23307196496569,
+        "transport_sorties": 38.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512/q2/pareto_schedules/P0003"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512",
+      "pid": "P0004",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092512,
+      "cpu_ready_s": 34.580958527,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5429920060334967,
+        "makespan_s": 10337.943190034852,
+        "energy_kwh": 102.23307196496569,
+        "transport_sorties": 38.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512/q2/pareto_schedules/P0004"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512",
+      "pid": "P0005",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092512,
+      "cpu_ready_s": 45.738696775,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5429920060334967,
+        "makespan_s": 10337.943190034852,
+        "energy_kwh": 102.23307196496569,
+        "transport_sorties": 38.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512/q2/pareto_schedules/P0005"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512",
+      "pid": "P0006",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092512,
+      "cpu_ready_s": 55.713904432,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5429920060334967,
+        "makespan_s": 10337.943190034852,
+        "energy_kwh": 102.23307196496569,
+        "transport_sorties": 38.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512/q2/pareto_schedules/P0006"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512",
+      "pid": "P0007",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092512,
+      "cpu_ready_s": 65.568789172,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5318204212740577,
+        "makespan_s": 9448.597851680137,
+        "energy_kwh": 91.76743887085561,
+        "transport_sorties": 35.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512/q2/pareto_schedules/P0007"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512",
+      "pid": "P0008",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092512,
+      "cpu_ready_s": 75.629562804,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5575019196466869,
+        "makespan_s": 10658.385466650854,
+        "energy_kwh": 99.50070287598055,
+        "transport_sorties": 36.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512/q2/pareto_schedules/P0008"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512",
+      "pid": "P0009",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092512,
+      "cpu_ready_s": 85.490482475,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5445666600633079,
+        "makespan_s": 10172.460556987911,
+        "energy_kwh": 96.27840087645279,
+        "transport_sorties": 37.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512/q2/pareto_schedules/P0009"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512",
+      "pid": "P0010",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092512,
+      "cpu_ready_s": 95.315268595,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5540120740046524,
+        "makespan_s": 9695.054080748856,
+        "energy_kwh": 99.5051285448178,
+        "transport_sorties": 38.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512/q2/pareto_schedules/P0010"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512",
+      "pid": "P0011",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092512,
+      "cpu_ready_s": 105.026288662,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5429920060334967,
+        "makespan_s": 10337.943190034852,
+        "energy_kwh": 102.23307196496569,
+        "transport_sorties": 38.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512/q2/pareto_schedules/P0011"
+    },
+    {
+      "run": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512",
+      "pid": "P0012",
+      "scope": "Q2",
+      "method": "POOL",
+      "seed": 26092512,
+      "cpu_ready_s": 114.761513869,
+      "metrics": {
+        "J_late": 0.0,
+        "J_norm": 0.5559401750978195,
+        "makespan_s": 10457.31128670176,
+        "energy_kwh": 94.49430514904316,
+        "transport_sorties": 35.0
+      },
+      "package": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512/q2/pareto_schedules/P0012"
+    }
+  ],
+  "failures": [],
+  "runs": [
+    {
+      "method": "UNIFORM_LNS",
+      "seed": 26092511,
+      "scope": "Q2",
+      "cpu_cap_s": 120,
+      "observed_cpu_s": 119.649544616,
+      "wall_s": 120.03883860800002,
+      "core": 0,
+      "exit_code": 0,
+      "termination": "WORKER_FINISHED",
+      "accepted": [
+        "P0001",
+        "P0002",
+        "P0003",
+        "P0004",
+        "P0005",
+        "P0006",
+        "P0007",
+        "P0008",
+        "P0009",
+        "P0010",
+        "P0011",
+        "P0012"
+      ],
+      "root": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092511",
+      "maximum_observed_threads": 1,
+      "observed_children": [],
+      "verified_complete_scope_packages": 12,
+      "verified_transport_packages": 12,
+      "zero_late_found": false,
+      "phase": {
+        "phase": "neighborhood_search",
+        "cpu_s": 1.100164137
+      },
+      "preference_ids": [
+        "Q2_SEARCH_000",
+        "Q2_SEARCH_001",
+        "Q2_SEARCH_002",
+        "Q2_SEARCH_003",
+        "Q2_SEARCH_004",
+        "Q2_SEARCH_005",
+        "Q2_SEARCH_006",
+        "Q2_SEARCH_007",
+        "Q2_SEARCH_035",
+        "Q2_SEARCH_036",
+        "Q2_SEARCH_037",
+        "Q2_SEARCH_038"
+      ],
+      "adaptive_updates": 11,
+      "adaptive_selections": 0,
+      "evaluation_preferences_opened": false,
+      "input_trace_available": true
+    },
+    {
+      "method": "ALNS",
+      "seed": 26092511,
+      "scope": "Q2",
+      "cpu_cap_s": 120,
+      "observed_cpu_s": 119.727533173,
+      "wall_s": 120.070192204,
+      "core": 2,
+      "exit_code": 0,
+      "termination": "WORKER_FINISHED",
+      "accepted": [
+        "P0001",
+        "P0002",
+        "P0003",
+        "P0004",
+        "P0005",
+        "P0006",
+        "P0007",
+        "P0008",
+        "P0009",
+        "P0010",
+        "P0011",
+        "P0012",
+        "P0013",
+        "P0014"
+      ],
+      "root": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092511",
+      "maximum_observed_threads": 1,
+      "observed_children": [],
+      "verified_complete_scope_packages": 14,
+      "verified_transport_packages": 14,
+      "zero_late_found": false,
+      "phase": {
+        "phase": "neighborhood_search",
+        "cpu_s": 1.097204443
+      },
+      "preference_ids": [
+        "Q2_SEARCH_000",
+        "Q2_SEARCH_001",
+        "Q2_SEARCH_002",
+        "Q2_SEARCH_003",
+        "Q2_SEARCH_004",
+        "Q2_SEARCH_005",
+        "Q2_SEARCH_006",
+        "Q2_SEARCH_007",
+        "Q2_SEARCH_008",
+        "Q2_SEARCH_009",
+        "Q2_SEARCH_035",
+        "Q2_SEARCH_036",
+        "Q2_SEARCH_037",
+        "Q2_SEARCH_038"
+      ],
+      "adaptive_updates": 13,
+      "adaptive_selections": 14,
+      "evaluation_preferences_opened": false,
+      "input_trace_available": true
+    },
+    {
+      "method": "POOL",
+      "seed": 26092511,
+      "scope": "Q2",
+      "cpu_cap_s": 120,
+      "observed_cpu_s": 119.899579003,
+      "wall_s": 120.31967844799999,
+      "core": 4,
+      "exit_code": 0,
+      "termination": "WORKER_FINISHED",
+      "accepted": [
+        "P0001",
+        "P0002",
+        "P0003",
+        "P0004",
+        "P0005",
+        "P0006",
+        "P0007",
+        "P0008",
+        "P0009",
+        "P0010",
+        "P0011",
+        "P0012"
+      ],
+      "root": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511",
+      "maximum_observed_threads": 1,
+      "observed_children": [],
+      "verified_complete_scope_packages": 12,
+      "verified_transport_packages": 12,
+      "zero_late_found": true,
+      "phase": {
+        "phase": "pattern_scheduling",
+        "cpu_s": 113.185917549
+      },
+      "preference_ids": [
+        "Q2_SEARCH_000",
+        "Q2_SEARCH_001",
+        "Q2_SEARCH_002",
+        "Q2_SEARCH_003",
+        "Q2_SEARCH_004",
+        "Q2_SEARCH_005",
+        "Q2_SEARCH_006",
+        "Q2_SEARCH_007",
+        "Q2_SEARCH_035",
+        "Q2_SEARCH_036",
+        "Q2_SEARCH_037",
+        "Q2_SEARCH_038"
+      ],
+      "adaptive_updates": 0,
+      "adaptive_selections": 0,
+      "evaluation_preferences_opened": false,
+      "input_trace_available": true
+    },
+    {
+      "method": "POOL_CHALLENGE",
+      "seed": 26092511,
+      "scope": "Q2",
+      "cpu_cap_s": 120,
+      "observed_cpu_s": 119.903838709,
+      "wall_s": 120.39236506999998,
+      "core": 6,
+      "exit_code": 0,
+      "termination": "WORKER_FINISHED",
+      "accepted": [
+        "P0001",
+        "P0002",
+        "P0003",
+        "P0004",
+        "P0005",
+        "P0006",
+        "P0007",
+        "P0008",
+        "P0009"
+      ],
+      "root": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092511",
+      "maximum_observed_threads": 1,
+      "observed_children": [],
+      "verified_complete_scope_packages": 9,
+      "verified_transport_packages": 9,
+      "zero_late_found": true,
+      "phase": {
+        "phase": "active_challenge",
+        "cpu_s": 118.905091776
+      },
+      "preference_ids": [
+        "Q2_SEARCH_000",
+        "Q2_SEARCH_001",
+        "Q2_SEARCH_002",
+        "Q2_SEARCH_003",
+        "Q2_SEARCH_004",
+        "Q2_SEARCH_005",
+        "Q2_SEARCH_006",
+        "Q2_SEARCH_007",
+        "Q2_SEARCH_008",
+        "Q2_SEARCH_009",
+        "Q2_SEARCH_035",
+        "Q2_SEARCH_036",
+        "Q2_SEARCH_037",
+        "Q2_SEARCH_038"
+      ],
+      "adaptive_updates": 0,
+      "adaptive_selections": 0,
+      "evaluation_preferences_opened": false,
+      "input_trace_available": true
+    },
+    {
+      "method": "POOL_CHALLENGE",
+      "seed": 26092512,
+      "scope": "Q2",
+      "cpu_cap_s": 120,
+      "observed_cpu_s": 119.29673421,
+      "wall_s": 119.18684525399999,
+      "core": 8,
+      "exit_code": 0,
+      "termination": "WORKER_FINISHED",
+      "accepted": [
+        "P0001",
+        "P0002",
+        "P0003",
+        "P0004",
+        "P0005",
+        "P0006",
+        "P0007"
+      ],
+      "root": "results/p1_preflight/runs/Q2_120_v2/POOL_CHALLENGE_26092512",
+      "maximum_observed_threads": 1,
+      "observed_children": [],
+      "verified_complete_scope_packages": 7,
+      "verified_transport_packages": 7,
+      "zero_late_found": true,
+      "phase": {
+        "phase": "active_challenge",
+        "cpu_s": 114.95563169
+      },
+      "preference_ids": [
+        "Q2_SEARCH_000",
+        "Q2_SEARCH_001",
+        "Q2_SEARCH_002",
+        "Q2_SEARCH_003",
+        "Q2_SEARCH_004",
+        "Q2_SEARCH_005",
+        "Q2_SEARCH_006",
+        "Q2_SEARCH_007",
+        "Q2_SEARCH_008",
+        "Q2_SEARCH_035",
+        "Q2_SEARCH_036",
+        "Q2_SEARCH_037",
+        "Q2_SEARCH_038"
+      ],
+      "adaptive_updates": 0,
+      "adaptive_selections": 0,
+      "evaluation_preferences_opened": false,
+      "input_trace_available": true
+    },
+    {
+      "method": "ALNS",
+      "seed": 26092512,
+      "scope": "Q2",
+      "cpu_cap_s": 120,
+      "observed_cpu_s": 119.651140385,
+      "wall_s": 119.603777557,
+      "core": 4,
+      "exit_code": 0,
+      "termination": "WORKER_FINISHED",
+      "accepted": [
+        "P0001",
+        "P0002",
+        "P0003",
+        "P0004",
+        "P0005",
+        "P0006",
+        "P0007",
+        "P0008",
+        "P0009",
+        "P0010",
+        "P0011"
+      ],
+      "root": "results/p1_preflight/runs/Q2_120_v2/ALNS_26092512",
+      "maximum_observed_threads": 1,
+      "observed_children": [],
+      "verified_complete_scope_packages": 11,
+      "verified_transport_packages": 11,
+      "zero_late_found": false,
+      "phase": {
+        "phase": "neighborhood_search",
+        "cpu_s": 0.887793439
+      },
+      "preference_ids": [
+        "Q2_SEARCH_000",
+        "Q2_SEARCH_001",
+        "Q2_SEARCH_002",
+        "Q2_SEARCH_003",
+        "Q2_SEARCH_004",
+        "Q2_SEARCH_005",
+        "Q2_SEARCH_006",
+        "Q2_SEARCH_035",
+        "Q2_SEARCH_036",
+        "Q2_SEARCH_037",
+        "Q2_SEARCH_038"
+      ],
+      "adaptive_updates": 10,
+      "adaptive_selections": 11,
+      "evaluation_preferences_opened": false,
+      "input_trace_available": true
+    },
+    {
+      "method": "UNIFORM_LNS",
+      "seed": 26092512,
+      "scope": "Q2",
+      "cpu_cap_s": 120,
+      "observed_cpu_s": 119.661584044,
+      "wall_s": 119.74907137600002,
+      "core": 2,
+      "exit_code": 0,
+      "termination": "WORKER_FINISHED",
+      "accepted": [
+        "P0001",
+        "P0002",
+        "P0003",
+        "P0004",
+        "P0005",
+        "P0006",
+        "P0007",
+        "P0008",
+        "P0009",
+        "P0010",
+        "P0011"
+      ],
+      "root": "results/p1_preflight/runs/Q2_120_v2/UNIFORM_LNS_26092512",
+      "maximum_observed_threads": 1,
+      "observed_children": [],
+      "verified_complete_scope_packages": 11,
+      "verified_transport_packages": 11,
+      "zero_late_found": true,
+      "phase": {
+        "phase": "neighborhood_search",
+        "cpu_s": 0.900648693
+      },
+      "preference_ids": [
+        "Q2_SEARCH_000",
+        "Q2_SEARCH_001",
+        "Q2_SEARCH_002",
+        "Q2_SEARCH_003",
+        "Q2_SEARCH_004",
+        "Q2_SEARCH_005",
+        "Q2_SEARCH_006",
+        "Q2_SEARCH_035",
+        "Q2_SEARCH_036",
+        "Q2_SEARCH_037",
+        "Q2_SEARCH_038"
+      ],
+      "adaptive_updates": 10,
+      "adaptive_selections": 0,
+      "evaluation_preferences_opened": false,
+      "input_trace_available": true
+    },
+    {
+      "method": "POOL",
+      "seed": 26092512,
+      "scope": "Q2",
+      "cpu_cap_s": 120,
+      "observed_cpu_s": 120.029998821,
+      "wall_s": 120.01614343,
+      "core": 6,
+      "exit_code": -9,
+      "termination": "CPU_BUDGET",
+      "accepted": [
+        "P0001",
+        "P0002",
+        "P0003",
+        "P0004",
+        "P0005",
+        "P0006",
+        "P0007",
+        "P0008",
+        "P0009",
+        "P0010",
+        "P0011",
+        "P0012"
+      ],
+      "root": "results/p1_preflight/runs/Q2_120_v2/POOL_26092512",
+      "maximum_observed_threads": 1,
+      "observed_children": [],
+      "verified_complete_scope_packages": 12,
+      "verified_transport_packages": 12,
+      "zero_late_found": true,
+      "phase": {
+        "phase": "pattern_scheduling",
+        "cpu_s": 114.801254905
+      },
+      "preference_ids": [
+        "Q2_SEARCH_000",
+        "Q2_SEARCH_001",
+        "Q2_SEARCH_002",
+        "Q2_SEARCH_003",
+        "Q2_SEARCH_004",
+        "Q2_SEARCH_005",
+        "Q2_SEARCH_006",
+        "Q2_SEARCH_007",
+        "Q2_SEARCH_035",
+        "Q2_SEARCH_036",
+        "Q2_SEARCH_037",
+        "Q2_SEARCH_038"
+      ],
+      "adaptive_updates": 0,
+      "adaptive_selections": 0,
+      "evaluation_preferences_opened": false,
+      "input_trace_available": true
+    }
+  ]
+}

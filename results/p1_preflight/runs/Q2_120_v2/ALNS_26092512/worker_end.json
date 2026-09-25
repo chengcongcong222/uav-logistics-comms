@@ -1,0 +1,6 @@
+{
+  "cpu_s": 119.552830945,
+  "phase": "neighborhood_search",
+  "checkpoints": 11,
+  "children_cpu_s": 0.0
+}

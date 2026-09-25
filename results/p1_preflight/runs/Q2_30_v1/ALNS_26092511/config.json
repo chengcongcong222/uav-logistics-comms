@@ -1,0 +1,13 @@
+{
+  "scope": "Q2",
+  "method": "ALNS",
+  "seed": 26092511,
+  "cpu_cap_s": 30.0,
+  "core": 2,
+  "threads": 1,
+  "formal": false,
+  "calibration_scale_status": "BOOTSTRAP_PHYSICAL_SCALES_NOT_FROZEN_FORMAL",
+  "scope_cost": "imports+fresh B0+pool+private templates+models+search+export",
+  "subprocess_policy": "DENY",
+  "search_manifest_sha256": "8daba5c78d358647087fcb8a49be83d18bce9570aa0fc8cb8e7b9907c7d0cb4a"
+}

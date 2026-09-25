@@ -1,0 +1,378 @@
+[
+  {
+    "pid": "P0001",
+    "scope": "Q2",
+    "origin": "COMMON_FRESH_B0",
+    "preference_id": "Q3_SEARCH_070",
+    "cpu_ready_s": 0.910157136,
+    "metrics": {
+      "J_late": 65501.00549024007,
+      "J_norm": 0.5125647900904743,
+      "makespan": 10570.82377657593,
+      "energy": 85.66393821918167,
+      "sorties": 32,
+      "source": "P0001",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512/q2/pareto_schedules/P0001/missions.json",
+    "package": "/home/ccc/projects/uav-logistics-comms/results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512/q2/pareto_schedules/P0001"
+  },
+  {
+    "pid": "P0002",
+    "scope": "Q2",
+    "origin": "PREFERENCE_PATTERN_MILP",
+    "preference_id": "Q3_SEARCH_070",
+    "cpu_ready_s": 10.905649571,
+    "metrics": {
+      "J_late": 0.0,
+      "J_norm": 0.42040462703167536,
+      "makespan": 6744.84231983128,
+      "energy": 73.258602538448,
+      "sorties": 28,
+      "source": "P0002",
+      "global_optimum_proven": false
+    },
+    "mission_file": "/home/ccc/projects/uav-logistics-comms/results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512/q2/pareto_schedules/P0002/missions.json",
+    "package": "/home/ccc/projects/uav-logistics-comms/results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512/q2/pareto_schedules/P0002"
+  },
+  {
+    "pid": "Q30001",
+    "transport_pid": "P0002",
+    "scope": "Q3",
+    "origin": "JOINT_TRANSPORT_RELAY_ADJUSTMENT",
+    "preference_id": "Q3_SEARCH_070",
+    "cpu_ready_s": 153.175323467,
+    "metrics": {
+      "pareto_id": "P0002",
+      "conclusion": "XB1_Q3_PENDING_INDEPENDENT_VALIDATION",
+      "J_late": 33814.57510442458,
+      "J_norm": 0.4765916836047953,
+      "joint_makespan_s": 10361.530359805387,
+      "transport_energy_kwh": 73.258602538448,
+      "relay_energy_kwh": 4.3212692938668384,
+      "total_energy_kwh": 77.57987183231484,
+      "transport_sorties": 28,
+      "relay_sorties": 9,
+      "total_transport_shift_s": 13189.545496486335,
+      "max_transport_shift_s": 3762.6961469034777,
+      "hard_deadline_violations": 0,
+      "communication_uncovered_duration_s": null,
+      "communication_validation": "PENDING_INDEPENDENT_FULL_FLIGHT_AUDIT",
+      "minimum_M_E_kwh": 1.9380205345694035,
+      "minimum_M_C_db": 0.14955749359428694,
+      "relay_uav_utilization": {
+        "R01": {
+          "sorties": 5,
+          "operating_s": 8961.31021455494,
+          "unavailable_s": 10461.31021455494,
+          "utilization": 0.945400629887162
+        },
+        "R02": {
+          "sorties": 4,
+          "operating_s": 7780.523612351506,
+          "unavailable_s": 8980.523612351506,
+          "utilization": 0.8115802424079867
+        }
+      },
+      "energy_component_utilization": {
+        "REC-01": {
+          "sorties": 2,
+          "unavailable_s": 4782.223043981359,
+          "utilization": 0.4321749938884899
+        },
+        "REC-02": {
+          "sorties": 2,
+          "unavailable_s": 3414.831080126419,
+          "utilization": 0.3086022102296601
+        },
+        "REC-03": {
+          "sorties": 1,
+          "unavailable_s": 2942.532075603344,
+          "utilization": 0.26592000625964896
+        },
+        "REC-04": {
+          "sorties": 2,
+          "unavailable_s": 4856.39089245926,
+          "utilization": 0.4388776276150786
+        },
+        "REC-05": {
+          "sorties": 1,
+          "unavailable_s": 2802.4722611502184,
+          "utilization": 0.25326263982177805
+        },
+        "REC-06": {
+          "sorties": 1,
+          "unavailable_s": 2508.1905867251917,
+          "utilization": 0.22666806661252684
+        }
+      },
+      "resource_calendar_horizon_s": 11065.47836318191,
+      "candidate_set_complete": false,
+      "one_to_many_relay": true,
+      "comm_power_counted_once_per_active_module": true,
+      "total_absolute_transport_shift_s": 24963.589799258276,
+      "Gamma_C_db": 0.0,
+      "solution_id": "Q30001",
+      "source_provenance": "FRESH_P1_TRANSPORT",
+      "global_optimum_proven": false,
+      "geometry_version": "G2_UTM49N_STRAIGHT_NATIVE_SUPERCOVER_V1",
+      "development_only": true
+    },
+    "package": "/home/ccc/projects/uav-logistics-comms/results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512/q3/P0002/solutions/Q30001"
+  },
+  {
+    "pid": "Q30002",
+    "transport_pid": "P0002",
+    "scope": "Q3",
+    "origin": "JOINT_TRANSPORT_RELAY_ADJUSTMENT",
+    "preference_id": "Q3_SEARCH_071",
+    "cpu_ready_s": 167.800176409,
+    "metrics": {
+      "pareto_id": "P0002",
+      "conclusion": "XB1_Q3_PENDING_INDEPENDENT_VALIDATION",
+      "J_late": 55459.25490857566,
+      "J_norm": 0.5649713656845339,
+      "joint_makespan_s": 10407.16800453917,
+      "transport_energy_kwh": 73.258602538448,
+      "relay_energy_kwh": 4.5159374289983685,
+      "total_energy_kwh": 77.77453996744637,
+      "transport_sorties": 28,
+      "relay_sorties": 8,
+      "total_transport_shift_s": 22237.5556810097,
+      "max_transport_shift_s": 3798.18855793702,
+      "hard_deadline_violations": 0,
+      "communication_uncovered_duration_s": null,
+      "communication_validation": "PENDING_INDEPENDENT_FULL_FLIGHT_AUDIT",
+      "minimum_M_E_kwh": 1.4067425304383525,
+      "minimum_M_C_db": 0.14955749359428694,
+      "relay_uav_utilization": {
+        "R01": {
+          "sorties": 3,
+          "operating_s": 8127.93102032341,
+          "unavailable_s": 9027.931020323409,
+          "utilization": 0.8125134337443514
+        },
+        "R02": {
+          "sorties": 5,
+          "operating_s": 9041.406419705856,
+          "unavailable_s": 10541.406419705856,
+          "utilization": 0.9487261596581326
+        }
+      },
+      "energy_component_utilization": {
+        "REC-01": {
+          "sorties": 2,
+          "unavailable_s": 5130.560176688843,
+          "utilization": 0.4617502124029459
+        },
+        "REC-02": {
+          "sorties": 2,
+          "unavailable_s": 4086.5631925914745,
+          "utilization": 0.36779052524338307
+        },
+        "REC-03": {
+          "sorties": 1,
+          "unavailable_s": 2589.528806709674,
+          "utilization": 0.23305748989254207
+        },
+        "REC-04": {
+          "sorties": 1,
+          "unavailable_s": 2322.897067716237,
+          "utilization": 0.2090606439588406
+        },
+        "REC-05": {
+          "sorties": 1,
+          "unavailable_s": 2480.468176479867,
+          "utilization": 0.22324203749765115
+        },
+        "REC-06": {
+          "sorties": 1,
+          "unavailable_s": 4953.919600373758,
+          "utilization": 0.44585256754087765
+        }
+      },
+      "resource_calendar_horizon_s": 11111.116007915693,
+      "candidate_set_complete": false,
+      "one_to_many_relay": true,
+      "comm_power_counted_once_per_active_module": true,
+      "total_absolute_transport_shift_s": 42551.82604125762,
+      "Gamma_C_db": 0.0,
+      "solution_id": "Q30002",
+      "source_provenance": "FRESH_P1_TRANSPORT",
+      "global_optimum_proven": false,
+      "geometry_version": "G2_UTM49N_STRAIGHT_NATIVE_SUPERCOVER_V1",
+      "development_only": true
+    },
+    "package": "/home/ccc/projects/uav-logistics-comms/results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512/q3/P0002/solutions/Q30002"
+  },
+  {
+    "pid": "Q30003",
+    "transport_pid": "P0002",
+    "scope": "Q3",
+    "origin": "Q3_ACTIVE_DOMINANCE_CHALLENGE",
+    "preference_id": "Q3_SEARCH_071",
+    "cpu_ready_s": 169.298346733,
+    "metrics": {
+      "pareto_id": "P0002",
+      "conclusion": "XB1_Q3_PENDING_INDEPENDENT_VALIDATION",
+      "J_late": 47319.886433757936,
+      "J_norm": 0.5549382708681364,
+      "joint_makespan_s": 10407.16800453917,
+      "transport_energy_kwh": 73.258602538448,
+      "relay_energy_kwh": 4.483877016794955,
+      "total_energy_kwh": 77.74247955524295,
+      "transport_sorties": 28,
+      "relay_sorties": 8,
+      "total_transport_shift_s": 20355.164420355468,
+      "max_transport_shift_s": 3798.18855793702,
+      "hard_deadline_violations": 0,
+      "communication_uncovered_duration_s": null,
+      "communication_validation": "PENDING_INDEPENDENT_FULL_FLIGHT_AUDIT",
+      "minimum_M_E_kwh": 1.4190755120862102,
+      "minimum_M_C_db": 0.14955749359428694,
+      "relay_uav_utilization": {
+        "R01": {
+          "sorties": 3,
+          "operating_s": 8021.084011816469,
+          "unavailable_s": 8921.084011816469,
+          "utilization": 0.8028972072167171
+        },
+        "R02": {
+          "sorties": 5,
+          "operating_s": 9041.406419705856,
+          "unavailable_s": 10541.406419705856,
+          "utilization": 0.9487261596581326
+        }
+      },
+      "energy_component_utilization": {
+        "REC-01": {
+          "sorties": 2,
+          "unavailable_s": 5057.983408025648,
+          "utilization": 0.45521830610195047
+        },
+        "REC-02": {
+          "sorties": 2,
+          "unavailable_s": 4086.5631925914745,
+          "utilization": 0.36779052524338307
+        },
+        "REC-03": {
+          "sorties": 1,
+          "unavailable_s": 2589.528806709674,
+          "utilization": 0.23305748989254207
+        },
+        "REC-04": {
+          "sorties": 1,
+          "unavailable_s": 2322.897067716237,
+          "utilization": 0.2090606439588406
+        },
+        "REC-05": {
+          "sorties": 1,
+          "unavailable_s": 2480.468176479867,
+          "utilization": 0.22324203749765115
+        },
+        "REC-06": {
+          "sorties": 1,
+          "unavailable_s": 4906.624818072374,
+          "utilization": 0.44159603900965805
+        }
+      },
+      "resource_calendar_horizon_s": 11111.116007915693,
+      "candidate_set_complete": false,
+      "one_to_many_relay": true,
+      "comm_power_counted_once_per_active_module": true,
+      "total_absolute_transport_shift_s": 38813.41785901853,
+      "Gamma_C_db": 0.0,
+      "solution_id": "Q30003",
+      "source_provenance": "FRESH_P1_TRANSPORT",
+      "global_optimum_proven": false,
+      "geometry_version": "G2_UTM49N_STRAIGHT_NATIVE_SUPERCOVER_V1",
+      "development_only": true
+    },
+    "package": "/home/ccc/projects/uav-logistics-comms/results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512/q3/P0002/solutions/Q30003"
+  },
+  {
+    "pid": "Q30004",
+    "transport_pid": "P0002",
+    "scope": "Q3",
+    "origin": "JOINT_TRANSPORT_RELAY_ADJUSTMENT",
+    "preference_id": "Q3_SEARCH_072",
+    "cpu_ready_s": 186.366501618,
+    "metrics": {
+      "pareto_id": "P0002",
+      "conclusion": "XB1_Q3_PENDING_INDEPENDENT_VALIDATION",
+      "J_late": 59857.08336278983,
+      "J_norm": 0.5662304700448992,
+      "joint_makespan_s": 11082.025158389133,
+      "transport_energy_kwh": 73.258602538448,
+      "relay_energy_kwh": 3.697546192870485,
+      "total_energy_kwh": 76.95614873131849,
+      "transport_sorties": 28,
+      "relay_sorties": 6,
+      "total_transport_shift_s": 28694.248724875568,
+      "max_transport_shift_s": 6513.379013365572,
+      "hard_deadline_violations": 0,
+      "communication_uncovered_duration_s": null,
+      "communication_validation": "PENDING_INDEPENDENT_FULL_FLIGHT_AUDIT",
+      "minimum_M_E_kwh": 1.4050120616883524,
+      "minimum_M_C_db": 0.14955749359428694,
+      "relay_uav_utilization": {
+        "R01": {
+          "sorties": 4,
+          "operating_s": 7118.066397639392,
+          "unavailable_s": 8318.066397639392,
+          "utilization": 0.7452452329355722
+        },
+        "R02": {
+          "sorties": 2,
+          "operating_s": 6750.756651874427,
+          "unavailable_s": 7350.756651874427,
+          "utilization": 0.6585805031363438
+        }
+      },
+      "energy_component_utilization": {
+        "REC-01": {
+          "sorties": 1,
+          "unavailable_s": 2631.7490658751085,
+          "utilization": 0.23578778430798203
+        },
+        "REC-02": {
+          "sorties": 1,
+          "unavailable_s": 3191.7819864468856,
+          "utilization": 0.2859631308839059
+        },
+        "REC-03": {
+          "sorties": 1,
+          "unavailable_s": 2222.857033255705,
+          "utilization": 0.1991536888911162
+        },
+        "REC-04": {
+          "sorties": 1,
+          "unavailable_s": 4954.622603303445,
+          "utilization": 0.44390230849258516
+        },
+        "REC-05": {
+          "sorties": 1,
+          "unavailable_s": 1863.7061593357703,
+          "utilization": 0.16697608127194224
+        },
+        "REC-06": {
+          "sorties": 1,
+          "unavailable_s": 2426.2343421505393,
+          "utilization": 0.21737498729096474
+        }
+      },
+      "resource_calendar_horizon_s": 11161.515740092635,
+      "candidate_set_complete": false,
+      "one_to_many_relay": true,
+      "comm_power_counted_once_per_active_module": true,
+      "total_absolute_transport_shift_s": 42798.51941328051,
+      "Gamma_C_db": 0.0,
+      "solution_id": "Q30004",
+      "source_provenance": "FRESH_P1_TRANSPORT",
+      "global_optimum_proven": false,
+      "geometry_version": "G2_UTM49N_STRAIGHT_NATIVE_SUPERCOVER_V1",
+      "development_only": true
+    },
+    "package": "/home/ccc/projects/uav-logistics-comms/results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512/q3/P0002/solutions/Q30004"
+  }
+]

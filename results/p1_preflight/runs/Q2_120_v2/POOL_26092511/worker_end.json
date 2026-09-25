@@ -1,0 +1,6 @@
+{
+  "cpu_s": 119.788893395,
+  "phase": "pattern_scheduling",
+  "checkpoints": 12,
+  "children_cpu_s": 0.0
+}

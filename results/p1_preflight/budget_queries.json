@@ -1,0 +1,224 @@
+{
+  "Q2": {
+    "queries": [
+      {
+        "metric": "makespan_s",
+        "cap_native_units": 9015.388953898495,
+        "zero_late_witnesses": 1,
+        "classification": "ATTAINED_IN_DEVELOPMENT_ARCHIVE"
+      },
+      {
+        "metric": "makespan_s",
+        "cap_native_units": 9780.19095776067,
+        "zero_late_witnesses": 22,
+        "classification": "ATTAINED_IN_DEVELOPMENT_ARCHIVE"
+      },
+      {
+        "metric": "makespan_s",
+        "cap_native_units": 10544.992961622844,
+        "zero_late_witnesses": 33,
+        "classification": "ATTAINED_IN_DEVELOPMENT_ARCHIVE"
+      },
+      {
+        "metric": "makespan_s",
+        "cap_native_units": 11309.794965485016,
+        "zero_late_witnesses": 37,
+        "classification": "ATTAINED_IN_DEVELOPMENT_ARCHIVE"
+      },
+      {
+        "metric": "makespan_s",
+        "cap_native_units": 12074.59696934719,
+        "zero_late_witnesses": 37,
+        "classification": "ATTAINED_IN_DEVELOPMENT_ARCHIVE"
+      },
+      {
+        "metric": "energy_kwh",
+        "cap_native_units": 82.82766351027989,
+        "zero_late_witnesses": 0,
+        "classification": "NO_KNOWN_ZERO_LATE_WITNESS_NOT_INFEASIBILITY"
+      },
+      {
+        "metric": "energy_kwh",
+        "cap_native_units": 87.67901562395134,
+        "zero_late_witnesses": 0,
+        "classification": "NO_KNOWN_ZERO_LATE_WITNESS_NOT_INFEASIBILITY"
+      },
+      {
+        "metric": "energy_kwh",
+        "cap_native_units": 92.53036773762278,
+        "zero_late_witnesses": 2,
+        "classification": "ATTAINED_IN_DEVELOPMENT_ARCHIVE"
+      },
+      {
+        "metric": "energy_kwh",
+        "cap_native_units": 97.38171985129424,
+        "zero_late_witnesses": 23,
+        "classification": "ATTAINED_IN_DEVELOPMENT_ARCHIVE"
+      },
+      {
+        "metric": "energy_kwh",
+        "cap_native_units": 102.23307196496569,
+        "zero_late_witnesses": 37,
+        "classification": "ATTAINED_IN_DEVELOPMENT_ARCHIVE"
+      },
+      {
+        "metric": "transport_sorties",
+        "cap_native_units": 29.0,
+        "zero_late_witnesses": 0,
+        "classification": "NO_KNOWN_ZERO_LATE_WITNESS_NOT_INFEASIBILITY"
+      },
+      {
+        "metric": "transport_sorties",
+        "cap_native_units": 30.0,
+        "zero_late_witnesses": 0,
+        "classification": "NO_KNOWN_ZERO_LATE_WITNESS_NOT_INFEASIBILITY"
+      },
+      {
+        "metric": "transport_sorties",
+        "cap_native_units": 31.0,
+        "zero_late_witnesses": 0,
+        "classification": "NO_KNOWN_ZERO_LATE_WITNESS_NOT_INFEASIBILITY"
+      },
+      {
+        "metric": "transport_sorties",
+        "cap_native_units": 32.0,
+        "zero_late_witnesses": 17,
+        "classification": "ATTAINED_IN_DEVELOPMENT_ARCHIVE"
+      },
+      {
+        "metric": "transport_sorties",
+        "cap_native_units": 33.0,
+        "zero_late_witnesses": 17,
+        "classification": "ATTAINED_IN_DEVELOPMENT_ARCHIVE"
+      },
+      {
+        "metric": "transport_sorties",
+        "cap_native_units": 34.0,
+        "zero_late_witnesses": 17,
+        "classification": "ATTAINED_IN_DEVELOPMENT_ARCHIVE"
+      },
+      {
+        "metric": "transport_sorties",
+        "cap_native_units": 35.0,
+        "zero_late_witnesses": 22,
+        "classification": "ATTAINED_IN_DEVELOPMENT_ARCHIVE"
+      },
+      {
+        "metric": "transport_sorties",
+        "cap_native_units": 36.0,
+        "zero_late_witnesses": 24,
+        "classification": "ATTAINED_IN_DEVELOPMENT_ARCHIVE"
+      },
+      {
+        "metric": "transport_sorties",
+        "cap_native_units": 37.0,
+        "zero_late_witnesses": 27,
+        "classification": "ATTAINED_IN_DEVELOPMENT_ARCHIVE"
+      },
+      {
+        "metric": "transport_sorties",
+        "cap_native_units": 38.0,
+        "zero_late_witnesses": 37,
+        "classification": "ATTAINED_IN_DEVELOPMENT_ARCHIVE"
+      }
+    ],
+    "integer_rule": "Distinct attained development sortie counts; no assertion all globally attainable integers enumerated",
+    "status": "DEVELOPMENT_QUERIES_NOT_FORMAL_FROZEN"
+  },
+  "Q3": {
+    "queries": [
+      {
+        "metric": "joint_makespan_s",
+        "cap_native_units": 10361.530359805387,
+        "zero_late_witnesses": 0,
+        "classification": "NO_KNOWN_ZERO_LATE_WITNESS_NOT_INFEASIBILITY"
+      },
+      {
+        "metric": "joint_makespan_s",
+        "cap_native_units": 11453.354468062804,
+        "zero_late_witnesses": 0,
+        "classification": "NO_KNOWN_ZERO_LATE_WITNESS_NOT_INFEASIBILITY"
+      },
+      {
+        "metric": "joint_makespan_s",
+        "cap_native_units": 12545.178576320219,
+        "zero_late_witnesses": 0,
+        "classification": "NO_KNOWN_ZERO_LATE_WITNESS_NOT_INFEASIBILITY"
+      },
+      {
+        "metric": "joint_makespan_s",
+        "cap_native_units": 13637.002684577634,
+        "zero_late_witnesses": 0,
+        "classification": "NO_KNOWN_ZERO_LATE_WITNESS_NOT_INFEASIBILITY"
+      },
+      {
+        "metric": "joint_makespan_s",
+        "cap_native_units": 14728.82679283505,
+        "zero_late_witnesses": 0,
+        "classification": "NO_KNOWN_ZERO_LATE_WITNESS_NOT_INFEASIBILITY"
+      },
+      {
+        "metric": "total_energy_kwh",
+        "cap_native_units": 76.95614873131849,
+        "zero_late_witnesses": 0,
+        "classification": "NO_KNOWN_ZERO_LATE_WITNESS_NOT_INFEASIBILITY"
+      },
+      {
+        "metric": "total_energy_kwh",
+        "cap_native_units": 77.52847230483954,
+        "zero_late_witnesses": 0,
+        "classification": "NO_KNOWN_ZERO_LATE_WITNESS_NOT_INFEASIBILITY"
+      },
+      {
+        "metric": "total_energy_kwh",
+        "cap_native_units": 78.1007958783606,
+        "zero_late_witnesses": 0,
+        "classification": "NO_KNOWN_ZERO_LATE_WITNESS_NOT_INFEASIBILITY"
+      },
+      {
+        "metric": "total_energy_kwh",
+        "cap_native_units": 78.67311945188165,
+        "zero_late_witnesses": 0,
+        "classification": "NO_KNOWN_ZERO_LATE_WITNESS_NOT_INFEASIBILITY"
+      },
+      {
+        "metric": "total_energy_kwh",
+        "cap_native_units": 79.2454430254027,
+        "zero_late_witnesses": 0,
+        "classification": "NO_KNOWN_ZERO_LATE_WITNESS_NOT_INFEASIBILITY"
+      },
+      {
+        "metric": "transport_sorties",
+        "cap_native_units": 28.0,
+        "zero_late_witnesses": 0,
+        "classification": "NO_KNOWN_ZERO_LATE_WITNESS_NOT_INFEASIBILITY"
+      },
+      {
+        "metric": "transport_sorties",
+        "cap_native_units": 29.0,
+        "zero_late_witnesses": 0,
+        "classification": "NO_KNOWN_ZERO_LATE_WITNESS_NOT_INFEASIBILITY"
+      },
+      {
+        "metric": "relay_sorties",
+        "cap_native_units": 6.0,
+        "zero_late_witnesses": 0,
+        "classification": "NO_KNOWN_ZERO_LATE_WITNESS_NOT_INFEASIBILITY"
+      },
+      {
+        "metric": "relay_sorties",
+        "cap_native_units": 8.0,
+        "zero_late_witnesses": 0,
+        "classification": "NO_KNOWN_ZERO_LATE_WITNESS_NOT_INFEASIBILITY"
+      },
+      {
+        "metric": "relay_sorties",
+        "cap_native_units": 9.0,
+        "zero_late_witnesses": 0,
+        "classification": "NO_KNOWN_ZERO_LATE_WITNESS_NOT_INFEASIBILITY"
+      }
+    ],
+    "integer_rule": "Distinct attained development sortie counts; no assertion all globally attainable integers enumerated",
+    "status": "DEVELOPMENT_QUERIES_NOT_FORMAL_FROZEN"
+  }
+}

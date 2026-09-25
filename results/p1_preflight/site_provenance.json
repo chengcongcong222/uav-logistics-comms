@@ -1,0 +1,19 @@
+{
+  "choice": "FROZEN_HISTORICAL_COORDINATES_SHARED_BY_ALL_METHODS",
+  "scope": "GIVEN_FINITE_SITE_POOL_NOT_FULL_DEM",
+  "historical_build_cpu_s": null,
+  "historical_build_cost_status": "NOT_RECOVERED_NOT_CLAIMED_FREE_END_TO_END",
+  "freeze_cpu_s": 0.014317249999999948,
+  "sites": 118,
+  "sources": {
+    "results/q3/relay_sites_e52.csv": "0143e7a3146d39cc1a1b3a4fef90363a1cf21c83b2fe0628f7f8e582b5d12799",
+    "results/q3/e8/gamma_02/candidate_sites.csv": "d41cc42aba4a6d92db3c4fd90da24fcab66703a8889d9a5206d5dfaa804d448e",
+    "results/q3/e8/gamma_04/candidate_sites.csv": "756d892f3f81244bf42865e95a63b296e8f465913b5276ea9cea82c3adc641c2",
+    "results/q3/e8/gamma_06/candidate_sites.csv": "7f6bf15c7f94c9a7725e6a23742e31738d8ce4d0d4bd83f4619c9d87665b6575",
+    "results/q3/e6/candidate_sites_P01.csv": "797254acf6072744ef60b9dd89c23e8fda236265348fb12fb688ab6adb5973b0",
+    "results/q3/e6/candidate_sites_P02.csv": "797254acf6072744ef60b9dd89c23e8fda236265348fb12fb688ab6adb5973b0",
+    "results/q3/e6/candidate_sites_P03.csv": "797254acf6072744ef60b9dd89c23e8fda236265348fb12fb688ab6adb5973b0"
+  },
+  "task_edges_shared": false,
+  "transport_templates_shared": false
+}

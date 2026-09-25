@@ -1,0 +1,12 @@
+/home/ccc/projects/uav-logistics-comms/src/bench_p1/sequential_fixture.py:38: RuntimeWarning: Unrecognized options detected: {'random_seed', 'threads'}. These will be passed to HiGHS verbatim.
+  opts=dict(kwargs.get('options',{}));opts.update(threads=1,random_seed=26092511,time_limit=8);kwargs['options']=opts;return fn(*args,**kwargs)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/ccc/projects/uav-logistics-comms/src/bench_p1/sequential_fixture.py", line 56, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/ccc/projects/uav-logistics-comms/src/bench_p1/sequential_fixture.py", line 47, in main
+    assert answer is not None,info
+           ^^^^^^^^^^^^^^^^^^
+AssertionError: {'status': 2, 'message': 'The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)', 'runtime_s': 0.02518010200000731, 'groups': 6, 'objective': None, 'dual_bound': None, 'scope': 'JOINT_TYPED_RESOURCES_MILP', 'limit_s': 8}

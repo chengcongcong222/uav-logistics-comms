@@ -1,0 +1,106 @@
+[
+  {
+    "scope": "Q2",
+    "seed": 26092511,
+    "methods": [
+      "POOL",
+      "POOL_CHALLENGE"
+    ],
+    "sha256": [
+      "b982f2ba69f3fb72eda498bc66d2ec6a5d786a052edf97eba19a92417719c8a0",
+      "b982f2ba69f3fb72eda498bc66d2ec6a5d786a052edf97eba19a92417719c8a0"
+    ],
+    "initial_methods": [
+      "UNIFORM_LNS",
+      "ALNS",
+      "POOL",
+      "POOL_CHALLENGE"
+    ],
+    "initial_sha256": [
+      "ed586dab2b8d75820b77c403938d0eaac4b3ce266c4d613ab136c9213e7f968b",
+      "ed586dab2b8d75820b77c403938d0eaac4b3ce266c4d613ab136c9213e7f968b",
+      "ed586dab2b8d75820b77c403938d0eaac4b3ce266c4d613ab136c9213e7f968b",
+      "ed586dab2b8d75820b77c403938d0eaac4b3ce266c4d613ab136c9213e7f968b"
+    ],
+    "same_initialization": true,
+    "same_pool": true
+  },
+  {
+    "scope": "Q2",
+    "seed": 26092512,
+    "methods": [
+      "POOL",
+      "POOL_CHALLENGE"
+    ],
+    "sha256": [
+      "11ce681039c7abd3f764d9e4189c958d7d088fb888390c93a4b0d90799faefa7",
+      "11ce681039c7abd3f764d9e4189c958d7d088fb888390c93a4b0d90799faefa7"
+    ],
+    "initial_methods": [
+      "UNIFORM_LNS",
+      "ALNS",
+      "POOL",
+      "POOL_CHALLENGE"
+    ],
+    "initial_sha256": [
+      "ed586dab2b8d75820b77c403938d0eaac4b3ce266c4d613ab136c9213e7f968b",
+      "ed586dab2b8d75820b77c403938d0eaac4b3ce266c4d613ab136c9213e7f968b",
+      "ed586dab2b8d75820b77c403938d0eaac4b3ce266c4d613ab136c9213e7f968b",
+      "ed586dab2b8d75820b77c403938d0eaac4b3ce266c4d613ab136c9213e7f968b"
+    ],
+    "same_initialization": true,
+    "same_pool": true
+  },
+  {
+    "scope": "Q3",
+    "seed": 26092511,
+    "methods": [
+      "SEQUENTIAL",
+      "JOINT",
+      "JOINT_CHALLENGE"
+    ],
+    "sha256": [
+      "b982f2ba69f3fb72eda498bc66d2ec6a5d786a052edf97eba19a92417719c8a0",
+      "b982f2ba69f3fb72eda498bc66d2ec6a5d786a052edf97eba19a92417719c8a0",
+      "b982f2ba69f3fb72eda498bc66d2ec6a5d786a052edf97eba19a92417719c8a0"
+    ],
+    "initial_methods": [
+      "SEQUENTIAL",
+      "JOINT",
+      "JOINT_CHALLENGE"
+    ],
+    "initial_sha256": [
+      "ed586dab2b8d75820b77c403938d0eaac4b3ce266c4d613ab136c9213e7f968b",
+      "ed586dab2b8d75820b77c403938d0eaac4b3ce266c4d613ab136c9213e7f968b",
+      "ed586dab2b8d75820b77c403938d0eaac4b3ce266c4d613ab136c9213e7f968b"
+    ],
+    "same_initialization": true,
+    "same_pool": true
+  },
+  {
+    "scope": "Q3",
+    "seed": 26092512,
+    "methods": [
+      "SEQUENTIAL",
+      "JOINT",
+      "JOINT_CHALLENGE"
+    ],
+    "sha256": [
+      "11ce681039c7abd3f764d9e4189c958d7d088fb888390c93a4b0d90799faefa7",
+      "11ce681039c7abd3f764d9e4189c958d7d088fb888390c93a4b0d90799faefa7",
+      "11ce681039c7abd3f764d9e4189c958d7d088fb888390c93a4b0d90799faefa7"
+    ],
+    "initial_methods": [
+      "SEQUENTIAL",
+      "JOINT",
+      "JOINT_CHALLENGE"
+    ],
+    "initial_sha256": [
+      "ed586dab2b8d75820b77c403938d0eaac4b3ce266c4d613ab136c9213e7f968b",
+      "ed586dab2b8d75820b77c403938d0eaac4b3ce266c4d613ab136c9213e7f968b",
+      "ed586dab2b8d75820b77c403938d0eaac4b3ce266c4d613ab136c9213e7f968b"
+    ],
+    "same_initialization": true,
+    "same_pool": true
+  }
+]

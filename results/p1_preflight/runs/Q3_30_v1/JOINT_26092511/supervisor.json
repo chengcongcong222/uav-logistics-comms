@@ -1,0 +1,16 @@
+{
+  "method": "JOINT",
+  "seed": 26092511,
+  "scope": "Q3",
+  "cpu_cap_s": 30,
+  "observed_cpu_s": 30.021829601,
+  "wall_s": 30.436644725999997,
+  "core": 2,
+  "exit_code": -9,
+  "termination": "CPU_BUDGET",
+  "accepted": [
+    "P0001",
+    "P0002"
+  ],
+  "root": "results/p1_preflight/runs/Q3_30_v1/JOINT_26092511"
+}

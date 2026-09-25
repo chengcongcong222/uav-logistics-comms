@@ -1,0 +1,25 @@
+test_bad_budget (test_preferences.PreferenceTests.test_bad_budget) ... ok
+test_bad_scales_and_weights (test_preferences.PreferenceTests.test_bad_scales_and_weights) ... ok
+test_composition_count (test_preferences.PreferenceTests.test_composition_count) ... ok
+test_dimension_errors (test_preferences.PreferenceTests.test_dimension_errors) ... ok
+test_empty_archive (test_preferences.PreferenceTests.test_empty_archive) ... ok
+test_evaluation_disjoint (test_preferences.PreferenceTests.test_evaluation_disjoint) ... ok
+test_evaluation_positive (test_preferences.PreferenceTests.test_evaluation_positive) ... ok
+test_evaluation_reproducible (test_preferences.PreferenceTests.test_evaluation_reproducible) ... ok
+test_no_clipping (test_preferences.PreferenceTests.test_no_clipping) ... ok
+test_nonconvex_frontier_and_budget (test_preferences.PreferenceTests.test_nonconvex_frontier_and_budget) ... ok
+test_nonfinite_rejected (test_preferences.PreferenceTests.test_nonfinite_rejected) ... ok
+test_pareto_and_duplicate (test_preferences.PreferenceTests.test_pareto_and_duplicate) ... ok
+test_positive_weight_optimum_is_nondominated_in_finite_set (test_preferences.PreferenceTests.test_positive_weight_optimum_is_nondominated_in_finite_set) ... ok
+test_scope_keeps_relay_coordinate (test_preferences.PreferenceTests.test_scope_keeps_relay_coordinate) ... ok
+test_search_counts (test_preferences.PreferenceTests.test_search_counts) ... ok
+test_search_has_equal_and_axes (test_preferences.PreferenceTests.test_search_has_equal_and_axes) ... ok
+test_search_unit_sum (test_preferences.PreferenceTests.test_search_unit_sum) ... ok
+test_split_sorties_not_total (test_preferences.PreferenceTests.test_split_sorties_not_total) ... ok
+test_zero_anchor_does_not_scan (test_preferences.PreferenceTests.test_zero_anchor_does_not_scan) ... ok
+test_zero_weight_tie_can_be_dominated (test_preferences.PreferenceTests.test_zero_weight_tie_can_be_dominated) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.010s
+
+OK

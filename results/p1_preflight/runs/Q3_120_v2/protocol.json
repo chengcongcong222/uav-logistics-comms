@@ -1,0 +1,36 @@
+{
+  "scope": "Q3",
+  "budget": 120,
+  "methods": [
+    "SEQUENTIAL",
+    "JOINT",
+    "JOINT_CHALLENGE"
+  ],
+  "seeds": [
+    26092511,
+    26092512
+  ],
+  "physical_cores": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10
+  ],
+  "source_sha256": {
+    "src/bench_p1/joint_kernel.py": "d7686754305493f0ed80c863c08b658fa668652f88e5132e2bd950d3771924ec",
+    "src/bench_p1/run.py": "25e7fd31247f35a7bfc48e2a01b281e84a33b2f7c364834b87a0fdd9fbe7b7a3",
+    "src/bench_p1/common.py": "326be73f615529dbfb97c42e0f456c5bb855003b0ae9a930c361224e47f28e91",
+    "src/bench_p1/preferences.py": "f5812b0ea3a416ca65a94c2e6e76146823dc801f3f00ac7ee32531363e47902e",
+    "src/bench_p1/q3_adapter.py": "d6f9a5e227096d128149d5ea85e3aef0df534b490e0674659881b4e8339453e0",
+    "src/bench_p1/patterns.py": "e2294a921d90a8a96f440b71e4efc45b54f5278a27b65cedb708dededa574863",
+    "src/bench_p1/worker.py": "373ac4af157a9d4cb5372dab5f695bc4c3387dd7fd98cff630f6b126fa249e9b",
+    "src/bench_p1/alns.py": "08ee39dd7481d16fa0a4e226b1b7f789de056293f2ed2d9203826f280d84450b",
+    "src/bench_p1/challenge.py": "07463c2c14c774766414d571a993e36f342ccd194749df3f45de6b49f852b437",
+    "src/bench_p1/audit.py": "4e6ae2ff0c0cfa2909082fd40158052fad0a90a6839972f22fb38380bc84241b"
+  },
+  "cpu_clock": "POSIX process CPU",
+  "maximum_overshoot_s": 0.2,
+  "formal": false
+}

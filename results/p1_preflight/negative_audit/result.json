@@ -1,0 +1,6 @@
+{
+  "status": "EXPECTED_HARD_DEADLINE_REJECTION",
+  "shift_s": 1509.4966884125806,
+  "error": "Hard deadline violations ['S006-WAT-01', 'S006-MED-01', 'S006-MED-01']",
+  "case": "Whole schedule translated: no new interval overlap, earliest hard deadline exceeded by exactly one second"
+}

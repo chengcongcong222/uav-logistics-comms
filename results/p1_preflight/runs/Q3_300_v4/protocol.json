@@ -1,0 +1,38 @@
+{
+  "scope": "Q3",
+  "budget": 300,
+  "methods": [
+    "SEQUENTIAL",
+    "JOINT",
+    "JOINT_CHALLENGE"
+  ],
+  "seeds": [
+    26092511,
+    26092512
+  ],
+  "physical_cores": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10
+  ],
+  "source_sha256": {
+    "src/bench_p1/sequential_fixture.py": "abe0e8d3842a5c46475661142e29b8f94bec6cb2125fcf6f6f24f1d53b2a2c4b",
+    "src/bench_p1/joint_kernel.py": "4cddc890ff2e6a3e5291d9533df3dbef733098fdfafd6ec913f88efe31e3c6ab",
+    "src/bench_p1/run.py": "25e7fd31247f35a7bfc48e2a01b281e84a33b2f7c364834b87a0fdd9fbe7b7a3",
+    "src/bench_p1/common.py": "326be73f615529dbfb97c42e0f456c5bb855003b0ae9a930c361224e47f28e91",
+    "src/bench_p1/preferences.py": "f5812b0ea3a416ca65a94c2e6e76146823dc801f3f00ac7ee32531363e47902e",
+    "src/bench_p1/q3_adapter.py": "398554b8d9ac10df2c3748415854a04ccb56ae2a7e8dd1a91b2508aeaff11a68",
+    "src/bench_p1/patterns.py": "e2294a921d90a8a96f440b71e4efc45b54f5278a27b65cedb708dededa574863",
+    "src/bench_p1/worker.py": "5e0bcf3d16884076d49ab345effaf4ee44e6dd7b6099291e2392aee8ebe9b895",
+    "src/bench_p1/uniform.py": "86ecb7e938f24d4794d2096cdde9881d8fcf2286279e3786fbc44859b649851f",
+    "src/bench_p1/alns.py": "08ee39dd7481d16fa0a4e226b1b7f789de056293f2ed2d9203826f280d84450b",
+    "src/bench_p1/challenge.py": "07463c2c14c774766414d571a993e36f342ccd194749df3f45de6b49f852b437",
+    "src/bench_p1/audit.py": "4c4cab1a96ac28feec4f8e38216229ea4c2bc28dd8da497c707165edeb1083c2"
+  },
+  "cpu_clock": "POSIX process CPU",
+  "maximum_overshoot_s": 0.2,
+  "formal": false
+}

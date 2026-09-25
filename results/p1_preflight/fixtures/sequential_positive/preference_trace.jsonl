@@ -1,0 +1,2 @@
+{"cpu_s": 1.017291837, "preference_id": "Q3_SEARCH_070", "weights": [1.0, 0.0, 0.0, 0.0, 0.0], "action": "q3_milp_objective", "fixed_transport_sorties": 29, "fixed_relay_sorties": 6, "energy_objective": "CONSERVATIVE_ACTIVE_POWER_SPAN_SURROGATE_ACTUAL_ENERGY_RECHECKED"}
+{"cpu_s": 1.025018298, "preference_id": "Q3_SEARCH_070", "weights": [1.0, 0.0, 0.0, 0.0, 0.0], "action": "q3_lp", "exact_energy": false, "fixed_transport_sorties": 29, "fixed_relay_sorties": 6, "objective_coefficients_sha256": "654849b6a7608331d7da3797bde499ff618d9149dee8b9f3dbaa5b590f54bb9b"}

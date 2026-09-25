@@ -1,0 +1,51 @@
+{
+  "Q2_ALNS": {
+    "implemented": true,
+    "adaptive_sampling_exercised": true,
+    "all_four_objective_axes_exercised": true,
+    "small_domain": "small_domain_certificate.json",
+    "claim": "Problem adaptation with bounded development checks, not state of the art",
+    "independently_checked_improvement_examples": [
+      {
+        "seed": 26092511,
+        "base": "results/p1_preflight/runs/Q2_120_v3/ALNS_26092511/q2/pareto_schedules/P0001",
+        "best": "results/p1_preflight/runs/Q2_120_v3/ALNS_26092511/q2/pareto_schedules/P0014",
+        "base_J_late": 65501.00549024007,
+        "best_J_late": 51966.90267394209,
+        "basic_improvement": true
+      },
+      {
+        "seed": 26092512,
+        "base": "results/p1_preflight/runs/Q2_120_v3/ALNS_26092512/q2/pareto_schedules/P0001",
+        "best": "results/p1_preflight/runs/Q2_120_v3/ALNS_26092512/q2/pareto_schedules/P0010",
+        "base_J_late": 65501.00549024007,
+        "best_J_late": 15282.502748129698,
+        "basic_improvement": true
+      }
+    ]
+  },
+  "uniform": {
+    "current": "HISTORICAL_FIVE_DESTROY_THREE_REPAIR_WITH_EXPLICIT_PREFERENCE_INTERFACE",
+    "historical": "c13306e results unchanged; final v3 restores operators and acceptance, earlier shared-operator runs are diagnostic",
+    "formal_method_identity_resolution_required": false
+  },
+  "Q3": {
+    "flows": [
+      "SEQUENTIAL",
+      "JOINT",
+      "JOINT_CHALLENGE"
+    ],
+    "full_witnesses_by_run": {
+      "results/p1_preflight/runs/Q3_300_v4/SEQUENTIAL_26092511": 0,
+      "results/p1_preflight/runs/Q3_300_v4/JOINT_26092511": 1,
+      "results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092511": 1,
+      "results/p1_preflight/runs/Q3_300_v4/SEQUENTIAL_26092512": 0,
+      "results/p1_preflight/runs/Q3_300_v4/JOINT_26092512": 3,
+      "results/p1_preflight/runs/Q3_300_v4/JOINT_CHALLENGE_26092512": 4
+    },
+    "all_five_search_preference_axes_exercised": false,
+    "reason": "Current bounded flow visits first three preference axes and one transport structure; transport/relay sortie axes not yet exercised in whole-flow original-instance search",
+    "sequential_positive_control_completed": true
+  },
+  "formal_admitted": false
+}

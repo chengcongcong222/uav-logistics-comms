@@ -1,0 +1,4 @@
+B0 type_load {'B': 11, 'C': 11, 'A': 10} sorties 32
+POOL 1074 306 2693
+SOLVED R0001 {'J_late': 0.0, 'J_norm': np.float64(0.4945834385013644), 'makespan': np.float64(9163.009525481444), 'energy': 96.50584023627744, 'sorties': 35, 'source': 'P0002', 'global_optimum_proven': False}
+SOLVED R0002 {'J_late': 0.0, 'J_norm': np.float64(0.5461921433701395), 'makespan': np.float64(9590.503994252189), 'energy': 93.69875308928545, 'sorties': 32, 'source': 'P0003', 'global_optimum_proven': False}

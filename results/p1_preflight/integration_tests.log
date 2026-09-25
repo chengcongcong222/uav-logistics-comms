@@ -1,0 +1,40 @@
+test_adaptive_probabilities_update (test_integration.Contracts.test_adaptive_probabilities_update) ... ok
+test_cache_dependency_invalidation (test_integration.Contracts.test_cache_dependency_invalidation) ... ok
+test_cpu_clock (test_integration.Contracts.test_cpu_clock) ... ok
+test_empty_archive (test_integration.Contracts.test_empty_archive) ... ok
+test_energy_tolerance (test_integration.Contracts.test_energy_tolerance) ... ok
+test_hard_deadlines_from_raw_flags (test_integration.Contracts.test_hard_deadlines_from_raw_flags) ... ok
+test_preference_changes_ranking (test_integration.Contracts.test_preference_changes_ranking) ... ok
+test_q3_split_sorties (test_integration.Contracts.test_q3_split_sorties) ... ok
+test_rounding_can_destroy_nondominance (test_integration.Contracts.test_rounding_can_destroy_nondominance) ... ok
+test_run_cache_isolation (test_integration.Contracts.test_run_cache_isolation) ... ok
+test_search_files_have_no_holdout (test_integration.Contracts.test_search_files_have_no_holdout) ... ok
+test_unit_mapping (test_integration.Contracts.test_unit_mapping) ... ok
+test_zero_late_priority (test_integration.Contracts.test_zero_late_priority) ... ok
+test_complete_two_box_domain_and_alns_moves (test_integration.SmallPhysicalCase.test_complete_two_box_domain_and_alns_moves)
+All partitions/types/orders for two real boxes, earliest decoder only. ... ok
+test_bad_budget (test_preferences.PreferenceTests.test_bad_budget) ... ok
+test_bad_scales_and_weights (test_preferences.PreferenceTests.test_bad_scales_and_weights) ... ok
+test_composition_count (test_preferences.PreferenceTests.test_composition_count) ... ok
+test_dimension_errors (test_preferences.PreferenceTests.test_dimension_errors) ... ok
+test_empty_archive (test_preferences.PreferenceTests.test_empty_archive) ... ok
+test_evaluation_disjoint (test_preferences.PreferenceTests.test_evaluation_disjoint) ... ok
+test_evaluation_positive (test_preferences.PreferenceTests.test_evaluation_positive) ... ok
+test_evaluation_reproducible (test_preferences.PreferenceTests.test_evaluation_reproducible) ... ok
+test_no_clipping (test_preferences.PreferenceTests.test_no_clipping) ... ok
+test_nonconvex_frontier_and_budget (test_preferences.PreferenceTests.test_nonconvex_frontier_and_budget) ... ok
+test_nonfinite_rejected (test_preferences.PreferenceTests.test_nonfinite_rejected) ... ok
+test_pareto_and_duplicate (test_preferences.PreferenceTests.test_pareto_and_duplicate) ... ok
+test_positive_weight_optimum_is_nondominated_in_finite_set (test_preferences.PreferenceTests.test_positive_weight_optimum_is_nondominated_in_finite_set) ... ok
+test_scope_keeps_relay_coordinate (test_preferences.PreferenceTests.test_scope_keeps_relay_coordinate) ... ok
+test_search_counts (test_preferences.PreferenceTests.test_search_counts) ... ok
+test_search_has_equal_and_axes (test_preferences.PreferenceTests.test_search_has_equal_and_axes) ... ok
+test_search_unit_sum (test_preferences.PreferenceTests.test_search_unit_sum) ... ok
+test_split_sorties_not_total (test_preferences.PreferenceTests.test_split_sorties_not_total) ... ok
+test_zero_anchor_does_not_scan (test_preferences.PreferenceTests.test_zero_anchor_does_not_scan) ... ok
+test_zero_weight_tie_can_be_dominated (test_preferences.PreferenceTests.test_zero_weight_tie_can_be_dominated) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 1.155s
+
+OK

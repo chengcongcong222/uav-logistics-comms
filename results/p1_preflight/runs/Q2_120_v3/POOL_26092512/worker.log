@@ -1,0 +1,13 @@
+B0 type_load {'B': 11, 'C': 11, 'A': 10} sorties 32
+POOL 1074 310 2613
+SOLVED R0001 {'J_late': 0.0, 'J_norm': np.float64(0.5097040156696507), 'makespan': 10717.24511227824, 'energy': 97.91302214693084, 'sorties': 37, 'source': 'P0002', 'global_optimum_proven': False}
+SOLVED R0002 {'J_late': 0.0, 'J_norm': np.float64(0.5429920060334967), 'makespan': np.float64(10337.943190034852), 'energy': 102.23307196496569, 'sorties': 38, 'source': 'P0003', 'global_optimum_proven': False}
+SOLVED R0003 {'J_late': 0.0, 'J_norm': np.float64(0.5429920060334967), 'makespan': np.float64(10337.943190034852), 'energy': 102.23307196496569, 'sorties': 38, 'source': 'P0004', 'global_optimum_proven': False}
+SOLVED R0004 {'J_late': 0.0, 'J_norm': np.float64(0.5429920060334967), 'makespan': np.float64(10337.943190034852), 'energy': 102.23307196496569, 'sorties': 38, 'source': 'P0005', 'global_optimum_proven': False}
+SOLVED R0005 {'J_late': 0.0, 'J_norm': np.float64(0.5429920060334967), 'makespan': np.float64(10337.943190034852), 'energy': 102.23307196496569, 'sorties': 38, 'source': 'P0006', 'global_optimum_proven': False}
+SOLVED R0006 {'J_late': 0.0, 'J_norm': np.float64(0.5318204212740577), 'makespan': np.float64(9448.597851680137), 'energy': 91.76743887085561, 'sorties': 35, 'source': 'P0007', 'global_optimum_proven': False}
+SOLVED R0007 {'J_late': 0.0, 'J_norm': np.float64(0.5575019196466869), 'makespan': np.float64(10658.385466650854), 'energy': 99.50070287598055, 'sorties': 36, 'source': 'P0008', 'global_optimum_proven': False}
+SOLVED R0008 {'J_late': 0.0, 'J_norm': np.float64(0.5445666600633079), 'makespan': np.float64(10172.460556987911), 'energy': 96.27840087645279, 'sorties': 37, 'source': 'P0009', 'global_optimum_proven': False}
+SOLVED R0009 {'J_late': 0.0, 'J_norm': np.float64(0.5540120740046524), 'makespan': np.float64(9695.054080748856), 'energy': 99.5051285448178, 'sorties': 38, 'source': 'P0010', 'global_optimum_proven': False}
+SOLVED R0010 {'J_late': 0.0, 'J_norm': np.float64(0.5429920060334967), 'makespan': np.float64(10337.943190034852), 'energy': 102.23307196496569, 'sorties': 38, 'source': 'P0011', 'global_optimum_proven': False}
+SOLVED R0011 {'J_late': 0.0, 'J_norm': np.float64(0.5559401750978195), 'makespan': np.float64(10457.31128670176), 'energy': 94.49430514904316, 'sorties': 35, 'source': 'P0012', 'global_optimum_proven': False}

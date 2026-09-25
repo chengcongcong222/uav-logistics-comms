@@ -1,0 +1,6 @@
+/home/ccc/projects/uav-logistics-comms/src/bench_p1/sequential_fixture.py:38: RuntimeWarning: Unrecognized options detected: {'threads', 'random_seed'}. These will be passed to HiGHS verbatim.
+  opts=dict(kwargs.get('options',{}));opts.update(threads=1,random_seed=26092511,time_limit=8);kwargs['options']=opts;return fn(*args,**kwargs)
+/home/ccc/projects/uav-logistics-comms/src/bench_p1/sequential_fixture.py:38: OptimizeWarning: Unrecognized options detected: {'threads': 1, 'random_seed': 26092511}. These will be passed to HiGHS verbatim.
+  opts=dict(kwargs.get('options',{}));opts.update(threads=1,random_seed=26092511,time_limit=8);kwargs['options']=opts;return fn(*args,**kwargs)
+DEVFIX XB1_Q3_PENDING_INDEPENDENT_VALIDATION relay_sorties 6 shift 0.0
+SEQUENTIAL_POSITIVE_CONTROL_INDEPENDENTLY_VERIFIED

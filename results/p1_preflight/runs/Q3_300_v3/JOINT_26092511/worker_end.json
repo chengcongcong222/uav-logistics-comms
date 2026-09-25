@@ -1,0 +1,6 @@
+{
+  "cpu_s": 173.775084321,
+  "phase": "q3_resource_milp",
+  "checkpoints": 3,
+  "children_cpu_s": 0.0
+}

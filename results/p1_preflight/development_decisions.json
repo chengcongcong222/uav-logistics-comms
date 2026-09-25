@@ -1,0 +1,54 @@
+{
+  "decisions": [
+    {
+      "after": "Q2_30_v1",
+      "decision": "ALL_METHODS_TO_120",
+      "reason": "Only two completed ALNS iterations; adaptive sampling after initial forced operator coverage not exercised."
+    },
+    {
+      "after": "Q3_30_v1",
+      "decision": "ALL_METHODS_TO_120",
+      "reason": "All six runs terminate in task-site edge construction; resource scheduling and independent complete Q3 validation not exercised."
+    },
+    {
+      "after": "Q3_120_v2",
+      "decision": "ALL_Q3_METHODS_TO_300",
+      "reason": "All six runs still end in task-site edges; no full Q3 resource or communication audit path exercised. Last allowed development ladder step."
+    },
+    {
+      "after": "UNIFORM_IDENTITY_REVIEW",
+      "decision": "Q2_ALL_METHODS_RERUN_30_THEN_120_V3",
+      "reason": "Restore requested historical baseline identity; same predeclared development seeds and budget ladder for every method."
+    },
+    {
+      "after": "Q3_SEQUENTIAL_POSITIVE_CONTROL",
+      "decision": "RERUN_ALL_Q3_AT_SAME_300_CAP_V4",
+      "reason": "Correct artificial separation buffer; no larger budget, no parameter tuning by algorithm victory."
+    }
+  ],
+  "instrumentation_revision": "v2 streams file opens so hard kill retains cache/access evidence; monitors actual threads/children; no algorithm retuning",
+  "implementation_fixes": [
+    {
+      "module": "q3_adapter",
+      "change": "Transport seed selection now calls declared preference; export no longer reads XB provenance metadata.",
+      "scope": "No old physical model/results changed"
+    },
+    {
+      "batch": "Q3_120_v2",
+      "status": "DIAGNOSTIC_ONLY_EXCLUDED_FROM_CALIBRATION",
+      "reason": "Transport selection wiring edited while this batch was active; preserve initial snapshot and do not treat it as frozen-code comparison. All three flows rerun at 300 seconds under frozen v3 source."
+    },
+    {
+      "after": "Q2_120_v2",
+      "change": "Replace newly adapted shared-operator uniform with original five destroy/three repair and 10 percent acceptance; hook only explicit preference scoring. Earlier shared-operator runs retained as development diagnostics, not final historical-baseline comparison.",
+      "retuning": false
+    },
+    {
+      "module": "joint_kernel",
+      "change": "Remove positive 1e-5 transport separation buffer: it falsely excluded an independently verified adjacent-resource schedule in the sequential positive control.",
+      "applies_to": "P1 fork only",
+      "witness": "fixtures/sequential_positive",
+      "model_change": false
+    }
+  ]
+}

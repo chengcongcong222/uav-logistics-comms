@@ -1,0 +1,28 @@
+{
+  "method": "POOL",
+  "seed": 26092511,
+  "scope": "Q2",
+  "cpu_cap_s": 120,
+  "observed_cpu_s": 119.899579003,
+  "wall_s": 120.31967844799999,
+  "core": 4,
+  "exit_code": 0,
+  "termination": "WORKER_FINISHED",
+  "accepted": [
+    "P0001",
+    "P0002",
+    "P0003",
+    "P0004",
+    "P0005",
+    "P0006",
+    "P0007",
+    "P0008",
+    "P0009",
+    "P0010",
+    "P0011",
+    "P0012"
+  ],
+  "root": "results/p1_preflight/runs/Q2_120_v2/POOL_26092511",
+  "maximum_observed_threads": 1,
+  "observed_children": []
+}

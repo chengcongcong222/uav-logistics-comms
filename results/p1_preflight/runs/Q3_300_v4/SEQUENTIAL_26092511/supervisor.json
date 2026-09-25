@@ -1,0 +1,18 @@
+{
+  "method": "SEQUENTIAL",
+  "seed": 26092511,
+  "scope": "Q3",
+  "cpu_cap_s": 300,
+  "observed_cpu_s": 158.758805528,
+  "wall_s": 159.52630231400002,
+  "core": 0,
+  "exit_code": 0,
+  "termination": "WORKER_FINISHED",
+  "accepted": [
+    "P0001",
+    "P0002"
+  ],
+  "root": "results/p1_preflight/runs/Q3_300_v4/SEQUENTIAL_26092511",
+  "maximum_observed_threads": 1,
+  "observed_children": []
+}
