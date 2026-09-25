@@ -1,0 +1,1128 @@
+{
+  "status": "PASSED",
+  "source_solution": "F13_C2_SITE_B6500_RELAY_00_Q3",
+  "blocks": 4,
+  "partitions": {
+    "2": 7,
+    "3": 6
+  },
+  "all_partitions_checked": 13,
+  "independent_methods": [
+    "Graph reachability for dependency blocks",
+    "All-label enumeration modulo permutations",
+    "Endpoint event sweep",
+    "Resource-ID overlap and unchanged task windows"
+  ],
+  "interpretation": "Whole relay sortie and all services it supports remain in one group because task and guarantee relations are frozen; this is an explicit fixed-task-domain interpretation",
+  "fixed_F13_domain_only": true,
+  "representatives": [
+    {
+      "partition_id": "F13_Q4_K2_005",
+      "k": 2,
+      "groups": [
+        {
+          "group_id": "G1",
+          "services": [
+            "S001",
+            "S003",
+            "S005",
+            "S007",
+            "S009",
+            "S011",
+            "S015"
+          ],
+          "resources": {
+            "TUAV_A": 4,
+            "TUAV_B": 2,
+            "TUAV_C": 2,
+            "TBAT_A": 6,
+            "TBAT_B": 3,
+            "TBAT_C": 2,
+            "RUAV": 1,
+            "REC": 1
+          },
+          "peak_certificates": {
+            "TUAV_A": {
+              "time_s": 4182.4,
+              "task_ids": [
+                "M007",
+                "M021",
+                "M022",
+                "M024"
+              ],
+              "count": 4
+            },
+            "TUAV_B": {
+              "time_s": 3792.6,
+              "task_ids": [
+                "M005",
+                "M015"
+              ],
+              "count": 2
+            },
+            "TUAV_C": {
+              "time_s": 0.0,
+              "task_ids": [
+                "M001",
+                "M002"
+              ],
+              "count": 2
+            },
+            "TBAT_A": {
+              "time_s": 4542.4,
+              "task_ids": [
+                "M007",
+                "M013",
+                "M021",
+                "M022",
+                "M023",
+                "M024"
+              ],
+              "count": 6
+            },
+            "TBAT_B": {
+              "time_s": 4984.5,
+              "task_ids": [
+                "M005",
+                "M008",
+                "M015"
+              ],
+              "count": 3
+            },
+            "TBAT_C": {
+              "time_s": 570.0,
+              "task_ids": [
+                "M001",
+                "M002"
+              ],
+              "count": 2
+            },
+            "RUAV": {
+              "time_s": 2476.063331858314,
+              "task_ids": [
+                "F13_C2_SITE_B6500_RELAY_00_Q3_R003"
+              ],
+              "count": 1
+            },
+            "REC": {
+              "time_s": 2656.063331858314,
+              "task_ids": [
+                "F13_C2_SITE_B6500_RELAY_00_Q3_R003"
+              ],
+              "count": 1
+            }
+          },
+          "workload_uav_occupied_s": 27199.289720519584,
+          "box_count": 43,
+          "mass_kg": 414.0,
+          "transport_sorties": 12,
+          "relay_sorties": 1,
+          "allocated_resource_time_s": 182548.8841314404,
+          "occupied_resource_time_s": 67664.2522008326
+        },
+        {
+          "group_id": "G2",
+          "services": [
+            "S002",
+            "S004",
+            "S006",
+            "S008",
+            "S010",
+            "S012",
+            "S013",
+            "S014"
+          ],
+          "resources": {
+            "TUAV_A": 4,
+            "TUAV_B": 2,
+            "TUAV_C": 2,
+            "TBAT_A": 4,
+            "TBAT_B": 4,
+            "TBAT_C": 3,
+            "RUAV": 2,
+            "REC": 2
+          },
+          "peak_certificates": {
+            "TUAV_A": {
+              "time_s": 0.1,
+              "task_ids": [
+                "M003",
+                "M009",
+                "M011",
+                "M012"
+              ],
+              "count": 4
+            },
+            "TUAV_B": {
+              "time_s": 0.0,
+              "task_ids": [
+                "M016",
+                "M019"
+              ],
+              "count": 2
+            },
+            "TUAV_C": {
+              "time_s": 1692.2,
+              "task_ids": [
+                "M004",
+                "M014"
+              ],
+              "count": 2
+            },
+            "TBAT_A": {
+              "time_s": 2125.9,
+              "task_ids": [
+                "M003",
+                "M010",
+                "M011",
+                "M012"
+              ],
+              "count": 4
+            },
+            "TBAT_B": {
+              "time_s": 2259.8,
+              "task_ids": [
+                "M016",
+                "M017",
+                "M018",
+                "M019"
+              ],
+              "count": 4
+            },
+            "TBAT_C": {
+              "time_s": 4372.0,
+              "task_ids": [
+                "M004",
+                "M006",
+                "M014"
+              ],
+              "count": 3
+            },
+            "RUAV": {
+              "time_s": 1567.1803878858195,
+              "task_ids": [
+                "F13_C2_SITE_B6500_RELAY_00_Q3_R001",
+                "F13_C2_SITE_B6500_RELAY_00_Q3_R002"
+              ],
+              "count": 2
+            },
+            "REC": {
+              "time_s": 1747.1803878858195,
+              "task_ids": [
+                "F13_C2_SITE_B6500_RELAY_00_Q3_R001",
+                "F13_C2_SITE_B6500_RELAY_00_Q3_R002"
+              ],
+              "count": 2
+            }
+          },
+          "workload_uav_occupied_s": 28046.89532965151,
+          "box_count": 37,
+          "mass_kg": 344.0,
+          "transport_sorties": 12,
+          "relay_sorties": 2,
+          "allocated_resource_time_s": 199934.49214395852,
+          "occupied_resource_time_s": 70766.42395343495
+        }
+      ],
+      "resources": {
+        "TUAV_A": 8,
+        "TUAV_B": 4,
+        "TUAV_C": 4,
+        "TBAT_A": 10,
+        "TBAT_B": 7,
+        "TBAT_C": 5,
+        "RUAV": 3,
+        "REC": 3
+      },
+      "shortage": {
+        "TUAV_A": 4,
+        "TUAV_B": 2,
+        "TUAV_C": 2,
+        "TBAT_A": 4,
+        "TBAT_B": 3,
+        "TBAT_C": 1,
+        "RUAV": 1,
+        "REC": 0
+      },
+      "inventory_surplus": {
+        "TUAV_A": 0,
+        "TUAV_B": 0,
+        "TUAV_C": 0,
+        "TBAT_A": 0,
+        "TBAT_B": 0,
+        "TBAT_C": 0,
+        "RUAV": 0,
+        "REC": 3
+      },
+      "redundancy": {
+        "TUAV_A": 4,
+        "TUAV_B": 2,
+        "TUAV_C": 2,
+        "TBAT_A": 4,
+        "TBAT_B": 3,
+        "TBAT_C": 1,
+        "RUAV": 1,
+        "REC": 0
+      },
+      "total_shortage_units": 17,
+      "workload_cv": 0.015342337364329939
+    },
+    {
+      "partition_id": "F13_Q4_K2_007",
+      "k": 2,
+      "groups": [
+        {
+          "group_id": "G1",
+          "services": [
+            "S001"
+          ],
+          "resources": {
+            "TUAV_A": 0,
+            "TUAV_B": 0,
+            "TUAV_C": 2,
+            "TBAT_A": 0,
+            "TBAT_B": 0,
+            "TBAT_C": 2,
+            "RUAV": 0,
+            "REC": 0
+          },
+          "peak_certificates": {
+            "TUAV_A": {
+              "time_s": null,
+              "task_ids": [],
+              "count": 0
+            },
+            "TUAV_B": {
+              "time_s": null,
+              "task_ids": [],
+              "count": 0
+            },
+            "TUAV_C": {
+              "time_s": 0.0,
+              "task_ids": [
+                "M001",
+                "M002"
+              ],
+              "count": 2
+            },
+            "TBAT_A": {
+              "time_s": null,
+              "task_ids": [],
+              "count": 0
+            },
+            "TBAT_B": {
+              "time_s": null,
+              "task_ids": [],
+              "count": 0
+            },
+            "TBAT_C": {
+              "time_s": 570.0,
+              "task_ids": [
+                "M001",
+                "M002"
+              ],
+              "count": 2
+            },
+            "RUAV": {
+              "time_s": null,
+              "task_ids": [],
+              "count": 0
+            },
+            "REC": {
+              "time_s": null,
+              "task_ids": [],
+              "count": 0
+            }
+          },
+          "workload_uav_occupied_s": 3186.34078375793,
+          "box_count": 15,
+          "mass_kg": 154.0,
+          "transport_sorties": 2,
+          "relay_sorties": 0,
+          "allocated_resource_time_s": 34771.216025036265,
+          "occupied_resource_time_s": 8590.866632322535
+        },
+        {
+          "group_id": "G2",
+          "services": [
+            "S002",
+            "S003",
+            "S004",
+            "S005",
+            "S006",
+            "S007",
+            "S008",
+            "S009",
+            "S010",
+            "S011",
+            "S012",
+            "S013",
+            "S014",
+            "S015"
+          ],
+          "resources": {
+            "TUAV_A": 4,
+            "TUAV_B": 2,
+            "TUAV_C": 2,
+            "TBAT_A": 6,
+            "TBAT_B": 4,
+            "TBAT_C": 4,
+            "RUAV": 2,
+            "REC": 3
+          },
+          "peak_certificates": {
+            "TUAV_A": {
+              "time_s": 4182.4,
+              "task_ids": [
+                "M007",
+                "M021",
+                "M022",
+                "M024"
+              ],
+              "count": 4
+            },
+            "TUAV_B": {
+              "time_s": 3792.6,
+              "task_ids": [
+                "M005",
+                "M015"
+              ],
+              "count": 2
+            },
+            "TUAV_C": {
+              "time_s": 3892.0,
+              "task_ids": [
+                "M006",
+                "M020"
+              ],
+              "count": 2
+            },
+            "TBAT_A": {
+              "time_s": 4542.4,
+              "task_ids": [
+                "M007",
+                "M013",
+                "M021",
+                "M022",
+                "M023",
+                "M024"
+              ],
+              "count": 6
+            },
+            "TBAT_B": {
+              "time_s": 4182.6,
+              "task_ids": [
+                "M005",
+                "M015",
+                "M017",
+                "M018"
+              ],
+              "count": 4
+            },
+            "TBAT_C": {
+              "time_s": 4372.0,
+              "task_ids": [
+                "M004",
+                "M006",
+                "M014",
+                "M020"
+              ],
+              "count": 4
+            },
+            "RUAV": {
+              "time_s": 1567.1803878858195,
+              "task_ids": [
+                "F13_C2_SITE_B6500_RELAY_00_Q3_R001",
+                "F13_C2_SITE_B6500_RELAY_00_Q3_R002"
+              ],
+              "count": 2
+            },
+            "REC": {
+              "time_s": 2656.063331858314,
+              "task_ids": [
+                "F13_C2_SITE_B6500_RELAY_00_Q3_R001",
+                "F13_C2_SITE_B6500_RELAY_00_Q3_R002",
+                "F13_C2_SITE_B6500_RELAY_00_Q3_R003"
+              ],
+              "count": 3
+            }
+          },
+          "workload_uav_occupied_s": 52059.844266413165,
+          "box_count": 65,
+          "mass_kg": 604.0,
+          "transport_sorties": 22,
+          "relay_sorties": 3,
+          "allocated_resource_time_s": 234705.70816899478,
+          "occupied_resource_time_s": 129839.80952194502
+        }
+      ],
+      "resources": {
+        "TUAV_A": 4,
+        "TUAV_B": 2,
+        "TUAV_C": 4,
+        "TBAT_A": 6,
+        "TBAT_B": 4,
+        "TBAT_C": 6,
+        "RUAV": 2,
+        "REC": 3
+      },
+      "shortage": {
+        "TUAV_A": 0,
+        "TUAV_B": 0,
+        "TUAV_C": 2,
+        "TBAT_A": 0,
+        "TBAT_B": 0,
+        "TBAT_C": 2,
+        "RUAV": 0,
+        "REC": 0
+      },
+      "inventory_surplus": {
+        "TUAV_A": 0,
+        "TUAV_B": 0,
+        "TUAV_C": 0,
+        "TBAT_A": 0,
+        "TBAT_B": 0,
+        "TBAT_C": 0,
+        "RUAV": 0,
+        "REC": 3
+      },
+      "redundancy": {
+        "TUAV_A": 0,
+        "TUAV_B": 0,
+        "TUAV_C": 2,
+        "TBAT_A": 0,
+        "TBAT_B": 0,
+        "TBAT_C": 2,
+        "RUAV": 0,
+        "REC": 0
+      },
+      "total_shortage_units": 4,
+      "workload_cv": 0.8846493823649798
+    },
+    {
+      "partition_id": "F13_Q4_K3_003",
+      "k": 3,
+      "groups": [
+        {
+          "group_id": "G1",
+          "services": [
+            "S001"
+          ],
+          "resources": {
+            "TUAV_A": 0,
+            "TUAV_B": 0,
+            "TUAV_C": 2,
+            "TBAT_A": 0,
+            "TBAT_B": 0,
+            "TBAT_C": 2,
+            "RUAV": 0,
+            "REC": 0
+          },
+          "peak_certificates": {
+            "TUAV_A": {
+              "time_s": null,
+              "task_ids": [],
+              "count": 0
+            },
+            "TUAV_B": {
+              "time_s": null,
+              "task_ids": [],
+              "count": 0
+            },
+            "TUAV_C": {
+              "time_s": 0.0,
+              "task_ids": [
+                "M001",
+                "M002"
+              ],
+              "count": 2
+            },
+            "TBAT_A": {
+              "time_s": null,
+              "task_ids": [],
+              "count": 0
+            },
+            "TBAT_B": {
+              "time_s": null,
+              "task_ids": [],
+              "count": 0
+            },
+            "TBAT_C": {
+              "time_s": 570.0,
+              "task_ids": [
+                "M001",
+                "M002"
+              ],
+              "count": 2
+            },
+            "RUAV": {
+              "time_s": null,
+              "task_ids": [],
+              "count": 0
+            },
+            "REC": {
+              "time_s": null,
+              "task_ids": [],
+              "count": 0
+            }
+          },
+          "workload_uav_occupied_s": 3186.34078375793,
+          "box_count": 15,
+          "mass_kg": 154.0,
+          "transport_sorties": 2,
+          "relay_sorties": 0,
+          "allocated_resource_time_s": 34771.216025036265,
+          "occupied_resource_time_s": 8590.866632322535
+        },
+        {
+          "group_id": "G2",
+          "services": [
+            "S002",
+            "S003",
+            "S004",
+            "S005",
+            "S007",
+            "S008",
+            "S009",
+            "S010",
+            "S011",
+            "S012",
+            "S013",
+            "S014",
+            "S015"
+          ],
+          "resources": {
+            "TUAV_A": 4,
+            "TUAV_B": 2,
+            "TUAV_C": 2,
+            "TBAT_A": 6,
+            "TBAT_B": 4,
+            "TBAT_C": 4,
+            "RUAV": 2,
+            "REC": 3
+          },
+          "peak_certificates": {
+            "TUAV_A": {
+              "time_s": 4182.4,
+              "task_ids": [
+                "M007",
+                "M021",
+                "M022",
+                "M024"
+              ],
+              "count": 4
+            },
+            "TUAV_B": {
+              "time_s": 3792.6,
+              "task_ids": [
+                "M005",
+                "M015"
+              ],
+              "count": 2
+            },
+            "TUAV_C": {
+              "time_s": 3892.0,
+              "task_ids": [
+                "M006",
+                "M020"
+              ],
+              "count": 2
+            },
+            "TBAT_A": {
+              "time_s": 4542.4,
+              "task_ids": [
+                "M007",
+                "M013",
+                "M021",
+                "M022",
+                "M023",
+                "M024"
+              ],
+              "count": 6
+            },
+            "TBAT_B": {
+              "time_s": 4182.6,
+              "task_ids": [
+                "M005",
+                "M015",
+                "M017",
+                "M018"
+              ],
+              "count": 4
+            },
+            "TBAT_C": {
+              "time_s": 4372.0,
+              "task_ids": [
+                "M004",
+                "M006",
+                "M014",
+                "M020"
+              ],
+              "count": 4
+            },
+            "RUAV": {
+              "time_s": 1567.1803878858195,
+              "task_ids": [
+                "F13_C2_SITE_B6500_RELAY_00_Q3_R001",
+                "F13_C2_SITE_B6500_RELAY_00_Q3_R002"
+              ],
+              "count": 2
+            },
+            "REC": {
+              "time_s": 2656.063331858314,
+              "task_ids": [
+                "F13_C2_SITE_B6500_RELAY_00_Q3_R001",
+                "F13_C2_SITE_B6500_RELAY_00_Q3_R002",
+                "F13_C2_SITE_B6500_RELAY_00_Q3_R003"
+              ],
+              "count": 3
+            }
+          },
+          "workload_uav_occupied_s": 46925.903200025234,
+          "box_count": 59,
+          "mass_kg": 545.0,
+          "transport_sorties": 18,
+          "relay_sorties": 3,
+          "allocated_resource_time_s": 234705.70816899478,
+          "occupied_resource_time_s": 117451.85680921265
+        },
+        {
+          "group_id": "G3",
+          "services": [
+            "S006"
+          ],
+          "resources": {
+            "TUAV_A": 3,
+            "TUAV_B": 0,
+            "TUAV_C": 0,
+            "TBAT_A": 3,
+            "TBAT_B": 0,
+            "TBAT_C": 0,
+            "RUAV": 0,
+            "REC": 0
+          },
+          "peak_certificates": {
+            "TUAV_A": {
+              "time_s": 0.1,
+              "task_ids": [
+                "M009",
+                "M011",
+                "M012"
+              ],
+              "count": 3
+            },
+            "TUAV_B": {
+              "time_s": null,
+              "task_ids": [],
+              "count": 0
+            },
+            "TUAV_C": {
+              "time_s": null,
+              "task_ids": [],
+              "count": 0
+            },
+            "TBAT_A": {
+              "time_s": 2125.9,
+              "task_ids": [
+                "M010",
+                "M011",
+                "M012"
+              ],
+              "count": 3
+            },
+            "TBAT_B": {
+              "time_s": null,
+              "task_ids": [],
+              "count": 0
+            },
+            "TBAT_C": {
+              "time_s": null,
+              "task_ids": [],
+              "count": 0
+            },
+            "RUAV": {
+              "time_s": null,
+              "task_ids": [],
+              "count": 0
+            },
+            "REC": {
+              "time_s": null,
+              "task_ids": [],
+              "count": 0
+            }
+          },
+          "workload_uav_occupied_s": 5133.941066387932,
+          "box_count": 6,
+          "mass_kg": 59.0,
+          "transport_sorties": 4,
+          "relay_sorties": 0,
+          "allocated_resource_time_s": 52156.8240375544,
+          "occupied_resource_time_s": 12387.95271273236
+        }
+      ],
+      "resources": {
+        "TUAV_A": 7,
+        "TUAV_B": 2,
+        "TUAV_C": 4,
+        "TBAT_A": 9,
+        "TBAT_B": 4,
+        "TBAT_C": 6,
+        "RUAV": 2,
+        "REC": 3
+      },
+      "shortage": {
+        "TUAV_A": 3,
+        "TUAV_B": 0,
+        "TUAV_C": 2,
+        "TBAT_A": 3,
+        "TBAT_B": 0,
+        "TBAT_C": 2,
+        "RUAV": 0,
+        "REC": 0
+      },
+      "inventory_surplus": {
+        "TUAV_A": 0,
+        "TUAV_B": 0,
+        "TUAV_C": 0,
+        "TBAT_A": 0,
+        "TBAT_B": 0,
+        "TBAT_C": 0,
+        "RUAV": 0,
+        "REC": 3
+      },
+      "redundancy": {
+        "TUAV_A": 3,
+        "TUAV_B": 0,
+        "TUAV_C": 2,
+        "TBAT_A": 3,
+        "TBAT_B": 0,
+        "TBAT_C": 2,
+        "RUAV": 0,
+        "REC": 0
+      },
+      "total_shortage_units": 10,
+      "workload_cv": 1.095585890225235
+    },
+    {
+      "partition_id": "F13_Q4_K3_004",
+      "k": 3,
+      "groups": [
+        {
+          "group_id": "G1",
+          "services": [
+            "S001",
+            "S006"
+          ],
+          "resources": {
+            "TUAV_A": 3,
+            "TUAV_B": 0,
+            "TUAV_C": 2,
+            "TBAT_A": 3,
+            "TBAT_B": 0,
+            "TBAT_C": 2,
+            "RUAV": 0,
+            "REC": 0
+          },
+          "peak_certificates": {
+            "TUAV_A": {
+              "time_s": 0.1,
+              "task_ids": [
+                "M009",
+                "M011",
+                "M012"
+              ],
+              "count": 3
+            },
+            "TUAV_B": {
+              "time_s": null,
+              "task_ids": [],
+              "count": 0
+            },
+            "TUAV_C": {
+              "time_s": 0.0,
+              "task_ids": [
+                "M001",
+                "M002"
+              ],
+              "count": 2
+            },
+            "TBAT_A": {
+              "time_s": 2125.9,
+              "task_ids": [
+                "M010",
+                "M011",
+                "M012"
+              ],
+              "count": 3
+            },
+            "TBAT_B": {
+              "time_s": null,
+              "task_ids": [],
+              "count": 0
+            },
+            "TBAT_C": {
+              "time_s": 570.0,
+              "task_ids": [
+                "M001",
+                "M002"
+              ],
+              "count": 2
+            },
+            "RUAV": {
+              "time_s": null,
+              "task_ids": [],
+              "count": 0
+            },
+            "REC": {
+              "time_s": null,
+              "task_ids": [],
+              "count": 0
+            }
+          },
+          "workload_uav_occupied_s": 8320.28185014586,
+          "box_count": 21,
+          "mass_kg": 213.0,
+          "transport_sorties": 6,
+          "relay_sorties": 0,
+          "allocated_resource_time_s": 86928.04006259066,
+          "occupied_resource_time_s": 20978.819345054893
+        },
+        {
+          "group_id": "G2",
+          "services": [
+            "S002",
+            "S004",
+            "S008",
+            "S010",
+            "S012",
+            "S013",
+            "S014"
+          ],
+          "resources": {
+            "TUAV_A": 1,
+            "TUAV_B": 2,
+            "TUAV_C": 2,
+            "TBAT_A": 1,
+            "TBAT_B": 4,
+            "TBAT_C": 3,
+            "RUAV": 2,
+            "REC": 2
+          },
+          "peak_certificates": {
+            "TUAV_A": {
+              "time_s": 0.0,
+              "task_ids": [
+                "M003"
+              ],
+              "count": 1
+            },
+            "TUAV_B": {
+              "time_s": 0.0,
+              "task_ids": [
+                "M016",
+                "M019"
+              ],
+              "count": 2
+            },
+            "TUAV_C": {
+              "time_s": 1692.2,
+              "task_ids": [
+                "M004",
+                "M014"
+              ],
+              "count": 2
+            },
+            "TBAT_A": {
+              "time_s": 360.0,
+              "task_ids": [
+                "M003"
+              ],
+              "count": 1
+            },
+            "TBAT_B": {
+              "time_s": 2259.8,
+              "task_ids": [
+                "M016",
+                "M017",
+                "M018",
+                "M019"
+              ],
+              "count": 4
+            },
+            "TBAT_C": {
+              "time_s": 4372.0,
+              "task_ids": [
+                "M004",
+                "M006",
+                "M014"
+              ],
+              "count": 3
+            },
+            "RUAV": {
+              "time_s": 1567.1803878858195,
+              "task_ids": [
+                "F13_C2_SITE_B6500_RELAY_00_Q3_R001",
+                "F13_C2_SITE_B6500_RELAY_00_Q3_R002"
+              ],
+              "count": 2
+            },
+            "REC": {
+              "time_s": 1747.1803878858195,
+              "task_ids": [
+                "F13_C2_SITE_B6500_RELAY_00_Q3_R001",
+                "F13_C2_SITE_B6500_RELAY_00_Q3_R002"
+              ],
+              "count": 2
+            }
+          },
+          "workload_uav_occupied_s": 22912.95426326358,
+          "box_count": 31,
+          "mass_kg": 285.0,
+          "transport_sorties": 8,
+          "relay_sorties": 2,
+          "allocated_resource_time_s": 147777.66810640413,
+          "occupied_resource_time_s": 58378.47124070259
+        },
+        {
+          "group_id": "G3",
+          "services": [
+            "S003",
+            "S005",
+            "S007",
+            "S009",
+            "S011",
+            "S015"
+          ],
+          "resources": {
+            "TUAV_A": 4,
+            "TUAV_B": 2,
+            "TUAV_C": 1,
+            "TBAT_A": 6,
+            "TBAT_B": 3,
+            "TBAT_C": 1,
+            "RUAV": 1,
+            "REC": 1
+          },
+          "peak_certificates": {
+            "TUAV_A": {
+              "time_s": 4182.4,
+              "task_ids": [
+                "M007",
+                "M021",
+                "M022",
+                "M024"
+              ],
+              "count": 4
+            },
+            "TUAV_B": {
+              "time_s": 3792.6,
+              "task_ids": [
+                "M005",
+                "M015"
+              ],
+              "count": 2
+            },
+            "TUAV_C": {
+              "time_s": 3602.2,
+              "task_ids": [
+                "M020"
+              ],
+              "count": 1
+            },
+            "TBAT_A": {
+              "time_s": 4542.4,
+              "task_ids": [
+                "M007",
+                "M013",
+                "M021",
+                "M022",
+                "M023",
+                "M024"
+              ],
+              "count": 6
+            },
+            "TBAT_B": {
+              "time_s": 4984.5,
+              "task_ids": [
+                "M005",
+                "M008",
+                "M015"
+              ],
+              "count": 3
+            },
+            "TBAT_C": {
+              "time_s": 4082.2,
+              "task_ids": [
+                "M020"
+              ],
+              "count": 1
+            },
+            "RUAV": {
+              "time_s": 2476.063331858314,
+              "task_ids": [
+                "F13_C2_SITE_B6500_RELAY_00_Q3_R003"
+              ],
+              "count": 1
+            },
+            "REC": {
+              "time_s": 2656.063331858314,
+              "task_ids": [
+                "F13_C2_SITE_B6500_RELAY_00_Q3_R003"
+              ],
+              "count": 1
+            }
+          },
+          "workload_uav_occupied_s": 24012.948936761655,
+          "box_count": 28,
+          "mass_kg": 260.0,
+          "transport_sorties": 10,
+          "relay_sorties": 1,
+          "allocated_resource_time_s": 165163.27611892225,
+          "occupied_resource_time_s": 59073.38556851007
+        }
+      ],
+      "resources": {
+        "TUAV_A": 8,
+        "TUAV_B": 4,
+        "TUAV_C": 5,
+        "TBAT_A": 10,
+        "TBAT_B": 7,
+        "TBAT_C": 6,
+        "RUAV": 3,
+        "REC": 3
+      },
+      "shortage": {
+        "TUAV_A": 4,
+        "TUAV_B": 2,
+        "TUAV_C": 3,
+        "TBAT_A": 4,
+        "TBAT_B": 3,
+        "TBAT_C": 2,
+        "RUAV": 1,
+        "REC": 0
+      },
+      "inventory_surplus": {
+        "TUAV_A": 0,
+        "TUAV_B": 0,
+        "TUAV_C": 0,
+        "TBAT_A": 0,
+        "TBAT_B": 0,
+        "TBAT_C": 0,
+        "RUAV": 0,
+        "REC": 3
+      },
+      "redundancy": {
+        "TUAV_A": 4,
+        "TUAV_B": 2,
+        "TUAV_C": 3,
+        "TBAT_A": 4,
+        "TBAT_B": 3,
+        "TBAT_C": 2,
+        "RUAV": 1,
+        "REC": 0
+      },
+      "total_shortage_units": 19,
+      "workload_cv": 0.38839430371487965
+    }
+  ]
+}

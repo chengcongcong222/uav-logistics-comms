@@ -1,0 +1,795 @@
+{
+  "k": 2,
+  "labels": [
+    0,
+    1,
+    1,
+    1
+  ],
+  "groups": [
+    {
+      "group_id": "G1",
+      "services": [
+        "S001"
+      ],
+      "resources": {
+        "TUAV_A": 0,
+        "TUAV_B": 0,
+        "TUAV_C": 2,
+        "TBAT_A": 0,
+        "TBAT_B": 0,
+        "TBAT_C": 2,
+        "RUAV": 0,
+        "REC": 0
+      },
+      "peak_certificates": {
+        "TUAV_A": {
+          "time_s": null,
+          "task_ids": [],
+          "count": 0
+        },
+        "TUAV_B": {
+          "time_s": null,
+          "task_ids": [],
+          "count": 0
+        },
+        "TUAV_C": {
+          "time_s": 0.0,
+          "task_ids": [
+            "M001",
+            "M002"
+          ],
+          "count": 2
+        },
+        "TBAT_A": {
+          "time_s": null,
+          "task_ids": [],
+          "count": 0
+        },
+        "TBAT_B": {
+          "time_s": null,
+          "task_ids": [],
+          "count": 0
+        },
+        "TBAT_C": {
+          "time_s": 570.0,
+          "task_ids": [
+            "M001",
+            "M002"
+          ],
+          "count": 2
+        },
+        "RUAV": {
+          "time_s": null,
+          "task_ids": [],
+          "count": 0
+        },
+        "REC": {
+          "time_s": null,
+          "task_ids": [],
+          "count": 0
+        }
+      },
+      "workload_uav_occupied_s": 3186.34078375793,
+      "box_count": 15,
+      "mass_kg": 154.0,
+      "transport_sorties": 2,
+      "relay_sorties": 0,
+      "allocated_resource_time_s": 34771.216025036265,
+      "occupied_resource_time_s": 8590.866632322535
+    },
+    {
+      "group_id": "G2",
+      "services": [
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "S006",
+        "S007",
+        "S008",
+        "S009",
+        "S010",
+        "S011",
+        "S012",
+        "S013",
+        "S014",
+        "S015"
+      ],
+      "resources": {
+        "TUAV_A": 4,
+        "TUAV_B": 2,
+        "TUAV_C": 2,
+        "TBAT_A": 6,
+        "TBAT_B": 4,
+        "TBAT_C": 4,
+        "RUAV": 2,
+        "REC": 3
+      },
+      "peak_certificates": {
+        "TUAV_A": {
+          "time_s": 4182.4,
+          "task_ids": [
+            "M007",
+            "M021",
+            "M022",
+            "M024"
+          ],
+          "count": 4
+        },
+        "TUAV_B": {
+          "time_s": 3792.6,
+          "task_ids": [
+            "M005",
+            "M015"
+          ],
+          "count": 2
+        },
+        "TUAV_C": {
+          "time_s": 3892.0,
+          "task_ids": [
+            "M006",
+            "M020"
+          ],
+          "count": 2
+        },
+        "TBAT_A": {
+          "time_s": 4542.4,
+          "task_ids": [
+            "M007",
+            "M013",
+            "M021",
+            "M022",
+            "M023",
+            "M024"
+          ],
+          "count": 6
+        },
+        "TBAT_B": {
+          "time_s": 4182.6,
+          "task_ids": [
+            "M005",
+            "M015",
+            "M017",
+            "M018"
+          ],
+          "count": 4
+        },
+        "TBAT_C": {
+          "time_s": 4372.0,
+          "task_ids": [
+            "M004",
+            "M006",
+            "M014",
+            "M020"
+          ],
+          "count": 4
+        },
+        "RUAV": {
+          "time_s": 1567.1803878858195,
+          "task_ids": [
+            "F13_C2_SITE_B6500_RELAY_00_Q3_R001",
+            "F13_C2_SITE_B6500_RELAY_00_Q3_R002"
+          ],
+          "count": 2
+        },
+        "REC": {
+          "time_s": 2656.063331858314,
+          "task_ids": [
+            "F13_C2_SITE_B6500_RELAY_00_Q3_R001",
+            "F13_C2_SITE_B6500_RELAY_00_Q3_R002",
+            "F13_C2_SITE_B6500_RELAY_00_Q3_R003"
+          ],
+          "count": 3
+        }
+      },
+      "workload_uav_occupied_s": 52059.844266413165,
+      "box_count": 65,
+      "mass_kg": 604.0,
+      "transport_sorties": 22,
+      "relay_sorties": 3,
+      "allocated_resource_time_s": 234705.70816899478,
+      "occupied_resource_time_s": 129839.80952194502
+    }
+  ],
+  "resources": {
+    "TUAV_A": 4,
+    "TUAV_B": 2,
+    "TUAV_C": 4,
+    "TBAT_A": 6,
+    "TBAT_B": 4,
+    "TBAT_C": 6,
+    "RUAV": 2,
+    "REC": 3
+  },
+  "inventory": {
+    "TUAV_A": 4,
+    "TUAV_B": 2,
+    "TUAV_C": 2,
+    "TBAT_A": 6,
+    "TBAT_B": 4,
+    "TBAT_C": 4,
+    "RUAV": 2,
+    "REC": 6
+  },
+  "shortage": {
+    "TUAV_A": 0,
+    "TUAV_B": 0,
+    "TUAV_C": 2,
+    "TBAT_A": 0,
+    "TBAT_B": 0,
+    "TBAT_C": 2,
+    "RUAV": 0,
+    "REC": 0
+  },
+  "inventory_surplus": {
+    "TUAV_A": 0,
+    "TUAV_B": 0,
+    "TUAV_C": 0,
+    "TBAT_A": 0,
+    "TBAT_B": 0,
+    "TBAT_C": 0,
+    "RUAV": 0,
+    "REC": 3
+  },
+  "total_resource_units": 31,
+  "total_shortage_units": 4,
+  "inventory_feasible": false,
+  "workload_cv": 0.8846493823649798,
+  "workload_max_min_ratio": 16.338442056098735,
+  "resource_horizon_s": 8692.804006259066,
+  "workload_definition": "SUM_TRANSPORT_PREP_TO_RETURN_PLUS_RELAY_PREP_TO_TURNAROUND_END",
+  "calendar": [
+    {
+      "kind": "TUAV_C",
+      "task_id": "M001",
+      "block": 0,
+      "start_s": 0.0,
+      "end_s": 1494.170391878965,
+      "source_resource_id": "U07",
+      "resource_id": "G1-TUAV_C-01",
+      "group_id": "G1"
+    },
+    {
+      "kind": "TUAV_C",
+      "task_id": "M002",
+      "block": 0,
+      "start_s": 0.0,
+      "end_s": 1692.170391878965,
+      "source_resource_id": "U08",
+      "resource_id": "G1-TUAV_C-02",
+      "group_id": "G1"
+    },
+    {
+      "kind": "TBAT_C",
+      "task_id": "M001",
+      "block": 0,
+      "start_s": 480.0,
+      "end_s": 3138.8507239438864,
+      "source_resource_id": "BAT-C-01",
+      "resource_id": "G1-TBAT_C-01",
+      "group_id": "G1"
+    },
+    {
+      "kind": "TBAT_C",
+      "task_id": "M002",
+      "block": 0,
+      "start_s": 570.0,
+      "end_s": 3315.675124620719,
+      "source_resource_id": "BAT-C-02",
+      "resource_id": "G1-TBAT_C-02",
+      "group_id": "G1"
+    },
+    {
+      "kind": "TUAV_A",
+      "task_id": "M009",
+      "block": 3,
+      "start_s": 0.0,
+      "end_s": 1253.485266596983,
+      "source_resource_id": "U01",
+      "resource_id": "G2-TUAV_A-01",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TUAV_A",
+      "task_id": "M012",
+      "block": 3,
+      "start_s": 0.0,
+      "end_s": 1313.485266596983,
+      "source_resource_id": "U02",
+      "resource_id": "G2-TUAV_A-02",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TUAV_A",
+      "task_id": "M003",
+      "block": 1,
+      "start_s": 0.0,
+      "end_s": 2003.7375242139124,
+      "source_resource_id": "U03",
+      "resource_id": "G2-TUAV_A-03",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TUAV_A",
+      "task_id": "M011",
+      "block": 3,
+      "start_s": 0.1,
+      "end_s": 1313.5852665969828,
+      "source_resource_id": "U04",
+      "resource_id": "G2-TUAV_A-04",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TUAV_A",
+      "task_id": "M010",
+      "block": 3,
+      "start_s": 1795.9,
+      "end_s": 3049.385266596983,
+      "source_resource_id": "U01",
+      "resource_id": "G2-TUAV_A-01",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TUAV_A",
+      "task_id": "M023",
+      "block": 2,
+      "start_s": 1968.6,
+      "end_s": 4182.336160371922,
+      "source_resource_id": "U02",
+      "resource_id": "G2-TUAV_A-02",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TUAV_A",
+      "task_id": "M022",
+      "block": 2,
+      "start_s": 2243.1,
+      "end_s": 4553.110855345105,
+      "source_resource_id": "U04",
+      "resource_id": "G2-TUAV_A-03",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TUAV_A",
+      "task_id": "M013",
+      "block": 2,
+      "start_s": 2273.1,
+      "end_s": 4000.5353226736383,
+      "source_resource_id": "U03",
+      "resource_id": "G2-TUAV_A-04",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TUAV_A",
+      "task_id": "M021",
+      "block": 2,
+      "start_s": 3049.4,
+      "end_s": 5055.672279197948,
+      "source_resource_id": "U01",
+      "resource_id": "G2-TUAV_A-01",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TUAV_A",
+      "task_id": "M024",
+      "block": 2,
+      "start_s": 4000.6,
+      "end_s": 6214.336160371922,
+      "source_resource_id": "U03",
+      "resource_id": "G2-TUAV_A-04",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TUAV_A",
+      "task_id": "M007",
+      "block": 2,
+      "start_s": 4182.4,
+      "end_s": 5874.596251618125,
+      "source_resource_id": "U02",
+      "resource_id": "G2-TUAV_A-02",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TUAV_B",
+      "task_id": "M016",
+      "block": 1,
+      "start_s": 0.0,
+      "end_s": 1555.376902446339,
+      "source_resource_id": "U05",
+      "resource_id": "G2-TUAV_B-01",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TUAV_B",
+      "task_id": "M019",
+      "block": 1,
+      "start_s": 0.0,
+      "end_s": 1869.7521946190166,
+      "source_resource_id": "U06",
+      "resource_id": "G2-TUAV_B-02",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TUAV_B",
+      "task_id": "M018",
+      "block": 1,
+      "start_s": 1555.5,
+      "end_s": 3065.9702802929446,
+      "source_resource_id": "U05",
+      "resource_id": "G2-TUAV_B-01",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TUAV_B",
+      "task_id": "M017",
+      "block": 1,
+      "start_s": 1869.8,
+      "end_s": 3792.5345559700827,
+      "source_resource_id": "U06",
+      "resource_id": "G2-TUAV_B-02",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TUAV_B",
+      "task_id": "M015",
+      "block": 2,
+      "start_s": 3066.0,
+      "end_s": 4624.442247394409,
+      "source_resource_id": "U05",
+      "resource_id": "G2-TUAV_B-01",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TUAV_B",
+      "task_id": "M005",
+      "block": 2,
+      "start_s": 3792.6,
+      "end_s": 5873.143098275883,
+      "source_resource_id": "U06",
+      "resource_id": "G2-TUAV_B-02",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TUAV_B",
+      "task_id": "M008",
+      "block": 2,
+      "start_s": 4624.5,
+      "end_s": 6140.674861971584,
+      "source_resource_id": "U05",
+      "resource_id": "G2-TUAV_B-01",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TUAV_C",
+      "task_id": "M004",
+      "block": 1,
+      "start_s": 1494.2,
+      "end_s": 3602.0120186387085,
+      "source_resource_id": "U07",
+      "resource_id": "G2-TUAV_C-01",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TUAV_C",
+      "task_id": "M014",
+      "block": 1,
+      "start_s": 1692.2,
+      "end_s": 3891.9120845921743,
+      "source_resource_id": "U08",
+      "resource_id": "G2-TUAV_C-02",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TUAV_C",
+      "task_id": "M020",
+      "block": 2,
+      "start_s": 3602.2,
+      "end_s": 6229.812146725357,
+      "source_resource_id": "U07",
+      "resource_id": "G2-TUAV_C-01",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TUAV_C",
+      "task_id": "M006",
+      "block": 1,
+      "start_s": 3892.0,
+      "end_s": 6193.061066593164,
+      "source_resource_id": "U08",
+      "resource_id": "G2-TUAV_C-02",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TBAT_A",
+      "task_id": "M009",
+      "block": 3,
+      "start_s": 330.0,
+      "end_s": 2125.824623891611,
+      "source_resource_id": "BAT-A-01",
+      "resource_id": "G2-TBAT_A-01",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TBAT_A",
+      "task_id": "M012",
+      "block": 3,
+      "start_s": 360.0,
+      "end_s": 2176.8456228989835,
+      "source_resource_id": "BAT-A-02",
+      "resource_id": "G2-TBAT_A-02",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TBAT_A",
+      "task_id": "M003",
+      "block": 1,
+      "start_s": 360.0,
+      "end_s": 3375.7949162853256,
+      "source_resource_id": "BAT-A-03",
+      "resource_id": "G2-TBAT_A-03",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TBAT_A",
+      "task_id": "M011",
+      "block": 3,
+      "start_s": 360.1,
+      "end_s": 2205.616775662222,
+      "source_resource_id": "BAT-A-04",
+      "resource_id": "G2-TBAT_A-04",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TBAT_A",
+      "task_id": "M010",
+      "block": 3,
+      "start_s": 2125.9,
+      "end_s": 3921.724623891611,
+      "source_resource_id": "BAT-A-05",
+      "resource_id": "G2-TBAT_A-01",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TBAT_A",
+      "task_id": "M023",
+      "block": 2,
+      "start_s": 2328.6,
+      "end_s": 5425.058754981609,
+      "source_resource_id": "BAT-A-06",
+      "resource_id": "G2-TBAT_A-02",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TBAT_A",
+      "task_id": "M013",
+      "block": 2,
+      "start_s": 2633.1,
+      "end_s": 5069.903137012432,
+      "source_resource_id": "BAT-A-01",
+      "resource_id": "G2-TBAT_A-04",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TBAT_A",
+      "task_id": "M022",
+      "block": 2,
+      "start_s": 2633.1,
+      "end_s": 5814.721450343455,
+      "source_resource_id": "BAT-A-02",
+      "resource_id": "G2-TBAT_A-05",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TBAT_A",
+      "task_id": "M021",
+      "block": 2,
+      "start_s": 3439.4,
+      "end_s": 6204.252048720554,
+      "source_resource_id": "BAT-A-04",
+      "resource_id": "G2-TBAT_A-03",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TBAT_A",
+      "task_id": "M024",
+      "block": 2,
+      "start_s": 4360.6,
+      "end_s": 7444.8846412990315,
+      "source_resource_id": "BAT-A-03",
+      "resource_id": "G2-TBAT_A-01",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TBAT_A",
+      "task_id": "M007",
+      "block": 2,
+      "start_s": 4542.4,
+      "end_s": 7008.11994572637,
+      "source_resource_id": "BAT-A-05",
+      "resource_id": "G2-TBAT_A-06",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TBAT_B",
+      "task_id": "M016",
+      "block": 1,
+      "start_s": 390.0,
+      "end_s": 3012.073386160331,
+      "source_resource_id": "BAT-B-01",
+      "resource_id": "G2-TBAT_B-01",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TBAT_B",
+      "task_id": "M019",
+      "block": 1,
+      "start_s": 390.0000000000002,
+      "end_s": 3463.8834966823288,
+      "source_resource_id": "BAT-B-02",
+      "resource_id": "G2-TBAT_B-02",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TBAT_B",
+      "task_id": "M018",
+      "block": 1,
+      "start_s": 1945.5,
+      "end_s": 4523.348194391026,
+      "source_resource_id": "BAT-B-03",
+      "resource_id": "G2-TBAT_B-03",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TBAT_B",
+      "task_id": "M017",
+      "block": 1,
+      "start_s": 2259.8,
+      "end_s": 5651.88814746101,
+      "source_resource_id": "BAT-B-04",
+      "resource_id": "G2-TBAT_B-04",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TBAT_B",
+      "task_id": "M015",
+      "block": 2,
+      "start_s": 3456.0,
+      "end_s": 6199.466813458778,
+      "source_resource_id": "BAT-B-01",
+      "resource_id": "G2-TBAT_B-01",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TBAT_B",
+      "task_id": "M005",
+      "block": 2,
+      "start_s": 4182.6,
+      "end_s": 7744.433484128591,
+      "source_resource_id": "BAT-B-02",
+      "resource_id": "G2-TBAT_B-02",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TBAT_B",
+      "task_id": "M008",
+      "block": 2,
+      "start_s": 4984.5,
+      "end_s": 7602.294219611336,
+      "source_resource_id": "BAT-B-03",
+      "resource_id": "G2-TBAT_B-03",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TBAT_C",
+      "task_id": "M004",
+      "block": 1,
+      "start_s": 1974.2,
+      "end_s": 6020.541325064868,
+      "source_resource_id": "BAT-C-03",
+      "resource_id": "G2-TBAT_C-01",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TBAT_C",
+      "task_id": "M014",
+      "block": 1,
+      "start_s": 2142.2,
+      "end_s": 6305.835151697787,
+      "source_resource_id": "BAT-C-04",
+      "resource_id": "G2-TBAT_C-02",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TBAT_C",
+      "task_id": "M020",
+      "block": 2,
+      "start_s": 4082.2,
+      "end_s": 8674.510370142925,
+      "source_resource_id": "BAT-C-01",
+      "resource_id": "G2-TBAT_C-03",
+      "group_id": "G2"
+    },
+    {
+      "kind": "TBAT_C",
+      "task_id": "M006",
+      "block": 1,
+      "start_s": 4372.0,
+      "end_s": 8692.804006259066,
+      "source_resource_id": "BAT-C-02",
+      "resource_id": "G2-TBAT_C-04",
+      "group_id": "G2"
+    },
+    {
+      "kind": "RUAV",
+      "task_id": "F13_C2_SITE_B6500_RELAY_00_Q3_R001",
+      "block": 1,
+      "start_s": 12.214498897820818,
+      "end_s": 2475.899213158657,
+      "source_resource_id": "R01",
+      "resource_id": "G2-RUAV-01",
+      "group_id": "G2"
+    },
+    {
+      "kind": "RUAV",
+      "task_id": "F13_C2_SITE_B6500_RELAY_00_Q3_R002",
+      "block": 1,
+      "start_s": 1567.1803878858195,
+      "end_s": 6545.793309522221,
+      "source_resource_id": "R02",
+      "resource_id": "G2-RUAV-02",
+      "group_id": "G2"
+    },
+    {
+      "kind": "RUAV",
+      "task_id": "F13_C2_SITE_B6500_RELAY_00_Q3_R003",
+      "block": 2,
+      "start_s": 2476.063331858314,
+      "end_s": 6542.8528846740755,
+      "source_resource_id": "R01",
+      "resource_id": "G2-RUAV-01",
+      "group_id": "G2"
+    },
+    {
+      "kind": "REC",
+      "task_id": "F13_C2_SITE_B6500_RELAY_00_Q3_R001",
+      "block": 1,
+      "start_s": 192.21449889782082,
+      "end_s": 2906.2648009999057,
+      "source_resource_id": "REC-01",
+      "resource_id": "G2-REC-01",
+      "group_id": "G2"
+    },
+    {
+      "kind": "REC",
+      "task_id": "F13_C2_SITE_B6500_RELAY_00_Q3_R002",
+      "block": 1,
+      "start_s": 1747.1803878858195,
+      "end_s": 7286.1784392209975,
+      "source_resource_id": "REC-02",
+      "resource_id": "G2-REC-02",
+      "group_id": "G2"
+    },
+    {
+      "kind": "REC",
+      "task_id": "F13_C2_SITE_B6500_RELAY_00_Q3_R003",
+      "block": 2,
+      "start_s": 2656.063331858314,
+      "end_s": 7171.35509818165,
+      "source_resource_id": "REC-03",
+      "resource_id": "G2-REC-03",
+      "group_id": "G2"
+    }
+  ],
+  "partition_id": "F13_Q4_K2_007",
+  "redundancy": {
+    "TUAV_A": 0,
+    "TUAV_B": 0,
+    "TUAV_C": 2,
+    "TBAT_A": 0,
+    "TBAT_B": 0,
+    "TBAT_C": 2,
+    "RUAV": 0,
+    "REC": 0
+  }
+}

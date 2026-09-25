@@ -1,0 +1,33 @@
+{
+  "source_commit": "1af5aeebf6f30bc447bc8e45ee77fead38317c3e",
+  "hashes": {
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/relay_sorties_F13.csv": "e86d5e5111e56a8dc8422d6586c7832f5e132593c212faf49d94ec4366da58be",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/transport_sorties_F13.csv": "2e4ad00774cc3f88159631fedd023f56442712a288e01ac7cd007b7f7331a92a",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/shifts_F13.json": "4ec0ef80406348e8e57988174439bc3f51303ffe5972c5f33bb4774e5505d76f",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/candidate_sites_F13.csv": "05e168974b7ec5a710d0343d1208f3f5fa190dde33aa403f24b7c2bd4fe21e8e",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/communication_violations_F13_0.5.csv": "fade3b9dff422eedd8fa3efe4150a2e54f7ee64729ec24bbd08429c3e3665a0c",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/guarded_atomic_tasks.csv": "3896c4f39c169fea7885a712656a1d66f77c39dcd412bbdc04f28b87778e7fd8",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/transport_shifts_F13.csv": "24e94448422fd88ac014128393607f8de0c0c22302b599731b11a38839b4eb97",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/transport_uav_calendar_F13.csv": "36301a0b1e5478fd188fe3e9e612ff8e75483bbcaee9da1810979611dc6b674b",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/transport_battery_calendar_F13.csv": "fa7b61b4968c08faf301fce8359a30ea9ead001130d723804a3d39f14c91816e",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/input_manifest.json": "a67c78d141b25a14d91f6a83c0bdad50f12242f0621b6aec6a705e07dbc7bdfc",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/plan_status_F13.json": "694972c64eb6499ed389470201952d8dcadf863daa1b0a68056da19adeb7ae1a",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/guarded_selected_pairs_F13.csv": "64d4103a3b7b1e9dba6c90eeca193cb404d12b45a05bf1710ebc7aaa1572c899",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/validation_0.5.json": "b3e19db0d82ded19c7e3d21d5d13c4a84eee1399da3b0ca05d1110e96e542f70",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/witness.json": "6831f0702265226478583bb5992782628a3c23fbe8916b137277b3e440467f92",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/box_delivery_F13.csv": "88ac03b0f8fe25df93339a255ff34c193110a81223658380f4d69541e83d1f3d",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/relay_energy_calendar_F13.csv": "cfcd17a39e0caa32da13468ab9076dacb99231e38c00610b0d46195468511589",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/scenario.json": "46838fcf2f743f2c819f9f04b849525f4e6b3579b3f19668db5fdca10bce6e9c",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/selected_sorties_F13.json": "1f05668bf6433ba3ff4b0ba0c8daadf997b00867e5ac738f5eb9197903383fd4",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/independent_candidate_audit_F13_0.5.csv": "883cdf3cebf0d2576031d54d7db9bf253ff1485a6a8f155837617221927085fe",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/joint_metrics_F13.json": "e38e5b54fbec4891cd2523a4c8d98f6bd3d2528b5ba124fccba5b22467f6892f",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/relay_uav_calendar_F13.csv": "41ea5bf74859aedfdd91757a295de0331bac3a5837a4052d6ecf70456f263850",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/communication_guarantee_F13.csv": "441fc09c14d6602a10f232272842d2a6cf45f0d05fc7bdb78bac61aa7ce1e2c5",
+    "results/reset/geometry/transport_uavs.csv": "35ef7de8239abc9e047e668c5729ce32ca63118a000ed71844591e5933d09278",
+    "results/reset/geometry/transport_batteries.csv": "c0fc93bc96e485985aca7d3a7690da077149767e10ad45cda1aae59126d239d8",
+    "results/reset/geometry/relay_uavs.csv": "a13b6a71af7c45944860a13ed52b16c5e2728f8bb733b56d1276687f7557ea6a",
+    "results/reset/geometry/relay_energy_components.csv": "117d488e8d42a2754c29d63889bc712afa835b671c58710171aa79715a0bd6a7",
+    "results/reset/geometry/boxes.csv": "bfeca5816dfceab43ee691328969ca571792870c9670ca5e38681e90011cf120",
+    "data/raw/山区洪涝灾害下无人机运输与通信协同优化.docx": "0a4f507b91a02a0ea4264973dd432cdcb5b8916c61c24214719665f326d57685"
+  }
+}

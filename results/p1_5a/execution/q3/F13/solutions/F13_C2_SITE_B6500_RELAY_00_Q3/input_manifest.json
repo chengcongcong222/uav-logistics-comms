@@ -1,0 +1,26 @@
+{
+  "hashes": {
+    "results/p1_5a/execution/q2/pareto_schedules/F13/box_delivery_F13.csv": "22b260595bc2f7a36ff07b9177fcedcd1851a8e522e37d6589d3af60287ab5f5",
+    "results/p1_5a/execution/q2/pareto_schedules/F13/metadata.json": "78daec4a90d5959046b564feece91491bfe1b3f7a4df21cff44b18cc62e127c4",
+    "results/p1_5a/execution/q2/pareto_schedules/F13/missions.json": "ed18f2688e7d0b1421d180ce189cd5eb48fe3abdbd3a14df237371ae50d2c8ca",
+    "results/p1_5a/execution/q2/pareto_schedules/F13/q2_battery_calendar.csv": "0bf7883534cf8c03caf1aea9c1564710f271d8ad55804e1904fbe60bb0ad2b2a",
+    "results/p1_5a/execution/q2/pareto_schedules/F13/q2_box_delivery.csv": "22b260595bc2f7a36ff07b9177fcedcd1851a8e522e37d6589d3af60287ab5f5",
+    "results/p1_5a/execution/q2/pareto_schedules/F13/q2_objectives.csv": "3d2dd738ee24b1c4218b49d5a152388ecc893f97a87788111732d1cdcdd93144",
+    "results/p1_5a/execution/q2/pareto_schedules/F13/q2_sorties.csv": "77f1dad149ae33098e1970f8fba91c7cc93e5ed58f04f806f41d4524f4849689",
+    "results/p1_5a/execution/q2/pareto_schedules/F13/q2_uav_calendar.csv": "7340d1c537dbc5d010f80f7118c44fac99ae865976a22ec78a8e6eb20a30847b",
+    "results/p1_5a/execution/q2/pareto_schedules/F13/transport_battery_calendar_F13.csv": "0bf7883534cf8c03caf1aea9c1564710f271d8ad55804e1904fbe60bb0ad2b2a",
+    "results/p1_5a/execution/q2/pareto_schedules/F13/transport_sorties_F13.csv": "77f1dad149ae33098e1970f8fba91c7cc93e5ed58f04f806f41d4524f4849689",
+    "results/p1_5a/execution/q2/pareto_schedules/F13/transport_trace.csv": "9ed7a32f77febdadf0460d2d4197d56ecd4ee23a650ae7a6d1f49ec1b8e3eb8a",
+    "results/p1_5a/execution/q2/pareto_schedules/F13/transport_uav_calendar_F13.csv": "7340d1c537dbc5d010f80f7118c44fac99ae865976a22ec78a8e6eb20a30847b",
+    "results/reset/geometry/boxes.csv": "bfeca5816dfceab43ee691328969ca571792870c9670ca5e38681e90011cf120",
+    "results/reset/geometry/nodes.csv": "b04a3bb5cc95546135165c4965a0db08603fa050cc989b0f2f26b751c2edb3df",
+    "results/reset/geometry/relay_energy_components.csv": "117d488e8d42a2754c29d63889bc712afa835b671c58710171aa79715a0bd6a7",
+    "results/reset/geometry/relay_uav_types.csv": "384d4543cb53efc0c0dd93e98edbeb2b6abc5648272ab2c6ce4adb9baa4957b4",
+    "results/reset/geometry/relay_uavs.csv": "a13b6a71af7c45944860a13ed52b16c5e2728f8bb733b56d1276687f7557ea6a",
+    "results/reset/geometry/route_geometry.csv": "45c97d859f60edbc21b2b7ef67fdbf56914200d7eaa0d736d23914ee71be94ff",
+    "results/reset/geometry/transport_batteries.csv": "c0fc93bc96e485985aca7d3a7690da077149767e10ad45cda1aae59126d239d8",
+    "results/reset/geometry/transport_uav_types.csv": "e49dcf0068446cfe674abf56af042b5a440f3ec27c6be96552c09d4366e9e1f7",
+    "results/reset/geometry/transport_uavs.csv": "35ef7de8239abc9e047e668c5729ce32ca63118a000ed71844591e5933d09278"
+  },
+  "lineage": "F13_FROZEN_AUTONOMOUS_EXECUTION"
+}

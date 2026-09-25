@@ -1,0 +1,9 @@
+{
+  "status": "PASSED",
+  "source": "results/p1_4/transport_runs/B6250_energy_N24/candidate_structures.json",
+  "sha256": "1a30dd4a5050b11c3b5e3ede1946d28bb6bb4347e0dc6f17bb0982030114b841",
+  "structure_signature": "435dd862cc0c6ca52f0a039f54e57d57b4e6317bc5595772c18020bf0b04f3ef",
+  "exact_trip_and_start_match": true,
+  "source_config_sha256": "55ee09c5a9034ffc49f3eb8ad73a381988d593a210eaff5d2be08d1d2af28ecb",
+  "scope": "Saved autonomous CP incumbent; no search rerun"
+}

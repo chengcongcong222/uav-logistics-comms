@@ -1,0 +1,5 @@
+{
+  "status": "PASSED",
+  "directed_legs": 240,
+  "method": "Independent native DEM row-strip clipping; no prior comparison geometry read"
+}

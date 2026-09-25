@@ -1,0 +1,12 @@
+test_allowed_hash_bound_read (src.p1_5a.test_source_guard.SourceGuardTests.test_allowed_hash_bound_read) ... ok
+test_direct_open_allowed (src.p1_5a.test_source_guard.SourceGuardTests.test_direct_open_allowed) ... ok
+test_direct_open_cannot_bypass (src.p1_5a.test_source_guard.SourceGuardTests.test_direct_open_cannot_bypass) ... ok
+test_direct_open_checks_hash (src.p1_5a.test_source_guard.SourceGuardTests.test_direct_open_checks_hash) ... ok
+test_hash_tampering_denied (src.p1_5a.test_source_guard.SourceGuardTests.test_hash_tampering_denied) ... ok
+test_symlink_cannot_bypass (src.p1_5a.test_source_guard.SourceGuardTests.test_symlink_cannot_bypass) ... ok
+test_unlisted_denied (src.p1_5a.test_source_guard.SourceGuardTests.test_unlisted_denied) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.075s
+
+OK

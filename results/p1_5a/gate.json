@@ -1,0 +1,26 @@
+{
+  "status": "P1_5A_F13_MAIN_CHAIN_READY",
+  "base_commit": "1af5aeebf6f30bc447bc8e45ee77fead38317c3e",
+  "main_candidate": "F13",
+  "main_candidate_status": "CURRENT_AUTONOMOUS_MAIN_CANDIDATE",
+  "independent_readmission": true,
+  "fixed_task_Q4_complete": true,
+  "partition_blocks": 4,
+  "partitions": {
+    "2": 7,
+    "3": 6
+  },
+  "workbook_readback_passed": true,
+  "workbook_sheets": 22,
+  "publication_source_guard_passed": true,
+  "source_guard_tests": 7,
+  "source_whitelist_entries": 116,
+  "main_branch_modified": false,
+  "historical_files_rewritten": false,
+  "new_optimization_experiments": false,
+  "pattern_pool_changed": false,
+  "global_optimality_proven": false,
+  "complete_pareto_front_proven": false,
+  "V02_manuscript_written": false,
+  "historical_human_reasoning_independence_proven": false
+}

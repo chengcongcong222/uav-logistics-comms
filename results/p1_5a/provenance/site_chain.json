@@ -1,0 +1,48 @@
+{
+  "status": "VERIFIED",
+  "frozen_sites": 118,
+  "selected": [
+    {
+      "site_id": "E52_189eb019491ad876aa165071",
+      "x_m": 315836.51019698515,
+      "y_m": 2548377.4730950934,
+      "agl_m": 300.0,
+      "autonomous_predecessors": [
+        "results/q3/relay_sites_e52.csv",
+        "results/q3/e8/gamma_02/candidate_sites.csv",
+        "results/q3/e6/candidate_sites_P01.csv",
+        "results/q3/e6/candidate_sites_P02.csv",
+        "results/q3/e6/candidate_sites_P03.csv"
+      ]
+    },
+    {
+      "site_id": "E52_c515ea57360fd29f9add62f7",
+      "x_m": 323640.0,
+      "y_m": 2548560.0,
+      "agl_m": 300.0,
+      "autonomous_predecessors": [
+        "results/q3/e8/gamma_04/candidate_sites.csv"
+      ]
+    },
+    {
+      "site_id": "E52_cdef0b479e00ae29ebd83132",
+      "x_m": 322200.0,
+      "y_m": 2550720.0,
+      "agl_m": 300.0,
+      "autonomous_predecessors": [
+        "results/q3/e8/gamma_02/candidate_sites.csv",
+        "results/q3/e8/gamma_04/candidate_sites.csv"
+      ]
+    }
+  ],
+  "sources": {
+    "results/q3/relay_sites_e52.csv": "0143e7a3146d39cc1a1b3a4fef90363a1cf21c83b2fe0628f7f8e582b5d12799",
+    "results/q3/e8/gamma_02/candidate_sites.csv": "d41cc42aba4a6d92db3c4fd90da24fcab66703a8889d9a5206d5dfaa804d448e",
+    "results/q3/e8/gamma_04/candidate_sites.csv": "756d892f3f81244bf42865e95a63b296e8f465913b5276ea9cea82c3adc641c2",
+    "results/q3/e8/gamma_06/candidate_sites.csv": "7f6bf15c7f94c9a7725e6a23742e31738d8ce4d0d4bd83f4619c9d87665b6575",
+    "results/q3/e6/candidate_sites_P01.csv": "797254acf6072744ef60b9dd89c23e8fda236265348fb12fb688ab6adb5973b0",
+    "results/q3/e6/candidate_sites_P02.csv": "797254acf6072744ef60b9dd89c23e8fda236265348fb12fb688ab6adb5973b0",
+    "results/q3/e6/candidate_sites_P03.csv": "797254acf6072744ef60b9dd89c23e8fda236265348fb12fb688ab6adb5973b0"
+  },
+  "scope": "Existing autonomous E5.2/E6/E8 coordinate lineage; no new station optimization or external structure admission"
+}

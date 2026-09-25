@@ -1,0 +1,15 @@
+{
+  "status": "PASSED",
+  "base_commit": "1af5aeebf6f30bc447bc8e45ee77fead38317c3e",
+  "main_commit": "c13306ecbc36933502d1197228e5d80f9f7e40cf",
+  "tracked_historical_changes_equal_initial_state": true,
+  "preexisting_changes": [
+    "D\tresults/q3/relay_candidate_gate_stats_raw.csv",
+    "M\tresults/q2/q2_battery_calendar.csv",
+    "M\tresults/q2/q2_box_delivery.csv",
+    "M\tresults/q2/q2_sorties.csv",
+    "M\tresults/q2/q2_uav_calendar.csv"
+  ],
+  "enforcement": "Readmission/Q4/workbook runtime hooks only permit result writes under results/p1_5a; source edits only src/p1_5a",
+  "limitation": "Git delta and restricted write paths verified; prohibited historical solution files were not opened to compute fresh content hashes"
+}

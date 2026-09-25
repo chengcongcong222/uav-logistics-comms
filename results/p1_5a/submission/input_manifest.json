@@ -1,0 +1,35 @@
+{
+  "source_solution": "F13_C2_SITE_B6500_RELAY_00_Q3",
+  "Q2_clock": "F13_FINAL_Q3_TRANSPORT_CLOCK",
+  "Q4": [
+    "F13_Q4_K2_007",
+    "F13_Q4_K3_003"
+  ],
+  "balanced": [
+    "F13_Q4_K2_005",
+    "F13_Q4_K3_004"
+  ],
+  "hashes": {
+    "data/raw/结果提交模板.xlsx": "16f521f29a7103c4ff7c3709ce1696bb9fffa18ce741895e45b7bc7afaf3320a",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/box_delivery_F13.csv": "88ac03b0f8fe25df93339a255ff34c193110a81223658380f4d69541e83d1f3d",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/candidate_sites_F13.csv": "05e168974b7ec5a710d0343d1208f3f5fa190dde33aa403f24b7c2bd4fe21e8e",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/communication_guarantee_F13.csv": "441fc09c14d6602a10f232272842d2a6cf45f0d05fc7bdb78bac61aa7ce1e2c5",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/communication_violations_F13_0.5.csv": "fade3b9dff422eedd8fa3efe4150a2e54f7ee64729ec24bbd08429c3e3665a0c",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/guarded_atomic_tasks.csv": "3896c4f39c169fea7885a712656a1d66f77c39dcd412bbdc04f28b87778e7fd8",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/guarded_selected_pairs_F13.csv": "64d4103a3b7b1e9dba6c90eeca193cb404d12b45a05bf1710ebc7aaa1572c899",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/independent_candidate_audit_F13_0.5.csv": "883cdf3cebf0d2576031d54d7db9bf253ff1485a6a8f155837617221927085fe",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/joint_metrics_F13.json": "e38e5b54fbec4891cd2523a4c8d98f6bd3d2528b5ba124fccba5b22467f6892f",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/relay_energy_calendar_F13.csv": "cfcd17a39e0caa32da13468ab9076dacb99231e38c00610b0d46195468511589",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/relay_sorties_F13.csv": "e86d5e5111e56a8dc8422d6586c7832f5e132593c212faf49d94ec4366da58be",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/relay_uav_calendar_F13.csv": "41ea5bf74859aedfdd91757a295de0331bac3a5837a4052d6ecf70456f263850",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/transport_battery_calendar_F13.csv": "fa7b61b4968c08faf301fce8359a30ea9ead001130d723804a3d39f14c91816e",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/transport_shifts_F13.csv": "24e94448422fd88ac014128393607f8de0c0c22302b599731b11a38839b4eb97",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/transport_sorties_F13.csv": "2e4ad00774cc3f88159631fedd023f56442712a288e01ac7cd007b7f7331a92a",
+    "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/transport_uav_calendar_F13.csv": "36301a0b1e5478fd188fe3e9e612ff8e75483bbcaee9da1810979611dc6b674b",
+    "results/p1_5a/q4/solutions/F13_Q4_K2_005/configuration.json": "1781bec1df87fc0766f28ba4e5d50c9a5d6fa3452073dfd4114daedb99a89636",
+    "results/p1_5a/q4/solutions/F13_Q4_K2_007/configuration.json": "8aafec7a4b1f6d36060abf8a6a681ad5bbb55459a4828d814ba6d5ded0beea72",
+    "results/p1_5a/q4/solutions/F13_Q4_K3_003/configuration.json": "16a74b0ee8e0036a61bd35a0020770f099c9db248a3cdde924e69a3de4d02bfd",
+    "results/p1_5a/q4/solutions/F13_Q4_K3_004/configuration.json": "83c4df86fda77a6c46ee04cee9050d41d1f702a287addf968d888e00bed0af57",
+    "results/reset/q1/q1_packings_rho20.csv": "31038bfa41459c4cf882e90b617650ccf2e3b563a2b786348d95d6173b708c5e"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "status": "PASSED",
+  "new_export_clean": true,
+  "whitelist_entries": 116,
+  "graph_acyclic": true,
+  "hashes_verified": true,
+  "legacy_paper_findings": [],
+  "legacy_binary_quarantine": [
+    {
+      "path": "results/paper_v01/figures/q2_q3_makespan.png",
+      "action": "EXCLUDED_FROM_NEW_EXPORT_UNSCANNED_BINARY"
+    },
+    {
+      "path": "results/paper_v01/figures/q3_tradeoff.png",
+      "action": "EXCLUDED_FROM_NEW_EXPORT_UNSCANNED_BINARY"
+    },
+    {
+      "path": "results/paper_v01/figures/q3_tradeoff.pdf",
+      "action": "EXCLUDED_FROM_NEW_EXPORT_UNSCANNED_BINARY"
+    },
+    {
+      "path": "results/paper_v01/figures/q2_q3_makespan.pdf",
+      "action": "EXCLUDED_FROM_NEW_EXPORT_UNSCANNED_BINARY"
+    }
+  ],
+  "legacy_policy": "Historical V0.1 is retained unchanged and excluded wholesale from the new publication export; scan hits are not silently edited away",
+  "export_files": [
+    {
+      "path": "results/p1_5a/paper_export/F13_MAIN_EVIDENCE.md",
+      "sha256": "9a1b0e4fadfdb6de3d2c6fec76c55c618027827c004d380f1edda4963b15c784",
+      "hits": []
+    },
+    {
+      "path": "results/p1_5a/paper_export/BUILD_AUDIT.json",
+      "sha256": "5e7acf6ce575bc3e5e6c4f7c96076555be9cc720e16acbb4bdeec2b336ea763d",
+      "hits": []
+    },
+    {
+      "path": "results/p1_5a/submission/结果提交表_F13_自主主例.xlsx",
+      "sha256": "99872442d0b839c9f6bd370015e5c99ed2ad1d2f0de9ec8d7087ce6fd95211a6",
+      "hits": []
+    },
+    {
+      "path": "results/p1_5a/submission/cell_payload.json",
+      "sha256": "88d4077eafb4e5b65d9dd33ae4af51830219673577dc00dc3a13ce36320ef0e8",
+      "hits": []
+    },
+    {
+      "path": "results/p1_5a/submission/input_manifest.json",
+      "sha256": "f5eb30ff8043f34970063567efb634fee2252dbecd8c1091703a87d1729c67bf",
+      "hits": []
+    }
+  ],
+  "source_guard": "API and process-wide file-open hook; exact path plus SHA256; legacy builder not authorized",
+  "claim_limit": "This verifies recorded data lineage and enforced file access. It does not establish that historical human reasoning had no unrecorded influence.",
+  "V02_body_not_generated": true
+}

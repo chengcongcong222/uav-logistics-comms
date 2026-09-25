@@ -1,0 +1,9 @@
+{
+  "status": "PASSED",
+  "sources_read": [
+    "results/p1_5a/publication_facts.json",
+    "results/p1_5a/submission_consistency.json"
+  ],
+  "all_sources_hash_guarded": true,
+  "V02_body_generated": false
+}

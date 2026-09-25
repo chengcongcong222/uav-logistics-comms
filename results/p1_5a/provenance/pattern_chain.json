@@ -1,0 +1,293 @@
+{
+  "status": "VERIFIED",
+  "patterns": 2903,
+  "physical_max_residual": 8.881784197001252e-16,
+  "box_count": 80,
+  "sorties": 24,
+  "membership": [
+    {
+      "sortie_id": "M001",
+      "pattern_index": 12,
+      "box_ids": [
+        "S001-FOD-01",
+        "S001-WAT-01",
+        "S001-WAT-02",
+        "S001-WAT-03",
+        "S001-WAT-04",
+        "S001-WAT-05"
+      ]
+    },
+    {
+      "sortie_id": "M002",
+      "pattern_index": 31,
+      "box_ids": [
+        "S001-FOD-02",
+        "S001-FOD-03",
+        "S001-HYG-01",
+        "S001-HYG-02",
+        "S001-MED-01",
+        "S001-MED-02",
+        "S001-WAT-06",
+        "S001-WAT-07",
+        "S001-WAT-08"
+      ]
+    },
+    {
+      "sortie_id": "M003",
+      "pattern_index": 41,
+      "box_ids": [
+        "S002-FOD-01",
+        "S002-WAT-02"
+      ]
+    },
+    {
+      "sortie_id": "M004",
+      "pattern_index": 59,
+      "box_ids": [
+        "S002-FOD-02",
+        "S002-HYG-01",
+        "S002-MED-01",
+        "S002-WAT-01",
+        "S002-WAT-03",
+        "S002-WAT-04"
+      ]
+    },
+    {
+      "sortie_id": "M005",
+      "pattern_index": 85,
+      "box_ids": [
+        "S003-FOD-01",
+        "S003-MED-01",
+        "S003-WAT-01"
+      ]
+    },
+    {
+      "sortie_id": "M006",
+      "pattern_index": 115,
+      "box_ids": [
+        "S004-FOD-01",
+        "S004-HYG-01",
+        "S004-MED-01",
+        "S004-WAT-01",
+        "S004-WAT-02",
+        "S004-WAT-03"
+      ]
+    },
+    {
+      "sortie_id": "M007",
+      "pattern_index": 127,
+      "box_ids": [
+        "S005-FOD-01",
+        "S005-WAT-02"
+      ]
+    },
+    {
+      "sortie_id": "M008",
+      "pattern_index": 132,
+      "box_ids": [
+        "S005-HYG-01",
+        "S005-WAT-03"
+      ]
+    },
+    {
+      "sortie_id": "M009",
+      "pattern_index": 144,
+      "box_ids": [
+        "S006-WAT-02"
+      ]
+    },
+    {
+      "sortie_id": "M010",
+      "pattern_index": 144,
+      "box_ids": [
+        "S006-WAT-03"
+      ]
+    },
+    {
+      "sortie_id": "M011",
+      "pattern_index": 151,
+      "box_ids": [
+        "S006-FOD-01",
+        "S006-WAT-01"
+      ]
+    },
+    {
+      "sortie_id": "M012",
+      "pattern_index": 164,
+      "box_ids": [
+        "S006-HYG-01",
+        "S006-MED-01"
+      ]
+    },
+    {
+      "sortie_id": "M013",
+      "pattern_index": 175,
+      "box_ids": [
+        "S007-FOD-01",
+        "S007-WAT-01"
+      ]
+    },
+    {
+      "sortie_id": "M014",
+      "pattern_index": 211,
+      "box_ids": [
+        "S008-FOD-01",
+        "S008-HYG-01",
+        "S008-MED-01",
+        "S008-WAT-01",
+        "S008-WAT-02"
+      ]
+    },
+    {
+      "sortie_id": "M015",
+      "pattern_index": 222,
+      "box_ids": [
+        "S009-FOD-01",
+        "S009-MED-01",
+        "S009-WAT-01"
+      ]
+    },
+    {
+      "sortie_id": "M016",
+      "pattern_index": 234,
+      "box_ids": [
+        "S010-FOD-01",
+        "S010-MED-01",
+        "S010-WAT-01"
+      ]
+    },
+    {
+      "sortie_id": "M017",
+      "pattern_index": 258,
+      "box_ids": [
+        "S012-FOD-01",
+        "S012-MED-01",
+        "S012-WAT-01"
+      ]
+    },
+    {
+      "sortie_id": "M018",
+      "pattern_index": 270,
+      "box_ids": [
+        "S013-FOD-01",
+        "S013-MED-01",
+        "S013-WAT-01"
+      ]
+    },
+    {
+      "sortie_id": "M019",
+      "pattern_index": 282,
+      "box_ids": [
+        "S014-FOD-01",
+        "S014-MED-01",
+        "S014-WAT-01"
+      ]
+    },
+    {
+      "sortie_id": "M020",
+      "pattern_index": 868,
+      "box_ids": [
+        "S003-FOD-02",
+        "S003-HYG-01",
+        "S003-WAT-02",
+        "S003-WAT-03",
+        "S003-WAT-04",
+        "S007-HYG-01"
+      ]
+    },
+    {
+      "sortie_id": "M021",
+      "pattern_index": 1516,
+      "box_ids": [
+        "S005-MED-01",
+        "S005-WAT-01",
+        "S011-MED-01"
+      ]
+    },
+    {
+      "sortie_id": "M022",
+      "pattern_index": 2151,
+      "box_ids": [
+        "S007-MED-01",
+        "S007-WAT-02",
+        "S015-MED-01"
+      ]
+    },
+    {
+      "sortie_id": "M023",
+      "pattern_index": 2675,
+      "box_ids": [
+        "S011-FOD-01",
+        "S015-WAT-01"
+      ]
+    },
+    {
+      "sortie_id": "M024",
+      "pattern_index": 2693,
+      "box_ids": [
+        "S011-WAT-01",
+        "S015-FOD-01"
+      ]
+    }
+  ],
+  "warm_start_pool_membership": {
+    "A11": [
+      17,
+      30,
+      41,
+      59,
+      70,
+      89,
+      115,
+      126,
+      132,
+      137,
+      151,
+      157,
+      162,
+      169,
+      175,
+      186,
+      211,
+      222,
+      224,
+      233,
+      246,
+      258,
+      270,
+      282,
+      294
+    ]
+  },
+  "T01_config": {
+    "axis": "makespan",
+    "time_limit_s": 180.0,
+    "time_grid_s": 0.1,
+    "seed": 26092511,
+    "workers": 4,
+    "optional_trip_copies": 2973,
+    "patterns": 2903,
+    "objective_scale": 10,
+    "objective": "SINGLE_AXIS_INTEGER_COEFFICIENT_ROUNDING",
+    "transport_starts": "All 0.1 s grid starts within original deadlines",
+    "conservative_intervals": "UAV duration ceil; battery start floor(prep), end ceil(duration+charge)",
+    "cp_bound_scope": "CONSERVATIVE_GRID_PRIMAL_DOMAIN_ONLY_NOT_A_CONTINUOUS_FULL_POOL_BOUND",
+    "no_external_threshold": true,
+    "near_optimal_cap": null,
+    "excluded_prior_runs": [],
+    "hint": {
+      "used": true,
+      "source": "results/reset/q2/pareto_schedules/A11/missions.json",
+      "sha256": "8f883fc4943baeb56786fb18ed4b4e279d6dd5c1ea5a6cae24439d0d443ea4c1",
+      "source_line": "AUTONOMOUS_A11",
+      "role": "GRID_REPAIRED_HINT_ONLY; NO RESOURCE ORDER FIXED IN MODEL"
+    },
+    "source_hashes": {
+      "src/bench_p1_3b/bounds.py": "6eef255b043788bd3bb7eff51e5bac42c0a7128ad2276cacc886266840084093",
+      "src/bench_p1_3b/common.py": "d43934d91e928698f1eaed6efa2a9dfbafc1cae71ee0b66b487ef232433ef5fe",
+      "src/bench_p1_3b/transport.py": "74d59691114cc32a8b826ac8d51c27b4924388436983f69a768b9b1d0731fa33"
+    }
+  },
+  "generation": "Frozen autonomous pool, deterministic box consumption, saved CP incumbent",
+  "threshold_basis": "P1.4 declared internal epsilon budget relative to already verified autonomous fast anchor; no external performance value used in this admission"
+}
