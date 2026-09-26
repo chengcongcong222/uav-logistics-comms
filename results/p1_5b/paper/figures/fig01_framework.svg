@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="605.88pt" height="191.808pt" viewBox="0 0 605.88 191.808" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-26T11:38:10.425341</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 191.808
+L 605.88 191.808
+L 605.88 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m9050068e7d" d="M 0 6.708204
+C 1.779036 6.708204 3.485448 6.001385 4.743416 4.743416
+C 6.001385 3.485448 6.708204 1.779036 6.708204 0
+C 6.708204 -1.779036 6.001385 -3.485448 4.743416 -4.743416
+C 3.485448 -6.001385 1.779036 -6.708204 0 -6.708204
+C -1.779036 -6.708204 -3.485448 -6.001385 -4.743416 -4.743416
+C -6.001385 -3.485448 -6.708204 -1.779036 -6.708204 0
+C -6.708204 1.779036 -6.001385 3.485448 -4.743416 4.743416
+C -3.485448 6.001385 -1.779036 6.708204 0 6.708204
+z
+" style="stroke: #586674"/>
+    </defs>
+    <g clip-path="url(#p367340814d)">
+     <use xlink:href="#m9050068e7d" x="66.348" y="79.611429" style="fill: #586674; stroke: #586674"/>
+    </g>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="66.348" y="54.267429" transform="rotate(-0 66.348 54.267429)">01  统一物理规则</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei'" transform="translate(30.176438 113.168275)">地形 / 载荷 / 能源</text>
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei'" transform="translate(34.848 130.39308)">实体与共享资源</text>
+   </g>
+   <g id="patch_2">
+    <path d="M 82.543664 79.611429
+Q 125.496788 79.611429 167.220074 79.611429
+" style="fill: none; stroke: #586674; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 163.620074 77.811429
+L 167.220074 79.611429
+L 163.620074 81.411429
+" style="fill: none; stroke: #586674; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_2">
+    <defs>
+     <path id="m39ffe56013" d="M 0 6.708204
+C 1.779036 6.708204 3.485448 6.001385 4.743416 4.743416
+C 6.001385 3.485448 6.708204 1.779036 6.708204 0
+C 6.708204 -1.779036 6.001385 -3.485448 4.743416 -4.743416
+C 3.485448 -6.001385 1.779036 -6.708204 0 -6.708204
+C -1.779036 -6.708204 -3.485448 -6.001385 -4.743416 -4.743416
+C -6.001385 -3.485448 -6.708204 -1.779036 -6.708204 0
+C -6.708204 1.779036 -6.001385 3.485448 -4.743416 4.743416
+C -3.485448 6.001385 -1.779036 6.708204 0 6.708204
+z
+" style="stroke: #2563a6"/>
+    </defs>
+    <g clip-path="url(#p367340814d)">
+     <use xlink:href="#m39ffe56013" x="184.644" y="79.611429" style="fill: #2563a6; stroke: #2563a6"/>
+    </g>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="184.644" y="54.267429" transform="rotate(-0 184.644 54.267429)">02  运输模式与排程</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei'" transform="translate(150.256969 113.1289)">2903 个自主模式</text>
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei'" transform="translate(148.644 130.397299)">形成高效运输结构</text>
+   </g>
+   <g id="patch_3">
+    <path d="M 200.839664 79.611429
+Q 243.792788 79.611429 285.516074 79.611429
+" style="fill: none; stroke: #586674; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 281.916074 77.811429
+L 285.516074 79.611429
+L 281.916074 81.411429
+" style="fill: none; stroke: #586674; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_3">
+    <defs>
+     <path id="m0b616f3757" d="M 0 6.708204
+C 1.779036 6.708204 3.485448 6.001385 4.743416 4.743416
+C 6.001385 3.485448 6.708204 1.779036 6.708204 0
+C 6.708204 -1.779036 6.001385 -3.485448 4.743416 -4.743416
+C 3.485448 -6.001385 1.779036 -6.708204 0 -6.708204
+C -1.779036 -6.708204 -3.485448 -6.001385 -4.743416 -4.743416
+C -6.001385 -3.485448 -6.708204 -1.779036 -6.708204 0
+C -6.708204 1.779036 -6.001385 3.485448 -4.743416 4.743416
+C -3.485448 6.001385 -1.779036 6.708204 0 6.708204
+z
+" style="stroke: #d67d24"/>
+    </defs>
+    <g clip-path="url(#p367340814d)">
+     <use xlink:href="#m0b616f3757" x="302.94" y="79.611429" style="fill: #d67d24; stroke: #d67d24"/>
+    </g>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="302.94" y="54.267429" transform="rotate(-0 302.94 54.267429)">03  通信缺口与中继</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei'" transform="translate(275.94 113.102181)">轨迹逐段检查</text>
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei'" transform="translate(275.94 130.384642)">动态服务模式</text>
+   </g>
+   <g id="patch_4">
+    <path d="M 319.135664 79.611429
+Q 362.088788 79.611429 403.812074 79.611429
+" style="fill: none; stroke: #586674; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 400.212074 77.811429
+L 403.812074 79.611429
+L 400.212074 81.411429
+" style="fill: none; stroke: #586674; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_4">
+    <g clip-path="url(#p367340814d)">
+     <use xlink:href="#m39ffe56013" x="421.236" y="79.611429" style="fill: #2563a6; stroke: #2563a6"/>
+    </g>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="421.236" y="54.267429" transform="rotate(-0 421.236 54.267429)">04  时间反馈与验证</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei'" transform="translate(394.236 113.115541)">满足完整通信</text>
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei'" transform="translate(380.375297 130.383939)">选择时效—资源折中</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 437.431664 79.611429
+Q 480.384788 79.611429 522.108074 79.611429
+" style="fill: none; stroke: #586674; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 518.508074 77.811429
+L 522.108074 79.611429
+L 518.508074 81.411429
+" style="fill: none; stroke: #586674; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_5">
+    <g clip-path="url(#p367340814d)">
+     <use xlink:href="#m9050068e7d" x="539.532" y="79.611429" style="fill: #586674; stroke: #586674"/>
+    </g>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="539.532" y="54.267429" transform="rotate(-0 539.532 54.267429)">05  固定任务独立分区</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei'" transform="translate(505.393172 113.138041)">F13：4 个依赖块</text>
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei'" transform="translate(498.946219 130.37972)">两组 / 三组完整枚举</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 419.355134 144.005215
+Q 302.939687 185.248428 187.578091 144.378349
+" style="fill: none; stroke: #d67d24; stroke-linecap: round"/>
+    <path d="M 190.370338 147.277204
+L 187.578091 144.378349
+L 191.572523 143.883865
+" style="fill: none; stroke: #d67d24; stroke-linecap: round"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #d67d24" x="302.94" y="171.573943" transform="rotate(-0 302.94 171.573943)">资源冲突 → 必要约束 → 重排运输时刻与资源次序</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p367340814d">
+   <rect x="7.2" y="7.2" width="591.48" height="177.408"/>
+  </clipPath>
+ </defs>
+</svg>

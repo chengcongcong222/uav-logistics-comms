@@ -1,0 +1,74 @@
+{
+  "status": "PASSED",
+  "inherited_sources_unchanged": 116,
+  "explicit_sources": 213,
+  "default_deny_tests": 12,
+  "source_accesses_checked": true,
+  "forbidden_content_hits": [],
+  "scanned_outputs": {
+    "results/p1_5b/paper/PAPER_V02.md": "f6c37c74e501d75469f9e87f607ce0ea79a932ead820377adca8ffb9f01e53b3",
+    "results/p1_5b/paper/REFERENCE_EVIDENCE_MAP.md": "42633092297cb16e8f121c907a7cc168680ff993a3378b8dad8a679b98b21ca7",
+    "results/p1_5b/paper/CLAIM_EVIDENCE_MAP.md": "58371861de776ab2215a9c5a8c25468ed326e0ff5dfdc83f63c9f3b16e2d5355",
+    "results/p1_5b/paper/figures/fig01_framework.svg": "7673e14219203f926a4b4b4402015ad6ba07a2e603dbab52be4a240f1630ad67",
+    "results/p1_5b/paper/figures/fig02_physics.svg": "ceeab45061b8cbafa621cafdab428b6ecdde522900e2f0d044ad1f11230ed546",
+    "results/p1_5b/paper/figures/fig03_transport_patterns.svg": "26bc931c582bffb8efbe26f49924387ad531c6d4c9cde7d017b68dbeb353bd61",
+    "results/p1_5b/paper/figures/fig04_coordination.svg": "19fe052cd9ae11dfd97b24a7158412bdff50a4d2396c43461cc48afe623823fc",
+    "results/p1_5b/paper/figures/fig05_near_fast.svg": "09912ce99fa126e934853ca5cc9f2bbcc21e7fb26b67ef410f720af27bc56f26",
+    "results/p1_5b/paper/figures/fig06_joint_resource_gantt.svg": "1e0909d2b8a83ca3d6724b826caf65f080893a1b2a0180af535ac9acbbd252dc",
+    "results/p1_5b/paper/figures/fig07_partition_resources.svg": "f87fefc23afd2d2e99422d67f73187c321b4c84b92e7502190460f624da9ee58",
+    "results/p1_5b/paper/figures/fig08_reserve_sensitivity.svg": "fab7875fd1a784b84db7cc5e83a73f6a6e4e13976455473bd31bd7523a90874a"
+  },
+  "manuscript_development_jargon_hits": [],
+  "source_lineage": {
+    "results/p1_5b/figure_data/transport_sorties.csv": {
+      "source": "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/transport_sorties_F13.csv",
+      "sha256": "2e4ad00774cc3f88159631fedd023f56442712a288e01ac7cd007b7f7331a92a"
+    },
+    "results/p1_5b/figure_data/box_delivery.csv": {
+      "source": "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/box_delivery_F13.csv",
+      "sha256": "88ac03b0f8fe25df93339a255ff34c193110a81223658380f4d69541e83d1f3d"
+    },
+    "results/p1_5b/figure_data/transport_uav_calendar.csv": {
+      "source": "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/transport_uav_calendar_F13.csv",
+      "sha256": "36301a0b1e5478fd188fe3e9e612ff8e75483bbcaee9da1810979611dc6b674b"
+    },
+    "results/p1_5b/figure_data/transport_battery_calendar.csv": {
+      "source": "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/transport_battery_calendar_F13.csv",
+      "sha256": "fa7b61b4968c08faf301fce8359a30ea9ead001130d723804a3d39f14c91816e"
+    },
+    "results/p1_5b/figure_data/relay_sorties.csv": {
+      "source": "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/relay_sorties_F13.csv",
+      "sha256": "e86d5e5111e56a8dc8422d6586c7832f5e132593c212faf49d94ec4366da58be"
+    },
+    "results/p1_5b/figure_data/relay_uav_calendar.csv": {
+      "source": "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/relay_uav_calendar_F13.csv",
+      "sha256": "41ea5bf74859aedfdd91757a295de0331bac3a5837a4052d6ecf70456f263850"
+    },
+    "results/p1_5b/figure_data/relay_energy_calendar.csv": {
+      "source": "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/relay_energy_calendar_F13.csv",
+      "sha256": "cfcd17a39e0caa32da13468ab9076dacb99231e38c00610b0d46195468511589"
+    },
+    "results/p1_5b/figure_data/communication_guarantee.csv": {
+      "source": "results/p1_5a/execution/q3/F13/solutions/F13_C2_SITE_B6500_RELAY_00_Q3/communication_guarantee_F13.csv",
+      "sha256": "441fc09c14d6602a10f232272842d2a6cf45f0d05fc7bdb78bac61aa7ce1e2c5"
+    }
+  },
+  "F13_workbook_main_metrics_reread": true,
+  "full_workbook_audit": "Inherited A-stage 22-sheet audit; workbook bytes unchanged",
+  "workbook_sha256": "99872442d0b839c9f6bd370015e5c99ed2ad1d2f0de9ec8d7087ce6fd95211a6",
+  "main_unchanged": "c13306ecbc36933502d1197228e5d80f9f7e40cf",
+  "preexisting_tracked_changes_preserved": [
+    "results/q2/q2_battery_calendar.csv",
+    "results/q2/q2_box_delivery.csv",
+    "results/q2/q2_sorties.csv",
+    "results/q2/q2_uav_calendar.csv",
+    "results/q3/relay_candidate_gate_stats_raw.csv"
+  ],
+  "visual_review": "All eight PNGs reviewed; dense figures 3, 6, 7 separately inspected; figure 3 overlap and figure 4 ordering corrected",
+  "boundaries": [
+    "No new search",
+    "Comparator original audit artifact readmission, not a new full radio run",
+    "Reference metadata/abstract/theorem access scopes disclosed",
+    "No final PDF/MD5 submission"
+  ]
+}

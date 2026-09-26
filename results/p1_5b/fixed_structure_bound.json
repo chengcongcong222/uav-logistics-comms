@@ -1,0 +1,6 @@
+{
+  "lower_s": 6211.2690501536645,
+  "upper_transport_s": 6229.812146725357,
+  "upper_joint_s": 6245.793309522221,
+  "scope": "Only the fixed F13 box/visit/type structure; transport occupation lower bound also lower-bounds joint makespan; no all-structure optimum claim"
+}

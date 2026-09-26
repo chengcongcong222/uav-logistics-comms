@@ -1,0 +1,53 @@
+{
+  "status": "PASSED",
+  "cases": [
+    {
+      "test": "admitted_hash_match",
+      "passed": true
+    },
+    {
+      "test": "canonical_allowed_path",
+      "passed": true
+    },
+    {
+      "test": "unlisted_API",
+      "passed": true
+    },
+    {
+      "test": "symlink_to_unlisted_API",
+      "passed": true
+    },
+    {
+      "test": "changed_hash_API",
+      "passed": true
+    },
+    {
+      "test": "outside_repository_API",
+      "passed": true
+    },
+    {
+      "test": "direct_open_admitted",
+      "passed": true
+    },
+    {
+      "test": "direct_open_unlisted",
+      "passed": true
+    },
+    {
+      "test": "direct_open_symlink_unlisted",
+      "passed": true
+    },
+    {
+      "test": "direct_open_changed_hash",
+      "passed": true
+    },
+    {
+      "test": "write_outside_stage",
+      "passed": true
+    },
+    {
+      "test": "actual_content_mutation",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "python": "3.12.3",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "openpyxl": "3.1.5",
+    "Pillow": "12.3.0"
+  },
+  "font_paths": [
+    "/mnt/c/Windows/Fonts/msyh.ttc",
+    "/mnt/c/Windows/Fonts/arial.ttf"
+  ]
+}

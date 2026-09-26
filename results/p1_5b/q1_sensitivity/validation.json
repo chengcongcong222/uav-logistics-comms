@@ -1,0 +1,686 @@
+{
+  "status": "PASSED",
+  "payload_cases": 225,
+  "packing_boxes_each_level": 80,
+  "independent_milp_certificates": [
+    {
+      "rho": 0.1,
+      "service_id": "S001",
+      "count_optimum": 2,
+      "independent_energy_optimum": 5.913298700824649,
+      "count_bound": 2.0,
+      "energy_bound": 5.913298700824649,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S002",
+      "count_optimum": 2,
+      "independent_energy_optimum": 8.434577731509409,
+      "count_bound": 2.0,
+      "energy_bound": 8.434577731509409,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S003",
+      "count_optimum": 2,
+      "independent_energy_optimum": 8.544887596687456,
+      "count_bound": 2.0,
+      "energy_bound": 8.544887596687456,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S004",
+      "count_optimum": 1,
+      "independent_energy_optimum": 6.152897007997176,
+      "count_bound": 1.0,
+      "energy_bound": 6.152897007997176,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S005",
+      "count_optimum": 1,
+      "independent_energy_optimum": 4.2221748035098585,
+      "count_bound": 1.0,
+      "energy_bound": 4.2221748035098585,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S006",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.5979763856932365,
+      "count_bound": 1.0,
+      "energy_bound": 2.5979763856932365,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S007",
+      "count_optimum": 1,
+      "independent_energy_optimum": 3.4108701395927064,
+      "count_bound": 1.0,
+      "energy_bound": 3.4108701395927064,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S008",
+      "count_optimum": 1,
+      "independent_energy_optimum": 5.836023632389955,
+      "count_bound": 1.0,
+      "energy_bound": 5.836023632389955,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S009",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.096210537071622,
+      "count_bound": 1.0,
+      "energy_bound": 2.096210537071622,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S010",
+      "count_optimum": 1,
+      "independent_energy_optimum": 1.8231457316476736,
+      "count_bound": 1.0,
+      "energy_bound": 1.8231457316476736,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S011",
+      "count_optimum": 1,
+      "independent_energy_optimum": 1.0739337252089312,
+      "count_bound": 1.0,
+      "energy_bound": 1.0739337252089312,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S012",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.75235444190214,
+      "count_bound": 1.0,
+      "energy_bound": 2.75235444190214,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S013",
+      "count_optimum": 1,
+      "independent_energy_optimum": 1.8247182633032644,
+      "count_bound": 1.0,
+      "energy_bound": 1.8247182633032644,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S014",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.1403030047614893,
+      "count_bound": 1.0,
+      "energy_bound": 2.1403030047614893,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S015",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.3074247845590743,
+      "count_bound": 1.0,
+      "energy_bound": 2.3074247845590743,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S001",
+      "count_optimum": 2,
+      "independent_energy_optimum": 5.913298700824649,
+      "count_bound": 2.0,
+      "energy_bound": 5.913298700824649,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S002",
+      "count_optimum": 2,
+      "independent_energy_optimum": 8.434577731509409,
+      "count_bound": 2.0,
+      "energy_bound": 8.434577731509409,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S003",
+      "count_optimum": 2,
+      "independent_energy_optimum": 8.544887596687456,
+      "count_bound": 2.0,
+      "energy_bound": 8.544887596687456,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S004",
+      "count_optimum": 1,
+      "independent_energy_optimum": 6.152897007997176,
+      "count_bound": 1.0,
+      "energy_bound": 6.152897007997176,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S005",
+      "count_optimum": 1,
+      "independent_energy_optimum": 4.2221748035098585,
+      "count_bound": 1.0,
+      "energy_bound": 4.2221748035098585,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S006",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.5979763856932365,
+      "count_bound": 1.0,
+      "energy_bound": 2.5979763856932365,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S007",
+      "count_optimum": 1,
+      "independent_energy_optimum": 3.4108701395927064,
+      "count_bound": 1.0,
+      "energy_bound": 3.4108701395927064,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S008",
+      "count_optimum": 1,
+      "independent_energy_optimum": 5.836023632389955,
+      "count_bound": 1.0,
+      "energy_bound": 5.836023632389955,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S009",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.096210537071622,
+      "count_bound": 1.0,
+      "energy_bound": 2.096210537071622,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S010",
+      "count_optimum": 1,
+      "independent_energy_optimum": 1.8231457316476736,
+      "count_bound": 1.0,
+      "energy_bound": 1.8231457316476736,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S011",
+      "count_optimum": 1,
+      "independent_energy_optimum": 1.0739337252089312,
+      "count_bound": 1.0,
+      "energy_bound": 1.0739337252089312,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S012",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.75235444190214,
+      "count_bound": 1.0,
+      "energy_bound": 2.75235444190214,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S013",
+      "count_optimum": 1,
+      "independent_energy_optimum": 1.8247182633032644,
+      "count_bound": 1.0,
+      "energy_bound": 1.8247182633032644,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S014",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.1403030047614893,
+      "count_bound": 1.0,
+      "energy_bound": 2.1403030047614893,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S015",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.3074247845590743,
+      "count_bound": 1.0,
+      "energy_bound": 2.3074247845590743,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S001",
+      "count_optimum": 2,
+      "independent_energy_optimum": 5.913298700824649,
+      "count_bound": 2.0,
+      "energy_bound": 5.913298700824649,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S002",
+      "count_optimum": 2,
+      "independent_energy_optimum": 8.434577731509409,
+      "count_bound": 2.0,
+      "energy_bound": 8.434577731509409,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S003",
+      "count_optimum": 2,
+      "independent_energy_optimum": 8.544887596687456,
+      "count_bound": 2.0,
+      "energy_bound": 8.544887596687456,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S004",
+      "count_optimum": 1,
+      "independent_energy_optimum": 6.152897007997176,
+      "count_bound": 1.0,
+      "energy_bound": 6.152897007997176,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S005",
+      "count_optimum": 1,
+      "independent_energy_optimum": 4.2221748035098585,
+      "count_bound": 1.0,
+      "energy_bound": 4.2221748035098585,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S006",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.5979763856932365,
+      "count_bound": 1.0,
+      "energy_bound": 2.5979763856932365,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S007",
+      "count_optimum": 1,
+      "independent_energy_optimum": 3.4108701395927064,
+      "count_bound": 1.0,
+      "energy_bound": 3.4108701395927064,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S008",
+      "count_optimum": 1,
+      "independent_energy_optimum": 5.836023632389955,
+      "count_bound": 1.0,
+      "energy_bound": 5.836023632389955,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S009",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.096210537071622,
+      "count_bound": 1.0,
+      "energy_bound": 2.096210537071622,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S010",
+      "count_optimum": 1,
+      "independent_energy_optimum": 1.8231457316476736,
+      "count_bound": 1.0,
+      "energy_bound": 1.8231457316476736,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S011",
+      "count_optimum": 1,
+      "independent_energy_optimum": 1.0739337252089312,
+      "count_bound": 1.0,
+      "energy_bound": 1.0739337252089312,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S012",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.75235444190214,
+      "count_bound": 1.0,
+      "energy_bound": 2.75235444190214,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S013",
+      "count_optimum": 1,
+      "independent_energy_optimum": 1.8247182633032644,
+      "count_bound": 1.0,
+      "energy_bound": 1.8247182633032644,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S014",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.1403030047614893,
+      "count_bound": 1.0,
+      "energy_bound": 2.1403030047614893,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S015",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.3074247845590743,
+      "count_bound": 1.0,
+      "energy_bound": 2.3074247845590743,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S001",
+      "count_optimum": 2,
+      "independent_energy_optimum": 5.913298700824649,
+      "count_bound": 2.0,
+      "energy_bound": 5.913298700824649,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S002",
+      "count_optimum": 2,
+      "independent_energy_optimum": 8.43457773150941,
+      "count_bound": 2.0,
+      "energy_bound": 8.43457773150941,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S003",
+      "count_optimum": 2,
+      "independent_energy_optimum": 8.544887596687456,
+      "count_bound": 2.0,
+      "energy_bound": 8.544887596687456,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S004",
+      "count_optimum": 2,
+      "independent_energy_optimum": 8.09495915583452,
+      "count_bound": 2.0,
+      "energy_bound": 8.09495915583452,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S005",
+      "count_optimum": 1,
+      "independent_energy_optimum": 4.2221748035098585,
+      "count_bound": 1.0,
+      "energy_bound": 4.2221748035098585,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S006",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.5979763856932365,
+      "count_bound": 1.0,
+      "energy_bound": 2.5979763856932365,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S007",
+      "count_optimum": 1,
+      "independent_energy_optimum": 3.4108701395927064,
+      "count_bound": 1.0,
+      "energy_bound": 3.4108701395927064,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S008",
+      "count_optimum": 1,
+      "independent_energy_optimum": 5.836023632389955,
+      "count_bound": 1.0,
+      "energy_bound": 5.836023632389955,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S009",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.096210537071622,
+      "count_bound": 1.0,
+      "energy_bound": 2.096210537071622,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S010",
+      "count_optimum": 1,
+      "independent_energy_optimum": 1.8231457316476736,
+      "count_bound": 1.0,
+      "energy_bound": 1.8231457316476736,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S011",
+      "count_optimum": 1,
+      "independent_energy_optimum": 1.0739337252089312,
+      "count_bound": 1.0,
+      "energy_bound": 1.0739337252089312,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S012",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.75235444190214,
+      "count_bound": 1.0,
+      "energy_bound": 2.75235444190214,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S013",
+      "count_optimum": 1,
+      "independent_energy_optimum": 1.8247182633032644,
+      "count_bound": 1.0,
+      "energy_bound": 1.8247182633032644,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S014",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.1403030047614893,
+      "count_bound": 1.0,
+      "energy_bound": 2.1403030047614893,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S015",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.3074247845590743,
+      "count_bound": 1.0,
+      "energy_bound": 2.3074247845590743,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S001",
+      "count_optimum": 2,
+      "independent_energy_optimum": 5.913298700824649,
+      "count_bound": 2.0,
+      "energy_bound": 5.913298700824649,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S002",
+      "count_optimum": 2,
+      "independent_energy_optimum": 10.419502473142613,
+      "count_bound": 2.0,
+      "energy_bound": 10.419502473142613,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S003",
+      "count_optimum": 2,
+      "independent_energy_optimum": 10.497448929177015,
+      "count_bound": 2.0,
+      "energy_bound": 10.497448929177015,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S004",
+      "count_optimum": 2,
+      "independent_energy_optimum": 8.09495915583452,
+      "count_bound": 2.0,
+      "energy_bound": 8.09495915583452,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S005",
+      "count_optimum": 1,
+      "independent_energy_optimum": 4.2221748035098585,
+      "count_bound": 1.0,
+      "energy_bound": 4.2221748035098585,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S006",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.5979763856932365,
+      "count_bound": 1.0,
+      "energy_bound": 2.5979763856932365,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S007",
+      "count_optimum": 1,
+      "independent_energy_optimum": 3.4108701395927064,
+      "count_bound": 1.0,
+      "energy_bound": 3.4108701395927064,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S008",
+      "count_optimum": 2,
+      "independent_energy_optimum": 8.05276525583323,
+      "count_bound": 2.0,
+      "energy_bound": 8.05276525583323,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S009",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.096210537071622,
+      "count_bound": 1.0,
+      "energy_bound": 2.096210537071622,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S010",
+      "count_optimum": 1,
+      "independent_energy_optimum": 1.8231457316476736,
+      "count_bound": 1.0,
+      "energy_bound": 1.8231457316476736,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S011",
+      "count_optimum": 1,
+      "independent_energy_optimum": 1.0739337252089312,
+      "count_bound": 1.0,
+      "energy_bound": 1.0739337252089312,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S012",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.75235444190214,
+      "count_bound": 1.0,
+      "energy_bound": 2.75235444190214,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S013",
+      "count_optimum": 1,
+      "independent_energy_optimum": 1.8247182633032644,
+      "count_bound": 1.0,
+      "energy_bound": 1.8247182633032644,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S014",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.1403030047614893,
+      "count_bound": 1.0,
+      "energy_bound": 2.1403030047614893,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S015",
+      "count_optimum": 1,
+      "independent_energy_optimum": 2.3074247845590743,
+      "count_bound": 1.0,
+      "energy_bound": 2.3074247845590743,
+      "status": "OPTIMAL_IN_COMPLETE_SINGLE_SERVICE_SUBSET_DOMAIN"
+    }
+  ],
+  "baseline_rho20_identical": true,
+  "independent_physics": true,
+  "old_geometry_sensitivity_read": false,
+  "critical_boundary_numerics": "Exact candidate energy thresholds with 1e-8 one-sided probe"
+}

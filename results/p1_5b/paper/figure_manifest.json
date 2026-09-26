@@ -1,0 +1,210 @@
+{
+  "figures": [
+    {
+      "number": 1,
+      "name": "framework",
+      "caption": "从统一物理模型到固定任务分区的技术路线；通信反馈作用于运输时刻与资源次序。",
+      "files": [
+        "results/p1_5b/paper/figures/fig01_framework.png",
+        "results/p1_5b/paper/figures/fig01_framework.svg",
+        "results/p1_5b/paper/figures/fig01_framework.pdf"
+      ],
+      "sources_read": [
+        "results/p1_5b/figure_data/mechanism.json",
+        "results/p1_5b/figure_data/nodes.csv",
+        "results/p1_5b/figure_data/q4_tradeoff.csv",
+        "results/p1_5b/figure_data/relay_sorties.csv",
+        "results/p1_5b/figure_data/tradeoffs.csv",
+        "results/p1_5b/figure_data/transport_sorties.csv"
+      ],
+      "generator": "src/p1_5b/figures.py"
+    },
+    {
+      "number": 2,
+      "name": "physics",
+      "caption": "左图为几何约束示意，右图按统一物理公式计算S004往返能耗，载荷容量与可用能量共同限制单架次。",
+      "files": [
+        "results/p1_5b/paper/figures/fig02_physics.png",
+        "results/p1_5b/paper/figures/fig02_physics.svg",
+        "results/p1_5b/paper/figures/fig02_physics.pdf"
+      ],
+      "sources_read": [
+        "results/p1_5b/figure_data/mechanism.json",
+        "results/p1_5b/figure_data/nodes.csv",
+        "results/p1_5b/figure_data/payload_energy_curve.csv",
+        "results/p1_5b/figure_data/q4_tradeoff.csv",
+        "results/p1_5b/figure_data/relay_sorties.csv",
+        "results/p1_5b/figure_data/tradeoffs.csv",
+        "results/p1_5b/figure_data/transport_sorties.csv"
+      ],
+      "generator": "src/p1_5b/figures.py"
+    },
+    {
+      "number": 3,
+      "name": "transport_patterns",
+      "caption": "有限运输模式池及F13选中架次的访问关系；箱组与访问结构确定后还需实体与共享电池排程。",
+      "files": [
+        "results/p1_5b/paper/figures/fig03_transport_patterns.png",
+        "results/p1_5b/paper/figures/fig03_transport_patterns.svg",
+        "results/p1_5b/paper/figures/fig03_transport_patterns.pdf"
+      ],
+      "sources_read": [
+        "results/p1_5b/figure_data/mechanism.json",
+        "results/p1_5b/figure_data/nodes.csv",
+        "results/p1_5b/figure_data/payload_energy_curve.csv",
+        "results/p1_5b/figure_data/q4_tradeoff.csv",
+        "results/p1_5b/figure_data/relay_sorties.csv",
+        "results/p1_5b/figure_data/tradeoffs.csv",
+        "results/p1_5b/figure_data/transport_sorties.csv"
+      ],
+      "generator": "src/p1_5b/figures.py"
+    },
+    {
+      "number": 4,
+      "name": "coordination",
+      "caption": "分解协调机制及F13部分通信区间的时刻变化。动态服务模式为启发式生成，图不表示精确列生成收敛。",
+      "files": [
+        "results/p1_5b/paper/figures/fig04_coordination.png",
+        "results/p1_5b/paper/figures/fig04_coordination.svg",
+        "results/p1_5b/paper/figures/fig04_coordination.pdf"
+      ],
+      "sources_read": [
+        "results/p1_5b/figure_data/communication_guarantee.csv",
+        "results/p1_5b/figure_data/mechanism.json",
+        "results/p1_5b/figure_data/nodes.csv",
+        "results/p1_5b/figure_data/original_gaps.csv",
+        "results/p1_5b/figure_data/payload_energy_curve.csv",
+        "results/p1_5b/figure_data/q4_tradeoff.csv",
+        "results/p1_5b/figure_data/relay_sorties.csv",
+        "results/p1_5b/figure_data/tradeoffs.csv",
+        "results/p1_5b/figure_data/transport_sorties.csv"
+      ],
+      "generator": "src/p1_5b/figures.py"
+    },
+    {
+      "number": 5,
+      "name": "near_fast",
+      "caption": "近快端四个已验证折中代表；不连接成连续前沿，不据此声称完整Pareto。",
+      "files": [
+        "results/p1_5b/paper/figures/fig05_near_fast.png",
+        "results/p1_5b/paper/figures/fig05_near_fast.svg",
+        "results/p1_5b/paper/figures/fig05_near_fast.pdf"
+      ],
+      "sources_read": [
+        "results/p1_5b/figure_data/communication_guarantee.csv",
+        "results/p1_5b/figure_data/mechanism.json",
+        "results/p1_5b/figure_data/nodes.csv",
+        "results/p1_5b/figure_data/original_gaps.csv",
+        "results/p1_5b/figure_data/payload_energy_curve.csv",
+        "results/p1_5b/figure_data/q4_tradeoff.csv",
+        "results/p1_5b/figure_data/relay_sorties.csv",
+        "results/p1_5b/figure_data/tradeoffs.csv",
+        "results/p1_5b/figure_data/transport_sorties.csv"
+      ],
+      "generator": "src/p1_5b/figures.py"
+    },
+    {
+      "number": 6,
+      "name": "joint_resource_gantt",
+      "caption": "F13四类资源的实际占用。联合完工取最后返航，不包含其后的充电与周转；这些时段仍计入资源可用性与Q4。",
+      "files": [
+        "results/p1_5b/paper/figures/fig06_joint_resource_gantt.png",
+        "results/p1_5b/paper/figures/fig06_joint_resource_gantt.svg",
+        "results/p1_5b/paper/figures/fig06_joint_resource_gantt.pdf"
+      ],
+      "sources_read": [
+        "results/p1_5b/figure_data/communication_guarantee.csv",
+        "results/p1_5b/figure_data/mechanism.json",
+        "results/p1_5b/figure_data/nodes.csv",
+        "results/p1_5b/figure_data/original_gaps.csv",
+        "results/p1_5b/figure_data/payload_energy_curve.csv",
+        "results/p1_5b/figure_data/q4_tradeoff.csv",
+        "results/p1_5b/figure_data/relay_energy_calendar.csv",
+        "results/p1_5b/figure_data/relay_sorties.csv",
+        "results/p1_5b/figure_data/relay_uav_calendar.csv",
+        "results/p1_5b/figure_data/tradeoffs.csv",
+        "results/p1_5b/figure_data/transport_battery_calendar.csv",
+        "results/p1_5b/figure_data/transport_sorties.csv",
+        "results/p1_5b/figure_data/transport_uav_calendar.csv"
+      ],
+      "generator": "src/p1_5b/figures.py"
+    },
+    {
+      "number": 7,
+      "name": "partition_resources",
+      "caption": "固定F13任务下的分区与资源缺口。上排展示缺口优先分区；下排同时报告均衡优先代表。",
+      "files": [
+        "results/p1_5b/paper/figures/fig07_partition_resources.png",
+        "results/p1_5b/paper/figures/fig07_partition_resources.svg",
+        "results/p1_5b/paper/figures/fig07_partition_resources.pdf"
+      ],
+      "sources_read": [
+        "results/p1_5b/figure_data/communication_guarantee.csv",
+        "results/p1_5b/figure_data/mechanism.json",
+        "results/p1_5b/figure_data/nodes.csv",
+        "results/p1_5b/figure_data/original_gaps.csv",
+        "results/p1_5b/figure_data/payload_energy_curve.csv",
+        "results/p1_5b/figure_data/q4_groups.csv",
+        "results/p1_5b/figure_data/q4_tradeoff.csv",
+        "results/p1_5b/figure_data/relay_energy_calendar.csv",
+        "results/p1_5b/figure_data/relay_sorties.csv",
+        "results/p1_5b/figure_data/relay_uav_calendar.csv",
+        "results/p1_5b/figure_data/tradeoffs.csv",
+        "results/p1_5b/figure_data/transport_battery_calendar.csv",
+        "results/p1_5b/figure_data/transport_sorties.csv",
+        "results/p1_5b/figure_data/transport_uav_calendar.csv"
+      ],
+      "generator": "src/p1_5b/figures.py"
+    },
+    {
+      "number": 8,
+      "name": "reserve_sensitivity",
+      "caption": "统一几何下的Q1返航安全余量敏感性。载荷可行域连续收缩，不可拆货箱导致架次数在两个阈值附近阶跃。",
+      "files": [
+        "results/p1_5b/paper/figures/fig08_reserve_sensitivity.png",
+        "results/p1_5b/paper/figures/fig08_reserve_sensitivity.svg",
+        "results/p1_5b/paper/figures/fig08_reserve_sensitivity.pdf"
+      ],
+      "sources_read": [
+        "results/p1_5b/figure_data/communication_guarantee.csv",
+        "results/p1_5b/figure_data/mechanism.json",
+        "results/p1_5b/figure_data/nodes.csv",
+        "results/p1_5b/figure_data/original_gaps.csv",
+        "results/p1_5b/figure_data/payload_energy_curve.csv",
+        "results/p1_5b/figure_data/q1_breakpoints.json",
+        "results/p1_5b/figure_data/q1_levels.csv",
+        "results/p1_5b/figure_data/q1_payload.csv",
+        "results/p1_5b/figure_data/q4_groups.csv",
+        "results/p1_5b/figure_data/q4_tradeoff.csv",
+        "results/p1_5b/figure_data/relay_energy_calendar.csv",
+        "results/p1_5b/figure_data/relay_sorties.csv",
+        "results/p1_5b/figure_data/relay_uav_calendar.csv",
+        "results/p1_5b/figure_data/tradeoffs.csv",
+        "results/p1_5b/figure_data/transport_battery_calendar.csv",
+        "results/p1_5b/figure_data/transport_sorties.csv",
+        "results/p1_5b/figure_data/transport_uav_calendar.csv"
+      ],
+      "generator": "src/p1_5b/figures.py"
+    }
+  ],
+  "source_accesses": [
+    "results/p1_5b/figure_data/communication_guarantee.csv",
+    "results/p1_5b/figure_data/mechanism.json",
+    "results/p1_5b/figure_data/nodes.csv",
+    "results/p1_5b/figure_data/original_gaps.csv",
+    "results/p1_5b/figure_data/payload_energy_curve.csv",
+    "results/p1_5b/figure_data/q1_breakpoints.json",
+    "results/p1_5b/figure_data/q1_levels.csv",
+    "results/p1_5b/figure_data/q1_payload.csv",
+    "results/p1_5b/figure_data/q4_groups.csv",
+    "results/p1_5b/figure_data/q4_tradeoff.csv",
+    "results/p1_5b/figure_data/relay_energy_calendar.csv",
+    "results/p1_5b/figure_data/relay_sorties.csv",
+    "results/p1_5b/figure_data/relay_uav_calendar.csv",
+    "results/p1_5b/figure_data/tradeoffs.csv",
+    "results/p1_5b/figure_data/transport_battery_calendar.csv",
+    "results/p1_5b/figure_data/transport_sorties.csv",
+    "results/p1_5b/figure_data/transport_uav_calendar.csv"
+  ],
+  "style": "Fixed transport/relay/environment semantics; no decorative 3D; all figure data admitted"
+}

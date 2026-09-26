@@ -1,0 +1,2051 @@
+{
+  "geometry": "G2",
+  "levels": [
+    {
+      "rho": 0.1,
+      "sorties": 18,
+      "energy_kwh": 59.130796486658646,
+      "sum_duration_s": 32776.09267694376,
+      "type_counts": {
+        "A": 0,
+        "B": 9,
+        "C": 9
+      }
+    },
+    {
+      "rho": 0.15,
+      "sorties": 18,
+      "energy_kwh": 59.130796486658646,
+      "sum_duration_s": 32776.09267694376,
+      "type_counts": {
+        "A": 0,
+        "B": 9,
+        "C": 9
+      }
+    },
+    {
+      "rho": 0.2,
+      "sorties": 18,
+      "energy_kwh": 59.130796486658646,
+      "sum_duration_s": 32776.09267694376,
+      "type_counts": {
+        "A": 0,
+        "B": 9,
+        "C": 9
+      }
+    },
+    {
+      "rho": 0.25,
+      "sorties": 19,
+      "energy_kwh": 61.07285863449599,
+      "sum_duration_s": 34565.740688117,
+      "type_counts": {
+        "A": 0,
+        "B": 10,
+        "C": 9
+      }
+    },
+    {
+      "rho": 0.3,
+      "sorties": 20,
+      "energy_kwh": 67.22708633206175,
+      "sum_duration_s": 36586.269126062034,
+      "type_counts": {
+        "A": 0,
+        "B": 9,
+        "C": 11
+      }
+    }
+  ],
+  "per_service": [
+    {
+      "rho": 0.1,
+      "service_id": "S001",
+      "sorties": 2,
+      "energy_kwh": 5.913298700824649,
+      "sum_duration_s": 3186.34078375793,
+      "type_counts": {
+        "C": 2
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S001-FOD-01",
+            "S001-WAT-01",
+            "S001-WAT-02",
+            "S001-WAT-03",
+            "S001-WAT-04",
+            "S001-WAT-05"
+          ]
+        },
+        {
+          "type": "C",
+          "boxes": [
+            "S001-FOD-02",
+            "S001-FOD-03",
+            "S001-HYG-01",
+            "S001-HYG-02",
+            "S001-MED-01",
+            "S001-MED-02",
+            "S001-WAT-06",
+            "S001-WAT-07",
+            "S001-WAT-08"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S002",
+      "sorties": 2,
+      "energy_kwh": 8.434577731509409,
+      "sum_duration_s": 3858.50595256062,
+      "type_counts": {
+        "C": 1,
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S002-FOD-01",
+            "S002-HYG-01",
+            "S002-WAT-01",
+            "S002-WAT-02",
+            "S002-WAT-03"
+          ]
+        },
+        {
+          "type": "B",
+          "boxes": [
+            "S002-FOD-02",
+            "S002-MED-01",
+            "S002-WAT-04"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S003",
+      "sorties": 2,
+      "energy_kwh": 8.544887596687456,
+      "sum_duration_s": 4450.654242612963,
+      "type_counts": {
+        "C": 1,
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S003-FOD-01",
+            "S003-HYG-01",
+            "S003-WAT-01",
+            "S003-WAT-02",
+            "S003-WAT-03"
+          ]
+        },
+        {
+          "type": "B",
+          "boxes": [
+            "S003-FOD-02",
+            "S003-MED-01",
+            "S003-WAT-04"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S004",
+      "sorties": 1,
+      "energy_kwh": 6.152897007997176,
+      "sum_duration_s": 2301.061066593163,
+      "type_counts": {
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S004-FOD-01",
+            "S004-HYG-01",
+            "S004-MED-01",
+            "S004-WAT-01",
+            "S004-WAT-02",
+            "S004-WAT-03"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S005",
+      "sorties": 1,
+      "energy_kwh": 4.2221748035098585,
+      "sum_duration_s": 1877.1951581955423,
+      "type_counts": {
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S005-FOD-01",
+            "S005-HYG-01",
+            "S005-MED-01",
+            "S005-WAT-01",
+            "S005-WAT-02",
+            "S005-WAT-03"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S006",
+      "sorties": 1,
+      "energy_kwh": 2.5979763856932365,
+      "sum_duration_s": 1561.5595259403467,
+      "type_counts": {
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S006-FOD-01",
+            "S006-HYG-01",
+            "S006-MED-01",
+            "S006-WAT-01",
+            "S006-WAT-02",
+            "S006-WAT-03"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S007",
+      "sorties": 1,
+      "energy_kwh": 3.4108701395927064,
+      "sum_duration_s": 1907.5754478361764,
+      "type_counts": {
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S007-FOD-01",
+            "S007-HYG-01",
+            "S007-MED-01",
+            "S007-WAT-01",
+            "S007-WAT-02"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S008",
+      "sorties": 1,
+      "energy_kwh": 5.836023632389955,
+      "sum_duration_s": 2199.7120845921745,
+      "type_counts": {
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S008-FOD-01",
+            "S008-HYG-01",
+            "S008-MED-01",
+            "S008-WAT-01",
+            "S008-WAT-02"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S009",
+      "sorties": 1,
+      "energy_kwh": 2.096210537071622,
+      "sum_duration_s": 1558.4422473944087,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S009-FOD-01",
+            "S009-MED-01",
+            "S009-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S010",
+      "sorties": 1,
+      "energy_kwh": 1.8231457316476736,
+      "sum_duration_s": 1555.376902446339,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S010-FOD-01",
+            "S010-MED-01",
+            "S010-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S011",
+      "sorties": 1,
+      "energy_kwh": 1.0739337252089312,
+      "sum_duration_s": 1188.4236501116006,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S011-FOD-01",
+            "S011-MED-01",
+            "S011-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S012",
+      "sorties": 1,
+      "energy_kwh": 2.75235444190214,
+      "sum_duration_s": 1922.734555970083,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S012-FOD-01",
+            "S012-MED-01",
+            "S012-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S013",
+      "sorties": 1,
+      "energy_kwh": 1.8247182633032644,
+      "sum_duration_s": 1510.4702802929446,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S013-FOD-01",
+            "S013-MED-01",
+            "S013-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S014",
+      "sorties": 1,
+      "energy_kwh": 2.1403030047614893,
+      "sum_duration_s": 1869.7521946190163,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S014-FOD-01",
+            "S014-MED-01",
+            "S014-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.1,
+      "service_id": "S015",
+      "sorties": 1,
+      "energy_kwh": 2.3074247845590743,
+      "sum_duration_s": 1828.2885840204501,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S015-FOD-01",
+            "S015-MED-01",
+            "S015-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S001",
+      "sorties": 2,
+      "energy_kwh": 5.913298700824649,
+      "sum_duration_s": 3186.34078375793,
+      "type_counts": {
+        "C": 2
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S001-FOD-01",
+            "S001-WAT-01",
+            "S001-WAT-02",
+            "S001-WAT-03",
+            "S001-WAT-04",
+            "S001-WAT-05"
+          ]
+        },
+        {
+          "type": "C",
+          "boxes": [
+            "S001-FOD-02",
+            "S001-FOD-03",
+            "S001-HYG-01",
+            "S001-HYG-02",
+            "S001-MED-01",
+            "S001-MED-02",
+            "S001-WAT-06",
+            "S001-WAT-07",
+            "S001-WAT-08"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S002",
+      "sorties": 2,
+      "energy_kwh": 8.434577731509409,
+      "sum_duration_s": 3858.50595256062,
+      "type_counts": {
+        "C": 1,
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S002-FOD-01",
+            "S002-HYG-01",
+            "S002-WAT-01",
+            "S002-WAT-02",
+            "S002-WAT-03"
+          ]
+        },
+        {
+          "type": "B",
+          "boxes": [
+            "S002-FOD-02",
+            "S002-MED-01",
+            "S002-WAT-04"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S003",
+      "sorties": 2,
+      "energy_kwh": 8.544887596687456,
+      "sum_duration_s": 4450.654242612963,
+      "type_counts": {
+        "C": 1,
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S003-FOD-01",
+            "S003-HYG-01",
+            "S003-WAT-01",
+            "S003-WAT-02",
+            "S003-WAT-03"
+          ]
+        },
+        {
+          "type": "B",
+          "boxes": [
+            "S003-FOD-02",
+            "S003-MED-01",
+            "S003-WAT-04"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S004",
+      "sorties": 1,
+      "energy_kwh": 6.152897007997176,
+      "sum_duration_s": 2301.061066593163,
+      "type_counts": {
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S004-FOD-01",
+            "S004-HYG-01",
+            "S004-MED-01",
+            "S004-WAT-01",
+            "S004-WAT-02",
+            "S004-WAT-03"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S005",
+      "sorties": 1,
+      "energy_kwh": 4.2221748035098585,
+      "sum_duration_s": 1877.1951581955423,
+      "type_counts": {
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S005-FOD-01",
+            "S005-HYG-01",
+            "S005-MED-01",
+            "S005-WAT-01",
+            "S005-WAT-02",
+            "S005-WAT-03"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S006",
+      "sorties": 1,
+      "energy_kwh": 2.5979763856932365,
+      "sum_duration_s": 1561.5595259403467,
+      "type_counts": {
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S006-FOD-01",
+            "S006-HYG-01",
+            "S006-MED-01",
+            "S006-WAT-01",
+            "S006-WAT-02",
+            "S006-WAT-03"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S007",
+      "sorties": 1,
+      "energy_kwh": 3.4108701395927064,
+      "sum_duration_s": 1907.5754478361764,
+      "type_counts": {
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S007-FOD-01",
+            "S007-HYG-01",
+            "S007-MED-01",
+            "S007-WAT-01",
+            "S007-WAT-02"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S008",
+      "sorties": 1,
+      "energy_kwh": 5.836023632389955,
+      "sum_duration_s": 2199.7120845921745,
+      "type_counts": {
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S008-FOD-01",
+            "S008-HYG-01",
+            "S008-MED-01",
+            "S008-WAT-01",
+            "S008-WAT-02"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S009",
+      "sorties": 1,
+      "energy_kwh": 2.096210537071622,
+      "sum_duration_s": 1558.4422473944087,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S009-FOD-01",
+            "S009-MED-01",
+            "S009-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S010",
+      "sorties": 1,
+      "energy_kwh": 1.8231457316476736,
+      "sum_duration_s": 1555.376902446339,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S010-FOD-01",
+            "S010-MED-01",
+            "S010-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S011",
+      "sorties": 1,
+      "energy_kwh": 1.0739337252089312,
+      "sum_duration_s": 1188.4236501116006,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S011-FOD-01",
+            "S011-MED-01",
+            "S011-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S012",
+      "sorties": 1,
+      "energy_kwh": 2.75235444190214,
+      "sum_duration_s": 1922.734555970083,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S012-FOD-01",
+            "S012-MED-01",
+            "S012-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S013",
+      "sorties": 1,
+      "energy_kwh": 1.8247182633032644,
+      "sum_duration_s": 1510.4702802929446,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S013-FOD-01",
+            "S013-MED-01",
+            "S013-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S014",
+      "sorties": 1,
+      "energy_kwh": 2.1403030047614893,
+      "sum_duration_s": 1869.7521946190163,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S014-FOD-01",
+            "S014-MED-01",
+            "S014-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.15,
+      "service_id": "S015",
+      "sorties": 1,
+      "energy_kwh": 2.3074247845590743,
+      "sum_duration_s": 1828.2885840204501,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S015-FOD-01",
+            "S015-MED-01",
+            "S015-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S001",
+      "sorties": 2,
+      "energy_kwh": 5.913298700824649,
+      "sum_duration_s": 3186.34078375793,
+      "type_counts": {
+        "C": 2
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S001-FOD-01",
+            "S001-WAT-01",
+            "S001-WAT-02",
+            "S001-WAT-03",
+            "S001-WAT-04",
+            "S001-WAT-05"
+          ]
+        },
+        {
+          "type": "C",
+          "boxes": [
+            "S001-FOD-02",
+            "S001-FOD-03",
+            "S001-HYG-01",
+            "S001-HYG-02",
+            "S001-MED-01",
+            "S001-MED-02",
+            "S001-WAT-06",
+            "S001-WAT-07",
+            "S001-WAT-08"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S002",
+      "sorties": 2,
+      "energy_kwh": 8.434577731509409,
+      "sum_duration_s": 3858.50595256062,
+      "type_counts": {
+        "C": 1,
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S002-FOD-01",
+            "S002-HYG-01",
+            "S002-WAT-01",
+            "S002-WAT-02",
+            "S002-WAT-03"
+          ]
+        },
+        {
+          "type": "B",
+          "boxes": [
+            "S002-FOD-02",
+            "S002-MED-01",
+            "S002-WAT-04"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S003",
+      "sorties": 2,
+      "energy_kwh": 8.544887596687456,
+      "sum_duration_s": 4450.654242612963,
+      "type_counts": {
+        "C": 1,
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S003-FOD-01",
+            "S003-HYG-01",
+            "S003-WAT-01",
+            "S003-WAT-02",
+            "S003-WAT-03"
+          ]
+        },
+        {
+          "type": "B",
+          "boxes": [
+            "S003-FOD-02",
+            "S003-MED-01",
+            "S003-WAT-04"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S004",
+      "sorties": 1,
+      "energy_kwh": 6.152897007997176,
+      "sum_duration_s": 2301.061066593163,
+      "type_counts": {
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S004-FOD-01",
+            "S004-HYG-01",
+            "S004-MED-01",
+            "S004-WAT-01",
+            "S004-WAT-02",
+            "S004-WAT-03"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S005",
+      "sorties": 1,
+      "energy_kwh": 4.2221748035098585,
+      "sum_duration_s": 1877.1951581955423,
+      "type_counts": {
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S005-FOD-01",
+            "S005-HYG-01",
+            "S005-MED-01",
+            "S005-WAT-01",
+            "S005-WAT-02",
+            "S005-WAT-03"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S006",
+      "sorties": 1,
+      "energy_kwh": 2.5979763856932365,
+      "sum_duration_s": 1561.5595259403467,
+      "type_counts": {
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S006-FOD-01",
+            "S006-HYG-01",
+            "S006-MED-01",
+            "S006-WAT-01",
+            "S006-WAT-02",
+            "S006-WAT-03"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S007",
+      "sorties": 1,
+      "energy_kwh": 3.4108701395927064,
+      "sum_duration_s": 1907.5754478361764,
+      "type_counts": {
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S007-FOD-01",
+            "S007-HYG-01",
+            "S007-MED-01",
+            "S007-WAT-01",
+            "S007-WAT-02"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S008",
+      "sorties": 1,
+      "energy_kwh": 5.836023632389955,
+      "sum_duration_s": 2199.7120845921745,
+      "type_counts": {
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S008-FOD-01",
+            "S008-HYG-01",
+            "S008-MED-01",
+            "S008-WAT-01",
+            "S008-WAT-02"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S009",
+      "sorties": 1,
+      "energy_kwh": 2.096210537071622,
+      "sum_duration_s": 1558.4422473944087,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S009-FOD-01",
+            "S009-MED-01",
+            "S009-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S010",
+      "sorties": 1,
+      "energy_kwh": 1.8231457316476736,
+      "sum_duration_s": 1555.376902446339,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S010-FOD-01",
+            "S010-MED-01",
+            "S010-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S011",
+      "sorties": 1,
+      "energy_kwh": 1.0739337252089312,
+      "sum_duration_s": 1188.4236501116006,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S011-FOD-01",
+            "S011-MED-01",
+            "S011-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S012",
+      "sorties": 1,
+      "energy_kwh": 2.75235444190214,
+      "sum_duration_s": 1922.734555970083,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S012-FOD-01",
+            "S012-MED-01",
+            "S012-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S013",
+      "sorties": 1,
+      "energy_kwh": 1.8247182633032644,
+      "sum_duration_s": 1510.4702802929446,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S013-FOD-01",
+            "S013-MED-01",
+            "S013-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S014",
+      "sorties": 1,
+      "energy_kwh": 2.1403030047614893,
+      "sum_duration_s": 1869.7521946190163,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S014-FOD-01",
+            "S014-MED-01",
+            "S014-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.2,
+      "service_id": "S015",
+      "sorties": 1,
+      "energy_kwh": 2.3074247845590743,
+      "sum_duration_s": 1828.2885840204501,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S015-FOD-01",
+            "S015-MED-01",
+            "S015-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S001",
+      "sorties": 2,
+      "energy_kwh": 5.913298700824649,
+      "sum_duration_s": 3186.34078375793,
+      "type_counts": {
+        "C": 2
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S001-FOD-01",
+            "S001-WAT-01",
+            "S001-WAT-02",
+            "S001-WAT-03",
+            "S001-WAT-04",
+            "S001-WAT-05"
+          ]
+        },
+        {
+          "type": "C",
+          "boxes": [
+            "S001-FOD-02",
+            "S001-FOD-03",
+            "S001-HYG-01",
+            "S001-HYG-02",
+            "S001-MED-01",
+            "S001-MED-02",
+            "S001-WAT-06",
+            "S001-WAT-07",
+            "S001-WAT-08"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S002",
+      "sorties": 2,
+      "energy_kwh": 8.434577731509409,
+      "sum_duration_s": 3858.50595256062,
+      "type_counts": {
+        "C": 1,
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S002-FOD-01",
+            "S002-HYG-01",
+            "S002-WAT-01",
+            "S002-WAT-02",
+            "S002-WAT-03"
+          ]
+        },
+        {
+          "type": "B",
+          "boxes": [
+            "S002-FOD-02",
+            "S002-MED-01",
+            "S002-WAT-04"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S003",
+      "sorties": 2,
+      "energy_kwh": 8.544887596687456,
+      "sum_duration_s": 4450.654242612963,
+      "type_counts": {
+        "C": 1,
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S003-FOD-01",
+            "S003-HYG-01",
+            "S003-WAT-01",
+            "S003-WAT-02",
+            "S003-WAT-03"
+          ]
+        },
+        {
+          "type": "B",
+          "boxes": [
+            "S003-FOD-02",
+            "S003-MED-01",
+            "S003-WAT-04"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S004",
+      "sorties": 2,
+      "energy_kwh": 8.09495915583452,
+      "sum_duration_s": 4090.7090777664043,
+      "type_counts": {
+        "C": 1,
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S004-FOD-01",
+            "S004-HYG-01",
+            "S004-WAT-01",
+            "S004-WAT-02"
+          ]
+        },
+        {
+          "type": "B",
+          "boxes": [
+            "S004-MED-01",
+            "S004-WAT-03"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S005",
+      "sorties": 1,
+      "energy_kwh": 4.2221748035098585,
+      "sum_duration_s": 1877.1951581955423,
+      "type_counts": {
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S005-FOD-01",
+            "S005-HYG-01",
+            "S005-MED-01",
+            "S005-WAT-01",
+            "S005-WAT-02",
+            "S005-WAT-03"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S006",
+      "sorties": 1,
+      "energy_kwh": 2.5979763856932365,
+      "sum_duration_s": 1561.5595259403467,
+      "type_counts": {
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S006-FOD-01",
+            "S006-HYG-01",
+            "S006-MED-01",
+            "S006-WAT-01",
+            "S006-WAT-02",
+            "S006-WAT-03"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S007",
+      "sorties": 1,
+      "energy_kwh": 3.4108701395927064,
+      "sum_duration_s": 1907.5754478361764,
+      "type_counts": {
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S007-FOD-01",
+            "S007-HYG-01",
+            "S007-MED-01",
+            "S007-WAT-01",
+            "S007-WAT-02"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S008",
+      "sorties": 1,
+      "energy_kwh": 5.836023632389955,
+      "sum_duration_s": 2199.7120845921745,
+      "type_counts": {
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S008-FOD-01",
+            "S008-HYG-01",
+            "S008-MED-01",
+            "S008-WAT-01",
+            "S008-WAT-02"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S009",
+      "sorties": 1,
+      "energy_kwh": 2.096210537071622,
+      "sum_duration_s": 1558.4422473944087,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S009-FOD-01",
+            "S009-MED-01",
+            "S009-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S010",
+      "sorties": 1,
+      "energy_kwh": 1.8231457316476736,
+      "sum_duration_s": 1555.376902446339,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S010-FOD-01",
+            "S010-MED-01",
+            "S010-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S011",
+      "sorties": 1,
+      "energy_kwh": 1.0739337252089312,
+      "sum_duration_s": 1188.4236501116006,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S011-FOD-01",
+            "S011-MED-01",
+            "S011-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S012",
+      "sorties": 1,
+      "energy_kwh": 2.75235444190214,
+      "sum_duration_s": 1922.734555970083,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S012-FOD-01",
+            "S012-MED-01",
+            "S012-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S013",
+      "sorties": 1,
+      "energy_kwh": 1.8247182633032644,
+      "sum_duration_s": 1510.4702802929446,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S013-FOD-01",
+            "S013-MED-01",
+            "S013-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S014",
+      "sorties": 1,
+      "energy_kwh": 2.1403030047614893,
+      "sum_duration_s": 1869.7521946190163,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S014-FOD-01",
+            "S014-MED-01",
+            "S014-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.25,
+      "service_id": "S015",
+      "sorties": 1,
+      "energy_kwh": 2.3074247845590743,
+      "sum_duration_s": 1828.2885840204501,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S015-FOD-01",
+            "S015-MED-01",
+            "S015-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S001",
+      "sorties": 2,
+      "energy_kwh": 5.913298700824649,
+      "sum_duration_s": 3186.34078375793,
+      "type_counts": {
+        "C": 2
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S001-FOD-01",
+            "S001-WAT-01",
+            "S001-WAT-02",
+            "S001-WAT-03",
+            "S001-WAT-04",
+            "S001-WAT-05"
+          ]
+        },
+        {
+          "type": "C",
+          "boxes": [
+            "S001-FOD-02",
+            "S001-FOD-03",
+            "S001-HYG-01",
+            "S001-HYG-02",
+            "S001-MED-01",
+            "S001-MED-02",
+            "S001-WAT-06",
+            "S001-WAT-07",
+            "S001-WAT-08"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S002",
+      "sorties": 2,
+      "energy_kwh": 10.419502473142472,
+      "sum_duration_s": 3951.6240372774164,
+      "type_counts": {
+        "C": 2
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S002-WAT-01",
+            "S002-WAT-02",
+            "S002-WAT-03"
+          ]
+        },
+        {
+          "type": "C",
+          "boxes": [
+            "S002-FOD-01",
+            "S002-FOD-02",
+            "S002-HYG-01",
+            "S002-MED-01",
+            "S002-WAT-04"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S003",
+      "sorties": 2,
+      "energy_kwh": 10.497448929176876,
+      "sum_duration_s": 4608.22228867416,
+      "type_counts": {
+        "C": 2
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S003-WAT-01",
+            "S003-WAT-02",
+            "S003-WAT-03"
+          ]
+        },
+        {
+          "type": "C",
+          "boxes": [
+            "S003-FOD-01",
+            "S003-FOD-02",
+            "S003-HYG-01",
+            "S003-MED-01",
+            "S003-WAT-04"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S004",
+      "sorties": 2,
+      "energy_kwh": 8.09495915583452,
+      "sum_duration_s": 4090.7090777664043,
+      "type_counts": {
+        "C": 1,
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S004-FOD-01",
+            "S004-HYG-01",
+            "S004-WAT-01",
+            "S004-WAT-02"
+          ]
+        },
+        {
+          "type": "B",
+          "boxes": [
+            "S004-MED-01",
+            "S004-WAT-03"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S005",
+      "sorties": 1,
+      "energy_kwh": 4.2221748035098585,
+      "sum_duration_s": 1877.1951581955423,
+      "type_counts": {
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S005-FOD-01",
+            "S005-HYG-01",
+            "S005-MED-01",
+            "S005-WAT-01",
+            "S005-WAT-02",
+            "S005-WAT-03"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S006",
+      "sorties": 1,
+      "energy_kwh": 2.5979763856932365,
+      "sum_duration_s": 1561.5595259403467,
+      "type_counts": {
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S006-FOD-01",
+            "S006-HYG-01",
+            "S006-MED-01",
+            "S006-WAT-01",
+            "S006-WAT-02",
+            "S006-WAT-03"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S007",
+      "sorties": 1,
+      "energy_kwh": 3.4108701395927064,
+      "sum_duration_s": 1907.5754478361764,
+      "type_counts": {
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "C",
+          "boxes": [
+            "S007-FOD-01",
+            "S007-HYG-01",
+            "S007-MED-01",
+            "S007-WAT-01",
+            "S007-WAT-02"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S008",
+      "sorties": 2,
+      "energy_kwh": 8.05276525583323,
+      "sum_duration_s": 3969.5543917592186,
+      "type_counts": {
+        "B": 1,
+        "C": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S008-FOD-01",
+            "S008-HYG-01"
+          ]
+        },
+        {
+          "type": "C",
+          "boxes": [
+            "S008-MED-01",
+            "S008-WAT-01",
+            "S008-WAT-02"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S009",
+      "sorties": 1,
+      "energy_kwh": 2.096210537071622,
+      "sum_duration_s": 1558.4422473944087,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S009-FOD-01",
+            "S009-MED-01",
+            "S009-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S010",
+      "sorties": 1,
+      "energy_kwh": 1.8231457316476736,
+      "sum_duration_s": 1555.376902446339,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S010-FOD-01",
+            "S010-MED-01",
+            "S010-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S011",
+      "sorties": 1,
+      "energy_kwh": 1.0739337252089312,
+      "sum_duration_s": 1188.4236501116006,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S011-FOD-01",
+            "S011-MED-01",
+            "S011-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S012",
+      "sorties": 1,
+      "energy_kwh": 2.75235444190214,
+      "sum_duration_s": 1922.734555970083,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S012-FOD-01",
+            "S012-MED-01",
+            "S012-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S013",
+      "sorties": 1,
+      "energy_kwh": 1.8247182633032644,
+      "sum_duration_s": 1510.4702802929446,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S013-FOD-01",
+            "S013-MED-01",
+            "S013-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S014",
+      "sorties": 1,
+      "energy_kwh": 2.1403030047614893,
+      "sum_duration_s": 1869.7521946190163,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S014-FOD-01",
+            "S014-MED-01",
+            "S014-WAT-01"
+          ]
+        }
+      ]
+    },
+    {
+      "rho": 0.3,
+      "service_id": "S015",
+      "sorties": 1,
+      "energy_kwh": 2.3074247845590743,
+      "sum_duration_s": 1828.2885840204501,
+      "type_counts": {
+        "B": 1
+      },
+      "box_groups": [
+        {
+          "type": "B",
+          "boxes": [
+            "S015-FOD-01",
+            "S015-MED-01",
+            "S015-WAT-01"
+          ]
+        }
+      ]
+    }
+  ],
+  "grid_changes": [
+    {
+      "from_rho": 0.2,
+      "to_rho": 0.25,
+      "service_id": "S004",
+      "sorties_before": 1,
+      "sorties_after": 2,
+      "before": [
+        {
+          "type": "C",
+          "boxes": [
+            "S004-FOD-01",
+            "S004-HYG-01",
+            "S004-MED-01",
+            "S004-WAT-01",
+            "S004-WAT-02",
+            "S004-WAT-03"
+          ]
+        }
+      ],
+      "after": [
+        {
+          "type": "C",
+          "boxes": [
+            "S004-FOD-01",
+            "S004-HYG-01",
+            "S004-WAT-01",
+            "S004-WAT-02"
+          ]
+        },
+        {
+          "type": "B",
+          "boxes": [
+            "S004-MED-01",
+            "S004-WAT-03"
+          ]
+        }
+      ]
+    },
+    {
+      "from_rho": 0.25,
+      "to_rho": 0.3,
+      "service_id": "S002",
+      "sorties_before": 2,
+      "sorties_after": 2,
+      "before": [
+        {
+          "type": "C",
+          "boxes": [
+            "S002-FOD-01",
+            "S002-HYG-01",
+            "S002-WAT-01",
+            "S002-WAT-02",
+            "S002-WAT-03"
+          ]
+        },
+        {
+          "type": "B",
+          "boxes": [
+            "S002-FOD-02",
+            "S002-MED-01",
+            "S002-WAT-04"
+          ]
+        }
+      ],
+      "after": [
+        {
+          "type": "C",
+          "boxes": [
+            "S002-WAT-01",
+            "S002-WAT-02",
+            "S002-WAT-03"
+          ]
+        },
+        {
+          "type": "C",
+          "boxes": [
+            "S002-FOD-01",
+            "S002-FOD-02",
+            "S002-HYG-01",
+            "S002-MED-01",
+            "S002-WAT-04"
+          ]
+        }
+      ]
+    },
+    {
+      "from_rho": 0.25,
+      "to_rho": 0.3,
+      "service_id": "S003",
+      "sorties_before": 2,
+      "sorties_after": 2,
+      "before": [
+        {
+          "type": "C",
+          "boxes": [
+            "S003-FOD-01",
+            "S003-HYG-01",
+            "S003-WAT-01",
+            "S003-WAT-02",
+            "S003-WAT-03"
+          ]
+        },
+        {
+          "type": "B",
+          "boxes": [
+            "S003-FOD-02",
+            "S003-MED-01",
+            "S003-WAT-04"
+          ]
+        }
+      ],
+      "after": [
+        {
+          "type": "C",
+          "boxes": [
+            "S003-WAT-01",
+            "S003-WAT-02",
+            "S003-WAT-03"
+          ]
+        },
+        {
+          "type": "C",
+          "boxes": [
+            "S003-FOD-01",
+            "S003-FOD-02",
+            "S003-HYG-01",
+            "S003-MED-01",
+            "S003-WAT-04"
+          ]
+        }
+      ]
+    },
+    {
+      "from_rho": 0.25,
+      "to_rho": 0.3,
+      "service_id": "S008",
+      "sorties_before": 1,
+      "sorties_after": 2,
+      "before": [
+        {
+          "type": "C",
+          "boxes": [
+            "S008-FOD-01",
+            "S008-HYG-01",
+            "S008-MED-01",
+            "S008-WAT-01",
+            "S008-WAT-02"
+          ]
+        }
+      ],
+      "after": [
+        {
+          "type": "B",
+          "boxes": [
+            "S008-FOD-01",
+            "S008-HYG-01"
+          ]
+        },
+        {
+          "type": "C",
+          "boxes": [
+            "S008-MED-01",
+            "S008-WAT-01",
+            "S008-WAT-02"
+          ]
+        }
+      ]
+    }
+  ],
+  "count_breakpoints": [
+    {
+      "service_id": "S004",
+      "rho_boundary": 0.23088787400035304,
+      "count_at_boundary": 1,
+      "count_just_above": 2,
+      "binding_subsets": [
+        {
+          "uav_type": "C",
+          "box_ids": [
+            "S004-MED-01",
+            "S004-WAT-01",
+            "S004-WAT-02",
+            "S004-WAT-03",
+            "S004-FOD-01",
+            "S004-HYG-01"
+          ]
+        }
+      ],
+      "boundary_semantics": "energy equality feasible; +1e-8 reserve used above the boundary"
+    },
+    {
+      "service_id": "S008",
+      "rho_boundary": 0.2704970459512557,
+      "count_at_boundary": 1,
+      "count_just_above": 2,
+      "binding_subsets": [
+        {
+          "uav_type": "C",
+          "box_ids": [
+            "S008-MED-01",
+            "S008-WAT-01",
+            "S008-WAT-02",
+            "S008-FOD-01",
+            "S008-HYG-01"
+          ]
+        }
+      ],
+      "boundary_semantics": "energy equality feasible; +1e-8 reserve used above the boundary"
+    }
+  ],
+  "objective": "Minimum single-service sortie count, then total energy, then cumulative task duration",
+  "scope": "Q1 independent per-service grouping; no fleet concurrency or communication; cumulative duration is not makespan"
+}

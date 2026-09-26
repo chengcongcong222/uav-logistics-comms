@@ -1,0 +1,18 @@
+{
+  "patterns": 2903,
+  "single_stop": 296,
+  "two_stop": 2607,
+  "classes": 61,
+  "selected_transport": 24,
+  "geometry_example": {
+    "horizontal_distance_m": 7714.729254941889,
+    "max_dem_elevation_m": 348.2391662597656,
+    "planned_cruise_altitude_m": 398.2391662597656,
+    "origin_operation_altitude_m": 127.7,
+    "destination_operation_altitude_m": 228.3,
+    "climb_height_m": 270.53916625976564,
+    "descent_height_m": 169.9391662597656
+  },
+  "source_service": "S004",
+  "semantics": "Transport blue; relay orange; terrain/resource boundaries neutral gray"
+}

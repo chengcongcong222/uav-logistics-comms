@@ -1,0 +1,41 @@
+[
+  {
+    "service_id": "S004",
+    "rho_boundary": 0.23088787400035304,
+    "count_at_boundary": 1,
+    "count_just_above": 2,
+    "binding_subsets": [
+      {
+        "uav_type": "C",
+        "box_ids": [
+          "S004-MED-01",
+          "S004-WAT-01",
+          "S004-WAT-02",
+          "S004-WAT-03",
+          "S004-FOD-01",
+          "S004-HYG-01"
+        ]
+      }
+    ],
+    "boundary_semantics": "energy equality feasible; +1e-8 reserve used above the boundary"
+  },
+  {
+    "service_id": "S008",
+    "rho_boundary": 0.2704970459512557,
+    "count_at_boundary": 1,
+    "count_just_above": 2,
+    "binding_subsets": [
+      {
+        "uav_type": "C",
+        "box_ids": [
+          "S008-MED-01",
+          "S008-WAT-01",
+          "S008-WAT-02",
+          "S008-FOD-01",
+          "S008-HYG-01"
+        ]
+      }
+    ],
+    "boundary_semantics": "energy equality feasible; +1e-8 reserve used above the boundary"
+  }
+]

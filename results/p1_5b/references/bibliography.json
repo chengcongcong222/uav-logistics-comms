@@ -1,0 +1,236 @@
+[
+  {
+    "id": "R1",
+    "category": "humanitarian/emergency UAV logistics",
+    "authors": [
+      "Boualem Rabta",
+      "Christian Wankmüller",
+      "Gerald Reiner"
+    ],
+    "year": 2018,
+    "title": "A drone fleet model for last-mile distribution in disaster relief operations",
+    "venue": "International Journal of Disaster Risk Reduction, 28:107–112",
+    "doi": "10.1016/j.ijdrr.2018.02.020",
+    "official_or_author_source": "https://www.sciencedirect.com/science/article/pii/S2212420918302000",
+    "supports": "载荷与能源约束下无人机应急末端配送的建模背景",
+    "does_not_support": "不支持本题具体性能、通信模型或现场部署结论",
+    "body_sections": [
+      "1",
+      "2.1"
+    ],
+    "checked_date": "2026-09-26",
+    "verification": "Primary publisher/standard/author record and abstract or theorem statement checked; no competition-answer source",
+    "access_scope": "Publisher metadata and abstract",
+    "additional_primary_sources": []
+  },
+  {
+    "id": "R2",
+    "category": "heterogeneous vehicle/UAV routing",
+    "authors": [
+      "B. Golden",
+      "A. Assad",
+      "L. Levy",
+      "F. Gheysens"
+    ],
+    "year": 1984,
+    "title": "The fleet size and mix vehicle routing problem",
+    "venue": "Computers & Operations Research, 11(1):49–66",
+    "doi": "10.1016/0305-0548(84)90007-8",
+    "official_or_author_source": "https://www.sciencedirect.com/science/article/pii/0305054884900078",
+    "supports": "异构机型配置与路线选择需要共同考虑",
+    "does_not_support": "其车辆成本模型不直接替代本题无人机物理模型",
+    "body_sections": [
+      "2.1",
+      "6.1"
+    ],
+    "checked_date": "2026-09-26",
+    "verification": "Primary publisher/standard/author record and abstract or theorem statement checked; no competition-answer source",
+    "access_scope": "Publisher metadata and abstract",
+    "additional_primary_sources": []
+  },
+  {
+    "id": "R3",
+    "category": "battery/resource scheduling and charging",
+    "authors": [
+      "Alejandro Montoya",
+      "Christelle Guéret",
+      "Jorge E. Mendoza",
+      "Juan G. Villegas"
+    ],
+    "year": 2017,
+    "title": "The electric vehicle routing problem with nonlinear charging function",
+    "venue": "Transportation Research Part B: Methodological, 103:87–110",
+    "doi": "10.1016/j.trb.2017.02.004",
+    "official_or_author_source": "https://www.sciencedirect.com/science/article/pii/S0191261516304556",
+    "supports": "充电时长与荷电状态的非线性关系应进入可执行排程",
+    "does_not_support": "不支持本题65%/35%充电系数；具体参数来自官方附件",
+    "body_sections": [
+      "2.2",
+      "4.3"
+    ],
+    "checked_date": "2026-09-26",
+    "verification": "Primary publisher/standard/author record and abstract or theorem statement checked; no competition-answer source",
+    "access_scope": "Publisher metadata and abstract",
+    "additional_primary_sources": []
+  },
+  {
+    "id": "R4",
+    "category": "ALNS / large-neighborhood search",
+    "authors": [
+      "Stefan Ropke",
+      "David Pisinger"
+    ],
+    "year": 2006,
+    "title": "An Adaptive Large Neighborhood Search Heuristic for the Pickup and Delivery Problem with Time Windows",
+    "venue": "Transportation Science, 40(4):455–472",
+    "doi": "10.1287/trsc.1050.0135",
+    "official_or_author_source": "https://pubsonline.informs.org/doi/10.1287/trsc.1050.0135",
+    "supports": "算子按历史表现竞争的自适应邻域方法类别",
+    "does_not_support": "不支持本方法属于ALNS，也不支持本题性能优于该方法",
+    "body_sections": [
+      "2.2"
+    ],
+    "checked_date": "2026-09-26",
+    "verification": "Primary publisher/standard/author record and abstract or theorem statement checked; no competition-answer source",
+    "access_scope": "Publisher metadata and abstract",
+    "additional_primary_sources": []
+  },
+  {
+    "id": "R5",
+    "category": "set partitioning / route-pattern approaches",
+    "authors": [
+      "M. L. Balinski",
+      "R. E. Quandt"
+    ],
+    "year": 1964,
+    "title": "On an Integer Program for a Delivery Problem",
+    "venue": "Operations Research, 12(2):300–304",
+    "doi": "10.1287/opre.12.2.300",
+    "official_or_author_source": "https://pubsonline.informs.org/doi/10.1287/opre.12.2.300",
+    "supports": "以整数变量表达配送覆盖与组合选择的方法基础",
+    "does_not_support": "不支持本题有限模式池具有全路径完备性",
+    "body_sections": [
+      "2.2",
+      "6.1"
+    ],
+    "checked_date": "2026-09-26",
+    "verification": "Primary publisher/standard/author record and abstract or theorem statement checked; no competition-answer source",
+    "access_scope": "Publisher metadata and abstract",
+    "additional_primary_sources": []
+  },
+  {
+    "id": "R6",
+    "category": "Benders / decomposition logic",
+    "authors": [
+      "John Hooker"
+    ],
+    "year": 2024,
+    "title": "Logic-Based Benders Decomposition: Theory and Applications",
+    "venue": "Springer, Synthesis Lectures on Operations Research and Applications",
+    "doi": "10.1007/978-3-031-45039-6",
+    "official_or_author_source": "https://link.springer.com/book/10.1007/978-3-031-45039-6",
+    "supports": "主问题与子问题以逻辑信息交互的分解思想",
+    "does_not_support": "本题未实现完整推断对偶或精确收敛框架，不继承其最优性保证",
+    "body_sections": [
+      "2.3",
+      "7.3"
+    ],
+    "checked_date": "2026-09-26",
+    "verification": "Primary publisher/standard/author record and abstract or theorem statement checked; no competition-answer source",
+    "access_scope": "Official book/standard or author manuscript record",
+    "additional_primary_sources": []
+  },
+  {
+    "id": "R7",
+    "category": "UAV relay communication / aerial relay",
+    "authors": [
+      "Yong Zeng",
+      "Rui Zhang",
+      "Teng Joon Lim"
+    ],
+    "year": 2016,
+    "title": "Wireless Communications with Unmanned Aerial Vehicles: Opportunities and Challenges",
+    "venue": "IEEE Communications Magazine, 54(5):36–42",
+    "doi": "10.1109/MCOM.2016.7470933",
+    "official_or_author_source": "https://arxiv.org/abs/1602.03602",
+    "supports": "空中通信的三维位置、视距与能量约束耦合",
+    "does_not_support": "不是本题衰减系数、站点、时刻或通信验证的来源",
+    "body_sections": [
+      "2.3",
+      "7.1"
+    ],
+    "checked_date": "2026-09-26",
+    "verification": "Primary publisher/standard/author record and abstract or theorem statement checked; no competition-answer source",
+    "access_scope": "Official book/standard or author manuscript record",
+    "additional_primary_sources": []
+  },
+  {
+    "id": "R8",
+    "category": "free-space path loss and LOS/terrain communication",
+    "authors": [
+      "ITU-R"
+    ],
+    "year": 2024,
+    "title": "Calculation of free-space attenuation",
+    "venue": "Recommendation ITU-R P.525-5 (11/2024)",
+    "doi": null,
+    "official_or_author_source": "https://www.itu.int/rec/R-REC-P.525-5-202411-I/en",
+    "supports": "自由空间损耗的频率—距离对数关系",
+    "does_not_support": "不支持用自由空间模型替代题设地形遮挡罚损；后者取官方附件",
+    "body_sections": [
+      "4.4",
+      "7.1"
+    ],
+    "checked_date": "2026-09-26",
+    "verification": "Primary publisher/standard/author record and abstract or theorem statement checked; no competition-answer source",
+    "access_scope": "Official book/standard or author manuscript record",
+    "additional_primary_sources": []
+  },
+  {
+    "id": "R9",
+    "category": "multiobjective optimization / epsilon-constraint",
+    "authors": [
+      "George Mavrotas"
+    ],
+    "year": 2009,
+    "title": "Effective implementation of the ε-constraint method in Multi-Objective Mathematical Programming problems",
+    "venue": "Applied Mathematics and Computation, 213(2):455–465",
+    "doi": "10.1016/j.amc.2009.03.037",
+    "official_or_author_source": "https://www.sciencedirect.com/science/article/pii/S0096300309002574",
+    "supports": "将其他目标转为预算约束的多目标分析思路",
+    "does_not_support": "本文未实现完整AUGMECON，也不继承完整Pareto保证",
+    "body_sections": [
+      "2.4",
+      "8.1"
+    ],
+    "checked_date": "2026-09-26",
+    "verification": "Primary publisher/standard/author record and abstract or theorem statement checked; no competition-answer source",
+    "access_scope": "Publisher metadata and abstract",
+    "additional_primary_sources": []
+  },
+  {
+    "id": "R10",
+    "category": "task partition / resource allocation",
+    "authors": [
+      "Jon Kleinberg",
+      "Éva Tardos"
+    ],
+    "year": 2006,
+    "title": "Algorithm Design",
+    "venue": "Pearson/Addison-Wesley, 1st ed., Chapter 4; ISBN 9780321295354",
+    "doi": null,
+    "official_or_author_source": "https://www.pearson.com/en-us/subject-catalog/p/Kleinberg-Algorithm-Design/P200000003259",
+    "supports": "固定区间资源需求等于最大重叠深度及贪心着色的区间划分原理",
+    "does_not_support": "不证明本题分组结构的全局普适最优，只支撑固定时窗资源计数",
+    "body_sections": [
+      "2.4",
+      "9.2"
+    ],
+    "checked_date": "2026-09-26",
+    "verification": "Primary publisher/standard/author record and abstract or theorem statement checked; no competition-answer source",
+    "access_scope": "Official book/standard or author manuscript record",
+    "additional_primary_sources": [
+      "https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/04GreedyAlgorithmsI.pdf"
+    ]
+  }
+]

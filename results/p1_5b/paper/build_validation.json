@@ -1,0 +1,165 @@
+{
+  "status": "PASSED",
+  "F13_metrics": {
+    "J_late": 0.0,
+    "J_norm": 0.47326486271966883,
+    "joint_makespan_s": 6245.793309522221,
+    "total_energy_kwh": 70.26433200872623,
+    "transport_energy_kwh": 67.31232479383984,
+    "relay_energy_kwh": 2.9520072148863994,
+    "transport_sorties": 24,
+    "relay_sorties": 3,
+    "Gamma_C_db": 0.0
+  },
+  "Q1_grid": [
+    {
+      "rho": 0.1,
+      "sorties": 18,
+      "energy_kwh": 59.130796486658646,
+      "sum_duration_s": 32776.09267694376,
+      "type_counts": {
+        "A": 0,
+        "B": 9,
+        "C": 9
+      }
+    },
+    {
+      "rho": 0.15,
+      "sorties": 18,
+      "energy_kwh": 59.130796486658646,
+      "sum_duration_s": 32776.09267694376,
+      "type_counts": {
+        "A": 0,
+        "B": 9,
+        "C": 9
+      }
+    },
+    {
+      "rho": 0.2,
+      "sorties": 18,
+      "energy_kwh": 59.130796486658646,
+      "sum_duration_s": 32776.09267694376,
+      "type_counts": {
+        "A": 0,
+        "B": 9,
+        "C": 9
+      }
+    },
+    {
+      "rho": 0.25,
+      "sorties": 19,
+      "energy_kwh": 61.07285863449599,
+      "sum_duration_s": 34565.740688117,
+      "type_counts": {
+        "A": 0,
+        "B": 10,
+        "C": 9
+      }
+    },
+    {
+      "rho": 0.3,
+      "sorties": 20,
+      "energy_kwh": 67.22708633206175,
+      "sum_duration_s": 36586.269126062034,
+      "type_counts": {
+        "A": 0,
+        "B": 9,
+        "C": 11
+      }
+    }
+  ],
+  "Q4_partitions": {
+    "2": 7,
+    "3": 6
+  },
+  "automatic_replacements": {
+    "F13_MIN": "104.097",
+    "F13_ENERGY": "70.264",
+    "DT12": "91.9",
+    "DE12": "3.269",
+    "PCT12": "4.45",
+    "DT18": "49.9",
+    "DE18": "0.180",
+    "Q1_TABLE": "|返航余量|最少架次|能耗 / kWh|累计时长 / s|A/B/C架次|\n|---|---|---|---|---|\n|10%|18|59.130796|32776.093|0/9/9|\n|15%|18|59.130796|32776.093|0/9/9|\n|20%|18|59.130796|32776.093|0/9/9|\n|25%|19|61.072859|34565.741|0/10/9|\n|30%|20|67.227086|36586.269|0/9/11|",
+    "CRITICAL4": "23.088787",
+    "CRITICAL8": "27.049705",
+    "Q1_ENERGY_INCREASE": "8.096290",
+    "Q1_TIME_INCREASE": "3810.176",
+    "LB_F13": "6211.269",
+    "TT_F13": "6229.812",
+    "TJ_F13": "6245.793",
+    "ET_F13": "67.312325",
+    "SAMPLES": "69003",
+    "TRADEOFF_TABLE": "|方案|归一化交付时效|联合完工 / min|总能耗 / kWh|运输架次|中继架次|\n|---|---|---|---|---|---|\n|F12|0.474795|102.5649|73.533764|26|3|\n|F16|0.480683|103.0680|71.610015|25|3|\n|F13|0.473265|104.0966|70.264332|24|3|\n|F18|0.470741|104.9285|70.083932|24|3|\n|C01|0.632131|189.8033|66.500477|19|4|",
+    "C01_ENERGY": "66.500",
+    "C01_MIN": "189.803",
+    "BLOCK_TABLE": "|块|服务区|\n|---|---|\n|1|S001|\n|2|S002、S004、S008、S010、S012、S013、S014|\n|3|S003、S005、S007、S009、S011、S015|\n|4|S006|",
+    "Q4_TABLE": "|组数|选择原则|资源总缺口 / 件|工作量CV|\n|---|---|---|---|\n|2|缺口优先|4|0.884649|\n|2|均衡优先|17|0.015342|\n|3|缺口优先|10|1.095586|\n|3|均衡优先|19|0.388394|",
+    "Q4_RESOURCE_TABLE": "|资源类型|库存|两组需求|两组缺口|三组需求|三组缺口|\n|---|---|---|---|---|---|\n|A型运输机|4|4|0|7|3|\n|B型运输机|2|2|0|2|0|\n|C型运输机|2|4|2|4|2|\n|A型电池|6|6|0|9|3|\n|B型电池|4|4|0|4|0|\n|C型电池|4|6|2|6|2|\n|中继无人机|2|2|0|2|0|\n|中继能源组件|6|3|0|3|0|",
+    "REFERENCES": "[1] Boualem Rabta, Christian Wankmüller, Gerald Reiner. A drone fleet model for last-mile distribution in disaster relief operations. International Journal of Disaster Risk Reduction, 28:107–112, 2018. [10.1016/j.ijdrr.2018.02.020](https://doi.org/10.1016/j.ijdrr.2018.02.020).\n\n[2] B. Golden, A. Assad, L. Levy, F. Gheysens. The fleet size and mix vehicle routing problem. Computers & Operations Research, 11(1):49–66, 1984. [10.1016/0305-0548(84)90007-8](https://doi.org/10.1016/0305-0548(84)90007-8).\n\n[3] Alejandro Montoya, Christelle Guéret, Jorge E. Mendoza, Juan G. Villegas. The electric vehicle routing problem with nonlinear charging function. Transportation Research Part B: Methodological, 103:87–110, 2017. [10.1016/j.trb.2017.02.004](https://doi.org/10.1016/j.trb.2017.02.004).\n\n[4] Stefan Ropke, David Pisinger. An Adaptive Large Neighborhood Search Heuristic for the Pickup and Delivery Problem with Time Windows. Transportation Science, 40(4):455–472, 2006. [10.1287/trsc.1050.0135](https://doi.org/10.1287/trsc.1050.0135).\n\n[5] M. L. Balinski, R. E. Quandt. On an Integer Program for a Delivery Problem. Operations Research, 12(2):300–304, 1964. [10.1287/opre.12.2.300](https://doi.org/10.1287/opre.12.2.300).\n\n[6] John Hooker. Logic-Based Benders Decomposition: Theory and Applications. Springer, Synthesis Lectures on Operations Research and Applications, 2024. [10.1007/978-3-031-45039-6](https://doi.org/10.1007/978-3-031-45039-6).\n\n[7] Yong Zeng, Rui Zhang, Teng Joon Lim. Wireless Communications with Unmanned Aerial Vehicles: Opportunities and Challenges. IEEE Communications Magazine, 54(5):36–42, 2016. [10.1109/MCOM.2016.7470933](https://doi.org/10.1109/MCOM.2016.7470933).\n\n[8] ITU-R. Calculation of free-space attenuation. Recommendation ITU-R P.525-5 (11/2024), 2024. [官方出版来源](https://www.itu.int/rec/R-REC-P.525-5-202411-I/en).\n\n[9] George Mavrotas. Effective implementation of the ε-constraint method in Multi-Objective Mathematical Programming problems. Applied Mathematics and Computation, 213(2):455–465, 2009. [10.1016/j.amc.2009.03.037](https://doi.org/10.1016/j.amc.2009.03.037).\n\n[10] Jon Kleinberg, Éva Tardos. Algorithm Design. Pearson/Addison-Wesley, 1st ed., Chapter 4; ISBN 9780321295354, 2006. [官方出版来源](https://www.pearson.com/en-us/subject-catalog/p/Kleinberg-Algorithm-Design/P200000003259).\n\n[11] 《山区洪涝灾害下无人机运输与通信协同优化》及配套数据与结果提交模板[Z]. 赛题提供资料。"
+  },
+  "citation_sections": {
+    "1": [
+      "1 引言",
+      "2.1 应急物流与异构运力"
+    ],
+    "11": [
+      "1 引言",
+      "3 问题定义、数据与评价口径"
+    ],
+    "2": [
+      "2.1 应急物流与异构运力"
+    ],
+    "5": [
+      "2.2 模式选择、邻域搜索与充电排程"
+    ],
+    "4": [
+      "2.2 模式选择、邻域搜索与充电排程"
+    ],
+    "3": [
+      "2.2 模式选择、邻域搜索与充电排程",
+      "4.3 通过独立日历落实实体资源"
+    ],
+    "7": [
+      "2.3 空中中继与逻辑反馈"
+    ],
+    "6": [
+      "2.3 空中中继与逻辑反馈"
+    ],
+    "9": [
+      "2.4 多目标折中与固定任务资源配置",
+      "8.1 用时间预算解释资源代价"
+    ],
+    "10": [
+      "2.4 多目标折中与固定任务资源配置",
+      "9.2 各组独立资源需求与均衡指标"
+    ],
+    "8": [
+      "4.4 通信预算与两跳保障"
+    ]
+  },
+  "source_accesses": [
+    "results/p1_5a/F13_readmission.json",
+    "results/p1_5a/q4/blocks.json",
+    "results/p1_5a/q4/config.json",
+    "results/p1_5a/q4/independent_validation.json",
+    "results/p1_5a/submission_consistency.json",
+    "results/p1_5b/admission.json",
+    "results/p1_5b/admitted_comparators.json",
+    "results/p1_5b/figure_data/tradeoffs.csv",
+    "results/p1_5b/fixed_structure_bound.json",
+    "results/p1_5b/paper/PAPER_TEMPLATE.md",
+    "results/p1_5b/q1_sensitivity/all_capacity_feasible_subsets.csv",
+    "results/p1_5b/q1_sensitivity/summary.json",
+    "results/p1_5b/q1_sensitivity/validation.json",
+    "results/p1_5b/references/bibliography.json",
+    "results/reset/geometry/route_geometry.csv",
+    "results/reset/geometry/transport_uav_types.csv"
+  ],
+  "limitations": [
+    "No new Q2/Q3 search",
+    "No full radio rerun for comparator admission",
+    "No final manuscript PDF or submission package"
+  ],
+  "paper_sha256": "f6c37c74e501d75469f9e87f607ce0ea79a932ead820377adca8ffb9f01e53b3"
+}
