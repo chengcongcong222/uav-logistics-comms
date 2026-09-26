@@ -1,0 +1,97 @@
+{
+  "status": "V04_ARCHIVED_WITH_EXISTING_FIGURES_REVIEW_PENDING",
+  "source_package": "PAPER_V04_GIT_PACKAGE.zip",
+  "source_package_sha256": "ee36b712f862e984ad06c76280883d732757e4e875042b152fc591ca2939fc7e",
+  "base_commit": "5a2055bcf86c35fd478cae25ce6beddf1b751ad6",
+  "branch": "p1-5b1-paper-content",
+  "imported_documents": {
+    "PAPER_V04.md": {
+      "sha256": "be91b07ee5861ae3eb1ad98c0e4845b77625087810bacbaf2bf2ea222174dcb9",
+      "archive_entry": "PAPER_V04_GIT_PACKAGE/results/p1_5b/paper/v04/PAPER_V04.md",
+      "byte_identical_to_supplied_package": true
+    },
+    "README.md": {
+      "sha256": "fffffbfa6007702e442699601bf603bb1f9884f9cc0e5b46739dcd3f3ca6eb9a",
+      "archive_entry": "PAPER_V04_GIT_PACKAGE/results/p1_5b/paper/v04/README.md",
+      "byte_identical_to_supplied_package": true
+    },
+    "CHANGELOG.md": {
+      "sha256": "caaa99bed7bd7b78e6d25e0e347e9bb31fc6597c9f2a4c5412627ffee6b90763",
+      "archive_entry": "PAPER_V04_GIT_PACKAGE/results/p1_5b/paper/v04/CHANGELOG.md",
+      "byte_identical_to_supplied_package": true
+    },
+    "FIGURE_REVIEW_AND_CODEX_TASK.md": {
+      "sha256": "1d0fd7de0c759d5eac8f887c742c27a07a09c62faeb7fa0bc7d6169d2dbeb1ca",
+      "archive_entry": "PAPER_V04_GIT_PACKAGE/results/p1_5b/paper/v04/FIGURE_REVIEW_AND_CODEX_TASK.md",
+      "byte_identical_to_supplied_package": true
+    }
+  },
+  "figure_assets": {
+    "figures/fig01_framework.png": {
+      "sha256": "813925122c6d7d68ce73defbb2c1f9ee4b9e8c97ef8888cbced80b18088efcf1",
+      "source": "results/p1_5b/paper/figures/fig01_framework.png",
+      "status": "EXISTING_B1_FIGURE_PENDING_V04_REDESIGN"
+    },
+    "figures/fig02_physics.png": {
+      "sha256": "5d5aacd9f4afba5a46b3ce892ea1e55508cc7586f570b4ddcd206fa10cfcdc7b",
+      "source": "results/p1_5b/paper/figures/fig02_physics.png",
+      "status": "EXISTING_B1_FIGURE_PENDING_V04_REDESIGN"
+    },
+    "figures/fig08_reserve_sensitivity.png": {
+      "sha256": "e0df91739f15b84ced63e3394b4ccfd4a41e774b66d55f98f052e60f516060e4",
+      "source": "results/p1_5b/paper/figures/fig08_reserve_sensitivity.png",
+      "status": "EXISTING_B1_FIGURE_PENDING_V04_REDESIGN"
+    },
+    "figures/fig03_transport_patterns.png": {
+      "sha256": "33ff664ab4b29320b282d86486b57453b1a9e8f99af3a4b0f42b971a3a7010fb",
+      "source": "results/p1_5b/paper/figures/fig03_transport_patterns.png",
+      "status": "EXISTING_B1_FIGURE_PENDING_V04_REDESIGN"
+    },
+    "figures/fig04_coordination.png": {
+      "sha256": "5d142af5661925c991400465d1d21a75cc51615ac0dd325d01a1ee735a78a24f",
+      "source": "results/p1_5b/paper/figures/fig04_coordination.png",
+      "status": "EXISTING_B1_FIGURE_PENDING_V04_REDESIGN"
+    },
+    "figures/fig06_joint_resource_gantt.png": {
+      "sha256": "7da6767d0fa4838698e476a435b88981bafed1d0d63682e4aec641f4f60a44e7",
+      "source": "results/p1_5b/paper/figures/fig06_joint_resource_gantt.png",
+      "status": "EXISTING_B1_FIGURE_PENDING_V04_REDESIGN"
+    },
+    "figures/fig05_near_fast.png": {
+      "sha256": "c74bb0e7f75c2d0e0f7e3262fa70ab28e93e4f87f9ede4dfdcb640d34d14d483",
+      "source": "results/p1_5b/paper/figures/fig05_near_fast.png",
+      "status": "EXISTING_B1_FIGURE_PENDING_V04_REDESIGN"
+    },
+    "figures/fig07_partition_resources.png": {
+      "sha256": "0456bb2820e3acb9eb26202cc6262c3f313567328c148c404abd5281163a6494",
+      "source": "results/p1_5b/paper/figures/fig07_partition_resources.png",
+      "status": "EXISTING_B1_FIGURE_PENDING_V04_REDESIGN"
+    }
+  },
+  "checks": {
+    "eight_relative_image_links_resolve": true,
+    "supplied_documents_preserved_byte_for_byte": true,
+    "frozen_B1_artifacts_unchanged": 79,
+    "selected_main_metric_literals_match": [
+      "104.097",
+      "70.264332",
+      "67.312325",
+      "2.952007",
+      "0.884649",
+      "1.095586",
+      "0.015342",
+      "0.388394"
+    ],
+    "prohibited_competition_content_hits": [],
+    "main_unchanged": "c13306ecbc36933502d1197228e5d80f9f7e40cf"
+  },
+  "scope": "Archive the supplied V0.4 work; do not execute embedded scripts or future figure task",
+  "pending": [
+    "Verify and explicitly admit new references [11]-[13] before publication builds",
+    "Review newly expanded model/algorithm prose against implementation",
+    "Execute the supplied figure redesign task separately; current images retain B1 labels/layout"
+  ],
+  "does_not_inherit_V02_content_validation": true,
+  "official_source_whitelist_modified": false,
+  "new_algorithm_experiment": false
+}
